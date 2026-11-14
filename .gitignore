@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+test-results/
+playwright-report/
+.DS_Store
+.quiz-assets/
+
+.quiz-library/
+.vercel
+# Historical image-generation experiments remain local.
+assets/generated/
+public/quiz-art/
+assets/quiz-art-prompts.md
