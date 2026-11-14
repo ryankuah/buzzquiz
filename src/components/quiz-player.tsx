@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { preload } from "react-dom";
 import {
   ArrowLeft,
   ArrowRight,
@@ -27,6 +28,8 @@ export default function QuizPlayer({
   quiz: Quiz;
   onExit: () => void;
 }) {
+  const portrait = quiz.resultArtwork || quiz.artwork;
+  if (portrait) preload(portrait.url, { as: "image" });
   const [step, setStep] = useState(0);
   const [selections, setSelections] = useState<Record<string, string>>({});
   const [advancing, setAdvancing] = useState(false);
