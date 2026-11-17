@@ -306,8 +306,10 @@ export default function QuizApp() {
     }
     generating.current = true;
     setBusy(true);
-    setProgress({ checking: "active" });
+    setProgress(null);
     setError("");
+    let steps: GenerationSteps = {};
+    let startedGenerating = false;
     const requestController = new AbortController();
     controller.current = requestController;
     const timeout = setTimeout(() => requestController.abort(), 295000);
@@ -323,26 +325,32 @@ export default function QuizApp() {
         signal: requestController.signal,
       });
       const generated = await readGenerationResponse(response, (update) => {
-        setProgress((current) => ({
-          ...current,
-          [update.stage]: update.status,
-        }));
+        steps = { ...steps, [update.stage]: update.status };
+        if (
+          update.status === "active" &&
+          update.stage !== "checking" &&
+          update.stage !== "finishing"
+        )
+          startedGenerating = true;
+        // Keep cache lookup, reuse and asset loading on the unchanged home
+        // layout. Reveal the steps only when the server starts creating content.
+        if (startedGenerating) setProgress(steps);
       });
       // The final step includes loading the actual artwork and heading font.
-      // This also covers non-streamed responses without inventing timed progress.
-      setProgress(
-        (current) =>
-          Object.fromEntries(
-            generationSteps.map(({ id }) => [
-              id,
-              id === "finishing"
-                ? "active"
-                : current?.[id] === "reused"
-                  ? "reused"
-                  : "complete",
-            ]),
-          ) as GenerationSteps,
-      );
+      // Opening a cached quiz must not introduce a generation screen here.
+      setProgress((current) => {
+        if (!current) return null;
+        return Object.fromEntries(
+          generationSteps.map(({ id }) => [
+            id,
+            id === "finishing"
+              ? "active"
+              : current[id] === "reused"
+                ? "reused"
+                : "complete",
+          ]),
+        ) as GenerationSteps;
+      });
       const artworkUrls = [
         ...new Set(
           [
@@ -534,16 +542,25 @@ export default function QuizApp() {
             </fieldset>
             {progress ? (
               <GenerationProgress steps={progress} />
-            ) : busy ? (
-              <p className="opening-quiz" role="status">
-                <LoaderCircle size={19} className="spin" aria-hidden="true" />
-                Opening quiz…
-              </p>
             ) : (
-              <button className="generate-button" type="submit">
+              <button
+                className="generate-button"
+                type="submit"
+                disabled={busy}
+                aria-busy={busy}
+              >
                 <span>Find out</span>
-                <ArrowRight size={20} />
+                {busy ? (
+                  <LoaderCircle size={20} className="spin" aria-hidden="true" />
+                ) : (
+                  <ArrowRight size={20} />
+                )}
               </button>
+            )}
+            {busy && !progress && (
+              <span className="sr-only" role="status">
+                Opening quiz…
+              </span>
             )}
             <div className="home-message" aria-live="polite">
               {error && (

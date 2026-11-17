@@ -207,10 +207,11 @@ test("loading prevents duplicate requests and keyboard submission starts the qui
   await page.getByLabel("Your favourite what?", { exact: true }).press("Enter");
   await expect(
     page.getByRole("progressbar", { name: "Quiz generation" }),
-  ).toHaveAttribute("aria-valuenow", "0");
+  ).toHaveCount(0);
   await expect(
     page.getByRole("button", { name: "Find out", exact: true }),
-  ).toHaveCount(0);
+  ).toBeDisabled();
+  await expect(page.locator(".is-generating")).toHaveCount(0);
   await expect(
     page.getByLabel("What are you?", { exact: true }),
   ).toBeDisabled();
@@ -249,11 +250,40 @@ test("generation errors preserve the idea and allow a retry", async ({
   ).toBeVisible();
 });
 
-test("the same saved quiz opens twice despite unfamiliar progress messages", async ({
+test("the same saved quiz opens twice without flashing generation progress", async ({
   page,
 }) => {
   const quiz = illustratedQuiz(exampleQuiz("princess"));
   await mockArtwork(page);
+  let releaseArtwork!: () => void;
+  let artworkRequested!: () => void;
+  const artworkGate = new Promise<void>((resolve) => {
+    releaseArtwork = resolve;
+  });
+  const artworkStarted = new Promise<void>((resolve) => {
+    artworkRequested = resolve;
+  });
+  await page.route("**/api/quiz-assets/*", async (route) => {
+    artworkRequested();
+    await artworkGate;
+    await route.fallback();
+  });
+  await page.addInitScript(() => {
+    const tracked = window as typeof window & {
+      generationPanelFlashed: boolean;
+    };
+    tracked.generationPanelFlashed = false;
+    new MutationObserver((mutations) => {
+      for (const mutation of mutations)
+        for (const node of mutation.addedNodes)
+          if (
+            node instanceof Element &&
+            (node.matches(".generation-progress") ||
+              node.querySelector(".generation-progress"))
+          )
+            tracked.generationPanelFlashed = true;
+    }).observe(document, { childList: true, subtree: true });
+  });
   let requests = 0;
   await page.route("**/api/generate", (route) => {
     requests++;
@@ -263,7 +293,13 @@ test("the same saved quiz opens twice despite unfamiliar progress messages", asy
     return route.fulfill({
       contentType: "application/x-ndjson",
       body: [
+        { type: "stage", stage: "checking", status: "active" },
         { type: "stage", stage: "checking", status: "complete" },
+        { type: "stage", stage: "results", status: "reused" },
+        { type: "stage", stage: "result-artwork", status: "reused" },
+        { type: "stage", stage: "questions", status: "reused" },
+        { type: "stage", stage: "question-artwork", status: "reused" },
+        { type: "stage", stage: "finishing", status: "active" },
         { type: "stage", stage: "a-new-server-step", status: "active" },
         { type: "complete", quiz, reused: true },
       ]
@@ -274,6 +310,15 @@ test("the same saved quiz opens twice despite unfamiliar progress messages", asy
   await page.goto("/");
   for (let attempt = 0; attempt < 2; attempt++) {
     await page.getByRole("button", { name: "Find out", exact: true }).click();
+    if (attempt === 0) {
+      await artworkStarted;
+      await expect(page.locator(".generation-progress")).toHaveCount(0);
+      await expect(page.locator(".is-generating")).toHaveCount(0);
+      await expect(
+        page.getByRole("button", { name: "Find out", exact: true }),
+      ).toBeDisabled();
+      releaseArtwork();
+    }
     await expect(
       page.getByText("QUESTION 1 OF 5", { exact: true }),
     ).toBeVisible();
@@ -282,6 +327,13 @@ test("the same saved quiz opens twice despite unfamiliar progress messages", asy
       await page.getByRole("button", { name: "New quiz", exact: true }).click();
   }
   expect(requests).toBe(2);
+  expect(
+    await page.evaluate(
+      () =>
+        (window as typeof window & { generationPanelFlashed: boolean })
+          .generationPanelFlashed,
+    ),
+  ).toBe(false);
 });
 
 test("existing quiz links open directly at the first question", async ({
@@ -469,10 +521,10 @@ test("generation progress follows streamed steps and waits for artwork before op
   await page.goto("/");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   const progress = page.getByRole("progressbar", { name: "Quiz generation" });
-  await expect(progress).toHaveAttribute("aria-valuenow", "0");
+  await expect(progress).toHaveCount(0);
   await expect(
-    page.locator('.generation-steps [aria-current="step"]'),
-  ).toHaveText(/Checking saved quizzes/);
+    page.getByRole("button", { name: "Find out", exact: true }),
+  ).toBeDisabled();
   const advance = (events: Array<{ stage: string; status: string }>) =>
     page.evaluate((events) => {
       (
@@ -487,8 +539,9 @@ test("generation progress follows streamed steps and waits for artwork before op
     { stage: "checking", status: "complete" },
     { stage: "results", status: "reused" },
     { stage: "result-artwork", status: "reused" },
-    { stage: "questions", status: "active" },
   ]);
+  await expect(progress).toHaveCount(0);
+  await advance([{ stage: "questions", status: "active" }]);
   await expect(progress).toHaveAttribute("aria-valuenow", "3");
   await expect(page.locator(".generation-step-saved")).toHaveCount(2);
   await advance([

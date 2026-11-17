@@ -207,7 +207,20 @@ test("first and second blanks reuse independently, including previously unseen c
   await resolver(otherSubject);
   await resolver(otherBasis);
   assert.equal(written.length, 4);
-  const combo = await resolver({ ...otherSubject, basis: otherBasis.basis });
+  progress.length = 0;
+  const combo = await resolver(
+    { ...otherSubject, basis: otherBasis.basis },
+    { onStage: (event) => progress.push(event) },
+  );
+  assert.deepEqual(progress, [
+    { stage: "checking", status: "active" },
+    { stage: "checking", status: "complete" },
+    { stage: "results", status: "reused" },
+    { stage: "result-artwork", status: "reused" },
+    { stage: "questions", status: "reused" },
+    { stage: "question-artwork", status: "reused" },
+    { stage: "finishing", status: "active" },
+  ]);
   assert.equal(combo.reused, true);
   assert.equal(written.length, 4);
   assert.equal(drawn.length, 4);

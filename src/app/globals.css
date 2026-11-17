@@ -299,7 +299,6 @@ a {
 }
 .generate-button:disabled {
   opacity: 0.75;
-  gap: 12px;
 }
 .is-generating .sentence-builder {
   font-size: clamp(24px, 3.2vw, 36px);
@@ -384,13 +383,6 @@ a {
 .generation-step-saved {
   margin-left: auto;
   font-size: 10px;
-}
-.opening-quiz {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-top: 28px;
-  font-size: 13px;
 }
 .home-message {
   min-height: 44px;

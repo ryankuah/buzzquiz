@@ -93,7 +93,6 @@ export function createQuizResolver(
       const artStage =
         kind === "outcomes" ? "result-artwork" : "question-artwork";
       let drew = false;
-      report(textStage, "active");
       const content = await resolveContent(
         repository,
         keys[kind],
@@ -102,6 +101,9 @@ export function createQuizResolver(
           generated = true;
           let data = draft;
           if (!data) {
+            // Only announce generation once the cache/lease check confirms
+            // this request will actually create content.
+            report(textStage, "active");
             await repository.recordCall(keys[kind], owner, "text");
             data = await (options.write || writeContentSet)(
               kind,
