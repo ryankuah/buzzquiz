@@ -560,6 +560,19 @@ a {
   height: 90%;
   max-height: 270px;
 }
+/* Fit the picture and its corner stickers inside the illustration's own
+   grid cell, including when the desktop cell is tall but narrow. */
+.question-artwork {
+  container-type: size;
+  --hero-max: 270px;
+}
+.question-artwork > .hero-tile,
+.question-artwork > .art-frame {
+  width: min(80cqw, 86cqh, var(--hero-max));
+  height: auto;
+  max-height: none;
+  min-width: 0;
+}
 .legacy-emoji {
   display: grid;
   place-items: center;
@@ -594,8 +607,9 @@ a {
   gap: 6px;
   text-align: center;
   position: relative;
-  font-size: clamp(11px, 1.5dvh, 12.5px);
-  line-height: 1.35;
+  font-size: clamp(12px, 1.8dvh, 14px);
+  font-weight: 500;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 .answer-option:focus-visible {
@@ -946,6 +960,7 @@ a {
   aspect-ratio: 1;
 }
 .art-frame > .hero-tile {
+  width: 100%;
   height: 100%;
   max-height: none;
 }
@@ -972,13 +987,13 @@ a {
 .placed-sticker.hero-tl {
   width: min(24%, 88px);
   top: 4%;
-  left: -12%;
+  left: -8%;
   --turn: -14deg;
 }
 .placed-sticker.hero-br {
   width: min(20%, 76px);
   bottom: 6%;
-  right: -11%;
+  right: -8%;
   --turn: 12deg;
 }
 .question-bottom {
@@ -1200,7 +1215,7 @@ a {
     height: 40px;
   }
   .answer-option {
-    font-size: 11px;
+    font-size: 12px;
     padding: 2px 4px;
     gap: 4px;
   }
@@ -1247,7 +1262,7 @@ a {
   }
   .answer-option {
     padding: 2px 4px;
-    font-size: 10.5px;
+    font-size: 12px;
   }
 }
 @media (max-height: 500px) and (min-width: 500px) {
@@ -1540,17 +1555,13 @@ a {
     border-radius: 50%;
     background: color-mix(in srgb, var(--quiz-accent) 16%, transparent);
   }
-  .hero-tile,
-  .art-frame {
-    height: min(90%, 480px);
-    max-height: none;
-  }
-  .art-frame > .hero-tile {
-    height: 100%;
+  .question-artwork {
+    --hero-max: 480px;
   }
   .answer-option {
-    font-size: 14px;
-    gap: 10px;
+    font-size: 16px;
+    line-height: 1.45;
+    gap: 12px;
     padding: 8px;
   }
   .answer-art {

@@ -666,6 +666,98 @@ test("a reading failure keeps the princess result and allows retrying the person
   await expect(page.locator(".reading-error")).toHaveCount(0);
 });
 
+test("hero artwork and stickers stay clear of readable desktop answers", async ({
+  page,
+}) => {
+  const { quiz } = reusableFixture();
+  quiz.questionArtwork!.packed = true;
+  quiz.style = {
+    decorations: 4,
+    palette: {
+      background: "#301909",
+      foreground: "#f9e3d6",
+      accent: "#d4b702",
+      dark: true,
+    },
+  };
+  quiz.questions[0].text = "A drinks cart rolls by. What catches your eye?";
+  const answers = [
+    "Mulled cider with a cinnamon stick",
+    "A chili-rimmed margarita with lime",
+    "A violet gin fizz with an unusual garnish",
+    "Neat whiskey in a heavy tumbler",
+  ];
+  quiz.questions[0].answers.forEach((answer, index) => {
+    answer.text = answers[index];
+  });
+  await mockArtwork(page);
+  await page.route("**/api/generate", (route) =>
+    route.fulfill({ json: { quiz } }),
+  );
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.goto("/");
+  await page.getByRole("button", { name: "Find out", exact: true }).click();
+  await expect(page.locator(".placed-sticker")).toHaveCount(2);
+  for (const viewport of [
+    { width: 1024, height: 640 },
+    { width: 1428, height: 858 },
+    { width: 1440, height: 1050 },
+  ]) {
+    await page.setViewportSize(viewport);
+    // Measure the full-size stickers, after the entry animation finishes.
+    await page.evaluate(() =>
+      document.getAnimations().forEach((animation) => {
+        if (Number.isFinite(animation.effect?.getComputedTiming().iterations))
+          animation.finish();
+      }),
+    );
+    const metrics = await page.evaluate(() => {
+      const column = document
+        .querySelector(".question-artwork")!
+        .getBoundingClientRect();
+      const decorations = [
+        ...document.querySelectorAll(".hero-tile, .placed-sticker"),
+      ].map((element) => element.getBoundingClientRect());
+      const inside = (box: DOMRect, parent: DOMRect) =>
+        box.left >= parent.left - 1 &&
+        box.right <= parent.right + 1 &&
+        box.top >= parent.top - 1 &&
+        box.bottom <= parent.bottom + 1;
+      const overlaps = (a: DOMRect, b: DOMRect) =>
+        a.left < b.right &&
+        a.right > b.left &&
+        a.top < b.bottom &&
+        a.bottom > b.top;
+      return {
+        artworkContained: decorations.every((box) => inside(box, column)),
+        answersClear: [...document.querySelectorAll(".answer-option")].every(
+          (button) => {
+            const label = button.querySelector(".answer-label")!;
+            const text = label.getBoundingClientRect();
+            return (
+              inside(text, button.getBoundingClientRect()) &&
+              !decorations.some((box) => overlaps(text, box)) &&
+              !overlaps(
+                text,
+                button.querySelector(".answer-art")!.getBoundingClientRect(),
+              ) &&
+              parseFloat(getComputedStyle(label).fontSize) >= 16
+            );
+          },
+        ),
+        pageFits:
+          document.documentElement.scrollWidth <= innerWidth &&
+          document.documentElement.scrollHeight <= innerHeight + 1,
+      };
+    });
+    expect(metrics, JSON.stringify(viewport)).toEqual({
+      artworkContained: true,
+      answersClear: true,
+      pageFits: true,
+    });
+  }
+});
+
 test("varied two- and four-choice templates fit phone and landscape screens", async ({
   page,
 }) => {
