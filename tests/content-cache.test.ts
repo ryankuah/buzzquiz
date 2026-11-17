@@ -12,6 +12,7 @@ import { parseQuiz } from "../src/lib/quiz";
 import { contentKeys, quizPromptKey } from "../src/lib/normalize-prompt";
 import { defaultSettings } from "../src/lib/examples";
 import { createQuizResolver } from "../src/lib/resolve-quiz";
+import { type GenerationProgress } from "../src/lib/generation-response";
 import { resolveReading } from "../src/lib/resolve-reading";
 import {
   dailyGenerationLimit,
@@ -169,7 +170,34 @@ test("first and second blanks reuse independently, including previously unseen c
         : fixture.background.artwork;
     },
   });
-  const first = await resolver(defaultSettings);
+  const progress: GenerationProgress[] = [];
+  const first = await resolver(defaultSettings, {
+    onStage: (event) => progress.push(event),
+  });
+  assert.deepEqual(progress, [
+    { stage: "checking", status: "active" },
+    { stage: "checking", status: "complete" },
+    { stage: "results", status: "active" },
+    { stage: "results", status: "complete" },
+    { stage: "result-artwork", status: "active" },
+    { stage: "result-artwork", status: "complete" },
+    { stage: "questions", status: "active" },
+    { stage: "questions", status: "complete" },
+    { stage: "question-artwork", status: "active" },
+    { stage: "question-artwork", status: "complete" },
+    { stage: "finishing", status: "active" },
+  ]);
+  progress.length = 0;
+  await resolver(defaultSettings, { onStage: (event) => progress.push(event) });
+  assert.deepEqual(progress, [
+    { stage: "checking", status: "active" },
+    { stage: "checking", status: "complete" },
+    { stage: "results", status: "reused" },
+    { stage: "result-artwork", status: "reused" },
+    { stage: "questions", status: "reused" },
+    { stage: "question-artwork", status: "reused" },
+    { stage: "finishing", status: "active" },
+  ]);
   assert.deepEqual(
     written.map((s) => s.split(":")[0]),
     ["outcomes", "questions"],
@@ -238,13 +266,26 @@ test("separate resolver instances share Convex locks and retry artwork from save
     () => createQuizResolver(options)(defaultSettings),
     /Image service failed/,
   );
+  const progress: GenerationProgress[] = [];
   const [a, b] = await Promise.all([
-    createQuizResolver(options)(defaultSettings),
+    createQuizResolver(options)(defaultSettings, {
+      onStage: (event) => progress.push(event),
+    }),
     createQuizResolver(options)(defaultSettings),
   ]);
   assert.equal(a.quiz.id, b.quiz.id);
   assert.equal(writes, 2);
   assert.equal(draws, 3);
+  assert(
+    progress.some(
+      (event) => event.stage === "results" && event.status === "reused",
+    ),
+  );
+  assert(
+    !progress.some(
+      (event) => event.stage === "results" && event.status === "complete",
+    ),
+  );
 });
 
 test("answer-specific readings reuse the exact picks, and the shared limit leaves saved quizzes playable", async () => {

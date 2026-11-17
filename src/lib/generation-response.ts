@@ -1,9 +1,25 @@
-export type GenerationStage = "writing" | "drawing";
 import { parseQuiz, type Quiz } from "./quiz";
+
+export const generationSteps = [
+  { id: "checking", label: "Checking saved quizzes" },
+  { id: "results", label: "Preparing results" },
+  { id: "result-artwork", label: "Creating result artwork" },
+  { id: "questions", label: "Preparing questions" },
+  { id: "question-artwork", label: "Creating question artwork" },
+  { id: "finishing", label: "Getting your quiz ready" },
+] as const;
+export type GenerationStage = (typeof generationSteps)[number]["id"];
+export type GenerationProgress = {
+  stage: GenerationStage;
+  status: "active" | "complete" | "reused";
+};
+export type GenerationSteps = Partial<
+  Record<GenerationStage, GenerationProgress["status"]>
+>;
 
 export async function readGenerationResponse(
   response: Response,
-  onStage: (stage: "writing" | "drawing") => void,
+  onStage: (progress: GenerationProgress) => void,
 ): Promise<Quiz> {
   if (!response.ok) {
     const body = await response.json().catch(() => ({}));
@@ -38,9 +54,10 @@ export async function readGenerationResponse(
       throw new Error("The quiz response wasn't valid. Please try again.");
     if (
       event.type === "stage" &&
-      (event.stage === "writing" || event.stage === "drawing")
+      generationSteps.some((step) => step.id === event.stage) &&
+      ["active", "complete", "reused"].includes(event.status)
     )
-      onStage(event.stage);
+      onStage({ stage: event.stage, status: event.status });
     else if (event.type === "complete") {
       try {
         quiz = parseQuiz(event.quiz);

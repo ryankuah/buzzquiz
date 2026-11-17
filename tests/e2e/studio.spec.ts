@@ -202,8 +202,11 @@ test("loading prevents duplicate requests and keyboard submission starts the qui
   await page.goto("/");
   await page.getByLabel("Your favourite what?", { exact: true }).press("Enter");
   await expect(
-    page.getByRole("button", { name: "Making your quiz…", exact: true }),
-  ).toBeDisabled();
+    page.getByRole("progressbar", { name: "Quiz generation" }),
+  ).toHaveAttribute("aria-valuenow", "0");
+  await expect(
+    page.getByRole("button", { name: "Find out", exact: true }),
+  ).toHaveCount(0);
   await expect(
     page.getByLabel("What are you?", { exact: true }),
   ).toBeDisabled();
@@ -362,13 +365,21 @@ test("illustrated phone template fits every question and result on small, tall, 
   }
 });
 
-test("streamed drawing state stays on the home page until this quiz's artwork is ready", async ({
+test("generation progress follows streamed steps and waits for artwork before opening", async ({
   page,
-}) => {
+}, testInfo) => {
   const quiz = illustratedQuiz(exampleQuiz("princess"));
   quiz.settings.layout = "hero-grid";
   quiz.settings.theme = "foodie";
   await mockArtwork(page);
+  let releaseArtwork!: () => void;
+  const artworkGate = new Promise<void>((resolve) => {
+    releaseArtwork = resolve;
+  });
+  await page.route("**/api/quiz-assets/*", async (route) => {
+    await artworkGate;
+    await route.fallback();
+  });
   await page.addInitScript((generated) => {
     const original = window.fetch;
     window.fetch = (input, init) => {
@@ -379,8 +390,24 @@ test("streamed drawing state stays on the home page until this quiz's artwork is
               start(controller) {
                 const encoder = new TextEncoder();
                 controller.enqueue(
-                  encoder.encode('{"type":"stage","stage":"drawing"}\n'),
+                  encoder.encode(
+                    '{"type":"stage","stage":"checking","status":"active"}\n',
+                  ),
                 );
+                (
+                  window as typeof window & {
+                    advanceGeneration?: (
+                      events: Array<{ stage: string; status: string }>,
+                    ) => void;
+                  }
+                ).advanceGeneration = (events) => {
+                  for (const event of events)
+                    controller.enqueue(
+                      encoder.encode(
+                        JSON.stringify({ type: "stage", ...event }) + "\n",
+                      ),
+                    );
+                };
                 (
                   window as typeof window & { releaseQuiz?: () => void }
                 ).releaseQuiz = () => {
@@ -402,15 +429,72 @@ test("streamed drawing state stays on the home page until this quiz's artwork is
   }, quiz);
   await page.goto("/");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
+  const progress = page.getByRole("progressbar", { name: "Quiz generation" });
+  await expect(progress).toHaveAttribute("aria-valuenow", "0");
   await expect(
-    page.getByRole("button", { name: "Drawing your artwork…", exact: true }),
-  ).toBeDisabled();
+    page.locator('.generation-steps [aria-current="step"]'),
+  ).toHaveText(/Checking saved quizzes/);
+  const advance = (events: Array<{ stage: string; status: string }>) =>
+    page.evaluate((events) => {
+      (
+        window as typeof window & {
+          advanceGeneration: (
+            events: Array<{ stage: string; status: string }>,
+          ) => void;
+        }
+      ).advanceGeneration(events);
+    }, events);
+  await advance([
+    { stage: "checking", status: "complete" },
+    { stage: "results", status: "reused" },
+    { stage: "result-artwork", status: "reused" },
+    { stage: "questions", status: "active" },
+  ]);
+  await expect(progress).toHaveAttribute("aria-valuenow", "3");
+  await expect(page.locator(".generation-step-saved")).toHaveCount(2);
+  await advance([
+    { stage: "questions", status: "complete" },
+    { stage: "question-artwork", status: "active" },
+  ]);
+  await expect(progress).toHaveAttribute("aria-valuenow", "4");
+  await expect(
+    page.locator('.generation-steps [aria-current="step"]'),
+  ).toHaveText(/Creating question artwork/);
+  for (const viewport of [
+    { width: 320, height: 568 },
+    { width: 390, height: 844 },
+  ]) {
+    await page.setViewportSize(viewport);
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+    await expect(page.locator(".generation-progress")).toBeInViewport({
+      ratio: 1,
+    });
+    await page.screenshot({
+      path: testInfo.outputPath(`generation-progress-${viewport.width}.png`),
+      animations: "disabled",
+    });
+  }
+  await page.screenshot({
+    path: testInfo.outputPath("generation-progress.png"),
+  });
   await expect(page.getByText("QUESTION 1 OF 5", { exact: true })).toHaveCount(
     0,
   );
   await page.evaluate(() =>
     (window as typeof window & { releaseQuiz: () => void }).releaseQuiz(),
   );
+  await expect(progress).toHaveAttribute("aria-valuenow", "5");
+  await expect(
+    page.locator('.generation-steps [aria-current="step"]'),
+  ).toHaveText(/Getting your quiz ready/);
+  await expect(page.getByText("QUESTION 1 OF 5", { exact: true })).toHaveCount(
+    0,
+  );
+  releaseArtwork();
   await expect(
     page.getByText("QUESTION 1 OF 5", { exact: true }),
   ).toBeVisible();
@@ -433,7 +517,7 @@ test("image generation failure shows a retry message without opening a stock-art
   await page.route("**/api/generate", (route) =>
     route.fulfill({
       contentType: "application/x-ndjson",
-      body: '{"type":"stage","stage":"drawing"}\n{"type":"error","error":"Could not draw your quiz artwork. Try again."}\n',
+      body: '{"type":"stage","stage":"result-artwork","status":"active"}\n{"type":"error","error":"Could not draw your quiz artwork. Try again."}\n',
     }),
   );
   const stockRequests: string[] = [];
@@ -450,6 +534,9 @@ test("image generation failure shows a retry message without opening a stock-art
   await expect(
     page.getByRole("button", { name: "Find out", exact: true }),
   ).toBeEnabled();
+  await expect(
+    page.getByRole("progressbar", { name: "Quiz generation" }),
+  ).toHaveCount(0);
   await expect(page.locator(".quiz-player")).toHaveCount(0);
   expect(stockRequests).toEqual([]);
 });

@@ -301,6 +301,97 @@ a {
   opacity: 0.75;
   gap: 12px;
 }
+.is-generating .sentence-builder {
+  font-size: clamp(24px, 3.2vw, 36px);
+  letter-spacing: -1px;
+}
+.is-generating .suggestion-shelf,
+.is-generating .home-message {
+  display: none;
+}
+.generation-progress {
+  max-width: 440px;
+  margin-top: 28px;
+}
+.generation-progress-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.generation-progress-heading > :last-child {
+  color: var(--muted);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+}
+.generation-progress-track {
+  height: 5px;
+  margin-top: 12px;
+  border-radius: 5px;
+  background: #e5e3dc;
+  overflow: hidden;
+}
+.generation-progress-track > div {
+  height: 100%;
+  border-radius: inherit;
+  background: var(--orange);
+  transition: width 0.3s ease;
+}
+.generation-steps {
+  display: grid;
+  gap: 9px;
+  list-style: none;
+  margin: 17px 0 0;
+  padding: 0;
+}
+.generation-steps li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 22px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+.generation-steps li[data-state="active"] {
+  color: var(--ink);
+  font-weight: 600;
+}
+.generation-step-icon {
+  display: grid;
+  place-items: center;
+  width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  border: 1px solid #d8d5cd;
+  border-radius: 50%;
+  font-size: 10px;
+  font-variant-numeric: tabular-nums;
+}
+[data-state="active"] .generation-step-icon {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: #fffef8;
+}
+[data-state="complete"] .generation-step-icon,
+[data-state="reused"] .generation-step-icon {
+  border-color: transparent;
+  background: #e5e3dc;
+  color: var(--ink);
+}
+.generation-step-saved {
+  margin-left: auto;
+  font-size: 10px;
+}
+.opening-quiz {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 28px;
+  font-size: 13px;
+}
 .home-message {
   min-height: 44px;
   max-width: 500px;

@@ -17,7 +17,12 @@ import {
 import { readShareUrl } from "@/lib/library";
 import QuizPlayer from "./quiz-player";
 import { loadQuizTypeface, quizColours, themeStyle } from "./quiz-visuals";
-import { readGenerationResponse } from "@/lib/generation-response";
+import {
+  generationSteps,
+  readGenerationResponse,
+  type GenerationSteps,
+} from "@/lib/generation-response";
+import GenerationProgress from "./generation-progress";
 import {
   completion,
   rankSuggestions,
@@ -105,7 +110,7 @@ export default function QuizApp() {
   const [basis, setBasis] = useState(DEFAULT_QUIZ_SETTINGS.basis);
   const [quiz, setQuiz] = useState<Quiz | null>(null);
   const [busy, setBusy] = useState(false);
-  const [stage, setStage] = useState<"writing" | "drawing">("writing");
+  const [progress, setProgress] = useState<GenerationSteps | null>(null);
   const [error, setError] = useState("");
   const [shareMessage, setShareMessage] = useState("");
   const [shareFallback, setShareFallback] = useState("");
@@ -299,7 +304,7 @@ export default function QuizApp() {
     }
     generating.current = true;
     setBusy(true);
-    setStage("writing");
+    setProgress({ checking: "active" });
     setError("");
     const requestController = new AbortController();
     controller.current = requestController;
@@ -314,7 +319,27 @@ export default function QuizApp() {
         body: JSON.stringify(checked.data),
         signal: requestController.signal,
       });
-      const generated = await readGenerationResponse(response, setStage);
+      const generated = await readGenerationResponse(response, (update) => {
+        setProgress((current) => ({
+          ...current,
+          [update.stage]: update.status,
+        }));
+      });
+      // The final step includes loading the actual artwork and heading font.
+      // This also covers non-streamed responses without inventing timed progress.
+      setProgress(
+        (current) =>
+          Object.fromEntries(
+            generationSteps.map(({ id }) => [
+              id,
+              id === "finishing"
+                ? "active"
+                : current?.[id] === "reused"
+                  ? "reused"
+                  : "complete",
+            ]),
+          ) as GenerationSteps,
+      );
       const artworkUrls = [
         ...new Set(
           [
@@ -374,6 +399,7 @@ export default function QuizApp() {
       clearTimeout(timeout);
       generating.current = false;
       setBusy(false);
+      setProgress(null);
     }
   }
 
@@ -433,8 +459,11 @@ export default function QuizApp() {
         />
       ) : (
         <main className="home-page page-enter">
-          <form className="quiz-prompt" onSubmit={generate} aria-busy={busy}>
-            <fieldset disabled={busy}>
+          <form
+            className={`quiz-prompt${progress ? " is-generating" : ""}`}
+            onSubmit={generate}
+          >
+            <fieldset disabled={busy} aria-busy={busy}>
               <legend className="sr-only">Your quiz</legend>
               <h1 className="sentence-builder">
                 <span className="sentence-line">What</span>
@@ -500,23 +529,19 @@ export default function QuizApp() {
                 )}
               </p>
             </fieldset>
-            <button className="generate-button" type="submit" disabled={busy}>
-              {busy ? (
-                <>
-                  <LoaderCircle size={19} className="spin" />
-                  <span>
-                    {stage === "drawing"
-                      ? "Drawing your artwork…"
-                      : "Making your quiz…"}
-                  </span>
-                </>
-              ) : (
-                <>
-                  <span>Find out</span>
-                  <ArrowRight size={20} />
-                </>
-              )}
-            </button>
+            {progress ? (
+              <GenerationProgress steps={progress} />
+            ) : busy ? (
+              <p className="opening-quiz" role="status">
+                <LoaderCircle size={19} className="spin" aria-hidden="true" />
+                Opening quiz…
+              </p>
+            ) : (
+              <button className="generate-button" type="submit">
+                <span>Find out</span>
+                <ArrowRight size={20} />
+              </button>
+            )}
             <div className="home-message" aria-live="polite">
               {error && (
                 <p role="alert" className="error-message">

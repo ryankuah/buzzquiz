@@ -96,7 +96,7 @@ export async function POST(request: Request) {
           const { quiz, reused } = await resolveQuiz(parsed.data, {
             signal,
             beforeGenerate,
-            onStage: (stage) => send({ type: "stage", stage }),
+            onStage: (progress) => send({ type: "stage", ...progress }),
           });
           send({ type: "complete", quiz, reused });
         } catch (error) {

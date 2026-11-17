@@ -12,7 +12,10 @@ import {
   generateArtworkSheet,
   ATLAS_CELL,
 } from "../src/lib/generate-artwork";
-import { readGenerationResponse } from "../src/lib/generation-response";
+import {
+  readGenerationResponse,
+  type GenerationProgress,
+} from "../src/lib/generation-response";
 import {
   saveQuizImage,
   readQuizImage,
@@ -166,10 +169,11 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
   const quiz = exampleQuiz("cat");
   quiz.title = "What 🐈 are you?";
   quiz.artwork = artwork(quiz);
-  const stages: string[] = [];
+  const stages: GenerationProgress[] = [];
   const lines = [
-    { type: "stage", stage: "writing" },
-    { type: "stage", stage: "drawing" },
+    { type: "stage", stage: "checking", status: "complete" },
+    { type: "stage", stage: "results", status: "reused" },
+    { type: "stage", stage: "result-artwork", status: "active" },
     { type: "complete", quiz },
   ]
     .map((event) => JSON.stringify(event))
@@ -180,11 +184,17 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
     ),
     parseQuiz(quiz),
   );
-  assert.deepEqual(stages, ["writing", "drawing"]);
+  assert.deepEqual(stages, [
+    { stage: "checking", status: "complete" },
+    { stage: "results", status: "reused" },
+    { stage: "result-artwork", status: "active" },
+  ]);
   await assert.rejects(
     () =>
       readGenerationResponse(
-        streamResponse('{"type":"stage","stage":"drawing"}\n'),
+        streamResponse(
+          '{"type":"stage","stage":"result-artwork","status":"active"}\n',
+        ),
         () => {},
       ),
     /stopped before/,
@@ -199,6 +209,16 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
   );
   await assert.rejects(
     () => readGenerationResponse(streamResponse("invalid\n"), () => {}),
+    /wasn't valid/,
+  );
+  await assert.rejects(
+    () =>
+      readGenerationResponse(
+        streamResponse(
+          '{"type":"stage","stage":"results","status":"invented"}\n',
+        ),
+        () => {},
+      ),
     /wasn't valid/,
   );
 });

@@ -13,7 +13,11 @@ import { writeContentSet, drawContentSet } from "./generate-content";
 import { resolveContent } from "./content-cache";
 import { type GenerationInput, type QuizPalette } from "./quiz";
 import { atlasCellPalette } from "./palette";
-import { type GenerationStage } from "./generation-response";
+import {
+  generationSteps,
+  type GenerationProgress,
+  type GenerationStage,
+} from "./generation-response";
 
 export class QuizBusyError extends Error {}
 
@@ -42,11 +46,24 @@ export function createQuizResolver(
     input: GenerationInput,
     request: {
       signal?: AbortSignal;
-      onStage?: (stage: GenerationStage) => void;
+      onStage?: (progress: GenerationProgress) => void;
       beforeGenerate?: () => void;
     } = {},
   ) {
     request.signal?.throwIfAborted();
+    const report = (
+      stage: GenerationStage,
+      status: GenerationProgress["status"],
+    ) => {
+      if (!request.signal?.aborted) {
+        try {
+          request.onStage?.({ stage, status });
+        } catch {
+          /* Disconnected clients don't invalidate saved content. */
+        }
+      }
+    };
+    report("checking", "active");
     const repository = options.repository || createConvexRepository();
     // A custom content repository (tests, migrations) skips topic matching
     // unless a resolver is supplied alongside it.
@@ -60,24 +77,24 @@ export function createQuizResolver(
       : undefined;
     const key = quizPromptKey(input, topics?.names);
     const saved = await repository.findQuiz(key);
+    report("checking", "complete");
     if (saved) {
+      for (const step of generationSteps.slice(1, -1))
+        report(step.id, "reused");
+      report("finishing", "active");
       await topics?.commit();
       return { quiz: saved, reused: true };
     }
     const keys = contentKeys(input, topics?.names);
     const signal = AbortSignal.timeout(275000);
     let generated = false;
-    const report = (stage: GenerationStage) => {
-      if (!request.signal?.aborted) {
-        try {
-          request.onStage?.(stage);
-        } catch {
-          /* Disconnected clients don't invalidate saved content. */
-        }
-      }
-    };
-    const get = (kind: "outcomes" | "questions") =>
-      resolveContent(
+    const get = async (kind: "outcomes" | "questions") => {
+      const textStage = kind === "outcomes" ? "results" : "questions";
+      const artStage =
+        kind === "outcomes" ? "result-artwork" : "question-artwork";
+      let drew = false;
+      report(textStage, "active");
+      const content = await resolveContent(
         repository,
         keys[kind],
         kind,
@@ -85,7 +102,6 @@ export function createQuizResolver(
           generated = true;
           let data = draft;
           if (!data) {
-            report("writing");
             await repository.recordCall(keys[kind], owner, "text");
             data = await (options.write || writeContentSet)(
               kind,
@@ -93,8 +109,11 @@ export function createQuizResolver(
               signal,
             );
             await repository.checkpoint(keys[kind], owner, data);
+            report(textStage, "complete");
+          } else {
+            report(textStage, "reused");
           }
-          report("drawing");
+          report(artStage, "active");
           await repository.recordCall(keys[kind], owner, "image");
           // Question sets also draw their result background as its own image.
           if (kind === "questions")
@@ -105,12 +124,18 @@ export function createQuizResolver(
             data,
             signal,
           );
+          drew = true;
           return { data, artwork };
         },
         { signal, beforeGenerate: request.beforeGenerate },
       );
+      if (!drew) report(textStage, "reused");
+      report(artStage, drew ? "complete" : "reused");
+      return content;
+    };
     const outcomes = await get("outcomes");
     const questions = await get("questions");
+    report("finishing", "active");
     // Colours are a finishing touch: a failure leaves the preset theme.
     const derivePalette =
       options.palette ??
