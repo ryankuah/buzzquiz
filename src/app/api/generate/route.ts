@@ -6,6 +6,10 @@ import { resolveQuiz, QuizBusyError } from "@/lib/resolve-quiz";
 import { getAiConfig } from "@/lib/ai-config";
 import { GenerationLimitError } from "@/lib/generation-budget";
 import { normalizePrompt } from "@/lib/normalize-prompt";
+import {
+  GENERATION_PROGRESS_HEADER,
+  GENERATION_PROGRESS_VERSION,
+} from "@/lib/generation-response";
 
 export const runtime = "nodejs";
 export const maxDuration = 300;
@@ -83,6 +87,11 @@ export async function POST(request: Request) {
     rateWindows.set(ip, window);
   };
   if (request.headers.get("Accept")?.includes("application/x-ndjson")) {
+    // Unversioned clients include both the original spinner and the first
+    // progress UI. Only complete/error events are understood by both.
+    const detailedProgress =
+      request.headers.get(GENERATION_PROGRESS_HEADER) ===
+      GENERATION_PROGRESS_VERSION;
     const abort = new AbortController();
     const signal = AbortSignal.any([request.signal, abort.signal]);
     const encoder = new TextEncoder();
@@ -96,7 +105,9 @@ export async function POST(request: Request) {
           const { quiz, reused } = await resolveQuiz(parsed.data, {
             signal,
             beforeGenerate,
-            onStage: (progress) => send({ type: "stage", ...progress }),
+            onStage: detailedProgress
+              ? (progress) => send({ type: "stage", ...progress })
+              : undefined,
           });
           send({ type: "complete", quiz, reused });
         } catch (error) {

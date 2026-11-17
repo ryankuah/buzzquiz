@@ -14,6 +14,8 @@ A new pairing of two saved sets requires no AI request. The server validates the
 
 Generation streams six steps to the page: checking saved quizzes, preparing results, creating result artwork, preparing questions, creating question artwork, and getting the quiz ready. The progress bar counts completed steps, not estimated time. Reused content is marked "Saved", including text recovered for an artwork retry. The final step stays active until the browser has loaded the artwork and heading font. Opening a shared quiz has its own loading state.
 
+Detailed progress requires `X-Quiz-Progress-Version: 1`. Requests without a supported version receive only the original completion/error events, so tabs left open across deployments can still open saved quizzes. Clients ignore unfamiliar progress stages while continuing to validate the completed quiz.
+
 After the player answers, the reusable outcome introduction appears immediately. The answer-specific reading is generated separately from the saved quiz and the actual selected answers. The server supplies the exact choice quoted in the reading. That reading is cached by quiz UUID and ordered answer IDs. Retakes with identical answers and other players choosing the same answers reuse the saved reading. Share links contain only the quiz UUID, so recipients start with no answers selected.
 
 ## Spending controls

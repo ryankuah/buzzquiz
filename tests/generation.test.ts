@@ -211,11 +211,29 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
     () => readGenerationResponse(streamResponse("invalid\n"), () => {}),
     /wasn't valid/,
   );
+  const ignoredStages = [
+    { type: "stage", stage: "writing" },
+    { type: "stage", stage: "drawing" },
+    { type: "stage", stage: "future-step", status: "active" },
+    { type: "stage", stage: "results", status: "future-status" },
+  ]
+    .map((event) => JSON.stringify(event))
+    .join("\n");
+  assert.deepEqual(
+    await readGenerationResponse(
+      streamResponse(
+        `${ignoredStages}\n${JSON.stringify({ type: "complete", quiz })}\n`,
+        1,
+      ),
+      () => assert.fail("Unrecognized progress should be ignored"),
+    ),
+    parseQuiz(quiz),
+  );
   await assert.rejects(
     () =>
       readGenerationResponse(
         streamResponse(
-          '{"type":"stage","stage":"results","status":"invented"}\n',
+          `${ignoredStages}\n${JSON.stringify({ type: "complete", quiz: { id: quiz.id } })}\n`,
         ),
         () => {},
       ),

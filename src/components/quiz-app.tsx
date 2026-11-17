@@ -18,6 +18,8 @@ import { readShareUrl } from "@/lib/library";
 import QuizPlayer from "./quiz-player";
 import { loadQuizTypeface, quizColours, themeStyle } from "./quiz-visuals";
 import {
+  GENERATION_PROGRESS_HEADER,
+  GENERATION_PROGRESS_VERSION,
   generationSteps,
   readGenerationResponse,
   type GenerationSteps,
@@ -315,6 +317,7 @@ export default function QuizApp() {
         headers: {
           "Content-Type": "application/json",
           Accept: "application/x-ndjson",
+          [GENERATION_PROGRESS_HEADER]: GENERATION_PROGRESS_VERSION,
         },
         body: JSON.stringify(checked.data),
         signal: requestController.signal,

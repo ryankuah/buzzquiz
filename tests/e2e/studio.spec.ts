@@ -8,6 +8,10 @@ import {
   mockArtwork,
   mockPersonalityReading,
 } from "./artwork-fixture";
+import {
+  GENERATION_PROGRESS_HEADER,
+  GENERATION_PROGRESS_VERSION,
+} from "../../src/lib/generation-response";
 
 async function mockGeneration(page: Page) {
   await mockArtwork(page);
@@ -243,6 +247,41 @@ test("generation errors preserve the idea and allow a retry", async ({
   await expect(
     page.getByText("QUESTION 1 OF 5", { exact: true }),
   ).toBeVisible();
+});
+
+test("the same saved quiz opens twice despite unfamiliar progress messages", async ({
+  page,
+}) => {
+  const quiz = illustratedQuiz(exampleQuiz("princess"));
+  await mockArtwork(page);
+  let requests = 0;
+  await page.route("**/api/generate", (route) => {
+    requests++;
+    expect(
+      route.request().headers()[GENERATION_PROGRESS_HEADER.toLowerCase()],
+    ).toBe(GENERATION_PROGRESS_VERSION);
+    return route.fulfill({
+      contentType: "application/x-ndjson",
+      body: [
+        { type: "stage", stage: "checking", status: "complete" },
+        { type: "stage", stage: "a-new-server-step", status: "active" },
+        { type: "complete", quiz, reused: true },
+      ]
+        .map((event) => JSON.stringify(event))
+        .join("\n"),
+    });
+  });
+  await page.goto("/");
+  for (let attempt = 0; attempt < 2; attempt++) {
+    await page.getByRole("button", { name: "Find out", exact: true }).click();
+    await expect(
+      page.getByText("QUESTION 1 OF 5", { exact: true }),
+    ).toBeVisible();
+    await expect(page.locator('.home-message [role="alert"]')).toHaveCount(0);
+    if (attempt === 0)
+      await page.getByRole("button", { name: "New quiz", exact: true }).click();
+  }
+  expect(requests).toBe(2);
 });
 
 test("existing quiz links open directly at the first question", async ({

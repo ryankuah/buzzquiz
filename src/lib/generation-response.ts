@@ -1,5 +1,10 @@
 import { parseQuiz, type Quiz } from "./quiz";
 
+// Older open tabs only understand the original writing/drawing events.
+// Detailed progress is opt-in; terminal quiz/error events stay compatible.
+export const GENERATION_PROGRESS_HEADER = "X-Quiz-Progress-Version";
+export const GENERATION_PROGRESS_VERSION = "1";
+
 export const generationSteps = [
   { id: "checking", label: "Checking saved quizzes" },
   { id: "results", label: "Preparing results" },
@@ -52,13 +57,15 @@ export async function readGenerationResponse(
     }
     if (!event || typeof event !== "object")
       throw new Error("The quiz response wasn't valid. Please try again.");
-    if (
-      event.type === "stage" &&
-      generationSteps.some((step) => step.id === event.stage) &&
-      ["active", "complete", "reused"].includes(event.status)
-    )
-      onStage({ stage: event.stage, status: event.status });
-    else if (event.type === "complete") {
+    if (event.type === "stage") {
+      // Progress is advisory. A newer/older server's stage names must never
+      // turn an otherwise valid saved quiz into a validation error.
+      if (
+        generationSteps.some((step) => step.id === event.stage) &&
+        ["active", "complete", "reused"].includes(event.status)
+      )
+        onStage({ stage: event.stage, status: event.status });
+    } else if (event.type === "complete") {
       try {
         quiz = parseQuiz(event.quiz);
       } catch {
