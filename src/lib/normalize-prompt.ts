@@ -1,10 +1,13 @@
 import { createHash } from "node:crypto";
 import { generationInputSchema, type GenerationInput } from "./quiz";
 
-// Deliberately conservative: keep meaningful modifiers (e.g. favourite/least
-// favourite, chocolate/vanilla). This is equivalence matching, not fuzzy search.
+// Deliberately conservative: keep meaningful modifiers (e.g. least favourite,
+// chocolate/vanilla). Wording-level equivalence only; semantic matching of
+// different names lives in topics.ts.
 export function canonicalTopic(value: string) {
   return value
+    .normalize("NFKD")
+    .replace(/\p{M}/gu, "")
     .normalize("NFKC")
     .toLowerCase()
     .replace(/[’']/g, "")
@@ -31,33 +34,50 @@ export function canonicalTopic(value: string) {
     .replace(/\s+/g, " ");
 }
 
-export function normalizePrompt(input: GenerationInput) {
-  const settings = generationInputSchema.parse(input);
-  const subject = canonicalTopic(settings.subject)
+/** The first blank: "What ___ are you". */
+export function canonicalSubject(value: string) {
+  return canonicalTopic(value)
     .replace(/^(?:what |which )?(?:kind of |type of )?/, "")
     .replace(/ are you$/, "")
     .replace(/^hogwarts house$/, "harry potter house");
-  const basis = canonicalTopic(settings.basis)
+}
+
+/** The second blank: "based on your favourite ___". */
+export function canonicalBasis(value: string) {
+  return canonicalTopic(value)
     .replace(/^based on /, "")
-    .replace(/^(?:your |my |our |the )/, "");
+    .replace(/^(?:your |my |our |the )/, "")
+    .replace(/^favorite /, "");
+}
+
+/** Topic names after semantic matching; defaults to the canonical wording. */
+export type TopicNames = { subject: string; basis: string };
+
+export function normalizePrompt(input: GenerationInput, topics?: TopicNames) {
+  const settings = generationInputSchema.parse(input);
+  const subject = topics?.subject ?? canonicalSubject(settings.subject);
+  const basis = topics?.basis ?? canonicalBasis(settings.basis);
   if (!subject || !basis) throw new Error("Fill in both blanks to find out.");
   return {
     subject,
-    basis,
+    // Keys predate the fixed "your favourite" wording, when the basis was a
+    // free phrase such as "your favourite muffins". Keeping the prefix in the
+    // key lets those saved question sets and quizzes keep being reused.
+    basis: `favorite ${basis}`,
     questionCount: settings.questionCount,
     tone: settings.tone,
   };
 }
 
-export function quizPromptKey(input: GenerationInput) {
+export function quizPromptKey(input: GenerationInput, topics?: TopicNames) {
   // Presentation is chosen internally and doesn't change the quiz idea.
   return createHash("sha256")
-    .update(JSON.stringify(normalizePrompt(input)))
+    .update(JSON.stringify(normalizePrompt(input, topics)))
     .digest("hex");
 }
 
-export function contentKeys(input: GenerationInput) {
-  const prompt = normalizePrompt(input);
+export function contentKeys(input: GenerationInput, topics?: TopicNames) {
+  const prompt = normalizePrompt(input, topics);
   const hash = (value: unknown) =>
     createHash("sha256").update(JSON.stringify(value)).digest("hex");
   return {

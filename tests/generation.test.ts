@@ -10,6 +10,7 @@ import {
   artworkPrompt,
   generateQuizArtwork,
   generateArtworkSheet,
+  ATLAS_CELL,
 } from "../src/lib/generate-artwork";
 import { readGenerationResponse } from "../src/lib/generation-response";
 import {
@@ -235,44 +236,126 @@ test("generated artwork is saved as WebP, readable by opaque ID, and rejects inv
   }
 });
 
-test("foreground uses one low-quality native transparent image request without a chat token allowance", async () => {
+test("sheets are drawn as native transparent cutouts, repacked, and saved with a separate background scene", async () => {
   const oldKey = process.env.OPENROUTER_API_KEY;
   process.env.OPENROUTER_API_KEY = "test-key";
+  const sheet = await sharp({
+    create: {
+      width: 400,
+      height: 200,
+      channels: 4,
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    },
+  })
+    .composite([
+      {
+        input: Buffer.from(
+          '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200"><circle cx="100" cy="100" r="50" fill="#e33"/><rect x="250" y="50" width="100" height="100" fill="#33e"/></svg>',
+        ),
+      },
+    ])
+    .png()
+    .toBuffer();
+  const scene = await sharp({
+    create: { width: 300, height: 300, channels: 3, background: "#7ac" },
+  })
+    .png()
+    .toBuffer();
+  const requests: Array<{ url: string; body: Record<string, any> }> = [];
   try {
     const id = crypto.randomUUID();
     const art = await generateArtworkSheet(
       id,
-      [
-        ["Belle", "Moana"],
-        ["Cinderella", "Tiana"],
-      ],
+      [["A muffin", "A teacup"]],
+      2,
+      "foodie",
+      {
+        background: { prompt: "A cosy bakery window", row: 1 },
+        fetcher: async (url, init) => {
+          const body = JSON.parse(init!.body as string);
+          requests.push({ url: String(url), body });
+          if (url === "https://openrouter.ai/api/v1/images")
+            return Response.json({
+              data: [{ b64_json: sheet.toString("base64") }],
+            });
+          return Response.json({
+            choices: [
+              {
+                message: {
+                  images: [
+                    {
+                      image_url: {
+                        url: `data:image/png;base64,${scene.toString("base64")}`,
+                      },
+                    },
+                  ],
+                },
+              },
+            ],
+          });
+        },
+        save: async (_id, bytes, options) => {
+          assert.equal(options?.packed, true);
+          const metadata = await sharp(bytes).metadata();
+          assert.equal(metadata.width, 2 * ATLAS_CELL);
+          assert.equal(metadata.height, 2 * ATLAS_CELL);
+          assert.equal(metadata.hasAlpha, true);
+          // The background scene fills its whole cell, opaquely.
+          const { data } = await sharp(bytes)
+            .extract({ left: 0, top: ATLAS_CELL, width: 4, height: 4 })
+            .raw()
+            .toBuffer({ resolveWithObject: true });
+          assert.equal(data[3], 255);
+          return { width: metadata.width!, height: metadata.height! };
+        },
+      },
+    );
+    const [cutouts, background] = [
+      requests.find((r) => r.url.endsWith("/images"))!,
+      requests.find((r) => r.url.endsWith("/chat/completions"))!,
+    ];
+    assert.equal(requests.length, 2);
+    assert.equal(cutouts.body.background, "transparent");
+    assert.equal(cutouts.body.output_format, "png");
+    assert.equal(cutouts.body.quality, "medium");
+    assert.equal(cutouts.body.aspect_ratio, "16:9");
+    assert.equal(cutouts.body.provider.allow_fallbacks, false);
+    assert.equal(cutouts.body.max_tokens, undefined);
+    assert.ok(cutouts.body.prompt.includes("TRANSPARENT CUTOUTS"));
+    assert.ok(cutouts.body.prompt.includes("A teacup"));
+    assert.ok(!cutouts.body.prompt.includes("bakery window"));
+    assert.ok(background.body.messages[0].content.includes("bakery window"));
+    assert.equal(background.body.image_config.aspect_ratio, "1:1");
+    assert.deepEqual(
+      { columns: art.columns, rows: art.rows, packed: art.packed },
+      { columns: 2, rows: 2, packed: true },
+    );
+
+    // Portraits use the low-quality transparent request and no background.
+    requests.length = 0;
+    const portraits = await generateArtworkSheet(
+      crypto.randomUUID(),
+      [["Belle", "Moana"]],
       2,
       "foodie",
       {
         foreground: true,
         fetcher: async (url, init) => {
-          assert.equal(url, "https://openrouter.ai/api/v1/images");
-          const body = JSON.parse(init!.body as string);
-          assert.equal(body.n, 1);
-          assert.equal(body.quality, "low");
-          assert.equal(body.background, "transparent");
-          assert.equal(body.output_format, "png");
-          assert.equal(body.max_tokens, undefined);
-          assert.equal(body.provider.allow_fallbacks, false);
-          assert.ok(body.prompt.includes("Belle"));
+          requests.push({
+            url: String(url),
+            body: JSON.parse(init!.body as string),
+          });
           return Response.json({
-            data: [{ b64_json: Buffer.from("fixture").toString("base64") }],
+            data: [{ b64_json: sheet.toString("base64") }],
           });
         },
-        save: async (_id, bytes, options) => {
-          assert.equal(bytes.toString(), "fixture");
-          assert.equal(options?.foreground, true);
-          return { width: 1024, height: 1024 };
-        },
+        save: async () => ({ width: 2 * ATLAS_CELL, height: ATLAS_CELL }),
       },
     );
-    assert.equal(art.columns, 2);
-    assert.equal(art.rows, 2);
+    assert.equal(requests.length, 1);
+    assert.equal(requests[0].body.quality, "low");
+    assert.ok(requests[0].body.prompt.includes("Belle"));
+    assert.equal(portraits.rows, 1);
   } finally {
     if (oldKey === undefined) delete process.env.OPENROUTER_API_KEY;
     else process.env.OPENROUTER_API_KEY = oldKey;

@@ -8,13 +8,20 @@ import {
   Check,
   LoaderCircle,
   RotateCcw,
+  Share2,
 } from "lucide-react";
 import { scoreQuiz, type Quiz } from "@/lib/quiz";
 import {
+  AmbientDecorations,
+  DecorationBursts,
   QuizArtwork,
+  PlacedStickers,
+  SpaceStickers,
   QuizTile,
   ThemeSurface,
   ResultScene,
+  decorationIndices,
+  type Burst,
 } from "./quiz-visuals";
 import {
   personalityReadingSchema,
@@ -24,9 +31,11 @@ import {
 export default function QuizPlayer({
   quiz,
   onExit,
+  onShareResult,
 }: {
   quiz: Quiz;
   onExit: () => void;
+  onShareResult?: (resultId: string) => void;
 }) {
   const portrait = quiz.resultArtwork || quiz.artwork;
   if (portrait) preload(portrait.url, { as: "image" });
@@ -38,6 +47,9 @@ export default function QuizPlayer({
   const [readingLimited, setReadingLimited] = useState(false);
   const [readingAttempt, setReadingAttempt] = useState(0);
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const [bursts, setBursts] = useState<Burst[]>([]);
+  const burstId = useRef(0);
+  const decorated = decorationIndices(quiz).length > 0;
   const heading = useRef<HTMLHeadingElement>(null);
   const question = quiz.questions[step];
   const layout = question?.layout || quiz.settings.layout;
@@ -97,8 +109,36 @@ export default function QuizPlayer({
     return () => controller.abort();
   }, [quiz, result, selections, readingAttempt]);
 
-  function choose(answerId: string) {
+  // Stickers burst from the chosen answer (skipped for reduced motion).
+  function burst(element: Element | null, count: number) {
+    if (
+      !decorated ||
+      !element ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    )
+      return;
+    const rect = element.getBoundingClientRect();
+    const id = ++burstId.current;
+    setBursts((current) => [
+      ...current,
+      {
+        id,
+        x: rect.left + rect.width / 2,
+        y: rect.top + rect.height / 2,
+        count,
+      },
+    ]);
+  }
+
+  useEffect(() => {
+    if (step === quiz.questions.length)
+      burst(document.querySelector(".result-artwork"), 12);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [step]);
+
+  function choose(answerId: string, figure?: Element | null) {
     if (advanceTimer.current) return;
+    burst(figure ?? null, 7);
     setSelections((previous) => ({ ...previous, [question.id]: answerId }));
     setAdvancing(true);
     advanceTimer.current = setTimeout(() => {
@@ -113,9 +153,18 @@ export default function QuizPlayer({
     setStep(0);
   }
 
+  const hasStickers = decorationIndices(quiz).length > 0;
   return (
     <main className="player-shell page-enter" aria-label={quiz.title}>
-      <ThemeSurface theme={quiz.settings.theme} className="quiz-player">
+      <AmbientDecorations quiz={quiz} />
+      <DecorationBursts
+        quiz={quiz}
+        bursts={bursts}
+        onDone={(id) =>
+          setBursts((current) => current.filter((item) => item.id !== id))
+        }
+      />
+      <ThemeSurface quiz={quiz} className="quiz-player">
         {result ? (
           <div className="result-page scene-enter">
             <span className="quiz-kicker">YOU GOT…</span>
@@ -180,13 +229,28 @@ export default function QuizPlayer({
                 </span>
               )}
             </section>
-            <div className="result-actions">
-              <button className="quiz-primary" onClick={onExit}>
-                Try another quiz <ArrowRight size={17} />
-              </button>
-              <button className="quiz-secondary" onClick={restart}>
-                <RotateCcw size={15} /> Retake quiz
-              </button>
+            <div
+              className={`result-actions ${onShareResult ? "with-share" : ""}`}
+            >
+              {onShareResult && (
+                <button
+                  className="quiz-primary"
+                  onClick={() => onShareResult(result.id)}
+                >
+                  <Share2 size={17} /> Share my result
+                </button>
+              )}
+              <div className="result-links">
+                <button
+                  className={onShareResult ? "quiz-secondary" : "quiz-primary"}
+                  onClick={onExit}
+                >
+                  Try another quiz <ArrowRight size={onShareResult ? 15 : 17} />
+                </button>
+                <button className="quiz-secondary" onClick={restart}>
+                  <RotateCcw size={15} /> Retake quiz
+                </button>
+              </div>
             </div>
           </div>
         ) : (
@@ -224,7 +288,15 @@ export default function QuizPlayer({
                 artwork={quiz.questionArtwork || quiz.artwork}
                 index={step * 5}
                 emoji={question.emoji}
-              />
+              >
+                {hasStickers && (
+                  <PlacedStickers
+                    quiz={quiz}
+                    spots={["hero-tl", "hero-br"]}
+                    offset={step}
+                  />
+                )}
+              </QuizArtwork>
             )}
             <h1 ref={heading} tabIndex={-1}>
               {question.text}
@@ -240,23 +312,36 @@ export default function QuizPlayer({
                   className={`answer-option ${selections[question.id] === answer.id ? "selected" : ""}`}
                   aria-pressed={selections[question.id] === answer.id}
                   disabled={advancing}
-                  onClick={() => choose(answer.id)}
+                  onClick={(event) =>
+                    choose(
+                      answer.id,
+                      event.currentTarget.querySelector(".answer-figure"),
+                    )
+                  }
                 >
-                  <QuizTile
-                    artwork={quiz.questionArtwork || quiz.artwork}
-                    index={step * 5 + index + 1}
-                    emoji={answer.emoji}
-                    className="answer-art"
-                  />
-                  <span className="answer-label">{answer.text}</span>
-                  <span className="answer-check" aria-hidden="true">
-                    {selections[question.id] === answer.id && (
-                      <Check size={13} />
-                    )}
+                  <span className="answer-figure">
+                    <QuizTile
+                      artwork={quiz.questionArtwork || quiz.artwork}
+                      index={step * 5 + index + 1}
+                      emoji={answer.emoji}
+                      className="answer-art"
+                    />
+                    <span className="answer-check" aria-hidden="true">
+                      {selections[question.id] === answer.id && (
+                        <Check size={13} />
+                      )}
+                    </span>
                   </span>
+                  <span className="answer-label">{answer.text}</span>
                 </button>
               ))}
             </div>
+            {layout !== "hero-grid" && (
+              <>
+                <SpaceStickers quiz={quiz} band="top" offset={step} />
+                <SpaceStickers quiz={quiz} band="bottom" offset={step} />
+              </>
+            )}
             <div className="question-bottom">
               {step > 0 ? (
                 <button

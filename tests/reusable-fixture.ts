@@ -26,10 +26,12 @@ export function reusableFixture() {
         ],
       },
     })),
+    typeface: "storybook",
   });
   const questions = questionSetSchema.parse({
     backgroundPrompt:
       "A cosy bakery table with muffins beside a window, no people.",
+    decorations: ["a blueberry", "a sprinkle", "a paper muffin case", "a star"],
     questions: old.questions.map((question) => ({
       ...question,
       answers: question.answers.map((answer) => ({

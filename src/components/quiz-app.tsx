@@ -16,48 +16,53 @@ import {
 } from "@/lib/quiz";
 import { readShareUrl } from "@/lib/library";
 import QuizPlayer from "./quiz-player";
-import { themeStyle } from "./quiz-visuals";
+import { loadQuizTypeface, quizColours, themeStyle } from "./quiz-visuals";
 import { readGenerationResponse } from "@/lib/generation-response";
-import { getTheme } from "@/lib/templates";
+import {
+  completion,
+  rankSuggestions,
+  type Suggestions,
+} from "@/lib/suggestions";
+
+type Blank = "subject" | "basis";
 
 function PromptField({
   id,
   label,
   value,
   maxLength,
+  completeTo = "",
   onChange,
+  onFocus,
+  onBlur,
 }: {
   id: string;
   label: string;
   value: string;
   maxLength: number;
+  /** A saved name the typed text starts; its rest shows faintly, and Tab or
+   * → accepts it in its saved casing. */
+  completeTo?: string;
   onChange: (value: string) => void;
+  onFocus?: () => void;
+  onBlur?: () => void;
 }) {
-  const ref = useRef<HTMLTextAreaElement>(null);
-  useLayoutEffect(() => {
-    const field = ref.current!;
-    const resize = () => {
-      field.style.height = "0px";
-      field.style.height = `${field.scrollHeight}px`;
-    };
-    resize();
-    const observer = new ResizeObserver(() => {
-      if (field.clientWidth !== width) {
-        width = field.clientWidth;
-        resize();
-      }
-    });
-    let width = field.clientWidth;
-    observer.observe(field);
-    return () => observer.disconnect();
-  }, [value]);
+  // The hidden copy of the value (see .prompt-field::after) sizes the field,
+  // so the box and its underline hug the text and wrap only when needed. It
+  // includes the ghost completion, which is drawn in the same cell.
+  const ghost = completeTo.slice(value.length);
   return (
-    <>
+    <span className="prompt-field" data-value={value + ghost}>
       <label className="sr-only" htmlFor={id}>
         {label}
       </label>
+      {ghost && (
+        <span className="prompt-ghost" aria-hidden="true">
+          <span className="ghost-typed">{value}</span>
+          {ghost}
+        </span>
+      )}
       <textarea
-        ref={ref}
         id={id}
         name={id}
         rows={1}
@@ -68,14 +73,30 @@ function PromptField({
         autoComplete="off"
         spellCheck={false}
         onChange={(event) => onChange(event.target.value.replace(/\n/g, " "))}
+        onFocus={onFocus}
+        onBlur={onBlur}
         onKeyDown={(event) => {
+          const field = event.currentTarget;
+          const atEnd =
+            field.selectionStart === value.length &&
+            field.selectionEnd === value.length;
+          if (
+            ghost &&
+            atEnd &&
+            ((event.key === "Tab" && !event.shiftKey) ||
+              event.key === "ArrowRight")
+          ) {
+            event.preventDefault();
+            onChange(completeTo);
+            return;
+          }
           if (event.key === "Enter") {
             event.preventDefault();
             event.currentTarget.form?.requestSubmit();
           }
         }}
       />
-    </>
+    </span>
   );
 }
 
@@ -90,12 +111,70 @@ export default function QuizApp() {
   const [shareFallback, setShareFallback] = useState("");
   const controller = useRef<AbortController | null>(null);
   const generating = useRef(false);
+  const [suggestions, setSuggestions] = useState<Suggestions | null>(null);
+  // The blank the suggestions are for; it stays put while a suggestion is
+  // being clicked, so the line doesn't flicker on blur.
+  const [activeBlank, setActiveBlank] = useState<Blank>("subject");
+  const [focusedBlank, setFocusedBlank] = useState<Blank | null>(null);
+  const [canGhost, setCanGhost] = useState(false);
 
-  const pageBackground = quiz
-    ? getTheme(quiz.settings.theme).background
-    : "#f8f7f2";
-  const pageColorScheme =
-    quiz && ["scent", "study"].includes(quiz.settings.theme) ? "dark" : "light";
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("/api/suggestions", { signal: controller.signal })
+      .then((response) => (response.ok ? response.json() : null))
+      .then((data: Suggestions | null) => data && setSuggestions(data))
+      .catch(() => {});
+    // Inline completion needs a keyboard; touch screens use the list.
+    setCanGhost(matchMedia("(hover: hover) and (pointer: fine)").matches);
+    return () => controller.abort();
+  }, []);
+
+  function suggestionsFor(blank: Blank, limit: number) {
+    if (!suggestions) return [];
+    const own = blank === "subject" ? suggestions.subjects : suggestions.bases;
+    const other =
+      blank === "subject" ? suggestions.bases : suggestions.subjects;
+    const otherValue = (blank === "subject" ? basis : subject)
+      .trim()
+      .toLowerCase();
+    // Prefer ones already saved together with the other blank's answer.
+    const otherIndex = other.findIndex(
+      (item) => item.name.toLowerCase() === otherValue,
+    );
+    const favoured = new Set(
+      suggestions.pairs
+        .filter((pair) => pair[blank === "subject" ? 1 : 0] === otherIndex)
+        .map((pair) => pair[blank === "subject" ? 0 : 1]),
+    );
+    return rankSuggestions(
+      own,
+      blank === "subject" ? subject : basis,
+      favoured,
+      limit,
+    );
+  }
+  const ghostFor = (blank: Blank) =>
+    canGhost && focusedBlank === blank
+      ? completion(
+          suggestionsFor(blank, 12),
+          blank === "subject" ? subject : basis,
+        )
+      : "";
+  const shelf = suggestionsFor(activeBlank, 4);
+
+  function pickSuggestion(name: string) {
+    if (activeBlank === "subject") {
+      setSubject(name);
+      document.getElementById("basis")?.focus();
+    } else {
+      setBasis(name);
+      document.querySelector<HTMLButtonElement>(".generate-button")?.focus();
+    }
+  }
+
+  const colours = quiz ? quizColours(quiz) : undefined;
+  const pageBackground = colours?.background ?? "#f8f7f2";
+  const pageColorScheme = colours?.dark ? "dark" : "light";
   useLayoutEffect(() => {
     // Safari paints its safe areas and overscroll from the document background,
     // rather than the narrower quiz panel. Keep both roots and browser tint in sync.
@@ -129,6 +208,7 @@ export default function QuizApp() {
           shared = parseQuiz((await response.json()).quiz);
         } else shared = await readShareUrl(window.location.hash);
         if (active && shared) {
+          await loadQuizTypeface(shared);
           setQuiz(shared);
           setError("");
         }
@@ -160,19 +240,39 @@ export default function QuizApp() {
     window.scrollTo({ top: 0, behavior: "instant" });
   }
 
-  async function shareQuiz() {
+  // Result links still open the quiz unanswered; `got` only picks the
+  // preview card that link previews show ("I got Belle").
+  async function shareQuiz(resultId?: string) {
     if (!quiz) return;
-    const url = `${window.location.origin}/?quiz=${quiz.id}`;
+    const result = quiz.results.find((item) => item.id === resultId);
+    const url = `${window.location.origin}/?quiz=${quiz.id}${result ? `&got=${encodeURIComponent(result.id)}` : ""}`;
+    const text = result
+      ? `I got ${result.title}! ${quiz.title}`
+      : "Take this quiz on buzzquiz";
     try {
-      if (navigator.share)
+      if (navigator.share) {
+        // Phones can share the result card itself, with the link.
+        let files: File[] = [];
+        if (result) {
+          const card = await fetch(
+            `/api/quizzes/${quiz.id}/card?result=${encodeURIComponent(result.id)}`,
+          ).catch(() => null);
+          if (card?.ok) {
+            const file = new File([await card.blob()], "buzzquiz-result.png", {
+              type: "image/png",
+            });
+            if (navigator.canShare?.({ files: [file] })) files = [file];
+          }
+        }
         await navigator.share({
           title: quiz.title,
-          text: "Take this quiz on buzzquiz",
+          text,
           url,
+          ...(files.length ? { files } : {}),
         });
-      else if (navigator.clipboard) {
+      } else if (navigator.clipboard) {
         await navigator.clipboard.writeText(url);
-        setShareMessage("Quiz link copied");
+        setShareMessage(result ? "Result link copied" : "Quiz link copied");
         setTimeout(() => setShareMessage(""), 3000);
       } else {
         setShareMessage("Copy this quiz link");
@@ -254,6 +354,7 @@ export default function QuizApp() {
             }),
         ),
       );
+      await loadQuizTypeface(generated);
       setQuiz(generated);
       window.scrollTo({ top: 0, behavior: "instant" });
     } catch (err) {
@@ -279,7 +380,7 @@ export default function QuizApp() {
   return (
     <div
       className={`app ${quiz ? "is-playing" : "is-home"}`}
-      style={quiz ? themeStyle(quiz.settings.theme) : undefined}
+      style={quiz ? themeStyle(quiz) : undefined}
     >
       <header className="site-header">
         <a
@@ -298,7 +399,10 @@ export default function QuizApp() {
         </a>
         {quiz && (
           <div className="quiz-header-actions">
-            <button className="text-button exit-quiz" onClick={shareQuiz}>
+            <button
+              className="text-button exit-quiz"
+              onClick={() => void shareQuiz()}
+            >
               <Share2 size={14} /> Share
             </button>
             <button className="text-button exit-quiz" onClick={goHome}>
@@ -321,37 +425,80 @@ export default function QuizApp() {
         </div>
       )}
       {quiz ? (
-        <QuizPlayer key={quiz.id} quiz={quiz} onExit={goHome} />
+        <QuizPlayer
+          key={quiz.id}
+          quiz={quiz}
+          onExit={goHome}
+          onShareResult={(resultId) => void shareQuiz(resultId)}
+        />
       ) : (
         <main className="home-page page-enter">
           <form className="quiz-prompt" onSubmit={generate} aria-busy={busy}>
             <fieldset disabled={busy}>
               <legend className="sr-only">Your quiz</legend>
               <h1 className="sentence-builder">
+                <span className="sentence-line">What</span>
                 <span className="sentence-line">
-                  What{" "}
                   <PromptField
                     id="subject"
                     label="What are you?"
                     value={subject}
-                    maxLength={100}
+                    maxLength={60}
+                    completeTo={ghostFor("subject")}
                     onChange={setSubject}
+                    onFocus={() => {
+                      setActiveBlank("subject");
+                      setFocusedBlank("subject");
+                    }}
+                    onBlur={() => setFocusedBlank(null)}
                   />
                 </span>
                 <span className="sentence-line sentence-middle">
-                  are you based on
+                  are you based on your favourite
                 </span>
-                <span className="sentence-line">
+                <span className="sentence-line sentence-last">
                   <PromptField
                     id="basis"
-                    label="Based on what?"
+                    label="Your favourite what?"
                     value={basis}
-                    maxLength={150}
+                    maxLength={60}
+                    completeTo={ghostFor("basis")}
                     onChange={setBasis}
+                    onFocus={() => {
+                      setActiveBlank("basis");
+                      setFocusedBlank("basis");
+                    }}
+                    onBlur={() => setFocusedBlank(null)}
                   />
                   <span className="question-mark">?</span>
                 </span>
               </h1>
+              {/* Existing topics, offered as an aside rather than a menu:
+                  they already have artwork, so they're ready at once. */}
+              <p className="suggestion-shelf" aria-live="polite">
+                {shelf.length > 0 && (
+                  <>
+                    <span className="shelf-label" key={activeBlank}>
+                      {activeBlank === "subject"
+                        ? "Already on buzzquiz"
+                        : "Favourites already drawn"}
+                    </span>
+                    {shelf.map((name, index) => (
+                      <button
+                        key={`${activeBlank}-${name}`}
+                        type="button"
+                        className="suggestion"
+                        style={{ "--i": index } as React.CSSProperties}
+                        // Keep the blank focused, so its ghost and place stay.
+                        onMouseDown={(event) => event.preventDefault()}
+                        onClick={() => pickSuggestion(name)}
+                      >
+                        {name}
+                      </button>
+                    ))}
+                  </>
+                )}
+              </p>
             </fieldset>
             <button className="generate-button" type="submit" disabled={busy}>
               {busy ? (

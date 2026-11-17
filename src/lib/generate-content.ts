@@ -2,7 +2,8 @@ import { zodTextFormat } from "openai/helpers/zod";
 import { createAiClient } from "./ai-client";
 import { getAiConfig } from "./ai-config";
 import {
-  outcomeSetSchema,
+  outcomeGenerationSchema,
+  questionGenerationSchema,
   questionSetSchema,
   validateOutcomeSet,
   type ContentKind,
@@ -10,18 +11,27 @@ import {
   type QuestionSet,
 } from "./content-sets";
 import { questionTemplatePlan } from "./templates";
-import { type GenerationInput, validateContent } from "./quiz";
-import { generateArtworkSheet } from "./generate-artwork";
+import {
+  type GenerationInput,
+  favouriteBasis,
+  typefaces,
+  validateContent,
+} from "./quiz";
+import {
+  EMPTY_CELL,
+  generateArtworkSheet,
+  type SheetCell,
+} from "./generate-artwork";
 
 export async function writeContentSet(
   kind: Exclude<ContentKind, "reading">,
   input: GenerationInput,
   signal?: AbortSignal,
   client = createAiClient(),
-) {
+): Promise<OutcomeSet | QuestionSet> {
   const config = getAiConfig();
   const outcomes = kind === "outcomes";
-  const schema = outcomes ? outcomeSetSchema : questionSetSchema;
+  const schema = outcomes ? outcomeGenerationSchema : questionGenerationSchema;
   const plan = questionTemplatePlan(input.questionCount);
   const response = await client.responses.parse(
     {
@@ -39,10 +49,16 @@ The four reusable personality archetypes are curious (imagination, discovery), b
 ${
   outcomes
     ? `Create exactly four distinct recognisable outcomes belonging to the supplied subject, one per archetype. Each id MUST be its archetype id: curious, bold, warm, driven, exactly once. Titles are the actual names, e.g. Belle or Ravenclaw. No references to food, muffins, a question topic, or specific quiz answers: these outcomes will be reused for MANY different quizzes.
-Each outcome needs a warm, specific introduction about its personality (description, max260 characters). Its reusable profile includes a witty headline (max70), three traits (max22 each), and two paragraphs (max210 each): a specific strength and affectionate quirk, then a recognisable connection to the named character/house itself. Avoid generic praise. For Disney princesses, imagePrompt MUST name the exact princess herself with recognisable face, hair and signature outfit. Request a waist-up foreground cutout, no setting or background, no symbolic substitute. For houses, depict an original emblem/mascot representing that house with its recognised colours. Max240 characters per imagePrompt.`
+Each outcome needs a warm, specific introduction about its personality (description, max260 characters). Its reusable profile includes a witty headline (max70), three traits (max22 each), and two paragraphs (max210 each): a specific strength and affectionate quirk, then a recognisable connection to the named character/house itself. Avoid generic praise. For Disney princesses, imagePrompt MUST name the exact princess herself with recognisable face, hair and signature outfit. Request a waist-up foreground cutout, no setting or background, no symbolic substitute. For houses, depict an original emblem/mascot representing that house with its recognised colours. Max240 characters per imagePrompt.
+Also choose the typeface for the quiz headings that best suits the SUBJECT's world: ${Object.entries(
+        typefaces,
+      )
+        .map(([id, face]) => `${id} (${face.mood})`)
+        .join("; ")}.`
     : `Create exactly the supplied question count, specifically about the supplied basis. Questions and choices must NEVER mention any result category, Disney princess, Harry Potter house, or outcome name: the same question set must work for MANY subjects.
 Follow questionPlan exactly in order. Four-choice questions map resultId to each archetype once and secondaryResultId=null. Two-choice questions split all four archetypes into two disjoint pairs, with resultId and secondaryResultId on each choice. Vary pairings and option order. Never reveal scoring. Questions max100 characters; answers max65. Make choices concrete, vivid and visually distinct.
-Each answer also needs personalityNote (max150): a witty second-person observation connecting that exact choice to its personality tendency, without any character/outcome name. Every question and answer needs an imagePrompt (max240): only physical subjects, materials and colours, no text, numbers or UI. Question art is a still-life; answer art shows the exact choice's details. backgroundPrompt (max240) is an atmospheric full scene inspired by the basis, with no people or characters, and a calm central area where a character portrait will be placed. Stable unique question and answer IDs.`
+Each answer also needs personalityNote (max150): a witty second-person observation connecting that exact choice to its personality tendency, without any character/outcome name. Every question and answer needs an imagePrompt (max240): only physical subjects, materials and colours, no text, numbers or UI. Each is drawn as an isolated cutout on a transparent background, so describe objects only, never a table, surface, room or setting. Question art is a small group of objects; answer art shows the exact choice's details. backgroundPrompt (max240) is an atmospheric full scene inspired by the basis, with no people or characters, and a calm central area where a character portrait will be placed. decorations: exactly four tiny decorative motifs inspired by the basis (max160 each), drawn as small cutout stickers scattered around the quiz, e.g. a single blueberry, a curl of icing, a paper muffin case. Simple, iconic physical objects that read clearly at small size, each different, no text, no people.
+Stable unique question and answer IDs.`
 }`,
         },
         {
@@ -51,7 +67,7 @@ Each answer also needs personalityNote (max150): a witty second-person observati
             outcomes
               ? { subject: input.subject }
               : {
-                  basis: input.basis,
+                  basis: favouriteBasis(input.basis),
                   questionCount: input.questionCount,
                   questionPlan: plan,
                 },
@@ -72,7 +88,7 @@ Each answer also needs personalityNote (max150): a witty second-person observati
       "That content couldn't be finished. Try a different topic or try again later.",
     );
   if (outcomes) return validateOutcomeSet(response.output_parsed);
-  const questions = questionSetSchema.parse(response.output_parsed);
+  const questions = questionGenerationSchema.parse(response.output_parsed);
   for (const [index, question] of questions.questions.entries()) {
     if (!plan[index] || question.answers.length !== plan[index].answerCount)
       throw new Error("The question set didn't match its templates.");
@@ -116,22 +132,24 @@ export async function drawContentSet(
     );
   }
   const data = questionSetSchema.parse(value) as QuestionSet;
-  const rows = data.questions.map((question) => [
+  // Each question owns a row: its art, then one cell per choice. Two-choice
+  // rows leave the last two cells empty. The result background is drawn
+  // separately and lands at the start of an extra final row.
+  const rows: SheetCell[][] = data.questions.map((question) => [
     question.imagePrompt!,
     ...question.answers.map((answer) => answer.imagePrompt!),
-    ...Array.from(
-      { length: 4 - question.answers.length },
-      () => "An empty cell with only the background colour.",
-    ),
+    ...Array.from({ length: 4 - question.answers.length }, () => EMPTY_CELL),
   ]);
-  rows.push([
-    `RESULT BACKGROUND, a complete atmospheric scene: ${data.backgroundPrompt}`,
-    ...Array.from(
-      { length: 4 },
-      () => "An empty cell with only the background colour.",
-    ),
-  ]);
+  // The final row holds the background scene, then any decorations.
+  if (data.decorations)
+    rows.push([
+      EMPTY_CELL,
+      ...data.decorations.map(
+        (motif) => `A small decorative sticker: ${motif}`,
+      ),
+    ]);
   return generateArtworkSheet(crypto.randomUUID(), rows, 5, input.theme, {
     signal,
+    background: { prompt: data.backgroundPrompt, row: data.questions.length },
   });
 }

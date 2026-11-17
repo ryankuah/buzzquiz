@@ -1,9 +1,12 @@
 import { z } from "zod";
 import { readingDraftSchema } from "./personality";
 
+// Both blanks are short categories: "What [Disney princess] are you based on
+// your favourite [muffins]?". Older saved quizzes stored the basis as a phrase,
+// so the stored limits stay generous.
 export const generationInputSchema = z.object({
   subject: z.string().trim().min(2, "Add what someone can be.").max(100),
-  basis: z.string().trim().min(2, "Add what the quiz is based on.").max(150),
+  basis: z.string().trim().min(2, "Add a favourite thing.").max(150),
   questionCount: z.union([z.literal(5), z.literal(7), z.literal(10)]),
   tone: z.enum(["playful", "chaotic", "wholesome"]),
   layout: z.enum(["hero-grid", "card-grid", "stack"]),
@@ -13,12 +16,27 @@ export type GenerationInput = z.infer<typeof generationInputSchema>;
 
 export const DEFAULT_QUIZ_SETTINGS: GenerationInput = {
   subject: "Disney princess",
-  basis: "your favourite muffins",
+  basis: "muffins",
   questionCount: 5,
   tone: "playful",
   layout: "hero-grid",
   theme: "foodie",
 };
+
+/** "muffins" → "your favourite muffins", tolerating older phrase-style bases. */
+export function favouriteBasis(basis: string) {
+  const phrase = basis.trim().replace(/^based on\s+/i, "");
+  const category = phrase
+    .replace(/^(?:your|my)\s+/i, "")
+    .replace(/^favou?rites?\s+/i, "");
+  // Older phrases such as "your perfect weekend" are already complete.
+  if (
+    category === phrase.replace(/^(?:your|my)\s+/i, "") &&
+    category !== phrase
+  )
+    return phrase;
+  return `your favourite ${category}`;
+}
 
 const text = (max: number) => z.string().trim().min(1).max(max);
 export const resultSchema = z.object({
@@ -111,8 +129,64 @@ export const quizArtworkSchema = z.object({
   height: z.number().int().positive().max(8192),
   model: text(150),
   generatedAt: z.string().datetime(),
+  // Cells were repacked onto an exact grid with transparent padding.
+  packed: z.boolean().optional(),
 });
 export type QuizArtwork = z.infer<typeof quizArtworkSchema>;
+// Each quiz gets its own look: colours drawn from its artwork, a heading
+// typeface chosen for its subject, and small decorative cutouts.
+export const typefaces = {
+  storybook: {
+    family: "Fraunces",
+    weight: 600,
+    mood: "fairytales, myths, cosy classics",
+  },
+  retro: {
+    family: "Shrikhand",
+    weight: 400,
+    mood: "food, desserts, 70s fun, loud and playful",
+  },
+  handwritten: {
+    family: "Caveat",
+    weight: 700,
+    mood: "crafts, journals, gentle and homey",
+  },
+  rounded: {
+    family: "Baloo 2",
+    weight: 700,
+    mood: "animals, toys, cute and bubbly",
+  },
+  elegant: {
+    family: "Playfair Display",
+    weight: 700,
+    mood: "magic, royalty, history, glamour",
+  },
+  techy: {
+    family: "Space Grotesk",
+    weight: 700,
+    mood: "coding, sci-fi, games, gadgets",
+  },
+} as const;
+export type TypefaceId = keyof typeof typefaces;
+export const typefaceSchema = z.enum(
+  Object.keys(typefaces) as [TypefaceId, ...TypefaceId[]],
+);
+const hex = z.string().regex(/^#[0-9a-f]{6}$/i);
+export const paletteSchema = z.object({
+  background: hex,
+  foreground: hex,
+  accent: hex,
+  dark: z.boolean(),
+});
+export type QuizPalette = z.infer<typeof paletteSchema>;
+export const quizStyleSchema = z.object({
+  palette: paletteSchema.optional(),
+  typeface: typefaceSchema.optional(),
+  // Decorative cutouts follow the background scene in its atlas row.
+  decorations: z.number().int().min(0).max(4).optional(),
+});
+export type QuizStyle = z.infer<typeof quizStyleSchema>;
+
 export const quizSchema = contentSchema.extend({
   id: z.string().uuid(),
   createdAt: z.string().datetime(),
@@ -122,6 +196,7 @@ export const quizSchema = contentSchema.extend({
   questionArtwork: quizArtworkSchema.optional(),
   resultArtwork: quizArtworkSchema.optional(),
   backgroundIndex: z.number().int().min(0).max(54).optional(),
+  style: quizStyleSchema.optional(),
 });
 export type QuizContent = z.infer<typeof contentSchema>;
 export type Quiz = z.infer<typeof quizSchema>;

@@ -1,7 +1,7 @@
 import { zodTextFormat } from "openai/helpers/zod";
 import { createAiClient } from "./ai-client";
 import { getAiConfig } from "./ai-config";
-import { scoreQuiz, type Quiz } from "./quiz";
+import { favouriteBasis, scoreQuiz, type Quiz } from "./quiz";
 import { readingDraftSchema, type PersonalityReading } from "./personality";
 
 export async function generatePersonalityReading(
@@ -48,7 +48,7 @@ evidence: choose one questionId from the supplied picks and write a short note l
           role: "user",
           content: JSON.stringify({
             subject: quiz.settings.subject,
-            basedOn: quiz.settings.basis,
+            basedOn: favouriteBasis(quiz.settings.basis),
             outcome: { title: result.title, description: result.description },
             picks,
           }),

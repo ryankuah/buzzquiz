@@ -11,7 +11,7 @@ export function assetDirectory() {
 export async function saveQuizImage(
   id: string,
   bytes: Buffer,
-  options: { foreground?: boolean } = {},
+  options: { foreground?: boolean; packed?: boolean } = {},
 ) {
   if (!uuid.test(id)) throw new Error("Invalid artwork ID.");
   const image = sharp(bytes, { limitInputPixels: 20000000 });
@@ -25,14 +25,18 @@ export async function saveQuizImage(
   const source = options.foreground
     ? sharp(await removeForegroundMatte(bytes))
     : image;
-  const { data, info } = await source
-    .resize({
-      width: 2048,
-      height: 2560,
-      fit: "inside",
-      withoutEnlargement: true,
-    })
-    .webp({ quality: 88 })
+  // Packed atlases are already composed at their final cell size.
+  const { data, info } = await (
+    options.packed
+      ? source
+      : source.resize({
+          width: 2048,
+          height: 2560,
+          fit: "inside",
+          withoutEnlargement: true,
+        })
+  )
+    .webp({ quality: 88, alphaQuality: 100 })
     .toBuffer({ resolveWithObject: true });
   if (process.env.CONVEX_URL || process.env.NEXT_PUBLIC_CONVEX_URL) {
     const { client, secret } = convexConnection();

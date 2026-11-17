@@ -6,6 +6,9 @@ import {
   type GenerationInput,
   type Quiz,
   type QuizArtwork,
+  type QuizPalette,
+  favouriteBasis,
+  typefaceSchema,
   parseQuiz,
   validateContent,
 } from "./quiz";
@@ -27,6 +30,12 @@ export const outcomeSetSchema = z.object({
       }),
     )
     .length(4),
+  // Older saved sets predate per-quiz typefaces.
+  typeface: typefaceSchema.optional(),
+});
+// Structured outputs need every field, so new sets must choose one.
+export const outcomeGenerationSchema = outcomeSetSchema.extend({
+  typeface: typefaceSchema,
 });
 const reusableAnswerSchema = answerSchema.extend({
   text: text(65),
@@ -50,6 +59,12 @@ export const questionSetSchema = z.object({
     )
     .min(5)
     .max(10),
+  // Small themed cutouts drawn beside the background scene. Optional for
+  // sets saved before decorations existed.
+  decorations: z.array(text(160)).length(4).optional(),
+});
+export const questionGenerationSchema = questionSetSchema.extend({
+  decorations: z.array(text(160)).length(4),
 });
 export type OutcomeSet = z.infer<typeof outcomeSetSchema>;
 export type QuestionSet = z.infer<typeof questionSetSchema>;
@@ -71,14 +86,19 @@ export type Claim =
   | { state: "limited" }
   | { state: "blocked" };
 export interface ContentRepository {
-  findQuiz(input: GenerationInput): Promise<Quiz | null>;
-  saveQuiz(input: GenerationInput, quiz: Quiz): Promise<Quiz>;
+  /** Keys come from quizPromptKey, after topic matching. */
+  findQuiz(key: string): Promise<Quiz | null>;
+  saveQuiz(key: string, quiz: Quiz): Promise<Quiz>;
   findContent(key: string): Promise<ContentRecord | null>;
   claim(key: string, kind: ContentKind): Promise<Claim>;
   checkpoint(key: string, owner: string, data: unknown): Promise<void>;
   complete(key: string, owner: string, content: ReadyContent): Promise<void>;
   fail(key: string, owner: string, blocked?: boolean): Promise<void>;
-  recordCall(key: string, owner: string, type: "text" | "image"): Promise<void>;
+  recordCall(
+    key: string,
+    owner: string,
+    type: "text" | "image" | "background",
+  ): Promise<void>;
 }
 
 export function validateOutcomeSet(value: unknown): OutcomeSet {
@@ -95,10 +115,12 @@ export function assembleQuiz(
   outcomes: ReadyContent,
   questions: ReadyContent,
   id = crypto.randomUUID(),
+  palette?: QuizPalette,
 ): Quiz {
   if (!outcomes.artwork || !questions.artwork)
     throw new Error("The quiz artwork isn't ready.");
-  const results = validateOutcomeSet(outcomes.data).results;
+  const outcomeSet = validateOutcomeSet(outcomes.data);
+  const results = outcomeSet.results;
   const content = questionSetSchema.parse(questions.data);
   const plan = questionTemplatePlan(input.questionCount);
   validateContent(
@@ -116,7 +138,7 @@ export function assembleQuiz(
     createdAt: new Date().toISOString(),
     source: "ai",
     settings: input,
-    title: `What ${input.subject} are you based on ${input.basis}?`,
+    title: `What ${input.subject} are you based on ${favouriteBasis(input.basis)}?`,
     description: "Pick what feels like you.",
     emoji: "✨",
     results,
@@ -127,5 +149,12 @@ export function assembleQuiz(
     questionArtwork: questions.artwork,
     resultArtwork: outcomes.artwork,
     backgroundIndex: input.questionCount * 5,
+    style: {
+      ...(palette ? { palette } : {}),
+      ...(outcomeSet.typeface ? { typeface: outcomeSet.typeface } : {}),
+      ...(content.decorations && questions.artwork.packed
+        ? { decorations: content.decorations.length }
+        : {}),
+    },
   });
 }

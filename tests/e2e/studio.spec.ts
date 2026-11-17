@@ -17,7 +17,7 @@ async function mockGeneration(page: Page) {
     const quiz = illustratedQuiz(exampleQuiz("princess"));
     quiz.source = "ai";
     quiz.settings = settings;
-    quiz.title = `What ${settings.subject} are you based on ${settings.basis}?`;
+    quiz.title = `What ${settings.subject} are you based on your favourite ${settings.basis}?`;
     return route.fulfill({ json: { quiz } });
   });
 }
@@ -53,6 +53,68 @@ test("home contains only the two blanks and one action, including at 320px", asy
   }
 });
 
+test("existing topics are suggested as the blanks are filled", async ({
+  page,
+}, testInfo) => {
+  await page.route("**/api/suggestions", (route) =>
+    route.fulfill({
+      json: {
+        subjects: [
+          { name: "Harry Potter house", count: 3 },
+          { name: "Disney princess", count: 2 },
+        ],
+        bases: [
+          { name: "muffins", count: 2 },
+          { name: "tea", count: 1 },
+        ],
+        pairs: [
+          [0, 1],
+          [1, 0],
+        ],
+      },
+    }),
+  );
+  await page.goto("/");
+  const subject = page.getByRole("textbox", { name: "What are you?" });
+  const basis = page.getByRole("textbox", { name: "Your favourite what?" });
+  await subject.fill("");
+  await subject.focus();
+  const shelf = page.locator(".suggestion-shelf");
+  // The prefilled "muffins" was drawn with Disney princess, so it leads.
+  await expect(basis).toHaveValue("muffins");
+  await expect(shelf.getByRole("button")).toHaveText([
+    "Disney princess",
+    "Harry Potter house",
+  ]);
+
+  await subject.pressSequentially("dis");
+  await expect(shelf.getByRole("button")).toHaveText(["Disney princess"]);
+  await shelf.getByRole("button", { name: "Disney princess" }).click();
+  await expect(subject).toHaveValue("Disney princess");
+  await expect(basis).toBeFocused();
+
+  // The basis paired with the chosen subject in a saved quiz comes first.
+  await basis.fill("");
+  await expect(shelf.getByRole("button")).toHaveText(["muffins", "tea"]);
+  await basis.pressSequentially("t");
+  await expect(shelf.getByRole("button")).toHaveText(["tea"]);
+  await shelf.getByRole("button", { name: "tea" }).click();
+  await expect(basis).toHaveValue("tea");
+  await expect(page.getByRole("button", { name: "Find out" })).toBeFocused();
+
+  // With a keyboard and mouse, Tab accepts the faint completion as saved.
+  if (testInfo.project.name === "desktop") {
+    await subject.fill("");
+    await subject.pressSequentially("ha");
+    await expect(page.locator(".prompt-ghost")).toContainText(
+      "rry Potter house",
+    );
+    await subject.press("Tab");
+    await expect(subject).toHaveValue("Harry Potter house");
+    await expect(subject).toBeFocused();
+  }
+});
+
 test("generation goes straight to the first question, answers advance, and result can be replayed", async ({
   page,
 }) => {
@@ -64,13 +126,13 @@ test("generation goes straight to the first question, answers advance, and resul
     .getByLabel("What are you?", { exact: true })
     .fill("Disney princess");
   await page
-    .getByLabel("Based on what?", { exact: true })
-    .fill("your favourite muffins");
+    .getByLabel("Your favourite what?", { exact: true })
+    .fill("muffins");
   const requestPromise = page.waitForRequest("**/api/generate");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   expect((await requestPromise).postDataJSON()).toEqual({
     subject: "Disney princess",
-    basis: "your favourite muffins",
+    basis: "muffins",
     questionCount: 5,
     tone: "playful",
     layout: "hero-grid",
@@ -118,9 +180,9 @@ test("generation goes straight to the first question, answers advance, and resul
   await expect(
     page.getByRole("button", { name: "Find out", exact: true }),
   ).toBeVisible();
-  await expect(page.getByLabel("Based on what?", { exact: true })).toHaveValue(
-    "your favourite muffins",
-  );
+  await expect(
+    page.getByLabel("Your favourite what?", { exact: true }),
+  ).toHaveValue("muffins");
   expect(errors).toEqual([]);
 });
 
@@ -138,7 +200,7 @@ test("loading prevents duplicate requests and keyboard submission starts the qui
     return route.fulfill({ json: { quiz: exampleQuiz("princess") } });
   });
   await page.goto("/");
-  await page.getByLabel("Based on what?", { exact: true }).press("Enter");
+  await page.getByLabel("Your favourite what?", { exact: true }).press("Enter");
   await expect(
     page.getByRole("button", { name: "Making your quiz…", exact: true }),
   ).toBeDisabled();
@@ -161,8 +223,8 @@ test("generation errors preserve the idea and allow a retry", async ({
     .getByLabel("What are you?", { exact: true })
     .fill("mythical creature");
   await page
-    .getByLabel("Based on what?", { exact: true })
-    .fill("your morning routine");
+    .getByLabel("Your favourite what?", { exact: true })
+    .fill("breakfasts");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   await expect(
     page.getByRole("alert").filter({ hasText: "isn't available" }),
@@ -170,9 +232,9 @@ test("generation errors preserve the idea and allow a retry", async ({
   await expect(page.getByLabel("What are you?", { exact: true })).toHaveValue(
     "mythical creature",
   );
-  await expect(page.getByLabel("Based on what?", { exact: true })).toHaveValue(
-    "your morning routine",
-  );
+  await expect(
+    page.getByLabel("Your favourite what?", { exact: true }),
+  ).toHaveValue("breakfasts");
   await mockGeneration(page);
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   await expect(
@@ -206,10 +268,8 @@ test("damaged links recover to the home page and long blanks wrap without overfl
     .getByLabel("What are you?", { exact: true })
     .fill("a character from your favourite childhood cartoon");
   await page
-    .getByLabel("Based on what?", { exact: true })
-    .fill(
-      "your incredibly specific favourite breakfast and late-night snack combinations",
-    );
+    .getByLabel("Your favourite what?", { exact: true })
+    .fill("extremely specific breakfast and late-night snack combos");
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
@@ -690,4 +750,50 @@ test("sharing copies a short saved-quiz link, and a recipient starts with no ans
     .click();
   expect(new URL(recipient.url()).search).toBe("");
   await recipient.close();
+});
+
+test("sharing a result links to the quiz with the result's preview card", async ({
+  page,
+}) => {
+  const { quiz } = reusableFixture();
+  await mockArtwork(page);
+  await page.addInitScript(() => {
+    Object.defineProperty(navigator, "share", {
+      configurable: true,
+      value: undefined,
+    });
+    Object.defineProperty(navigator, "clipboard", {
+      configurable: true,
+      value: {
+        writeText: async (url: string) => {
+          (window as typeof window & { copiedQuizUrl?: string }).copiedQuizUrl =
+            url;
+        },
+      },
+    });
+  });
+  await page.route("**/api/generate", (route) =>
+    route.fulfill({ json: { quiz } }),
+  );
+  await page.goto("/");
+  await page.getByRole("button", { name: "Find out", exact: true }).click();
+  for (let index = 1; index <= quiz.questions.length; index++) {
+    await expect(
+      page.getByText(`QUESTION ${index} OF 5`, { exact: true }),
+    ).toBeVisible();
+    await page.locator(".answer-option").first().click();
+  }
+  await page.getByRole("button", { name: "Share my result" }).click();
+  await expect(page.getByRole("status").first()).toHaveText(
+    "Result link copied",
+  );
+  const url = new URL(
+    await page.evaluate(
+      () => (window as typeof window & { copiedQuizUrl: string }).copiedQuizUrl,
+    ),
+  );
+  expect(url.searchParams.get("quiz")).toBe(quiz.id);
+  expect(quiz.results.map((result) => result.id)).toContain(
+    url.searchParams.get("got"),
+  );
 });

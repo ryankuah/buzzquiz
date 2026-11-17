@@ -1,15 +1,7 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { dailyGenerationLimit } from "../src/lib/generation-budget";
-
-const secret = { secret: v.string() };
-function authorize(value: string) {
-  if (
-    !process.env.BUZZQUIZ_SERVER_SECRET ||
-    value !== process.env.BUZZQUIZ_SERVER_SECRET
-  )
-    throw new Error("Unauthorized");
-}
+import { authorize, secret } from "./auth";
 
 export const findContent = query({
   args: { ...secret, key: v.string() },
@@ -76,6 +68,7 @@ export const claim = mutation({
       budgetDay: day,
       textCalled: false,
       imageCalled: false,
+      backgroundCalled: false,
     };
     if (current) await ctx.db.patch(current._id, update);
     else
@@ -131,7 +124,11 @@ export const recordCall = mutation({
     ...secret,
     key: v.string(),
     owner: v.string(),
-    type: v.union(v.literal("text"), v.literal("image")),
+    type: v.union(
+      v.literal("text"),
+      v.literal("image"),
+      v.literal("background"),
+    ),
   },
   handler: async (ctx, args) => {
     authorize(args.secret);
@@ -146,9 +143,16 @@ export const recordCall = mutation({
       job.leaseUntil <= Date.now()
     )
       throw new Error("Generation lease lost");
-    // Each attempt allows at most one text and one image request, even if a
-    // caller accidentally retries. Counters live in Convex, across Vercel instances.
-    const called = args.type === "text" ? "textCalled" : "imageCalled";
+    // Each attempt allows at most one text request, one image request, and one
+    // background scene, even if a caller accidentally retries. Counters live
+    // in Convex, across Vercel instances.
+    const called = (
+      {
+        text: "textCalled",
+        image: "imageCalled",
+        background: "backgroundCalled",
+      } as const
+    )[args.type];
     if (job[called]) throw new Error("This AI call was already used");
     await ctx.db.patch(job._id, { [called]: true });
     const day = job.budgetDay || new Date().toISOString().slice(0, 10);

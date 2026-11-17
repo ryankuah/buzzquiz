@@ -1,7 +1,7 @@
 import { ConvexHttpClient } from "convex/browser";
 import { api } from "../../convex/_generated/api";
-import { parseQuiz, type GenerationInput } from "./quiz";
-import { quizPromptKey } from "./normalize-prompt";
+import { parseQuiz } from "./quiz";
+import { type TopicRepository } from "./topics";
 import {
   type Claim,
   type ContentRecord,
@@ -35,18 +35,15 @@ export function createConvexRepository(): ContentRepository {
     });
   };
   return {
-    async findQuiz(input) {
-      const quiz = await client.query(api.cache.findQuiz, {
-        secret,
-        key: quizPromptKey(input),
-      });
+    async findQuiz(key) {
+      const quiz = await client.query(api.cache.findQuiz, { secret, key });
       return quiz ? parseQuiz(quiz) : null;
     },
-    async saveQuiz(input, quiz) {
+    async saveQuiz(key, quiz) {
       return parseQuiz(
         await client.mutation(api.cache.saveQuiz, {
           secret,
-          key: quizPromptKey(input),
+          key,
           quiz: parseQuiz(quiz),
         }),
       );
@@ -71,6 +68,25 @@ export function createConvexRepository(): ContentRepository {
       update(key, owner, "failed", { blocked }),
     async recordCall(key, owner, type) {
       await client.mutation(api.cache.recordCall, { secret, key, owner, type });
+    },
+  };
+}
+
+export function createConvexTopicRepository(): TopicRepository {
+  const { client, secret } = convexConnection();
+  return {
+    findAlias: (kind, alias) =>
+      client.query(api.topics.findAlias, { secret, kind, alias }),
+    nearest: (kind, embedding) =>
+      client.action(api.topics.nearest, { secret, kind, embedding }),
+    async register(kind, alias, topic, embedding) {
+      await client.mutation(api.topics.register, {
+        secret,
+        kind,
+        alias,
+        topic,
+        ...(embedding ? { embedding } : {}),
+      });
     },
   };
 }

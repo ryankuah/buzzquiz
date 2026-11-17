@@ -41,20 +41,13 @@ function setup(limit = 5) {
     });
   };
   const repository: ContentRepository = {
-    async findQuiz(input) {
-      const q = await t.query(app.api.cache.findQuiz, {
-        secret,
-        key: quizPromptKey(input),
-      });
+    async findQuiz(key) {
+      const q = await t.query(app.api.cache.findQuiz, { secret, key });
       return q ? parseQuiz(q) : null;
     },
-    async saveQuiz(input, quiz) {
+    async saveQuiz(key, quiz) {
       return parseQuiz(
-        await t.mutation(app.api.cache.saveQuiz, {
-          secret,
-          key: quizPromptKey(input),
-          quiz,
-        }),
+        await t.mutation(app.api.cache.saveQuiz, { secret, key, quiz }),
       );
     },
     async findContent(key) {
@@ -297,7 +290,7 @@ test("answer-specific readings reuse the exact picks, and the shared limit leave
     () => resolveReading(quiz, changed, { repository, generate }),
     GenerationLimitError,
   );
-  await repository.saveQuiz(defaultSettings, quiz);
+  await repository.saveQuiz(quizPromptKey(defaultSettings), quiz);
   assert.equal(
     (await createQuizResolver({ repository })(defaultSettings)).reused,
     true,

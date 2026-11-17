@@ -11,7 +11,8 @@
     "test:e2e": "playwright test",
     "format": "prettier --write src convex scripts tests *.ts *.json README.md docs",
     "format:check": "prettier --check src convex scripts tests *.ts *.json README.md docs",
-    "migrate:local": "node --env-file=.env.local --import tsx scripts/migrate-local.ts"
+    "migrate:local": "node --env-file=.env.local --import tsx scripts/migrate-local.ts",
+    "topics:backfill": "node --env-file=.env.local --import tsx scripts/backfill-topics.ts"
   },
   "keywords": [],
   "author": "",
