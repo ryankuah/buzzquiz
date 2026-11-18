@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog-friendly holiday",
+      "question": "You can bring your dog on one mini holiday. Where do you book?",
+      "outcomes": [
+        {
+          "name": "A lakeside cabin with a dock",
+          "description": "Tiny cedar cabin beside a short dock with a dog watching the water"
+        },
+        {
+          "name": "A farmhouse with an orchard",
+          "description": "Stone farmhouse next to apple trees with a dog relaxing under one"
+        },
+        {
+          "name": "A beach cottage with a fenced yard",
+          "description": "Weathered pale-blue cottage and a dog inside a low white picket fence beside sand"
+        },
+        {
+          "name": "A woodland yurt with a trail",
+          "description": "Round canvas yurt nestled among pines with a small dog at the trailhead"
+        }
+      ]
+    }
+  ]
+}

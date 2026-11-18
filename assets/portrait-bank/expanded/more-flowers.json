@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Flower",
+      "question": "Which flower matches your personality?",
+      "outcomes": [
+        {
+          "name": "Peony",
+          "description": "Peony"
+        },
+        {
+          "name": "Bird of paradise",
+          "description": "Bird of paradise"
+        },
+        {
+          "name": "Blue hydrangea",
+          "description": "Blue hydrangea"
+        },
+        {
+          "name": "Iris",
+          "description": "Iris"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Riverside afternoon",
+      "question": "You find a quiet bend in the river with a few hours to spare. What do you settle in to do?",
+      "outcomes": [
+        {
+          "name": "Paint reflections",
+          "description": "Small watercolour easel with a river reflection forming on the page"
+        },
+        {
+          "name": "Stack a pebble rainbow",
+          "description": "Neat flat grouping of naturally coloured pebbles arranged in a rainbow on a picnic mat"
+        },
+        {
+          "name": "Watch dragonflies from the bank",
+          "description": "Two dragonflies hovering over a tuft of reeds near a pair of resting binoculars"
+        },
+        {
+          "name": "Try leaf-boat racing",
+          "description": "Two folded leaf boats with tiny twig masts drifting side by side"
+        }
+      ]
+    }
+  ]
+}

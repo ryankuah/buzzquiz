@@ -42,3 +42,11 @@ npm run migrate:local
 The script preserves old quiz UUIDs for compatibility and imports reusable question sets. It reuses saved question artwork and a saved still-life for the background without making an AI call. New subject foregrounds and reusable introductions are created on demand. Existing files remain on disk.
 
 For a different target deployment, set `CONVEX_URL` to that deployment when running the migration. All environment files and local/generated caches are ignored by Git. Historical manually generated art is retained locally but excluded from the published repository.
+
+## Stock artwork
+
+The [stock catalogue](stock-art.md) lists the checked-in illustrations, their quiz subjects and their original sheets. Each library entry points to a cell of a WebP held in Convex file storage. The app can use that artwork as soon as its database entry is indexed.
+
+Run `npm run library:stock -- --check` to validate the local sheets. Run `npm run library:stock` to sync the configured development database. A source prefix, such as `npm run library:stock -- question-bank/v1/hobbies/`, limits the import to that collection. To load production with the local credentials for this project, run `node --env-file=.env.local --env-file=.env.production --import tsx scripts/import-stock-art.ts`.
+
+The importer computes text embeddings for new entries, uploads each unique sheet, downloads it again to verify its SHA-256 checksum, and reads back each indexed cell. Rerunning it verifies existing records and resumes incomplete imports. Published source paths and cell positions identify immutable artwork. Give replacement sheets a new source key.

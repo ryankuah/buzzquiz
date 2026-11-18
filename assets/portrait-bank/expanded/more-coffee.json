@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coffee order",
+      "question": "Which coffee order matches your personality?",
+      "outcomes": [
+        {
+          "name": "Flat white",
+          "description": "small flat white with fine white latte art"
+        },
+        {
+          "name": "Cortado",
+          "description": "short clear glass of espresso and steamed milk"
+        },
+        {
+          "name": "Cold brew",
+          "description": "cold black coffee over ice in a clear tumbler"
+        },
+        {
+          "name": "Turkish coffee",
+          "description": "small copper cezve with demitasse"
+        }
+      ]
+    }
+  ]
+}

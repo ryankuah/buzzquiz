@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "US state",
+      "question": "Which us state matches your personality?",
+      "outcomes": [
+        {
+          "name": "New York",
+          "description": "Empire State Building"
+        },
+        {
+          "name": "Texas",
+          "description": "Texas longhorn and bluebonnet"
+        },
+        {
+          "name": "Louisiana",
+          "description": "New Orleans wrought iron balcony"
+        },
+        {
+          "name": "Colorado",
+          "description": "snowy Rocky Mountain with columbine flowers"
+        }
+      ]
+    }
+  ]
+}

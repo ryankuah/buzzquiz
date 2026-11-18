@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coffee brewing",
+      "question": "Which item would you choose for coffee brewing?",
+      "outcomes": [
+        {
+          "name": "Coffee grinder",
+          "description": "Coffee grinder used for coffee brewing"
+        },
+        {
+          "name": "Espresso machine",
+          "description": "Espresso machine used for coffee brewing"
+        },
+        {
+          "name": "Milk jug",
+          "description": "Milk jug used for coffee brewing"
+        },
+        {
+          "name": "Coffee scoop",
+          "description": "Coffee scoop used for coffee brewing"
+        }
+      ]
+    }
+  ]
+}

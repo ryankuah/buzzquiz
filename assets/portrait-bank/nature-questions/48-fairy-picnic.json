@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fairy picnic",
+      "question": "You are setting the table for a fairy picnic in a hollow tree. What is the centrepiece?",
+      "outcomes": [
+        {
+          "name": "A thimble of violets",
+          "description": "Tiny silver thimble serving as a vase for a few purple violets"
+        },
+        {
+          "name": "A walnut boat of berries",
+          "description": "Half walnut shell filled with miniature berries and a tiny leaf sail"
+        },
+        {
+          "name": "A buttercup candleholder",
+          "description": "Golden buttercup flower cupping a single tiny glowing wax candle"
+        },
+        {
+          "name": "A pinecone cake stand",
+          "description": "Small cake stand balanced on a pinecone with a tiny berry tart on top"
+        }
+      ]
+    }
+  ]
+}

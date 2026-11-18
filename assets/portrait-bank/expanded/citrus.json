@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Citrus fruit",
+      "question": "Which citrus fruit matches your personality?",
+      "outcomes": [
+        {
+          "name": "Blood orange",
+          "description": "Blood orange"
+        },
+        {
+          "name": "Finger lime",
+          "description": "Finger lime"
+        },
+        {
+          "name": "Pomelo",
+          "description": "Pomelo"
+        },
+        {
+          "name": "Kumquat",
+          "description": "Kumquat"
+        }
+      ]
+    }
+  ]
+}

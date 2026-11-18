@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Esports spectator habits",
+      "question": "Your favourite team has a long break between matches. What do you do in the arena?",
+      "outcomes": [
+        {
+          "name": "Start a banner wave",
+          "description": "A fan raising a large colourful supporter banner above a crowd of hands"
+        },
+        {
+          "name": "Chart the last match",
+          "description": "A spectator tracing a line on a small map with coloured magnetic pieces"
+        },
+        {
+          "name": "Trade team pins",
+          "description": "Two hands swapping bright enamel team pins over a lanyard"
+        },
+        {
+          "name": "Meet the mascot",
+          "description": "A fan giving a high five to a cheerful original fox mascot"
+        }
+      ]
+    }
+  ]
+}

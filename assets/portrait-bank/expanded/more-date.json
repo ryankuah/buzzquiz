@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Date idea",
+      "question": "Which date idea matches your personality?",
+      "outcomes": [
+        {
+          "name": "Aquarium visit",
+          "description": "couple observing a small aquarium window"
+        },
+        {
+          "name": "Bookshop crawl",
+          "description": "paper bag filled with second-hand novels"
+        },
+        {
+          "name": "Cooking class",
+          "description": "two aprons on hooks beside a mixing bowl"
+        },
+        {
+          "name": "Botanic garden walk",
+          "description": "flowering garden arch over a little path"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Missed messages",
+      "question": "You realise you left a close friend's message unanswered for a week. What's your opening move?",
+      "outcomes": [
+        {
+          "name": "Record a proper catch-up",
+          "description": "An adult with a cup of tea recording a long voice message on a phone"
+        },
+        {
+          "name": "Call on the walk home",
+          "description": "An adult in a raincoat talking on a phone while walking with a shopping bag"
+        },
+        {
+          "name": "Post a card",
+          "description": "An adult dropping a colourful personal postcard into a street mailbox"
+        },
+        {
+          "name": "Invite them for a catch-up breakfast",
+          "description": "Two settings ready with croissants, juice and a small invitation on a breakfast tray"
+        }
+      ]
+    }
+  ]
+}

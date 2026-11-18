@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Deck-building games",
+      "question": "The shop offers one curious new card. Which card do you put in your deck?",
+      "outcomes": [
+        {
+          "name": "Echo Bell",
+          "description": "An illustrated spell card showing a bell issuing three concentric rings"
+        },
+        {
+          "name": "Borrowed Boots",
+          "description": "An illustrated spell card showing winged yellow boots"
+        },
+        {
+          "name": "Glass Garden",
+          "description": "An illustrated spell card showing crystals growing from a flowering garden"
+        },
+        {
+          "name": "Pocket Sun",
+          "description": "An illustrated spell card showing a small sun tucked into a waistcoat pocket"
+        }
+      ]
+    }
+  ]
+}

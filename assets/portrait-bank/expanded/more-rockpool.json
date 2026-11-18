@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tide-pool creature",
+      "question": "Which tide-pool creature matches your personality?",
+      "outcomes": [
+        {
+          "name": "Limpet",
+          "description": "Limpet"
+        },
+        {
+          "name": "Chiton",
+          "description": "Chiton"
+        },
+        {
+          "name": "Sea hare",
+          "description": "Sea hare"
+        },
+        {
+          "name": "Rock goby",
+          "description": "Rock goby"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Stationery item",
+      "question": "Which stationery item matches your personality?",
+      "outcomes": [
+        {
+          "name": "Mechanical pencil",
+          "description": "Mechanical pencil"
+        },
+        {
+          "name": "Washi tape roll",
+          "description": "Washi tape roll"
+        },
+        {
+          "name": "Hole punch",
+          "description": "Hole punch"
+        },
+        {
+          "name": "Correction tape dispenser",
+          "description": "Correction tape dispenser"
+        }
+      ]
+    }
+  ]
+}

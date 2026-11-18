@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Decade",
+      "question": "Which decade matches your personality?",
+      "outcomes": [
+        {
+          "name": "1920s",
+          "description": "Art Deco table radio"
+        },
+        {
+          "name": "1930s",
+          "description": "streamlined tabletop radio with large dial"
+        },
+        {
+          "name": "1950s",
+          "description": "pastel diner jukebox"
+        },
+        {
+          "name": "1960s",
+          "description": "psychedelic lava lamp"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Calligraphy",
+      "question": "Which item would you choose for calligraphy?",
+      "outcomes": [
+        {
+          "name": "Inkstone",
+          "description": "Inkstone used for calligraphy"
+        },
+        {
+          "name": "Calligraphy brush",
+          "description": "Calligraphy brush used for calligraphy"
+        },
+        {
+          "name": "Pen rest",
+          "description": "Pen rest used for calligraphy"
+        },
+        {
+          "name": "Calligraphy nib",
+          "description": "Calligraphy nib used for calligraphy"
+        }
+      ]
+    }
+  ]
+}

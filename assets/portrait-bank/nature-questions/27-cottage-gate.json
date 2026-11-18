@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cottage garden",
+      "question": "Your cottage has a little gate at the front path. What would you grow around it?",
+      "outcomes": [
+        {
+          "name": "Climbing red roses",
+          "description": "Short white cottage gate framed by red climbing roses"
+        },
+        {
+          "name": "Purple wisteria",
+          "description": "Weathered arched gate with hanging pale-violet wisteria clusters"
+        },
+        {
+          "name": "Twining honeysuckle",
+          "description": "Blue garden gate with twining honeysuckle and yellow-pink tubular flowers"
+        },
+        {
+          "name": "Trailing nasturtiums",
+          "description": "Low green gate edged with round nasturtium leaves and orange flowers"
+        }
+      ]
+    }
+  ]
+}

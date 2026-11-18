@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Craft desk",
+      "question": "Which item would you choose for craft desk?",
+      "outcomes": [
+        {
+          "name": "Glue stick",
+          "description": "Glue stick used for craft desk"
+        },
+        {
+          "name": "Glue bottle",
+          "description": "Glue bottle used for craft desk"
+        },
+        {
+          "name": "Cutting mat",
+          "description": "Cutting mat used for craft desk"
+        },
+        {
+          "name": "Craft knife",
+          "description": "Craft knife used for craft desk"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Solo adventure game",
+      "question": "You finish a dungeon and find a quiet room beyond the exit. What keeps you playing another ten minutes?",
+      "outcomes": [
+        {
+          "name": "Restore the old mosaic",
+          "description": "A game adventurer placing the final blue tile in a small circular mosaic"
+        },
+        {
+          "name": "Deliver the lost parcel",
+          "description": "A game adventurer handing a twine-wrapped parcel to a tiny innkeeper"
+        },
+        {
+          "name": "Tame the lantern moth",
+          "description": "A gloved hand offering nectar to an oversized golden moth"
+        },
+        {
+          "name": "Climb the last spire",
+          "description": "A game adventurer climbing a slender tower toward a pennant"
+        }
+      ]
+    }
+  ]
+}

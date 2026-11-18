@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Community gardening",
+      "question": "There are four jobs left before the community garden opens. Which one do you take?",
+      "outcomes": [
+        {
+          "name": "Painting pebble plant markers",
+          "description": "Small hand painting a carrot picture on a smooth garden stone, with a few coloured markers"
+        },
+        {
+          "name": "Setting out seedlings",
+          "description": "Tray of young lettuce plants beside a gardener's hand placing one carefully in soil"
+        },
+        {
+          "name": "Stringing a bean teepee",
+          "description": "Small bamboo teepee with lengths of twine and a curling bean plant"
+        },
+        {
+          "name": "Hanging a rain chain",
+          "description": "Copper leaf-shaped rain chain being hooked beneath the edge of a little roof"
+        }
+      ]
+    }
+  ]
+}

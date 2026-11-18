@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Online guild activity",
+      "question": "Your guild has an hour before everyone logs off. Which event do you put on the calendar?",
+      "outcomes": [
+        {
+          "name": "A mount parade",
+          "description": "Two costumed miniature fantasy riders on a caparisoned horse and giant turtle"
+        },
+        {
+          "name": "A scavenger hunt",
+          "description": "A checklist of silhouettes pinned to a small treasure chest with a magnifying glass"
+        },
+        {
+          "name": "A fishing competition",
+          "description": "Two fishing floats and an oversized silver fish held up beside a small trophy"
+        },
+        {
+          "name": "A group portrait",
+          "description": "A group of fantasy guild characters posing beside a tripod camera"
+        }
+      ]
+    }
+  ]
+}

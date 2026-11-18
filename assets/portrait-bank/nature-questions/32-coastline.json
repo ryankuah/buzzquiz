@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coastal scenery",
+      "question": "You can follow one coastline for the afternoon. Which one draws you in?",
+      "outcomes": [
+        {
+          "name": "A black pebble beach",
+          "description": "Short strip of smooth black pebbles with white sea foam and slate-blue water"
+        },
+        {
+          "name": "A white cliff walk",
+          "description": "Miniature windswept green headland with bright white chalk cliffs and a narrow path"
+        },
+        {
+          "name": "A red mangrove creek",
+          "description": "Winding narrow creek between red mangrove trees on arching roots"
+        },
+        {
+          "name": "A crescent of coral sand",
+          "description": "Curved beach of pale coral sand with turquoise shallows and a single coastal palm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Video game genre",
+      "question": "Which video game genre matches your personality?",
+      "outcomes": [
+        {
+          "name": "Rhythm game",
+          "description": "glowing stage dance pad"
+        },
+        {
+          "name": "City-builder",
+          "description": "tiny planned city blocks"
+        },
+        {
+          "name": "Survival game",
+          "description": "camp pack and flint striker"
+        },
+        {
+          "name": "Adventure game",
+          "description": "open treasure chest with compass"
+        }
+      ]
+    }
+  ]
+}

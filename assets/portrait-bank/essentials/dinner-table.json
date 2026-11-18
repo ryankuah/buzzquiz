@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dinner table",
+      "question": "Which item would you choose for dinner table?",
+      "outcomes": [
+        {
+          "name": "Dinner plate",
+          "description": "Dinner plate used for dinner table"
+        },
+        {
+          "name": "Water jug",
+          "description": "Water jug used for dinner table"
+        },
+        {
+          "name": "Serving platter",
+          "description": "Serving platter used for dinner table"
+        },
+        {
+          "name": "Tablecloth",
+          "description": "Tablecloth used for dinner table"
+        }
+      ]
+    }
+  ]
+}

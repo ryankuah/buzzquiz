@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mythical creature",
+      "question": "Which mythical creature matches your personality?",
+      "outcomes": [
+        {
+          "name": "Sphinx",
+          "description": "winged leonine sphinx"
+        },
+        {
+          "name": "Hydra",
+          "description": "multi-headed green serpent"
+        },
+        {
+          "name": "Basilisk",
+          "description": "crowned basilisk lizard"
+        },
+        {
+          "name": "Chimera",
+          "description": "lion-goat-serpent chimera"
+        }
+      ]
+    }
+  ]
+}

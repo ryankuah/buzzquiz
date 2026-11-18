@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cat breed",
+      "question": "Which cat breed matches your personality?",
+      "outcomes": [
+        {
+          "name": "Maine Coon",
+          "description": "Maine Coon"
+        },
+        {
+          "name": "Ragdoll",
+          "description": "Ragdoll"
+        },
+        {
+          "name": "Scottish Fold",
+          "description": "Scottish Fold"
+        },
+        {
+          "name": "Russian Blue",
+          "description": "Russian Blue"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Autumn keepsake",
+      "question": "Your walk home is full of autumn colour. What would you turn into a keepsake?",
+      "outcomes": [
+        {
+          "name": "A pressed maple bookmark",
+          "description": "Transparent bookmark enclosing a fiery red maple leaf"
+        },
+        {
+          "name": "An acorn-cap garland",
+          "description": "Small woven string garland made from golden acorn caps and orange felt balls"
+        },
+        {
+          "name": "A leaf-rubbing print",
+          "description": "Cream page showing an orange crayon leaf rubbing with a wax crayon beside it"
+        },
+        {
+          "name": "A pinecone photo holder",
+          "description": "Standing pinecone with a small blank-backed photo card clipped to a copper wire"
+        }
+      ]
+    }
+  ]
+}

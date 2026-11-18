@@ -1,0 +1,402 @@
+[
+  {
+    "sheet": "01-alabama",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Alabama",
+        "description": "a miniature white Saturn V rocket displayed upright at the space museum in Huntsville"
+      },
+      {
+        "topic": "US state",
+        "name": "Arkansas",
+        "description": "the steep copper-coloured cliffs and green water of the Buffalo National River"
+      },
+      {
+        "topic": "US state",
+        "name": "Connecticut",
+        "description": "a wooden Connecticut River drawbridge and a shad fishing boat"
+      },
+      {
+        "topic": "US state",
+        "name": "Delaware",
+        "description": "the white Harbor of Refuge lighthouse at the end of Delaware's stone breakwater"
+      }
+    ]
+  },
+  {
+    "sheet": "02-florida",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Florida",
+        "description": "a pink roseate spoonbill wading among sawgrass in the Everglades"
+      },
+      {
+        "topic": "US state",
+        "name": "Georgia",
+        "description": "an ornate Savannah garden fountain under a live oak draped with Spanish moss"
+      },
+      {
+        "topic": "US state",
+        "name": "Idaho",
+        "description": "a rugged Sawtooth mountain ridge above an alpine lake"
+      },
+      {
+        "topic": "US state",
+        "name": "Illinois",
+        "description": "a miniature Chicago elevated train winding past a Wrigley-style terracotta skyscraper"
+      }
+    ]
+  },
+  {
+    "sheet": "03-indiana",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Indiana",
+        "description": "a brightly coloured open-wheel racing car with the Indianapolis oval grandstand behind it"
+      },
+      {
+        "topic": "US state",
+        "name": "Iowa",
+        "description": "a red gambrel barn amid rolling cornfields with a small windmill"
+      },
+      {
+        "topic": "US state",
+        "name": "Kansas",
+        "description": "a great golden sunflower in front of a patch of tallgrass prairie and a grain elevator"
+      },
+      {
+        "topic": "US state",
+        "name": "Kentucky",
+        "description": "a thoroughbred horse beside white paddock fences on bluegrass"
+      }
+    ]
+  },
+  {
+    "sheet": "04-maine",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Maine",
+        "description": "the white tower and red roof of Portland Head Light above a granite coast"
+      },
+      {
+        "topic": "US state",
+        "name": "Maryland",
+        "description": "a blue crab with blue legs and rust-red shell tips beside the Chesapeake Bay"
+      },
+      {
+        "topic": "US state",
+        "name": "Massachusetts",
+        "description": "the brown brick Old State House in Boston topped by a pale cupola"
+      },
+      {
+        "topic": "US state",
+        "name": "Michigan",
+        "description": "the twin green towers of the Mackinac suspension bridge standing over deep blue water"
+      }
+    ]
+  },
+  {
+    "sheet": "05-minnesota",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Minnesota",
+        "description": "a common loon floating on a northern lake beside a red canoe"
+      },
+      {
+        "topic": "US state",
+        "name": "Mississippi",
+        "description": "a white paddlewheel riverboat with red paddlewheel on a broad river"
+      },
+      {
+        "topic": "US state",
+        "name": "Missouri",
+        "description": "the silver Gateway Arch over a tiny St Louis riverfront"
+      },
+      {
+        "topic": "US state",
+        "name": "Montana",
+        "description": "a mountain goat at the edge of a blue glacial lake and sharp peaks in Glacier National Park"
+      }
+    ]
+  },
+  {
+    "sheet": "06-nebraska",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Nebraska",
+        "description": "Chimney Rock rising like a tall sandstone needle above open prairie"
+      },
+      {
+        "topic": "US state",
+        "name": "Nevada",
+        "description": "red sandstone fins and a Joshua tree in a Mojave desert miniature"
+      },
+      {
+        "topic": "US state",
+        "name": "New Hampshire",
+        "description": "the red Mount Washington cog railway climbing a forested ridge"
+      },
+      {
+        "topic": "US state",
+        "name": "New Jersey",
+        "description": "a bright seaside boardwalk Ferris wheel and striped saltwater taffy"
+      }
+    ]
+  },
+  {
+    "sheet": "07-new-mexico",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "New Mexico",
+        "description": "an adobe pueblo miniature with wooden ladders, against red desert earth"
+      },
+      {
+        "topic": "US state",
+        "name": "North Carolina",
+        "description": "the black-and-white spiral stripes of Cape Hatteras Lighthouse"
+      },
+      {
+        "topic": "US state",
+        "name": "North Dakota",
+        "description": "painted badland buttes and a grazing bison in Theodore Roosevelt National Park"
+      },
+      {
+        "topic": "US state",
+        "name": "Ohio",
+        "description": "the angular glass-and-steel Rock and Roll Hall of Fame on the Cleveland waterfront"
+      }
+    ]
+  },
+  {
+    "sheet": "08-oklahoma",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Oklahoma",
+        "description": "a scissor-tailed flycatcher perched on a prairie fencepost"
+      },
+      {
+        "topic": "US state",
+        "name": "Oregon",
+        "description": "the dark outline of Haystack Rock rising above the tidal flats of Cannon Beach"
+      },
+      {
+        "topic": "US state",
+        "name": "Pennsylvania",
+        "description": "a bronze Liberty Bell with its characteristic crack and wooden yoke"
+      },
+      {
+        "topic": "US state",
+        "name": "Rhode Island",
+        "description": "the small white Castle Hill Lighthouse set on a rough Newport shoreline"
+      }
+    ]
+  },
+  {
+    "sheet": "09-south-carolina",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "South Carolina",
+        "description": "a Charleston street of pastel townhouses with palmetto trees"
+      },
+      {
+        "topic": "US state",
+        "name": "South Dakota",
+        "description": "a distant miniature of the faces carved into Mount Rushmore above evergreen trees"
+      },
+      {
+        "topic": "US state",
+        "name": "Tennessee",
+        "description": "a warm brown acoustic guitar and a small red-brick Nashville music hall"
+      },
+      {
+        "topic": "US state",
+        "name": "Utah",
+        "description": "Delicate Arch, a freestanding red sandstone arch with a sweeping curved leg"
+      }
+    ]
+  },
+  {
+    "sheet": "10-vermont",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Vermont",
+        "description": "a red covered wooden bridge under sugar maples turning bright red and orange"
+      },
+      {
+        "topic": "US state",
+        "name": "Virginia",
+        "description": "the columned portico, round dome and brick façade of Monticello above a green lawn"
+      },
+      {
+        "topic": "US state",
+        "name": "Washington",
+        "description": "snow-covered Mount Rainier above a stand of tall Douglas firs"
+      },
+      {
+        "topic": "US state",
+        "name": "West Virginia",
+        "description": "the great single steel arch of New River Gorge Bridge joining forested cliffs"
+      }
+    ]
+  },
+  {
+    "sheet": "11-wisconsin",
+    "cells": [
+      {
+        "topic": "US state",
+        "name": "Wisconsin",
+        "description": "a round orange cheese wheel in front of a red dairy barn and silo"
+      },
+      {
+        "topic": "US state",
+        "name": "Wyoming",
+        "description": "Devils Tower, an isolated tall fluted rock formation above a pine forest"
+      },
+      {
+        "topic": "Country",
+        "name": "Australia",
+        "description": "a miniature of Uluru, a broad red sandstone monolith in the ochre desert with spinifex grasses"
+      },
+      {
+        "topic": "Country",
+        "name": "New Zealand",
+        "description": "a Milford Sound miniature with the steep triangular shape of Mitre Peak and blue water"
+      }
+    ]
+  },
+  {
+    "sheet": "12-fiji",
+    "cells": [
+      {
+        "topic": "Country",
+        "name": "Fiji",
+        "description": "a bilibili bamboo river raft on tropical water beside lush green vegetation"
+      },
+      {
+        "topic": "Country",
+        "name": "Samoa",
+        "description": "a round open-sided fale with a high thatched roof and a palm tree"
+      },
+      {
+        "topic": "Country",
+        "name": "Tonga",
+        "description": "the three monumental coral-limestone stones forming the Ha'amonga 'a Maui trilithon"
+      },
+      {
+        "topic": "Country",
+        "name": "Canada",
+        "description": "Moraine Lake's turquoise water below the rugged Valley of the Ten Peaks"
+      }
+    ]
+  },
+  {
+    "sheet": "13-united-states",
+    "cells": [
+      {
+        "topic": "Country",
+        "name": "United States",
+        "description": "the green Statue of Liberty with its torch and stone plinth on a harbour island"
+      },
+      {
+        "topic": "Country",
+        "name": "Mexico",
+        "description": "the stepped pyramid of El Castillo at Chichén Itzá with a small patch of jungle"
+      },
+      {
+        "topic": "Country",
+        "name": "Guatemala",
+        "description": "a tall limestone Tikal temple rising above tropical trees"
+      },
+      {
+        "topic": "Country",
+        "name": "Belize",
+        "description": "the circular blue opening of the Great Blue Hole set in its turquoise reef"
+      }
+    ]
+  },
+  {
+    "sheet": "14-costa-rica",
+    "cells": [
+      {
+        "topic": "Country",
+        "name": "Costa Rica",
+        "description": "a forest-ringed silhouette of Arenal Volcano"
+      },
+      {
+        "topic": "Country",
+        "name": "Panama",
+        "description": "a container ship passing between the heavy lock gates of the Panama Canal"
+      },
+      {
+        "topic": "Country",
+        "name": "Cuba",
+        "description": "a colonial Havana balcony, blue wooden shutters and an old turquoise car"
+      },
+      {
+        "topic": "Country",
+        "name": "Jamaica",
+        "description": "a waterfall cascading down stepped limestone pools surrounded by lush palms"
+      }
+    ]
+  },
+  {
+    "sheet": "15-dominican-republic",
+    "cells": [
+      {
+        "topic": "Country",
+        "name": "Dominican Republic",
+        "description": "a sunlit section of Santo Domingo's colonial centre with a pale stone cathedral and palms"
+      },
+      {
+        "topic": "Country",
+        "name": "Bahamas",
+        "description": "a miniature ocean cay with white sand, clear turquoise water and conch shells"
+      },
+      {
+        "topic": "Country",
+        "name": "Barbados",
+        "description": "a coral limestone seashore with a brightly painted chattel house and a sugar mill"
+      },
+      {
+        "topic": "Country",
+        "name": "Saint Lucia",
+        "description": "the island's two steep green Pitons emerging above blue Caribbean water"
+      }
+    ]
+  },
+  {
+    "sheet": "16-colombia",
+    "cells": [
+      {
+        "topic": "Country",
+        "name": "Colombia",
+        "description": "a small stone wall turret overlooking the colourful colonial streets of Cartagena"
+      },
+      {
+        "topic": "Country",
+        "name": "Venezuela",
+        "description": "the thin stream of Angel Falls dropping from the high sandstone edge of a tepui"
+      },
+      {
+        "topic": "Country",
+        "name": "Ecuador",
+        "description": "a Galápagos giant tortoise, volcanic rock and an Opuntia cactus"
+      },
+      {
+        "topic": "Country",
+        "name": "Peru",
+        "description": "the terraced Inca stonework of Machu Picchu below the peak of Huayna Picchu"
+      }
+    ]
+  }
+]

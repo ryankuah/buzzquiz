@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Woodland scents",
+      "question": "You could bottle one scent from a woodland walk. What would you choose?",
+      "outcomes": [
+        {
+          "name": "Rain on pine bark",
+          "description": "Rain-darkened piece of reddish pine bark with droplets and a pine needle sprig"
+        },
+        {
+          "name": "Crushed wild mint",
+          "description": "Small fresh mint sprig with one gently bruised leaf in a stone mortar"
+        },
+        {
+          "name": "Fresh cedar shavings",
+          "description": "Curled fragrant pale cedar shavings around a small block of reddish wood"
+        },
+        {
+          "name": "Apple blossom in spring",
+          "description": "Small apple branch covered with fresh blush-white blossoms and pink buds"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Seed swap",
+      "question": "At a neighbourhood seed swap, you can take home only one packet. What do you choose?",
+      "outcomes": [
+        {
+          "name": "Rainbow carrot seeds",
+          "description": "Open plain seed packet decorated with drawn carrots beside purple, yellow and orange carrots"
+        },
+        {
+          "name": "Striped sunflower seeds",
+          "description": "Pale wooden scoop filled with black-and-white striped sunflower seeds beside a sunflower head"
+        },
+        {
+          "name": "Dwarf bean seeds",
+          "description": "Handful of maroon speckled beans beside a short curling green bean pod"
+        },
+        {
+          "name": "Nasturtium seeds",
+          "description": "Few rounded wrinkled pale seeds beside an orange nasturtium flower with a round green leaf"
+        }
+      ]
+    }
+  ]
+}

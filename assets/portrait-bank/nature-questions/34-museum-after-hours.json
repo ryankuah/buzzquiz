@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Museum after dark",
+      "question": "A museum offers to open one room just for you after hours. Which door do you choose?",
+      "outcomes": [
+        {
+          "name": "A glowing mineral room",
+          "description": "Dark miniature display cabinet with vivid fluorescent green and orange minerals"
+        },
+        {
+          "name": "A whale skeleton gallery",
+          "description": "Long pale whale skeleton suspended above a miniature museum bench"
+        },
+        {
+          "name": "A glasshouse of tropical palms",
+          "description": "Small Victorian glass greenhouse arch framing lush palm fronds"
+        },
+        {
+          "name": "A room of antique globes",
+          "description": "Small gallery of warm antique terrestrial and celestial globes on stands"
+        }
+      ]
+    }
+  ]
+}

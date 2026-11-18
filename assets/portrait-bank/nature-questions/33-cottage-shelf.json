@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cottagecore keepsakes",
+      "question": "You are styling one shelf in a quiet country cottage. What sits in the middle?",
+      "outcomes": [
+        {
+          "name": "A blue jug of field flowers",
+          "description": "Rustic blue ceramic jug overflowing with small mixed meadow flowers"
+        },
+        {
+          "name": "An embroidered moth hoop",
+          "description": "Small wooden embroidery hoop holding a stitched green moth on cream linen"
+        },
+        {
+          "name": "A jar of sea glass",
+          "description": "Clear glass jar filled with frosted green and blue pieces of sea glass"
+        },
+        {
+          "name": "A wooden bird carving",
+          "description": "Small hand-carved wooden wren carefully perched on a polished wood block"
+        }
+      ]
+    }
+  ]
+}

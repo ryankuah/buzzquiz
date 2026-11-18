@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Room",
+      "question": "Which room matches your personality?",
+      "outcomes": [
+        {
+          "name": "Sunroom",
+          "description": "miniature glass sunroom with chair"
+        },
+        {
+          "name": "Home cinema",
+          "description": "reclining seat and projector"
+        },
+        {
+          "name": "Games room",
+          "description": "small room with pool table"
+        },
+        {
+          "name": "Observatory",
+          "description": "miniature domed observatory with telescope"
+        }
+      ]
+    }
+  ]
+}

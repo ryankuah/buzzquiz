@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dream home",
+      "question": "Which dream home matches your personality?",
+      "outcomes": [
+        {
+          "name": "A-frame cabin",
+          "description": "triangular timber A-frame"
+        },
+        {
+          "name": "Lighthouse cottage",
+          "description": "white cottage at a red-capped lighthouse"
+        },
+        {
+          "name": "Converted loft",
+          "description": "loft with tall industrial windows"
+        },
+        {
+          "name": "Courtyard house",
+          "description": "house around a central garden"
+        }
+      ]
+    }
+  ]
+}

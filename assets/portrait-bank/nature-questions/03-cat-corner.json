@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cat room makeover",
+      "question": "You have one sunny corner to turn into a cat hangout. What goes there?",
+      "outcomes": [
+        {
+          "name": "A window hammock",
+          "description": "Tabby resting in a crescent-shaped fabric hammock attached to a short window frame"
+        },
+        {
+          "name": "A cardboard castle",
+          "description": "Homemade cardboard cat castle with a small cat in the doorway"
+        },
+        {
+          "name": "A carpeted climbing tower",
+          "description": "Three-level scratching tower with a kitten on top"
+        },
+        {
+          "name": "A wicker hideaway",
+          "description": "Round wicker cat cave with a sleepy cream cat peeking out"
+        }
+      ]
+    }
+  ]
+}

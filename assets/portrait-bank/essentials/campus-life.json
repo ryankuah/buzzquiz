@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Campus life",
+      "question": "Which item would you choose for campus life?",
+      "outcomes": [
+        {
+          "name": "Student ID",
+          "description": "Student ID used for campus life"
+        },
+        {
+          "name": "Campus map",
+          "description": "Campus map used for campus life"
+        },
+        {
+          "name": "Library card",
+          "description": "Library card used for campus life"
+        },
+        {
+          "name": "Laptop sleeve",
+          "description": "Laptop sleeve used for campus life"
+        }
+      ]
+    }
+  ]
+}

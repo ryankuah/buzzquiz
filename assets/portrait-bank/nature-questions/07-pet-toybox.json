@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pet toy box",
+      "question": "Your pet can choose one toy from the basket. Which toy do you hold out?",
+      "outcomes": [
+        {
+          "name": "A crinkly fish",
+          "description": "Bright fabric sardine cat toy with a silvery crinkled belly"
+        },
+        {
+          "name": "A knotted rope carrot",
+          "description": "Twisted orange rope dog toy shaped like a carrot with green cotton leaves"
+        },
+        {
+          "name": "A treat-dispensing cube",
+          "description": "Teal rounded puzzle cube with a treat visible through a hole"
+        },
+        {
+          "name": "A felt mouse on elastic",
+          "description": "Soft purple felt mouse toy on a long coiled elastic cord"
+        }
+      ]
+    }
+  ]
+}

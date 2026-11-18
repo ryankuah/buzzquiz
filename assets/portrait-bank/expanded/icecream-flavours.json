@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ice cream flavour",
+      "question": "Which ice cream flavour matches your personality?",
+      "outcomes": [
+        {
+          "name": "Mint chocolate chip",
+          "description": "Mint chocolate chip"
+        },
+        {
+          "name": "Pistachio gelato",
+          "description": "Pistachio gelato"
+        },
+        {
+          "name": "Rocky road ice cream",
+          "description": "Rocky road ice cream"
+        },
+        {
+          "name": "Cookies and cream",
+          "description": "Cookies and cream"
+        }
+      ]
+    }
+  ]
+}

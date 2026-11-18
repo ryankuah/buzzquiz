@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Art class",
+      "question": "Which item would you choose for art class?",
+      "outcomes": [
+        {
+          "name": "Sketchbook",
+          "description": "Sketchbook used for art class"
+        },
+        {
+          "name": "Drawing board",
+          "description": "Drawing board used for art class"
+        },
+        {
+          "name": "Palette",
+          "description": "Palette used for art class"
+        },
+        {
+          "name": "Paintbrush",
+          "description": "Paintbrush used for art class"
+        }
+      ]
+    }
+  ]
+}

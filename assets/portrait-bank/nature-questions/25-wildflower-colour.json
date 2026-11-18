@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wildflower preferences",
+      "question": "You are choosing a colour scheme for a tiny meadow. Which patch gets the biggest space?",
+      "outcomes": [
+        {
+          "name": "Blue cornflowers",
+          "description": "Cluster of crisp cobalt blue cornflowers with delicate ragged petals"
+        },
+        {
+          "name": "Orange calendulas",
+          "description": "Clump of rich orange calendula blooms with many layered golden petals"
+        },
+        {
+          "name": "Pink cosmos",
+          "description": "Airy sprays of pink cosmos with yellow centres and feathery leaves"
+        },
+        {
+          "name": "White oxeye daisies",
+          "description": "Patch of bright white oxeye daisies on slender stalks with yellow centres"
+        }
+      ]
+    }
+  ]
+}

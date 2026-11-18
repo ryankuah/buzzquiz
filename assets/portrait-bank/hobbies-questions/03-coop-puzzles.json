@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Co-op puzzle games",
+      "question": "The next room opens only when both players help. Which half of the puzzle do you claim?",
+      "outcomes": [
+        {
+          "name": "Turn the mirror to catch a beam",
+          "description": "A player rotating a brass mirror to redirect a clear golden beam"
+        },
+        {
+          "name": "Read the glyphs from the balcony",
+          "description": "A player perched on a miniature balcony holding a glowing glyph tablet"
+        },
+        {
+          "name": "Hold the pressure plate down",
+          "description": "A player planting both feet on a sunken stone pressure plate"
+        },
+        {
+          "name": "Guide the marble through a maze",
+          "description": "A player tilting a wooden labyrinth with a large silver marble"
+        }
+      ]
+    }
+  ]
+}

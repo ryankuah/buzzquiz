@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Woodland treasure hunt",
+      "question": "Your friends draw four clues for a woodland treasure hunt. Which object do you volunteer to find?",
+      "outcomes": [
+        {
+          "name": "A feather shaped like a quill",
+          "description": "Long dark naturally shed feather with a cream tip and elegantly curved shaft"
+        },
+        {
+          "name": "A leaf with a heart-shaped hole",
+          "description": "Fresh green broad leaf with a clear naturally nibbled heart-shaped hole"
+        },
+        {
+          "name": "A stone with a white stripe",
+          "description": "Smooth grey river stone bisected by a single broad white quartz stripe"
+        },
+        {
+          "name": "A forked twig like antlers",
+          "description": "Small brown fallen branch with symmetrical forks resembling deer antlers"
+        }
+      ]
+    }
+  ]
+}

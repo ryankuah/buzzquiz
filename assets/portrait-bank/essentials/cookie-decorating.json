@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cookie decorating",
+      "question": "Which item would you choose for cookie decorating?",
+      "outcomes": [
+        {
+          "name": "Icing bag",
+          "description": "Icing bag used for cookie decorating"
+        },
+        {
+          "name": "Cookie tray",
+          "description": "Cookie tray used for cookie decorating"
+        },
+        {
+          "name": "Cookie cutter",
+          "description": "Cookie cutter used for cookie decorating"
+        },
+        {
+          "name": "Sprinkle shaker",
+          "description": "Sprinkle shaker used for cookie decorating"
+        }
+      ]
+    }
+  ]
+}

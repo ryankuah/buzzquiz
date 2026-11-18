@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Boat trip",
+      "question": "Which item would you choose for boat trip?",
+      "outcomes": [
+        {
+          "name": "Oar",
+          "description": "Oar used for boat trip"
+        },
+        {
+          "name": "Anchor",
+          "description": "Anchor used for boat trip"
+        },
+        {
+          "name": "Boat rope",
+          "description": "Boat rope used for boat trip"
+        },
+        {
+          "name": "Life ring",
+          "description": "Life ring used for boat trip"
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,8 @@
     "format:check": "prettier --check src convex scripts tests *.ts *.json README.md docs",
     "migrate:local": "node --env-file=.env.local --import tsx scripts/migrate-local.ts",
     "topics:backfill": "node --env-file=.env.local --import tsx scripts/backfill-topics.ts",
-    "library:index": "node --env-file=.env.local --import tsx scripts/index-library.ts"
+    "library:index": "node --env-file=.env.local --import tsx scripts/index-library.ts",
+    "library:stock": "node --env-file-if-exists=.env.local --import tsx scripts/import-stock-art.ts"
   },
   "keywords": [],
   "author": "",

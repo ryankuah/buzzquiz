@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Imaginary animal café",
+      "question": "You are opening a café for woodland animals. Which detail goes into the design?",
+      "outcomes": [
+        {
+          "name": "Acorn pendant lamps",
+          "description": "Pair of warm glowing pendant lamps shaped like textured oak acorns"
+        },
+        {
+          "name": "A hollow-log counter",
+          "description": "Tiny rustic café counter built into a hollow log with a miniature teapot"
+        },
+        {
+          "name": "Toadstool stools",
+          "description": "Three red-capped mushroom-shaped wooden stools with pale stems"
+        },
+        {
+          "name": "A leaf-shaped menu board",
+          "description": "Small wooden menu chalkboard cut as a maple leaf with simple illustrated cups and no text"
+        }
+      ]
+    }
+  ]
+}

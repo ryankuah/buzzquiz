@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dessert",
+      "question": "Which dessert matches your personality?",
+      "outcomes": [
+        {
+          "name": "Baklava",
+          "description": "diamond-shaped pistachio baklava"
+        },
+        {
+          "name": "Pavlova",
+          "description": "meringue nest with cream and berries"
+        },
+        {
+          "name": "Crème brûlée",
+          "description": "caramel-topped custard in ramekin"
+        },
+        {
+          "name": "Mochi",
+          "description": "round pink and white rice cakes"
+        }
+      ]
+    }
+  ]
+}

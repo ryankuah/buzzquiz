@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Berry",
+      "question": "Which berry matches your personality?",
+      "outcomes": [
+        {
+          "name": "Raspberry",
+          "description": "Raspberry"
+        },
+        {
+          "name": "Gooseberry",
+          "description": "Gooseberry"
+        },
+        {
+          "name": "Mulberry",
+          "description": "Mulberry"
+        },
+        {
+          "name": "Redcurrant",
+          "description": "Redcurrant"
+        }
+      ]
+    }
+  ]
+}

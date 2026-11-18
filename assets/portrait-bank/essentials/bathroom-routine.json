@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bathroom routine",
+      "question": "Which item would you choose for bathroom routine?",
+      "outcomes": [
+        {
+          "name": "Towel",
+          "description": "Towel used for bathroom routine"
+        },
+        {
+          "name": "Toothbrush",
+          "description": "Toothbrush used for bathroom routine"
+        },
+        {
+          "name": "Soap dish",
+          "description": "Soap dish used for bathroom routine"
+        },
+        {
+          "name": "Hairbrush",
+          "description": "Hairbrush used for bathroom routine"
+        }
+      ]
+    }
+  ]
+}

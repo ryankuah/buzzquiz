@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Breakfast food",
+      "question": "Which breakfast food matches your personality?",
+      "outcomes": [
+        {
+          "name": "Shakshuka",
+          "description": "eggs in tomato sauce in a skillet"
+        },
+        {
+          "name": "French toast",
+          "description": "golden French toast slices with berries"
+        },
+        {
+          "name": "Breakfast burrito",
+          "description": "cut burrito showing egg and beans"
+        },
+        {
+          "name": "Yoghurt parfait",
+          "description": "layered glass of yoghurt granola and berries"
+        }
+      ]
+    }
+  ]
+}

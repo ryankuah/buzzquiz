@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Country fair",
+      "question": "A country fair lets you enter one handmade item. What do you carry to the judging tent?",
+      "outcomes": [
+        {
+          "name": "A pressed-flower lantern",
+          "description": "Glass jar lantern decorated with real pressed purple and yellow flowers"
+        },
+        {
+          "name": "A carved apple bird",
+          "description": "Bright red apple carved into a little bird with layered wings"
+        },
+        {
+          "name": "A woven grass basket",
+          "description": "Tightly woven light-green grass basket with two small handles"
+        },
+        {
+          "name": "A botanical print on cloth",
+          "description": "Cream cotton square printed with dark green leaf silhouettes on a small wooden hanger"
+        }
+      ]
+    }
+  ]
+}

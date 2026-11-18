@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rainy nature date",
+      "question": "Rain arrives halfway through your outdoor date. Which covered spot do you dash to?",
+      "outcomes": [
+        {
+          "name": "A glass fernery",
+          "description": "Little curved glass fern house filled with soft green fronds and beaded with rain"
+        },
+        {
+          "name": "A lakeside bird hide",
+          "description": "Wooden observation hut with slim viewing windows above lake reeds"
+        },
+        {
+          "name": "An old bandstand",
+          "description": "Small cream Victorian octagonal bandstand with a green roof and puddles"
+        },
+        {
+          "name": "A covered footbridge",
+          "description": "Compact red covered wooden bridge over a stream with rain ripples"
+        }
+      ]
+    }
+  ]
+}

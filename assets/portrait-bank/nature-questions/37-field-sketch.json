@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Nature sketching",
+      "question": "You have a blank sketchbook page and twenty minutes before lunch. What do you draw?",
+      "outcomes": [
+        {
+          "name": "The curl of a fern frond",
+          "description": "Single bright green curled fern fiddlehead next to a graphite sketch"
+        },
+        {
+          "name": "A bee on apple blossom",
+          "description": "Honeybee on a white apple blossom beside a partial pencil study"
+        },
+        {
+          "name": "The rings of a tree stump",
+          "description": "Round cut tree stump with visible rings beside a small sketch of concentric circles"
+        },
+        {
+          "name": "A puddle reflecting clouds",
+          "description": "Contained oval rain puddle reflecting a pale blue sky and two clouds beside a tiny sketch"
+        }
+      ]
+    }
+  ]
+}

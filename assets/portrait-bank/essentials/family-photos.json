@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Family photos",
+      "question": "Which item would you choose for family photos?",
+      "outcomes": [
+        {
+          "name": "Photo album",
+          "description": "Photo album used for family photos"
+        },
+        {
+          "name": "Picture frame",
+          "description": "Picture frame used for family photos"
+        },
+        {
+          "name": "Film sleeve",
+          "description": "Film sleeve used for family photos"
+        },
+        {
+          "name": "Negative strip",
+          "description": "Negative strip used for family photos"
+        }
+      ]
+    }
+  ]
+}

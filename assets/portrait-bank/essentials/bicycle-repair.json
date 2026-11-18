@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bicycle repair",
+      "question": "Which item would you choose for bicycle repair?",
+      "outcomes": [
+        {
+          "name": "Bicycle pump",
+          "description": "Bicycle pump used for bicycle repair"
+        },
+        {
+          "name": "Spare inner tube",
+          "description": "Spare inner tube used for bicycle repair"
+        },
+        {
+          "name": "Tyre lever",
+          "description": "Tyre lever used for bicycle repair"
+        },
+        {
+          "name": "Patch kit",
+          "description": "Patch kit used for bicycle repair"
+        }
+      ]
+    }
+  ]
+}

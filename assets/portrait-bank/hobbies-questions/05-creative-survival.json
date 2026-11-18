@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Survival building games",
+      "question": "Night falls on your first base. Which comfort do you finish before your character sleeps?",
+      "outcomes": [
+        {
+          "name": "A hanging hammock",
+          "description": "A woven green hammock suspended between two wooden posts"
+        },
+        {
+          "name": "A chimney lamp",
+          "description": "A glowing sheltered lantern atop a little brick chimney"
+        },
+        {
+          "name": "A rain barrel",
+          "description": "A wooden rain barrel with brass tap and small downspout"
+        },
+        {
+          "name": "A wooden lookout",
+          "description": "A raised timber lookout platform with a short ladder"
+        }
+      ]
+    }
+  ]
+}

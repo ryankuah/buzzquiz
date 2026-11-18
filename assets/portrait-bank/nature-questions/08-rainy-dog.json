@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rainy-day dog enrichment",
+      "question": "It is raining too hard for your usual long dog walk. What do you set up indoors?",
+      "outcomes": [
+        {
+          "name": "A towel-roll treasure hunt",
+          "description": "Rolled yellow towel partially unrolled by a dog's nose to reveal a few treats"
+        },
+        {
+          "name": "A cardboard-box maze",
+          "description": "Small dachshund peeking past a series of open low cardboard boxes"
+        },
+        {
+          "name": "A living-room hurdle",
+          "description": "Spaniel stepping over a low padded pole resting between two cushions"
+        },
+        {
+          "name": "A hide-and-seek game",
+          "description": "Happy terrier discovering a person's socked feet behind a curtain"
+        }
+      ]
+    }
+  ]
+}

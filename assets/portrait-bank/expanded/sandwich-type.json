@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sandwich",
+      "question": "Which sandwich matches your personality?",
+      "outcomes": [
+        {
+          "name": "Reuben sandwich",
+          "description": "Reuben sandwich"
+        },
+        {
+          "name": "Cuban sandwich",
+          "description": "Cuban sandwich"
+        },
+        {
+          "name": "Egg salad sandwich",
+          "description": "Egg salad sandwich"
+        },
+        {
+          "name": "Caprese panini",
+          "description": "Caprese panini"
+        }
+      ]
+    }
+  ]
+}

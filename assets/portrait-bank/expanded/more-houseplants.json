@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Houseplant",
+      "question": "Which houseplant matches your personality?",
+      "outcomes": [
+        {
+          "name": "Snake plant",
+          "description": "upright striped snake plant in pot"
+        },
+        {
+          "name": "String of pearls",
+          "description": "trailing bead-like succulent"
+        },
+        {
+          "name": "Peace lily",
+          "description": "white peace lily in pot"
+        },
+        {
+          "name": "Rubber plant",
+          "description": "broad glossy leaves in a pot"
+        }
+      ]
+    }
+  ]
+}

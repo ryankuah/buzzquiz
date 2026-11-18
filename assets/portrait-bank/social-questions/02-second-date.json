@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Second date",
+      "question": "The first date went well. How do you ask for another?",
+      "outcomes": [
+        {
+          "name": "Offer a spare gig ticket",
+          "description": "An adult extending a brightly coloured concert ticket with a shy smile"
+        },
+        {
+          "name": "Send a voice invitation",
+          "description": "An adult speaking into a phone that shows a plain audio waveform"
+        },
+        {
+          "name": "Suggest a cookbook challenge",
+          "description": "An adult opening a cookbook with a photograph of home-made dumplings toward a date"
+        },
+        {
+          "name": "Circle a day together",
+          "description": "Two adults side by side marking a date on a small paper calendar"
+        }
+      ]
+    }
+  ]
+}

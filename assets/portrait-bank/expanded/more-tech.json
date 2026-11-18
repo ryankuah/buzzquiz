@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Retro tech",
+      "question": "Which retro tech matches your personality?",
+      "outcomes": [
+        {
+          "name": "Floppy disk",
+          "description": "Floppy disk"
+        },
+        {
+          "name": "CRT television",
+          "description": "CRT television"
+        },
+        {
+          "name": "Film projector",
+          "description": "Film projector"
+        },
+        {
+          "name": "Portable minidisc recorder",
+          "description": "Portable minidisc recorder"
+        }
+      ]
+    }
+  ]
+}

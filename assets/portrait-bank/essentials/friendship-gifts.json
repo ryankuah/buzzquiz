@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Friendship gifts",
+      "question": "Which item would you choose for friendship gifts?",
+      "outcomes": [
+        {
+          "name": "Photo frame",
+          "description": "Photo frame used for friendship gifts"
+        },
+        {
+          "name": "Postcard",
+          "description": "Postcard used for friendship gifts"
+        },
+        {
+          "name": "Gift box",
+          "description": "Gift box used for friendship gifts"
+        },
+        {
+          "name": "Mini photo album",
+          "description": "Mini photo album used for friendship gifts"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fairytale nature guide",
+      "question": "You wake in a storybook forest and four guides offer directions. Who do you follow?",
+      "outcomes": [
+        {
+          "name": "A lantern-carrying dormouse",
+          "description": "Tiny dormouse in a waistcoat holding a warm acorn lantern"
+        },
+        {
+          "name": "A kingfisher with a compass",
+          "description": "Bright kingfisher perched on a small open brass pocket compass"
+        },
+        {
+          "name": "A tortoise wearing a map cape",
+          "description": "Friendly green tortoise with a folded illustrated map draped like a cape"
+        },
+        {
+          "name": "A stag with moonlit antlers",
+          "description": "Graceful brown stag with soft silver highlights along its branching antlers"
+        }
+      ]
+    }
+  ]
+}

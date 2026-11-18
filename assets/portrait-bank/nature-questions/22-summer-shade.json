@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Summer shade",
+      "question": "It is the hottest day of summer. Which shady spot would you claim?",
+      "outcomes": [
+        {
+          "name": "A hammock beneath palms",
+          "description": "Striped canvas hammock strung between two little palms"
+        },
+        {
+          "name": "A creekside willow seat",
+          "description": "Small wooden bench under drooping willow branches at the edge of a creek"
+        },
+        {
+          "name": "A vine-covered pergola",
+          "description": "Leafy timber pergola with a simple seat and hanging purple grape clusters"
+        },
+        {
+          "name": "A breezy beach umbrella",
+          "description": "Striped turquoise sun umbrella shading a low chair planted in pale sand"
+        }
+      ]
+    }
+  ]
+}

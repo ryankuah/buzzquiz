@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Exams",
+      "question": "Which item would you choose for exams?",
+      "outcomes": [
+        {
+          "name": "Exam paper",
+          "description": "Exam paper used for exams"
+        },
+        {
+          "name": "Answer sheet",
+          "description": "Answer sheet used for exams"
+        },
+        {
+          "name": "Stopwatch",
+          "description": "Stopwatch used for exams"
+        },
+        {
+          "name": "Calculator",
+          "description": "Calculator used for exams"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Kitchen utensil",
+      "question": "Which kitchen utensil matches your personality?",
+      "outcomes": [
+        {
+          "name": "Colander",
+          "description": "Colander"
+        },
+        {
+          "name": "Garlic press",
+          "description": "Garlic press"
+        },
+        {
+          "name": "Silicone pastry brush",
+          "description": "Silicone pastry brush"
+        },
+        {
+          "name": "Box grater",
+          "description": "Box grater"
+        }
+      ]
+    }
+  ]
+}

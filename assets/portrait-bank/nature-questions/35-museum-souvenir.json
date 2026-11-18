@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Museum gift shop",
+      "question": "You have enough for one souvenir at a natural history museum. What comes home with you?",
+      "outcomes": [
+        {
+          "name": "A fossil rubbing kit",
+          "description": "Small paper pack with a trilobite relief, blank sheet and two wax rubbing sticks"
+        },
+        {
+          "name": "A bird-call whistle",
+          "description": "Small carved wooden bird-shaped whistle on a simple cord"
+        },
+        {
+          "name": "A meteorite postcard",
+          "description": "Illustrated postcard of a fiery meteor over desert hills, without writing"
+        },
+        {
+          "name": "A pocket magnifier necklace",
+          "description": "Round brass magnifying lens on a long dark leather cord"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Winter cottage weekend",
+      "question": "A snowstorm leaves you with a whole afternoon in a cottage. What do you do at the table?",
+      "outcomes": [
+        {
+          "name": "Paint wooden bird ornaments",
+          "description": "Wooden bird shapes, paintbrush and a half-painted red robin ornament"
+        },
+        {
+          "name": "Press winter leaves",
+          "description": "Small wooden flower press open around fern and ivy leaves with blotting paper"
+        },
+        {
+          "name": "Make orange-and-clove pomanders",
+          "description": "Whole orange studded in a spiral of cloves with a velvet ribbon"
+        },
+        {
+          "name": "Sort stones by torchlight",
+          "description": "Small collection of translucent agate slices on a table with light shining through one"
+        }
+      ]
+    }
+  ]
+}

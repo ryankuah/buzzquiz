@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Street food",
+      "question": "Which street food matches your personality?",
+      "outcomes": [
+        {
+          "name": "Arepa",
+          "description": "griddled filled corn arepa"
+        },
+        {
+          "name": "Elote",
+          "description": "Mexican street corn on a stick"
+        },
+        {
+          "name": "Bánh mì",
+          "description": "Vietnamese baguette sandwich"
+        },
+        {
+          "name": "Simit",
+          "description": "sesame-coated Turkish bread ring"
+        }
+      ]
+    }
+  ]
+}

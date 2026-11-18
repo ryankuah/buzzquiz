@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Birthday cake",
+      "question": "Which item would you choose for birthday cake?",
+      "outcomes": [
+        {
+          "name": "Cake stand",
+          "description": "Cake stand used for birthday cake"
+        },
+        {
+          "name": "Birthday candle",
+          "description": "Birthday candle used for birthday cake"
+        },
+        {
+          "name": "Cake server",
+          "description": "Cake server used for birthday cake"
+        },
+        {
+          "name": "Cake box",
+          "description": "Cake box used for birthday cake"
+        }
+      ]
+    }
+  ]
+}

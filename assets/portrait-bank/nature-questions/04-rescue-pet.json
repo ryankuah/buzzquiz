@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Animal shelter volunteering",
+      "question": "A shelter asks you to help on Saturday. Which job do you pick?",
+      "outcomes": [
+        {
+          "name": "Walking a shelter dog",
+          "description": "Volunteer in green jacket holding the lead of a relaxed tan dog"
+        },
+        {
+          "name": "Reading to shy cats",
+          "description": "Seated volunteer reading a picture book to a shy tuxedo cat"
+        },
+        {
+          "name": "Making fleece toys",
+          "description": "Volunteer hands braiding brightly coloured strips into sturdy dog toys"
+        },
+        {
+          "name": "Taking adoption portraits",
+          "description": "Volunteer with camera photographing a small dog in a bright bandana"
+        }
+      ]
+    }
+  ]
+}

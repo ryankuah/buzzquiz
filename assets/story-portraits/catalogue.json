@@ -1,0 +1,377 @@
+[
+  {
+    "sheet": "romance-trope",
+    "cells": [
+      {
+        "topic": "Romance trope",
+        "name": "Friends to lovers",
+        "description": "two adult friends laughing together with matching friendship bracelets"
+      },
+      {
+        "topic": "Romance trope",
+        "name": "Rivals to lovers",
+        "description": "adult rivals exchanging a trophy and a delighted smile"
+      },
+      {
+        "topic": "Romance trope",
+        "name": "Secret admirer",
+        "description": "a handwritten unsigned envelope left with a rose"
+      },
+      {
+        "topic": "Romance trope",
+        "name": "Second chance romance",
+        "description": "two older adults reconnecting over an old photo and fresh flowers"
+      }
+    ]
+  },
+  {
+    "sheet": "rom-com-best-friend",
+    "cells": [
+      {
+        "topic": "Rom-com best friend",
+        "name": "The getaway driver",
+        "description": "cheery adult holding car keys and two coffees"
+      },
+      {
+        "topic": "Rom-com best friend",
+        "name": "The voice of reason",
+        "description": "thoughtful adult with a calming open palm and a notebook"
+      },
+      {
+        "topic": "Rom-com best friend",
+        "name": "The accidental matchmaker",
+        "description": "adult arranging two place cards together"
+      },
+      {
+        "topic": "Rom-com best friend",
+        "name": "The hype friend",
+        "description": "beaming adult holding colourful homemade pom-poms"
+      }
+    ]
+  },
+  {
+    "sheet": "mystery-novel-character",
+    "cells": [
+      {
+        "topic": "Mystery novel character",
+        "name": "The retired inspector",
+        "description": "older detective with a pocket notebook and magnifier"
+      },
+      {
+        "topic": "Mystery novel character",
+        "name": "The amateur sleuth",
+        "description": "curious baker examining a clue through reading glasses"
+      },
+      {
+        "topic": "Mystery novel character",
+        "name": "The unreliable narrator",
+        "description": "storyteller with contrasting diary pages behind their back"
+      },
+      {
+        "topic": "Mystery novel character",
+        "name": "The observant neighbour",
+        "description": "adult tending a houseplant while watching from a window"
+      }
+    ]
+  },
+  {
+    "sheet": "fantasy-library-job",
+    "cells": [
+      {
+        "topic": "Fantasy library job",
+        "name": "Map conservator",
+        "description": "person unrolling and gently repairing a hand-painted fantasy map"
+      },
+      {
+        "topic": "Fantasy library job",
+        "name": "Spellbook binder",
+        "description": "person stitching gilt enchanted book covers"
+      },
+      {
+        "topic": "Fantasy library job",
+        "name": "Dragon archivist",
+        "description": "librarian filing small sketches of dragon species"
+      },
+      {
+        "topic": "Fantasy library job",
+        "name": "Lantern keeper",
+        "description": "person polishing a glowing library lantern"
+      }
+    ]
+  },
+  {
+    "sheet": "fairytale-helper",
+    "cells": [
+      {
+        "topic": "Fairytale helper",
+        "name": "The talking mirror",
+        "description": "antique oval mirror with a kind face in the silver"
+      },
+      {
+        "topic": "Fairytale helper",
+        "name": "The pumpkin driver",
+        "description": "smiling uniformed coach driver holding a pumpkin lantern"
+      },
+      {
+        "topic": "Fairytale helper",
+        "name": "The fairy godparent",
+        "description": "older fairy with a silver wand and a tiny cobbler's apron"
+      },
+      {
+        "topic": "Fairytale helper",
+        "name": "The wishing well keeper",
+        "description": "person lowering a brass bucket with a star charm"
+      }
+    ]
+  },
+  {
+    "sheet": "storybook-explorer",
+    "cells": [
+      {
+        "topic": "Storybook explorer",
+        "name": "The cloud cartographer",
+        "description": "figure sketching a puffy cloud on a map board"
+      },
+      {
+        "topic": "Storybook explorer",
+        "name": "The mushroom botanist",
+        "description": "person holding a big red mushroom and a field guide"
+      },
+      {
+        "topic": "Storybook explorer",
+        "name": "The clockwork tinkerer",
+        "description": "person adjusting a small brass mechanical bird"
+      },
+      {
+        "topic": "Storybook explorer",
+        "name": "The star voyager",
+        "description": "person carrying a navy star globe and a travel satchel"
+      }
+    ]
+  },
+  {
+    "sheet": "literary-heroine",
+    "cells": [
+      {
+        "topic": "Literary heroine",
+        "name": "Jo March",
+        "description": "young woman at a desk with ink pen, loose manuscript and tied back hair"
+      },
+      {
+        "topic": "Literary heroine",
+        "name": "Elizabeth Bennet",
+        "description": "Regency-era woman in a walking bonnet reading a letter"
+      },
+      {
+        "topic": "Literary heroine",
+        "name": "Anne Shirley",
+        "description": "red-haired girl in a straw hat holding wildflowers"
+      },
+      {
+        "topic": "Literary heroine",
+        "name": "Dorothy Gale",
+        "description": "girl in a blue checked dress carrying a little black terrier in a basket"
+      }
+    ]
+  },
+  {
+    "sheet": "classic-adventure-hero",
+    "cells": [
+      {
+        "topic": "Classic adventure hero",
+        "name": "Phileas Fogg",
+        "description": "Victorian traveller in a top hat checking a pocket watch"
+      },
+      {
+        "topic": "Classic adventure hero",
+        "name": "Captain Nemo",
+        "description": "submarine captain holding a model of the Nautilus"
+      },
+      {
+        "topic": "Classic adventure hero",
+        "name": "Sinbad the Sailor",
+        "description": "storybook mariner with a coiled rope and a small sailing dhow"
+      },
+      {
+        "topic": "Classic adventure hero",
+        "name": "D'Artagnan",
+        "description": "young musketeer with a blue cape and a plumed broad-brimmed hat"
+      }
+    ]
+  },
+  {
+    "sheet": "literary-animal",
+    "cells": [
+      {
+        "topic": "Literary animal",
+        "name": "White Fang",
+        "description": "alert grey wolfdog standing on a snowy rock"
+      },
+      {
+        "topic": "Literary animal",
+        "name": "Black Beauty",
+        "description": "handsome black horse with a white forehead star"
+      },
+      {
+        "topic": "Literary animal",
+        "name": "The White Rabbit",
+        "description": "white rabbit wearing a bright waistcoat checking a pocket watch"
+      },
+      {
+        "topic": "Literary animal",
+        "name": "Mr Toad",
+        "description": "smartly dressed green toad wearing driving goggles and gloves"
+      }
+    ]
+  },
+  {
+    "sheet": "fairytale-home",
+    "cells": [
+      {
+        "topic": "Fairytale home",
+        "name": "Gingerbread cottage",
+        "description": "cottage with gingerbread walls and a candy tiled roof"
+      },
+      {
+        "topic": "Fairytale home",
+        "name": "Briar-covered tower",
+        "description": "slender tower wrapped in rose briars and one high window"
+      },
+      {
+        "topic": "Fairytale home",
+        "name": "House of straw",
+        "description": "small straw hut with a thatched roof"
+      },
+      {
+        "topic": "Fairytale home",
+        "name": "Glass mountain castle",
+        "description": "translucent crystalline castle atop a pale blue rocky peak"
+      }
+    ]
+  },
+  {
+    "sheet": "fantasy-transport",
+    "cells": [
+      {
+        "topic": "Fantasy transport",
+        "name": "Carpet flight",
+        "description": "fringed jewel-coloured flying carpet curling in midair"
+      },
+      {
+        "topic": "Fantasy transport",
+        "name": "Bubble carriage",
+        "description": "iridescent bubble carriage pulled by a tiny winged moth"
+      },
+      {
+        "topic": "Fantasy transport",
+        "name": "Sky gondola",
+        "description": "wooden gondola hanging beneath a bright patchwork balloon"
+      },
+      {
+        "topic": "Fantasy transport",
+        "name": "Moon sleigh",
+        "description": "silver crescent-shaped sleigh drawn by a snowy hare"
+      }
+    ]
+  },
+  {
+    "sheet": "witch-familiar",
+    "cells": [
+      {
+        "topic": "Witch familiar",
+        "name": "Luna moth",
+        "description": "large pale green moth with eye spots and long hindwing tails"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "Silver ferret",
+        "description": "pale silver ferret with an inquisitive head tilt"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "Hedgehog familiar",
+        "description": "small curled hedgehog with a sprig of lavender"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "White rat familiar",
+        "description": "bright eyed white pet rat balanced on an old key"
+      }
+    ]
+  },
+  {
+    "sheet": "witch-specialty",
+    "cells": [
+      {
+        "topic": "Witch specialty",
+        "name": "Kitchen witch",
+        "description": "adult stirring a small enamel pot with garden herbs"
+      },
+      {
+        "topic": "Witch specialty",
+        "name": "Sea witch",
+        "description": "adult holding a nautilus shell and strands of kelp"
+      },
+      {
+        "topic": "Witch specialty",
+        "name": "Hedge witch",
+        "description": "adult carrying a basket of wild herbs and a carved walking stick"
+      },
+      {
+        "topic": "Witch specialty",
+        "name": "Cosmic witch",
+        "description": "adult in a star patterned cloak holding a brass astrolabe"
+      }
+    ]
+  },
+  {
+    "sheet": "fantasy-royal-role",
+    "cells": [
+      {
+        "topic": "Fantasy royal role",
+        "name": "Royal astronomer",
+        "description": "court scholar peering through a brass telescope"
+      },
+      {
+        "topic": "Fantasy royal role",
+        "name": "Royal beekeeper",
+        "description": "keeper in a veil holding a honeycomb frame and a tiny gold crown motif"
+      },
+      {
+        "topic": "Fantasy royal role",
+        "name": "Royal messenger",
+        "description": "traveller delivering a red wax sealed scroll"
+      },
+      {
+        "topic": "Fantasy royal role",
+        "name": "Royal gardener",
+        "description": "gardener pruning a potted topiary shaped like a crown"
+      }
+    ]
+  },
+  {
+    "sheet": "haunted-house-resident",
+    "cells": [
+      {
+        "topic": "Haunted house resident",
+        "name": "The polite ghost",
+        "description": "smiling translucent Victorian ghost tipping a hat"
+      },
+      {
+        "topic": "Haunted house resident",
+        "name": "The attic violinist",
+        "description": "ghostly musician holding a dusty fiddle"
+      },
+      {
+        "topic": "Haunted house resident",
+        "name": "The clock collector",
+        "description": "eccentric human holding an antique cuckoo clock"
+      },
+      {
+        "topic": "Haunted house resident",
+        "name": "The candle keeper",
+        "description": "small friendly wisp floating over a brass candlestick"
+      }
+    ]
+  }
+]

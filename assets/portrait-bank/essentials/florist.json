@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Florist",
+      "question": "Which item would you choose for florist?",
+      "outcomes": [
+        {
+          "name": "Flower vase",
+          "description": "Flower vase used for florist"
+        },
+        {
+          "name": "Floral foam",
+          "description": "Floral foam used for florist"
+        },
+        {
+          "name": "Wrapping paper",
+          "description": "Wrapping paper used for florist"
+        },
+        {
+          "name": "Florist ribbon",
+          "description": "Florist ribbon used for florist"
+        }
+      ]
+    }
+  ]
+}

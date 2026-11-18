@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Classroom",
+      "question": "Which item would you choose for classroom?",
+      "outcomes": [
+        {
+          "name": "Chalkboard",
+          "description": "Chalkboard used for classroom"
+        },
+        {
+          "name": "Whiteboard",
+          "description": "Whiteboard used for classroom"
+        },
+        {
+          "name": "School bell",
+          "description": "School bell used for classroom"
+        },
+        {
+          "name": "Locker",
+          "description": "Locker used for classroom"
+        }
+      ]
+    }
+  ]
+}

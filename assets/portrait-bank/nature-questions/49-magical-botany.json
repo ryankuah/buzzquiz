@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Imaginary plants",
+      "question": "A storybook nursery offers to send one impossible plant to your home. What do you order?",
+      "outcomes": [
+        {
+          "name": "A bellflower that rings",
+          "description": "Arching green plant with little violet bell flowers containing tiny clappers"
+        },
+        {
+          "name": "A fern with starry fronds",
+          "description": "Soft dark-green fern whose tips hold tiny golden star-shaped speckles"
+        },
+        {
+          "name": "A lantern berry bush",
+          "description": "Small leafy bush bearing warm-glowing amber lanternlike berries"
+        },
+        {
+          "name": "A vine of paper butterflies",
+          "description": "Cascading green vine covered with delicate folded-paper butterfly blooms"
+        }
+      ]
+    }
+  ]
+}

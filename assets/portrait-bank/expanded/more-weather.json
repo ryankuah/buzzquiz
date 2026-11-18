@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Weather",
+      "question": "Which weather matches your personality?",
+      "outcomes": [
+        {
+          "name": "Fog",
+          "description": "fog drifting through pine silhouettes"
+        },
+        {
+          "name": "Hailstorm",
+          "description": "cloud dropping round hailstones"
+        },
+        {
+          "name": "Drizzle",
+          "description": "fine rain below a grey cloud"
+        },
+        {
+          "name": "Heatwave",
+          "description": "sunlit hot desert with shimmering air"
+        }
+      ]
+    }
+  ]
+}

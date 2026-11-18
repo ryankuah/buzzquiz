@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Car maintenance",
+      "question": "Which item would you choose for car maintenance?",
+      "outcomes": [
+        {
+          "name": "Tyre pump",
+          "description": "Tyre pump used for car maintenance"
+        },
+        {
+          "name": "Wheel brace",
+          "description": "Wheel brace used for car maintenance"
+        },
+        {
+          "name": "Oil funnel",
+          "description": "Oil funnel used for car maintenance"
+        },
+        {
+          "name": "Cleaning cloth",
+          "description": "Cleaning cloth used for car maintenance"
+        }
+      ]
+    }
+  ]
+}

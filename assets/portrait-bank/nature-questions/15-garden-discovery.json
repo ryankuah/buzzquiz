@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Backyard discovery",
+      "question": "You take a magnifying glass into the garden. What would you spend ten minutes watching?",
+      "outcomes": [
+        {
+          "name": "Ants carrying crumbs",
+          "description": "Small group of red ants carrying one large golden crumb"
+        },
+        {
+          "name": "A snail crossing a leaf",
+          "description": "Brown garden snail inching along a fresh green leaf"
+        },
+        {
+          "name": "A spider repairing its web",
+          "description": "Orb-weaver perched on a small delicate circular web between two twigs"
+        },
+        {
+          "name": "A beetle unfolding its wings",
+          "description": "Bright lady beetle lifting its red wing covers to reveal translucent flight wings"
+        }
+      ]
+    }
+  ]
+}

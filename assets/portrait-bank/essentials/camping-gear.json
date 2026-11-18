@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Camping gear",
+      "question": "Which item would you choose for camping gear?",
+      "outcomes": [
+        {
+          "name": "Tent",
+          "description": "Tent used for camping gear"
+        },
+        {
+          "name": "Sleeping bag",
+          "description": "Sleeping bag used for camping gear"
+        },
+        {
+          "name": "Camp stove",
+          "description": "Camp stove used for camping gear"
+        },
+        {
+          "name": "Groundsheet",
+          "description": "Groundsheet used for camping gear"
+        }
+      ]
+    }
+  ]
+}

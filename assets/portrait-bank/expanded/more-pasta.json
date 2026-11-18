@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pasta shape",
+      "question": "Which pasta shape matches your personality?",
+      "outcomes": [
+        {
+          "name": "Rigatoni",
+          "description": "Rigatoni"
+        },
+        {
+          "name": "Orecchiette",
+          "description": "Orecchiette"
+        },
+        {
+          "name": "Pappardelle",
+          "description": "Pappardelle"
+        },
+        {
+          "name": "Tortellini",
+          "description": "Tortellini"
+        }
+      ]
+    }
+  ]
+}

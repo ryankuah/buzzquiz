@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Virtual pet rescue",
+      "question": "A nervous pixel pet is waiting in your game’s rescue pen. What do you bring to its door?",
+      "outcomes": [
+        {
+          "name": "A blanket cave",
+          "description": "A folded violet fleece blanket forming a small dark cozy tent"
+        },
+        {
+          "name": "A squeaky carrot",
+          "description": "An orange plush carrot toy with green leaves"
+        },
+        {
+          "name": "A bowl of star-shaped treats",
+          "description": "A blue ceramic feeding bowl filled with golden star treats"
+        },
+        {
+          "name": "A soft grooming mitt",
+          "description": "A soft lavender grooming mitt with rounded rubber nubs"
+        }
+      ]
+    }
+  ]
+}

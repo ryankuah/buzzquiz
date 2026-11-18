@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Beachcombing",
+      "question": "The beach is quiet after a storm. What would you photograph before leaving it where you found it?",
+      "outcomes": [
+        {
+          "name": "A wave-carved driftwood knot",
+          "description": "Smooth silver driftwood twisted into an intricate knot lying on sand"
+        },
+        {
+          "name": "A feather caught in foam",
+          "description": "Long grey-and-white seabird feather resting beside a thin curl of sea foam"
+        },
+        {
+          "name": "A sand dollar in the shallows",
+          "description": "Flat pale sand dollar with a subtle five-petal marking visible in clear shallow water"
+        },
+        {
+          "name": "A ripple pattern in wet sand",
+          "description": "Small patch of striking parallel ridges formed by receding waves in wet sand"
+        }
+      ]
+    }
+  ]
+}

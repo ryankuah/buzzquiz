@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Filmmaking",
+      "question": "Which item would you choose for filmmaking?",
+      "outcomes": [
+        {
+          "name": "Reel of film",
+          "description": "Reel of film used for filmmaking"
+        },
+        {
+          "name": "Camera dolly",
+          "description": "Camera dolly used for filmmaking"
+        },
+        {
+          "name": "Light reflector",
+          "description": "Light reflector used for filmmaking"
+        },
+        {
+          "name": "Shot list",
+          "description": "Shot list used for filmmaking"
+        }
+      ]
+    }
+  ]
+}

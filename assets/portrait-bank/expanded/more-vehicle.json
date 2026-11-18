@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Vehicle",
+      "question": "Which vehicle matches your personality?",
+      "outcomes": [
+        {
+          "name": "Tram",
+          "description": "green electric tram"
+        },
+        {
+          "name": "Scooter",
+          "description": "retro blue motor scooter"
+        },
+        {
+          "name": "Cable car",
+          "description": "red aerial gondola"
+        },
+        {
+          "name": "Kayak",
+          "description": "colourful single touring kayak"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Spring weekend",
+      "question": "The first really warm spring afternoon is yours. How do you spend it?",
+      "outcomes": [
+        {
+          "name": "Painting daffodils outdoors",
+          "description": "Open watercolour palette and brush beside a page of yellow daffodil sketches and fresh blooms"
+        },
+        {
+          "name": "Flying a swallow-shaped kite",
+          "description": "Blue-and-white swallow-shaped kite with a long ribbon tail on a wooden spool"
+        },
+        {
+          "name": "Planting a strawberry basket",
+          "description": "Pair of garden gloves planting a strawberry plant in a hanging woven basket"
+        },
+        {
+          "name": "Picnicking under blossom",
+          "description": "Red check picnic blanket and a little wicker basket beneath a low flowering cherry branch"
+        }
+      ]
+    }
+  ]
+}

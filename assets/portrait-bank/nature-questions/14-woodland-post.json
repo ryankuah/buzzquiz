@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Woodland delivery game",
+      "question": "You take a shift at a woodland post office. How do you deliver the letters?",
+      "outcomes": [
+        {
+          "name": "A squirrel on a zip line",
+          "description": "Cartoon red squirrel carrying a mail satchel while sliding along a short line"
+        },
+        {
+          "name": "A snail mail wagon",
+          "description": "Cheerful snail pulling a small yellow wagon of sealed envelopes"
+        },
+        {
+          "name": "An owl air delivery",
+          "description": "Brown owl flying with a tied bundle of colourful letters in its talons"
+        },
+        {
+          "name": "A beaver parcel raft",
+          "description": "Beaver piloting a tiny log raft with a tidy stack of parcels"
+        }
+      ]
+    }
+  ]
+}

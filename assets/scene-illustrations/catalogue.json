@@ -1,0 +1,322 @@
+[
+  {
+    "sheet": "latte-art",
+    "cells": [
+      {
+        "topic": "Latte art",
+        "name": "Latte art setting",
+        "description": "Close-up of a barista's work area with a metal espresso machine at the edge, stacked ceramic cups and a small milk pitcher"
+      }
+    ]
+  },
+  {
+    "sheet": "pasta-making",
+    "cells": [
+      {
+        "topic": "Pasta making",
+        "name": "Pasta making setting",
+        "description": "Italian pasta workbench with a hand-crank roller, flour, long ribbons of fresh tagliatelle and drying racks"
+      }
+    ]
+  },
+  {
+    "sheet": "sushi-counter",
+    "cells": [
+      {
+        "topic": "Sushi",
+        "name": "Sushi counter setting",
+        "description": "An evening sushi counter with pale timber, ceramic plates, a noren curtain and rice tubs"
+      }
+    ]
+  },
+  {
+    "sheet": "dim-sum",
+    "cells": [
+      {
+        "topic": "Dim sum",
+        "name": "Dim sum setting",
+        "description": "A bright Cantonese tea house with bamboo steamers on a trolley, round tables and porcelain tea settings"
+      }
+    ]
+  },
+  {
+    "sheet": "boba-shop",
+    "cells": [
+      {
+        "topic": "Bubble tea toppings",
+        "name": "Boba shop setting",
+        "description": "A bubble-tea preparation bench with clear toppings jars, tapioca pearls, pastel mixing jugs and a sealing machine at one side"
+      }
+    ]
+  },
+  {
+    "sheet": "dumpling-folding",
+    "cells": [
+      {
+        "topic": "Dumpling folding",
+        "name": "Dumpling folding setting",
+        "description": "A family kitchen set for a dumpling-making party with rounds of dough, rolling pins, steamer and a clean central board"
+      }
+    ]
+  },
+  {
+    "sheet": "cinnamon-buns",
+    "cells": [
+      {
+        "topic": "Cinnamon rolls",
+        "name": "Cinnamon buns setting",
+        "description": "A bakery production bench with proofing baskets, trays of cinnamon buns and warm morning window light"
+      }
+    ]
+  },
+  {
+    "sheet": "cake-decorating",
+    "cells": [
+      {
+        "topic": "Cake decorating",
+        "name": "Cake decorating setting",
+        "description": "A colourful cake studio with a turntable, piping bags, palette knives and sugar flowers along the sides"
+      }
+    ]
+  },
+  {
+    "sheet": "chocolatier",
+    "cells": [
+      {
+        "topic": "Chocolate",
+        "name": "Chocolatier setting",
+        "description": "A small chocolatier's workshop with copper pans, bonbon moulds and shelves of chocolates"
+      }
+    ]
+  },
+  {
+    "sheet": "ice-cream",
+    "cells": [
+      {
+        "topic": "Ice cream flavour",
+        "name": "Ice cream setting",
+        "description": "A vintage gelateria with curved glass display, colourful gelato tubs and stacks of waffle cones"
+      }
+    ]
+  },
+  {
+    "sheet": "spice-market",
+    "cells": [
+      {
+        "topic": "Spices",
+        "name": "Spice market setting",
+        "description": "A covered market stall with heaps of colourful spices, woven baskets and brass scoops"
+      }
+    ]
+  },
+  {
+    "sheet": "cheesemonger",
+    "cells": [
+      {
+        "topic": "Cheese",
+        "name": "Cheesemonger setting",
+        "description": "A stone-walled cheese cellar with ageing wheels, wood shelving and a quiet tasting table"
+      }
+    ]
+  },
+  {
+    "sheet": "salad-bar",
+    "cells": [
+      {
+        "topic": "Salad",
+        "name": "Salad bar setting",
+        "description": "A bright seasonal salad bar with bowls of leafy greens, grains and dressings arranged at the edges"
+      }
+    ]
+  },
+  {
+    "sheet": "muffin-bakery",
+    "cells": [
+      {
+        "topic": "Muffins",
+        "name": "Muffin bakery setting",
+        "description": "A home baking kitchen on muffin day, with liners, a muffin tin, blueberries and a cooling rack of assorted muffins"
+      }
+    ]
+  },
+  {
+    "sheet": "mocktail",
+    "cells": [
+      {
+        "topic": "Mocktails",
+        "name": "Mocktail setting",
+        "description": "An evening mocktail bar with citrus, herbs, colourful syrups and sparkling glassware"
+      }
+    ]
+  },
+  {
+    "sheet": "tapas",
+    "cells": [
+      {
+        "topic": "Tapas",
+        "name": "Tapas setting",
+        "description": "A lively-looking but empty Spanish tapas counter with small plates, olives, warm tiled walls and brass lighting"
+      }
+    ]
+  },
+  {
+    "sheet": "night-noodles",
+    "cells": [
+      {
+        "topic": "Noodle soup",
+        "name": "Night noodles setting",
+        "description": "A late-night street noodle stand with a tall broth pot, steaming bowls and soft lantern light"
+      }
+    ]
+  },
+  {
+    "sheet": "breakfast-diner",
+    "cells": [
+      {
+        "topic": "Diner breakfast",
+        "name": "Breakfast diner setting",
+        "description": "A retro American diner with chrome stools, a pancake griddle and striped booths"
+      }
+    ]
+  },
+  {
+    "sheet": "food-truck",
+    "cells": [
+      {
+        "topic": "Food truck",
+        "name": "Food truck setting",
+        "description": "A bright food truck at a waterfront lunch spot, stainless prep counter and little folding tables"
+      }
+    ]
+  },
+  {
+    "sheet": "tasting-room",
+    "cells": [
+      {
+        "topic": "Wine tasting",
+        "name": "Tasting room setting",
+        "description": "A vineyard tasting room with oak barrels, stemmed glasses and open doors toward rows of vines"
+      }
+    ]
+  },
+  {
+    "sheet": "computer-lab",
+    "cells": [
+      {
+        "topic": "Coding language",
+        "name": "Computer lab setting",
+        "description": "A university computer lab with mechanical keyboards, neatly coiled cables, blank screens and a communal whiteboard"
+      }
+    ]
+  },
+  {
+    "sheet": "hackathon",
+    "cells": [
+      {
+        "topic": "Hackathon",
+        "name": "Hackathon setting",
+        "description": "A late-evening hackathon room with a shared worktable, laptops with abstract screens, sticky notes and pizza boxes"
+      }
+    ]
+  },
+  {
+    "sheet": "game-design",
+    "cells": [
+      {
+        "topic": "Game design",
+        "name": "Game design setting",
+        "description": "A game prototyping studio with a controller, pixel art colour swatches, level-design sketches and two monitors"
+      }
+    ]
+  },
+  {
+    "sheet": "home-server",
+    "cells": [
+      {
+        "topic": "Home server",
+        "name": "Home server setting",
+        "description": "A tidy homelab rack with blinking server lights, patch panels and a workbench"
+      }
+    ]
+  },
+  {
+    "sheet": "robot-arena",
+    "cells": [
+      {
+        "topic": "Robot competition",
+        "name": "Robot arena setting",
+        "description": "A tabletop robotics arena with a taped maze, charging bays and workstations beyond the edges"
+      }
+    ]
+  },
+  {
+    "sheet": "electronics",
+    "cells": [
+      {
+        "topic": "Electronics",
+        "name": "Electronics setting",
+        "description": "An electronics bench with a soldering stand, magnifier, tidy parts drawers and an oscilloscope"
+      }
+    ]
+  },
+  {
+    "sheet": "film-editing",
+    "cells": [
+      {
+        "topic": "Film editing",
+        "name": "Film editing setting",
+        "description": "A dim colour-grading suite with abstract colour scopes on a pair of monitors, a control surface and acoustic panels"
+      }
+    ]
+  },
+  {
+    "sheet": "podcasting",
+    "cells": [
+      {
+        "topic": "Podcasting",
+        "name": "Podcasting setting",
+        "description": "A small podcast booth with microphone arms, headphones, acoustic felt panels and space between the seats"
+      }
+    ]
+  },
+  {
+    "sheet": "printmaking",
+    "cells": [
+      {
+        "topic": "Printmaking",
+        "name": "Printmaking setting",
+        "description": "A sunlit print studio with a small etching press, ink rollers and drying racks"
+      }
+    ]
+  },
+  {
+    "sheet": "knitting-circle",
+    "cells": [
+      {
+        "topic": "Knitting",
+        "name": "Knitting circle setting",
+        "description": "A cosy knitting room with yarn cubbies, a low table of needles and an armchair by a window"
+      }
+    ]
+  },
+  {
+    "sheet": "jeweller",
+    "cells": [
+      {
+        "topic": "Jewellery making",
+        "name": "Jeweller setting",
+        "description": "A jeweller's bench with a bench pin, precision pliers, polished cabochons and warm task light"
+      }
+    ]
+  },
+  {
+    "sheet": "stained-glass",
+    "cells": [
+      {
+        "topic": "Stained glass",
+        "name": "Stained glass setting",
+        "description": "A stained-glass studio with coloured glass offcuts, a copper foil reel and daylight through finished panels"
+      }
+    ]
+  }
+]

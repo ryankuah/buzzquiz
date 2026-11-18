@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cheese",
+      "question": "Which cheese matches your personality?",
+      "outcomes": [
+        {
+          "name": "Gouda",
+          "description": "red wax Gouda wheel with a wedge removed"
+        },
+        {
+          "name": "Manchego",
+          "description": "firm wedge with patterned brown rind"
+        },
+        {
+          "name": "Feta",
+          "description": "white crumbly blocks of feta"
+        },
+        {
+          "name": "Chèvre",
+          "description": "small log of fresh goat cheese"
+        }
+      ]
+    }
+  ]
+}

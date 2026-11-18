@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Kitchen windowsill",
+      "question": "You have one empty jar to grow something on your kitchen windowsill. What goes in?",
+      "outcomes": [
+        {
+          "name": "A sprouting avocado stone",
+          "description": "Avocado pit suspended with toothpicks above a clear jar, one sprout and roots"
+        },
+        {
+          "name": "A basil cutting",
+          "description": "Fragrant basil cutting with fresh white roots visible in a short jar"
+        },
+        {
+          "name": "A regrowing spring onion",
+          "description": "Green onion bulbs with roots and new dark green shoots in a glass"
+        },
+        {
+          "name": "A sweet potato vine",
+          "description": "Small orange sweet potato in a jar with trailing heart-shaped green leaves"
+        }
+      ]
+    }
+  ]
+}

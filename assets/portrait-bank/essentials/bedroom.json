@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bedroom",
+      "question": "Which item would you choose for bedroom?",
+      "outcomes": [
+        {
+          "name": "Bedside lamp",
+          "description": "Bedside lamp used for bedroom"
+        },
+        {
+          "name": "Pillow",
+          "description": "Pillow used for bedroom"
+        },
+        {
+          "name": "Duvet",
+          "description": "Duvet used for bedroom"
+        },
+        {
+          "name": "Throw blanket",
+          "description": "Throw blanket used for bedroom"
+        }
+      ]
+    }
+  ]
+}

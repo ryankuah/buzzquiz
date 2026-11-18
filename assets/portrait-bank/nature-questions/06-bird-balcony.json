@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Balcony birdwatching",
+      "question": "A bird lands on your balcony rail. Which movement makes you grab your camera?",
+      "outcomes": [
+        {
+          "name": "A robin cocking its head",
+          "description": "Chestnut-breasted robin on a small rail with head tilted inquisitively"
+        },
+        {
+          "name": "A sparrow taking a dust bath",
+          "description": "Small brown sparrow fluffing up a shallow patch of dry dust"
+        },
+        {
+          "name": "A wagtail bobbing its tail",
+          "description": "Black-and-white wagtail perched with long tail raised jaunty behind it"
+        },
+        {
+          "name": "A dove fanning its wings",
+          "description": "Soft grey dove spreading its pale, rounded wings on a short railing"
+        }
+      ]
+    }
+  ]
+}

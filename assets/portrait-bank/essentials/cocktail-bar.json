@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cocktail bar",
+      "question": "Which item would you choose for cocktail bar?",
+      "outcomes": [
+        {
+          "name": "Cocktail shaker",
+          "description": "Cocktail shaker used for cocktail bar"
+        },
+        {
+          "name": "Jigger",
+          "description": "Jigger used for cocktail bar"
+        },
+        {
+          "name": "Bar spoon",
+          "description": "Bar spoon used for cocktail bar"
+        },
+        {
+          "name": "Muddler",
+          "description": "Muddler used for cocktail bar"
+        }
+      ]
+    }
+  ]
+}

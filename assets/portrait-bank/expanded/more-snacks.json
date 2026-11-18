@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Snack",
+      "question": "Which snack matches your personality?",
+      "outcomes": [
+        {
+          "name": "Edamame pods",
+          "description": "Edamame pods"
+        },
+        {
+          "name": "Roasted chickpeas",
+          "description": "Roasted chickpeas"
+        },
+        {
+          "name": "Apple chips",
+          "description": "Apple chips"
+        },
+        {
+          "name": "Seaweed crisps",
+          "description": "Seaweed crisps"
+        }
+      ]
+    }
+  ]
+}

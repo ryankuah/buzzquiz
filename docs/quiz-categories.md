@@ -2,6 +2,8 @@
 
 Reviewed 18 November 2026. The 60 subjects below each have four illustrated outcomes and one example basis. The basis is the part the player answers questions about. For example, a quiz can reveal a pasta shape by asking how someone tackles a problem.
 
+The [full artwork catalogue](stock-art.md) includes the expanded subject list, illustrated question choices, backgrounds and decorations.
+
 ## Where the subjects came from
 
 BuzzFeed published take counts for 100 individual quizzes from the 2010s. Its leading results included US state (48,834,284), city (23,168,790), career (22,383,203), picky eating (19,318,895) and a Hogwarts house sorting quiz (17,964,032). Dog breed reached 12,808,394 and decade reached 10,129,995. These are historical counts for specific quizzes. Food can play either role in this product. A food-as-personality quiz reached 9,877,592, and several entries used food preferences to predict something else. [BuzzFeed’s decade ranking](https://www.buzzfeed.com/andrewziegler/best-buzzfeed-quizzes)

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Museum curation",
+      "question": "You can curate one tabletop exhibition for your school or local library. What theme do you pick?",
+      "outcomes": [
+        {
+          "name": "Feathers arranged by colour",
+          "description": "Display board of four naturally shed feathers arranged from gold to blue"
+        },
+        {
+          "name": "Seeds that look like sculptures",
+          "description": "Small tray holding dramatically shaped star anise, lotus pod and winged seed"
+        },
+        {
+          "name": "Rocks polished by rivers",
+          "description": "Shallow wooden display tray of smooth patterned river stones"
+        },
+        {
+          "name": "Shells with spiral patterns",
+          "description": "Cream display tray with several naturally spiralled seashells in graduating sizes"
+        }
+      ]
+    }
+  ]
+}

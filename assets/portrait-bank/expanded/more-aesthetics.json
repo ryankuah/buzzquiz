@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Aesthetic",
+      "question": "Which aesthetic matches your personality?",
+      "outcomes": [
+        {
+          "name": "Goblincore",
+          "description": "mossy trinket box with a mushroom"
+        },
+        {
+          "name": "Pastel goth",
+          "description": "lavender platform boot with black lace"
+        },
+        {
+          "name": "Cyberpunk",
+          "description": "neon visor and circuit band"
+        },
+        {
+          "name": "Art hoe",
+          "description": "paint-splashed overalls and sunflower"
+        }
+      ]
+    }
+  ]
+}

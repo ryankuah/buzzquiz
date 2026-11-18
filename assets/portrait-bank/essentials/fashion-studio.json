@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fashion studio",
+      "question": "Which item would you choose for fashion studio?",
+      "outcomes": [
+        {
+          "name": "Pattern paper",
+          "description": "Pattern paper used for fashion studio"
+        },
+        {
+          "name": "Fabric shears",
+          "description": "Fabric shears used for fashion studio"
+        },
+        {
+          "name": "Pin wheel",
+          "description": "Pin wheel used for fashion studio"
+        },
+        {
+          "name": "Fabric swatch",
+          "description": "Fabric swatch used for fashion studio"
+        }
+      ]
+    }
+  ]
+}

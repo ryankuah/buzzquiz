@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "First date",
+      "question": "You're early for a first date and the café just closed. What do you suggest?",
+      "outcomes": [
+        {
+          "name": "Walk to the night market",
+          "description": "Two adults walking past a lantern-lit stall and sharing a look at skewers"
+        },
+        {
+          "name": "Find a table at the diner",
+          "description": "Two adults settling into a striped booth with two diner mugs"
+        },
+        {
+          "name": "Browse the record shop",
+          "description": "Two adults flipping through colourful vinyl sleeves in a record bin"
+        },
+        {
+          "name": "Get takeaway by the river",
+          "description": "Two adults sharing a paper bag of takeaway beside a little river railing"
+        }
+      ]
+    }
+  ]
+}

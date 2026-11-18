@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sharing good news",
+      "question": "You have news you've been waiting months to share. How do you tell your favourite person?",
+      "outcomes": [
+        {
+          "name": "Call from the pavement",
+          "description": "An excited adult holding their phone to their ear on a patch of city pavement"
+        },
+        {
+          "name": "Wait until dinner",
+          "description": "Two adults leaning across a dinner table smiling over candles"
+        },
+        {
+          "name": "Slip a note into their bag",
+          "description": "An adult tucking a folded handwritten card into an open tote"
+        },
+        {
+          "name": "Show them the envelope",
+          "description": "Two adults grinning together over an opened official-looking envelope with no readable text"
+        }
+      ]
+    }
+  ]
+}

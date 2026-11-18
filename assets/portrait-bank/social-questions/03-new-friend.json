@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "New friendship",
+      "question": "Someone in your art class seems like your kind of person. How do you make a start?",
+      "outcomes": [
+        {
+          "name": "Swap sketchbooks",
+          "description": "Two adults exchanging spiral sketchbooks open to colourful illustrations"
+        },
+        {
+          "name": "Share your extra pencils",
+          "description": "An adult offering a small tin of coloured pencils across the art table"
+        },
+        {
+          "name": "Invite them to lunch",
+          "description": "An adult pulling out a café chair beside two bowls of food"
+        },
+        {
+          "name": "Ask about their canvas",
+          "description": "An adult showing interest in a classmate's half-finished floral canvas"
+        }
+      ]
+    }
+  ]
+}

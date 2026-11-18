@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Multiplayer rituals",
+      "question": "Your friends are still joining the game lobby. Which little ritual passes the time?",
+      "outcomes": [
+        {
+          "name": "Stack hats on an avatar",
+          "description": "A game avatar balancing an absurd stack of mismatched hats"
+        },
+        {
+          "name": "Practice a synchronized emote",
+          "description": "Two game avatars practicing the same playful salute"
+        },
+        {
+          "name": "Sketch a squad emblem",
+          "description": "A hand drawing an original comet emblem on a round team badge"
+        },
+        {
+          "name": "Test the voice changer",
+          "description": "A gamer speaking into a tiny microphone beside a playful robot voice dial"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Speedrunning practice",
+      "question": "You have one evening to shave time off a game run. What do you practice?",
+      "outcomes": [
+        {
+          "name": "The opening jump",
+          "description": "A game runner jumping from a launch ledge beside a starting flag"
+        },
+        {
+          "name": "The menu sequence",
+          "description": "A hand rapidly tapping an orderly vertical row of menu squares"
+        },
+        {
+          "name": "The moving-platform cycle",
+          "description": "A game figure timing a leap between two floating cog platforms"
+        },
+        {
+          "name": "The final relay split",
+          "description": "A player pressing a split-timer button below a finish flag"
+        }
+      ]
+    }
+  ]
+}

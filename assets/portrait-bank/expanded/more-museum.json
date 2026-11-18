@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Museum exhibit",
+      "question": "Which museum exhibit matches your personality?",
+      "outcomes": [
+        {
+          "name": "Samurai armour",
+          "description": "Japanese lamellar armour on a stand"
+        },
+        {
+          "name": "Fossil ammonite",
+          "description": "large spiral ammonite fossil"
+        },
+        {
+          "name": "Space capsule",
+          "description": "early crewed space capsule exhibit"
+        },
+        {
+          "name": "Textile tapestry",
+          "description": "colourful woven medieval tapestry"
+        }
+      ]
+    }
+  ]
+}

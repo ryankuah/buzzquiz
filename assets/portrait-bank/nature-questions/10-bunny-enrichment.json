@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rabbit enrichment",
+      "question": "Your rabbit's exercise area has room for one new feature. What do you add?",
+      "outcomes": [
+        {
+          "name": "A willow tunnel",
+          "description": "Woven brown willow-branch tunnel with rabbit ears showing at one opening"
+        },
+        {
+          "name": "A digging box",
+          "description": "Shallow untreated wooden box filled with shredded paper and a digging bunny"
+        },
+        {
+          "name": "A hay-stuffed ball",
+          "description": "Open lattice willow ball overflowing with fragrant strands of hay"
+        },
+        {
+          "name": "A low lookout platform",
+          "description": "Small sturdy wooden platform with a sitting rabbit and a short ramp"
+        }
+      ]
+    }
+  ]
+}

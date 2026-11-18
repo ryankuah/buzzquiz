@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Flower market date",
+      "question": "You and a date decide to build a bouquet for the kitchen. Which bunch do you reach for first?",
+      "outcomes": [
+        {
+          "name": "Blush ranunculus",
+          "description": "Tied little bunch of pale blush ranunculus with densely layered petals"
+        },
+        {
+          "name": "Sunny billy buttons",
+          "description": "Simple tied bunch of round golden billy button flowers on tall green stalks"
+        },
+        {
+          "name": "Fragrant lilac sprays",
+          "description": "Small bouquet of lavender lilac sprays with heart-shaped leaves"
+        },
+        {
+          "name": "Blue delphinium spikes",
+          "description": "Cluster of tall cobalt-blue delphinium spires tied with a plain ribbon"
+        }
+      ]
+    }
+  ]
+}

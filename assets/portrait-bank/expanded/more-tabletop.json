@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tabletop game",
+      "question": "Which tabletop game matches your personality?",
+      "outcomes": [
+        {
+          "name": "Checkers",
+          "description": "red and black checkerboard and discs"
+        },
+        {
+          "name": "Go",
+          "description": "wooden Go board with black and white stones"
+        },
+        {
+          "name": "Carrom",
+          "description": "wooden square carrom board"
+        },
+        {
+          "name": "Mancala",
+          "description": "wooden seed board with colourful stones"
+        }
+      ]
+    }
+  ]
+}

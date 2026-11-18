@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wildlife reserve",
+      "question": "You have time for one guided activity at a wildlife reserve. Which sign-up sheet do you pick?",
+      "outcomes": [
+        {
+          "name": "A sea turtle hatchling watch",
+          "description": "Tiny sea turtle hatchlings leaving rippled sand for a line of blue surf"
+        },
+        {
+          "name": "An owl pellet workshop",
+          "description": "Owl pellet on a shallow laboratory tray with tweezers and a small specimen card"
+        },
+        {
+          "name": "A flamingo wetland walk",
+          "description": "Pink flamingos wading beside a narrow timber boardwalk"
+        },
+        {
+          "name": "A dawn gibbon listen",
+          "description": "Dark gibbon high in a tree with throat pouch extended in a dawn call"
+        }
+      ]
+    }
+  ]
+}

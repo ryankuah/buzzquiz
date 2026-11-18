@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Creative writing",
+      "question": "Which item would you choose for creative writing?",
+      "outcomes": [
+        {
+          "name": "Manuscript",
+          "description": "Manuscript used for creative writing"
+        },
+        {
+          "name": "Typewriter ribbon",
+          "description": "Typewriter ribbon used for creative writing"
+        },
+        {
+          "name": "Index card",
+          "description": "Index card used for creative writing"
+        },
+        {
+          "name": "Fountain pen nib",
+          "description": "Fountain pen nib used for creative writing"
+        }
+      ]
+    }
+  ]
+}

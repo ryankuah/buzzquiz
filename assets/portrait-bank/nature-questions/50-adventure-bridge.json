@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Imaginary trail crossings",
+      "question": "Your storybook trail reaches a stream. Which crossing looks most inviting?",
+      "outcomes": [
+        {
+          "name": "A row of giant lily pads",
+          "description": "Stepping-stone row of broad green lily pads across a little blue stream"
+        },
+        {
+          "name": "A smooth fallen birch",
+          "description": "Fallen white birch trunk stretched above a shallow forest stream"
+        },
+        {
+          "name": "A little stone arch",
+          "description": "Small mossy stone arched bridge with one rounded opening over clear water"
+        },
+        {
+          "name": "A rope-and-plank footbridge",
+          "description": "Short swinging footbridge with thick rope rails and weathered timber planks"
+        }
+      ]
+    }
+  ]
+}

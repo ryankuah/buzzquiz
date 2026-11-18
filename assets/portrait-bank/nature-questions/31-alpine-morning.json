@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mountain scenery",
+      "question": "You open the curtains at a mountain lodge. Which view do you hope to find?",
+      "outcomes": [
+        {
+          "name": "A lake reflecting snowy peaks",
+          "description": "Small contained alpine lake with clear inverted reflection of white peaks"
+        },
+        {
+          "name": "A waterfall in a green ravine",
+          "description": "Slim white waterfall pouring down a lush green alpine ravine"
+        },
+        {
+          "name": "A meadow dotted with blue gentians",
+          "description": "Sunny mountain meadow carpeted with vivid trumpet-shaped blue gentian flowers"
+        },
+        {
+          "name": "A rocky ridge above the clouds",
+          "description": "Jagged grey ridge emerging above soft white cloud with a little sunrise glow"
+        }
+      ]
+    }
+  ]
+}

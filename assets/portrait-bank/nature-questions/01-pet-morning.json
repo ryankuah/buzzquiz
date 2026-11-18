@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pet morning routine",
+      "question": "Your pet wakes you up before the alarm. What do you do together first?",
+      "outcomes": [
+        {
+          "name": "A blanket cuddle",
+          "description": "Sleepy ginger cat and a person's arm tucked beneath a little patchwork blanket"
+        },
+        {
+          "name": "A garden sniff walk",
+          "description": "Small beagle sniffing a sunny daisy patch on a loose lead"
+        },
+        {
+          "name": "Breakfast with a puzzle feeder",
+          "description": "Curious tabby nudging kibble from a teal pet puzzle feeder"
+        },
+        {
+          "name": "A feather-wand game",
+          "description": "Alert black-and-white cat reaching for a bright feather wand"
+        }
+      ]
+    }
+  ]
+}

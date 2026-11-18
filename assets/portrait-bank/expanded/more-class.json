@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fantasy class",
+      "question": "Which fantasy class matches your personality?",
+      "outcomes": [
+        {
+          "name": "Sorcerer",
+          "description": "spellcaster levitating fire in their hands"
+        },
+        {
+          "name": "Warlock",
+          "description": "robed occult scholar with floating grimoire"
+        },
+        {
+          "name": "Artificer",
+          "description": "goggled maker with a clockwork bird"
+        },
+        {
+          "name": "Necromancer",
+          "description": "fictional dark mage summoning a spectral hand"
+        }
+      ]
+    }
+  ]
+}

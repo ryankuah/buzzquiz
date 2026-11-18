@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Book genre",
+      "question": "Which book genre matches your personality?",
+      "outcomes": [
+        {
+          "name": "Memoir",
+          "description": "leather journal with family photograph"
+        },
+        {
+          "name": "Historical fiction",
+          "description": "quill and antique locket on folded map"
+        },
+        {
+          "name": "Poetry",
+          "description": "small chapbook with a pressed fern"
+        },
+        {
+          "name": "Thriller",
+          "description": "sealed evidence bag with a mysterious key"
+        }
+      ]
+    }
+  ]
+}

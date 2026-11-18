@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Design meeting",
+      "question": "Which item would you choose for design meeting?",
+      "outcomes": [
+        {
+          "name": "Mood board",
+          "description": "Mood board used for design meeting"
+        },
+        {
+          "name": "Colour swatch",
+          "description": "Colour swatch used for design meeting"
+        },
+        {
+          "name": "Model house",
+          "description": "Model house used for design meeting"
+        },
+        {
+          "name": "Wireframe sketch",
+          "description": "Wireframe sketch used for design meeting"
+        }
+      ]
+    }
+  ]
+}

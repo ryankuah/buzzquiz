@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pet photography",
+      "question": "You get one photo for your pet's birthday card. What shot do you take?",
+      "outcomes": [
+        {
+          "name": "A flour-dusted nose",
+          "description": "Charming close-up of a brown dog with an accidental white flour smudge on its nose"
+        },
+        {
+          "name": "An upside-down nap",
+          "description": "Grey tabby sleeping belly-up with paws curled in the air"
+        },
+        {
+          "name": "A muddy-paw grin",
+          "description": "Golden dog sitting proudly with muddy paws and a happy open mouth"
+        },
+        {
+          "name": "A bow-tie portrait",
+          "description": "Black cat posed neatly with a red bow tie"
+        }
+      ]
+    }
+  ]
+}

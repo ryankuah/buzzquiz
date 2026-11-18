@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Farmers market",
+      "question": "Which item would you choose for farmers market?",
+      "outcomes": [
+        {
+          "name": "Produce crate",
+          "description": "Produce crate used for farmers market"
+        },
+        {
+          "name": "Shopping basket",
+          "description": "Shopping basket used for farmers market"
+        },
+        {
+          "name": "Canvas bag",
+          "description": "Canvas bag used for farmers market"
+        },
+        {
+          "name": "Fruit punnet",
+          "description": "Fruit punnet used for farmers market"
+        }
+      ]
+    }
+  ]
+}

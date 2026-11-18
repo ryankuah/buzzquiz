@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Computer science",
+      "question": "Which item would you choose for computer science?",
+      "outcomes": [
+        {
+          "name": "Laptop",
+          "description": "Laptop used for computer science"
+        },
+        {
+          "name": "Keyboard",
+          "description": "Keyboard used for computer science"
+        },
+        {
+          "name": "Computer mouse",
+          "description": "Computer mouse used for computer science"
+        },
+        {
+          "name": "USB stick",
+          "description": "USB stick used for computer science"
+        }
+      ]
+    }
+  ]
+}

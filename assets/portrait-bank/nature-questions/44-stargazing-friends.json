@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Stargazing with friends",
+      "question": "Everyone brings one comfort item to a stargazing night. What do you bring?",
+      "outcomes": [
+        {
+          "name": "A double sleeping quilt",
+          "description": "Thick open navy double camping quilt with a tiny stitched moon motif"
+        },
+        {
+          "name": "A thermos of cocoa",
+          "description": "Red insulated flask pouring cocoa into a cup with a marshmallow"
+        },
+        {
+          "name": "A red-light headlamp",
+          "description": "Black fabric headlamp with a single softly glowing red lens"
+        },
+        {
+          "name": "A reclining camp chair",
+          "description": "Comfortable blue folding camp chair tilted back for watching the sky"
+        }
+      ]
+    }
+  ]
+}

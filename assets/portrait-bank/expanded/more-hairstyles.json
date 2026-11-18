@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Hairstyle",
+      "question": "Which hairstyle matches your personality?",
+      "outcomes": [
+        {
+          "name": "French twist",
+          "description": "elegant twisted updo"
+        },
+        {
+          "name": "Buzz cut",
+          "description": "closely cropped buzz cut"
+        },
+        {
+          "name": "Space buns",
+          "description": "two round hair buns high on the head"
+        },
+        {
+          "name": "Fishtail braid",
+          "description": "long woven fishtail braid"
+        }
+      ]
+    }
+  ]
+}

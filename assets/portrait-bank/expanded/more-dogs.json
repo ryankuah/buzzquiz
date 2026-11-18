@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog breed",
+      "question": "Which dog breed matches your personality?",
+      "outcomes": [
+        {
+          "name": "Beagle",
+          "description": "Beagle"
+        },
+        {
+          "name": "Dalmatian",
+          "description": "Dalmatian"
+        },
+        {
+          "name": "Shiba Inu",
+          "description": "Shiba Inu"
+        },
+        {
+          "name": "Golden Retriever",
+          "description": "Golden Retriever"
+        }
+      ]
+    }
+  ]
+}

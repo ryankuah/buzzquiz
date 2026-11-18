@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Urban bird",
+      "question": "Which urban bird matches your personality?",
+      "outcomes": [
+        {
+          "name": "House sparrow",
+          "description": "House sparrow"
+        },
+        {
+          "name": "European robin",
+          "description": "European robin"
+        },
+        {
+          "name": "Australian magpie",
+          "description": "Australian magpie"
+        },
+        {
+          "name": "Pied wagtail",
+          "description": "Pied wagtail"
+        }
+      ]
+    }
+  ]
+}

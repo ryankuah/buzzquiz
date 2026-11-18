@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fruit",
+      "question": "Which fruit matches your personality?",
+      "outcomes": [
+        {
+          "name": "Dragon fruit",
+          "description": "Dragon fruit"
+        },
+        {
+          "name": "Pomegranate",
+          "description": "Pomegranate"
+        },
+        {
+          "name": "Mango",
+          "description": "Mango"
+        },
+        {
+          "name": "Starfruit",
+          "description": "Starfruit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Level editor playstyle",
+      "question": "Friends will test your homemade platform level tonight. Which surprise do you build near the finish?",
+      "outcomes": [
+        {
+          "name": "A staircase of bouncing mushrooms",
+          "description": "Oversized springy red mushrooms forming an ascending staircase"
+        },
+        {
+          "name": "A secret pipe slide",
+          "description": "An emerald pipe winding downward like a playground slide"
+        },
+        {
+          "name": "A balloon lift",
+          "description": "A wooden lift platform suspended by five bright balloons"
+        },
+        {
+          "name": "A room that flips upside down",
+          "description": "A tiny cutaway platform room with its furnishings attached to the ceiling"
+        }
+      ]
+    }
+  ]
+}

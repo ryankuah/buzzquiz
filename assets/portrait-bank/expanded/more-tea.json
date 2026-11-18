@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tea",
+      "question": "Which tea matches your personality?",
+      "outcomes": [
+        {
+          "name": "Earl Grey",
+          "description": "black tea cup with bergamot peel"
+        },
+        {
+          "name": "Peppermint tea",
+          "description": "glass cup with mint sprig"
+        },
+        {
+          "name": "Oolong",
+          "description": "small clay teapot with rolled oolong leaves"
+        },
+        {
+          "name": "Chamomile tea",
+          "description": "glass of golden tea with chamomile flowers"
+        }
+      ]
+    }
+  ]
+}

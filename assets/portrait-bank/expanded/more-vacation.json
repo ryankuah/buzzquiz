@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Vacation",
+      "question": "Which vacation matches your personality?",
+      "outcomes": [
+        {
+          "name": "Safari",
+          "description": "open-sided safari vehicle"
+        },
+        {
+          "name": "Island hopping",
+          "description": "ferry beside two little islands"
+        },
+        {
+          "name": "Mountain trek",
+          "description": "daypack with snowy mountain miniature"
+        },
+        {
+          "name": "Rail holiday",
+          "description": "a classic sleeper coach"
+        }
+      ]
+    }
+  ]
+}

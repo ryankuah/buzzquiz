@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Animal village neighbour",
+      "question": "A neighbour knocks on your cottage door with a welcome gift. Who would you like to see?",
+      "outcomes": [
+        {
+          "name": "A badger with a quilt",
+          "description": "Friendly badger holding a neatly folded patchwork quilt in its paws"
+        },
+        {
+          "name": "A mouse with a teacup",
+          "description": "Tiny waistcoated mouse holding a flower-patterned teacup almost its own size"
+        },
+        {
+          "name": "A raven with a silver thimble",
+          "description": "Glossy raven offering a shiny silver sewing thimble in its beak"
+        },
+        {
+          "name": "A hare with a bread basket",
+          "description": "Long-eared hare wearing a linen scarf and carrying a basket of bread rolls"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Adventure postcard",
+      "question": "You get to step into the scene on one nature postcard. Which card do you take?",
+      "outcomes": [
+        {
+          "name": "A bamboo grove in mist",
+          "description": "Small fragment of tall bamboo forest with a misty walking path"
+        },
+        {
+          "name": "A waterfall behind a rainbow",
+          "description": "Small bright waterfall with a low arching rainbow formed in its spray"
+        },
+        {
+          "name": "A desert full of spring flowers",
+          "description": "Desert slope covered with patches of bright pink, purple and yellow wildflowers"
+        },
+        {
+          "name": "A cave of glittering crystals",
+          "description": "Open geode-like cave entrance with tall purple crystals catching light"
+        }
+      ]
+    }
+  ]
+}

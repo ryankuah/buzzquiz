@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Movie genre",
+      "question": "Which movie genre matches your personality?",
+      "outcomes": [
+        {
+          "name": "Comedy",
+          "description": "rubber chicken and a microphone"
+        },
+        {
+          "name": "Documentary",
+          "description": "field camera beside a travel notebook"
+        },
+        {
+          "name": "Musical",
+          "description": "theatrical top hat and tap shoes"
+        },
+        {
+          "name": "Animation",
+          "description": "peg bar with character drawing sheets"
+        }
+      ]
+    }
+  ]
+}

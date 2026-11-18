@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fashion accessory",
+      "question": "Which fashion accessory matches your personality?",
+      "outcomes": [
+        {
+          "name": "Silk necktie",
+          "description": "Silk necktie"
+        },
+        {
+          "name": "Pocket square",
+          "description": "Pocket square"
+        },
+        {
+          "name": "Cat-eye glasses",
+          "description": "Cat-eye glasses"
+        },
+        {
+          "name": "Leather wrist cuff",
+          "description": "Leather wrist cuff"
+        }
+      ]
+    }
+  ]
+}

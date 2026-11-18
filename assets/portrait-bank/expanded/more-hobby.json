@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Creative hobby",
+      "question": "Which creative hobby matches your personality?",
+      "outcomes": [
+        {
+          "name": "Embroidery",
+          "description": "hoop with flower embroidery"
+        },
+        {
+          "name": "Origami",
+          "description": "folded paper crane"
+        },
+        {
+          "name": "Wood carving",
+          "description": "carved wooden spoon beside a gouge"
+        },
+        {
+          "name": "Linocut",
+          "description": "block with carved leaf print and brayer"
+        }
+      ]
+    }
+  ]
+}

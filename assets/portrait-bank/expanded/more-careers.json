@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Career",
+      "question": "Which career matches your personality?",
+      "outcomes": [
+        {
+          "name": "Architect",
+          "description": "architect with miniature building model"
+        },
+        {
+          "name": "Veterinarian",
+          "description": "veterinarian examining a small dog"
+        },
+        {
+          "name": "Marine biologist",
+          "description": "biologist with coral sample"
+        },
+        {
+          "name": "Librarian",
+          "description": "librarian shelving books"
+        }
+      ]
+    }
+  ]
+}

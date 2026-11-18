@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Outdoor first date",
+      "question": "You want a first date where there is plenty to look at together. Which plan do you suggest?",
+      "outcomes": [
+        {
+          "name": "A pedal-boat picnic",
+          "description": "Yellow pedal boat with a small picnic basket floating on calm lake water"
+        },
+        {
+          "name": "A botanic garden walk",
+          "description": "Curving stone path leading through a cheerful botanic garden archway"
+        },
+        {
+          "name": "A sunset pier stroll",
+          "description": "Short wooden pier with a bench framed by a contained warm orange sunset"
+        },
+        {
+          "name": "A farmers' market flower hunt",
+          "description": "Small market stall with buckets of cut flowers and a paper-wrapped bouquet"
+        }
+      ]
+    }
+  ]
+}

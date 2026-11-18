@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Book club",
+      "question": "Which item would you choose for book club?",
+      "outcomes": [
+        {
+          "name": "Hardback book",
+          "description": "Hardback book used for book club"
+        },
+        {
+          "name": "Paperback book",
+          "description": "Paperback book used for book club"
+        },
+        {
+          "name": "Reading list",
+          "description": "Reading list used for book club"
+        },
+        {
+          "name": "Book jacket",
+          "description": "Book jacket used for book club"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cozy animal game",
+      "question": "Your new animal village has its first community event. Which one do you organise?",
+      "outcomes": [
+        {
+          "name": "An otter regatta",
+          "description": "Two friendly otters racing tiny leaf boats in a friendly stream"
+        },
+        {
+          "name": "A hedgehog bake sale",
+          "description": "Aproned hedgehog at a little table of berry tarts"
+        },
+        {
+          "name": "A fox lantern parade",
+          "description": "Red fox carrying a glowing paper lantern under a small arch of leaves"
+        },
+        {
+          "name": "A frog fiddle concert",
+          "description": "Green frog playing a miniature wooden fiddle on a lily pad"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Weather watching",
+      "question": "You are safely indoors while the weather changes outside. What would you most like to watch from the window?",
+      "outcomes": [
+        {
+          "name": "Lightning far out at sea",
+          "description": "Miniature distant thundercloud with a single lightning bolt over blue ocean"
+        },
+        {
+          "name": "Big snowflakes on a pine",
+          "description": "Snow-dusted pine branch catching several large soft snowflakes"
+        },
+        {
+          "name": "Rain beads racing on glass",
+          "description": "Close view of two large raindrops trailing paths on a small clear glass pane"
+        },
+        {
+          "name": "Low cloud pouring over a ridge",
+          "description": "Soft white cloud rolling like a waterfall over the crest of a green ridge"
+        }
+      ]
+    }
+  ]
+}

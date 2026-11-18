@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Butterfly garden",
+      "question": "You sit down beside a flowering shrub. Which butterfly would you most like to land nearby?",
+      "outcomes": [
+        {
+          "name": "A monarch on milkweed",
+          "description": "Orange-and-black monarch butterfly perched on a pink milkweed flower cluster"
+        },
+        {
+          "name": "A swallowtail on fennel",
+          "description": "Yellow-and-black swallowtail with distinct hindwing tails opening over fennel"
+        },
+        {
+          "name": "A blue morpho on a leaf",
+          "description": "Brilliant iridescent blue morpho butterfly resting with wings open on a broad leaf"
+        },
+        {
+          "name": "A painted lady on lavender",
+          "description": "Orange-and-black painted lady resting on one purple lavender sprig"
+        }
+      ]
+    }
+  ]
+}

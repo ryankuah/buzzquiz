@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gemstone",
+      "question": "Which gemstone matches your personality?",
+      "outcomes": [
+        {
+          "name": "Sapphire",
+          "description": "deep blue faceted sapphire"
+        },
+        {
+          "name": "Peridot",
+          "description": "lime green faceted peridot"
+        },
+        {
+          "name": "Turquoise",
+          "description": "opaque blue cabochon with dark matrix"
+        },
+        {
+          "name": "Rose quartz",
+          "description": "pale pink quartz crystal"
+        }
+      ]
+    }
+  ]
+}

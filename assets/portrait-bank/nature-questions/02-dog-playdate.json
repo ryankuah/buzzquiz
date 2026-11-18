@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog playdate",
+      "question": "You set up a playdate for two energetic dogs. Which activity gets the most space?",
+      "outcomes": [
+        {
+          "name": "Fetch with a flying disc",
+          "description": "Athletic dog catching an orange flying disc in midair"
+        },
+        {
+          "name": "A splash pool",
+          "description": "Two small dogs splashing together in a shallow blue paddling pool"
+        },
+        {
+          "name": "A sniffing trail",
+          "description": "Hound following a small line of colourful scent cones with nose to ground"
+        },
+        {
+          "name": "A tunnel run",
+          "description": "Border collie bounding out of a purple fabric agility tunnel"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Beach bag",
+      "question": "Which item would you choose for beach bag?",
+      "outcomes": [
+        {
+          "name": "Sun hat",
+          "description": "Sun hat used for beach bag"
+        },
+        {
+          "name": "Beach umbrella",
+          "description": "Beach umbrella used for beach bag"
+        },
+        {
+          "name": "Flip-flops",
+          "description": "Flip-flops used for beach bag"
+        },
+        {
+          "name": "Sunscreen bottle",
+          "description": "Sunscreen bottle used for beach bag"
+        }
+      ]
+    }
+  ]
+}

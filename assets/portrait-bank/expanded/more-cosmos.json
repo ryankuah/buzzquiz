@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cosmic object",
+      "question": "Which cosmic object matches your personality?",
+      "outcomes": [
+        {
+          "name": "Pulsar",
+          "description": "spinning neutron star with beam jets"
+        },
+        {
+          "name": "Nebula",
+          "description": "colourful interstellar cloud"
+        },
+        {
+          "name": "Binary star",
+          "description": "two stars orbiting one another"
+        },
+        {
+          "name": "Asteroid",
+          "description": "irregular rocky asteroid"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sunset picnic",
+      "question": "You and your date are packing for a sunset picnic. What is the first thing you put in the basket?",
+      "outcomes": [
+        {
+          "name": "A flask of berry tea",
+          "description": "Tall thermos and a little cup filled with steaming red berry tea"
+        },
+        {
+          "name": "A jar of lemon posset",
+          "description": "Small lidded jam jar of pale lemon dessert topped with a curl of lemon peel"
+        },
+        {
+          "name": "A loaf of rosemary bread",
+          "description": "Rustic small round loaf of golden bread crowned with rosemary"
+        },
+        {
+          "name": "A paper bag of cherries",
+          "description": "Open brown paper bag overflowing with paired dark-red cherries and green stems"
+        }
+      ]
+    }
+  ]
+}

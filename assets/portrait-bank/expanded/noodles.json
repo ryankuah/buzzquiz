@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Noodle",
+      "question": "Which noodle matches your personality?",
+      "outcomes": [
+        {
+          "name": "Soba noodles",
+          "description": "Soba noodles"
+        },
+        {
+          "name": "Udon noodles",
+          "description": "Udon noodles"
+        },
+        {
+          "name": "Glass noodles",
+          "description": "Glass noodles"
+        },
+        {
+          "name": "Flat rice noodles",
+          "description": "Flat rice noodles"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Winter birdwatching",
+      "question": "You set up a chair by the window on a snowy day. What would make you linger?",
+      "outcomes": [
+        {
+          "name": "A cardinal on a frosted branch",
+          "description": "Bright red northern cardinal perched on a white-frosted bare twig"
+        },
+        {
+          "name": "A squirrel brushing off snow",
+          "description": "Grey squirrel shaking snow from a curled tail beside a tiny pine cone"
+        },
+        {
+          "name": "A blackbird eating a crabapple",
+          "description": "Glossy male blackbird pecking a red crabapple on a snowy branch"
+        },
+        {
+          "name": "A rabbit leaving prints",
+          "description": "White winter rabbit moving away from a short line of fresh tracks"
+        }
+      ]
+    }
+  ]
+}

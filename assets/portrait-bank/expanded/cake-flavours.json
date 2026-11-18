@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cake flavour",
+      "question": "Which cake flavour matches your personality?",
+      "outcomes": [
+        {
+          "name": "Matcha roll cake",
+          "description": "Matcha roll cake"
+        },
+        {
+          "name": "Strawberry shortcake",
+          "description": "Strawberry shortcake"
+        },
+        {
+          "name": "Chocolate fudge cake",
+          "description": "Chocolate fudge cake"
+        },
+        {
+          "name": "Pineapple upside-down cake",
+          "description": "Pineapple upside-down cake"
+        }
+      ]
+    }
+  ]
+}

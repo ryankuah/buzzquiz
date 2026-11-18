@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Open-world exploration",
+      "question": "You can follow one landmark before the map disappears into fog. What draws you over the ridge?",
+      "outcomes": [
+        {
+          "name": "A bell tower with a broken clock",
+          "description": "A lone crooked clock tower with brass bell and missing clock hands"
+        },
+        {
+          "name": "A waterfall hiding a cave",
+          "description": "A curtain of blue water parting to show a cave entrance"
+        },
+        {
+          "name": "A kite caught in a windmill",
+          "description": "A bright red kite snagged on a small windmill"
+        },
+        {
+          "name": "A campfire beneath a giant arch",
+          "description": "A warm campfire under a natural sandstone arch"
+        }
+      ]
+    }
+  ]
+}

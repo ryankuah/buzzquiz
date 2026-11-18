@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sport",
+      "question": "Which sport matches your personality?",
+      "outcomes": [
+        {
+          "name": "Archery",
+          "description": "target and sporting bow at rest"
+        },
+        {
+          "name": "Volleyball",
+          "description": "white yellow and blue volleyball"
+        },
+        {
+          "name": "Rowing",
+          "description": "rowing shell and pair of oars"
+        },
+        {
+          "name": "Ice hockey",
+          "description": "hockey skates and puck"
+        }
+      ]
+    }
+  ]
+}
