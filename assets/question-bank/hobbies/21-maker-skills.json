@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Jewellery making",
+      "question": "You have an hour at the jewellery bench and one gift to finish. What do you make?",
+      "outcomes": [
+        {
+          "name": "Wire-wrapped pendant",
+          "description": "amethyst bead wrapped in copper wire pendant"
+        },
+        {
+          "name": "Enamel brooch",
+          "description": "colourful flower-shaped enamel brooch"
+        },
+        {
+          "name": "Beaded bracelet",
+          "description": "circle of turquoise and yellow beads on elastic"
+        },
+        {
+          "name": "Silver cuff",
+          "description": "simple hammered silver cuff bracelet"
+        }
+      ]
+    },
+    {
+      "topic": "Sewing projects",
+      "question": "There's a square of patterned cotton left after a sewing class. What do you turn it into?",
+      "outcomes": [
+        {
+          "name": "Scrunchie",
+          "description": "gathered floral cotton hair scrunchie"
+        },
+        {
+          "name": "Coin purse",
+          "description": "small patterned fabric coin purse with metal clasp"
+        },
+        {
+          "name": "Needle book",
+          "description": "small open felt needle book with sewing needles"
+        },
+        {
+          "name": "Patchwork coaster",
+          "description": "square quilted patchwork coaster"
+        }
+      ]
+    },
+    {
+      "topic": "Leather craft",
+      "question": "A leatherworker offers you the last spot in an afternoon workshop. Which thing do you want to leave with?",
+      "outcomes": [
+        {
+          "name": "Card wallet",
+          "description": "slim tan leather card wallet"
+        },
+        {
+          "name": "Braided key fob",
+          "description": "brown braided leather key fob on metal ring"
+        },
+        {
+          "name": "Leather belt",
+          "description": "rolled leather belt with brass buckle"
+        },
+        {
+          "name": "Leather notebook sleeve",
+          "description": "stitched leather cover holding a slim notebook"
+        }
+      ]
+    },
+    {
+      "topic": "Glass craft",
+      "question": "Your glass studio class is making small gifts. What would you set aside for a friend?",
+      "outcomes": [
+        {
+          "name": "Glass paperweight",
+          "description": "clear spherical glass paperweight with coloured swirl"
+        },
+        {
+          "name": "Glass bead",
+          "description": "large patterned lampwork glass bead"
+        },
+        {
+          "name": "Glass ornament",
+          "description": "hollow blown teal glass bauble"
+        },
+        {
+          "name": "Glass tumbler",
+          "description": "hand-blown amber drinking tumbler"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Indonesian market plates",
+      "question": "You are ordering from a busy warung. Which plate catches your eye?",
+      "outcomes": [
+        {
+          "name": "Gado-gado",
+          "description": "vegetables and boiled egg topped with peanut sauce"
+        },
+        {
+          "name": "Rendang",
+          "description": "dark braised beef coated in spices"
+        },
+        {
+          "name": "Nasi tumpeng",
+          "description": "cone of yellow rice ringed with small sides"
+        },
+        {
+          "name": "Bakwan",
+          "description": "golden shredded vegetable fritters"
+        }
+      ]
+    },
+    {
+      "topic": "Vietnamese noodle dishes",
+      "question": "A noodle shop offers four house specials. Which bowl do you choose?",
+      "outcomes": [
+        {
+          "name": "Bún chả",
+          "description": "grilled pork with a dish of noodles and herbs"
+        },
+        {
+          "name": "Cao lầu",
+          "description": "noodle bowl with roast pork and crisp crackers"
+        },
+        {
+          "name": "Bánh canh",
+          "description": "bowl of thick tapioca noodles with shrimp"
+        },
+        {
+          "name": "Mì Quảng",
+          "description": "turmeric noodles with rice cracker and peanuts"
+        }
+      ]
+    },
+    {
+      "topic": "Filipino desserts",
+      "question": "The dessert trolley comes around at a family lunch. What goes in your bowl?",
+      "outcomes": [
+        {
+          "name": "Halo-halo",
+          "description": "tall glass of layered shaved ice topped with purple ube"
+        },
+        {
+          "name": "Bibingka",
+          "description": "round baked rice cake in banana leaf"
+        },
+        {
+          "name": "Turon",
+          "description": "crisp caramel banana spring rolls"
+        },
+        {
+          "name": "Ube halaya",
+          "description": "glossy purple yam pudding on a plate"
+        }
+      ]
+    },
+    {
+      "topic": "Malaysian breakfast stall",
+      "question": "You wake up early enough for a second breakfast. What do you order?",
+      "outcomes": [
+        {
+          "name": "Nasi lemak",
+          "description": "coconut rice on banana leaf with sambal egg and peanuts"
+        },
+        {
+          "name": "Roti canai",
+          "description": "flaky flatbread with a small curry dip"
+        },
+        {
+          "name": "Kaya toast",
+          "description": "grilled kaya toast sandwich with a pat of butter"
+        },
+        {
+          "name": "Chee cheong fun",
+          "description": "steamed rice rolls with dark sauce and sesame"
+        }
+      ]
+    }
+  ]
+}

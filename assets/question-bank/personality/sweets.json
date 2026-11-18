@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Cake",
+      "question": "Someone offers to bake your birthday cake. Which one do you request?",
+      "outcomes": [
+        {
+          "name": "Black Forest cake",
+          "description": "Black Forest cake"
+        },
+        {
+          "name": "Carrot cake",
+          "description": "Carrot cake"
+        },
+        {
+          "name": "Lemon drizzle cake",
+          "description": "Lemon drizzle cake"
+        },
+        {
+          "name": "Red velvet cake",
+          "description": "Red velvet cake"
+        }
+      ]
+    },
+    {
+      "topic": "Biscuit tin",
+      "question": "You find a biscuit tin on the counter. Which one goes with your tea?",
+      "outcomes": [
+        {
+          "name": "Jam drop",
+          "description": "Jam drop"
+        },
+        {
+          "name": "Shortbread finger",
+          "description": "Shortbread finger"
+        },
+        {
+          "name": "Ginger snap",
+          "description": "Ginger snap"
+        },
+        {
+          "name": "Chocolate crinkle cookie",
+          "description": "Chocolate crinkle cookie"
+        }
+      ]
+    },
+    {
+      "topic": "Frozen treats",
+      "question": "The ice cream cart stops at the park. Which treat do you order?",
+      "outcomes": [
+        {
+          "name": "Mango ice pop",
+          "description": "Mango ice pop"
+        },
+        {
+          "name": "Chocolate ice cream sandwich",
+          "description": "Chocolate ice cream sandwich"
+        },
+        {
+          "name": "Strawberry soft serve",
+          "description": "Strawberry soft serve"
+        },
+        {
+          "name": "Watermelon granita",
+          "description": "Watermelon granita"
+        }
+      ]
+    },
+    {
+      "topic": "Chocolate box",
+      "question": "You get first pick from the chocolate box. Which piece do you take?",
+      "outcomes": [
+        {
+          "name": "Hazelnut praline",
+          "description": "Hazelnut praline"
+        },
+        {
+          "name": "Coconut truffle",
+          "description": "Coconut truffle"
+        },
+        {
+          "name": "Caramel-filled chocolate",
+          "description": "Caramel-filled chocolate"
+        },
+        {
+          "name": "Chocolate orange slice",
+          "description": "Chocolate orange slice"
+        }
+      ]
+    }
+  ]
+}

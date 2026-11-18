@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "World towers",
+      "question": "A guidebook opens to four towers. Which one would you plan a day around?",
+      "outcomes": [
+        {
+          "name": "Leaning Tower of Pisa",
+          "description": "miniature tilted white Pisa tower"
+        },
+        {
+          "name": "Tokyo Tower",
+          "description": "miniature red and white Tokyo Tower"
+        },
+        {
+          "name": "Space Needle",
+          "description": "miniature Seattle Space Needle"
+        },
+        {
+          "name": "CN Tower",
+          "description": "miniature slender CN Tower with observation pod"
+        }
+      ]
+    },
+    {
+      "topic": "Ancient landmarks",
+      "question": "Your travel club is choosing a historic site for a photo walk. Which gets your vote?",
+      "outcomes": [
+        {
+          "name": "Petra Treasury",
+          "description": "rose sandstone carved Treasury facade at Petra"
+        },
+        {
+          "name": "Chichén Itzá",
+          "description": "stepped pyramid of El Castillo"
+        },
+        {
+          "name": "Stonehenge",
+          "description": "ring of ancient standing stones"
+        },
+        {
+          "name": "Borobudur",
+          "description": "terraced Buddhist monument with bell-shaped stupas"
+        }
+      ]
+    },
+    {
+      "topic": "Coastal landmarks",
+      "question": "The next trip has one day by the sea. Which landmark would you go see?",
+      "outcomes": [
+        {
+          "name": "Mont-Saint-Michel",
+          "description": "abbey-topped tidal island"
+        },
+        {
+          "name": "Twelve Apostles",
+          "description": "limestone sea stacks off the Australian coast"
+        },
+        {
+          "name": "Giant's Causeway",
+          "description": "dark hexagonal basalt columns by the sea"
+        },
+        {
+          "name": "Moeraki Boulders",
+          "description": "large spherical stone boulders on a beach"
+        }
+      ]
+    },
+    {
+      "topic": "Civic landmarks",
+      "question": "You have one city stop before your train. Which building are you curious about?",
+      "outcomes": [
+        {
+          "name": "Flatiron Building",
+          "description": "miniature triangular New York Flatiron Building"
+        },
+        {
+          "name": "Marina Bay Sands",
+          "description": "three towers supporting a long boat-shaped rooftop"
+        },
+        {
+          "name": "Casa Batlló",
+          "description": "Barcelona colourful skeletal facade with curved roof"
+        },
+        {
+          "name": "Guggenheim Bilbao",
+          "description": "curving silver titanium museum building"
+        }
+      ]
+    }
+  ]
+}

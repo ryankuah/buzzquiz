@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Pet rabbits",
+      "question": "You're drawing portraits at a rabbit show. Which rabbit sits for you first?",
+      "outcomes": [
+        {
+          "name": "Holland lop",
+          "description": "Small tan rabbit with drooping ears"
+        },
+        {
+          "name": "Lionhead rabbit",
+          "description": "Small rabbit with fluffy mane around its head"
+        },
+        {
+          "name": "Dutch rabbit",
+          "description": "Black and white rabbit with a white facial blaze"
+        },
+        {
+          "name": "Angora rabbit",
+          "description": "Round extremely fluffy white wool rabbit"
+        }
+      ]
+    },
+    {
+      "topic": "Classroom pets",
+      "question": "Your classroom pet calendar needs a cover. Which animal gets the portrait?",
+      "outcomes": [
+        {
+          "name": "Guinea pig",
+          "description": "Tricolour short-haired guinea pig"
+        },
+        {
+          "name": "Gerbil",
+          "description": "Sandy gerbil with long tufted tail"
+        },
+        {
+          "name": "Syrian hamster",
+          "description": "Golden hamster with round cheeks"
+        },
+        {
+          "name": "Chinchilla",
+          "description": "Fluffy grey chinchilla with large round ears"
+        }
+      ]
+    },
+    {
+      "topic": "Pet birds",
+      "question": "You can visit one aviary before closing. Which bird would you listen to?",
+      "outcomes": [
+        {
+          "name": "Budgerigar",
+          "description": "Small green and yellow budgerigar with barred wings"
+        },
+        {
+          "name": "Cockatiel",
+          "description": "Grey cockatiel with yellow crest and orange cheek"
+        },
+        {
+          "name": "Peach-faced lovebird",
+          "description": "Green lovebird with a rosy peach face"
+        },
+        {
+          "name": "Canary",
+          "description": "Bright yellow canary songbird"
+        }
+      ]
+    },
+    {
+      "topic": "Stable breeds",
+      "question": "You're making cards to introduce the new horses. Which breed goes first?",
+      "outcomes": [
+        {
+          "name": "Shetland pony",
+          "description": "Stocky brown pony with a shaggy mane"
+        },
+        {
+          "name": "Appaloosa",
+          "description": "White-rumped brown horse with dark spots"
+        },
+        {
+          "name": "Friesian",
+          "description": "Tall black horse with flowing mane and feathered legs"
+        },
+        {
+          "name": "Clydesdale",
+          "description": "Large bay draft horse with a white blaze and white feathered hooves"
+        }
+      ]
+    }
+  ]
+}

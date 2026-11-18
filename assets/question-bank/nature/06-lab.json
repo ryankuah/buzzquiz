@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Optics",
+      "question": "At the optics table, which object would you use to start a light experiment?",
+      "outcomes": [
+        {
+          "name": "Triangular prism",
+          "description": "Clear triangular glass prism splitting a narrow rainbow"
+        },
+        {
+          "name": "Convex lens",
+          "description": "Single round convex glass lens on a small stand"
+        },
+        {
+          "name": "Kaleidoscope",
+          "description": "Colourful cardboard kaleidoscope tube with faceted glass end"
+        },
+        {
+          "name": "Periscope",
+          "description": "Box-shaped green periscope with two angled ends"
+        }
+      ]
+    },
+    {
+      "topic": "Physics demonstrations",
+      "question": "The science fair has one empty tabletop. Which demonstration do you set up?",
+      "outcomes": [
+        {
+          "name": "Newton's cradle",
+          "description": "Five steel pendulum balls hanging in a frame"
+        },
+        {
+          "name": "Gyroscope",
+          "description": "Brass spinning wheel inside a gimbal cage"
+        },
+        {
+          "name": "Horseshoe magnet",
+          "description": "Red horseshoe magnet with silver tips"
+        },
+        {
+          "name": "Tuning fork",
+          "description": "Silver two-pronged tuning fork"
+        }
+      ]
+    },
+    {
+      "topic": "Microscope samples",
+      "question": "You're borrowing the classroom microscope. Which sample goes on the slide?",
+      "outcomes": [
+        {
+          "name": "Onion skin",
+          "description": "Thin translucent onion skin on a glass slide"
+        },
+        {
+          "name": "Pollen grains",
+          "description": "Cluster of golden spiky pollen grains"
+        },
+        {
+          "name": "Peacock feather",
+          "description": "A single blue-green peacock eye feather"
+        },
+        {
+          "name": "Snowflake crystal",
+          "description": "A single intricate six-armed snow crystal"
+        }
+      ]
+    },
+    {
+      "topic": "Palaeontology",
+      "question": "The fossil cabinet has one spot left for the display. Which find do you add?",
+      "outcomes": [
+        {
+          "name": "Ammonite fossil",
+          "description": "Spiralling tan ammonite fossil"
+        },
+        {
+          "name": "Trilobite fossil",
+          "description": "Segmented trilobite fossil embedded in a stone"
+        },
+        {
+          "name": "Shark tooth",
+          "description": "Dark triangular fossil shark tooth with root"
+        },
+        {
+          "name": "Fern fossil",
+          "description": "Black fossil fern impression on grey shale"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Wizard equipment",
+      "question": "An apprentice can carry one beloved tool on the road. Which one comes with you?",
+      "outcomes": [
+        {
+          "name": "Crystal ball",
+          "description": "Clear violet crystal sphere on brass stand"
+        },
+        {
+          "name": "Spellbook",
+          "description": "Heavy blue spellbook with gold star clasp"
+        },
+        {
+          "name": "Willow wand",
+          "description": "Twisted willow wand with a silver tip"
+        },
+        {
+          "name": "Brass cauldron",
+          "description": "Round brass cauldron with a curved handle"
+        }
+      ]
+    },
+    {
+      "topic": "Enchanted keys",
+      "question": "You find four keys in a forgotten desk. Which one do you choose for your story?",
+      "outcomes": [
+        {
+          "name": "Feather key",
+          "description": "Silver key with a feather-shaped bow"
+        },
+        {
+          "name": "Thorn key",
+          "description": "Dark metal key shaped like a thorny vine"
+        },
+        {
+          "name": "Sun key",
+          "description": "Golden key with radiant sun-shaped bow"
+        },
+        {
+          "name": "Shell key",
+          "description": "Pearl-white key with a scallop-shell bow"
+        }
+      ]
+    },
+    {
+      "topic": "Potion bottles",
+      "question": "The potion shop lets you design a signature bottle. Which shape sits on your shelf?",
+      "outcomes": [
+        {
+          "name": "Crescent flask",
+          "description": "Crescent moon shaped blue potion flask"
+        },
+        {
+          "name": "Heart bottle",
+          "description": "Ruby red heart-shaped potion bottle"
+        },
+        {
+          "name": "Teardrop vial",
+          "description": "Slim green teardrop-shaped potion vial"
+        },
+        {
+          "name": "Star bottle",
+          "description": "Five-pointed gold glass star bottle"
+        }
+      ]
+    },
+    {
+      "topic": "Fantasy inns",
+      "question": "Your adventuring party chooses an inn by its hanging sign. Which one looks welcoming?",
+      "outcomes": [
+        {
+          "name": "Silver Stag sign",
+          "description": "Silver stag silhouette on a rustic oval inn sign"
+        },
+        {
+          "name": "Golden Kettle sign",
+          "description": "Golden kettle painted on a rustic hanging inn sign"
+        },
+        {
+          "name": "Blue Feather sign",
+          "description": "Blue feather painted on a wooden inn sign"
+        },
+        {
+          "name": "Sleeping Cat sign",
+          "description": "Curled sleeping cat painted on a round inn sign"
+        }
+      ]
+    }
+  ]
+}

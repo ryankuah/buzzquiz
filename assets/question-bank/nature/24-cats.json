@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Longhair cats",
+      "question": "A cat café asks for a portrait of its fluffiest regular. Which cat do you draw?",
+      "outcomes": [
+        {
+          "name": "Maine coon",
+          "description": "Maine coon — large tufted tabby with a shaggy mane"
+        },
+        {
+          "name": "Ragdoll",
+          "description": "Ragdoll — blue-eyed cream and brown longhair"
+        },
+        {
+          "name": "Turkish Angora",
+          "description": "Turkish Angora — slender silky white longhair"
+        },
+        {
+          "name": "Norwegian forest cat",
+          "description": "Norwegian forest cat — bushy grey tabby with a triangular face"
+        }
+      ]
+    },
+    {
+      "topic": "Cat coat patterns",
+      "question": "You're choosing a fabric print inspired by cats. Which coat becomes the pattern?",
+      "outcomes": [
+        {
+          "name": "Calico cat",
+          "description": "Calico cat — white cat with orange and black patches"
+        },
+        {
+          "name": "Tuxedo cat",
+          "description": "Tuxedo cat — black cat with white bib and paws"
+        },
+        {
+          "name": "Silver tabby",
+          "description": "Silver tabby — silver cat with dark striped markings"
+        },
+        {
+          "name": "Tortoiseshell cat",
+          "description": "Tortoiseshell cat — cat with mottled black and ginger fur"
+        }
+      ]
+    },
+    {
+      "topic": "Wild cats",
+      "question": "The sanctuary offers a remote camera feed. Which wild cat do you follow?",
+      "outcomes": [
+        {
+          "name": "Caracal",
+          "description": "Caracal — sandy cat with long black ear tufts"
+        },
+        {
+          "name": "Serval",
+          "description": "Serval — tall spotted cat with very large ears"
+        },
+        {
+          "name": "Pallas's cat",
+          "description": "Pallas's cat — stocky grey fluffy cat with low rounded ears"
+        },
+        {
+          "name": "Ocelot",
+          "description": "Ocelot — sleek tawny cat with long dark rosettes"
+        }
+      ]
+    },
+    {
+      "topic": "Big cats",
+      "question": "A conservation mural has room for one more portrait. Which cat do you paint?",
+      "outcomes": [
+        {
+          "name": "Bengal tiger",
+          "description": "Bengal tiger — orange tiger with black stripes"
+        },
+        {
+          "name": "African lion",
+          "description": "African lion — male lion with a thick tawny mane"
+        },
+        {
+          "name": "Jaguar",
+          "description": "Jaguar — golden big cat with dark rosettes"
+        },
+        {
+          "name": "Cheetah",
+          "description": "Cheetah — slender spotted cat with black facial tear marks"
+        }
+      ]
+    }
+  ]
+}

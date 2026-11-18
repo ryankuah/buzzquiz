@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Laundrette errands",
+      "question": "You need to finish the laundry before dinner. Which machine or tool do you head for?",
+      "outcomes": [
+        {
+          "name": "Front-load washer",
+          "description": "white front-loading washing machine"
+        },
+        {
+          "name": "Tumble dryer",
+          "description": "stacked laundrette dryer with open round door"
+        },
+        {
+          "name": "Ironing board",
+          "description": "folding ironing board with iron"
+        },
+        {
+          "name": "Laundry trolley",
+          "description": "chrome rolling laundry basket"
+        }
+      ]
+    },
+    {
+      "topic": "Community noticeboard",
+      "question": "The community centre asks you to pin up one activity. Which would you join?",
+      "outcomes": [
+        {
+          "name": "Language exchange",
+          "description": "two speech-bubble shaped cards and bilingual pocket dictionary"
+        },
+        {
+          "name": "Seed swap",
+          "description": "open envelopes of seeds beside a sprout"
+        },
+        {
+          "name": "Repair café",
+          "description": "screwdriver and repaired toaster"
+        },
+        {
+          "name": "Walking club",
+          "description": "pair of worn walking shoes and route map"
+        }
+      ]
+    },
+    {
+      "topic": "Local market music",
+      "question": "You are choosing entertainment for a courtyard market. Which sound would fit?",
+      "outcomes": [
+        {
+          "name": "Steelpan",
+          "description": "shallow steelpan drum on stand"
+        },
+        {
+          "name": "Handpan",
+          "description": "dark convex handpan drum with tone fields"
+        },
+        {
+          "name": "Melodica",
+          "description": "small colourful melodica with mouth tube"
+        },
+        {
+          "name": "Busker guitar",
+          "description": "acoustic guitar in an open busking case"
+        }
+      ]
+    },
+    {
+      "topic": "Corner shop essentials",
+      "question": "A friend has run out of something in their new apartment. What do you offer to pick up?",
+      "outcomes": [
+        {
+          "name": "Lightbulb",
+          "description": "warm-white household lightbulb"
+        },
+        {
+          "name": "Batteries",
+          "description": "two AA batteries with distinct terminals"
+        },
+        {
+          "name": "Dish sponge",
+          "description": "green-and-yellow kitchen dish sponge"
+        },
+        {
+          "name": "Clothes pegs",
+          "description": "handful of wooden spring clothes pegs"
+        }
+      ]
+    }
+  ]
+}

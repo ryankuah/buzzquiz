@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Coastal birds",
+      "question": "You arrive at a rocky headland with a sketchpad. Which bird do you follow?",
+      "outcomes": [
+        {
+          "name": "Atlantic puffin",
+          "description": "Atlantic puffin — black and white puffin with broad orange bill"
+        },
+        {
+          "name": "Oystercatcher",
+          "description": "Oystercatcher — black and white shorebird with straight red bill"
+        },
+        {
+          "name": "Arctic tern",
+          "description": "Arctic tern — slim white tern with black cap and red bill"
+        },
+        {
+          "name": "Pelican",
+          "description": "Pelican — large white pelican with long pouch bill"
+        }
+      ]
+    },
+    {
+      "topic": "Seaweed forms",
+      "question": "The coastal centre needs a seaweed identification panel. Which frond do you illustrate?",
+      "outcomes": [
+        {
+          "name": "Bladderwrack",
+          "description": "Bladderwrack — olive brown forked seaweed with paired air bladders"
+        },
+        {
+          "name": "Sea lettuce",
+          "description": "Sea lettuce — bright green ruffled flat seaweed"
+        },
+        {
+          "name": "Bull kelp",
+          "description": "Bull kelp — long kelp stipe with bulb and broad ribbons"
+        },
+        {
+          "name": "Irish moss",
+          "description": "Irish moss — small branching fronds of reddish seaweed"
+        }
+      ]
+    },
+    {
+      "topic": "Tidal crabs",
+      "question": "The tide drops and a crab appears beside the rocks. Which species would you photograph?",
+      "outcomes": [
+        {
+          "name": "Sally Lightfoot crab",
+          "description": "Sally Lightfoot crab — bright red and yellow flat rock crab"
+        },
+        {
+          "name": "Spider crab",
+          "description": "Spider crab — long-legged spiny orange marine crab"
+        },
+        {
+          "name": "Blue crab",
+          "description": "Blue crab — olive crab with blue swimming legs"
+        },
+        {
+          "name": "Coconut crab",
+          "description": "Coconut crab — large blue and russet land crab with massive claws"
+        }
+      ]
+    },
+    {
+      "topic": "Seabed creatures",
+      "question": "Your underwater drone can follow one slow-moving animal. Which one?",
+      "outcomes": [
+        {
+          "name": "Sea cucumber",
+          "description": "Sea cucumber — elongated knobbly brown sea cucumber"
+        },
+        {
+          "name": "Brittle star",
+          "description": "Brittle star — small central disc with five long thin winding arms"
+        },
+        {
+          "name": "Feather star",
+          "description": "Feather star — crimson crinoid with many feathery arms"
+        },
+        {
+          "name": "Sea hare",
+          "description": "Sea hare — brown mottled marine sea hare with rabbitlike rhinophores"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Seafood market",
+      "question": "The fishmonger offers to prepare one fresh catch for lunch. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Mussels",
+          "description": "cluster of blue-black mussels with one opened shell"
+        },
+        {
+          "name": "Prawns",
+          "description": "curved pink prawns with antennae"
+        },
+        {
+          "name": "Scallops",
+          "description": "seared scallops on a scallop shell"
+        },
+        {
+          "name": "Sardines",
+          "description": "three small silver sardines"
+        }
+      ]
+    },
+    {
+      "topic": "Beach games",
+      "question": "The beach is wide and empty this morning. What game do you lay out?",
+      "outcomes": [
+        {
+          "name": "Beach cricket",
+          "description": "plastic cricket bat ball and stumps"
+        },
+        {
+          "name": "Paddleball",
+          "description": "two wooden paddleball bats with small ball"
+        },
+        {
+          "name": "Beach volleyball",
+          "description": "net set between posts and a volleyball"
+        },
+        {
+          "name": "Sandcastle building",
+          "description": "bucket spade and a small sandcastle"
+        }
+      ]
+    },
+    {
+      "topic": "Rockpool observation gear",
+      "question": "You are sketching tide-pool life for a field notebook. What do you take?",
+      "outcomes": [
+        {
+          "name": "Hand lens",
+          "description": "folding jeweller-style hand lens"
+        },
+        {
+          "name": "Underwater viewer",
+          "description": "clear-bottom viewing bucket"
+        },
+        {
+          "name": "Waterproof notebook",
+          "description": "small spiral notebook with water droplets"
+        },
+        {
+          "name": "Pocket ruler",
+          "description": "small metal measuring ruler"
+        }
+      ]
+    },
+    {
+      "topic": "Lakeside boats",
+      "question": "The boathouse rents by the hour. Which boat do you untie?",
+      "outcomes": [
+        {
+          "name": "Rowboat",
+          "description": "wooden rowboat with two oars"
+        },
+        {
+          "name": "Pedal boat",
+          "description": "colourful pedal boat with two seats"
+        },
+        {
+          "name": "Canoe",
+          "description": "open red canoe with single-bladed paddle"
+        },
+        {
+          "name": "Stand-up paddleboard",
+          "description": "long paddleboard with paddle"
+        }
+      ]
+    }
+  ]
+}

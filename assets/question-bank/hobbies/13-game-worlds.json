@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "City-building game",
+      "question": "Your simulated town has a little budget left. Which civic building gets funded?",
+      "outcomes": [
+        {
+          "name": "Public library",
+          "description": "small classical library building with columns"
+        },
+        {
+          "name": "Fire station",
+          "description": "little brick fire station with red vehicle doors"
+        },
+        {
+          "name": "Observatory",
+          "description": "small domed astronomical observatory"
+        },
+        {
+          "name": "Indoor swimming pool",
+          "description": "architectural cutaway of blue indoor pool building"
+        }
+      ]
+    },
+    {
+      "topic": "Racing game",
+      "question": "You win a cosmetic part for your custom kart. Which upgrade do you show off?",
+      "outcomes": [
+        {
+          "name": "Checkerboard flag",
+          "description": "small black-and-white racing flag on a pole"
+        },
+        {
+          "name": "Rear spoiler",
+          "description": "detached red racing car rear spoiler"
+        },
+        {
+          "name": "Chrome wheel",
+          "description": "shiny chrome racing wheel with tyre"
+        },
+        {
+          "name": "Flame decal",
+          "description": "red and yellow flame-shaped decal"
+        }
+      ]
+    },
+    {
+      "topic": "Life simulator",
+      "question": "Your character has the evening to pick up a new side gig. Which starter kit do you buy?",
+      "outcomes": [
+        {
+          "name": "Dog walking kit",
+          "description": "bundle of colourful dog leashes and a treat pouch"
+        },
+        {
+          "name": "Bike repair kit",
+          "description": "blue bicycle tyre pump with tyre levers"
+        },
+        {
+          "name": "Flower delivery kit",
+          "description": "kraft-wrapped flowers in a carrier box"
+        },
+        {
+          "name": "Window cleaning kit",
+          "description": "blue squeegee and cleaning bucket"
+        }
+      ]
+    },
+    {
+      "topic": "Rhythm game",
+      "question": "A rhythm game puts its next four tracks behind instrument-shaped doors. Which one do you open?",
+      "outcomes": [
+        {
+          "name": "Keytar",
+          "description": "bright red shoulder-worn keytar"
+        },
+        {
+          "name": "Steelpan",
+          "description": "silver concave steelpan drum on a stand"
+        },
+        {
+          "name": "Taiko drum",
+          "description": "large Japanese taiko drum with thick sticks"
+        },
+        {
+          "name": "Theremin",
+          "description": "wooden theremin with loop and vertical metal antenna"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Dumplings",
+      "question": "You have room for one plate at a dumpling festival. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Gyoza",
+          "description": "pan-fried crescent gyoza with pleated edges"
+        },
+        {
+          "name": "Shumai",
+          "description": "open-topped yellow shumai dumplings with orange roe"
+        },
+        {
+          "name": "Pierogi",
+          "description": "half-moon pierogi with golden onions"
+        },
+        {
+          "name": "Momo",
+          "description": "round Himalayan momo dumplings with twisted tops"
+        }
+      ]
+    },
+    {
+      "topic": "Global soups",
+      "question": "Rain starts on your lunch break. Which hot bowl are you ordering?",
+      "outcomes": [
+        {
+          "name": "Pho",
+          "description": "pho with flat noodles herbs lime and beef slices"
+        },
+        {
+          "name": "Tom yum",
+          "description": "clear orange Thai tom yum soup with prawns and lemongrass"
+        },
+        {
+          "name": "Borscht",
+          "description": "deep beet-red borscht with sour cream"
+        },
+        {
+          "name": "French onion soup",
+          "description": "stoneware crock of soup with bubbling cheese toast"
+        }
+      ]
+    },
+    {
+      "topic": "Rice dishes",
+      "question": "Everyone at the table is ordering something different. Which rice dish is yours?",
+      "outcomes": [
+        {
+          "name": "Paella",
+          "description": "shallow paella pan with saffron rice and mussels"
+        },
+        {
+          "name": "Bibimbap",
+          "description": "Korean stone bowl with rice vegetables and fried egg"
+        },
+        {
+          "name": "Biryani",
+          "description": "aromatic basmati biryani with spices and fried onions"
+        },
+        {
+          "name": "Risotto",
+          "description": "creamy mushroom risotto on a shallow plate"
+        }
+      ]
+    },
+    {
+      "topic": "Bakery sweets",
+      "question": "The café has one of each pastry left. Which do you claim?",
+      "outcomes": [
+        {
+          "name": "Éclair",
+          "description": "long chocolate-glazed eclair"
+        },
+        {
+          "name": "Baklava",
+          "description": "diamond-cut layered pistachio baklava"
+        },
+        {
+          "name": "Pastel de nata",
+          "description": "Portuguese custard tart with blistered golden top"
+        },
+        {
+          "name": "Cinnamon roll",
+          "description": "spiral cinnamon roll with icing"
+        }
+      ]
+    }
+  ]
+}

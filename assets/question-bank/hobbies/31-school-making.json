@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Textile classroom",
+      "question": "A school textiles class is cutting patterns today. Which tool do you lay out first?",
+      "outcomes": [
+        {
+          "name": "Tailor chalk",
+          "description": "triangular pieces of tailor's chalk"
+        },
+        {
+          "name": "Seam ripper",
+          "description": "small red-handled seam ripper"
+        },
+        {
+          "name": "Rotary cutter",
+          "description": "yellow handled rotary fabric cutter"
+        },
+        {
+          "name": "Measuring tape",
+          "description": "soft coiled yellow tailor's tape"
+        }
+      ]
+    },
+    {
+      "topic": "Maths competition",
+      "question": "Your team is making a hands-on puzzle table. What goes in the centre?",
+      "outcomes": [
+        {
+          "name": "Soma cube",
+          "description": "colourful interlocking Soma cube blocks"
+        },
+        {
+          "name": "Pentomino pieces",
+          "description": "five-square wooden pentomino pieces"
+        },
+        {
+          "name": "Geoboard",
+          "description": "square pegboard with coloured elastic polygons"
+        },
+        {
+          "name": "Balance puzzle",
+          "description": "wooden balancing moon with colourful cylinders"
+        }
+      ]
+    },
+    {
+      "topic": "School newspaper",
+      "question": "Your class newspaper is covering sports day. Which object do you take to the field?",
+      "outcomes": [
+        {
+          "name": "Reporter notebook",
+          "description": "narrow spiral reporter notebook"
+        },
+        {
+          "name": "Press pass",
+          "description": "fabric lanyard with a small press badge"
+        },
+        {
+          "name": "Voice recorder",
+          "description": "handheld digital voice recorder with twin microphones"
+        },
+        {
+          "name": "Telephoto lens",
+          "description": "black detachable long telephoto camera lens"
+        }
+      ]
+    },
+    {
+      "topic": "School orchestra",
+      "question": "The school orchestra has funds for one shared accessory. Which one will you use first?",
+      "outcomes": [
+        {
+          "name": "Music stand",
+          "description": "black folding sheet music stand"
+        },
+        {
+          "name": "Mechanical metronome",
+          "description": "wooden pyramid mechanical metronome"
+        },
+        {
+          "name": "Conductor baton",
+          "description": "white conductor's baton with cork handle"
+        },
+        {
+          "name": "Rosin cake",
+          "description": "round amber violin rosin cake in cloth"
+        }
+      ]
+    }
+  ]
+}

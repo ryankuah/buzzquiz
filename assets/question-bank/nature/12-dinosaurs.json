@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Horned dinosaurs",
+      "question": "A park artist asks you to choose a horned dinosaur for a mural. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Triceratops",
+          "description": "Green ceratopsian with two brow horns and a short nose horn"
+        },
+        {
+          "name": "Styracosaurus",
+          "description": "Ceratopsian with large nose horn and long spikes around its frill"
+        },
+        {
+          "name": "Pachyrhinosaurus",
+          "description": "Sandy ceratopsian with broad bony nose boss"
+        },
+        {
+          "name": "Protoceratops",
+          "description": "Small hornless ceratopsian with a short neck frill"
+        }
+      ]
+    },
+    {
+      "topic": "Dinosaur silhouettes",
+      "question": "The puppet theatre needs a dinosaur with a memorable silhouette. Which one stars?",
+      "outcomes": [
+        {
+          "name": "Stegosaurus",
+          "description": "Quadrupedal dinosaur with tall paired back plates"
+        },
+        {
+          "name": "Ankylosaurus",
+          "description": "Low armoured dinosaur with a large tail club"
+        },
+        {
+          "name": "Parasaurolophus",
+          "description": "Duck-billed dinosaur with long curved head crest"
+        },
+        {
+          "name": "Brachiosaurus",
+          "description": "Long-necked sauropod with high shoulders"
+        }
+      ]
+    },
+    {
+      "topic": "Prehistoric reptiles",
+      "question": "You're directing an ancient-ocean documentary. Which reptile gets the opening shot?",
+      "outcomes": [
+        {
+          "name": "Plesiosaurus",
+          "description": "Long-necked marine reptile with four broad flippers"
+        },
+        {
+          "name": "Ichthyosaurus",
+          "description": "Dolphin-shaped marine reptile with long narrow toothed snout"
+        },
+        {
+          "name": "Mosasaurus",
+          "description": "Large streamlined marine lizard with long jaws"
+        },
+        {
+          "name": "Archelon",
+          "description": "Giant prehistoric sea turtle with expansive front flippers"
+        }
+      ]
+    },
+    {
+      "topic": "Ice age wildlife",
+      "question": "You open an illustrated ice age atlas. Which animal do you look up first?",
+      "outcomes": [
+        {
+          "name": "Woolly mammoth",
+          "description": "Shaggy brown mammoth with curved tusks"
+        },
+        {
+          "name": "Smilodon",
+          "description": "Golden saber-toothed cat with large curved canines"
+        },
+        {
+          "name": "Giant ground sloth",
+          "description": "Huge shaggy brown ground sloth standing upright"
+        },
+        {
+          "name": "Woolly rhinoceros",
+          "description": "Shaggy rhinoceros with long front horn"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Racquet sports",
+      "question": "The sports centre lets you try one racquet court for free. Which piece of kit do you borrow?",
+      "outcomes": [
+        {
+          "name": "Tennis racquet",
+          "description": "tennis racquet with yellow tennis ball"
+        },
+        {
+          "name": "Table tennis paddle",
+          "description": "small red ping-pong bat with white ball"
+        },
+        {
+          "name": "Padel racquet",
+          "description": "solid teardrop padel racquet with circular holes"
+        },
+        {
+          "name": "Squash racquet",
+          "description": "narrow squash racquet with small black ball"
+        }
+      ]
+    },
+    {
+      "topic": "Climbing",
+      "question": "You've signed up to help run a climbing gym. Which station do you volunteer to look after?",
+      "outcomes": [
+        {
+          "name": "Climbing shoe hire",
+          "description": "pair of curved velcro climbing shoes"
+        },
+        {
+          "name": "Chalk refill",
+          "description": "open bright chalk bag with white chalk"
+        },
+        {
+          "name": "Route setting",
+          "description": "group of colourful bolt-on climbing holds"
+        },
+        {
+          "name": "Rope coiling",
+          "description": "coiled patterned climbing rope"
+        }
+      ]
+    },
+    {
+      "topic": "Track and field",
+      "question": "Your coach has set up four stations for sports day. Which do you walk toward first?",
+      "outcomes": [
+        {
+          "name": "Relay baton",
+          "description": "pair of brightly coloured relay batons"
+        },
+        {
+          "name": "High jump",
+          "description": "high-jump bar on uprights above a crash mat"
+        },
+        {
+          "name": "Discus",
+          "description": "single heavy red discus with metal rim"
+        },
+        {
+          "name": "Running hurdles",
+          "description": "two blue track hurdles"
+        }
+      ]
+    },
+    {
+      "topic": "Wheel sports",
+      "question": "The promenade is closed to traffic on Sunday. What do you bring for a lap?",
+      "outcomes": [
+        {
+          "name": "Longboard",
+          "description": "long wood-grain longboard skateboard"
+        },
+        {
+          "name": "Quad skates",
+          "description": "pair of retro four-wheel roller skates"
+        },
+        {
+          "name": "Kick scooter",
+          "description": "teal two-wheel kick scooter"
+        },
+        {
+          "name": "Unicycle",
+          "description": "single-wheel unicycle with saddle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Folk instruments",
+      "question": "The folk session has a spare chair. Which instrument do you carry over?",
+      "outcomes": [
+        {
+          "name": "Mandolin",
+          "description": "small teardrop-bodied wooden mandolin"
+        },
+        {
+          "name": "Accordion",
+          "description": "red bellows accordion"
+        },
+        {
+          "name": "Bodhrán",
+          "description": "round Irish frame drum with a short tipper"
+        },
+        {
+          "name": "Tin whistle",
+          "description": "slim metal tin whistle with green mouthpiece"
+        }
+      ]
+    },
+    {
+      "topic": "Orchestral instruments",
+      "question": "You have a free trial lesson before orchestra auditions. Which case do you open?",
+      "outcomes": [
+        {
+          "name": "Cello",
+          "description": "wooden cello with endpin and bow"
+        },
+        {
+          "name": "French horn",
+          "description": "coiled brass French horn"
+        },
+        {
+          "name": "Bassoon",
+          "description": "long wooden bassoon with a curved bocal"
+        },
+        {
+          "name": "Concert flute",
+          "description": "silver transverse concert flute"
+        }
+      ]
+    },
+    {
+      "topic": "Hand percussion",
+      "question": "A songwriter asks for a little more texture on the chorus. What do you pick up?",
+      "outcomes": [
+        {
+          "name": "Cabasa",
+          "description": "wooden handled cabasa with metal beads"
+        },
+        {
+          "name": "Tambourine",
+          "description": "round blue tambourine with jingles"
+        },
+        {
+          "name": "Maracas",
+          "description": "pair of painted striped maracas"
+        },
+        {
+          "name": "Triangle",
+          "description": "steel percussion triangle with beater"
+        }
+      ]
+    },
+    {
+      "topic": "Home recording",
+      "question": "Your home recording sounds thin. Which piece of studio gear do you experiment with first?",
+      "outcomes": [
+        {
+          "name": "Condenser microphone",
+          "description": "silver condenser microphone in a shock mount"
+        },
+        {
+          "name": "Audio interface",
+          "description": "small red audio interface with knobs and sockets"
+        },
+        {
+          "name": "Studio headphones",
+          "description": "large closed-back black studio headphones"
+        },
+        {
+          "name": "Pop filter",
+          "description": "circular mesh microphone pop filter on a gooseneck"
+        }
+      ]
+    }
+  ]
+}

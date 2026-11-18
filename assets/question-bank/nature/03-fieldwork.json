@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Geology specimens",
+      "question": "The geology lab offers a mystery box of rocks. Which sample do you pick out?",
+      "outcomes": [
+        {
+          "name": "Obsidian",
+          "description": "Glossy black obsidian shard"
+        },
+        {
+          "name": "Pumice",
+          "description": "Pale porous pumice stone"
+        },
+        {
+          "name": "Banded agate",
+          "description": "Sliced blue and cream banded agate"
+        },
+        {
+          "name": "Pyrite",
+          "description": "Brassy gold cubic pyrite mineral cluster"
+        }
+      ]
+    },
+    {
+      "topic": "Field science tools",
+      "question": "You have one free pocket for the nature survey. Which tool goes in it?",
+      "outcomes": [
+        {
+          "name": "Hand lens",
+          "description": "Folding jeweller's hand lens"
+        },
+        {
+          "name": "Soil corer",
+          "description": "Small metal soil corer with a T handle"
+        },
+        {
+          "name": "Sample vial",
+          "description": "Clear corked sample vial containing brown sand"
+        },
+        {
+          "name": "Field calipers",
+          "description": "Steel sliding vernier calipers"
+        }
+      ]
+    },
+    {
+      "topic": "Weather station",
+      "question": "The school weather station needs an upgrade. Which instrument do you install?",
+      "outcomes": [
+        {
+          "name": "Rain gauge",
+          "description": "Upright transparent rain measuring cylinder"
+        },
+        {
+          "name": "Cup anemometer",
+          "description": "Three-cup spinning anemometer"
+        },
+        {
+          "name": "Weather vane",
+          "description": "Copper rooster weather vane on direction rods"
+        },
+        {
+          "name": "Barometer",
+          "description": "Round brass aneroid barometer with black dial needle"
+        }
+      ]
+    },
+    {
+      "topic": "Insect observation",
+      "question": "You're helping with a garden insect count. Which sighting makes you stop?",
+      "outcomes": [
+        {
+          "name": "Stag beetle",
+          "description": "Brown stag beetle with forked antlerlike mandibles"
+        },
+        {
+          "name": "Praying mantis",
+          "description": "Green praying mantis with folded forelegs"
+        },
+        {
+          "name": "Bumblebee",
+          "description": "Round fuzzy black and yellow bumblebee"
+        },
+        {
+          "name": "Swallowtail butterfly",
+          "description": "Yellow and black swallowtail butterfly with spread wings"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Star types",
+      "question": "You can illuminate one star model for a dark-sky display. Which light switches on?",
+      "outcomes": [
+        {
+          "name": "Red giant",
+          "description": "Red giant — large red-orange mottled glowing star"
+        },
+        {
+          "name": "White dwarf",
+          "description": "White dwarf — small brilliant white stellar orb"
+        },
+        {
+          "name": "Blue supergiant",
+          "description": "Blue supergiant — large vivid blue luminous star"
+        },
+        {
+          "name": "Pulsar",
+          "description": "Pulsar — dense purple star with two narrow beams and a glowing magnetic arc"
+        }
+      ]
+    },
+    {
+      "topic": "Galaxy shapes",
+      "question": "A planetarium artist asks you to choose a galaxy for the ceiling. Which shape do you draw?",
+      "outcomes": [
+        {
+          "name": "Barred spiral galaxy",
+          "description": "Barred spiral galaxy — galaxy with golden central bar and blue spiral arms"
+        },
+        {
+          "name": "Elliptical galaxy",
+          "description": "Elliptical galaxy — smooth amber oval glow of an elliptical galaxy"
+        },
+        {
+          "name": "Ring galaxy",
+          "description": "Ring galaxy — blue ring of stars around a bright separated core"
+        },
+        {
+          "name": "Irregular galaxy",
+          "description": "Irregular galaxy — asymmetric patchy star cloud without a clear disc"
+        }
+      ]
+    },
+    {
+      "topic": "Nebula forms",
+      "question": "A telescope image inspires your next postcard. Which cloud of gas do you frame?",
+      "outcomes": [
+        {
+          "name": "Horsehead Nebula",
+          "description": "Horsehead Nebula — dark horsehead silhouette against a small red emission cloud"
+        },
+        {
+          "name": "Ring Nebula",
+          "description": "Ring Nebula — glowing oval planetary nebula with blue centre"
+        },
+        {
+          "name": "Crab Nebula",
+          "description": "Crab Nebula — tangled orange and blue nebula filaments"
+        },
+        {
+          "name": "Butterfly Nebula",
+          "description": "Butterfly Nebula — bipolar nebula with two orange winglike lobes"
+        }
+      ]
+    },
+    {
+      "topic": "Night sky events",
+      "question": "You can stay up late for one sky event. Which one goes on your calendar?",
+      "outcomes": [
+        {
+          "name": "Solar eclipse",
+          "description": "Solar eclipse — black lunar disc with a white solar corona"
+        },
+        {
+          "name": "Lunar eclipse",
+          "description": "Lunar eclipse — copper-red eclipsed moon"
+        },
+        {
+          "name": "Meteor shower",
+          "description": "Meteor shower — cluster of parallel bright meteor streaks"
+        },
+        {
+          "name": "Planetary conjunction",
+          "description": "Planetary conjunction — two differently sized luminous planets appearing close together"
+        }
+      ]
+    }
+  ]
+}

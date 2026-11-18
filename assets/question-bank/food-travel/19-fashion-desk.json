@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Outerwear",
+      "question": "A cool front arrives the night before you leave. Which jacket gets the last hanger?",
+      "outcomes": [
+        {
+          "name": "Trench coat",
+          "description": "tan belted double-breasted trench coat"
+        },
+        {
+          "name": "Bomber jacket",
+          "description": "olive nylon bomber jacket"
+        },
+        {
+          "name": "Denim jacket",
+          "description": "blue denim jacket with chest pockets"
+        },
+        {
+          "name": "Puffer jacket",
+          "description": "bright red quilted puffer jacket"
+        }
+      ]
+    },
+    {
+      "topic": "Handbag shapes",
+      "question": "You need both hands free for the train, then you are going straight to dinner. Which bag do you carry?",
+      "outcomes": [
+        {
+          "name": "Crossbody satchel",
+          "description": "small structured leather crossbody satchel"
+        },
+        {
+          "name": "Bucket bag",
+          "description": "tan drawstring bucket bag"
+        },
+        {
+          "name": "Belt bag",
+          "description": "nylon belt bag with a clasp strap"
+        },
+        {
+          "name": "Mini backpack",
+          "description": "small burgundy fashion backpack"
+        }
+      ]
+    },
+    {
+      "topic": "Vintage footwear",
+      "question": "A costume wardrobe lets you borrow one pair. What do you try on?",
+      "outcomes": [
+        {
+          "name": "Mary Janes",
+          "description": "black low-heeled Mary Jane shoes with straps"
+        },
+        {
+          "name": "Chelsea boots",
+          "description": "brown leather Chelsea ankle boots"
+        },
+        {
+          "name": "Platform sandals",
+          "description": "thick platform sandals with ankle strap"
+        },
+        {
+          "name": "Brogues",
+          "description": "wingtip brogue shoes with perforated detailing"
+        }
+      ]
+    },
+    {
+      "topic": "Textile patterns",
+      "question": "You are choosing fabric for a custom shirt. Which swatch do you take to the tailor?",
+      "outcomes": [
+        {
+          "name": "Houndstooth",
+          "description": "folded black and white houndstooth fabric swatch"
+        },
+        {
+          "name": "Tartan",
+          "description": "folded red and green tartan swatch"
+        },
+        {
+          "name": "Paisley",
+          "description": "folded teardrop-pattern paisley fabric swatch"
+        },
+        {
+          "name": "Polka dots",
+          "description": "navy fabric swatch with cream polka dots"
+        }
+      ]
+    }
+  ]
+}

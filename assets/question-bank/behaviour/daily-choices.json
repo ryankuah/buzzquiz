@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Errands",
+      "question": "You have a free lunch break to run one errand. What do you tackle?",
+      "outcomes": [
+        {
+          "name": "Pick up a library hold",
+          "description": "Pick up a library hold — errands vignette"
+        },
+        {
+          "name": "Collect fresh flowers",
+          "description": "Collect fresh flowers — errands vignette"
+        },
+        {
+          "name": "Buy a new sketchpad",
+          "description": "Buy a new sketchpad — errands vignette"
+        },
+        {
+          "name": "Post a care package",
+          "description": "Post a care package — errands vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Market morning",
+      "question": "The farmers market is busy. Which stall gets your first visit?",
+      "outcomes": [
+        {
+          "name": "The honey stand",
+          "description": "The honey stand — market morning vignette"
+        },
+        {
+          "name": "The sourdough basket",
+          "description": "The sourdough basket — market morning vignette"
+        },
+        {
+          "name": "The cut-flower buckets",
+          "description": "The cut-flower buckets — market morning vignette"
+        },
+        {
+          "name": "The orchard fruit crates",
+          "description": "The orchard fruit crates — market morning vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Balcony makeover",
+      "question": "Your balcony has room for one new feature. What goes there?",
+      "outcomes": [
+        {
+          "name": "A folding bistro table",
+          "description": "A folding bistro table — balcony makeover vignette"
+        },
+        {
+          "name": "A hanging herb planter",
+          "description": "A hanging herb planter — balcony makeover vignette"
+        },
+        {
+          "name": "A string of warm lights",
+          "description": "A string of warm lights — balcony makeover vignette"
+        },
+        {
+          "name": "A striped hammock chair",
+          "description": "A striped hammock chair — balcony makeover vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Home repairs",
+      "question": "You and a friend are fixing up an old room. Which task do you try?",
+      "outcomes": [
+        {
+          "name": "Sand the wooden shelf",
+          "description": "Sand the wooden shelf — home repairs vignette"
+        },
+        {
+          "name": "Paint a sample swatch",
+          "description": "Paint a sample swatch — home repairs vignette"
+        },
+        {
+          "name": "Fit a new door handle",
+          "description": "Fit a new door handle — home repairs vignette"
+        },
+        {
+          "name": "Measure for curtains",
+          "description": "Measure for curtains — home repairs vignette"
+        }
+      ]
+    }
+  ]
+}

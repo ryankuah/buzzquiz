@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fantasy tavern",
+      "question": "The innkeeper takes payment in stories or souvenirs. Which oddity do you leave on the counter?",
+      "outcomes": [
+        {
+          "name": "Clockwork beetle",
+          "description": "ornate brass mechanical beetle"
+        },
+        {
+          "name": "Shell horn",
+          "description": "twisted conch shell horn with leather strap"
+        },
+        {
+          "name": "Obsidian mirror",
+          "description": "black polished circular stone mirror"
+        },
+        {
+          "name": "Crystal acorn",
+          "description": "large faceted translucent amber acorn"
+        }
+      ]
+    },
+    {
+      "topic": "Dungeon puzzles",
+      "question": "Your party reaches a door with four curious locks. Which puzzle do you volunteer to tackle?",
+      "outcomes": [
+        {
+          "name": "Rune dial",
+          "description": "stone circular dial carved with abstract runes"
+        },
+        {
+          "name": "Balance scales",
+          "description": "small antique brass balance scales"
+        },
+        {
+          "name": "Sliding maze",
+          "description": "square wooden tabletop maze with a marble"
+        },
+        {
+          "name": "Crystal prism",
+          "description": "single triangular transparent glass prism"
+        }
+      ]
+    },
+    {
+      "topic": "Guild roles",
+      "question": "The guild asks which tool to stamp onto your workshop sign. What is your mark?",
+      "outcomes": [
+        {
+          "name": "Herbalist's mortar",
+          "description": "stone mortar with green herbs and pestle"
+        },
+        {
+          "name": "Cartographer's dividers",
+          "description": "antique brass dividers and folded blank parchment"
+        },
+        {
+          "name": "Jeweller's loupe",
+          "description": "metal fold-out jeweller's magnifying loupe"
+        },
+        {
+          "name": "Leatherworker's awl",
+          "description": "pointed leatherworking awl with a wooden handle"
+        }
+      ]
+    },
+    {
+      "topic": "Potion brewing",
+      "question": "The shopkeeper has four empty bottles for your new potion. Which one do you fill?",
+      "outcomes": [
+        {
+          "name": "Crescent flask",
+          "description": "blue crescent moon-shaped glass flask with cork"
+        },
+        {
+          "name": "Round phial",
+          "description": "spherical green glass vial with cork"
+        },
+        {
+          "name": "Teardrop bottle",
+          "description": "slender purple teardrop glass potion bottle"
+        },
+        {
+          "name": "Square apothecary jar",
+          "description": "amber square glass jar with glass stopper"
+        }
+      ]
+    }
+  ]
+}

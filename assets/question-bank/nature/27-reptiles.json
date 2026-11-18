@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Geckos",
+      "question": "An illustrator invites you to choose a gecko for a close-up. Which one?",
+      "outcomes": [
+        {
+          "name": "Leopard gecko",
+          "description": "Leopard gecko — yellow spotted gecko with a thick tail"
+        },
+        {
+          "name": "Crested gecko",
+          "description": "Crested gecko — tan gecko with eyelash-like crests"
+        },
+        {
+          "name": "Tokay gecko",
+          "description": "Tokay gecko — blue-grey gecko with orange spots"
+        },
+        {
+          "name": "Leaf-tailed gecko",
+          "description": "Leaf-tailed gecko — bark-coloured gecko with broad leaflike tail"
+        }
+      ]
+    },
+    {
+      "topic": "Snakes",
+      "question": "You're designing a scale-pattern study. Which snake supplies the reference?",
+      "outcomes": [
+        {
+          "name": "Corn snake",
+          "description": "Corn snake — orange snake with reddish saddle blotches"
+        },
+        {
+          "name": "Emerald tree boa",
+          "description": "Emerald tree boa — green snake with white zigzag marks coiled on branch"
+        },
+        {
+          "name": "California kingsnake",
+          "description": "California kingsnake — black snake with white bands"
+        },
+        {
+          "name": "Ball python",
+          "description": "Ball python — thick brown and tan patterned python"
+        }
+      ]
+    },
+    {
+      "topic": "Tortoises",
+      "question": "The tortoise garden needs a sign for each enclosure. Which species gets the first one?",
+      "outcomes": [
+        {
+          "name": "Galápagos tortoise",
+          "description": "Galápagos tortoise — giant tortoise with a dark domed shell"
+        },
+        {
+          "name": "Leopard tortoise",
+          "description": "Leopard tortoise — tortoise with gold and black spotted scutes"
+        },
+        {
+          "name": "Radiated tortoise",
+          "description": "Radiated tortoise — dark tortoise shell with yellow starburst lines"
+        },
+        {
+          "name": "Red-footed tortoise",
+          "description": "Red-footed tortoise — tortoise with red scales on dark forelegs"
+        }
+      ]
+    },
+    {
+      "topic": "Large lizards",
+      "question": "You can watch one feeding at the reptile house. Which lizard interests you?",
+      "outcomes": [
+        {
+          "name": "Komodo dragon",
+          "description": "Komodo dragon — large grey monitor lizard"
+        },
+        {
+          "name": "Green iguana",
+          "description": "Green iguana — green lizard with spines down its back"
+        },
+        {
+          "name": "Blue-tongued skink",
+          "description": "Blue-tongued skink — stout banded lizard showing a bright blue tongue"
+        },
+        {
+          "name": "Frilled lizard",
+          "description": "Frilled lizard — brown lizard with wide open orange neck frill"
+        }
+      ]
+    }
+  ]
+}

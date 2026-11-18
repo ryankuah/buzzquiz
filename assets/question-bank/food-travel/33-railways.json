@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Train station architecture",
+      "question": "You want to photograph one detail before boarding. What catches your eye?",
+      "outcomes": [
+        {
+          "name": "Platform clock",
+          "description": "large double-sided round station clock"
+        },
+        {
+          "name": "Glass train shed",
+          "description": "arched glass-and-steel train shed roof"
+        },
+        {
+          "name": "Ticket window",
+          "description": "old wood-and-brass ticket booth"
+        },
+        {
+          "name": "Iron footbridge",
+          "description": "small iron railway pedestrian footbridge"
+        }
+      ]
+    },
+    {
+      "topic": "Trains for work",
+      "question": "The rail museum opens its machinery sheds. Which vehicle do you inspect first?",
+      "outcomes": [
+        {
+          "name": "Track inspection trolley",
+          "description": "small yellow rail inspection trolley"
+        },
+        {
+          "name": "Snowplough locomotive",
+          "description": "rail engine with broad red snowplough"
+        },
+        {
+          "name": "Freight wagon",
+          "description": "open freight wagon holding timber"
+        },
+        {
+          "name": "Rail crane",
+          "description": "yellow crane on a railway chassis"
+        }
+      ]
+    },
+    {
+      "topic": "Heritage shipping",
+      "question": "You are choosing a model for a harbour exhibition. Which craft do you build?",
+      "outcomes": [
+        {
+          "name": "Junk ship",
+          "description": "wooden Chinese junk with red battened sails"
+        },
+        {
+          "name": "Dhow",
+          "description": "Arab dhow with triangular lateen sail"
+        },
+        {
+          "name": "Paddle steamer",
+          "description": "white riverboat with side paddle wheel"
+        },
+        {
+          "name": "Tugboat",
+          "description": "short stout tugboat with rubber bumpers"
+        }
+      ]
+    },
+    {
+      "topic": "Port equipment",
+      "question": "The harbour master gives a short tour before lunch. Which equipment do you stop to watch?",
+      "outcomes": [
+        {
+          "name": "Container crane",
+          "description": "tall dock crane lifting a shipping container"
+        },
+        {
+          "name": "Mooring bollard",
+          "description": "iron mooring bollard with coiled rope"
+        },
+        {
+          "name": "Dry dock",
+          "description": "miniature empty stepped ship-repair dock"
+        },
+        {
+          "name": "Lifebuoy",
+          "description": "orange and white ring buoy with rope"
+        }
+      ]
+    }
+  ]
+}

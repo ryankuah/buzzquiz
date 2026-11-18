@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Beach finds",
+      "question": "The tide has gone out. Which beach find would you sketch?",
+      "outcomes": [
+        {
+          "name": "Scallop shell",
+          "description": "pink fan-shaped scallop shell"
+        },
+        {
+          "name": "Sea glass",
+          "description": "cluster of frosted green and blue sea glass"
+        },
+        {
+          "name": "Sand dollar",
+          "description": "round white sand dollar skeleton with star marking"
+        },
+        {
+          "name": "Driftwood",
+          "description": "weathered forked driftwood"
+        }
+      ]
+    },
+    {
+      "topic": "Festival snacks",
+      "question": "You can take one snack onto the fairground ride. What is your pick?",
+      "outcomes": [
+        {
+          "name": "Cotton candy",
+          "description": "pink cotton candy on paper cone"
+        },
+        {
+          "name": "Candy apple",
+          "description": "red candy-coated apple on a stick"
+        },
+        {
+          "name": "Funnel cake",
+          "description": "tangled fried funnel cake with powdered sugar"
+        },
+        {
+          "name": "Kettle corn",
+          "description": "clear bag of caramel-gold kettle corn"
+        }
+      ]
+    },
+    {
+      "topic": "Rainy commute",
+      "question": "The forecast changes just before you leave. Which item do you grab?",
+      "outcomes": [
+        {
+          "name": "Folding umbrella",
+          "description": "partly open compact yellow umbrella"
+        },
+        {
+          "name": "Rain poncho",
+          "description": "folded blue hooded rain poncho"
+        },
+        {
+          "name": "Rain boots",
+          "description": "pair of red rubber rain boots"
+        },
+        {
+          "name": "Waterproof backpack",
+          "description": "roll-top waterproof green backpack"
+        }
+      ]
+    },
+    {
+      "topic": "Museum shop",
+      "question": "You promised a friend a small souvenir from the museum. What do you choose?",
+      "outcomes": [
+        {
+          "name": "Fossil replica",
+          "description": "spiralled ammonite fossil replica"
+        },
+        {
+          "name": "Model planetarium",
+          "description": "small brass orrery model of the planets"
+        },
+        {
+          "name": "Art postcard",
+          "description": "postcard with a painted landscape and no lettering"
+        },
+        {
+          "name": "Miniature sculpture",
+          "description": "small bronze statuette of a dancing figure"
+        }
+      ]
+    }
+  ]
+}

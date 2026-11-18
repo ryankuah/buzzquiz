@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Museum antiquities",
+      "question": "You're curating a display on ancient trade. Which item opens the exhibit?",
+      "outcomes": [
+        {
+          "name": "Amphora",
+          "description": "Tall two-handled terracotta amphora"
+        },
+        {
+          "name": "Cowrie shell",
+          "description": "Glossy pale cowrie shell shown with toothed slit"
+        },
+        {
+          "name": "Bronze balance",
+          "description": "Ancient bronze two-pan balance scale"
+        },
+        {
+          "name": "Roman coin",
+          "description": "Weathered bronze coin with profile bust"
+        }
+      ]
+    },
+    {
+      "topic": "Historic timekeeping",
+      "question": "You can restore one timepiece for the history room. Which one do you choose?",
+      "outcomes": [
+        {
+          "name": "Sundial",
+          "description": "Brass sundial with a triangular gnomon"
+        },
+        {
+          "name": "Hourglass",
+          "description": "Wood-framed hourglass with golden sand"
+        },
+        {
+          "name": "Pocket watch",
+          "description": "Open silver pocket watch with chain"
+        },
+        {
+          "name": "Cuckoo clock",
+          "description": "Carved wooden cuckoo clock with pinecone weights"
+        }
+      ]
+    },
+    {
+      "topic": "Ancient writing",
+      "question": "At a museum workshop, which writing material would you try first?",
+      "outcomes": [
+        {
+          "name": "Clay tablet",
+          "description": "Rectangular clay tablet with wedge impressions"
+        },
+        {
+          "name": "Papyrus scroll",
+          "description": "Partly unrolled pale papyrus scroll"
+        },
+        {
+          "name": "Wax tablet",
+          "description": "Hinged wooden writing board filled with dark wax"
+        },
+        {
+          "name": "Bamboo slips",
+          "description": "Parallel bamboo writing slips tied with cord"
+        }
+      ]
+    },
+    {
+      "topic": "Maritime history",
+      "question": "The maritime gallery needs a window display. Which object anchors yours?",
+      "outcomes": [
+        {
+          "name": "Ship's wheel",
+          "description": "Varnished wooden ship's wheel"
+        },
+        {
+          "name": "Sextant",
+          "description": "Old brass sextant with curved scale"
+        },
+        {
+          "name": "Diving helmet",
+          "description": "Antique copper deep-sea diving helmet"
+        },
+        {
+          "name": "Ship's bell",
+          "description": "Polished brass ship's bell with rope clapper"
+        }
+      ]
+    }
+  ]
+}

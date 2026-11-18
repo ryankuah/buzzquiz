@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Chilli sauces",
+      "question": "You are seasoning dumplings at a crowded lunch table. Which jar do you open?",
+      "outcomes": [
+        {
+          "name": "Chilli crisp",
+          "description": "jar of crispy red chilli flakes in oil"
+        },
+        {
+          "name": "Sambal oelek",
+          "description": "coarse bright red chilli paste in stone bowl"
+        },
+        {
+          "name": "Harissa",
+          "description": "brick-red North African chilli paste with olive oil"
+        },
+        {
+          "name": "Gochujang",
+          "description": "thick dark red paste in earthenware pot"
+        }
+      ]
+    },
+    {
+      "topic": "Indian spice blends",
+      "question": "You can bring one spice blend to a cooking class. What do you pack?",
+      "outcomes": [
+        {
+          "name": "Garam masala",
+          "description": "bowl of brown ground spices and cinnamon stick"
+        },
+        {
+          "name": "Panch phoron",
+          "description": "mix of five whole seeds with visible mustard and fennel"
+        },
+        {
+          "name": "Chaat masala",
+          "description": "pale ground spice flecked with black salt"
+        },
+        {
+          "name": "Kashmiri chilli powder",
+          "description": "bowl of bright red powdered chilli with dried pepper"
+        }
+      ]
+    },
+    {
+      "topic": "Cooking oils",
+      "question": "You are finishing a dish at the table. Which bottle do you reach for?",
+      "outcomes": [
+        {
+          "name": "Olive oil",
+          "description": "green olive oil in a cruet beside olives"
+        },
+        {
+          "name": "Sesame oil",
+          "description": "amber sesame oil bottle with sesame seeds"
+        },
+        {
+          "name": "Pumpkin seed oil",
+          "description": "dark green oil with pumpkin seeds"
+        },
+        {
+          "name": "Coconut oil",
+          "description": "jar of white coconut oil beside a cracked coconut"
+        }
+      ]
+    },
+    {
+      "topic": "Fruit preserves",
+      "question": "You are filling biscuits for a bake sale. Which preserve goes between the layers?",
+      "outcomes": [
+        {
+          "name": "Apricot jam",
+          "description": "jar of golden apricot jam and split apricot"
+        },
+        {
+          "name": "Blackcurrant conserve",
+          "description": "jar of dark purple jam and blackcurrants"
+        },
+        {
+          "name": "Quince paste",
+          "description": "block of firm red quince paste with a quince"
+        },
+        {
+          "name": "Guava paste",
+          "description": "block of pink guava paste beside guava half"
+        }
+      ]
+    }
+  ]
+}

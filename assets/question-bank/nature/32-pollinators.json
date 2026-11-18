@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Butterflies",
+      "question": "You plant a butterfly garden and design a sign for its gate. Which visitor is pictured?",
+      "outcomes": [
+        {
+          "name": "Monarch butterfly",
+          "description": "Monarch butterfly — orange and black monarch butterfly"
+        },
+        {
+          "name": "Blue morpho",
+          "description": "Blue morpho — broad luminous blue butterfly"
+        },
+        {
+          "name": "Glasswing butterfly",
+          "description": "Glasswing butterfly — transparent-winged butterfly with brown edges"
+        },
+        {
+          "name": "Painted lady butterfly",
+          "description": "Painted lady butterfly — orange mottled butterfly with white spots"
+        }
+      ]
+    },
+    {
+      "topic": "Moths",
+      "question": "A white sheet at dusk draws moths from the trees. Which one do you photograph?",
+      "outcomes": [
+        {
+          "name": "Luna moth",
+          "description": "Luna moth — pale green moth with long hindwing tails"
+        },
+        {
+          "name": "Atlas moth",
+          "description": "Atlas moth — large rust-brown moth with patterned wings"
+        },
+        {
+          "name": "Rosy maple moth",
+          "description": "Rosy maple moth — small fuzzy pink and yellow moth"
+        },
+        {
+          "name": "Hummingbird hawk-moth",
+          "description": "Hummingbird hawk-moth — hovering brown moth with orange hindwings"
+        }
+      ]
+    },
+    {
+      "topic": "Ladybird neighbours",
+      "question": "You're painting garden insects on little stones. Which subject goes first?",
+      "outcomes": [
+        {
+          "name": "Seven-spot ladybird",
+          "description": "Seven-spot ladybird — red rounded beetle with seven black dots"
+        },
+        {
+          "name": "Green lacewing",
+          "description": "Green lacewing — pale green insect with fine netted wings"
+        },
+        {
+          "name": "Hoverfly",
+          "description": "Hoverfly — yellow-black hoverfly with large fly eyes"
+        },
+        {
+          "name": "Earwig",
+          "description": "Earwig — slender brown earwig with curved pincers"
+        }
+      ]
+    },
+    {
+      "topic": "Wild bees",
+      "question": "A pollinator poster has an empty corner. Which wild bee would you feature?",
+      "outcomes": [
+        {
+          "name": "Blue-banded bee",
+          "description": "Blue-banded bee — small bee with vivid blue abdomen bands"
+        },
+        {
+          "name": "Orchid bee",
+          "description": "Orchid bee — shiny bright emerald metallic bee"
+        },
+        {
+          "name": "Carpenter bee",
+          "description": "Carpenter bee — large black carpenter bee with dark wings"
+        },
+        {
+          "name": "Tawny mining bee",
+          "description": "Tawny mining bee — small fuzzy ginger bee"
+        }
+      ]
+    }
+  ]
+}

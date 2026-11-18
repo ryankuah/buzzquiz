@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Film photography",
+      "question": "You have one roll of film and an afternoon to explore. Which camera do you load?",
+      "outcomes": [
+        {
+          "name": "Twin-lens reflex camera",
+          "description": "black twin lens reflex camera with two stacked lenses"
+        },
+        {
+          "name": "Instant camera",
+          "description": "cream instant camera ejecting a square print"
+        },
+        {
+          "name": "Folding camera",
+          "description": "antique leather bellows folding camera"
+        },
+        {
+          "name": "Underwater camera",
+          "description": "blue compact camera in waterproof housing"
+        }
+      ]
+    },
+    {
+      "topic": "Photography accessories",
+      "question": "You've set up a portrait by a window. What accessory do you pull from your bag?",
+      "outcomes": [
+        {
+          "name": "Bounce reflector",
+          "description": "round silver collapsible photography reflector"
+        },
+        {
+          "name": "Softbox",
+          "description": "square black softbox light with white diffuser"
+        },
+        {
+          "name": "Light meter",
+          "description": "handheld photographic light meter with white dome"
+        },
+        {
+          "name": "Colour gel filters",
+          "description": "fan of translucent coloured lighting gel sheets"
+        }
+      ]
+    },
+    {
+      "topic": "Darkroom",
+      "question": "A photography club invites you to help develop prints. Which station do you choose?",
+      "outcomes": [
+        {
+          "name": "Enlarger",
+          "description": "photographic enlarger with bellows on vertical easel"
+        },
+        {
+          "name": "Developing tray",
+          "description": "red ribbed photographic developing tray"
+        },
+        {
+          "name": "Film reel",
+          "description": "white spiral film developing reel"
+        },
+        {
+          "name": "Safelight",
+          "description": "small glowing red darkroom safelight"
+        }
+      ]
+    },
+    {
+      "topic": "Photo display",
+      "question": "Your best photo will be a gift. How do you present it?",
+      "outcomes": [
+        {
+          "name": "Floating frame",
+          "description": "glass floating frame holding a small landscape print"
+        },
+        {
+          "name": "Photo cube",
+          "description": "desk photo cube showing landscape photos"
+        },
+        {
+          "name": "Contact sheet",
+          "description": "rectangular contact print showing rows of film negatives"
+        },
+        {
+          "name": "Photo strip",
+          "description": "vertical photo booth strip with four portrait pictures"
+        }
+      ]
+    }
+  ]
+}

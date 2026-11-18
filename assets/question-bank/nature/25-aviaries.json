@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Owls",
+      "question": "You hear wings over the meadow. Which owl would you like your sketch to show?",
+      "outcomes": [
+        {
+          "name": "Snowy owl",
+          "description": "Snowy owl — white owl with fine dark speckles"
+        },
+        {
+          "name": "Great horned owl",
+          "description": "Great horned owl — large mottled owl with prominent ear tufts"
+        },
+        {
+          "name": "Burrowing owl",
+          "description": "Burrowing owl — small long-legged brown owl"
+        },
+        {
+          "name": "Great grey owl",
+          "description": "Great grey owl — grey owl with a large concentric facial disc"
+        }
+      ]
+    },
+    {
+      "topic": "Parrots",
+      "question": "The parrot sanctuary wants a new postcard. Which bird do you feature?",
+      "outcomes": [
+        {
+          "name": "African grey parrot",
+          "description": "African grey parrot — grey parrot with red tail"
+        },
+        {
+          "name": "Rainbow lorikeet",
+          "description": "Rainbow lorikeet — vivid green parrot with blue head and orange chest"
+        },
+        {
+          "name": "Kea",
+          "description": "Kea — olive green alpine parrot with orange underwing"
+        },
+        {
+          "name": "Hyacinth macaw",
+          "description": "Hyacinth macaw — bright cobalt macaw with yellow eye ring"
+        }
+      ]
+    },
+    {
+      "topic": "Waterfowl",
+      "question": "You can repaint one decoy for a lakeside display. Which species do you choose?",
+      "outcomes": [
+        {
+          "name": "Mandarin duck",
+          "description": "Mandarin duck — orange-sailed colourful male Mandarin duck"
+        },
+        {
+          "name": "Mute swan",
+          "description": "Mute swan — white swan with orange bill"
+        },
+        {
+          "name": "Canada goose",
+          "description": "Canada goose — brown goose with black neck and white chinstrap"
+        },
+        {
+          "name": "Common goldeneye",
+          "description": "Common goldeneye — black and white duck with golden eye"
+        }
+      ]
+    },
+    {
+      "topic": "Garden songbirds",
+      "question": "You hang a sketch beside your bird feeder. Which bird graces it?",
+      "outcomes": [
+        {
+          "name": "House sparrow",
+          "description": "House sparrow — small brown striped sparrow"
+        },
+        {
+          "name": "Black-capped chickadee",
+          "description": "Black-capped chickadee — small grey bird with black cap and bib"
+        },
+        {
+          "name": "Great tit",
+          "description": "Great tit — yellow songbird with black head and breast stripe"
+        },
+        {
+          "name": "Eurasian wren",
+          "description": "Eurasian wren — tiny brown bird with upright tail"
+        }
+      ]
+    }
+  ]
+}

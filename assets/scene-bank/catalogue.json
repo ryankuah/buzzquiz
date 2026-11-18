@@ -1,0 +1,602 @@
+[
+  {
+    "sheet": "cafes",
+    "cells": [
+      {
+        "topic": "Coffee",
+        "name": "Neighbourhood espresso bar with a walnut counter and brass machine",
+        "description": "neighbourhood espresso bar with a walnut counter and brass machine"
+      },
+      {
+        "topic": "Tea",
+        "name": "Tea room with porcelain shelves and cane chairs",
+        "description": "tea room with porcelain shelves and cane chairs"
+      },
+      {
+        "topic": "Bubble tea",
+        "name": "Colourful bubble-tea counter with sealed cups",
+        "description": "colourful bubble-tea counter with sealed cups"
+      },
+      {
+        "topic": "Bakery",
+        "name": "Early-morning bakery with floury worktops and pastry racks",
+        "description": "early-morning bakery with floury worktops and pastry racks"
+      }
+    ]
+  },
+  {
+    "sheet": "world-kitchens",
+    "cells": [
+      {
+        "topic": "Ramen",
+        "name": "Steaming ramen shop with bowls along the counter",
+        "description": "steaming ramen shop with bowls along the counter"
+      },
+      {
+        "topic": "Pizza",
+        "name": "Brick pizza oven beside a floured marble workspace",
+        "description": "brick pizza oven beside a floured marble workspace"
+      },
+      {
+        "topic": "Baking",
+        "name": "Sunlit home baking kitchen with a stand mixer",
+        "description": "sunlit home baking kitchen with a stand mixer"
+      },
+      {
+        "topic": "Barbecue",
+        "name": "Backyard cookout with a charcoal grill and picnic table",
+        "description": "backyard cookout with a charcoal grill and picnic table"
+      }
+    ]
+  },
+  {
+    "sheet": "shopping",
+    "cells": [
+      {
+        "topic": "Grocery shopping",
+        "name": "Corner grocer with produce bins and pantry shelves",
+        "description": "corner grocer with produce bins and pantry shelves"
+      },
+      {
+        "topic": "Flower arranging",
+        "name": "Flower market with buckets of fresh flowers",
+        "description": "flower market with buckets of fresh flowers"
+      },
+      {
+        "topic": "Thrifting",
+        "name": "Second-hand clothing shop with vintage racks",
+        "description": "second-hand clothing shop with vintage racks"
+      },
+      {
+        "topic": "Vinyl collecting",
+        "name": "Record store filled with vinyl crates",
+        "description": "record store filled with vinyl crates"
+      }
+    ]
+  },
+  {
+    "sheet": "city-travel",
+    "cells": [
+      {
+        "topic": "Train travel",
+        "name": "European railway platform with a train at the edge",
+        "description": "European railway platform with a train at the edge"
+      },
+      {
+        "topic": "Air travel",
+        "name": "Airport terminal with windows facing a plane",
+        "description": "airport terminal with windows facing a plane"
+      },
+      {
+        "topic": "Road trip",
+        "name": "Scenic roadside lookout with winding highway",
+        "description": "scenic roadside lookout with winding highway"
+      },
+      {
+        "topic": "Cycling",
+        "name": "Quiet canal-side bike lane and bicycle racks",
+        "description": "quiet canal-side bike lane and bicycle racks"
+      }
+    ]
+  },
+  {
+    "sheet": "coasts",
+    "cells": [
+      {
+        "topic": "Beach day",
+        "name": "Sunny ocean beach with umbrellas at the edges",
+        "description": "sunny ocean beach with umbrellas at the edges"
+      },
+      {
+        "topic": "Snorkeling",
+        "name": "Clear shallow coral lagoon underwater",
+        "description": "clear shallow coral lagoon underwater"
+      },
+      {
+        "topic": "Tide pooling",
+        "name": "Rocky coastline with pools at low tide",
+        "description": "rocky coastline with pools at low tide"
+      },
+      {
+        "topic": "Sailing",
+        "name": "Quiet marina with moored sailboats",
+        "description": "quiet marina with moored sailboats"
+      }
+    ]
+  },
+  {
+    "sheet": "outdoors",
+    "cells": [
+      {
+        "topic": "Hiking",
+        "name": "Switchback trail through green alpine peaks",
+        "description": "switchback trail through green alpine peaks"
+      },
+      {
+        "topic": "Camping",
+        "name": "Woodland campground with an empty tent",
+        "description": "woodland campground with an empty tent"
+      },
+      {
+        "topic": "Fishing",
+        "name": "Quiet fishing dock at dawn",
+        "description": "quiet fishing dock at dawn"
+      },
+      {
+        "topic": "Birdwatching",
+        "name": "Reed marsh with a small observation hide",
+        "description": "reed marsh with a small observation hide"
+      }
+    ]
+  },
+  {
+    "sheet": "sports",
+    "cells": [
+      {
+        "topic": "Basketball",
+        "name": "Empty outdoor basketball court",
+        "description": "empty outdoor basketball court"
+      },
+      {
+        "topic": "Tennis",
+        "name": "Clay tennis court at a small club",
+        "description": "clay tennis court at a small club"
+      },
+      {
+        "topic": "Soccer",
+        "name": "Grass football pitch with a goal in the distance",
+        "description": "grass football pitch with a goal in the distance"
+      },
+      {
+        "topic": "Skateboarding",
+        "name": "Concrete skatepark with bowls and rails",
+        "description": "concrete skatepark with bowls and rails"
+      }
+    ]
+  },
+  {
+    "sheet": "winter",
+    "cells": [
+      {
+        "topic": "Skiing",
+        "name": "Alpine ski slope with lift and pines",
+        "description": "alpine ski slope with lift and pines"
+      },
+      {
+        "topic": "Ice skating",
+        "name": "Empty neighbourhood ice rink",
+        "description": "empty neighbourhood ice rink"
+      },
+      {
+        "topic": "Snowboarding",
+        "name": "Snowboard park with a ramp and mountain backdrop",
+        "description": "snowboard park with a ramp and mountain backdrop"
+      },
+      {
+        "topic": "Winter getaway",
+        "name": "Timber mountain lodge beside snowdrifts",
+        "description": "timber mountain lodge beside snowdrifts"
+      }
+    ]
+  },
+  {
+    "sheet": "studios",
+    "cells": [
+      {
+        "topic": "Ceramics",
+        "name": "Pottery studio with wheel and drying shelves",
+        "description": "pottery studio with wheel and drying shelves"
+      },
+      {
+        "topic": "Painting",
+        "name": "Artists loft with easels and jars of brushes",
+        "description": "artists loft with easels and jars of brushes"
+      },
+      {
+        "topic": "Sewing",
+        "name": "Dressmaking workshop with a sewing machine",
+        "description": "dressmaking workshop with a sewing machine"
+      },
+      {
+        "topic": "Woodworking",
+        "name": "Joiner's bench with chisels and timber racks",
+        "description": "joiner's bench with chisels and timber racks"
+      }
+    ]
+  },
+  {
+    "sheet": "performance",
+    "cells": [
+      {
+        "topic": "Theatre",
+        "name": "Small proscenium theatre with red velvet wings",
+        "description": "small proscenium theatre with red velvet wings"
+      },
+      {
+        "topic": "Ballet",
+        "name": "Dance rehearsal room with wooden floor and ballet barres",
+        "description": "dance rehearsal room with wooden floor and ballet barres"
+      },
+      {
+        "topic": "Karaoke",
+        "name": "Colourful private karaoke room with microphones",
+        "description": "colourful private karaoke room with microphones"
+      },
+      {
+        "topic": "Rock concert",
+        "name": "Empty concert stage with amplifiers",
+        "description": "empty concert stage with amplifiers"
+      }
+    ]
+  },
+  {
+    "sheet": "science",
+    "cells": [
+      {
+        "topic": "Astronomy",
+        "name": "Mountain observatory beneath a starry sky",
+        "description": "mountain observatory beneath a starry sky"
+      },
+      {
+        "topic": "Chemistry",
+        "name": "Tidy lab bench with coloured glassware",
+        "description": "tidy lab bench with coloured glassware"
+      },
+      {
+        "topic": "Geology",
+        "name": "Rock and mineral gallery with display cabinets",
+        "description": "rock and mineral gallery with display cabinets"
+      },
+      {
+        "topic": "Marine biology",
+        "name": "Marine research aquarium with tanks",
+        "description": "marine research aquarium with tanks"
+      }
+    ]
+  },
+  {
+    "sheet": "fantasy",
+    "cells": [
+      {
+        "topic": "Wizardry",
+        "name": "Old wizard study with potion shelves",
+        "description": "old wizard study with potion shelves"
+      },
+      {
+        "topic": "Fairytales",
+        "name": "Storybook castle courtyard",
+        "description": "storybook castle courtyard"
+      },
+      {
+        "topic": "Dragon",
+        "name": "Volcanic cavern with a clutch of dragon eggs",
+        "description": "volcanic cavern with a clutch of dragon eggs"
+      },
+      {
+        "topic": "Enchanted forest",
+        "name": "Glowing mushroom forest with a twisting path",
+        "description": "glowing mushroom forest with a twisting path"
+      }
+    ]
+  },
+  {
+    "sheet": "home",
+    "cells": [
+      {
+        "topic": "Reading",
+        "name": "Cosy reading room with armchair and tall bookcases",
+        "description": "cosy reading room with armchair and tall bookcases"
+      },
+      {
+        "topic": "Gardening",
+        "name": "Kitchen garden with raised vegetable beds",
+        "description": "kitchen garden with raised vegetable beds"
+      },
+      {
+        "topic": "Houseplants",
+        "name": "Glazed sunroom lined with tropical houseplants",
+        "description": "glazed sunroom lined with tropical houseplants"
+      },
+      {
+        "topic": "Interior design",
+        "name": "Bright architecture studio with fabric swatches",
+        "description": "bright architecture studio with fabric swatches"
+      }
+    ]
+  },
+  {
+    "sheet": "social",
+    "cells": [
+      {
+        "topic": "Birthday party",
+        "name": "Backyard birthday setting with bunting and cake table",
+        "description": "backyard birthday setting with bunting and cake table"
+      },
+      {
+        "topic": "Movie night",
+        "name": "Cosy lounge facing a blank projection screen",
+        "description": "cosy lounge facing a blank projection screen"
+      },
+      {
+        "topic": "Board game night",
+        "name": "Wooden tabletop with board games and dice at the edge",
+        "description": "wooden tabletop with board games and dice at the edge"
+      },
+      {
+        "topic": "Picnic",
+        "name": "Patchwork picnic blanket under a flowering tree",
+        "description": "patchwork picnic blanket under a flowering tree"
+      }
+    ]
+  },
+  {
+    "sheet": "music",
+    "cells": [
+      {
+        "topic": "Jazz",
+        "name": "Small jazz club with piano and double bass",
+        "description": "small jazz club with piano and double bass"
+      },
+      {
+        "topic": "Music production",
+        "name": "Recording studio with mixing console",
+        "description": "recording studio with mixing console"
+      },
+      {
+        "topic": "Orchestra",
+        "name": "Orchestra rehearsal hall with music stands",
+        "description": "orchestra rehearsal hall with music stands"
+      },
+      {
+        "topic": "Songwriting",
+        "name": "Quiet songwriter's room with acoustic guitar",
+        "description": "quiet songwriter's room with acoustic guitar"
+      }
+    ]
+  },
+  {
+    "sheet": "animals",
+    "cells": [
+      {
+        "topic": "Cat",
+        "name": "Cat adoption lounge with cat tree and cushions",
+        "description": "cat adoption lounge with cat tree and cushions"
+      },
+      {
+        "topic": "Dog",
+        "name": "Dog agility garden with tunnel and hoops",
+        "description": "dog agility garden with tunnel and hoops"
+      },
+      {
+        "topic": "Horse riding",
+        "name": "Stable aisle with saddles and open stall doors",
+        "description": "stable aisle with saddles and open stall doors"
+      },
+      {
+        "topic": "Wildlife rescue",
+        "name": "Wildlife care nursery with nesting baskets",
+        "description": "wildlife care nursery with nesting baskets"
+      }
+    ]
+  },
+  {
+    "sheet": "nightlife",
+    "cells": [
+      {
+        "topic": "Night market",
+        "name": "Lantern-lit street food market at dusk",
+        "description": "lantern-lit street food market at dusk"
+      },
+      {
+        "topic": "Festival",
+        "name": "Outdoor festival grounds with colourful flags",
+        "description": "outdoor festival grounds with colourful flags"
+      },
+      {
+        "topic": "Arcade",
+        "name": "Retro game arcade with softly glowing cabinets",
+        "description": "retro game arcade with softly glowing cabinets"
+      },
+      {
+        "topic": "Bowling",
+        "name": "Bowling alley with polished lanes and ball racks",
+        "description": "bowling alley with polished lanes and ball racks"
+      }
+    ]
+  },
+  {
+    "sheet": "technology",
+    "cells": [
+      {
+        "topic": "Robotics",
+        "name": "Robotics workbench with small articulated arm",
+        "description": "robotics workbench with small articulated arm"
+      },
+      {
+        "topic": "Gaming",
+        "name": "Cozy gaming desk with a controller and blank monitor",
+        "description": "cozy gaming desk with a controller and blank monitor"
+      },
+      {
+        "topic": "Photography",
+        "name": "Camera studio with softboxes and seamless backdrop",
+        "description": "camera studio with softboxes and seamless backdrop"
+      },
+      {
+        "topic": "Coding",
+        "name": "Programmer workspace with keyboards and softly glowing blank displays",
+        "description": "programmer workspace with keyboards and softly glowing blank displays"
+      }
+    ]
+  },
+  {
+    "sheet": "culture",
+    "cells": [
+      {
+        "topic": "History",
+        "name": "Historic archive with map drawers",
+        "description": "historic archive with map drawers"
+      },
+      {
+        "topic": "Archaeology",
+        "name": "Archaeological dig with a shallow excavation grid",
+        "description": "archaeological dig with a shallow excavation grid"
+      },
+      {
+        "topic": "Bookshop",
+        "name": "Independent bookstore with curved shelves",
+        "description": "independent bookstore with curved shelves"
+      },
+      {
+        "topic": "Art museum",
+        "name": "Calm sculpture gallery with pedestals",
+        "description": "calm sculpture gallery with pedestals"
+      }
+    ]
+  },
+  {
+    "sheet": "hospitality",
+    "cells": [
+      {
+        "topic": "Hotel",
+        "name": "Art deco hotel lobby",
+        "description": "art deco hotel lobby"
+      },
+      {
+        "topic": "Spa",
+        "name": "Quiet spa with towels and a soaking pool",
+        "description": "quiet spa with towels and a soaking pool"
+      },
+      {
+        "topic": "Wedding",
+        "name": "Garden wedding ceremony with empty chairs and arch",
+        "description": "garden wedding ceremony with empty chairs and arch"
+      },
+      {
+        "topic": "Fine dining",
+        "name": "Candlelit restaurant with neatly set tables",
+        "description": "candlelit restaurant with neatly set tables"
+      }
+    ]
+  },
+  {
+    "sheet": "weather",
+    "cells": [
+      {
+        "topic": "Rainy day",
+        "name": "Rain-streaked window in a cosy apartment",
+        "description": "rain-streaked window in a cosy apartment"
+      },
+      {
+        "topic": "Spring",
+        "name": "Flowering orchard with a central lane",
+        "description": "flowering orchard with a central lane"
+      },
+      {
+        "topic": "Autumn",
+        "name": "Park path beneath copper maple trees",
+        "description": "park path beneath copper maple trees"
+      },
+      {
+        "topic": "Summer",
+        "name": "Bright lakeshore with a wooden pier",
+        "description": "bright lakeshore with a wooden pier"
+      }
+    ]
+  },
+  {
+    "sheet": "space",
+    "cells": [
+      {
+        "topic": "Space exploration",
+        "name": "Spacecraft observation deck facing a moon",
+        "description": "spacecraft observation deck facing a moon"
+      },
+      {
+        "topic": "Mars",
+        "name": "Rust-red Mars research outpost",
+        "description": "rust-red Mars research outpost"
+      },
+      {
+        "topic": "Moon",
+        "name": "Quiet lunar base with Earth rising on horizon",
+        "description": "quiet lunar base with Earth rising on horizon"
+      },
+      {
+        "topic": "Science fiction",
+        "name": "Futuristic transit concourse on a space station",
+        "description": "futuristic transit concourse on a space station"
+      }
+    ]
+  },
+  {
+    "sheet": "adventure",
+    "cells": [
+      {
+        "topic": "Detective",
+        "name": "Private investigator office with a corkboard",
+        "description": "private investigator office with a corkboard"
+      },
+      {
+        "topic": "Pirate",
+        "name": "Wooden sailing ship deck at dawn",
+        "description": "wooden sailing ship deck at dawn"
+      },
+      {
+        "topic": "Treasure hunt",
+        "name": "Ancient stone ruin with a winding trail",
+        "description": "ancient stone ruin with a winding trail"
+      },
+      {
+        "topic": "Western",
+        "name": "Front porch on a dusty frontier town street",
+        "description": "front porch on a dusty frontier town street"
+      }
+    ]
+  },
+  {
+    "sheet": "travel-stays",
+    "cells": [
+      {
+        "topic": "Backpacking",
+        "name": "Youth hostel common room with bunkroom visible behind",
+        "description": "youth hostel common room with bunkroom visible behind"
+      },
+      {
+        "topic": "Glamping",
+        "name": "Canvas safari tent with warm ambient lamps",
+        "description": "canvas safari tent with warm ambient lamps"
+      },
+      {
+        "topic": "Island holiday",
+        "name": "Tropical waterfront bungalow porch",
+        "description": "tropical waterfront bungalow porch"
+      },
+      {
+        "topic": "Mountain retreat",
+        "name": "Alpine cabin deck over a misty valley",
+        "description": "alpine cabin deck over a misty valley"
+      }
+    ]
+  }
+]

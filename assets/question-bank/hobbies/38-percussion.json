@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Mallet percussion",
+      "question": "You're touring a percussion room. Which instrument would you most like to learn a simple melody on?",
+      "outcomes": [
+        {
+          "name": "Marimba",
+          "description": "wooden bar marimba with long resonator tubes"
+        },
+        {
+          "name": "Glockenspiel",
+          "description": "small silver metal bar glockenspiel"
+        },
+        {
+          "name": "Vibraphone",
+          "description": "full-size metal-bar vibraphone with pedal"
+        },
+        {
+          "name": "Tongue drum",
+          "description": "round green steel tongue drum with cut tongues"
+        }
+      ]
+    },
+    {
+      "topic": "World percussion",
+      "question": "Four hand drums are available for a community rhythm circle. Which one do you sit beside?",
+      "outcomes": [
+        {
+          "name": "Djembe",
+          "description": "rope-tuned West African goblet drum"
+        },
+        {
+          "name": "Darbuka",
+          "description": "metallic blue Middle Eastern goblet drum"
+        },
+        {
+          "name": "Bongos",
+          "description": "pair of small Cuban wooden bongo drums"
+        },
+        {
+          "name": "Cajón",
+          "description": "wooden box cajon drum with sound hole"
+        }
+      ]
+    },
+    {
+      "topic": "Session shakers",
+      "question": "A band wants a gentle rustle behind a quiet verse. What do you try first?",
+      "outcomes": [
+        {
+          "name": "Egg shaker",
+          "description": "pair of small colourful egg shakers"
+        },
+        {
+          "name": "Seed pod shaker",
+          "description": "bundle of natural seed pods on a woven handle"
+        },
+        {
+          "name": "Guiro",
+          "description": "ridged wooden guiro with scraper"
+        },
+        {
+          "name": "Shekere",
+          "description": "large gourd wrapped in a beaded net"
+        }
+      ]
+    },
+    {
+      "topic": "Drum maintenance",
+      "question": "You are helping a drummer check their gear before a gig. Which spare item do you pack?",
+      "outcomes": [
+        {
+          "name": "Drum key",
+          "description": "small metal T-shaped drum tuning key"
+        },
+        {
+          "name": "Spare drumhead",
+          "description": "round white replacement drumhead with metal hoop"
+        },
+        {
+          "name": "Snare wires",
+          "description": "flat strip of coiled metal snare wires"
+        },
+        {
+          "name": "Bass drum beater",
+          "description": "round felt bass drum beater head on metal stem"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "String instruments",
+      "question": "A visiting musician will teach one unfamiliar string instrument. Which lesson would you sign up for?",
+      "outcomes": [
+        {
+          "name": "Erhu",
+          "description": "Chinese two-string erhu with small hexagonal resonator and bow"
+        },
+        {
+          "name": "Sitar",
+          "description": "long-necked Indian sitar with gourd body"
+        },
+        {
+          "name": "Kora",
+          "description": "West African kora bridge harp with round gourd resonator"
+        },
+        {
+          "name": "Balalaika",
+          "description": "triangular wooden Russian balalaika with long narrow neck"
+        }
+      ]
+    },
+    {
+      "topic": "Keys and reeds",
+      "question": "A second-hand instrument shop asks you to test a tiny instrument. Which one fits your pocket?",
+      "outcomes": [
+        {
+          "name": "Kalimba",
+          "description": "wooden thumb piano with metal tines"
+        },
+        {
+          "name": "Harmonica",
+          "description": "silver harmonica showing ten air holes"
+        },
+        {
+          "name": "Ocarina",
+          "description": "blue ceramic ocarina with finger holes"
+        },
+        {
+          "name": "Melodica",
+          "description": "compact keyboard melodica with a short mouthpiece"
+        }
+      ]
+    },
+    {
+      "topic": "Guitar accessories",
+      "question": "You're helping a guitarist pack for an acoustic night. What do you lay out first?",
+      "outcomes": [
+        {
+          "name": "Capo",
+          "description": "black spring-loaded guitar capo"
+        },
+        {
+          "name": "Guitar picks",
+          "description": "fan of colourful triangular guitar picks"
+        },
+        {
+          "name": "Clip-on tuner",
+          "description": "small electronic guitar tuner with clip"
+        },
+        {
+          "name": "Guitar slide",
+          "description": "short polished metal guitar slide tube"
+        }
+      ]
+    },
+    {
+      "topic": "Sound effects",
+      "question": "A radio play needs a sound made by hand. Which prop do you pick up?",
+      "outcomes": [
+        {
+          "name": "Rainstick",
+          "description": "long decorated cactus rainstick"
+        },
+        {
+          "name": "Thunder sheet",
+          "description": "thin wavy metal thunder sheet with handle"
+        },
+        {
+          "name": "Clapperboard",
+          "description": "black and white film clapperboard"
+        },
+        {
+          "name": "Wind chimes",
+          "description": "hanging metal tube wind chimes"
+        }
+      ]
+    }
+  ]
+}

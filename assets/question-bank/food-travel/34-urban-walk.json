@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Neighbourhood storefronts",
+      "question": "You have time to browse one shop before a friend arrives. Which door do you open?",
+      "outcomes": [
+        {
+          "name": "Record store",
+          "description": "mini vinyl shop doorway with record bins"
+        },
+        {
+          "name": "Secondhand bookshop",
+          "description": "tiny bookshop front with used books stacked outside"
+        },
+        {
+          "name": "Bike repair shop",
+          "description": "workshop door with a bicycle on a stand"
+        },
+        {
+          "name": "Plant nursery",
+          "description": "tiny nursery storefront with trays of seedlings"
+        }
+      ]
+    },
+    {
+      "topic": "Street food stalls",
+      "question": "You follow the smell of fresh cooking around a corner. Which stand do you stop at?",
+      "outcomes": [
+        {
+          "name": "Crêpe stand",
+          "description": "small market stand with round crêpe griddle"
+        },
+        {
+          "name": "Takoyaki cart",
+          "description": "street cart with a dimpled takoyaki grill"
+        },
+        {
+          "name": "Juice cart",
+          "description": "small cart with fruit and a manual citrus press"
+        },
+        {
+          "name": "Roasted nut stall",
+          "description": "tiny stall with copper nut roasting drum"
+        }
+      ]
+    },
+    {
+      "topic": "City textures",
+      "question": "You are collecting street textures for a design project. Which surface gets a rubbing?",
+      "outcomes": [
+        {
+          "name": "Cobblestones",
+          "description": "patch of rounded grey cobblestones"
+        },
+        {
+          "name": "Cast-iron grate",
+          "description": "decorative circular cast-iron grate"
+        },
+        {
+          "name": "Brickwork",
+          "description": "small piece of weathered red brick bond"
+        },
+        {
+          "name": "Subway tile",
+          "description": "rectangular white bevelled subway tile panel"
+        }
+      ]
+    },
+    {
+      "topic": "Public squares",
+      "question": "Your walking group needs an easy meeting point. Which feature do you choose?",
+      "outcomes": [
+        {
+          "name": "Clock tower",
+          "description": "small brick clock tower with round clock face"
+        },
+        {
+          "name": "Obelisk",
+          "description": "simple carved stone obelisk on plinth"
+        },
+        {
+          "name": "Equestrian statue",
+          "description": "bronze rider on horseback on stone plinth"
+        },
+        {
+          "name": "Market cross",
+          "description": "medieval stone market cross with stepped base"
+        }
+      ]
+    }
+  ]
+}

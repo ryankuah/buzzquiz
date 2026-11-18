@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Coral shapes",
+      "question": "You're sketching a reef in silhouette. Which coral shape leads the composition?",
+      "outcomes": [
+        {
+          "name": "Brain coral",
+          "description": "Brain coral — rounded coral with maze-like ridges"
+        },
+        {
+          "name": "Staghorn coral",
+          "description": "Staghorn coral — tan branching antler-shaped coral"
+        },
+        {
+          "name": "Sea fan",
+          "description": "Sea fan — broad purple fan-shaped soft coral"
+        },
+        {
+          "name": "Mushroom coral",
+          "description": "Mushroom coral — single round ridged orange mushroom coral"
+        }
+      ]
+    },
+    {
+      "topic": "Sea slugs",
+      "question": "A macro lens gives you one sharp shot. Which sea slug do you photograph?",
+      "outcomes": [
+        {
+          "name": "Blue dragon nudibranch",
+          "description": "Blue dragon nudibranch — tiny blue silver sea slug with branching limbs"
+        },
+        {
+          "name": "Spanish dancer nudibranch",
+          "description": "Spanish dancer nudibranch — bright red sea slug with frilled mantle"
+        },
+        {
+          "name": "Sea bunny",
+          "description": "Sea bunny — white fuzzy nudibranch with black-tipped ears"
+        },
+        {
+          "name": "Leaf sheep slug",
+          "description": "Leaf sheep slug — green sea slug with leaflike pointed cerata"
+        }
+      ]
+    },
+    {
+      "topic": "Crustaceans",
+      "question": "You get to illustrate one crustacean for the touch-pool sign. Which one?",
+      "outcomes": [
+        {
+          "name": "Fiddler crab",
+          "description": "Fiddler crab — small crab with one oversized claw"
+        },
+        {
+          "name": "Spiny lobster",
+          "description": "Spiny lobster — orange lobster with long antennae and no big claws"
+        },
+        {
+          "name": "Mantis shrimp",
+          "description": "Mantis shrimp — bright multicoloured peacock mantis shrimp"
+        },
+        {
+          "name": "Barnacles",
+          "description": "Barnacles — cluster of small white volcano-shaped shells"
+        }
+      ]
+    },
+    {
+      "topic": "Shell collection",
+      "question": "You are laying out a shell collection by shape. Which specimen takes the central spot?",
+      "outcomes": [
+        {
+          "name": "Conch shell",
+          "description": "Conch shell — large pink lipped spiral conch"
+        },
+        {
+          "name": "Spiral auger shell",
+          "description": "Spiral auger shell — long narrow cream auger shell"
+        },
+        {
+          "name": "Limpet shell",
+          "description": "Limpet shell — low conical ribbed limpet shell"
+        },
+        {
+          "name": "Mussel shell",
+          "description": "Mussel shell — dark blue elongated mussel shell pair"
+        }
+      ]
+    }
+  ]
+}

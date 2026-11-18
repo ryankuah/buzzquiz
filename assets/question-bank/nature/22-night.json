@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Nocturnal animals",
+      "question": "The night walk begins. Which animal are you hoping to spot?",
+      "outcomes": [
+        {
+          "name": "Tawny owl",
+          "description": "Round brown tawny owl with large dark eyes"
+        },
+        {
+          "name": "Raccoon",
+          "description": "Grey raccoon with a black face mask and ringed tail"
+        },
+        {
+          "name": "Fruit bat",
+          "description": "Brown fruit bat hanging upside down"
+        },
+        {
+          "name": "Aye-aye",
+          "description": "Dark shaggy aye-aye with large ears and long middle finger"
+        }
+      ]
+    },
+    {
+      "topic": "Night garden blooms",
+      "question": "You're planting a garden that opens after sunset. Which bloom do you centre it around?",
+      "outcomes": [
+        {
+          "name": "Moonflower",
+          "description": "Large white trumpet-shaped moonflower"
+        },
+        {
+          "name": "Evening primrose",
+          "description": "Yellow four-petalled evening primrose flower"
+        },
+        {
+          "name": "Night-blooming cereus",
+          "description": "Large many-petalled white night-blooming cactus flower"
+        },
+        {
+          "name": "Night phlox",
+          "description": "Small cluster of white star-shaped night phlox flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Light in nature",
+      "question": "A science illustrator asks you to pick a glow-in-the-dark subject. Which one do you commission?",
+      "outcomes": [
+        {
+          "name": "Firefly",
+          "description": "Dark beetle with glowing yellow abdomen"
+        },
+        {
+          "name": "Glowing mushroom",
+          "description": "Cluster of small green bioluminescent mushrooms"
+        },
+        {
+          "name": "Comb jelly",
+          "description": "Clear oval comb jelly with iridescent bands"
+        },
+        {
+          "name": "Lanternfish",
+          "description": "Small dark fish with a row of blue light organs"
+        }
+      ]
+    },
+    {
+      "topic": "Observatory souvenirs",
+      "question": "The observatory gift shop is closing. Which souvenir do you take home?",
+      "outcomes": [
+        {
+          "name": "Moon phase dial",
+          "description": "Circular brass dial showing phases of the moon"
+        },
+        {
+          "name": "Star globe",
+          "description": "Dark blue celestial globe on a small stand"
+        },
+        {
+          "name": "Solar system mobile",
+          "description": "Hanging mobile with eight coloured planetary spheres"
+        },
+        {
+          "name": "Constellation pin",
+          "description": "Dark enamel lapel pin with gold linked stars"
+        }
+      ]
+    }
+  ]
+}

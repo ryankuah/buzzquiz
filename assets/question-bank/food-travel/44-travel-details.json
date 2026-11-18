@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Map reading",
+      "question": "A trail sign has blown down. Which navigation aid do you use first?",
+      "outcomes": [
+        {
+          "name": "Topographic map",
+          "description": "folded map with brown contour lines"
+        },
+        {
+          "name": "GPS receiver",
+          "description": "handheld hiking GPS with small screen"
+        },
+        {
+          "name": "Trail marker",
+          "description": "wooden waymarker post with painted stripe"
+        },
+        {
+          "name": "Pocket atlas",
+          "description": "small open road atlas"
+        }
+      ]
+    },
+    {
+      "topic": "Travel photography",
+      "question": "You can bring one lens on the next outing. What do you pack?",
+      "outcomes": [
+        {
+          "name": "Wide-angle lens",
+          "description": "short wide camera lens with broad front glass"
+        },
+        {
+          "name": "Telephoto lens",
+          "description": "long white camera lens with tripod collar"
+        },
+        {
+          "name": "Macro lens",
+          "description": "small macro lens beside a tiny flower"
+        },
+        {
+          "name": "Fisheye lens",
+          "description": "camera lens with strongly curved bulbous front"
+        }
+      ]
+    },
+    {
+      "topic": "Stationery souvenirs",
+      "question": "You want a keepsake that will fit in a coat pocket. What do you buy?",
+      "outcomes": [
+        {
+          "name": "Postage stamp",
+          "description": "single perforated postage stamp with bird drawing"
+        },
+        {
+          "name": "Travel journal",
+          "description": "leather travel journal with elastic strap"
+        },
+        {
+          "name": "Washi tape",
+          "description": "three rolls of printed decorative washi tape"
+        },
+        {
+          "name": "Wax seal",
+          "description": "brass wax seal stamp and a red wax impression"
+        }
+      ]
+    },
+    {
+      "topic": "Long-haul comfort",
+      "question": "You are trying to rest on an overnight trip. What makes the seat feel better?",
+      "outcomes": [
+        {
+          "name": "Foot hammock",
+          "description": "small fabric foot hammock hanging from straps"
+        },
+        {
+          "name": "Compression socks",
+          "description": "pair of striped knee-high travel socks"
+        },
+        {
+          "name": "Travel blanket",
+          "description": "rolled fleece travel blanket"
+        },
+        {
+          "name": "Inflatable cushion",
+          "description": "inflated rectangular travel cushion"
+        }
+      ]
+    }
+  ]
+}

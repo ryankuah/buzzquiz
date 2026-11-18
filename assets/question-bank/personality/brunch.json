@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Bakery breakfast",
+      "question": "You arrive at the bakery as the first trays come out. Which pastry do you point to?",
+      "outcomes": [
+        {
+          "name": "Kouign-amann",
+          "description": "Kouign-amann"
+        },
+        {
+          "name": "Almond danish",
+          "description": "Almond danish"
+        },
+        {
+          "name": "Portuguese egg tart",
+          "description": "Portuguese egg tart"
+        },
+        {
+          "name": "Cardamom knot",
+          "description": "Cardamom knot"
+        }
+      ]
+    },
+    {
+      "topic": "Breakfast sides",
+      "question": "Your brunch order comes with one side. What goes on the plate?",
+      "outcomes": [
+        {
+          "name": "Hash brown",
+          "description": "Hash brown"
+        },
+        {
+          "name": "Grilled halloumi",
+          "description": "Grilled halloumi"
+        },
+        {
+          "name": "Roasted tomatoes",
+          "description": "Roasted tomatoes"
+        },
+        {
+          "name": "Potato rösti",
+          "description": "Potato rösti"
+        }
+      ]
+    },
+    {
+      "topic": "Tea sandwiches",
+      "question": "A tier of sandwiches arrives at afternoon tea. Which do you reach for?",
+      "outcomes": [
+        {
+          "name": "Cucumber sandwich",
+          "description": "Cucumber sandwich"
+        },
+        {
+          "name": "Coronation chicken sandwich",
+          "description": "Coronation chicken sandwich"
+        },
+        {
+          "name": "Smoked salmon pinwheel",
+          "description": "Smoked salmon pinwheel"
+        },
+        {
+          "name": "Watercress sandwich",
+          "description": "Watercress sandwich"
+        }
+      ]
+    },
+    {
+      "topic": "Waffle toppings",
+      "question": "The waffle iron pops open. What do you add first?",
+      "outcomes": [
+        {
+          "name": "Blueberry compote",
+          "description": "Blueberry compote"
+        },
+        {
+          "name": "Whipped mascarpone",
+          "description": "Whipped mascarpone"
+        },
+        {
+          "name": "Caramelised banana",
+          "description": "Caramelised banana"
+        },
+        {
+          "name": "Crushed pistachios",
+          "description": "Crushed pistachios"
+        }
+      ]
+    }
+  ]
+}

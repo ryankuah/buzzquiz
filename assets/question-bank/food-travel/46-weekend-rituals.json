@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Farm stand drinks",
+      "question": "The fruit stand serves cold drinks in reusable bottles. Which one do you buy for the walk home?",
+      "outcomes": [
+        {
+          "name": "Apple cider",
+          "description": "glass of cloudy apple cider with red apple"
+        },
+        {
+          "name": "Pear nectar",
+          "description": "glass of pale pear nectar with sliced pear"
+        },
+        {
+          "name": "Grape juice",
+          "description": "glass of purple grape juice beside grapes"
+        },
+        {
+          "name": "Peach iced tea",
+          "description": "tall amber iced tea with peach slices"
+        }
+      ]
+    },
+    {
+      "topic": "Small-batch condiments",
+      "question": "Your friend brings warm bread to brunch. Which jar do you open to go with it?",
+      "outcomes": [
+        {
+          "name": "Artichoke tapenade",
+          "description": "small bowl of pale chopped artichoke spread"
+        },
+        {
+          "name": "Olive tapenade",
+          "description": "dark chopped olive spread with olives"
+        },
+        {
+          "name": "Roasted pepper spread",
+          "description": "thick red pepper spread with roasted peppers"
+        },
+        {
+          "name": "Garlic confit",
+          "description": "glass jar of golden garlic cloves in oil"
+        }
+      ]
+    },
+    {
+      "topic": "Breakfast egg dishes",
+      "question": "The cook offers four ways to serve eggs. Which plate would you take?",
+      "outcomes": [
+        {
+          "name": "Shakshuka",
+          "description": "eggs poached in red tomato sauce in skillet"
+        },
+        {
+          "name": "Omelette",
+          "description": "folded yellow herb omelette"
+        },
+        {
+          "name": "Eggs Benedict",
+          "description": "poached eggs on English muffins with hollandaise"
+        },
+        {
+          "name": "Soft-boiled egg",
+          "description": "soft-boiled egg in an eggcup with toast soldiers"
+        }
+      ]
+    },
+    {
+      "topic": "Tea-time sandwiches",
+      "question": "Friends are assembling a tray of little sandwiches. What filling do you make?",
+      "outcomes": [
+        {
+          "name": "Cucumber sandwich",
+          "description": "crustless triangles with thin cucumber slices"
+        },
+        {
+          "name": "Smoked salmon sandwich",
+          "description": "open-faced rye with ribbons of salmon"
+        },
+        {
+          "name": "Egg and cress sandwich",
+          "description": "crustless finger sandwich with egg and green cress"
+        },
+        {
+          "name": "Coronation chicken sandwich",
+          "description": "small sandwich with golden curried chicken filling"
+        }
+      ]
+    }
+  ]
+}

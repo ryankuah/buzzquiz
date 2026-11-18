@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Card game",
+      "question": "Which deck would you put on the table for a games night?",
+      "outcomes": [
+        {
+          "name": "Tarot deck",
+          "description": "illustrated tarot cards"
+        },
+        {
+          "name": "French-suited deck",
+          "description": "fan of playing cards"
+        },
+        {
+          "name": "Hanafuda deck",
+          "description": "Japanese flower playing cards"
+        },
+        {
+          "name": "Spanish-suited deck",
+          "description": "Spanish playing cards showing cups and clubs"
+        }
+      ]
+    },
+    {
+      "topic": "Puzzle type",
+      "question": "Which puzzle would keep you busy on a rainy afternoon?",
+      "outcomes": [
+        {
+          "name": "Tangram",
+          "description": "Tangram"
+        },
+        {
+          "name": "Sliding tile puzzle",
+          "description": "Sliding tile puzzle"
+        },
+        {
+          "name": "Wire disentanglement puzzle",
+          "description": "Wire disentanglement puzzle"
+        },
+        {
+          "name": "Wooden burr puzzle",
+          "description": "Wooden burr puzzle"
+        }
+      ]
+    },
+    {
+      "topic": "Chess set",
+      "question": "You are casting a little chess animation. Who gets the lead?",
+      "outcomes": [
+        {
+          "name": "Chess king",
+          "description": "Chess king"
+        },
+        {
+          "name": "Chess queen",
+          "description": "Chess queen"
+        },
+        {
+          "name": "Chess rook",
+          "description": "Chess rook"
+        },
+        {
+          "name": "Chess bishop",
+          "description": "Chess bishop"
+        }
+      ]
+    },
+    {
+      "topic": "Dice bag",
+      "question": "You can keep one die from a tabletop set. Which shape do you choose?",
+      "outcomes": [
+        {
+          "name": "Four-sided die",
+          "description": "pyramid-shaped four-sided die"
+        },
+        {
+          "name": "Six-sided die",
+          "description": "standard cube die"
+        },
+        {
+          "name": "Eight-sided die",
+          "description": "octahedral eight-sided die"
+        },
+        {
+          "name": "Twenty-sided die",
+          "description": "icosahedral twenty-sided die"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Coffee brewers",
+      "question": "You have an afternoon to test a different brewing method. Which brewer do you unpack?",
+      "outcomes": [
+        {
+          "name": "Moka pot",
+          "description": "classic octagonal aluminium moka pot"
+        },
+        {
+          "name": "French press",
+          "description": "glass French press with black plunger"
+        },
+        {
+          "name": "Siphon brewer",
+          "description": "glass vacuum coffee siphon with two chambers"
+        },
+        {
+          "name": "Vietnamese phin",
+          "description": "small metal phin filter on a clear glass"
+        }
+      ]
+    },
+    {
+      "topic": "Café cake slices",
+      "question": "You are splitting a slice after lunch. Which one will you bring back to the table?",
+      "outcomes": [
+        {
+          "name": "Carrot cake",
+          "description": "carrot layer cake with cream cheese frosting and walnut"
+        },
+        {
+          "name": "Black Forest cake",
+          "description": "chocolate cake slice with cherries and whipped cream"
+        },
+        {
+          "name": "Basque cheesecake",
+          "description": "slice of dark burnt-top Basque cheesecake"
+        },
+        {
+          "name": "Lemon drizzle cake",
+          "description": "lemon loaf slice with translucent icing"
+        }
+      ]
+    },
+    {
+      "topic": "Savory café lunch",
+      "question": "The chalkboard lists four lunches. Which one gets you through an afternoon of errands?",
+      "outcomes": [
+        {
+          "name": "Spinach quiche",
+          "description": "wedge of spinach quiche with golden crust"
+        },
+        {
+          "name": "Croque monsieur",
+          "description": "grilled ham sandwich with browned béchamel on top"
+        },
+        {
+          "name": "Stuffed jacket potato",
+          "description": "baked potato split open with cheese and chives"
+        },
+        {
+          "name": "Tomato galette",
+          "description": "rustic folded pastry tart with sliced tomatoes"
+        }
+      ]
+    },
+    {
+      "topic": "Café seating",
+      "question": "You are meeting someone who has never been here. Where do you say you will be sitting?",
+      "outcomes": [
+        {
+          "name": "Window counter",
+          "description": "wooden counter and high stool in front of a window"
+        },
+        {
+          "name": "Velvet booth",
+          "description": "curved green velvet booth with round table"
+        },
+        {
+          "name": "Pavement bistro table",
+          "description": "small iron bistro table and folding chair"
+        },
+        {
+          "name": "Communal table",
+          "description": "long oak table with bench seats"
+        }
+      ]
+    }
+  ]
+}

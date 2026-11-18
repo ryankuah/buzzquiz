@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Theatre night",
+      "question": "You are helping the front-of-house team. Which item would you hand out at the door?",
+      "outcomes": [
+        {
+          "name": "Playbill",
+          "description": "folded theatre programme with a curtain illustration"
+        },
+        {
+          "name": "Opera glasses",
+          "description": "small brass opera binoculars"
+        },
+        {
+          "name": "Seat ticket",
+          "description": "theatre stub with a small seat diagram"
+        },
+        {
+          "name": "Cloakroom token",
+          "description": "brass cloakroom token with keyring"
+        }
+      ]
+    },
+    {
+      "topic": "Outdoor concert supplies",
+      "question": "It is a sunny all-day concert. Which item saves your spot in the bag?",
+      "outcomes": [
+        {
+          "name": "Earplugs",
+          "description": "reusable earplugs in a small case"
+        },
+        {
+          "name": "Refillable bottle",
+          "description": "metal insulated water bottle"
+        },
+        {
+          "name": "Portable fan",
+          "description": "handheld battery-powered fan"
+        },
+        {
+          "name": "Sunscreen stick",
+          "description": "twist-up sunscreen stick"
+        }
+      ]
+    },
+    {
+      "topic": "Dance night",
+      "question": "You are picking a dance lesson for a group of friends. Which class do you try?",
+      "outcomes": [
+        {
+          "name": "Flamenco",
+          "description": "flamenco shoes beside red castanets"
+        },
+        {
+          "name": "Tap dance",
+          "description": "pair of tap shoes with metal toe plates"
+        },
+        {
+          "name": "Ballet",
+          "description": "pair of pink pointe shoes with ribbons"
+        },
+        {
+          "name": "Irish step dance",
+          "description": "black Irish hard shoes with buckles"
+        }
+      ]
+    },
+    {
+      "topic": "Carnival midway",
+      "question": "You only have a few game tokens left. What booth gets them?",
+      "outcomes": [
+        {
+          "name": "Duck pond game",
+          "description": "mini pool with floating yellow numbered ducks"
+        },
+        {
+          "name": "Balloon darts",
+          "description": "colourful balloons pinned to board beside darts"
+        },
+        {
+          "name": "Milk bottle toss",
+          "description": "pyramid of metal milk bottles and one softball"
+        },
+        {
+          "name": "Hoop shot",
+          "description": "small carnival basketball hoop with a ball"
+        }
+      ]
+    }
+  ]
+}

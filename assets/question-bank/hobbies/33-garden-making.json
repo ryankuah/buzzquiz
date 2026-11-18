@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Birdhouse building",
+      "question": "A community woodshop is building bird shelters. Which roof shape do you choose?",
+      "outcomes": [
+        {
+          "name": "A-frame birdhouse",
+          "description": "triangular A-frame timber birdhouse"
+        },
+        {
+          "name": "Gourd birdhouse",
+          "description": "hanging hollow gourd birdhouse"
+        },
+        {
+          "name": "Log birdhouse",
+          "description": "cylindrical hollow log birdhouse"
+        },
+        {
+          "name": "Teapot birdhouse",
+          "description": "teapot repurposed as a hanging birdhouse"
+        }
+      ]
+    },
+    {
+      "topic": "Balcony gardening",
+      "question": "Your balcony needs a way to grow upward. Which support do you set up?",
+      "outcomes": [
+        {
+          "name": "Obelisk trellis",
+          "description": "tall wooden four-sided obelisk trellis"
+        },
+        {
+          "name": "Ladder trellis",
+          "description": "slim bamboo ladder trellis"
+        },
+        {
+          "name": "Hanging pockets",
+          "description": "wall hanging with rows of fabric planting pockets"
+        },
+        {
+          "name": "Spiral plant stake",
+          "description": "tall green spiral plant support"
+        }
+      ]
+    },
+    {
+      "topic": "Watering systems",
+      "question": "You're going away for a weekend. What would you try on your potted herbs?",
+      "outcomes": [
+        {
+          "name": "Watering globe",
+          "description": "blue glass watering globe with long stem"
+        },
+        {
+          "name": "Drip line",
+          "description": "coiled black drip irrigation tubing with emitters"
+        },
+        {
+          "name": "Terracotta olla",
+          "description": "unglazed clay watering olla with lid"
+        },
+        {
+          "name": "Self-watering planter",
+          "description": "white planter with translucent water reservoir"
+        }
+      ]
+    },
+    {
+      "topic": "Miniature gardens",
+      "question": "Your terrarium has an empty clearing. Which tiny ornament goes there?",
+      "outcomes": [
+        {
+          "name": "Moss archway",
+          "description": "moss-covered miniature stone doorway"
+        },
+        {
+          "name": "Fairy mailbox",
+          "description": "tiny red mailbox on a wooden post"
+        },
+        {
+          "name": "Mini bench",
+          "description": "tiny green slatted park bench"
+        },
+        {
+          "name": "Toadstool cottage",
+          "description": "tiny red mushroom house with round window"
+        }
+      ]
+    }
+  ]
+}

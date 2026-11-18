@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Romance trope",
+      "question": "Which premise makes you pick up a romance novel?",
+      "outcomes": [
+        {
+          "name": "Rivals to lovers",
+          "description": "crossed fencing foils tied with a pink ribbon"
+        },
+        {
+          "name": "Second chance",
+          "description": "repaired heart locket with a hinge"
+        },
+        {
+          "name": "Secret admirer",
+          "description": "anonymous love letter slid into a locker"
+        },
+        {
+          "name": "Fake dating",
+          "description": "two matching pretend engagement rings in a box"
+        }
+      ]
+    },
+    {
+      "topic": "Fantasy vocation",
+      "question": "A village hires you for a season. Which role do you choose?",
+      "outcomes": [
+        {
+          "name": "Potion brewer",
+          "description": "alchemist stirring a purple flask"
+        },
+        {
+          "name": "Cartographer",
+          "description": "map maker unrolling a chart"
+        },
+        {
+          "name": "Beast keeper",
+          "description": "keeper cradling a tiny griffin"
+        },
+        {
+          "name": "Royal scribe",
+          "description": "scribe writing on a scroll"
+        }
+      ]
+    },
+    {
+      "topic": "Mystery setting",
+      "question": "Which location should host the final reveal in your mystery novel?",
+      "outcomes": [
+        {
+          "name": "Sleeper train",
+          "description": "miniature sleeper train carriage"
+        },
+        {
+          "name": "Country manor",
+          "description": "stone country manor house"
+        },
+        {
+          "name": "Remote lighthouse",
+          "description": "striped lighthouse on a rock"
+        },
+        {
+          "name": "Old theatre",
+          "description": "miniature theatre with red curtains"
+        }
+      ]
+    },
+    {
+      "topic": "Bookish gift",
+      "question": "Which gift would you wrap for a friend who reads all night?",
+      "outcomes": [
+        {
+          "name": "Book sleeve",
+          "description": "Book sleeve"
+        },
+        {
+          "name": "Clip-on book light",
+          "description": "Clip-on book light"
+        },
+        {
+          "name": "Personal library stamp",
+          "description": "Personal library stamp"
+        },
+        {
+          "name": "Pressed-flower bookmark",
+          "description": "Pressed-flower bookmark"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fruit drinks",
+      "question": "A drinks cart rolls past on a hot afternoon. What do you order?",
+      "outcomes": [
+        {
+          "name": "Watermelon juice",
+          "description": "bright pink juice glass garnished with watermelon wedge"
+        },
+        {
+          "name": "Mango lassi",
+          "description": "golden mango lassi topped with a little green pistachio"
+        },
+        {
+          "name": "Fresh coconut water",
+          "description": "trimmed green coconut with a straw"
+        },
+        {
+          "name": "Limeade",
+          "description": "icy green limeade with lime wheel"
+        }
+      ]
+    },
+    {
+      "topic": "Cold desserts",
+      "question": "The freezer cart is about to leave. Which treat do you grab?",
+      "outcomes": [
+        {
+          "name": "Gelato",
+          "description": "two scoops of pistachio gelato in a waffle cone"
+        },
+        {
+          "name": "Kulfi",
+          "description": "pistachio kulfi molded on a wooden stick"
+        },
+        {
+          "name": "Shaved ice",
+          "description": "paper cup of fluffy shaved ice streaked blue and red"
+        },
+        {
+          "name": "Ice cream sandwich",
+          "description": "rectangular chocolate wafer ice cream sandwich"
+        }
+      ]
+    },
+    {
+      "topic": "Sandwiches",
+      "question": "You are packing lunch for a long train ride. Which sandwich makes the cut?",
+      "outcomes": [
+        {
+          "name": "Bánh mì",
+          "description": "split baguette stuffed with pickled carrot cilantro and cucumber"
+        },
+        {
+          "name": "Falafel pita",
+          "description": "open pita pocket with falafel and greens"
+        },
+        {
+          "name": "Grilled cheese",
+          "description": "triangle toasted cheese sandwich with melted cheese"
+        },
+        {
+          "name": "Lobster roll",
+          "description": "split top bun packed with lobster meat"
+        }
+      ]
+    },
+    {
+      "topic": "Night market skewers",
+      "question": "You can smell the grill halfway down the street. Which skewer do you try?",
+      "outcomes": [
+        {
+          "name": "Yakitori",
+          "description": "skewer of glazed chicken and scallion"
+        },
+        {
+          "name": "Paneer tikka",
+          "description": "skewers of paneer cubes with bell peppers"
+        },
+        {
+          "name": "Satay",
+          "description": "golden satay skewers with a tiny cup of peanut sauce"
+        },
+        {
+          "name": "Grilled corn",
+          "description": "charred whole yellow corn cob on a stick"
+        }
+      ]
+    }
+  ]
+}

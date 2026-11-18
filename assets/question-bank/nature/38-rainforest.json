@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Rainforest primates",
+      "question": "A canopy bridge gives you a view of a troop. Which primate fills your notebook page?",
+      "outcomes": [
+        {
+          "name": "Golden lion tamarin",
+          "description": "Golden lion tamarin — small monkey with brilliant orange mane"
+        },
+        {
+          "name": "Proboscis monkey",
+          "description": "Proboscis monkey — russet monkey with long bulbous nose"
+        },
+        {
+          "name": "Ring-tailed lemur",
+          "description": "Ring-tailed lemur — grey lemur with banded black and white tail"
+        },
+        {
+          "name": "Mandrill",
+          "description": "Mandrill — stocky primate with bright blue and red muzzle"
+        }
+      ]
+    },
+    {
+      "topic": "Forest floor wildlife",
+      "question": "You point a trail camera at the forest floor. Which visitor do you hope it catches?",
+      "outcomes": [
+        {
+          "name": "Okapi",
+          "description": "Okapi — dark brown okapi with striped legs"
+        },
+        {
+          "name": "Tapir",
+          "description": "Tapir — stocky dark tapir with short flexible snout"
+        },
+        {
+          "name": "Giant anteater",
+          "description": "Giant anteater — long-snouted anteater with a huge bushy tail"
+        },
+        {
+          "name": "Peccary",
+          "description": "Peccary — small bristly collared peccary with grey shoulder band"
+        }
+      ]
+    },
+    {
+      "topic": "Rainforest fruits",
+      "question": "You are drawing a rainforest fruit poster. Which shape starts your design?",
+      "outcomes": [
+        {
+          "name": "Cacao pod",
+          "description": "Cacao pod — ribbed orange cacao pod split to show seeds"
+        },
+        {
+          "name": "Jackfruit",
+          "description": "Jackfruit — large green knobbly jackfruit split open"
+        },
+        {
+          "name": "Rambutan",
+          "description": "Rambutan — red hairy rambutan fruit"
+        },
+        {
+          "name": "Carambola",
+          "description": "Carambola — golden starfruit with a star-shaped slice"
+        }
+      ]
+    },
+    {
+      "topic": "Climbing plants",
+      "question": "You can grow one climbing plant up an arch. Which one frames your doorway?",
+      "outcomes": [
+        {
+          "name": "Wisteria",
+          "description": "Wisteria — hanging cluster of lilac wisteria flowers"
+        },
+        {
+          "name": "Passionflower",
+          "description": "Passionflower — purple and white passionflower with elaborate central filaments"
+        },
+        {
+          "name": "Clematis",
+          "description": "Clematis — large violet clematis flower on a vine"
+        },
+        {
+          "name": "Bougainvillea",
+          "description": "Bougainvillea — cluster of bright magenta papery bougainvillea bracts"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Cantonese dim sum",
+      "question": "The steamer cart stops beside the table. Which basket do you ask for?",
+      "outcomes": [
+        {
+          "name": "Har gow",
+          "description": "translucent pleated shrimp dumplings"
+        },
+        {
+          "name": "Lo mai gai",
+          "description": "sticky rice unwrapped from a lotus leaf"
+        },
+        {
+          "name": "Char siu bao",
+          "description": "white steamed bun split around red barbecue pork"
+        },
+        {
+          "name": "Cheung fun",
+          "description": "wide rolled rice noodles with soy sauce"
+        }
+      ]
+    },
+    {
+      "topic": "Korean banchan",
+      "question": "You can request one side dish again. Which small plate do you pass forward?",
+      "outcomes": [
+        {
+          "name": "Gyeran mari",
+          "description": "slices of rolled egg omelette with carrot flecks"
+        },
+        {
+          "name": "Oi muchim",
+          "description": "spicy sliced cucumber salad"
+        },
+        {
+          "name": "Kongnamul",
+          "description": "seasoned yellow soybean sprouts"
+        },
+        {
+          "name": "Gamja jorim",
+          "description": "glazed bite-size potatoes with sesame"
+        }
+      ]
+    },
+    {
+      "topic": "Taiwanese night bites",
+      "question": "You duck into a night market between trains. What would you queue for?",
+      "outcomes": [
+        {
+          "name": "Oyster omelette",
+          "description": "oyster omelette with greens and red sauce"
+        },
+        {
+          "name": "Pepper bun",
+          "description": "golden sesame-crusted pepper pork bun"
+        },
+        {
+          "name": "Scallion pancake",
+          "description": "flaky round scallion pancake wedges"
+        },
+        {
+          "name": "Sweet potato balls",
+          "description": "small pile of crisp golden sweet potato spheres"
+        }
+      ]
+    },
+    {
+      "topic": "Japanese convenience lunch",
+      "question": "You need a quick lunch before a train leaves. Which package goes in your basket?",
+      "outcomes": [
+        {
+          "name": "Tamago sando",
+          "description": "fluffy crustless egg salad sandwich"
+        },
+        {
+          "name": "Yakisoba pan",
+          "description": "hotdog bun filled with stir-fried noodles"
+        },
+        {
+          "name": "Inari sushi",
+          "description": "tofu pockets packed with rice"
+        },
+        {
+          "name": "Katsu sando",
+          "description": "crustless sandwich with crisp pork cutlet"
+        }
+      ]
+    }
+  ]
+}

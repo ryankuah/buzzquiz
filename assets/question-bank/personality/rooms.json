@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Dream bedroom",
+      "question": "You can change one corner of your bedroom. Which feature goes in?",
+      "outcomes": [
+        {
+          "name": "Canopy bed",
+          "description": "Canopy bed"
+        },
+        {
+          "name": "Hanging egg chair",
+          "description": "Hanging egg chair"
+        },
+        {
+          "name": "Vanity table",
+          "description": "Vanity table"
+        },
+        {
+          "name": "Window seat",
+          "description": "Window seat"
+        }
+      ]
+    },
+    {
+      "topic": "Interior style",
+      "question": "Which miniature room would you use as the starting point for a flat renovation?",
+      "outcomes": [
+        {
+          "name": "Art Deco lounge",
+          "description": "Art Deco lounge"
+        },
+        {
+          "name": "Mid-century lounge",
+          "description": "Mid-century lounge"
+        },
+        {
+          "name": "Scandinavian lounge",
+          "description": "Scandinavian lounge"
+        },
+        {
+          "name": "Bohemian lounge",
+          "description": "Bohemian lounge"
+        }
+      ]
+    },
+    {
+      "topic": "Library corner",
+      "question": "You claim a corner of the library for an afternoon. Where do you settle?",
+      "outcomes": [
+        {
+          "name": "Leather wingback chair",
+          "description": "Leather wingback chair"
+        },
+        {
+          "name": "Velvet chaise longue",
+          "description": "Velvet chaise longue"
+        },
+        {
+          "name": "Beanbag lounger",
+          "description": "Beanbag lounger"
+        },
+        {
+          "name": "Rocking chair",
+          "description": "Rocking chair"
+        }
+      ]
+    },
+    {
+      "topic": "Dream office",
+      "question": "Which feature do you install when you move into a new workspace?",
+      "outcomes": [
+        {
+          "name": "Drafting desk",
+          "description": "Drafting desk"
+        },
+        {
+          "name": "Standing desk",
+          "description": "Standing desk"
+        },
+        {
+          "name": "Modular pegboard",
+          "description": "Modular pegboard"
+        },
+        {
+          "name": "Writing bureau",
+          "description": "Writing bureau"
+        }
+      ]
+    }
+  ]
+}

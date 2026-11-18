@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Rainy afternoon",
+      "question": "The weather cancels an outdoor plan. How do you spend the afternoon?",
+      "outcomes": [
+        {
+          "name": "Play a board game",
+          "description": "Play a board game — rainy afternoon vignette"
+        },
+        {
+          "name": "Paint watercolour postcards",
+          "description": "Paint watercolour postcards — rainy afternoon vignette"
+        },
+        {
+          "name": "Bake a loaf of bread",
+          "description": "Bake a loaf of bread — rainy afternoon vignette"
+        },
+        {
+          "name": "Read on the window seat",
+          "description": "Read on the window seat — rainy afternoon vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Sunday morning",
+      "question": "You wake up with no appointments. What do you do first?",
+      "outcomes": [
+        {
+          "name": "Brew coffee by hand",
+          "description": "Brew coffee by hand — sunday morning vignette"
+        },
+        {
+          "name": "Read the Sunday paper",
+          "description": "Read the Sunday paper — sunday morning vignette"
+        },
+        {
+          "name": "Roll out a yoga mat",
+          "description": "Roll out a yoga mat — sunday morning vignette"
+        },
+        {
+          "name": "Make a waffle breakfast",
+          "description": "Make a waffle breakfast — sunday morning vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Free evening",
+      "question": "A meeting ends two hours early. What do you pick up on your way home?",
+      "outcomes": [
+        {
+          "name": "A second-hand novel",
+          "description": "A second-hand novel — free evening vignette"
+        },
+        {
+          "name": "A bunch of tulips",
+          "description": "A bunch of tulips — free evening vignette"
+        },
+        {
+          "name": "A bag of art supplies",
+          "description": "A bag of art supplies — free evening vignette"
+        },
+        {
+          "name": "A warm takeaway dinner",
+          "description": "A warm takeaway dinner — free evening vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Neighbourhood outing",
+      "question": "You and a friend have a free hour downtown. Where do you stop?",
+      "outcomes": [
+        {
+          "name": "At a photo booth",
+          "description": "At a photo booth — neighbourhood outing vignette"
+        },
+        {
+          "name": "At a busker's open guitar case",
+          "description": "At a busker's open guitar case — neighbourhood outing vignette"
+        },
+        {
+          "name": "At a flower stall",
+          "description": "At a flower stall — neighbourhood outing vignette"
+        },
+        {
+          "name": "At a book cart",
+          "description": "At a book cart — neighbourhood outing vignette"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Desert animals",
+      "question": "The desert cools at dusk. Which creature would you watch from the trail?",
+      "outcomes": [
+        {
+          "name": "Fennec fox",
+          "description": "Tiny sand-coloured fennec fox with enormous ears"
+        },
+        {
+          "name": "Meerkat",
+          "description": "Upright slender meerkat with dark eye patches"
+        },
+        {
+          "name": "Horned lizard",
+          "description": "Flattened sandy lizard with spiny head"
+        },
+        {
+          "name": "Roadrunner",
+          "description": "Crested brown roadrunner bird with long tail"
+        }
+      ]
+    },
+    {
+      "topic": "Savanna safari",
+      "question": "The guide stops the jeep at a waterhole. Which animal gets your binoculars first?",
+      "outcomes": [
+        {
+          "name": "Giraffe",
+          "description": "Tall patterned giraffe with a long neck"
+        },
+        {
+          "name": "Plains zebra",
+          "description": "Black and white striped plains zebra"
+        },
+        {
+          "name": "African elephant",
+          "description": "Grey elephant with large ears"
+        },
+        {
+          "name": "Hippopotamus",
+          "description": "Round grey hippopotamus with blunt muzzle"
+        }
+      ]
+    },
+    {
+      "topic": "Rainforest canopy",
+      "question": "Your wildlife hide is in the treetops. Which visitor do you hope to see?",
+      "outcomes": [
+        {
+          "name": "Toucan",
+          "description": "Black toucan with huge orange bill"
+        },
+        {
+          "name": "Three-toed sloth",
+          "description": "Brown sloth hanging from a short branch"
+        },
+        {
+          "name": "Poison dart frog",
+          "description": "Tiny cobalt blue and black dart frog"
+        },
+        {
+          "name": "Orangutan",
+          "description": "Red-haired orangutan with long arms"
+        }
+      ]
+    },
+    {
+      "topic": "Australian wildlife",
+      "question": "The rescue centre invites you to draw a local animal. Which one do you choose?",
+      "outcomes": [
+        {
+          "name": "Wombat",
+          "description": "Stocky brown wombat with blunt nose"
+        },
+        {
+          "name": "Platypus",
+          "description": "Brown platypus with broad flat bill and tail"
+        },
+        {
+          "name": "Echidna",
+          "description": "Spiny echidna with long narrow snout"
+        },
+        {
+          "name": "Koala",
+          "description": "Grey koala with round fluffy ears"
+        }
+      ]
+    }
+  ]
+}

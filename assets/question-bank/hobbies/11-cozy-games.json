@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Farm simulation",
+      "question": "Your first harvest is in and the town fair wants one display crop. What do you enter?",
+      "outcomes": [
+        {
+          "name": "Giant pumpkin",
+          "description": "single enormous ribbed orange pumpkin"
+        },
+        {
+          "name": "Purple cauliflower",
+          "description": "purple cauliflower head with green leaves"
+        },
+        {
+          "name": "Rainbow carrots",
+          "description": "bunch of three different coloured carrots"
+        },
+        {
+          "name": "Striped watermelon",
+          "description": "oblong striped green watermelon"
+        }
+      ]
+    },
+    {
+      "topic": "Fishing game",
+      "question": "The game lets you craft one fancy lure for tomorrow's fishing tournament. What goes on the line?",
+      "outcomes": [
+        {
+          "name": "Feather fly",
+          "description": "red and white feather fishing fly"
+        },
+        {
+          "name": "Spinner lure",
+          "description": "brass oval blade spinner fishing lure"
+        },
+        {
+          "name": "Frog lure",
+          "description": "small bright green rubber frog fishing lure"
+        },
+        {
+          "name": "Minnow lure",
+          "description": "shiny silver minnow-shaped fishing lure"
+        }
+      ]
+    },
+    {
+      "topic": "Home decoration game",
+      "question": "Your digital cottage has room for one novelty chair. What do you place by the fire?",
+      "outcomes": [
+        {
+          "name": "Egg chair",
+          "description": "orange midcentury egg chair on pedestal"
+        },
+        {
+          "name": "Beanbag chair",
+          "description": "purple corduroy beanbag"
+        },
+        {
+          "name": "Rocking chair",
+          "description": "wooden rocking chair with curved runners"
+        },
+        {
+          "name": "Hanging rattan chair",
+          "description": "woven rattan egg swing chair on a freestanding frame"
+        }
+      ]
+    },
+    {
+      "topic": "Virtual pet care",
+      "question": "Your virtual rabbit has a free afternoon. What do you add to its pen?",
+      "outcomes": [
+        {
+          "name": "Willow tunnel",
+          "description": "small arched woven willow pet tunnel"
+        },
+        {
+          "name": "Treat ball",
+          "description": "green perforated rolling pet treat ball"
+        },
+        {
+          "name": "Dig box",
+          "description": "low wooden box of shredded paper"
+        },
+        {
+          "name": "Hay rack",
+          "description": "little wooden upright hay feeder"
+        }
+      ]
+    }
+  ]
+}

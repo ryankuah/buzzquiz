@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Unusual inns",
+      "question": "A booking site shows four unusual places for one free night. Which do you book?",
+      "outcomes": [
+        {
+          "name": "Lighthouse inn",
+          "description": "striped lighthouse joined to a keeper cottage"
+        },
+        {
+          "name": "Ice hotel",
+          "description": "arched room of carved blue ice and a fur-covered bed"
+        },
+        {
+          "name": "Converted train carriage",
+          "description": "stationary converted green railway carriage with curtains"
+        },
+        {
+          "name": "Cave suite",
+          "description": "carved sandstone cave bedroom with a low bed"
+        }
+      ]
+    },
+    {
+      "topic": "Hotel amenities",
+      "question": "You arrive before check-in. Which part of the hotel do you head to?",
+      "outcomes": [
+        {
+          "name": "Rooftop pool",
+          "description": "miniature rooftop infinity pool with deck chair"
+        },
+        {
+          "name": "Library lounge",
+          "description": "bookshelf and leather chair in a cosy hotel lounge"
+        },
+        {
+          "name": "Sauna",
+          "description": "wooden sauna bench with bucket and ladle"
+        },
+        {
+          "name": "Courtyard fountain",
+          "description": "stone courtyard fountain in a small tiled basin"
+        }
+      ]
+    },
+    {
+      "topic": "Campsite sleeping arrangements",
+      "question": "The campsite lets you borrow one shelter for the weekend. Which would you try?",
+      "outcomes": [
+        {
+          "name": "Hammock tent",
+          "description": "suspended camping hammock with overhead tarp"
+        },
+        {
+          "name": "Bell tent",
+          "description": "cream canvas conical bell tent"
+        },
+        {
+          "name": "Camper trailer",
+          "description": "small teardrop camper trailer"
+        },
+        {
+          "name": "Bivvy sack",
+          "description": "simple low sleeping bivvy bag with compact shelter hoop"
+        }
+      ]
+    },
+    {
+      "topic": "Hotel breakfast service",
+      "question": "The hotel asks how you want breakfast delivered. Which setup sounds right?",
+      "outcomes": [
+        {
+          "name": "Breakfast tray",
+          "description": "wooden bed tray with teacup and roll"
+        },
+        {
+          "name": "Buffet warmer",
+          "description": "polished buffet chafing dish with lid open"
+        },
+        {
+          "name": "Picnic hamper",
+          "description": "wicker hamper lined with cloth and packed breakfast"
+        },
+        {
+          "name": "Room-service trolley",
+          "description": "small wheeled hotel trolley with silver cloche"
+        }
+      ]
+    }
+  ]
+}

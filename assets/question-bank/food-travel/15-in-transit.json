@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Airport layover",
+      "question": "You land three hours early. What do you pull out of your carry-on first?",
+      "outcomes": [
+        {
+          "name": "Travel pillow",
+          "description": "U-shaped neck pillow"
+        },
+        {
+          "name": "Noise-cancelling headphones",
+          "description": "padded over-ear headphones in a travel case"
+        },
+        {
+          "name": "Pocket puzzle book",
+          "description": "small open puzzle booklet with blank crossword squares"
+        },
+        {
+          "name": "Portable charger",
+          "description": "compact power bank with a coiled charging cable"
+        }
+      ]
+    },
+    {
+      "topic": "Island transport",
+      "question": "The hotel is on the far side of the island. Which transfer sounds like part of the holiday?",
+      "outcomes": [
+        {
+          "name": "Outrigger canoe",
+          "description": "wooden canoe with side outrigger"
+        },
+        {
+          "name": "Seaplane",
+          "description": "small yellow floatplane with twin pontoons"
+        },
+        {
+          "name": "Water taxi",
+          "description": "short red motorboat with a canopy"
+        },
+        {
+          "name": "Open-top jeep",
+          "description": "compact open-top green jeep"
+        }
+      ]
+    },
+    {
+      "topic": "Mountain transport",
+      "question": "The valley offers four ways up the slope. Which ride would you remember most?",
+      "outcomes": [
+        {
+          "name": "Chairlift",
+          "description": "open ski chairlift seat suspended from cable"
+        },
+        {
+          "name": "Funicular",
+          "description": "two-car inclined funicular on steep rails"
+        },
+        {
+          "name": "Snowcat",
+          "description": "tracked orange snow groomer"
+        },
+        {
+          "name": "Mule",
+          "description": "sturdy mule carrying saddle bags"
+        }
+      ]
+    },
+    {
+      "topic": "Luggage styles",
+      "question": "You are packing for a trip with cobbled streets and several train changes. What do you take?",
+      "outcomes": [
+        {
+          "name": "Duffel bag",
+          "description": "soft olive duffel bag with handles"
+        },
+        {
+          "name": "Hiking backpack",
+          "description": "tall framed hiking pack with hip belt"
+        },
+        {
+          "name": "Hard-shell suitcase",
+          "description": "ribbed hard-shell suitcase with wheels"
+        },
+        {
+          "name": "Garment bag",
+          "description": "folded hanging garment bag with visible hanger hook"
+        }
+      ]
+    }
+  ]
+}

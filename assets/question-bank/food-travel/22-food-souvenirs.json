@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Chocolate box",
+      "question": "A chocolatier lets you compose your own box. What goes in the middle?",
+      "outcomes": [
+        {
+          "name": "Hazelnut praline",
+          "description": "cut chocolate praline with a whole hazelnut centre"
+        },
+        {
+          "name": "Chocolate truffle",
+          "description": "round cocoa-dusted dark chocolate truffle"
+        },
+        {
+          "name": "Orange peel chocolate",
+          "description": "candied orange peel half-dipped in dark chocolate"
+        },
+        {
+          "name": "Chocolate bark",
+          "description": "irregular chocolate bark shards with pistachios and berries"
+        }
+      ]
+    },
+    {
+      "topic": "Regional biscuits",
+      "question": "You are mailing a tin of biscuits to a friend. Which style fills your parcel?",
+      "outcomes": [
+        {
+          "name": "Biscotti",
+          "description": "two golden almond biscotti slices"
+        },
+        {
+          "name": "Stroopwafel",
+          "description": "thin round waffle sandwich with caramel filling"
+        },
+        {
+          "name": "Shortbread",
+          "description": "buttery shortbread fingers with tiny holes"
+        },
+        {
+          "name": "Speculaas",
+          "description": "spiced brown windmill-shaped biscuit"
+        }
+      ]
+    },
+    {
+      "topic": "Honey varieties",
+      "question": "A beekeeper has labelled each jar by its flowers. Which sample do you taste first?",
+      "outcomes": [
+        {
+          "name": "Lavender honey",
+          "description": "jar of pale honey beside lavender sprigs"
+        },
+        {
+          "name": "Orange blossom honey",
+          "description": "golden honey jar with white orange blossoms"
+        },
+        {
+          "name": "Heather honey",
+          "description": "amber honey jar with purple heather sprigs"
+        },
+        {
+          "name": "Buckwheat honey",
+          "description": "dark brown honey jar with a little buckwheat grain"
+        }
+      ]
+    },
+    {
+      "topic": "Shelf-stable gifts",
+      "question": "You need a food souvenir that will survive a long journey. What goes in the gift bag?",
+      "outcomes": [
+        {
+          "name": "Dried mango",
+          "description": "fan of orange dried mango strips"
+        },
+        {
+          "name": "Candied ginger",
+          "description": "crystallised golden ginger cubes"
+        },
+        {
+          "name": "Roasted chestnuts",
+          "description": "roasted chestnuts with split brown shells"
+        },
+        {
+          "name": "Fruit leather",
+          "description": "rolled strips of red berry fruit leather"
+        }
+      ]
+    }
+  ]
+}

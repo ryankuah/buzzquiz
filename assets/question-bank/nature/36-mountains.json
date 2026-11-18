@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Alpine flowers",
+      "question": "You can add one pressed-flower illustration to an alpine trail guide. Which one?",
+      "outcomes": [
+        {
+          "name": "Edelweiss",
+          "description": "Edelweiss — woolly white star-shaped alpine bloom"
+        },
+        {
+          "name": "Blue gentian",
+          "description": "Blue gentian — deep blue trumpet-shaped gentian"
+        },
+        {
+          "name": "Alpine aster",
+          "description": "Alpine aster — purple alpine aster with gold centre"
+        },
+        {
+          "name": "Mountain avens",
+          "description": "Mountain avens — white eight-petalled mountain flower with yellow centre"
+        }
+      ]
+    },
+    {
+      "topic": "Highland grazers",
+      "question": "A mountain hide looks over an open ridge. Which grazer would you watch first?",
+      "outcomes": [
+        {
+          "name": "Alpine ibex",
+          "description": "Alpine ibex — mountain goat with huge ridged curved horns"
+        },
+        {
+          "name": "Bighorn sheep",
+          "description": "Bighorn sheep — brown sheep with massive curling horns"
+        },
+        {
+          "name": "Chamois",
+          "description": "Chamois — slim goat-antelope with short hooked horns and striped face"
+        },
+        {
+          "name": "Yak",
+          "description": "Yak — shaggy dark yak with long skirtlike coat"
+        }
+      ]
+    },
+    {
+      "topic": "Natural landmarks",
+      "question": "The park has funding for a new trail marker. Which landmark should it point to?",
+      "outcomes": [
+        {
+          "name": "Glacial boulder",
+          "description": "Glacial boulder — large rounded erratic boulder perched on smaller rock"
+        },
+        {
+          "name": "Waterfall",
+          "description": "Waterfall — short curtain of water tumbling over a rocky ledge"
+        },
+        {
+          "name": "Limestone cave",
+          "description": "Limestone cave — opening in layered pale limestone"
+        },
+        {
+          "name": "Glacier",
+          "description": "Glacier — wedge of fractured blue glacier ice between rocky ridges"
+        }
+      ]
+    },
+    {
+      "topic": "Mountain shelters",
+      "question": "A storm delays your imaginary expedition. Which shelter would you sketch into the story?",
+      "outcomes": [
+        {
+          "name": "Alpine hut",
+          "description": "Alpine hut — small timber alpine hut with steep roof"
+        },
+        {
+          "name": "Ice cave",
+          "description": "Ice cave — arched tunnel of solid blue ice"
+        },
+        {
+          "name": "Stone bothy",
+          "description": "Stone bothy — small rough stone shelter with slate roof"
+        },
+        {
+          "name": "Yurt",
+          "description": "Yurt — round felt yurt with low conical roof"
+        }
+      ]
+    }
+  ]
+}

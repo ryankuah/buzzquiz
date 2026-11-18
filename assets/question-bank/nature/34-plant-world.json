@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Carnivorous plants",
+      "question": "The glasshouse gives you one display shelf. Which carnivorous plant gets it?",
+      "outcomes": [
+        {
+          "name": "Venus flytrap",
+          "description": "Venus flytrap — green hinged traps with red interiors"
+        },
+        {
+          "name": "Pitcher plant",
+          "description": "Pitcher plant — tall tubular pitcher plant with hood"
+        },
+        {
+          "name": "Sundew",
+          "description": "Sundew — red sticky round sundew leaves"
+        },
+        {
+          "name": "Butterwort",
+          "description": "Butterwort — pale green butterwort rosette with violet flower"
+        }
+      ]
+    },
+    {
+      "topic": "Succulent shapes",
+      "question": "You're planting a miniature dry garden. Which shape becomes the focal point?",
+      "outcomes": [
+        {
+          "name": "Echeveria",
+          "description": "Echeveria — blue-green rosette succulent"
+        },
+        {
+          "name": "String of pearls",
+          "description": "String of pearls — trailing succulent with round green bead leaves"
+        },
+        {
+          "name": "Zebra haworthia",
+          "description": "Zebra haworthia — spiky dark succulent with white horizontal stripes"
+        },
+        {
+          "name": "Living stones",
+          "description": "Living stones — pair of pebble-shaped lithops with central slit"
+        }
+      ]
+    },
+    {
+      "topic": "Bulb flowers",
+      "question": "The spring courtyard has space for one more drift of bulbs. What do you plant?",
+      "outcomes": [
+        {
+          "name": "Daffodil",
+          "description": "Daffodil — yellow trumpet-shaped daffodil"
+        },
+        {
+          "name": "Hyacinth",
+          "description": "Hyacinth — dense purple hyacinth flower spike"
+        },
+        {
+          "name": "Crocus",
+          "description": "Crocus — purple crocus with orange stamens"
+        },
+        {
+          "name": "Snowdrop",
+          "description": "Snowdrop — white nodding snowdrop bells"
+        }
+      ]
+    },
+    {
+      "topic": "Water plants",
+      "question": "A pond designer lets you pick a final planting. Which plant finishes the pond?",
+      "outcomes": [
+        {
+          "name": "Water lily",
+          "description": "Water lily — white water lily on a round floating pad"
+        },
+        {
+          "name": "Cattail",
+          "description": "Cattail — brown cylindrical cattail seedhead and reed leaves"
+        },
+        {
+          "name": "Water hyacinth",
+          "description": "Water hyacinth — floating water hyacinth with purple flowers"
+        },
+        {
+          "name": "Papyrus sedge",
+          "description": "Papyrus sedge — green papyrus stems with broad feathery umbels"
+        }
+      ]
+    }
+  ]
+}

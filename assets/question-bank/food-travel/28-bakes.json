@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Nordic baking",
+      "question": "A small bakery gives you a paper bag to fill. Which bake goes in first?",
+      "outcomes": [
+        {
+          "name": "Cardamom knot",
+          "description": "twisted sugar-dusted cardamom bun"
+        },
+        {
+          "name": "Semla",
+          "description": "round bun filled with whipped cream and almond paste"
+        },
+        {
+          "name": "Karelian pasty",
+          "description": "oval crimped rye pastry filled with rice"
+        },
+        {
+          "name": "Rye crispbread",
+          "description": "round thin rye crispbread with centre hole"
+        }
+      ]
+    },
+    {
+      "topic": "Central European cakes",
+      "question": "You are splitting a slice in an old coffee house. Which cake do you point to?",
+      "outcomes": [
+        {
+          "name": "Sachertorte",
+          "description": "dark chocolate cake slice with glossy glaze"
+        },
+        {
+          "name": "Dobos torte",
+          "description": "many layered cake slice with caramel top"
+        },
+        {
+          "name": "Linzer torte",
+          "description": "raspberry lattice tart wedge"
+        },
+        {
+          "name": "Apple strudel",
+          "description": "flaky apple strudel slice with powdered sugar"
+        }
+      ]
+    },
+    {
+      "topic": "British afternoon tea",
+      "question": "You can try one more thing from the tea stand. Which one do you reach for?",
+      "outcomes": [
+        {
+          "name": "Scone with clotted cream",
+          "description": "split scone topped with raspberry jam and clotted cream"
+        },
+        {
+          "name": "Battenberg cake",
+          "description": "pink and yellow checkerboard marzipan cake slice"
+        },
+        {
+          "name": "Victoria sponge",
+          "description": "two-layer sponge with jam and cream filling"
+        },
+        {
+          "name": "Bakewell tart",
+          "description": "almond tart slice with jam layer"
+        }
+      ]
+    },
+    {
+      "topic": "Flatbreads",
+      "question": "A baker shows you four doughs just off the griddle. Which do you tear into?",
+      "outcomes": [
+        {
+          "name": "Lahmacun",
+          "description": "thin round flatbread with minced meat and parsley"
+        },
+        {
+          "name": "Manakish za'atar",
+          "description": "round flatbread covered in green zaatar"
+        },
+        {
+          "name": "Lefse",
+          "description": "thin folded Norwegian potato flatbread"
+        },
+        {
+          "name": "Arepa",
+          "description": "round grilled corn cake split to show white crumb"
+        }
+      ]
+    }
+  ]
+}

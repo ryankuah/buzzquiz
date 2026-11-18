@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Celebrating a friend",
+      "question": "Your friend lands the role they wanted. How do you celebrate?",
+      "outcomes": [
+        {
+          "name": "Make a congratulation card",
+          "description": "Make a congratulation card — celebrating a friend vignette"
+        },
+        {
+          "name": "Bake celebration brownies",
+          "description": "Bake celebration brownies — celebrating a friend vignette"
+        },
+        {
+          "name": "Bring a bunch of balloons",
+          "description": "Bring a bunch of balloons — celebrating a friend vignette"
+        },
+        {
+          "name": "Organise a group photo",
+          "description": "Organise a group photo — celebrating a friend vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Supporting a friend",
+      "question": "Your friend has had a tough week. Which small favour do you offer?",
+      "outcomes": [
+        {
+          "name": "Drop off a pot of soup",
+          "description": "Drop off a pot of soup — supporting a friend vignette"
+        },
+        {
+          "name": "Walk their dog",
+          "description": "Walk their dog — supporting a friend vignette"
+        },
+        {
+          "name": "Bring over a jigsaw",
+          "description": "Bring over a jigsaw — supporting a friend vignette"
+        },
+        {
+          "name": "Water their plants",
+          "description": "Water their plants — supporting a friend vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Moving day",
+      "question": "A friend asks for help moving. Which job do you volunteer for?",
+      "outcomes": [
+        {
+          "name": "Tape up the boxes",
+          "description": "Tape up the boxes — moving day vignette"
+        },
+        {
+          "name": "Wrap the glassware",
+          "description": "Wrap the glassware — moving day vignette"
+        },
+        {
+          "name": "Carry the houseplants",
+          "description": "Carry the houseplants — moving day vignette"
+        },
+        {
+          "name": "Label the room keys",
+          "description": "Label the room keys — moving day vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Long-distance friends",
+      "question": "A friend lives across the ocean. What do you send?",
+      "outcomes": [
+        {
+          "name": "A handwritten postcard",
+          "description": "A handwritten postcard — long-distance friends vignette"
+        },
+        {
+          "name": "A small photo album",
+          "description": "A small photo album — long-distance friends vignette"
+        },
+        {
+          "name": "A local snack parcel",
+          "description": "A local snack parcel — long-distance friends vignette"
+        },
+        {
+          "name": "A friendship bracelet",
+          "description": "A friendship bracelet — long-distance friends vignette"
+        }
+      ]
+    }
+  ]
+}

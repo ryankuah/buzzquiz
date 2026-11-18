@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Coral reef fish",
+      "question": "Your dive buddy signals four reef fish. Which one do you follow with your camera?",
+      "outcomes": [
+        {
+          "name": "Clownfish",
+          "description": "Orange clownfish with white bands"
+        },
+        {
+          "name": "Blue tang",
+          "description": "Royal blue tang with black markings and yellow tail"
+        },
+        {
+          "name": "Lionfish",
+          "description": "Striped lionfish with elaborate fan fins"
+        },
+        {
+          "name": "Seahorse",
+          "description": "Yellow seahorse with a curled tail"
+        }
+      ]
+    },
+    {
+      "topic": "Deep sea animals",
+      "question": "The research sub has time for one close-up. Which creature do you film?",
+      "outcomes": [
+        {
+          "name": "Anglerfish",
+          "description": "Round dark deep-sea anglerfish with glowing lure"
+        },
+        {
+          "name": "Dumbo octopus",
+          "description": "Pink dumbo octopus with wide ear fins"
+        },
+        {
+          "name": "Giant isopod",
+          "description": "Pale purple giant isopod with an armoured oval back"
+        },
+        {
+          "name": "Gulper eel",
+          "description": "Long dark eel with a huge open pouchlike mouth"
+        }
+      ]
+    },
+    {
+      "topic": "Seashore finds",
+      "question": "You're arranging a beachcombing photo. Which find goes in the middle?",
+      "outcomes": [
+        {
+          "name": "Scallop shell",
+          "description": "Pink ridged fan scallop shell"
+        },
+        {
+          "name": "Sea glass",
+          "description": "Three frosted green and blue sea glass pieces"
+        },
+        {
+          "name": "Sand dollar",
+          "description": "Flat pale sand dollar with five petal marks"
+        },
+        {
+          "name": "Driftwood",
+          "description": "Bleached twist of driftwood"
+        }
+      ]
+    },
+    {
+      "topic": "Polar seabirds",
+      "question": "Your boat approaches an Antarctic bird colony. Which bird do you sketch?",
+      "outcomes": [
+        {
+          "name": "Emperor penguin",
+          "description": "Tall black and white penguin with yellow neck"
+        },
+        {
+          "name": "Wandering albatross",
+          "description": "White albatross with long spread wings and pink bill"
+        },
+        {
+          "name": "South polar skua",
+          "description": "Stocky brown skua seabird"
+        },
+        {
+          "name": "Snow petrel",
+          "description": "Pure white petrel with black beak"
+        }
+      ]
+    }
+  ]
+}

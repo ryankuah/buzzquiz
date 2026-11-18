@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Animal shelters",
+      "question": "You're building a wildlife-friendly garden. Which shelter would you install first?",
+      "outcomes": [
+        {
+          "name": "Bat box",
+          "description": "Tall narrow wooden bat roosting box"
+        },
+        {
+          "name": "Bee hotel",
+          "description": "Wooden insect hotel packed with bamboo tubes"
+        },
+        {
+          "name": "Birdhouse",
+          "description": "Small wooden nest box with circular opening"
+        },
+        {
+          "name": "Toad shelter",
+          "description": "Low terracotta toad shelter with arched entry"
+        }
+      ]
+    },
+    {
+      "topic": "Animal tracks",
+      "question": "After a shower, four clear tracks appear in the mud. Which one do you photograph?",
+      "outcomes": [
+        {
+          "name": "Deer track",
+          "description": "Single split-hoof deer print in a small patch of mud"
+        },
+        {
+          "name": "Bear track",
+          "description": "Wide bear paw print with five toes in mud"
+        },
+        {
+          "name": "Heron track",
+          "description": "Long three-forward-toed wading bird track in mud"
+        },
+        {
+          "name": "Raccoon track",
+          "description": "Five slender fingerlike raccoon toe marks in mud"
+        }
+      ]
+    },
+    {
+      "topic": "Animal nests",
+      "question": "You're making a nature journal about animal homes. Which structure gets a full-page sketch?",
+      "outcomes": [
+        {
+          "name": "Weaverbird nest",
+          "description": "Woven hanging grass nest with lower entrance"
+        },
+        {
+          "name": "Paper wasp nest",
+          "description": "Open grey paper wasp nest showing exposed hexagonal cells"
+        },
+        {
+          "name": "Termite mound",
+          "description": "Tall ochre termite mound with irregular spires"
+        },
+        {
+          "name": "Swallow nest",
+          "description": "Small mud cup nest with straw rim"
+        }
+      ]
+    },
+    {
+      "topic": "Mountain wildlife",
+      "question": "A mountain trail camera captures four residents. Which sighting do you show your friends?",
+      "outcomes": [
+        {
+          "name": "Snow leopard",
+          "description": "Pale spotted snow leopard with a thick long tail"
+        },
+        {
+          "name": "Mountain goat",
+          "description": "White shaggy mountain goat with short dark horns"
+        },
+        {
+          "name": "Marmot",
+          "description": "Stocky golden-brown marmot sitting upright"
+        },
+        {
+          "name": "Golden eagle",
+          "description": "Large dark eagle with golden nape and feathered legs"
+        }
+      ]
+    }
+  ]
+}

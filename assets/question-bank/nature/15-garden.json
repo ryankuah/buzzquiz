@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Kitchen herbs",
+      "question": "You're growing a windowsill herb garden. Which pot do you start with?",
+      "outcomes": [
+        {
+          "name": "Basil",
+          "description": "Small basil plant with glossy green broad leaves"
+        },
+        {
+          "name": "Rosemary",
+          "description": "Woody sprig of rosemary with needle leaves"
+        },
+        {
+          "name": "Mint",
+          "description": "Bright green textured mint leaves on a sprig"
+        },
+        {
+          "name": "Chives",
+          "description": "Clump of chives with thin green stems and purple flower"
+        }
+      ]
+    },
+    {
+      "topic": "Vegetable plot",
+      "question": "The community garden gives you a raised bed. Which crop gets the first row?",
+      "outcomes": [
+        {
+          "name": "Carrots",
+          "description": "Bunch of orange carrots with leafy tops"
+        },
+        {
+          "name": "Aubergine",
+          "description": "Glossy purple aubergine with green cap"
+        },
+        {
+          "name": "Radishes",
+          "description": "Bunch of red radishes with roots and leaves"
+        },
+        {
+          "name": "Butternut squash",
+          "description": "Tan pear-shaped butternut squash"
+        }
+      ]
+    },
+    {
+      "topic": "Fruit trees",
+      "question": "A neighbourhood orchard has room for one more tree. Which fruit gets your vote?",
+      "outcomes": [
+        {
+          "name": "Peach",
+          "description": "Round fuzzy peach with a green leaf"
+        },
+        {
+          "name": "Fig",
+          "description": "Purple fig cut to show red seed-filled centre"
+        },
+        {
+          "name": "Pomegranate",
+          "description": "Red pomegranate split to reveal ruby arils"
+        },
+        {
+          "name": "Pear",
+          "description": "Golden green pear with narrow neck"
+        }
+      ]
+    },
+    {
+      "topic": "Pollinator flowers",
+      "question": "You're filling a balcony planter for visiting insects. Which flower goes in front?",
+      "outcomes": [
+        {
+          "name": "Lavender",
+          "description": "Purple lavender flower spikes"
+        },
+        {
+          "name": "Cosmos",
+          "description": "Pink cosmos blossom with a yellow centre"
+        },
+        {
+          "name": "Bee balm",
+          "description": "Scarlet bee balm flower with shaggy petals"
+        },
+        {
+          "name": "Coneflower",
+          "description": "Purple coneflower with a raised orange cone"
+        }
+      ]
+    }
+  ]
+}

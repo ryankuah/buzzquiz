@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "South Asian breakfast",
+      "question": "The hotel serves breakfast from four hot trays. Which plate would you order again?",
+      "outcomes": [
+        {
+          "name": "Masala dosa",
+          "description": "thin golden dosa rolled around turmeric potatoes"
+        },
+        {
+          "name": "Idli",
+          "description": "three fluffy white steamed idli cakes"
+        },
+        {
+          "name": "Aloo paratha",
+          "description": "layered pan-fried potato flatbread with butter"
+        },
+        {
+          "name": "Poha",
+          "description": "yellow flattened rice with peanuts and curry leaves"
+        }
+      ]
+    },
+    {
+      "topic": "Turkish breakfast",
+      "question": "The host passes the breakfast dishes around. What do you put on your plate first?",
+      "outcomes": [
+        {
+          "name": "Simit",
+          "description": "sesame-crusted Turkish bread ring"
+        },
+        {
+          "name": "Menemen",
+          "description": "eggs scrambled with tomatoes and peppers in a metal pan"
+        },
+        {
+          "name": "Börek",
+          "description": "spiral coil of flaky Turkish pastry"
+        },
+        {
+          "name": "Kaymak and honey",
+          "description": "small dish of clotted cream drizzled with golden honey"
+        }
+      ]
+    },
+    {
+      "topic": "Central American breakfast",
+      "question": "You smell breakfast cooking in the courtyard. What are you most curious to taste?",
+      "outcomes": [
+        {
+          "name": "Gallo pinto",
+          "description": "dark beans and seasoned rice flecked with sweet peppers"
+        },
+        {
+          "name": "Pupusa",
+          "description": "two thick griddled stuffed corn cakes with a little curtido"
+        },
+        {
+          "name": "Desayuno chapín",
+          "description": "Guatemalan breakfast plate with beans plantain and eggs"
+        },
+        {
+          "name": "Baleada",
+          "description": "folded flour tortilla with refried beans and crumbled cheese"
+        }
+      ]
+    },
+    {
+      "topic": "Breakfast spreads",
+      "question": "Your toast is warm and there is time to try one jar. Which lid do you open?",
+      "outcomes": [
+        {
+          "name": "Lemon curd",
+          "description": "jar of glossy yellow lemon curd with a lemon slice"
+        },
+        {
+          "name": "Fig jam",
+          "description": "small jar of purple fig jam with a halved fig"
+        },
+        {
+          "name": "Pistachio butter",
+          "description": "jar of green pistachio spread with nuts"
+        },
+        {
+          "name": "Orange marmalade",
+          "description": "amber preserve jar with visible curled orange peel"
+        }
+      ]
+    }
+  ]
+}

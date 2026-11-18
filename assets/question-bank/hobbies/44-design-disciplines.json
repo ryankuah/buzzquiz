@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Product design",
+      "question": "You have to explain a new object before anyone builds it. Which model do you take to the meeting?",
+      "outcomes": [
+        {
+          "name": "Foam prototype",
+          "description": "white foam ergonomic handle prototype"
+        },
+        {
+          "name": "Exploded model",
+          "description": "small product model with pieces separated on rods"
+        },
+        {
+          "name": "Wireframe model",
+          "description": "wire sculpture outlining a chair"
+        },
+        {
+          "name": "Material sample board",
+          "description": "small board with metal, wood and cork samples"
+        }
+      ]
+    },
+    {
+      "topic": "Architectural models",
+      "question": "A client wants a quick idea of how a new building might feel. Which detail do you include in the scale model?",
+      "outcomes": [
+        {
+          "name": "Model staircase",
+          "description": "tiny white architectural model staircase"
+        },
+        {
+          "name": "Model skylight",
+          "description": "clear geometric architectural skylight model"
+        },
+        {
+          "name": "Model balcony",
+          "description": "miniature balcony with railing and plant"
+        },
+        {
+          "name": "Model courtyard",
+          "description": "architectural courtyard model with a central tree"
+        }
+      ]
+    },
+    {
+      "topic": "Typography practice",
+      "question": "The letterforms look flat in your workshop print. Which tool do you try to change the stroke?",
+      "outcomes": [
+        {
+          "name": "Broad nib",
+          "description": "wide metal calligraphy nib in wooden holder"
+        },
+        {
+          "name": "Ruling pen",
+          "description": "metal adjustable ruling pen"
+        },
+        {
+          "name": "Brush marker",
+          "description": "fat brush-tip marker with a purple cap"
+        },
+        {
+          "name": "Quill pen",
+          "description": "cream feather quill pen with a dark tip"
+        }
+      ]
+    },
+    {
+      "topic": "Textile printing",
+      "question": "You're sampling four resist-dye methods for a workshop. Which sample do you pin up first?",
+      "outcomes": [
+        {
+          "name": "Shibori sample",
+          "description": "indigo square with white shibori resist rings"
+        },
+        {
+          "name": "Batik sample",
+          "description": "bright floral batik fabric square"
+        },
+        {
+          "name": "Tie-dye spiral",
+          "description": "fabric square with multicoloured tie-dye spiral"
+        },
+        {
+          "name": "Ikat sample",
+          "description": "woven fabric swatch with blurred geometric ikat stripes"
+        }
+      ]
+    }
+  ]
+}

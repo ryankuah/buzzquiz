@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Road trip stop",
+      "question": "Your group takes a break at a roadside lookout. What do you do?",
+      "outcomes": [
+        {
+          "name": "Photograph the view",
+          "description": "Photograph the view — road trip stop vignette"
+        },
+        {
+          "name": "Check the route map",
+          "description": "Check the route map — road trip stop vignette"
+        },
+        {
+          "name": "Share sliced fruit",
+          "description": "Share sliced fruit — road trip stop vignette"
+        },
+        {
+          "name": "Stretch beside the car",
+          "description": "Stretch beside the car — road trip stop vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Train journey",
+      "question": "You have a window seat on a long train ride. What do you reach for?",
+      "outcomes": [
+        {
+          "name": "Travel sketchbook",
+          "description": "Travel sketchbook — train journey vignette"
+        },
+        {
+          "name": "Crossword booklet",
+          "description": "Crossword booklet — train journey vignette"
+        },
+        {
+          "name": "Noise-cancelling headphones",
+          "description": "Noise-cancelling headphones — train journey vignette"
+        },
+        {
+          "name": "Knitting bag",
+          "description": "Knitting bag — train journey vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Packing light",
+      "question": "Only one comfort item fits in your carry-on. Which do you keep?",
+      "outcomes": [
+        {
+          "name": "A soft sleep mask",
+          "description": "A soft sleep mask — packing light vignette"
+        },
+        {
+          "name": "A roll-up blanket",
+          "description": "A roll-up blanket — packing light vignette"
+        },
+        {
+          "name": "A tiny travel pillow",
+          "description": "A tiny travel pillow — packing light vignette"
+        },
+        {
+          "name": "A compact journal",
+          "description": "A compact journal — packing light vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Day trip",
+      "question": "You decide to explore somewhere new by train. What do you pack first?",
+      "outcomes": [
+        {
+          "name": "A refillable flask",
+          "description": "A refillable flask — day trip vignette"
+        },
+        {
+          "name": "A disposable camera",
+          "description": "A disposable camera — day trip vignette"
+        },
+        {
+          "name": "A pocket phrasebook",
+          "description": "A pocket phrasebook — day trip vignette"
+        },
+        {
+          "name": "A compact raincoat",
+          "description": "A compact raincoat — day trip vignette"
+        }
+      ]
+    }
+  ]
+}

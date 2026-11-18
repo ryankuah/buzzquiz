@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Sitcom role",
+      "question": "A new sitcom needs one more neighbour. Which character would you play?",
+      "outcomes": [
+        {
+          "name": "Nosy neighbour",
+          "description": "neighbour peering through curtains"
+        },
+        {
+          "name": "Overachieving roommate",
+          "description": "roommate balancing a trophy and planner"
+        },
+        {
+          "name": "Deadpan barista",
+          "description": "barista with folded arms and espresso cup"
+        },
+        {
+          "name": "Eccentric landlord",
+          "description": "landlord holding a comically large key ring"
+        }
+      ]
+    },
+    {
+      "topic": "Movie production",
+      "question": "Which job would you take on a student film crew?",
+      "outcomes": [
+        {
+          "name": "Foley artist",
+          "description": "artist making sounds with props"
+        },
+        {
+          "name": "Camera operator",
+          "description": "operator holding cinema camera"
+        },
+        {
+          "name": "Costume designer",
+          "description": "designer pinning a costume on a dress form"
+        },
+        {
+          "name": "Set builder",
+          "description": "carpenter holding miniature set walls"
+        }
+      ]
+    },
+    {
+      "topic": "Rock band role",
+      "question": "There is room for you at band practice. Which spot do you take?",
+      "outcomes": [
+        {
+          "name": "Bassist",
+          "description": "musician playing bass guitar"
+        },
+        {
+          "name": "Drummer",
+          "description": "drummer holding sticks over snare"
+        },
+        {
+          "name": "Keyboardist",
+          "description": "musician playing keyboard"
+        },
+        {
+          "name": "Front singer",
+          "description": "singer at a tall stage microphone"
+        }
+      ]
+    },
+    {
+      "topic": "Concert keepsake",
+      "question": "You have just left the best show of the summer. What do you keep?",
+      "outcomes": [
+        {
+          "name": "Setlist",
+          "description": "folded list on stage paper without legible words"
+        },
+        {
+          "name": "Guitar pick",
+          "description": "Guitar pick"
+        },
+        {
+          "name": "Backstage pass",
+          "description": "laminated pass on a lanyard"
+        },
+        {
+          "name": "Concert wristband",
+          "description": "Concert wristband"
+        }
+      ]
+    }
+  ]
+}

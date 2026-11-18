@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Theatre masks",
+      "question": "A movement workshop will use masks to build a short scene. Which mask would you try first?",
+      "outcomes": [
+        {
+          "name": "Commedia mask",
+          "description": "brown leather commedia half mask with arched nose"
+        },
+        {
+          "name": "Neutral mask",
+          "description": "plain smooth ivory theatre face mask"
+        },
+        {
+          "name": "Feather mask",
+          "description": "purple feathered carnival eye mask"
+        },
+        {
+          "name": "Fox mask",
+          "description": "painted orange and white fox face mask"
+        }
+      ]
+    },
+    {
+      "topic": "Vocal practice",
+      "question": "You're turning a spare room into a singing practice space. What goes on the shelf?",
+      "outcomes": [
+        {
+          "name": "Pitch pipe",
+          "description": "round chromatic pitch pipe"
+        },
+        {
+          "name": "Tuning fork",
+          "description": "steel two-pronged tuning fork"
+        },
+        {
+          "name": "Sheet music folder",
+          "description": "open black choral folder with sheet music"
+        },
+        {
+          "name": "Sound baffle",
+          "description": "small freestanding curved acoustic vocal shield"
+        }
+      ]
+    },
+    {
+      "topic": "Dance stage props",
+      "question": "Your group can carry one prop into a short dance number. Which feels easiest to build a routine around?",
+      "outcomes": [
+        {
+          "name": "Feather fan",
+          "description": "large white feather dance fan"
+        },
+        {
+          "name": "Silk veil",
+          "description": "long flowing turquoise silk dance veil"
+        },
+        {
+          "name": "Parasol",
+          "description": "red paper parasol with wooden ribs"
+        },
+        {
+          "name": "Dance cane",
+          "description": "black theatrical dance cane with white ends"
+        }
+      ]
+    },
+    {
+      "topic": "Backstage signs",
+      "question": "You are making a backstage noticeboard people can use by touch. Which prop goes beside the rehearsal schedule?",
+      "outcomes": [
+        {
+          "name": "Call bell",
+          "description": "small polished brass desk bell"
+        },
+        {
+          "name": "Sandbag weight",
+          "description": "canvas stage sandbag with carry strap"
+        },
+        {
+          "name": "Cable ramp",
+          "description": "short black and yellow stage cable cover"
+        },
+        {
+          "name": "Gaffer tape",
+          "description": "wide roll of matte black gaffer tape"
+        }
+      ]
+    }
+  ]
+}

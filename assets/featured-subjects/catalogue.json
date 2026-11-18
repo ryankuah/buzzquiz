@@ -1,0 +1,752 @@
+[
+  {
+    "sheet": "greek-deity",
+    "cells": [
+      {
+        "topic": "Greek deity",
+        "name": "Athena",
+        "description": "Greek goddess with owl, olive branch and bronze helmet"
+      },
+      {
+        "topic": "Greek deity",
+        "name": "Poseidon",
+        "description": "bearded Greek sea god with a trident"
+      },
+      {
+        "topic": "Greek deity",
+        "name": "Hermes",
+        "description": "Greek messenger with winged sandals and caduceus"
+      },
+      {
+        "topic": "Greek deity",
+        "name": "Demeter",
+        "description": "Greek harvest goddess cradling wheat"
+      }
+    ]
+  },
+  {
+    "sheet": "norse-god",
+    "cells": [
+      {
+        "topic": "Norse deity",
+        "name": "Thor",
+        "description": "Norse thunder god with red beard and short-handled hammer"
+      },
+      {
+        "topic": "Norse deity",
+        "name": "Odin",
+        "description": "one-eyed Norse wanderer with staff and raven"
+      },
+      {
+        "topic": "Norse deity",
+        "name": "Freyja",
+        "description": "Norse goddess with amber necklace and a cat"
+      },
+      {
+        "topic": "Norse deity",
+        "name": "Heimdall",
+        "description": "Norse watchman holding a curved horn"
+      }
+    ]
+  },
+  {
+    "sheet": "egyptian-deity",
+    "cells": [
+      {
+        "topic": "Egyptian deity",
+        "name": "Bastet",
+        "description": "Egyptian cat-headed goddess with bronze jewellery"
+      },
+      {
+        "topic": "Egyptian deity",
+        "name": "Anubis",
+        "description": "jackal-headed Egyptian deity in ceremonial collar"
+      },
+      {
+        "topic": "Egyptian deity",
+        "name": "Thoth",
+        "description": "ibis-headed scribe with reed pen"
+      },
+      {
+        "topic": "Egyptian deity",
+        "name": "Ra",
+        "description": "falcon-headed sun god crowned by sun disk"
+      }
+    ]
+  },
+  {
+    "sheet": "arthurian",
+    "cells": [
+      {
+        "topic": "Arthurian character",
+        "name": "Merlin",
+        "description": "old bearded magician holding a carved staff"
+      },
+      {
+        "topic": "Arthurian character",
+        "name": "King Arthur",
+        "description": "medieval king with crown holding Excalibur at rest"
+      },
+      {
+        "topic": "Arthurian character",
+        "name": "Guinevere",
+        "description": "medieval queen with circlet and embroidered mantle"
+      },
+      {
+        "topic": "Arthurian character",
+        "name": "Lady of the Lake",
+        "description": "lake enchantress with water lilies and silver veil"
+      }
+    ]
+  },
+  {
+    "sheet": "fairytale-wolf",
+    "cells": [
+      {
+        "topic": "Fairytale character",
+        "name": "Little Red Riding Hood",
+        "description": "red-hooded girl with picnic basket"
+      },
+      {
+        "topic": "Fairytale character",
+        "name": "Puss in Boots",
+        "description": "upright tabby cat with tall boots and feathered hat"
+      },
+      {
+        "topic": "Fairytale character",
+        "name": "The Frog Prince",
+        "description": "small green frog with gold crown"
+      },
+      {
+        "topic": "Fairytale character",
+        "name": "The Gingerbread Man",
+        "description": "running gingerbread biscuit character"
+      }
+    ]
+  },
+  {
+    "sheet": "literary-detective",
+    "cells": [
+      {
+        "topic": "Fictional detective",
+        "name": "Sherlock Holmes",
+        "description": "Victorian sleuth with deerstalker hat and magnifying glass"
+      },
+      {
+        "topic": "Fictional detective",
+        "name": "Hercule Poirot",
+        "description": "immaculate Belgian detective with curled moustache and suit"
+      },
+      {
+        "topic": "Fictional detective",
+        "name": "Miss Marple",
+        "description": "elderly English investigator with knitting and a felt hat"
+      },
+      {
+        "topic": "Fictional detective",
+        "name": "Father Brown",
+        "description": "round-faced priest detective in a black cassock with umbrella"
+      }
+    ]
+  },
+  {
+    "sheet": "gothic",
+    "cells": [
+      {
+        "topic": "Gothic novel character",
+        "name": "Dracula",
+        "description": "Victorian count in dark formal cloak"
+      },
+      {
+        "topic": "Gothic novel character",
+        "name": "Frankenstein’s creature",
+        "description": "gentle stitched giant in a dark coat"
+      },
+      {
+        "topic": "Gothic novel character",
+        "name": "The Invisible Man",
+        "description": "figure with bandaged head and round dark glasses"
+      },
+      {
+        "topic": "Gothic novel character",
+        "name": "Dr Jekyll",
+        "description": "Victorian physician in waistcoat holding an amber medicine flask"
+      }
+    ]
+  },
+  {
+    "sheet": "sherwood",
+    "cells": [
+      {
+        "topic": "Robin Hood character",
+        "name": "Robin Hood",
+        "description": "woodland outlaw in green hood holding a longbow at rest"
+      },
+      {
+        "topic": "Robin Hood character",
+        "name": "Little John",
+        "description": "very tall forest ranger leaning on a walking staff"
+      },
+      {
+        "topic": "Robin Hood character",
+        "name": "Friar Tuck",
+        "description": "cheerful friar carrying bread"
+      },
+      {
+        "topic": "Robin Hood character",
+        "name": "Maid Marian",
+        "description": "medieval noblewoman in riding clothes holding a falcon"
+      }
+    ]
+  },
+  {
+    "sheet": "classical-muse",
+    "cells": [
+      {
+        "topic": "Greek Muse",
+        "name": "Calliope",
+        "description": "muse of epic poetry with writing tablet"
+      },
+      {
+        "topic": "Greek Muse",
+        "name": "Clio",
+        "description": "muse of history with open scroll"
+      },
+      {
+        "topic": "Greek Muse",
+        "name": "Terpsichore",
+        "description": "muse of dance holding a lyre"
+      },
+      {
+        "topic": "Greek Muse",
+        "name": "Urania",
+        "description": "muse of astronomy holding a celestial globe"
+      }
+    ]
+  },
+  {
+    "sheet": "constellation",
+    "cells": [
+      {
+        "topic": "Constellation",
+        "name": "Orion",
+        "description": "antique star chart figure of Orion with three belt stars"
+      },
+      {
+        "topic": "Constellation",
+        "name": "Cassiopeia",
+        "description": "five star W-shaped constellation over a queen's throne"
+      },
+      {
+        "topic": "Constellation",
+        "name": "Cygnus",
+        "description": "long-necked swan traced by delicate star points"
+      },
+      {
+        "topic": "Constellation",
+        "name": "Lyra",
+        "description": "golden lyre outlined with star points"
+      }
+    ]
+  },
+  {
+    "sheet": "zodiac-earth",
+    "cells": [
+      {
+        "topic": "Zodiac sign",
+        "name": "Taurus",
+        "description": "celestial bull with curved horns"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Virgo",
+        "description": "celestial maiden holding wheat"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Capricorn",
+        "description": "mythical sea-goat with a fish tail"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Libra",
+        "description": "balanced golden scales with stars"
+      }
+    ]
+  },
+  {
+    "sheet": "zodiac-water",
+    "cells": [
+      {
+        "topic": "Zodiac sign",
+        "name": "Gemini",
+        "description": "celestial twins standing side by side"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Cancer",
+        "description": "crab with celestial markings"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Sagittarius",
+        "description": "centaur archer holding a bow upward"
+      },
+      {
+        "topic": "Zodiac sign",
+        "name": "Pisces",
+        "description": "two contrasting fish circling one another"
+      }
+    ]
+  },
+  {
+    "sheet": "major-arcana",
+    "cells": [
+      {
+        "topic": "Tarot card",
+        "name": "The Moon",
+        "description": "luminous crescent and full moon above two towers"
+      },
+      {
+        "topic": "Tarot card",
+        "name": "The Sun",
+        "description": "radiant sun above sunflowers"
+      },
+      {
+        "topic": "Tarot card",
+        "name": "The Wheel of Fortune",
+        "description": "ornate golden spoked wheel"
+      },
+      {
+        "topic": "Tarot card",
+        "name": "Strength",
+        "description": "gentle robed figure beside a calm lion"
+      }
+    ]
+  },
+  {
+    "sheet": "tarot-suits",
+    "cells": [
+      {
+        "topic": "Tarot suit",
+        "name": "Cups",
+        "description": "ornate golden chalice"
+      },
+      {
+        "topic": "Tarot suit",
+        "name": "Pentacles",
+        "description": "engraved golden pentacle coin"
+      },
+      {
+        "topic": "Tarot suit",
+        "name": "Wands",
+        "description": "leafing wooden wand"
+      },
+      {
+        "topic": "Tarot suit",
+        "name": "Swords",
+        "description": "ornamental silver sword with blue hilt"
+      }
+    ]
+  },
+  {
+    "sheet": "chinese-zodiac",
+    "cells": [
+      {
+        "topic": "Chinese zodiac animal",
+        "name": "Year of the Dragon",
+        "description": "traditional Chinese serpentine dragon in jade and gold"
+      },
+      {
+        "topic": "Chinese zodiac animal",
+        "name": "Year of the Rabbit",
+        "description": "white rabbit beside red plum blossom"
+      },
+      {
+        "topic": "Chinese zodiac animal",
+        "name": "Year of the Tiger",
+        "description": "orange tiger beside bamboo"
+      },
+      {
+        "topic": "Chinese zodiac animal",
+        "name": "Year of the Horse",
+        "description": "chestnut horse with a red festival tassel"
+      }
+    ]
+  },
+  {
+    "sheet": "story-companions",
+    "cells": [
+      {
+        "topic": "Fantasy companion",
+        "name": "Griffin",
+        "description": "eagle-headed lion-bodied griffin"
+      },
+      {
+        "topic": "Fantasy companion",
+        "name": "Pegasus",
+        "description": "white winged horse"
+      },
+      {
+        "topic": "Fantasy companion",
+        "name": "Kitsune",
+        "description": "red fox spirit with multiple flowing tails"
+      },
+      {
+        "topic": "Fantasy companion",
+        "name": "Jackalope",
+        "description": "rabbit with small antlers"
+      }
+    ]
+  },
+  {
+    "sheet": "mythic-sea",
+    "cells": [
+      {
+        "topic": "Mythical sea creature",
+        "name": "Selkie",
+        "description": "grey seal with a shimmering cloak"
+      },
+      {
+        "topic": "Mythical sea creature",
+        "name": "Hippocampus",
+        "description": "mythical horse with the tail of a fish"
+      },
+      {
+        "topic": "Mythical sea creature",
+        "name": "Leviathan",
+        "description": "great sea serpent curled into a spiral"
+      },
+      {
+        "topic": "Mythical sea creature",
+        "name": "Kelpie",
+        "description": "dark water horse with a wet mane of reeds"
+      }
+    ]
+  },
+  {
+    "sheet": "folklore",
+    "cells": [
+      {
+        "topic": "Folklore creature",
+        "name": "Baba Yaga’s hut",
+        "description": "small forest cottage standing on chicken legs"
+      },
+      {
+        "topic": "Folklore creature",
+        "name": "Will-o’-the-wisp",
+        "description": "blue wandering flame above a tuft of moss"
+      },
+      {
+        "topic": "Folklore creature",
+        "name": "Golem",
+        "description": "clay guardian with carved features"
+      },
+      {
+        "topic": "Folklore creature",
+        "name": "Baku",
+        "description": "gentle tapir-like Japanese dream eater"
+      }
+    ]
+  },
+  {
+    "sheet": "game-pets",
+    "cells": [
+      {
+        "topic": "Minecraft mob",
+        "name": "Creeper",
+        "description": "green four-legged pixel-block Creeper from Minecraft"
+      },
+      {
+        "topic": "Minecraft mob",
+        "name": "Axolotl",
+        "description": "pink blocky Minecraft axolotl"
+      },
+      {
+        "topic": "Minecraft mob",
+        "name": "Mooshroom",
+        "description": "red Minecraft cow with mushrooms"
+      },
+      {
+        "topic": "Minecraft mob",
+        "name": "Enderman",
+        "description": "tall black blocky Minecraft mob with purple eyes"
+      }
+    ]
+  },
+  {
+    "sheet": "minecraft-biomes",
+    "cells": [
+      {
+        "topic": "Minecraft biome",
+        "name": "Cherry grove",
+        "description": "cubic pink cherry forest diorama"
+      },
+      {
+        "topic": "Minecraft biome",
+        "name": "Mushroom fields",
+        "description": "blocky giant red mushrooms on mycelium"
+      },
+      {
+        "topic": "Minecraft biome",
+        "name": "Lush caves",
+        "description": "blocky cave with hanging glow berries and a pool"
+      },
+      {
+        "topic": "Minecraft biome",
+        "name": "Badlands",
+        "description": "terraced red and orange blocky mesa"
+      }
+    ]
+  },
+  {
+    "sheet": "animal-crossing",
+    "cells": [
+      {
+        "topic": "Animal Crossing character",
+        "name": "Isabelle",
+        "description": "yellow dog assistant with tied-up hair and green vest"
+      },
+      {
+        "topic": "Animal Crossing character",
+        "name": "Tom Nook",
+        "description": "brown tanuki wearing a green leaf-pattern shirt"
+      },
+      {
+        "topic": "Animal Crossing character",
+        "name": "K.K. Slider",
+        "description": "white dog with acoustic guitar"
+      },
+      {
+        "topic": "Animal Crossing character",
+        "name": "Blathers",
+        "description": "brown owl museum curator with green bow tie"
+      }
+    ]
+  },
+  {
+    "sheet": "fantasy-jobs",
+    "cells": [
+      {
+        "topic": "RPG support class",
+        "name": "Druid",
+        "description": "forest spellcaster with antler crown and sprouting staff"
+      },
+      {
+        "topic": "RPG support class",
+        "name": "Cleric",
+        "description": "healer with a sun emblem and a lantern"
+      },
+      {
+        "topic": "RPG support class",
+        "name": "Alchemist",
+        "description": "scholar with a belt of colourful potion flasks"
+      },
+      {
+        "topic": "RPG support class",
+        "name": "Summoner",
+        "description": "robed mage conjuring a small glowing spirit"
+      }
+    ]
+  },
+  {
+    "sheet": "party-archetype",
+    "cells": [
+      {
+        "topic": "Tabletop adventurer",
+        "name": "Rogue",
+        "description": "hooded thief with lockpicks"
+      },
+      {
+        "topic": "Tabletop adventurer",
+        "name": "Paladin",
+        "description": "armoured champion with a sun-emblazoned shield"
+      },
+      {
+        "topic": "Tabletop adventurer",
+        "name": "Monk",
+        "description": "martial artist in saffron robes"
+      },
+      {
+        "topic": "Tabletop adventurer",
+        "name": "Barbarian",
+        "description": "fur-clad muscular adventurer with braided hair"
+      }
+    ]
+  },
+  {
+    "sheet": "chess-openings",
+    "cells": [
+      {
+        "topic": "Chess personality",
+        "name": "The Tactician",
+        "description": "chess player moving a knight forward"
+      },
+      {
+        "topic": "Chess personality",
+        "name": "The Defender",
+        "description": "chess player protecting a king behind pawns"
+      },
+      {
+        "topic": "Chess personality",
+        "name": "The Attacker",
+        "description": "chess player advancing a queen"
+      },
+      {
+        "topic": "Chess personality",
+        "name": "The Endgame Expert",
+        "description": "chess player studying a sparse board"
+      }
+    ]
+  },
+  {
+    "sheet": "internet-era",
+    "cells": [
+      {
+        "topic": "Internet era",
+        "name": "Dial-up",
+        "description": "external beige dial-up modem with telephone cable"
+      },
+      {
+        "topic": "Internet era",
+        "name": "Blog era",
+        "description": "translucent desktop computer displaying a blank blog layout"
+      },
+      {
+        "topic": "Internet era",
+        "name": "Smartphone era",
+        "description": "early touchscreen phone with a grid of coloured squares"
+      },
+      {
+        "topic": "Internet era",
+        "name": "Streaming era",
+        "description": "webcam beside a small desktop microphone"
+      }
+    ]
+  },
+  {
+    "sheet": "cozy-game",
+    "cells": [
+      {
+        "topic": "Cozy game activity",
+        "name": "Bug catching",
+        "description": "butterfly net holding a blue butterfly"
+      },
+      {
+        "topic": "Cozy game activity",
+        "name": "Crop tending",
+        "description": "small watering can above sprouting carrots"
+      },
+      {
+        "topic": "Cozy game activity",
+        "name": "Fishing tournament",
+        "description": "fishing rod and a prize fish without lettering"
+      },
+      {
+        "topic": "Cozy game activity",
+        "name": "Home decorating",
+        "description": "tiny armchair with swatches of wallpaper"
+      }
+    ]
+  },
+  {
+    "sheet": "space-adventure",
+    "cells": [
+      {
+        "topic": "Star Trek role",
+        "name": "Starship captain",
+        "description": "commander in gold starship uniform"
+      },
+      {
+        "topic": "Star Trek role",
+        "name": "Science officer",
+        "description": "scientist in blue starship uniform holding a tricorder"
+      },
+      {
+        "topic": "Star Trek role",
+        "name": "Chief engineer",
+        "description": "engineer in red starship uniform with a compact tool"
+      },
+      {
+        "topic": "Star Trek role",
+        "name": "Ship’s doctor",
+        "description": "medical officer in blue with a handheld scanner"
+      }
+    ]
+  },
+  {
+    "sheet": "superhero",
+    "cells": [
+      {
+        "topic": "Superhero power",
+        "name": "Invisibility",
+        "description": "figure fading into transparency"
+      },
+      {
+        "topic": "Superhero power",
+        "name": "Teleportation",
+        "description": "person stepping out of a glowing portal"
+      },
+      {
+        "topic": "Superhero power",
+        "name": "Flight",
+        "description": "caped figure hovering in the air"
+      },
+      {
+        "topic": "Superhero power",
+        "name": "Shapeshifting",
+        "description": "figure transforming into a fox"
+      }
+    ]
+  },
+  {
+    "sheet": "story-place",
+    "cells": [
+      {
+        "topic": "Fictional destination",
+        "name": "Emerald City",
+        "description": "green spired city from Oz"
+      },
+      {
+        "topic": "Fictional destination",
+        "name": "Neverland",
+        "description": "storybook island with a pirate ship offshore"
+      },
+      {
+        "topic": "Fictional destination",
+        "name": "Wonderland",
+        "description": "oversized mushroom garden with a rabbit hole"
+      },
+      {
+        "topic": "Fictional destination",
+        "name": "Atlantis",
+        "description": "submerged classical city with coral on its columns"
+      }
+    ]
+  },
+  {
+    "sheet": "cozy-familiars",
+    "cells": [
+      {
+        "topic": "Witch familiar",
+        "name": "Barn owl",
+        "description": "pale heart-faced barn owl"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "Black cat",
+        "description": "slender black cat with green eyes"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "Toad",
+        "description": "warty brown toad sitting on a stone"
+      },
+      {
+        "topic": "Witch familiar",
+        "name": "Raven",
+        "description": "glossy raven with curved black beak"
+      }
+    ]
+  }
+]

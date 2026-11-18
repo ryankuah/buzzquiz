@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Birds of prey",
+      "question": "You're painting a raptor flight chart. Which silhouette do you start with?",
+      "outcomes": [
+        {
+          "name": "Peregrine falcon",
+          "description": "Blue-grey falcon with pointed wings and dark cheek patch"
+        },
+        {
+          "name": "Bald eagle",
+          "description": "Dark brown eagle with white head and yellow beak"
+        },
+        {
+          "name": "Osprey",
+          "description": "White-bellied osprey with brown eye stripe"
+        },
+        {
+          "name": "Red kite",
+          "description": "Rust-coloured kite in flight with forked tail"
+        }
+      ]
+    },
+    {
+      "topic": "Backyard bird feeder",
+      "question": "The feeder camera buzzes at breakfast. Which visitor do you replay?",
+      "outcomes": [
+        {
+          "name": "Northern cardinal",
+          "description": "Bright red crested cardinal with black face"
+        },
+        {
+          "name": "Blue jay",
+          "description": "Blue crested jay with barred wings"
+        },
+        {
+          "name": "European robin",
+          "description": "Small brown robin with orange breast"
+        },
+        {
+          "name": "Goldfinch",
+          "description": "European goldfinch with red face and yellow wing patch"
+        }
+      ]
+    },
+    {
+      "topic": "Flightless birds",
+      "question": "You're designing a flightless-bird stamp. Which bird fills the frame?",
+      "outcomes": [
+        {
+          "name": "Ostrich",
+          "description": "Tall black and white ostrich with pinkish legs"
+        },
+        {
+          "name": "Cassowary",
+          "description": "Black cassowary with blue neck and helmetlike casque"
+        },
+        {
+          "name": "Kiwi",
+          "description": "Small brown kiwi with long thin beak"
+        },
+        {
+          "name": "Emu",
+          "description": "Tall shaggy brown emu"
+        }
+      ]
+    },
+    {
+      "topic": "Tropical birds",
+      "question": "The rainforest sound walk needs one striking bird illustration. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Scarlet macaw",
+          "description": "Long-tailed scarlet macaw with yellow and blue wings"
+        },
+        {
+          "name": "Quetzal",
+          "description": "Emerald quetzal with red chest and long flowing tail"
+        },
+        {
+          "name": "Hornbill",
+          "description": "Black and white hornbill with large yellow casque"
+        },
+        {
+          "name": "Bird-of-paradise",
+          "description": "Orange bird-of-paradise with spectacular plumes"
+        }
+      ]
+    }
+  ]
+}

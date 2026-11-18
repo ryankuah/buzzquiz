@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Paddling club",
+      "question": "The club has a quiet morning on the water. Which boat do you reserve?",
+      "outcomes": [
+        {
+          "name": "Sea kayak",
+          "description": "long blue pointed sea kayak with covered deck"
+        },
+        {
+          "name": "Canadian canoe",
+          "description": "open red canoe with two seats"
+        },
+        {
+          "name": "Stand-up paddleboard",
+          "description": "wide flat mint paddleboard and long paddle"
+        },
+        {
+          "name": "Inflatable raft",
+          "description": "yellow oval inflatable rafting boat"
+        }
+      ]
+    },
+    {
+      "topic": "Winter sports",
+      "question": "The snow lodge has hired you to organise equipment. Which rack do you tackle first?",
+      "outcomes": [
+        {
+          "name": "Snowboard",
+          "description": "single blue snowboard with boot bindings"
+        },
+        {
+          "name": "Cross-country skis",
+          "description": "pair of slender cross-country skis and poles"
+        },
+        {
+          "name": "Ice skates",
+          "description": "pair of white figure skates with steel blades"
+        },
+        {
+          "name": "Snowshoes",
+          "description": "pair of orange wide-framed snowshoes"
+        }
+      ]
+    },
+    {
+      "topic": "Sailing club",
+      "question": "The skipper offers you one small job before the dinghy launches. Which item do you fetch?",
+      "outcomes": [
+        {
+          "name": "Life jacket",
+          "description": "bright orange foam sailing life vest"
+        },
+        {
+          "name": "Tiller extension",
+          "description": "black dinghy tiller extension with hinged fitting"
+        },
+        {
+          "name": "Signal pennant",
+          "description": "triangular striped nautical pennant"
+        },
+        {
+          "name": "Bailer",
+          "description": "bright yellow plastic dinghy scoop bailer"
+        }
+      ]
+    },
+    {
+      "topic": "Beach sports",
+      "question": "There's a stretch of empty sand before the picnic. What do you bring for a game?",
+      "outcomes": [
+        {
+          "name": "Beach volleyball",
+          "description": "yellow and blue volleyball"
+        },
+        {
+          "name": "Flying disc",
+          "description": "bright orange flying disc"
+        },
+        {
+          "name": "Beach paddleball set",
+          "description": "pair of small wooden beach paddles and rubber ball"
+        },
+        {
+          "name": "Sand bowling set",
+          "description": "set of colourful toy bowling pins and ball"
+        }
+      ]
+    }
+  ]
+}

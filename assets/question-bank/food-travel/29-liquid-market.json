@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Chinese tea service",
+      "question": "You have time for one slow cup before the shop closes. Which tea do you sample?",
+      "outcomes": [
+        {
+          "name": "Pu-erh",
+          "description": "round compressed dark tea cake with a small cup"
+        },
+        {
+          "name": "Oolong",
+          "description": "rolled oolong tea leaves beside an amber cup"
+        },
+        {
+          "name": "Dragon Well tea",
+          "description": "flat green longjing leaves beside a clear glass"
+        },
+        {
+          "name": "White peony tea",
+          "description": "pale tea with silvery buds and green leaves"
+        }
+      ]
+    },
+    {
+      "topic": "Southeast Asian iced drinks",
+      "question": "The street is hot and the cart only takes cash. Which drink do you spend it on?",
+      "outcomes": [
+        {
+          "name": "Thai iced tea",
+          "description": "orange milk tea in glass filled with ice"
+        },
+        {
+          "name": "Cendol",
+          "description": "iced coconut drink with green pandan jelly strands"
+        },
+        {
+          "name": "Bandung",
+          "description": "bright pink rose milk drink in a glass"
+        },
+        {
+          "name": "Calamansi soda",
+          "description": "iced citrus soda with tiny halved green calamansi"
+        }
+      ]
+    },
+    {
+      "topic": "Bubble tea toppings",
+      "question": "The tea is brewed and you can add one scoop. Which topping goes in?",
+      "outcomes": [
+        {
+          "name": "Tapioca pearls",
+          "description": "shiny black tapioca pearls on a scoop"
+        },
+        {
+          "name": "Aloe vera cubes",
+          "description": "translucent pale green aloe cubes"
+        },
+        {
+          "name": "Grass jelly",
+          "description": "dark translucent grass jelly cubes"
+        },
+        {
+          "name": "Red bean topping",
+          "description": "small glossy red adzuki beans"
+        }
+      ]
+    },
+    {
+      "topic": "South American drinks",
+      "question": "A friend offers drinks after a long walk. What do you taste?",
+      "outcomes": [
+        {
+          "name": "Yerba mate",
+          "description": "traditional mate gourd with metal straw"
+        },
+        {
+          "name": "Chicha morada",
+          "description": "purple corn drink with pineapple wedge"
+        },
+        {
+          "name": "Aguapanela",
+          "description": "amber cane-sugar drink with lime and block of panela"
+        },
+        {
+          "name": "Açaí smoothie",
+          "description": "thick purple açaí drink with açaí berries"
+        }
+      ]
+    }
+  ]
+}

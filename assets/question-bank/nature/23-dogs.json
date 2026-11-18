@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Working dogs",
+      "question": "You're choosing a farm-dog calendar cover. Which breed gets the photo?",
+      "outcomes": [
+        {
+          "name": "Border collie",
+          "description": "Border collie — black and white herding dog"
+        },
+        {
+          "name": "Australian cattle dog",
+          "description": "Australian cattle dog — blue speckled stocky herding dog"
+        },
+        {
+          "name": "Great Pyrenees",
+          "description": "Great Pyrenees — large fluffy white mountain dog"
+        },
+        {
+          "name": "Shetland sheepdog",
+          "description": "Shetland sheepdog — small long-haired sable and white collie"
+        }
+      ]
+    },
+    {
+      "topic": "Hounds",
+      "question": "The scent-trail club wants a mascot. Which hound would you draw?",
+      "outcomes": [
+        {
+          "name": "Beagle",
+          "description": "Beagle — tricolour hound with floppy ears"
+        },
+        {
+          "name": "Basset hound",
+          "description": "Basset hound — long low hound with drooping ears"
+        },
+        {
+          "name": "Afghan hound",
+          "description": "Afghan hound — tall silky long-haired cream hound"
+        },
+        {
+          "name": "Dachshund",
+          "description": "Dachshund — smooth short-legged elongated brown dog"
+        }
+      ]
+    },
+    {
+      "topic": "Spitz breeds",
+      "question": "You can meet one fluffy dog at the shelter event. Which line do you join?",
+      "outcomes": [
+        {
+          "name": "Shiba inu",
+          "description": "Shiba inu — small red spitz with curled tail"
+        },
+        {
+          "name": "Samoyed",
+          "description": "Samoyed — smiling fluffy white spitz"
+        },
+        {
+          "name": "Alaskan malamute",
+          "description": "Alaskan malamute — large grey and white sled dog"
+        },
+        {
+          "name": "Pomeranian",
+          "description": "Pomeranian — tiny orange spitz with a lionlike ruff"
+        }
+      ]
+    },
+    {
+      "topic": "Terriers",
+      "question": "You're illustrating a terrier agility poster. Which competitor appears front and centre?",
+      "outcomes": [
+        {
+          "name": "Scottish terrier",
+          "description": "Scottish terrier — small black bearded terrier"
+        },
+        {
+          "name": "Bull terrier",
+          "description": "Bull terrier — white egg-headed terrier"
+        },
+        {
+          "name": "Airedale terrier",
+          "description": "Airedale terrier — long-legged tan and black wirehaired terrier"
+        },
+        {
+          "name": "West Highland white terrier",
+          "description": "West Highland white terrier — small white terrier with pointed ears"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Rain gear",
+      "question": "A shower begins halfway through your walk. What are you happiest to have in your bag?",
+      "outcomes": [
+        {
+          "name": "Folding umbrella",
+          "description": "Open compact red umbrella"
+        },
+        {
+          "name": "Rain hat",
+          "description": "Yellow waterproof bucket hat"
+        },
+        {
+          "name": "Boot covers",
+          "description": "Pair of translucent waterproof overshoes"
+        },
+        {
+          "name": "Pack cover",
+          "description": "Bright blue fitted rain cover over a hiking backpack"
+        }
+      ]
+    },
+    {
+      "topic": "Snow day",
+      "question": "Fresh snow covers the park. Which piece of gear would you grab first?",
+      "outcomes": [
+        {
+          "name": "Wooden sled",
+          "description": "Wooden slatted sled with red runners"
+        },
+        {
+          "name": "Snowshoes",
+          "description": "Pair of broad framed snowshoes"
+        },
+        {
+          "name": "Snowball mould",
+          "description": "Bright plastic scissor-handled snowball mould"
+        },
+        {
+          "name": "Cross-country skis",
+          "description": "Slender cross-country skis with light touring bindings"
+        }
+      ]
+    },
+    {
+      "topic": "Cloudwatching",
+      "question": "The sky changes as you sketch. Which cloud shape fills your page?",
+      "outcomes": [
+        {
+          "name": "Cumulus",
+          "description": "A single puffy white cotton-like cumulus cloud"
+        },
+        {
+          "name": "Cirrus",
+          "description": "High thin wispy white feather-shaped cloud"
+        },
+        {
+          "name": "Cumulonimbus",
+          "description": "Tall anvil-shaped dark storm cloud"
+        },
+        {
+          "name": "Lenticular cloud",
+          "description": "Smooth stacked lens-shaped cloud"
+        }
+      ]
+    },
+    {
+      "topic": "Storm photography",
+      "question": "An exhibition asks for a striking weather photograph. Which subject would you submit?",
+      "outcomes": [
+        {
+          "name": "Lightning bolt",
+          "description": "Branched white-blue lightning bolt"
+        },
+        {
+          "name": "Waterspout",
+          "description": "Slender swirling funnel above a small ring of water"
+        },
+        {
+          "name": "Hailstones",
+          "description": "Several small white translucent ice hailstones"
+        },
+        {
+          "name": "Aurora",
+          "description": "Undulating green and violet aurora ribbons"
+        }
+      ]
+    }
+  ]
+}

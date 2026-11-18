@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Circuit making",
+      "question": "A maker space is laying out parts for a beginner circuit. Which part do you sort first?",
+      "outcomes": [
+        {
+          "name": "Breadboard",
+          "description": "white solderless electronics breadboard"
+        },
+        {
+          "name": "Resistors",
+          "description": "small bundle of striped axial resistors"
+        },
+        {
+          "name": "Pushbutton switch",
+          "description": "red electronic momentary pushbutton"
+        },
+        {
+          "name": "Battery holder",
+          "description": "black plastic two-AA battery holder with wires"
+        }
+      ]
+    },
+    {
+      "topic": "Maker robotics",
+      "question": "Your robot build has space for one extra module. What do you mount on top?",
+      "outcomes": [
+        {
+          "name": "Servo motor",
+          "description": "tiny blue hobby servo motor with white horn"
+        },
+        {
+          "name": "Distance sensor",
+          "description": "ultrasonic sensor board with two round transducers"
+        },
+        {
+          "name": "Robot gripper",
+          "description": "small two-finger mechanical robot gripper"
+        },
+        {
+          "name": "Caster wheel",
+          "description": "single ball caster wheel for a robot"
+        }
+      ]
+    },
+    {
+      "topic": "Audio formats",
+      "question": "Your sound archive can display one obsolete recording format at the front. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Wax cylinder",
+          "description": "brown phonograph wax cylinder in a paper tube"
+        },
+        {
+          "name": "Reel-to-reel tape",
+          "description": "brown magnetic tape on an open reel"
+        },
+        {
+          "name": "MiniDisc",
+          "description": "square transparent blue MiniDisc cartridge"
+        },
+        {
+          "name": "Eight-track cartridge",
+          "description": "black eight-track audio tape cartridge"
+        }
+      ]
+    },
+    {
+      "topic": "Digital preservation",
+      "question": "A library gives you a crate of older computer media. What do you want to catalogue first?",
+      "outcomes": [
+        {
+          "name": "Floppy disk",
+          "description": "blue 3.5 inch floppy disk with metal shutter"
+        },
+        {
+          "name": "Zip disk",
+          "description": "translucent purple Zip disk cartridge"
+        },
+        {
+          "name": "Punched card",
+          "description": "tan computer punch card with rows of holes"
+        },
+        {
+          "name": "Optical disc",
+          "description": "shiny iridescent optical disc with plain centre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Career open day",
+      "question": "Four workshops have spare seats at the careers fair. Which table do you join?",
+      "outcomes": [
+        {
+          "name": "Surveyor's level",
+          "description": "yellow optical surveying level on tripod"
+        },
+        {
+          "name": "Pastry bag",
+          "description": "piping bag with star nozzle and pink icing"
+        },
+        {
+          "name": "Stethoscope",
+          "description": "turquoise medical stethoscope"
+        },
+        {
+          "name": "Broadcast camera",
+          "description": "professional shoulder mounted broadcast video camera"
+        }
+      ]
+    },
+    {
+      "topic": "Theatre jobs",
+      "question": "A local theatre is taking on a crew member for one night. Which job kit do you collect?",
+      "outcomes": [
+        {
+          "name": "Wardrobe rail",
+          "description": "small costume rack with patterned jackets"
+        },
+        {
+          "name": "Makeup case",
+          "description": "open stage makeup case with brushes"
+        },
+        {
+          "name": "Cue headset",
+          "description": "stage manager headset with boom microphone"
+        },
+        {
+          "name": "Prop crate",
+          "description": "wooden prop crate holding a fake crown and fan"
+        }
+      ]
+    },
+    {
+      "topic": "Museum careers",
+      "question": "A local museum is shadowing staff for a day. Which tool makes you want to follow its owner?",
+      "outcomes": [
+        {
+          "name": "Conservator's brush",
+          "description": "soft museum conservation brush beside white cotton gloves"
+        },
+        {
+          "name": "Specimen drawer",
+          "description": "wooden specimen drawer lined with pinned beetles"
+        },
+        {
+          "name": "Exhibition model",
+          "description": "tabletop architectural model of a small gallery"
+        },
+        {
+          "name": "Audio guide",
+          "description": "handheld museum audio guide with earpiece"
+        }
+      ]
+    },
+    {
+      "topic": "Event production",
+      "question": "With doors opening in an hour, which event station would you like to staff?",
+      "outcomes": [
+        {
+          "name": "Ticket scanner",
+          "description": "handheld barcode ticket scanner"
+        },
+        {
+          "name": "Sound mixer",
+          "description": "small audio mixing board with coloured sliders"
+        },
+        {
+          "name": "Lighting console",
+          "description": "theatre lighting desk with fader rows"
+        },
+        {
+          "name": "Wristband roll",
+          "description": "roll of multicoloured admission wristbands"
+        }
+      ]
+    }
+  ]
+}

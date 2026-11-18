@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Physics classroom",
+      "question": "The physics teacher asks for one object for a motion demonstration. Which do you set out?",
+      "outcomes": [
+        {
+          "name": "Newton cradle",
+          "description": "desk Newton's cradle with silver balls"
+        },
+        {
+          "name": "Gyroscope",
+          "description": "brass gyroscope in wire frame"
+        },
+        {
+          "name": "Pulley block",
+          "description": "small double pulley block with rope"
+        },
+        {
+          "name": "Pendulum bob",
+          "description": "brass pendulum bob on a simple stand"
+        }
+      ]
+    },
+    {
+      "topic": "Earth science",
+      "question": "A school display has room for one geological specimen. Which sample do you set beside the map?",
+      "outcomes": [
+        {
+          "name": "Pumice stone",
+          "description": "pale porous pumice rock"
+        },
+        {
+          "name": "Basalt column",
+          "description": "dark hexagonal basalt column specimen"
+        },
+        {
+          "name": "Sandstone slice",
+          "description": "striped tan sandstone slice"
+        },
+        {
+          "name": "Geode half",
+          "description": "hollow geode half lined with white crystals"
+        }
+      ]
+    },
+    {
+      "topic": "Environmental science",
+      "question": "Your class is making a small outdoor observation station. Which instrument do you install?",
+      "outcomes": [
+        {
+          "name": "Rain gauge",
+          "description": "clear cylindrical rain gauge on stake"
+        },
+        {
+          "name": "Anemometer",
+          "description": "three-cup wind anemometer"
+        },
+        {
+          "name": "Weather vane",
+          "description": "metal rooster weather vane"
+        },
+        {
+          "name": "Sunshine recorder",
+          "description": "glass sphere sunshine recorder in a brass cradle"
+        }
+      ]
+    },
+    {
+      "topic": "Geometry",
+      "question": "The maths club wants a model you can pick up. Which solid do you build?",
+      "outcomes": [
+        {
+          "name": "Triangular prism",
+          "description": "blue solid triangular prism"
+        },
+        {
+          "name": "Square pyramid",
+          "description": "red square-based pyramid"
+        },
+        {
+          "name": "Mobius strip",
+          "description": "twisted continuous yellow paper Möbius strip"
+        },
+        {
+          "name": "Torus model",
+          "description": "green ring-shaped geometric torus"
+        }
+      ]
+    }
+  ]
+}

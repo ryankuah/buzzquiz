@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Postage collection",
+      "question": "You find four envelopes at a flea market. Which stamp design goes into your album?",
+      "outcomes": [
+        {
+          "name": "Lighthouse stamp",
+          "description": "perforated stamp depicting a red lighthouse"
+        },
+        {
+          "name": "Butterfly stamp",
+          "description": "perforated stamp depicting a blue butterfly"
+        },
+        {
+          "name": "Steam train stamp",
+          "description": "perforated stamp depicting a steam locomotive"
+        },
+        {
+          "name": "Space shuttle stamp",
+          "description": "perforated stamp depicting a space shuttle"
+        }
+      ]
+    },
+    {
+      "topic": "Vinyl collecting",
+      "question": "A record shop has room in its window for one display piece. Which one do you lend?",
+      "outcomes": [
+        {
+          "name": "Picture disc",
+          "description": "round vinyl record printed with a floral illustration"
+        },
+        {
+          "name": "Splatter vinyl",
+          "description": "translucent record with multicoloured splatters"
+        },
+        {
+          "name": "Seven-inch single",
+          "description": "small black seven inch single with a big centre hole"
+        },
+        {
+          "name": "Box set",
+          "description": "open square record box with several sleeved LPs"
+        }
+      ]
+    },
+    {
+      "topic": "Scale modelling",
+      "question": "Your club's display case has one empty shelf. What model do you finish for it?",
+      "outcomes": [
+        {
+          "name": "Model biplane",
+          "description": "miniature yellow propeller biplane"
+        },
+        {
+          "name": "Model tram",
+          "description": "miniature green vintage street tram"
+        },
+        {
+          "name": "Model tugboat",
+          "description": "miniature red and black harbour tugboat"
+        },
+        {
+          "name": "Model lunar rover",
+          "description": "small silver moon rover model with dish antenna"
+        }
+      ]
+    },
+    {
+      "topic": "Trading pins",
+      "question": "There's one space left on your pin board. Which enamel pin do you trade for?",
+      "outcomes": [
+        {
+          "name": "Rocket pin",
+          "description": "colourful rocket-shaped enamel pin"
+        },
+        {
+          "name": "Cherry pin",
+          "description": "red pair of cherries enamel pin"
+        },
+        {
+          "name": "Cassette pin",
+          "description": "tiny pink cassette-tape enamel pin"
+        },
+        {
+          "name": "Rainbow trout pin",
+          "description": "colourful speckled trout enamel pin"
+        }
+      ]
+    }
+  ]
+}

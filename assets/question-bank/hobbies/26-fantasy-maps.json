@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fantasy cartography",
+      "question": "Your map has an unexplored corner. Which landmark do you draw there?",
+      "outcomes": [
+        {
+          "name": "Floating island",
+          "description": "small floating island with grass and roots"
+        },
+        {
+          "name": "Giant mushroom grove",
+          "description": "cluster of oversized purple mushrooms"
+        },
+        {
+          "name": "Stone arch",
+          "description": "weathered freestanding stone arch"
+        },
+        {
+          "name": "Crystal cavern",
+          "description": "small cave opening lined with lavender crystals"
+        }
+      ]
+    },
+    {
+      "topic": "Adventurer luggage",
+      "question": "You are designing a traveller for a tabletop campaign. Which bag completes the silhouette?",
+      "outcomes": [
+        {
+          "name": "Scroll case",
+          "description": "cylindrical leather scroll case with strap"
+        },
+        {
+          "name": "Drawstring purse",
+          "description": "green velvet drawstring coin purse"
+        },
+        {
+          "name": "Saddle bags",
+          "description": "paired brown leather saddle bags"
+        },
+        {
+          "name": "Wicker backpack",
+          "description": "tall woven basket backpack with straps"
+        }
+      ]
+    },
+    {
+      "topic": "Enchanted shop",
+      "question": "A storybook merchant needs a single item for the shop window. Which one would stop you?",
+      "outcomes": [
+        {
+          "name": "Singing teapot",
+          "description": "teapot with sculpted bird spout"
+        },
+        {
+          "name": "Moon compass",
+          "description": "silver crescent-shaped decorative compass"
+        },
+        {
+          "name": "Walking boot planter",
+          "description": "leather boot filled with tiny flowers"
+        },
+        {
+          "name": "Starlight lantern",
+          "description": "blue lantern with glowing star-shaped cutouts"
+        }
+      ]
+    },
+    {
+      "topic": "Castle interiors",
+      "question": "Your miniature castle has one room left to furnish. Which centrepiece goes in?",
+      "outcomes": [
+        {
+          "name": "Throne",
+          "description": "carved oak throne with purple cushion"
+        },
+        {
+          "name": "Trestle table",
+          "description": "long medieval wooden trestle dining table"
+        },
+        {
+          "name": "Canopy bed",
+          "description": "small red curtained four-poster bed"
+        },
+        {
+          "name": "Heraldic banner",
+          "description": "long blue wall banner embroidered with a gold key"
+        }
+      ]
+    }
+  ]
+}

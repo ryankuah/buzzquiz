@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "River fish",
+      "question": "The visitor centre is painting freshwater fish tiles. Which species gets your tile?",
+      "outcomes": [
+        {
+          "name": "Rainbow trout",
+          "description": "Silvery trout with pink stripe and small spots"
+        },
+        {
+          "name": "Northern pike",
+          "description": "Long green pike with flattened toothy snout"
+        },
+        {
+          "name": "Channel catfish",
+          "description": "Grey catfish with whiskerlike barbels"
+        },
+        {
+          "name": "European perch",
+          "description": "Striped olive perch with orange fins"
+        }
+      ]
+    },
+    {
+      "topic": "Wetland birds",
+      "question": "At a wetland hide, which bird would keep you watching longest?",
+      "outcomes": [
+        {
+          "name": "Great blue heron",
+          "description": "Tall blue-grey heron with long pointed bill"
+        },
+        {
+          "name": "American flamingo",
+          "description": "Bright pink flamingo with curved bill"
+        },
+        {
+          "name": "Roseate spoonbill",
+          "description": "Pink long-legged bird with spoon-shaped bill"
+        },
+        {
+          "name": "White ibis",
+          "description": "White wading bird with long red curved bill"
+        }
+      ]
+    },
+    {
+      "topic": "River engineers",
+      "question": "A riverside exhibit needs a mascot. Which animal wins your vote?",
+      "outcomes": [
+        {
+          "name": "Beaver",
+          "description": "Brown beaver with broad paddle-shaped tail"
+        },
+        {
+          "name": "River otter",
+          "description": "Playful brown river otter with sleek tapered tail"
+        },
+        {
+          "name": "Capybara",
+          "description": "Large tawny barrel-bodied capybara"
+        },
+        {
+          "name": "Muskrat",
+          "description": "Dark brown muskrat with a thin scaly tail"
+        }
+      ]
+    },
+    {
+      "topic": "Aquarium invertebrates",
+      "question": "The aquarium's tiny tank holds four unusual residents. Which do you draw?",
+      "outcomes": [
+        {
+          "name": "Cleaner shrimp",
+          "description": "Slender red and white cleaner shrimp"
+        },
+        {
+          "name": "Moon jellyfish",
+          "description": "Clear lilac moon jellyfish with four central rings"
+        },
+        {
+          "name": "Cuttlefish",
+          "description": "Broad striped cuttlefish with wavy fins"
+        },
+        {
+          "name": "Chambered nautilus",
+          "description": "Cream and rust striped nautilus with curled shell and tentacles"
+        }
+      ]
+    }
+  ]
+}

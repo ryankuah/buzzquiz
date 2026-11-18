@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Planet surfaces",
+      "question": "Your spaceship can project a planet onto the ceiling. Which one do you choose?",
+      "outcomes": [
+        {
+          "name": "Mars",
+          "description": "Red rocky Mars globe with a pale polar cap"
+        },
+        {
+          "name": "Jupiter",
+          "description": "Banded ochre Jupiter globe with large red spot"
+        },
+        {
+          "name": "Neptune",
+          "description": "Deep blue Neptune globe with subtle cloud streaks"
+        },
+        {
+          "name": "Venus",
+          "description": "Pale cream Venus globe covered in swirling clouds"
+        }
+      ]
+    },
+    {
+      "topic": "Rock formations",
+      "question": "A park guide offers four scenic walks. Which formation do you want to see?",
+      "outcomes": [
+        {
+          "name": "Basalt columns",
+          "description": "Cluster of hexagonal dark basalt columns"
+        },
+        {
+          "name": "Sea arch",
+          "description": "Natural sandstone sea arch with a small patch of water"
+        },
+        {
+          "name": "Hoodoo",
+          "description": "Tall orange hoodoo spire with a capstone"
+        },
+        {
+          "name": "Stalactite",
+          "description": "Tapering pale limestone stalactite hanging downward"
+        }
+      ]
+    },
+    {
+      "topic": "Volcanic landscapes",
+      "question": "You're making a volcano exhibit in miniature. Which feature do you model first?",
+      "outcomes": [
+        {
+          "name": "Lava flow",
+          "description": "Small tongue of orange lava in a black crust"
+        },
+        {
+          "name": "Crater lake",
+          "description": "Round blue lake inside a steep crater rim"
+        },
+        {
+          "name": "Geyser",
+          "description": "White geyser plume erupting from a rocky vent"
+        },
+        {
+          "name": "Lava tube",
+          "description": "Open tunnel through dark solidified lava"
+        }
+      ]
+    },
+    {
+      "topic": "Mars expedition",
+      "question": "Your model Mars base has room for one more module. Which do you add?",
+      "outcomes": [
+        {
+          "name": "Habitat dome",
+          "description": "White geodesic habitat dome with airlock"
+        },
+        {
+          "name": "Solar array",
+          "description": "Foldout blue solar panel array on supports"
+        },
+        {
+          "name": "Rock drill rover",
+          "description": "Small tracked geology rover with a drill arm"
+        },
+        {
+          "name": "Communications mast",
+          "description": "Tall antenna mast with a compact white dish"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Pizza toppings",
+      "question": "The dough is ready. Which topping do you scatter on first?",
+      "outcomes": [
+        {
+          "name": "Artichoke hearts",
+          "description": "quartered artichoke hearts"
+        },
+        {
+          "name": "Black olives",
+          "description": "small cluster of sliced and whole black olives"
+        },
+        {
+          "name": "Pepperoni",
+          "description": "stack of thin red pepperoni rounds"
+        },
+        {
+          "name": "Pineapple chunks",
+          "description": "golden pineapple chunks"
+        }
+      ]
+    },
+    {
+      "topic": "Pasta sauces",
+      "question": "A fresh bowl of pasta lands in front of you. Which sauce do you spoon over it?",
+      "outcomes": [
+        {
+          "name": "Basil pesto",
+          "description": "small bowl of vivid green pesto with basil"
+        },
+        {
+          "name": "Tomato marinara",
+          "description": "bowl of red chunky tomato marinara with tomato"
+        },
+        {
+          "name": "Alfredo sauce",
+          "description": "bowl of smooth ivory Alfredo with Parmesan"
+        },
+        {
+          "name": "Puttanesca",
+          "description": "bowl of tomato sauce visibly studded with capers and black olives"
+        }
+      ]
+    },
+    {
+      "topic": "Kitchen prep",
+      "question": "Your friends are prepping dinner. Which task sounds most satisfying?",
+      "outcomes": [
+        {
+          "name": "Grating cheese",
+          "description": "box grater with cheese shavings"
+        },
+        {
+          "name": "Zesting a lemon",
+          "description": "microplane laid on a lemon with curled yellow zest"
+        },
+        {
+          "name": "Grinding spices",
+          "description": "mortar and pestle with seeds"
+        },
+        {
+          "name": "Pressing garlic",
+          "description": "hinged garlic press with crushed garlic"
+        }
+      ]
+    },
+    {
+      "topic": "Fermented foods",
+      "question": "You are filling a tasting plate. Which fermented side do you add?",
+      "outcomes": [
+        {
+          "name": "Kimchi",
+          "description": "spicy red napa cabbage kimchi in a small dish"
+        },
+        {
+          "name": "Sauerkraut",
+          "description": "tiny bowl of pale shredded sauerkraut"
+        },
+        {
+          "name": "Tempeh",
+          "description": "two sliced blocks of tempeh showing packed soybeans"
+        },
+        {
+          "name": "Natto",
+          "description": "small bowl of sticky brown natto beans with chopsticks"
+        }
+      ]
+    }
+  ]
+}

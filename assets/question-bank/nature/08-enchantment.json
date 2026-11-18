@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Wizard's familiar",
+      "question": "A young wizard needs a companion for a journey. Which familiar do you choose?",
+      "outcomes": [
+        {
+          "name": "Barn owl",
+          "description": "Barn owl with a pale heart-shaped face"
+        },
+        {
+          "name": "Black cat",
+          "description": "Sleek black cat with golden eyes"
+        },
+        {
+          "name": "Fire salamander",
+          "description": "Black salamander with bright yellow patches"
+        },
+        {
+          "name": "White ferret",
+          "description": "Long white ferret curled with pink nose"
+        }
+      ]
+    },
+    {
+      "topic": "Potion ingredients",
+      "question": "The apothecary lets you choose one imaginary ingredient. Which jar do you open?",
+      "outcomes": [
+        {
+          "name": "Moonberry",
+          "description": "Cluster of luminous silver-blue berries"
+        },
+        {
+          "name": "Ember blossom",
+          "description": "Orange flower with emberlike glowing petal tips"
+        },
+        {
+          "name": "Starlight pearl",
+          "description": "Dark violet pearl flecked with tiny stars"
+        },
+        {
+          "name": "Spiral root",
+          "description": "Golden root twisted into a spiral"
+        }
+      ]
+    },
+    {
+      "topic": "Enchanted transport",
+      "question": "The castle gates close at sunset. What magical ride gets you home?",
+      "outcomes": [
+        {
+          "name": "Flying broom",
+          "description": "Traditional twig broom hovering at an angle"
+        },
+        {
+          "name": "Magic carpet",
+          "description": "Red and gold flying carpet with curled corners"
+        },
+        {
+          "name": "Winged boots",
+          "description": "Pair of brown boots with white wings"
+        },
+        {
+          "name": "Pumpkin carriage",
+          "description": "Orange pumpkin coach on ornate wheels"
+        }
+      ]
+    },
+    {
+      "topic": "Fantasy companions",
+      "question": "A creature hatches from your enchanted egg. Which one do you hope to meet?",
+      "outcomes": [
+        {
+          "name": "Griffin",
+          "description": "Winged griffin with eagle head and lion body"
+        },
+        {
+          "name": "Hippocampus",
+          "description": "Mythical seahorse with horse head and a curling fish tail"
+        },
+        {
+          "name": "Jackalope",
+          "description": "Brown rabbit with small branching antlers"
+        },
+        {
+          "name": "Pegasus",
+          "description": "White winged horse with no horn"
+        }
+      ]
+    }
+  ]
+}

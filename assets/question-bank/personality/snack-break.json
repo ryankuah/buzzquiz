@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Crisps and snacks",
+      "question": "You have room for one crunchy snack in your bag. Which goes in?",
+      "outcomes": [
+        {
+          "name": "Wasabi peas",
+          "description": "Wasabi peas"
+        },
+        {
+          "name": "Plantain chips",
+          "description": "Plantain chips"
+        },
+        {
+          "name": "Prawn crackers",
+          "description": "Prawn crackers"
+        },
+        {
+          "name": "Rice crackers",
+          "description": "Rice crackers"
+        }
+      ]
+    },
+    {
+      "topic": "Savoury pastry",
+      "question": "Which pastry do you tuck into a paper bag for the train?",
+      "outcomes": [
+        {
+          "name": "Spinach börek",
+          "description": "Spinach börek"
+        },
+        {
+          "name": "Cornish pasty",
+          "description": "Cornish pasty"
+        },
+        {
+          "name": "Cheese empanada",
+          "description": "Cheese empanada"
+        },
+        {
+          "name": "Sausage roll",
+          "description": "Sausage roll"
+        }
+      ]
+    },
+    {
+      "topic": "Sandwich bread",
+      "question": "You are packing sandwiches for the road. Which bread do you slice?",
+      "outcomes": [
+        {
+          "name": "Ciabatta",
+          "description": "Ciabatta"
+        },
+        {
+          "name": "Pumpernickel",
+          "description": "Pumpernickel"
+        },
+        {
+          "name": "Brioche loaf",
+          "description": "Brioche loaf"
+        },
+        {
+          "name": "Marbled rye loaf",
+          "description": "Marbled rye loaf"
+        }
+      ]
+    },
+    {
+      "topic": "Movie sweets",
+      "question": "Everyone swaps one sweet at the cinema. Which do you bring?",
+      "outcomes": [
+        {
+          "name": "Liquorice twists",
+          "description": "Liquorice twists"
+        },
+        {
+          "name": "Sherbet lollipops",
+          "description": "Sherbet lollipops"
+        },
+        {
+          "name": "Sour gummy worms",
+          "description": "Sour gummy worms"
+        },
+        {
+          "name": "Chocolate raisins",
+          "description": "Chocolate raisins"
+        }
+      ]
+    }
+  ]
+}

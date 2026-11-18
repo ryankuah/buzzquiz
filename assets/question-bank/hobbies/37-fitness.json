@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Yoga props",
+      "question": "A beginner yoga class asks for one support prop. Which one do you take from the shelf?",
+      "outcomes": [
+        {
+          "name": "Yoga block",
+          "description": "purple rectangular foam yoga block"
+        },
+        {
+          "name": "Yoga strap",
+          "description": "rolled cotton yoga strap with buckle"
+        },
+        {
+          "name": "Yoga bolster",
+          "description": "long cylindrical teal yoga bolster"
+        },
+        {
+          "name": "Yoga wheel",
+          "description": "large cork yoga wheel"
+        }
+      ]
+    },
+    {
+      "topic": "Pilates studio",
+      "question": "The studio wants a beginner station at its open day. Which piece of Pilates kit do you set out?",
+      "outcomes": [
+        {
+          "name": "Pilates ring",
+          "description": "black flexible exercise ring with padded grips"
+        },
+        {
+          "name": "Stability ball",
+          "description": "large ribbed turquoise exercise ball"
+        },
+        {
+          "name": "Sliders",
+          "description": "pair of oval exercise gliding discs"
+        },
+        {
+          "name": "Reformer",
+          "description": "wooden Pilates reformer apparatus with sliding padded carriage"
+        }
+      ]
+    },
+    {
+      "topic": "Recovery routine",
+      "question": "After the weekend tournament you can borrow one recovery accessory. What goes in your bag?",
+      "outcomes": [
+        {
+          "name": "Massage ball",
+          "description": "blue spiky massage ball"
+        },
+        {
+          "name": "Ice pack",
+          "description": "soft blue reusable ice pack"
+        },
+        {
+          "name": "Stretch strap",
+          "description": "black looped stretching strap with multiple handles"
+        },
+        {
+          "name": "Massage roller stick",
+          "description": "handheld ridged massage stick with two grips"
+        }
+      ]
+    },
+    {
+      "topic": "Running club",
+      "question": "You plan to join an early-morning running group. What do you put by the door the night before?",
+      "outcomes": [
+        {
+          "name": "Reflective vest",
+          "description": "lightweight fluorescent reflective running vest"
+        },
+        {
+          "name": "Running belt",
+          "description": "slim waist running belt with zip pouch"
+        },
+        {
+          "name": "Hydration vest",
+          "description": "blue running hydration vest with soft flasks"
+        },
+        {
+          "name": "Sports watch",
+          "description": "round GPS running watch with bright silicone strap"
+        }
+      ]
+    }
+  ]
+}

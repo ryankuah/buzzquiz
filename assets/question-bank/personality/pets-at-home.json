@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Small dog breed",
+      "question": "Which small dog would you sketch for a pet portrait?",
+      "outcomes": [
+        {
+          "name": "Dachshund",
+          "description": "Dachshund"
+        },
+        {
+          "name": "Pomeranian",
+          "description": "Pomeranian"
+        },
+        {
+          "name": "French Bulldog",
+          "description": "French Bulldog"
+        },
+        {
+          "name": "Miniature Schnauzer",
+          "description": "Miniature Schnauzer"
+        }
+      ]
+    },
+    {
+      "topic": "Working dog breed",
+      "question": "Which working dog would you spend an afternoon photographing?",
+      "outcomes": [
+        {
+          "name": "Border Collie",
+          "description": "Border Collie"
+        },
+        {
+          "name": "Siberian Husky",
+          "description": "Siberian Husky"
+        },
+        {
+          "name": "Australian Shepherd",
+          "description": "Australian Shepherd"
+        },
+        {
+          "name": "Bernese Mountain Dog",
+          "description": "Bernese Mountain Dog"
+        }
+      ]
+    },
+    {
+      "topic": "Pet bird",
+      "question": "Which bird catches your eye at the rescue open day?",
+      "outcomes": [
+        {
+          "name": "Budgerigar",
+          "description": "Budgerigar"
+        },
+        {
+          "name": "Cockatiel",
+          "description": "Cockatiel"
+        },
+        {
+          "name": "Lovebird",
+          "description": "Lovebird"
+        },
+        {
+          "name": "Zebra finch",
+          "description": "Zebra finch"
+        }
+      ]
+    },
+    {
+      "topic": "Small pet",
+      "question": "Which animal do you volunteer to draw for the pet calendar?",
+      "outcomes": [
+        {
+          "name": "Guinea pig",
+          "description": "Guinea pig"
+        },
+        {
+          "name": "Chinchilla",
+          "description": "Chinchilla"
+        },
+        {
+          "name": "Domestic ferret",
+          "description": "Domestic ferret"
+        },
+        {
+          "name": "Dwarf rabbit",
+          "description": "Dwarf rabbit"
+        }
+      ]
+    }
+  ]
+}

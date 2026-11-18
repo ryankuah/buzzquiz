@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Miniatures cabinet",
+      "question": "Your shelf of tiny everyday objects has a gap. Which miniature would you like to find?",
+      "outcomes": [
+        {
+          "name": "Mini sewing machine",
+          "description": "miniature black treadle sewing machine"
+        },
+        {
+          "name": "Mini gramophone",
+          "description": "miniature gramophone with brass horn"
+        },
+        {
+          "name": "Mini grandfather clock",
+          "description": "tiny tall wooden grandfather clock"
+        },
+        {
+          "name": "Mini writing desk",
+          "description": "tiny wooden writing bureau with drop-down lid"
+        }
+      ]
+    },
+    {
+      "topic": "Coin collecting",
+      "question": "A new collector needs a display that makes details easy to see. What do you choose for them?",
+      "outcomes": [
+        {
+          "name": "Coin capsule",
+          "description": "clear round plastic capsule holding a coin"
+        },
+        {
+          "name": "Coin album",
+          "description": "open coin album page with different coins"
+        },
+        {
+          "name": "Velvet coin tray",
+          "description": "velvet-lined divided coin tray"
+        },
+        {
+          "name": "Coin magnifier",
+          "description": "fold-out illuminated coin magnifier above a coin"
+        }
+      ]
+    },
+    {
+      "topic": "Vintage toys",
+      "question": "The toy fair has one display space under glass. Which mechanical toy gets your vote?",
+      "outcomes": [
+        {
+          "name": "Tin carousel",
+          "description": "vintage painted tin carousel toy"
+        },
+        {
+          "name": "Pull-along duck",
+          "description": "wooden yellow pull-along duck with wheels"
+        },
+        {
+          "name": "Cup-and-ball toy",
+          "description": "wooden cup-and-ball toy with string"
+        },
+        {
+          "name": "Jumping jack",
+          "description": "painted wooden jointed jumping jack toy"
+        }
+      ]
+    },
+    {
+      "topic": "Board game tokens",
+      "question": "Your prototype still needs a unique resource marker. Which handful do you pour into the box?",
+      "outcomes": [
+        {
+          "name": "Wooden fish tokens",
+          "description": "pile of tiny blue wooden fish tokens"
+        },
+        {
+          "name": "Gem counters",
+          "description": "pile of translucent faceted game gems"
+        },
+        {
+          "name": "Metal gear tokens",
+          "description": "cluster of small bronze gear-shaped tokens"
+        },
+        {
+          "name": "Leaf tokens",
+          "description": "pile of green wooden leaf tokens"
+        }
+      ]
+    }
+  ]
+}

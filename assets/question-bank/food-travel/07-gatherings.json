@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Party tableware",
+      "question": "The guests arrive in ten minutes. Which finishing touch goes on the table?",
+      "outcomes": [
+        {
+          "name": "Taper candles",
+          "description": "pair of tall taper candles in brass holders"
+        },
+        {
+          "name": "Cloth napkins",
+          "description": "folded linen napkins with napkin rings"
+        },
+        {
+          "name": "Place cards",
+          "description": "small blank folded place cards in wooden holders"
+        },
+        {
+          "name": "Bud vases",
+          "description": "three tiny bud vases with single flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Picnic games",
+      "question": "Lunch is over and the grass is dry. Which game do you unpack?",
+      "outcomes": [
+        {
+          "name": "Bocce",
+          "description": "two large coloured bocce balls and one small pallino"
+        },
+        {
+          "name": "Ring toss",
+          "description": "wooden peg with colourful rope rings"
+        },
+        {
+          "name": "Flying disc",
+          "description": "bright orange flying disc"
+        },
+        {
+          "name": "Croquet",
+          "description": "striped croquet mallet ball and hoop"
+        }
+      ]
+    },
+    {
+      "topic": "Potluck dishes",
+      "question": "A friend asks for something that travels well. What do you bring to the potluck?",
+      "outcomes": [
+        {
+          "name": "Caprese skewers",
+          "description": "skewers of tomato mozzarella and basil"
+        },
+        {
+          "name": "Devilled eggs",
+          "description": "halved devilled eggs with piped filling and paprika"
+        },
+        {
+          "name": "Pasta salad",
+          "description": "colourful rotini pasta salad in a serving bowl"
+        },
+        {
+          "name": "Cornbread",
+          "description": "square golden cornbread pieces in a skillet"
+        }
+      ]
+    },
+    {
+      "topic": "Party favours",
+      "question": "The last guests are heading home. Which little favour would you hand them?",
+      "outcomes": [
+        {
+          "name": "Seed packet",
+          "description": "open kraft seed envelope with seeds and a flower drawing"
+        },
+        {
+          "name": "Mini jam jar",
+          "description": "tiny red jam jar with gingham lid"
+        },
+        {
+          "name": "Cookie bag",
+          "description": "clear treat bag with star cookies and ribbon"
+        },
+        {
+          "name": "Wax sachet",
+          "description": "small floral wax tablet on a hanging ribbon"
+        }
+      ]
+    }
+  ]
+}

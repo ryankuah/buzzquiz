@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Ethiopian platter",
+      "question": "A shared platter arrives and you can try one dish first. Which do you scoop up?",
+      "outcomes": [
+        {
+          "name": "Misir wot",
+          "description": "red lentil stew on a small piece of injera"
+        },
+        {
+          "name": "Gomen",
+          "description": "chopped cooked collard greens"
+        },
+        {
+          "name": "Chickpea stew",
+          "description": "whole chickpeas in golden sauce served in a clay bowl"
+        },
+        {
+          "name": "Tibs",
+          "description": "sautéed beef strips with peppers"
+        }
+      ]
+    },
+    {
+      "topic": "West African snacks",
+      "question": "A friend offers you a plate of snacks for the bus ride. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Puff-puff",
+          "description": "golden round fried dough puffs"
+        },
+        {
+          "name": "Chin chin",
+          "description": "small crunchy square dough pieces"
+        },
+        {
+          "name": "Kelewele",
+          "description": "spiced fried plantain cubes"
+        },
+        {
+          "name": "Akara",
+          "description": "crisp brown black-eyed pea fritters"
+        }
+      ]
+    },
+    {
+      "topic": "North African lunch",
+      "question": "You stop at a café beside a busy square. What do you order for lunch?",
+      "outcomes": [
+        {
+          "name": "Vegetable couscous",
+          "description": "steamed couscous with chunky vegetables"
+        },
+        {
+          "name": "Brik",
+          "description": "crisp triangular Tunisian pastry with egg"
+        },
+        {
+          "name": "Harira",
+          "description": "tomato chickpea lentil soup with herbs"
+        },
+        {
+          "name": "Kefta",
+          "description": "grilled oblong meatballs with parsley"
+        }
+      ]
+    },
+    {
+      "topic": "Southern African takeaway",
+      "question": "Friends are sharing takeaway after a match. Which dish would you bring?",
+      "outcomes": [
+        {
+          "name": "Bunny chow",
+          "description": "hollow quarter loaf filled with curry"
+        },
+        {
+          "name": "Boerewors roll",
+          "description": "coiled grilled sausage in a bread roll"
+        },
+        {
+          "name": "Vetkoek",
+          "description": "round fried bread split around minced filling"
+        },
+        {
+          "name": "Bobotie",
+          "description": "piece of minced meat casserole with golden egg top and bay leaf"
+        }
+      ]
+    }
+  ]
+}

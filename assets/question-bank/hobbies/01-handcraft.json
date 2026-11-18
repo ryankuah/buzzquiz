@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Embroidery",
+      "question": "You've finished a jacket and have room for one stitched motif. Which patch do you sew on?",
+      "outcomes": [
+        {
+          "name": "Koi patch",
+          "description": "embroidered orange koi fish patch"
+        },
+        {
+          "name": "Lightning patch",
+          "description": "embroidered yellow lightning-bolt patch"
+        },
+        {
+          "name": "Strawberry patch",
+          "description": "embroidered bright red strawberry patch"
+        },
+        {
+          "name": "Moth patch",
+          "description": "embroidered patterned luna moth patch"
+        }
+      ]
+    },
+    {
+      "topic": "Basket weaving",
+      "question": "The weaving studio has just enough reed for one small piece. What do you make?",
+      "outcomes": [
+        {
+          "name": "Wall pocket",
+          "description": "woven triangular wall pocket basket"
+        },
+        {
+          "name": "Bicycle basket",
+          "description": "rectangular wicker handlebar basket with leather buckles"
+        },
+        {
+          "name": "Bread basket",
+          "description": "shallow oval wicker bread basket"
+        },
+        {
+          "name": "Lidded hamper",
+          "description": "tall rectangular wicker hamper with hinged lid"
+        }
+      ]
+    },
+    {
+      "topic": "Bookbinding",
+      "question": "Your bookbinding club is swapping handmade books. What do you bring?",
+      "outcomes": [
+        {
+          "name": "Accordion book",
+          "description": "open green folded concertina book"
+        },
+        {
+          "name": "Leather journal",
+          "description": "brown leather wraparound journal with tie"
+        },
+        {
+          "name": "Japanese stab-bound notebook",
+          "description": "indigo notebook with yellow exposed side stitching"
+        },
+        {
+          "name": "Miniature book",
+          "description": "tiny red hardback book on an open palm"
+        }
+      ]
+    },
+    {
+      "topic": "Fibre art",
+      "question": "One texture wall at the craft fair is still empty. Which work do you hang?",
+      "outcomes": [
+        {
+          "name": "Macramé hanging",
+          "description": "knotted cream macrame hanging with long fringe"
+        },
+        {
+          "name": "Punch-needle rug",
+          "description": "colourful tufted abstract punch needle rug"
+        },
+        {
+          "name": "Felt landscape",
+          "description": "oval felted wool landscape of green hills"
+        },
+        {
+          "name": "Woven tapestry",
+          "description": "geometric block-weave tapestry on a wooden dowel"
+        }
+      ]
+    }
+  ]
+}

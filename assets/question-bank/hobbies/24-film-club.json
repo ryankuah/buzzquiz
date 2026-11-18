@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Cinema lobby",
+      "question": "The film club is restoring an old foyer. Which object gets the glass display cabinet?",
+      "outcomes": [
+        {
+          "name": "Film reel",
+          "description": "metal film reel with a strip of film"
+        },
+        {
+          "name": "Ushers torch",
+          "description": "small vintage usher flashlight with red lens"
+        },
+        {
+          "name": "Ticket punch",
+          "description": "vintage metal ticket punch with lever handle"
+        },
+        {
+          "name": "Cinema seat",
+          "description": "single red velvet folding cinema seat"
+        }
+      ]
+    },
+    {
+      "topic": "Silent cinema",
+      "question": "You're making a silent comedy. Which prop would you build a gag around?",
+      "outcomes": [
+        {
+          "name": "Bowler hat",
+          "description": "black felt bowler hat"
+        },
+        {
+          "name": "Oversized bow tie",
+          "description": "large polka-dot bow tie"
+        },
+        {
+          "name": "Rubber banana peel",
+          "description": "yellow rubber banana peel prop"
+        },
+        {
+          "name": "Trick umbrella",
+          "description": "inside-out green umbrella prop"
+        }
+      ]
+    },
+    {
+      "topic": "Film sound",
+      "question": "The projector is on but the scene needs footsteps. Which surface would you try first?",
+      "outcomes": [
+        {
+          "name": "Gravel tray",
+          "description": "shallow tray of pale gravel"
+        },
+        {
+          "name": "Dry leaves",
+          "description": "pile of dry curled brown leaves"
+        },
+        {
+          "name": "Wood floorboard",
+          "description": "short polished oak floorboard"
+        },
+        {
+          "name": "Sheet of foil",
+          "description": "crumpled silver aluminium foil sheet"
+        }
+      ]
+    },
+    {
+      "topic": "Editing room",
+      "question": "Your film-club workshop is explaining old-school editing. Which object do you put on the table?",
+      "outcomes": [
+        {
+          "name": "Film splicer",
+          "description": "small green metal film splicing device"
+        },
+        {
+          "name": "Film leader",
+          "description": "coil of pale film leader strip"
+        },
+        {
+          "name": "Grease pencil",
+          "description": "red paper-wrapped grease pencil"
+        },
+        {
+          "name": "Film canister",
+          "description": "round silver metal film canister"
+        }
+      ]
+    }
+  ]
+}

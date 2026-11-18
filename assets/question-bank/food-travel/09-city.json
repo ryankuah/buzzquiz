@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "City transport",
+      "question": "You have a free afternoon and no timetable. How will you cross the city?",
+      "outcomes": [
+        {
+          "name": "Tram",
+          "description": "green electric tram with overhead pantograph"
+        },
+        {
+          "name": "Metro train",
+          "description": "silver underground train front with dark windshield"
+        },
+        {
+          "name": "Cable car",
+          "description": "single suspended gondola cable car"
+        },
+        {
+          "name": "Kick scooter",
+          "description": "yellow folding kick scooter"
+        }
+      ]
+    },
+    {
+      "topic": "Street performances",
+      "question": "You hear applause from the square. Which act do you stop to watch?",
+      "outcomes": [
+        {
+          "name": "Juggling",
+          "description": "three colourful juggling clubs spinning in a small arc"
+        },
+        {
+          "name": "Marionette show",
+          "description": "wooden marionette hanging from a crossbar"
+        },
+        {
+          "name": "Accordion music",
+          "description": "red accordion with extended bellows"
+        },
+        {
+          "name": "Bubble show",
+          "description": "giant soap bubble floating beside a rope bubble wand"
+        }
+      ]
+    },
+    {
+      "topic": "City parks",
+      "question": "You find an empty bench. Which part of the park would you sit beside?",
+      "outcomes": [
+        {
+          "name": "Koi pond",
+          "description": "small lily pond with orange koi fish"
+        },
+        {
+          "name": "Bandstand",
+          "description": "octagonal Victorian park bandstand"
+        },
+        {
+          "name": "Rose garden",
+          "description": "rose-covered garden arch"
+        },
+        {
+          "name": "Skate bowl",
+          "description": "concrete skate bowl with a small skateboard on its lip"
+        }
+      ]
+    },
+    {
+      "topic": "Evening venues",
+      "question": "Your plans end early and the city is still awake. Which place do you visit?",
+      "outcomes": [
+        {
+          "name": "Jazz club",
+          "description": "tiny jazz stage with upright bass and warm spotlight"
+        },
+        {
+          "name": "Outdoor cinema",
+          "description": "outdoor projection screen between folding chairs"
+        },
+        {
+          "name": "Bowling alley",
+          "description": "bowling lane ending in white pins"
+        },
+        {
+          "name": "Night food stall",
+          "description": "miniature steamed-food cart with bamboo steamer and hanging lantern"
+        }
+      ]
+    }
+  ]
+}

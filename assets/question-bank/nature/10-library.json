@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Bookbinding",
+      "question": "You're binding a notebook by hand. Which object do you lay out first?",
+      "outcomes": [
+        {
+          "name": "Bone folder",
+          "description": "Ivory tapered bookbinder's bone folder"
+        },
+        {
+          "name": "Book press",
+          "description": "Small wooden screw book press"
+        },
+        {
+          "name": "Waxed linen thread",
+          "description": "Spool of natural linen bookbinding thread"
+        },
+        {
+          "name": "Bookbinding awl",
+          "description": "Wood-handled bookbinder's awl"
+        }
+      ]
+    },
+    {
+      "topic": "Reading accessories",
+      "question": "You're settling in with a long library loan. Which accessory comes out of your bag?",
+      "outcomes": [
+        {
+          "name": "Ribbon bookmark",
+          "description": "Red ribbon bookmark with a brass charm"
+        },
+        {
+          "name": "Clip-on book light",
+          "description": "Small flexible clip-on reading lamp"
+        },
+        {
+          "name": "Book stand",
+          "description": "Foldable wooden book stand holding a closed book"
+        },
+        {
+          "name": "Page holder",
+          "description": "Wooden thumb ring page holder shaped like wings"
+        }
+      ]
+    },
+    {
+      "topic": "Illustrated stories",
+      "question": "A publisher invites you to contribute one illustration. What tool do you pick up?",
+      "outcomes": [
+        {
+          "name": "Dip pen",
+          "description": "Wooden dip pen with silver nib and ink bottle"
+        },
+        {
+          "name": "Watercolour tin",
+          "description": "Open portable watercolour tin"
+        },
+        {
+          "name": "Charcoal sticks",
+          "description": "Three black artists' charcoal sticks"
+        },
+        {
+          "name": "Woodcut block",
+          "description": "Carved wooden printmaking block with leaf design"
+        }
+      ]
+    },
+    {
+      "topic": "Museum collections",
+      "question": "You're planning a tiny exhibition about childhood. Which antique toy gets the front case?",
+      "outcomes": [
+        {
+          "name": "Spinning top",
+          "description": "Painted wooden spinning top"
+        },
+        {
+          "name": "Tin robot",
+          "description": "Wind-up tin robot with a key"
+        },
+        {
+          "name": "Rocking horse",
+          "description": "Carved rocking horse on curved runners"
+        },
+        {
+          "name": "Marble maze",
+          "description": "Wooden tabletop maze with one glass marble"
+        }
+      ]
+    }
+  ]
+}

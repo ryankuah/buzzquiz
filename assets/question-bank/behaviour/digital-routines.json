@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Video call",
+      "question": "You are hosting a call with friends. How do you kick things off?",
+      "outcomes": [
+        {
+          "name": "Show a pet on camera",
+          "description": "Show a pet on camera — video call vignette"
+        },
+        {
+          "name": "Hold up a funny drawing",
+          "description": "Hold up a funny drawing — video call vignette"
+        },
+        {
+          "name": "Play a short guitar riff",
+          "description": "Play a short guitar riff — video call vignette"
+        },
+        {
+          "name": "Raise a mug in greeting",
+          "description": "Raise a mug in greeting — video call vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Creative posting",
+      "question": "You have a photo worth sharing. What do you make with it?",
+      "outcomes": [
+        {
+          "name": "A printed photo strip",
+          "description": "A printed photo strip — creative posting vignette"
+        },
+        {
+          "name": "A scrapbook spread",
+          "description": "A scrapbook spread — creative posting vignette"
+        },
+        {
+          "name": "A digital collage",
+          "description": "A digital collage — creative posting vignette"
+        },
+        {
+          "name": "A framed mini print",
+          "description": "A framed mini print — creative posting vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Workstation setup",
+      "question": "Your desk feels cluttered. Which change do you try first?",
+      "outcomes": [
+        {
+          "name": "Coil the loose cables",
+          "description": "Coil the loose cables — workstation setup vignette"
+        },
+        {
+          "name": "Sort pens into a cup",
+          "description": "Sort pens into a cup — workstation setup vignette"
+        },
+        {
+          "name": "Raise the monitor on a stand",
+          "description": "Raise the monitor on a stand — workstation setup vignette"
+        },
+        {
+          "name": "Clear space for a notebook",
+          "description": "Clear space for a notebook — workstation setup vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Game night setup",
+      "question": "Friends are coming over for co-op games. What do you prepare?",
+      "outcomes": [
+        {
+          "name": "Charge the controllers",
+          "description": "Charge the controllers — game night setup vignette"
+        },
+        {
+          "name": "Arrange beanbag seats",
+          "description": "Arrange beanbag seats — game night setup vignette"
+        },
+        {
+          "name": "Set out bowls of snacks",
+          "description": "Set out bowls of snacks — game night setup vignette"
+        },
+        {
+          "name": "Connect the projector",
+          "description": "Connect the projector — game night setup vignette"
+        }
+      ]
+    }
+  ]
+}

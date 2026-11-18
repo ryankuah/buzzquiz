@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Floor tile patterns",
+      "question": "You are restoring a small entrance hall. Which tile sample do you lay down?",
+      "outcomes": [
+        {
+          "name": "Checkerboard tile",
+          "description": "square of black-and-white checkerboard floor"
+        },
+        {
+          "name": "Terrazzo tile",
+          "description": "cream terrazzo slab with multicoloured stone flecks"
+        },
+        {
+          "name": "Encaustic tile",
+          "description": "single floral blue-and-white encaustic tile"
+        },
+        {
+          "name": "Herringbone parquet",
+          "description": "sample of wooden herringbone parquet"
+        }
+      ]
+    },
+    {
+      "topic": "Historic lighting",
+      "question": "You are furnishing a stage set in an old house. Which lamp gets a place by the door?",
+      "outcomes": [
+        {
+          "name": "Kerosene lantern",
+          "description": "old glass kerosene lantern with wick"
+        },
+        {
+          "name": "Tiffany lamp",
+          "description": "leadlight stained-glass table lamp"
+        },
+        {
+          "name": "Candelabrum",
+          "description": "three-arm silver candelabrum"
+        },
+        {
+          "name": "Alabaster sconce",
+          "description": "carved cream wall sconce with warm light"
+        }
+      ]
+    },
+    {
+      "topic": "Staircase design",
+      "question": "The architect has room for one memorable stairway. Which sketch do you choose?",
+      "outcomes": [
+        {
+          "name": "Spiral stair",
+          "description": "small wrought-iron spiral staircase"
+        },
+        {
+          "name": "Floating stair",
+          "description": "floating wooden stair treads on a wall"
+        },
+        {
+          "name": "Grand staircase",
+          "description": "miniature divided grand staircase with railings"
+        },
+        {
+          "name": "Library ladder",
+          "description": "rolling wood library ladder with rail"
+        }
+      ]
+    },
+    {
+      "topic": "Indoor fountains",
+      "question": "You are planning a quiet courtyard. Which water feature sounds right?",
+      "outcomes": [
+        {
+          "name": "Bamboo fountain",
+          "description": "Japanese bamboo tipping fountain above stone basin"
+        },
+        {
+          "name": "Wall fountain",
+          "description": "carved stone wall spout over a semicircular basin"
+        },
+        {
+          "name": "Tiered fountain",
+          "description": "three stacked stone fountain bowls"
+        },
+        {
+          "name": "Reflecting pool",
+          "description": "long shallow rectangular reflecting pool with a stone rim"
+        }
+      ]
+    }
+  ]
+}

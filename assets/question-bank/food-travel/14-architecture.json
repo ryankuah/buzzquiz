@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Architectural styles",
+      "question": "A guide offers four walking tours through one city. Which building style draws you in?",
+      "outcomes": [
+        {
+          "name": "Art Deco",
+          "description": "miniature stepped Art Deco tower with geometric detailing"
+        },
+        {
+          "name": "Brutalist",
+          "description": "miniature angular exposed-concrete civic building"
+        },
+        {
+          "name": "Gothic Revival",
+          "description": "miniature pointed-arch stone church with pinnacles"
+        },
+        {
+          "name": "Art Nouveau",
+          "description": "miniature flowing floral facade with iron balcony"
+        }
+      ]
+    },
+    {
+      "topic": "Doors around the world",
+      "question": "You are photographing interesting entrances. Which detail makes you stop?",
+      "outcomes": [
+        {
+          "name": "Horseshoe arch door",
+          "description": "turquoise door beneath a horseshoe arch"
+        },
+        {
+          "name": "Shoji screen",
+          "description": "sliding Japanese shoji door with translucent paper grid"
+        },
+        {
+          "name": "Dutch door",
+          "description": "painted stable door with top half open"
+        },
+        {
+          "name": "Studded timber gate",
+          "description": "heavy medieval wooden gate with iron studs"
+        }
+      ]
+    },
+    {
+      "topic": "Architectural details",
+      "question": "You can sketch only one carving before the tour moves on. What goes on the page?",
+      "outcomes": [
+        {
+          "name": "Gargoyle",
+          "description": "stone waterspout carved as a winged creature"
+        },
+        {
+          "name": "Corinthian capital",
+          "description": "stone column top with acanthus leaf carvings"
+        },
+        {
+          "name": "Rose window",
+          "description": "circular multicoloured stained-glass rose window"
+        },
+        {
+          "name": "Mosaic medallion",
+          "description": "circular tessellated stone mosaic with a floral motif"
+        }
+      ]
+    },
+    {
+      "topic": "Bridges",
+      "question": "A river route crosses four bridges. Which design do you want a closer look at?",
+      "outcomes": [
+        {
+          "name": "Suspension bridge",
+          "description": "red suspension bridge with sagging main cables"
+        },
+        {
+          "name": "Stone arch bridge",
+          "description": "short stone bridge with semicircular arches"
+        },
+        {
+          "name": "Covered bridge",
+          "description": "red wooden covered bridge"
+        },
+        {
+          "name": "Drawbridge",
+          "description": "twin bascule bridge with both halves raised"
+        }
+      ]
+    }
+  ]
+}

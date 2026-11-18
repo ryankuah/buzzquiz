@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Art history",
+      "question": "Your class is making a gallery of architectural details. Which replica do you bring?",
+      "outcomes": [
+        {
+          "name": "Ionic capital",
+          "description": "cream stone Ionic column capital with scrolls"
+        },
+        {
+          "name": "Gargoyle",
+          "description": "small grey crouching stone gargoyle"
+        },
+        {
+          "name": "Rose window",
+          "description": "round Gothic rose window in a stone surround"
+        },
+        {
+          "name": "Mosaic panel",
+          "description": "small square Roman-style fish mosaic"
+        }
+      ]
+    },
+    {
+      "topic": "Literature club",
+      "question": "Your club is setting up a reading corner for a poetry night. What do you bring from home?",
+      "outcomes": [
+        {
+          "name": "Bookends",
+          "description": "pair of wooden cat-shaped bookends"
+        },
+        {
+          "name": "Page weights",
+          "description": "pair of brass page weights"
+        },
+        {
+          "name": "Book light",
+          "description": "clip-on reading light with flexible neck"
+        },
+        {
+          "name": "Cushion stand",
+          "description": "triangular fabric book-rest cushion"
+        }
+      ]
+    },
+    {
+      "topic": "Geography classroom",
+      "question": "Your geography project must be explained with a physical object. Which one do you pick?",
+      "outcomes": [
+        {
+          "name": "Raised relief map",
+          "description": "small raised-relief terrain map"
+        },
+        {
+          "name": "Globe",
+          "description": "classroom globe on a tilted stand"
+        },
+        {
+          "name": "Contour model",
+          "description": "stack of coloured contour layers forming a hill"
+        },
+        {
+          "name": "Map wheel",
+          "description": "small metal map-measuring wheel with dial"
+        }
+      ]
+    },
+    {
+      "topic": "History club",
+      "question": "The history club is building a timeline from everyday inventions. What do you add?",
+      "outcomes": [
+        {
+          "name": "Abacus",
+          "description": "wooden abacus with colourful counting beads"
+        },
+        {
+          "name": "Oil lamp",
+          "description": "small ancient terracotta oil lamp"
+        },
+        {
+          "name": "Printing block",
+          "description": "carved wooden textile printing block"
+        },
+        {
+          "name": "Slide rule",
+          "description": "vintage ivory engineering slide rule with cursor"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Gymnastics apparatus",
+      "question": "Your team gets extra practice on one apparatus before a showcase. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Balance beam",
+          "description": "low brown gymnastics beam"
+        },
+        {
+          "name": "Parallel bars",
+          "description": "wood and silver gymnastics parallel bars"
+        },
+        {
+          "name": "Pommel horse",
+          "description": "gymnastics pommel horse with two handles"
+        },
+        {
+          "name": "Gym rings",
+          "description": "pair of wooden gymnastic rings on straps"
+        }
+      ]
+    },
+    {
+      "topic": "Dance fitness",
+      "question": "You're setting up a movement class with playful props. What goes in the centre?",
+      "outcomes": [
+        {
+          "name": "Ribbon wand",
+          "description": "long red rhythmic-gymnastics ribbon with a wand"
+        },
+        {
+          "name": "Fitness hoop",
+          "description": "bright blue hula hoop"
+        },
+        {
+          "name": "Aerobic step",
+          "description": "purple and teal adjustable step platform"
+        },
+        {
+          "name": "Dance scarf",
+          "description": "lightweight flowing orange silk dance scarf"
+        }
+      ]
+    },
+    {
+      "topic": "Bowling night",
+      "question": "You are laying out equipment for a bowling club open night. What do you unpack first?",
+      "outcomes": [
+        {
+          "name": "Bowling ball",
+          "description": "purple tenpin bowling ball with finger holes"
+        },
+        {
+          "name": "Bowling shoes",
+          "description": "pair of two-tone bowling shoes"
+        },
+        {
+          "name": "Pinsetter pin",
+          "description": "white tenpin bowling pin with red stripes"
+        },
+        {
+          "name": "Ball return",
+          "description": "mini bowling alley ball return with bowling balls"
+        }
+      ]
+    },
+    {
+      "topic": "Cue sports",
+      "question": "A friend invites you to a cue-sports hall. What do you pick up first?",
+      "outcomes": [
+        {
+          "name": "Pool cue",
+          "description": "wooden pool cue with blue tip"
+        },
+        {
+          "name": "Chalk cube",
+          "description": "blue billiard chalk cube"
+        },
+        {
+          "name": "Triangle rack",
+          "description": "wooden triangle rack filled with pool balls"
+        },
+        {
+          "name": "Spider rest",
+          "description": "brass spider cue rest head on a stick"
+        }
+      ]
+    }
+  ]
+}

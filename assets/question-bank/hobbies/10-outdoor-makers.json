@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Kite flying",
+      "question": "The wind has picked up at the park. Which kite do you unroll?",
+      "outcomes": [
+        {
+          "name": "Diamond kite",
+          "description": "classic diamond kite with a bow tail"
+        },
+        {
+          "name": "Box kite",
+          "description": "geometric open box kite"
+        },
+        {
+          "name": "Delta kite",
+          "description": "broad triangular delta kite"
+        },
+        {
+          "name": "Octopus kite",
+          "description": "kite shaped like a red octopus with ribbon tentacles"
+        }
+      ]
+    },
+    {
+      "topic": "Garden DIY",
+      "question": "Your community garden has room for one new weekend project. What do you build?",
+      "outcomes": [
+        {
+          "name": "Insect hotel",
+          "description": "wooden insect hotel with hollow bamboo tubes"
+        },
+        {
+          "name": "Bird bath",
+          "description": "stone pedestal bird bath with shallow bowl"
+        },
+        {
+          "name": "Rain barrel",
+          "description": "blue rainwater barrel with a spigot"
+        },
+        {
+          "name": "Raised bed",
+          "description": "small rectangular raised timber garden bed with leafy crops"
+        }
+      ]
+    },
+    {
+      "topic": "Outdoor lawn games",
+      "question": "The family reunion has a spare patch of grass. Which game do you set out?",
+      "outcomes": [
+        {
+          "name": "Croquet set",
+          "description": "wooden croquet mallet, ball and hoop"
+        },
+        {
+          "name": "Bocce balls",
+          "description": "group of coloured bocce balls with small jack"
+        },
+        {
+          "name": "Cornhole board",
+          "description": "sloping wooden cornhole board with beanbags"
+        },
+        {
+          "name": "Ring toss",
+          "description": "wooden peg ring-toss stand with rope rings"
+        }
+      ]
+    },
+    {
+      "topic": "Outdoor sketching",
+      "question": "You're leaving for a sketch walk and have space for one tool to help you compose. What goes in the bag?",
+      "outcomes": [
+        {
+          "name": "Viewfinder frame",
+          "description": "small rectangular cardboard artist viewfinder frame"
+        },
+        {
+          "name": "Pocket mirror",
+          "description": "small round folding pocket mirror"
+        },
+        {
+          "name": "Mini tripod",
+          "description": "tiny tabletop camera tripod"
+        },
+        {
+          "name": "Colour wheel",
+          "description": "circular artist colour wheel with multicoloured sectors"
+        }
+      ]
+    }
+  ]
+}

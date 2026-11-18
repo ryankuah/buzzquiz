@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Post office",
+      "question": "A neighbourhood history project is making a post office exhibit. Which object do you collect?",
+      "outcomes": [
+        {
+          "name": "Postmark stamp",
+          "description": "round wooden postal cancellation hand stamp"
+        },
+        {
+          "name": "Mail sack",
+          "description": "tan canvas postal sack with drawstring"
+        },
+        {
+          "name": "Postbox",
+          "description": "red cast-iron pillar postbox"
+        },
+        {
+          "name": "Parcel scales",
+          "description": "vintage parcel weighing scales with a broad tray"
+        }
+      ]
+    },
+    {
+      "topic": "Train careers",
+      "question": "The transport museum lets visitors try one old railway job. Which item do you pick up?",
+      "outcomes": [
+        {
+          "name": "Conductor cap",
+          "description": "navy railway conductor cap with silver badge"
+        },
+        {
+          "name": "Signal lantern",
+          "description": "vintage red railway signal lantern"
+        },
+        {
+          "name": "Ticket machine",
+          "description": "vintage portable ticket machine with shoulder strap"
+        },
+        {
+          "name": "Station whistle",
+          "description": "metal whistle on a braided lanyard"
+        }
+      ]
+    },
+    {
+      "topic": "Library work",
+      "question": "The library is recreating its lending desk from decades ago. What goes near the front?",
+      "outcomes": [
+        {
+          "name": "Date stamp",
+          "description": "self-inking date stamp with adjustable rubber bands"
+        },
+        {
+          "name": "Card catalogue",
+          "description": "small wooden card catalogue drawer full of index cards"
+        },
+        {
+          "name": "Book pocket",
+          "description": "cream library book pocket with a checkout card"
+        },
+        {
+          "name": "Book trolley",
+          "description": "small two-sided metal library book cart"
+        }
+      ]
+    },
+    {
+      "topic": "Park maintenance",
+      "question": "The park needs a community volunteer station. Which job kit would you help organise?",
+      "outcomes": [
+        {
+          "name": "Litter picker",
+          "description": "long handled litter grabber"
+        },
+        {
+          "name": "Leaf rake",
+          "description": "fan-shaped garden leaf rake"
+        },
+        {
+          "name": "Bulb planter",
+          "description": "handheld steel bulb planter with wooden grip"
+        },
+        {
+          "name": "Hose reel",
+          "description": "green garden hose coiled on a reel stand"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Spacecraft",
+      "question": "Mission control lets you pick a vehicle for the model display. Which do you build?",
+      "outcomes": [
+        {
+          "name": "Lunar lander",
+          "description": "Gold-foil lunar lander with four landing legs"
+        },
+        {
+          "name": "Mars rover",
+          "description": "Six-wheeled Mars rover with mast camera"
+        },
+        {
+          "name": "Space shuttle",
+          "description": "White winged orbital shuttle"
+        },
+        {
+          "name": "Solar sail",
+          "description": "Spacecraft with a broad square silver solar sail"
+        }
+      ]
+    },
+    {
+      "topic": "Astronomy instruments",
+      "question": "It's your turn to set up at the star party. Which instrument do you bring?",
+      "outcomes": [
+        {
+          "name": "Refracting telescope",
+          "description": "Long narrow brass refracting telescope on a tripod"
+        },
+        {
+          "name": "Radio dish",
+          "description": "Large parabolic radio telescope on base"
+        },
+        {
+          "name": "Star binoculars",
+          "description": "Black wide-aperture astronomy binoculars"
+        },
+        {
+          "name": "Planisphere",
+          "description": "Circular blue rotating paper star chart"
+        }
+      ]
+    },
+    {
+      "topic": "Solar system moons",
+      "question": "Your probe can visit one moon. Which surface would you photograph?",
+      "outcomes": [
+        {
+          "name": "Europa",
+          "description": "Pale icy moon streaked with rusty cracks"
+        },
+        {
+          "name": "Io",
+          "description": "Yellow volcanic moon mottled with orange and black"
+        },
+        {
+          "name": "Titan",
+          "description": "Round moon wrapped in hazy orange atmosphere"
+        },
+        {
+          "name": "Earth's Moon",
+          "description": "Grey cratered lunar globe with dark maria"
+        }
+      ]
+    },
+    {
+      "topic": "Space station life",
+      "question": "There's a spare hour aboard the station. Which experiment would you check on?",
+      "outcomes": [
+        {
+          "name": "Plant growth chamber",
+          "description": "Clear plant chamber containing tiny green seedlings"
+        },
+        {
+          "name": "Tethered water chamber",
+          "description": "Transparent blue spherical water chamber with a short hanging tether"
+        },
+        {
+          "name": "CubeSat",
+          "description": "Gold cube-shaped miniature satellite"
+        },
+        {
+          "name": "Glovebox",
+          "description": "Sealed tabletop experiment cabinet with two glove ports"
+        }
+      ]
+    }
+  ]
+}

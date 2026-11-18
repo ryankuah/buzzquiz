@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Team planning",
+      "question": "A new team project begins. Which task do you take?",
+      "outcomes": [
+        {
+          "name": "Sketch the first concept",
+          "description": "Sketch the first concept — team planning vignette"
+        },
+        {
+          "name": "Pin up a task board",
+          "description": "Pin up a task board — team planning vignette"
+        },
+        {
+          "name": "Set the meeting timer",
+          "description": "Set the meeting timer — team planning vignette"
+        },
+        {
+          "name": "Hand out project folders",
+          "description": "Hand out project folders — team planning vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Group study",
+      "question": "Your study group has an hour before a test. What do you suggest?",
+      "outcomes": [
+        {
+          "name": "Quiz each other with flashcards",
+          "description": "Quiz each other with flashcards — group study vignette"
+        },
+        {
+          "name": "Draw a mind map",
+          "description": "Draw a mind map — group study vignette"
+        },
+        {
+          "name": "Read notes aloud",
+          "description": "Read notes aloud — group study vignette"
+        },
+        {
+          "name": "Solve a practice puzzle",
+          "description": "Solve a practice puzzle — group study vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Brainstorming",
+      "question": "The team is stuck on an idea. What do you reach for?",
+      "outcomes": [
+        {
+          "name": "Index cards for sorting",
+          "description": "Index cards for sorting — brainstorming vignette"
+        },
+        {
+          "name": "A whiteboard marker",
+          "description": "A whiteboard marker — brainstorming vignette"
+        },
+        {
+          "name": "A cardboard prototype",
+          "description": "A cardboard prototype — brainstorming vignette"
+        },
+        {
+          "name": "An illustrated reference book",
+          "description": "An illustrated reference book — brainstorming vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Volunteer shift",
+      "question": "A neighbourhood event needs another pair of hands. Where do you help?",
+      "outcomes": [
+        {
+          "name": "Stack folding tables",
+          "description": "Stack folding tables — volunteer shift vignette"
+        },
+        {
+          "name": "Hand out water bottles",
+          "description": "Hand out water bottles — volunteer shift vignette"
+        },
+        {
+          "name": "Put up the bunting",
+          "description": "Put up the bunting — volunteer shift vignette"
+        },
+        {
+          "name": "Sweep the courtyard",
+          "description": "Sweep the courtyard — volunteer shift vignette"
+        }
+      ]
+    }
+  ]
+}

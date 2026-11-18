@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Arctic land animals",
+      "question": "A tundra nature calendar needs a winter cover. Which animal fills the page?",
+      "outcomes": [
+        {
+          "name": "Arctic fox",
+          "description": "Arctic fox — compact white fox with a fluffy tail"
+        },
+        {
+          "name": "Musk ox",
+          "description": "Musk ox — shaggy dark musk ox with curved horns"
+        },
+        {
+          "name": "Arctic hare",
+          "description": "Arctic hare — white hare with black ear tips"
+        },
+        {
+          "name": "Caribou",
+          "description": "Caribou — reindeer with broad branched antlers"
+        }
+      ]
+    },
+    {
+      "topic": "Seals",
+      "question": "You watch a seal colony from the boardwalk. Which portrait would you choose for your journal?",
+      "outcomes": [
+        {
+          "name": "Harp seal",
+          "description": "Harp seal — silvery adult seal with a dark harp-shaped marking"
+        },
+        {
+          "name": "Leopard seal",
+          "description": "Leopard seal — spotted long-headed Antarctic seal"
+        },
+        {
+          "name": "Elephant seal",
+          "description": "Elephant seal — large grey male seal with long flexible nose"
+        },
+        {
+          "name": "Ringed seal",
+          "description": "Ringed seal — small silvery seal with dark ring markings"
+        }
+      ]
+    },
+    {
+      "topic": "Cold weather kit",
+      "question": "You can decorate one item in your polar field kit. Which item gets your team colours?",
+      "outcomes": [
+        {
+          "name": "Snow goggles",
+          "description": "Snow goggles — wraparound amber snow goggles"
+        },
+        {
+          "name": "Fur-lined mittens",
+          "description": "Fur-lined mittens — pair of thick fur-lined mittens"
+        },
+        {
+          "name": "Balaclava",
+          "description": "Balaclava — knitted charcoal balaclava"
+        },
+        {
+          "name": "Insulated parka",
+          "description": "Insulated parka — bright orange expedition parka with fur-trim hood"
+        }
+      ]
+    },
+    {
+      "topic": "Ice forms",
+      "question": "You're modelling a polar landscape in miniature. Which ice feature gets centre stage?",
+      "outcomes": [
+        {
+          "name": "Iceberg",
+          "description": "Iceberg — jagged floating white and blue iceberg"
+        },
+        {
+          "name": "Ice floe",
+          "description": "Ice floe — flat broken slab of floating sea ice"
+        },
+        {
+          "name": "Icicles",
+          "description": "Icicles — cluster of clear tapering icicles"
+        },
+        {
+          "name": "Pressure ridge",
+          "description": "Pressure ridge — heaped blue sea-ice blocks in a jagged ridge"
+        }
+      ]
+    }
+  ]
+}

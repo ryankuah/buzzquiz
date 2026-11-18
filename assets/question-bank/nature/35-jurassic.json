@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Theropod dinosaurs",
+      "question": "You're designing a dinosaur silhouette puzzle. Which theropod goes on its lid?",
+      "outcomes": [
+        {
+          "name": "Tyrannosaurus rex",
+          "description": "Tyrannosaurus rex — huge brown two-legged dinosaur with tiny forearms"
+        },
+        {
+          "name": "Spinosaurus",
+          "description": "Spinosaurus — long-snouted dinosaur with tall striped back sail"
+        },
+        {
+          "name": "Dilophosaurus",
+          "description": "Dilophosaurus — slender dinosaur with twin bony head crests and no neck frill"
+        },
+        {
+          "name": "Carnotaurus",
+          "description": "Carnotaurus — stocky red dinosaur with two short brow horns"
+        }
+      ]
+    },
+    {
+      "topic": "Feathered dinosaurs",
+      "question": "Which feathered dinosaur gets a perch in your model forest?",
+      "outcomes": [
+        {
+          "name": "Microraptor",
+          "description": "Microraptor — small dark four-winged feathered dinosaur"
+        },
+        {
+          "name": "Archaeopteryx",
+          "description": "Archaeopteryx — primitive feathered bird with long feathered tail"
+        },
+        {
+          "name": "Oviraptor",
+          "description": "Oviraptor — feathered dinosaur with tall crest and short beak"
+        },
+        {
+          "name": "Therizinosaurus",
+          "description": "Therizinosaurus — large feathered dinosaur with exceptionally long curved claws"
+        }
+      ]
+    },
+    {
+      "topic": "Pterosaurs",
+      "question": "A prehistoric flight exhibit needs a suspended model. Which one should hang above the entrance?",
+      "outcomes": [
+        {
+          "name": "Pteranodon",
+          "description": "Pteranodon — long-beaked pterosaur with backward-pointing crest"
+        },
+        {
+          "name": "Dimorphodon",
+          "description": "Dimorphodon — small long-tailed pterosaur with deep skull"
+        },
+        {
+          "name": "Quetzalcoatlus",
+          "description": "Quetzalcoatlus — very tall long-necked pterosaur walking on four limbs"
+        },
+        {
+          "name": "Tapejara",
+          "description": "Tapejara — short-beaked pterosaur with red sail-like head crest"
+        }
+      ]
+    },
+    {
+      "topic": "Prehistoric arthropods",
+      "question": "A fossil mural has room for one ancient arthropod. Which one gets the spotlight?",
+      "outcomes": [
+        {
+          "name": "Anomalocaris",
+          "description": "Anomalocaris — segmented swimming fossil animal with two curved frontal appendages"
+        },
+        {
+          "name": "Eurypterid",
+          "description": "Eurypterid — prehistoric sea scorpion with paddlelike limbs"
+        },
+        {
+          "name": "Arthropleura",
+          "description": "Arthropleura — giant rusty segmented millipede"
+        },
+        {
+          "name": "Meganeura",
+          "description": "Meganeura — prehistoric giant dragonfly"
+        }
+      ]
+    }
+  ]
+}

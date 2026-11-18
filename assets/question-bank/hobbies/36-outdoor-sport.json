@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Cricket club",
+      "question": "Rain clears just in time for the school cricket match. What do you carry out to set up?",
+      "outcomes": [
+        {
+          "name": "Cricket stumps",
+          "description": "three wooden cricket stumps with bails"
+        },
+        {
+          "name": "Cricket bat",
+          "description": "flat wooden cricket bat with blue handle"
+        },
+        {
+          "name": "Wicketkeeping gloves",
+          "description": "bulky green wicketkeeper gloves"
+        },
+        {
+          "name": "Boundary cones",
+          "description": "stack of low orange marker cones"
+        }
+      ]
+    },
+    {
+      "topic": "Baseball practice",
+      "question": "Your baseball team is running an open practice. Which station will you set up?",
+      "outcomes": [
+        {
+          "name": "Batting tee",
+          "description": "black adjustable baseball batting tee"
+        },
+        {
+          "name": "Catcher's mask",
+          "description": "metal baseball catcher's face mask"
+        },
+        {
+          "name": "First baseman's mitt",
+          "description": "tan leather first baseman baseball mitt"
+        },
+        {
+          "name": "Pitching rubber",
+          "description": "white pitching rubber on a small patch of clay"
+        }
+      ]
+    },
+    {
+      "topic": "Disc golf",
+      "question": "Your disc golf club wants a display for first-timers. Which item do you bring?",
+      "outcomes": [
+        {
+          "name": "Disc basket",
+          "description": "metal chain disc golf basket"
+        },
+        {
+          "name": "Disc golf bag",
+          "description": "shoulder bag filled with colourful discs"
+        },
+        {
+          "name": "Mini marker disc",
+          "description": "small blue disc golf marker with embossed star"
+        },
+        {
+          "name": "Tee marker",
+          "description": "wooden disc golf tee marker post"
+        }
+      ]
+    },
+    {
+      "topic": "Orienteering",
+      "question": "Your team is running a practice course in the park. Which item do you set by the start?",
+      "outcomes": [
+        {
+          "name": "Control flag",
+          "description": "orange and white triangular orienteering flag"
+        },
+        {
+          "name": "Baseplate compass",
+          "description": "clear rectangular baseplate compass"
+        },
+        {
+          "name": "Control punch",
+          "description": "red handheld orienteering pin punch"
+        },
+        {
+          "name": "Map sleeve",
+          "description": "transparent waterproof map sleeve holding a contour map"
+        }
+      ]
+    }
+  ]
+}

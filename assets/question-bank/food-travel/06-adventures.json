@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Trail supplies",
+      "question": "Your backpack has one side pocket free. Which item do you reach for first?",
+      "outcomes": [
+        {
+          "name": "Headlamp",
+          "description": "small headlamp on elastic strap"
+        },
+        {
+          "name": "Trail compass",
+          "description": "brass hiking compass on a lanyard"
+        },
+        {
+          "name": "Water filter",
+          "description": "compact portable water filter with squeeze pouch"
+        },
+        {
+          "name": "Trekking pole",
+          "description": "collapsed telescoping trekking pole"
+        }
+      ]
+    },
+    {
+      "topic": "Historic sightseeing",
+      "question": "A walking tour gives you an afternoon off. Which structure gets a closer look?",
+      "outcomes": [
+        {
+          "name": "Aqueduct",
+          "description": "miniature Roman stone aqueduct arches"
+        },
+        {
+          "name": "Stupa",
+          "description": "miniature white domed Buddhist stupa with golden spire"
+        },
+        {
+          "name": "Windmill",
+          "description": "traditional wooden windmill with four sails"
+        },
+        {
+          "name": "Amphitheatre",
+          "description": "miniature oval ancient stone amphitheatre"
+        }
+      ]
+    },
+    {
+      "topic": "Waterfalls and landforms",
+      "question": "You have time for one landmark hike. Where would you go?",
+      "outcomes": [
+        {
+          "name": "Sea arch",
+          "description": "coastal sea arch with blue water"
+        },
+        {
+          "name": "Slot canyon",
+          "description": "narrow red sandstone slot canyon"
+        },
+        {
+          "name": "Travertine terraces",
+          "description": "stepped white travertine pools filled with turquoise water"
+        },
+        {
+          "name": "Basalt columns",
+          "description": "cluster of dark hexagonal basalt columns"
+        }
+      ]
+    },
+    {
+      "topic": "Travel mementos",
+      "question": "You want to remember the route without taking another photo. What do you keep?",
+      "outcomes": [
+        {
+          "name": "Train ticket",
+          "description": "small vintage punched railway ticket without legible words"
+        },
+        {
+          "name": "Luggage tag",
+          "description": "leather luggage tag with brass buckle"
+        },
+        {
+          "name": "Paper map",
+          "description": "creased fold-out road map without words"
+        },
+        {
+          "name": "Travel stamp",
+          "description": "rubber stamp beside an ink pad"
+        }
+      ]
+    }
+  ]
+}

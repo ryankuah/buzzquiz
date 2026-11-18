@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Prairie animals",
+      "question": "A field recorder comes on at dawn. Which prairie resident do you hope to see?",
+      "outcomes": [
+        {
+          "name": "American bison",
+          "description": "American bison — large dark bison with a shoulder hump"
+        },
+        {
+          "name": "Prairie dog",
+          "description": "Prairie dog — tan prairie dog upright on hind legs"
+        },
+        {
+          "name": "Pronghorn",
+          "description": "Pronghorn — light tan pronghorn with forked black horns"
+        },
+        {
+          "name": "Black-footed ferret",
+          "description": "Black-footed ferret — pale slender ferret with dark feet and mask"
+        }
+      ]
+    },
+    {
+      "topic": "African antelopes",
+      "question": "Your safari sketchbook opens to a page about horns. Which antelope do you draw?",
+      "outcomes": [
+        {
+          "name": "Gemsbok",
+          "description": "Gemsbok — grey antelope with straight spear-like horns and black face markings"
+        },
+        {
+          "name": "Greater kudu",
+          "description": "Greater kudu — grey-brown antelope with huge spiral horns"
+        },
+        {
+          "name": "Springbok",
+          "description": "Springbok — slim tan antelope with dark side stripe and lyre-shaped horns"
+        },
+        {
+          "name": "Sable antelope",
+          "description": "Sable antelope — dark antelope with long backward-curving ridged horns"
+        }
+      ]
+    },
+    {
+      "topic": "Savanna scavengers",
+      "question": "The wildlife guide asks you to pick a scavenger for a conservation sign. Which one?",
+      "outcomes": [
+        {
+          "name": "Spotted hyena",
+          "description": "Spotted hyena — sloping-backed tan hyena with dark spots"
+        },
+        {
+          "name": "Marabou stork",
+          "description": "Marabou stork — tall black and white stork with bare pink head"
+        },
+        {
+          "name": "White-backed vulture",
+          "description": "White-backed vulture — large brown vulture with pale neck ruff"
+        },
+        {
+          "name": "Black-backed jackal",
+          "description": "Black-backed jackal — slender russet jackal with a dark saddle"
+        }
+      ]
+    },
+    {
+      "topic": "Grassland plants",
+      "question": "You're restoring a small patch of meadow. Which plant goes on the planting-day flyer?",
+      "outcomes": [
+        {
+          "name": "Purple prairie clover",
+          "description": "Purple prairie clover — thimble-shaped purple flowering prairie clover"
+        },
+        {
+          "name": "Little bluestem",
+          "description": "Little bluestem — copper-blue clump of prairie grass"
+        },
+        {
+          "name": "Goldenrod",
+          "description": "Goldenrod — arching spray of tiny golden yellow blossoms"
+        },
+        {
+          "name": "Milkweed",
+          "description": "Milkweed — rounded cluster of pink milkweed flowers with broad leaves"
+        }
+      ]
+    }
+  ]
+}

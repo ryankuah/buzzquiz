@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Walker's daypack",
+      "question": "You check the forecast before a long trail. What do you put by the door first?",
+      "outcomes": [
+        {
+          "name": "Rain poncho",
+          "description": "Folded bright yellow hooded rain poncho"
+        },
+        {
+          "name": "Hiking poles",
+          "description": "Pair of adjustable trekking poles"
+        },
+        {
+          "name": "Headlamp",
+          "description": "LED headlamp with elastic headband"
+        },
+        {
+          "name": "Insulated flask",
+          "description": "Tall stainless vacuum flask with screw-on cup"
+        }
+      ]
+    },
+    {
+      "topic": "Campsite lighting",
+      "question": "Dusk falls over your campsite. Which light would you switch on?",
+      "outcomes": [
+        {
+          "name": "Hurricane lantern",
+          "description": "Traditional red hurricane lantern"
+        },
+        {
+          "name": "Solar camping lantern",
+          "description": "Collapsible orange camping lantern with solar lid"
+        },
+        {
+          "name": "String lights",
+          "description": "Loose coil of glowing camping string lights"
+        },
+        {
+          "name": "Pocket torch",
+          "description": "Compact green flashlight with textured grip"
+        }
+      ]
+    },
+    {
+      "topic": "Freshwater paddling",
+      "question": "The outfitter has four ways to cross the calm lake. Which one do you hire?",
+      "outcomes": [
+        {
+          "name": "Kayak",
+          "description": "Red single-seat kayak with a double-ended paddle"
+        },
+        {
+          "name": "Canoe",
+          "description": "Open green canoe with wooden benches"
+        },
+        {
+          "name": "Stand-up paddleboard",
+          "description": "Blue upright paddleboard with a single fin"
+        },
+        {
+          "name": "Rowboat",
+          "description": "Small wooden rowboat with two oars"
+        }
+      ]
+    },
+    {
+      "topic": "Navigation",
+      "question": "Mist rolls across the overlook. Which navigation aid do you reach for?",
+      "outcomes": [
+        {
+          "name": "Baseplate compass",
+          "description": "Transparent rectangular baseplate compass with red needle"
+        },
+        {
+          "name": "Topographic map",
+          "description": "Folded hiking map with contour lines"
+        },
+        {
+          "name": "Handheld GPS",
+          "description": "Rugged handheld GPS receiver with a tiny map screen"
+        },
+        {
+          "name": "Trail signpost",
+          "description": "Wooden trail signpost with two plain arrows"
+        }
+      ]
+    }
+  ]
+}

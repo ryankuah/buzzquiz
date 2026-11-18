@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Wedding table details",
+      "question": "You are helping set one table before the reception. What do you arrive with?",
+      "outcomes": [
+        {
+          "name": "Table number stand",
+          "description": "brass wire stand with plain ivory card"
+        },
+        {
+          "name": "Mini bouquet",
+          "description": "small bridal table bouquet in a compact vase"
+        },
+        {
+          "name": "Tealight holders",
+          "description": "three amber glass tealight cups"
+        },
+        {
+          "name": "Menu scroll",
+          "description": "rolled blank cream paper tied with ribbon"
+        }
+      ]
+    },
+    {
+      "topic": "Birthday party games",
+      "question": "You have a yard and twenty minutes before cake. What do you set up?",
+      "outcomes": [
+        {
+          "name": "Piñata",
+          "description": "colourful donkey-shaped papier-mâché piñata"
+        },
+        {
+          "name": "Beanbag toss",
+          "description": "painted board with a hole and beanbags"
+        },
+        {
+          "name": "Limbo",
+          "description": "horizontal colourful limbo pole on stands"
+        },
+        {
+          "name": "Pass the parcel",
+          "description": "gift with several visibly coloured wrapping layers"
+        }
+      ]
+    },
+    {
+      "topic": "Dinner party jobs",
+      "question": "Four things are still on the kitchen counter. Which do you take care of?",
+      "outcomes": [
+        {
+          "name": "Folding napkins",
+          "description": "fan-folded white linen dinner napkin"
+        },
+        {
+          "name": "Polishing glasses",
+          "description": "clean wineglass and a polishing cloth"
+        },
+        {
+          "name": "Arranging flowers",
+          "description": "cut flowers and pruning snips beside vase"
+        },
+        {
+          "name": "Slicing sourdough",
+          "description": "serrated bread knife beside sliced sourdough"
+        }
+      ]
+    },
+    {
+      "topic": "Housewarming gifts",
+      "question": "A friend has moved into their first flat. What do you carry up the stairs?",
+      "outcomes": [
+        {
+          "name": "Coasters",
+          "description": "stack of cork drink coasters"
+        },
+        {
+          "name": "Door mat",
+          "description": "coir doormat with geometric pattern"
+        },
+        {
+          "name": "Herb planter",
+          "description": "small windowsill planter with basil and parsley"
+        },
+        {
+          "name": "Ceramic pitcher",
+          "description": "striped blue ceramic water pitcher"
+        }
+      ]
+    }
+  ]
+}

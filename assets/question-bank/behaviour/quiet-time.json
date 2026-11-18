@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Wind down",
+      "question": "You get half an hour to yourself before bed. What do you do?",
+      "outcomes": [
+        {
+          "name": "Read by lamplight",
+          "description": "Read by lamplight — wind down vignette"
+        },
+        {
+          "name": "Sketch in a notebook",
+          "description": "Sketch in a notebook — wind down vignette"
+        },
+        {
+          "name": "Make a mug of warm cocoa",
+          "description": "Make a mug of warm cocoa — wind down vignette"
+        },
+        {
+          "name": "Listen to a vinyl record",
+          "description": "Listen to a vinyl record — wind down vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Morning ritual",
+      "question": "You have five calm minutes before the house wakes up. What fills them?",
+      "outcomes": [
+        {
+          "name": "Open the curtains",
+          "description": "Open the curtains — morning ritual vignette"
+        },
+        {
+          "name": "Water the windowsill herbs",
+          "description": "Water the windowsill herbs — morning ritual vignette"
+        },
+        {
+          "name": "Write a journal page",
+          "description": "Write a journal page — morning ritual vignette"
+        },
+        {
+          "name": "Steep a pot of tea",
+          "description": "Steep a pot of tea — morning ritual vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Library visit",
+      "question": "The library is quiet and you have the afternoon free. What do you explore?",
+      "outcomes": [
+        {
+          "name": "A shelf of travel guides",
+          "description": "A shelf of travel guides — library visit vignette"
+        },
+        {
+          "name": "A box of historic photos",
+          "description": "A box of historic photos — library visit vignette"
+        },
+        {
+          "name": "A rack of sheet music",
+          "description": "A rack of sheet music — library visit vignette"
+        },
+        {
+          "name": "A table of art books",
+          "description": "A table of art books — library visit vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Creative break",
+      "question": "You need a break from your screen. What is your hands-on distraction?",
+      "outcomes": [
+        {
+          "name": "Fold an origami crane",
+          "description": "Fold an origami crane — creative break vignette"
+        },
+        {
+          "name": "Sharpen coloured pencils",
+          "description": "Sharpen coloured pencils — creative break vignette"
+        },
+        {
+          "name": "Thread beads on a cord",
+          "description": "Thread beads on a cord — creative break vignette"
+        },
+        {
+          "name": "Shape a small clay bowl",
+          "description": "Shape a small clay bowl — creative break vignette"
+        }
+      ]
+    }
+  ]
+}

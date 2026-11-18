@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Woodworking",
+      "question": "A neighbour offers you a little offcut of walnut. What do you carve from it?",
+      "outcomes": [
+        {
+          "name": "Carved spoon",
+          "description": "hand-carved walnut eating spoon"
+        },
+        {
+          "name": "Wooden spinning top",
+          "description": "turned wooden spinning top"
+        },
+        {
+          "name": "Carved bird",
+          "description": "small smooth walnut bird carving"
+        },
+        {
+          "name": "Ring box",
+          "description": "little hinged walnut ring box"
+        }
+      ]
+    },
+    {
+      "topic": "Clay handbuilding",
+      "question": "There is one spot left in the kiln. Which clay project gets it?",
+      "outcomes": [
+        {
+          "name": "Pinch pot",
+          "description": "small irregular turquoise pinch pot"
+        },
+        {
+          "name": "Coil vase",
+          "description": "tall terracotta vase made from visible coils"
+        },
+        {
+          "name": "Slab tray",
+          "description": "shallow rectangular ceramic slab tray"
+        },
+        {
+          "name": "Sculpted toad",
+          "description": "small green glazed ceramic toad"
+        }
+      ]
+    },
+    {
+      "topic": "Candle making",
+      "question": "Your stall needs a candle that people will spot from across the room. Which shape do you cast?",
+      "outcomes": [
+        {
+          "name": "Bubble cube candle",
+          "description": "pink cube made of bubble spheres with wick"
+        },
+        {
+          "name": "Spiral taper candle",
+          "description": "tall green twisted taper candle"
+        },
+        {
+          "name": "Shell candle",
+          "description": "peach scallop-shell candle with wick"
+        },
+        {
+          "name": "Pillar candle",
+          "description": "thick burgundy cylindrical pillar candle with wick"
+        }
+      ]
+    },
+    {
+      "topic": "Stained glass",
+      "question": "Sunlight hits an empty hook in the kitchen window. Which glass piece belongs there?",
+      "outcomes": [
+        {
+          "name": "Sunburst suncatcher",
+          "description": "orange and yellow leaded-glass sunburst"
+        },
+        {
+          "name": "Whale suncatcher",
+          "description": "blue whale in leaded stained glass"
+        },
+        {
+          "name": "Mountain suncatcher",
+          "description": "green triangular mountains in leaded glass"
+        },
+        {
+          "name": "Dragonfly suncatcher",
+          "description": "teal four-winged stained glass dragonfly"
+        }
+      ]
+    }
+  ]
+}

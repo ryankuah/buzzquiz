@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Cosplay headwear",
+      "question": "You have time to finish one final costume piece before the convention. What goes on your head?",
+      "outcomes": [
+        {
+          "name": "Cat-ear headband",
+          "description": "plush black cat-ear headband"
+        },
+        {
+          "name": "Flower crown",
+          "description": "colourful wildflower crown"
+        },
+        {
+          "name": "Robot visor",
+          "description": "curved turquoise futuristic visor"
+        },
+        {
+          "name": "Jester cap",
+          "description": "red and blue three-point jester cap with bells"
+        }
+      ]
+    },
+    {
+      "topic": "Costume wings",
+      "question": "Your cosplay group is choosing wings for a parade. Which pair do you test?",
+      "outcomes": [
+        {
+          "name": "Butterfly wings",
+          "description": "wearable orange monarch butterfly wings"
+        },
+        {
+          "name": "Clockwork wings",
+          "description": "brass mechanical feathered wings"
+        },
+        {
+          "name": "Fairy wings",
+          "description": "delicate iridescent lavender fairy wings"
+        },
+        {
+          "name": "Bat wings",
+          "description": "wearable dark purple fabric bat wings"
+        }
+      ]
+    },
+    {
+      "topic": "Convention bag",
+      "question": "Your convention bag has one small pocket left. What do you squeeze in?",
+      "outcomes": [
+        {
+          "name": "Badge lanyard",
+          "description": "purple lanyard with blank convention badge"
+        },
+        {
+          "name": "Badge ribbon",
+          "description": "stack of colourful fabric badge ribbons"
+        },
+        {
+          "name": "Folding stool",
+          "description": "compact folded camping stool"
+        },
+        {
+          "name": "Portable fan",
+          "description": "small mint handheld battery fan"
+        }
+      ]
+    },
+    {
+      "topic": "Cosplay detailing",
+      "question": "The costume is nearly finished but still feels plain. What trim do you reach for?",
+      "outcomes": [
+        {
+          "name": "Gold braid",
+          "description": "coil of metallic gold braid trim"
+        },
+        {
+          "name": "Sequin strip",
+          "description": "rolled iridescent sequin trim"
+        },
+        {
+          "name": "Lace edging",
+          "description": "rolled ivory floral lace edging"
+        },
+        {
+          "name": "Studded strap",
+          "description": "black leather strap with silver pyramid studs"
+        }
+      ]
+    }
+  ]
+}

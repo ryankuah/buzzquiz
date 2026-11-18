@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "First date walks",
+      "question": "You are planning a first date with plenty to look at between conversations. Where do you meet?",
+      "outcomes": [
+        {
+          "name": "Botanical conservatory",
+          "description": "small glass conservatory filled with tropical plants"
+        },
+        {
+          "name": "Riverside boardwalk",
+          "description": "short wooden riverside boardwalk with benches"
+        },
+        {
+          "name": "Sculpture courtyard",
+          "description": "small courtyard with abstract metal sculpture"
+        },
+        {
+          "name": "Pier arcade",
+          "description": "seaside pier amusement arcade entrance"
+        }
+      ]
+    },
+    {
+      "topic": "Creative dates",
+      "question": "Neither of you wants to sit still all evening. Which class do you book?",
+      "outcomes": [
+        {
+          "name": "Printmaking",
+          "description": "ink roller beside a carved linocut"
+        },
+        {
+          "name": "Glassblowing",
+          "description": "blowpipe with a glowing glass bubble"
+        },
+        {
+          "name": "Candle pouring",
+          "description": "metal pouring jug pouring wax into a jar"
+        },
+        {
+          "name": "Flower pressing",
+          "description": "wooden flower press with violet flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Movie night seating",
+      "question": "An outdoor movie starts in half an hour. What do you carry onto the lawn?",
+      "outcomes": [
+        {
+          "name": "Folding lawn chair",
+          "description": "striped folding lawn chair"
+        },
+        {
+          "name": "Beanbag",
+          "description": "soft red beanbag seat"
+        },
+        {
+          "name": "Picnic blanket",
+          "description": "folded green checked picnic blanket"
+        },
+        {
+          "name": "Inflatable lounger",
+          "description": "blue air-filled inflatable lounge chair"
+        }
+      ]
+    },
+    {
+      "topic": "Long-distance friendship",
+      "question": "A friend abroad asks for a tiny reminder of home. What do you mail?",
+      "outcomes": [
+        {
+          "name": "Photo strip",
+          "description": "four-frame photobooth strip with small smiling figures"
+        },
+        {
+          "name": "Friendship bracelet",
+          "description": "bright braided friendship bracelet"
+        },
+        {
+          "name": "Recipe card",
+          "description": "cream recipe card with a painted bowl and lines"
+        },
+        {
+          "name": "Pressed flower",
+          "description": "pressed violet flower between paper sheets"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Japanese lunch",
+      "question": "You have one lunch break in Osaka. Which dish do you order?",
+      "outcomes": [
+        {
+          "name": "Okonomiyaki",
+          "description": "Okonomiyaki"
+        },
+        {
+          "name": "Takoyaki",
+          "description": "Takoyaki"
+        },
+        {
+          "name": "Kitsune udon",
+          "description": "Kitsune udon"
+        },
+        {
+          "name": "Katsu curry",
+          "description": "Katsu curry"
+        }
+      ]
+    },
+    {
+      "topic": "Korean lunch",
+      "question": "The lunch counter has room for one more tray. What do you choose?",
+      "outcomes": [
+        {
+          "name": "Bibimbap",
+          "description": "Bibimbap"
+        },
+        {
+          "name": "Gimbap",
+          "description": "Gimbap"
+        },
+        {
+          "name": "Tteokbokki",
+          "description": "Tteokbokki"
+        },
+        {
+          "name": "Kimchi pancake",
+          "description": "Kimchi pancake"
+        }
+      ]
+    },
+    {
+      "topic": "South Indian breakfast",
+      "question": "Which breakfast do you share at the table first?",
+      "outcomes": [
+        {
+          "name": "Masala dosa",
+          "description": "Masala dosa"
+        },
+        {
+          "name": "Idli",
+          "description": "Idli"
+        },
+        {
+          "name": "Medu vada",
+          "description": "Medu vada"
+        },
+        {
+          "name": "Appam",
+          "description": "Appam"
+        }
+      ]
+    },
+    {
+      "topic": "Levantine mezze",
+      "question": "Pick a dish to pass around with warm bread.",
+      "outcomes": [
+        {
+          "name": "Baba ganoush",
+          "description": "Baba ganoush"
+        },
+        {
+          "name": "Tabbouleh",
+          "description": "Tabbouleh"
+        },
+        {
+          "name": "Falafel",
+          "description": "Falafel"
+        },
+        {
+          "name": "Fattoush",
+          "description": "Fattoush"
+        }
+      ]
+    }
+  ]
+}

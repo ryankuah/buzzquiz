@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Dinner guests",
+      "question": "A friend brings an extra guest. What do you do first?",
+      "outcomes": [
+        {
+          "name": "Set another place",
+          "description": "Set another place — dinner guests vignette"
+        },
+        {
+          "name": "Divide the loaf",
+          "description": "Divide the loaf — dinner guests vignette"
+        },
+        {
+          "name": "Move the serving bowls",
+          "description": "Move the serving bowls — dinner guests vignette"
+        },
+        {
+          "name": "Pull out a spare stool",
+          "description": "Pull out a spare stool — dinner guests vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Shared meal",
+      "question": "You and your friends are cooking together. Which job do you claim?",
+      "outcomes": [
+        {
+          "name": "Knead the flatbread",
+          "description": "Knead the flatbread — shared meal vignette"
+        },
+        {
+          "name": "Chop fresh herbs",
+          "description": "Chop fresh herbs — shared meal vignette"
+        },
+        {
+          "name": "Stir the simmering sauce",
+          "description": "Stir the simmering sauce — shared meal vignette"
+        },
+        {
+          "name": "Fold napkins for the table",
+          "description": "Fold napkins for the table — shared meal vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Kitchen cleanup",
+      "question": "Dinner is over. How do you help the host?",
+      "outcomes": [
+        {
+          "name": "Stack the plates",
+          "description": "Stack the plates — kitchen cleanup vignette"
+        },
+        {
+          "name": "Dry the wine glasses",
+          "description": "Dry the wine glasses — kitchen cleanup vignette"
+        },
+        {
+          "name": "Pack leftover food",
+          "description": "Pack leftover food — kitchen cleanup vignette"
+        },
+        {
+          "name": "Wipe down the counter",
+          "description": "Wipe down the counter — kitchen cleanup vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Overnight guest",
+      "question": "You want a guest to feel at home. What do you leave by their bed?",
+      "outcomes": [
+        {
+          "name": "A folded guest towel",
+          "description": "A folded guest towel — overnight guest vignette"
+        },
+        {
+          "name": "A bedside water carafe",
+          "description": "A bedside water carafe — overnight guest vignette"
+        },
+        {
+          "name": "A small reading lamp",
+          "description": "A small reading lamp — overnight guest vignette"
+        },
+        {
+          "name": "A vase of garden flowers",
+          "description": "A vase of garden flowers — overnight guest vignette"
+        }
+      ]
+    }
+  ]
+}

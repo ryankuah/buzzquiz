@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Jewellery stones",
+      "question": "A jeweller gives you four stones for a new pendant. Which do you set?",
+      "outcomes": [
+        {
+          "name": "Sapphire",
+          "description": "Faceted deep blue sapphire"
+        },
+        {
+          "name": "Garnet",
+          "description": "Dark wine-red garnet crystal"
+        },
+        {
+          "name": "Peridot",
+          "description": "Faceted yellow-green peridot"
+        },
+        {
+          "name": "Citrine",
+          "description": "Golden yellow citrine crystal"
+        }
+      ]
+    },
+    {
+      "topic": "Decorative minerals",
+      "question": "You're curating a shelf of colourful minerals. Which specimen belongs in the middle?",
+      "outcomes": [
+        {
+          "name": "Malachite",
+          "description": "Green banded malachite stone"
+        },
+        {
+          "name": "Lapis lazuli",
+          "description": "Deep blue lapis speckled with gold"
+        },
+        {
+          "name": "Rhodochrosite",
+          "description": "Pink and white banded rhodochrosite"
+        },
+        {
+          "name": "Turquoise",
+          "description": "Blue turquoise with a dark matrix"
+        }
+      ]
+    },
+    {
+      "topic": "Seaside jewellery",
+      "question": "You can make one coastal keepsake. Which natural material do you string on a cord?",
+      "outcomes": [
+        {
+          "name": "Abalone shell",
+          "description": "Iridescent oval abalone shell with row of holes"
+        },
+        {
+          "name": "Freshwater pearl",
+          "description": "Single lustrous irregular white pearl"
+        },
+        {
+          "name": "Amber",
+          "description": "Translucent golden amber nugget"
+        },
+        {
+          "name": "Mother-of-pearl button",
+          "description": "Round iridescent shell button with four holes"
+        }
+      ]
+    },
+    {
+      "topic": "Crystal shapes",
+      "question": "You're arranging a crystal geometry display. Which form would you put under a spotlight?",
+      "outcomes": [
+        {
+          "name": "Quartz point",
+          "description": "Tall clear six-sided quartz point"
+        },
+        {
+          "name": "Fluorite cube",
+          "description": "Translucent purple fluorite cube"
+        },
+        {
+          "name": "Bismuth crystal",
+          "description": "Rainbow metallic bismuth hopper crystal"
+        },
+        {
+          "name": "Desert rose crystal",
+          "description": "Sandy gypsum crystal in rose-petal clusters"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Winter decorations",
+      "question": "You have one free shelf for a festive decoration. What takes centre stage?",
+      "outcomes": [
+        {
+          "name": "Nutcracker",
+          "description": "traditional painted wooden nutcracker soldier"
+        },
+        {
+          "name": "Evergreen wreath",
+          "description": "round evergreen wreath with pinecones and ribbon"
+        },
+        {
+          "name": "Ceramic village",
+          "description": "three snowy ceramic village houses"
+        },
+        {
+          "name": "Advent calendar",
+          "description": "miniature wooden house with tiny numbered drawers"
+        }
+      ]
+    },
+    {
+      "topic": "Beach holiday gear",
+      "question": "You are leaving the resort for an afternoon by the sea. What goes over your shoulder?",
+      "outcomes": [
+        {
+          "name": "Snorkel set",
+          "description": "diving mask and snorkel tube"
+        },
+        {
+          "name": "Beach towel",
+          "description": "rolled blue and white striped beach towel"
+        },
+        {
+          "name": "Dry bag",
+          "description": "orange waterproof roll-top dry bag"
+        },
+        {
+          "name": "Beach mat",
+          "description": "rolled woven reed mat with carrying strap"
+        }
+      ]
+    },
+    {
+      "topic": "Roadside holiday stops",
+      "question": "You have one unplanned stop on a long drive. Which roadside sight wins?",
+      "outcomes": [
+        {
+          "name": "Fruit stand",
+          "description": "small wooden fruit stand with crates of peaches"
+        },
+        {
+          "name": "Scenic lookout",
+          "description": "railed viewing platform with a coin-operated telescope"
+        },
+        {
+          "name": "Diner",
+          "description": "miniature chrome roadside diner with red stools"
+        },
+        {
+          "name": "Mini golf",
+          "description": "mini-golf putting green with windmill obstacle"
+        }
+      ]
+    },
+    {
+      "topic": "Holiday postcards",
+      "question": "You are sending a postcard to a friend who loves scenery. Which view do you choose?",
+      "outcomes": [
+        {
+          "name": "Lavender field",
+          "description": "rows of purple flowering lavender hills"
+        },
+        {
+          "name": "Glacier lagoon",
+          "description": "blue lagoon dotted with icebergs"
+        },
+        {
+          "name": "Desert dunes",
+          "description": "rolling golden sand dunes"
+        },
+        {
+          "name": "Terraced vineyard",
+          "description": "green hillside with stepped grapevine rows"
+        }
+      ]
+    }
+  ]
+}

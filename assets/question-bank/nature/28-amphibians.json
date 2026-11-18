@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Frogs",
+      "question": "You need a frog model for the terrarium exhibit. Which one do you make?",
+      "outcomes": [
+        {
+          "name": "Pacman frog",
+          "description": "Pacman frog — round green horned frog with wide mouth"
+        },
+        {
+          "name": "Red-eyed tree frog",
+          "description": "Red-eyed tree frog — green frog with red eyes and orange feet"
+        },
+        {
+          "name": "Glass frog",
+          "description": "Glass frog — pale translucent green frog"
+        },
+        {
+          "name": "Tomato frog",
+          "description": "Tomato frog — round red-orange frog"
+        }
+      ]
+    },
+    {
+      "topic": "Salamanders",
+      "question": "A wetland educator hands you four salamander portraits. Which goes on the invitation?",
+      "outcomes": [
+        {
+          "name": "Axolotl",
+          "description": "Axolotl — pink axolotl with feathery gills"
+        },
+        {
+          "name": "Tiger salamander",
+          "description": "Tiger salamander — black salamander with yellow blotches"
+        },
+        {
+          "name": "Red-spotted newt",
+          "description": "Red-spotted newt — orange eft with small red spots"
+        },
+        {
+          "name": "Hellbender",
+          "description": "Hellbender — large flattened brown salamander with folded skin"
+        }
+      ]
+    },
+    {
+      "topic": "Freshwater turtles",
+      "question": "The turtle pond needs a picture guide. Which shell do you draw first?",
+      "outcomes": [
+        {
+          "name": "Red-eared slider",
+          "description": "Red-eared slider — olive pond turtle with red patch behind eye"
+        },
+        {
+          "name": "Alligator snapping turtle",
+          "description": "Alligator snapping turtle — large ridged turtle with hooked beak"
+        },
+        {
+          "name": "Matamata",
+          "description": "Matamata — brown turtle with a leaflike head"
+        },
+        {
+          "name": "Pig-nosed turtle",
+          "description": "Pig-nosed turtle — grey turtle with flipper feet and piglike nose"
+        }
+      ]
+    },
+    {
+      "topic": "Pond insects",
+      "question": "You lower a camera to the pond surface. Which insect do you track?",
+      "outcomes": [
+        {
+          "name": "Water strider",
+          "description": "Water strider — long-legged insect standing on droplets"
+        },
+        {
+          "name": "Diving beetle",
+          "description": "Diving beetle — smooth dark oval aquatic beetle"
+        },
+        {
+          "name": "Water boatman",
+          "description": "Water boatman — small aquatic bug with oarlike hind legs"
+        },
+        {
+          "name": "Damselfly",
+          "description": "Damselfly — slender turquoise damselfly with folded wings"
+        }
+      ]
+    }
+  ]
+}

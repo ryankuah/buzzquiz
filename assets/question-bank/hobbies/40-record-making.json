@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Record store",
+      "question": "You have a quiet afternoon to improve a listening corner. Which turntable accessory do you pick up?",
+      "outcomes": [
+        {
+          "name": "Record brush",
+          "description": "carbon fibre record cleaning brush"
+        },
+        {
+          "name": "Stylus cartridge",
+          "description": "phono cartridge with a red stylus tip"
+        },
+        {
+          "name": "Record clamp",
+          "description": "metal turntable record clamp puck"
+        },
+        {
+          "name": "Slipmat",
+          "description": "round patterned felt turntable slipmat"
+        }
+      ]
+    },
+    {
+      "topic": "Live looping",
+      "question": "A solo performer is building a one-person live set. What do you put at their feet?",
+      "outcomes": [
+        {
+          "name": "Loop pedal",
+          "description": "green guitar looper stompbox"
+        },
+        {
+          "name": "Expression pedal",
+          "description": "black pivoting expression pedal"
+        },
+        {
+          "name": "Pedalboard",
+          "description": "small slatted metal guitar pedalboard"
+        },
+        {
+          "name": "AB switch",
+          "description": "small two-button guitar signal selector box"
+        }
+      ]
+    },
+    {
+      "topic": "Music arranging",
+      "question": "Your composing group needs an old-fashioned way to share a tune. Which object would you try?",
+      "outcomes": [
+        {
+          "name": "Music box cylinder",
+          "description": "brass pinned music box cylinder with gear"
+        },
+        {
+          "name": "Player piano roll",
+          "description": "perforated paper player piano roll"
+        },
+        {
+          "name": "Punched music strip",
+          "description": "narrow perforated strip threaded through hand-crank music box"
+        },
+        {
+          "name": "Barrel organ",
+          "description": "small carved crank-operated street barrel organ"
+        }
+      ]
+    },
+    {
+      "topic": "Analogue synths",
+      "question": "A synth club lets you build a tiny desktop rig from surplus parts. Which module would you choose first?",
+      "outcomes": [
+        {
+          "name": "Patch cables",
+          "description": "cluster of short coloured modular synth patch cables"
+        },
+        {
+          "name": "Step sequencer",
+          "description": "desktop step sequencer with a row of glowing pads"
+        },
+        {
+          "name": "Ribbon controller",
+          "description": "long narrow touch ribbon controller with a wooden housing"
+        },
+        {
+          "name": "Oscilloscope",
+          "description": "small vintage oscilloscope with green waveform"
+        }
+      ]
+    }
+  ]
+}

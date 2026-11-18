@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Stage lighting",
+      "question": "The school play gets one extra light effect. What goes into the lighting plan?",
+      "outcomes": [
+        {
+          "name": "Mirror ball",
+          "description": "silver mirrored disco ball"
+        },
+        {
+          "name": "Followspot",
+          "description": "theatrical spotlight on a short tripod"
+        },
+        {
+          "name": "Footlights",
+          "description": "short curved row of theatre footlights"
+        },
+        {
+          "name": "Stained-glass gobo",
+          "description": "round metal gobo projecting a coloured window pattern"
+        }
+      ]
+    },
+    {
+      "topic": "Puppetry",
+      "question": "Your theatre group is staging a tiny show at a library. Which puppet takes the lead?",
+      "outcomes": [
+        {
+          "name": "Marionette",
+          "description": "wooden string marionette with crossbar"
+        },
+        {
+          "name": "Sock puppet",
+          "description": "green sock puppet with button eyes"
+        },
+        {
+          "name": "Shadow puppet",
+          "description": "jointed paper silhouette of a bird on rods"
+        },
+        {
+          "name": "Finger puppet",
+          "description": "tiny knitted fox finger puppet"
+        }
+      ]
+    },
+    {
+      "topic": "Circus skills",
+      "question": "The juggling club invites beginners to try one prop. Which one do you practise with?",
+      "outcomes": [
+        {
+          "name": "Diabolo",
+          "description": "purple diabolo with sticks and string"
+        },
+        {
+          "name": "Juggling clubs",
+          "description": "three colourful juggling clubs"
+        },
+        {
+          "name": "Flower sticks",
+          "description": "colourful flower stick with two handsticks"
+        },
+        {
+          "name": "Spinning plate",
+          "description": "blue juggling plate balanced on a thin rod"
+        }
+      ]
+    },
+    {
+      "topic": "Dance rehearsal",
+      "question": "You're helping four groups prepare for a recital. Which shoes do you unpack first?",
+      "outcomes": [
+        {
+          "name": "Pointe shoes",
+          "description": "pink satin ballet pointe shoes with ribbons"
+        },
+        {
+          "name": "Tap shoes",
+          "description": "shiny black tap shoes with metal soles"
+        },
+        {
+          "name": "Flamenco shoes",
+          "description": "red heeled flamenco dance shoes"
+        },
+        {
+          "name": "Irish dance shoes",
+          "description": "black soft Irish ghillies with crisscross laces"
+        }
+      ]
+    }
+  ]
+}

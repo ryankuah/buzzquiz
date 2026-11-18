@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Tree bark",
+      "question": "You're building a bark texture display from fallen samples. Which bark goes first?",
+      "outcomes": [
+        {
+          "name": "Silver birch bark",
+          "description": "Silver birch bark — roll of pale birch bark with dark dashes"
+        },
+        {
+          "name": "Cork oak bark",
+          "description": "Cork oak bark — thick light brown cork slab"
+        },
+        {
+          "name": "Plane tree bark",
+          "description": "Plane tree bark — mottled camouflage-like plane bark"
+        },
+        {
+          "name": "Redwood bark",
+          "description": "Redwood bark — deep red-brown fibrous furrowed bark"
+        }
+      ]
+    },
+    {
+      "topic": "Tree fruit and seeds",
+      "question": "You're teaching a class about seed shapes. Which specimen starts the lesson?",
+      "outcomes": [
+        {
+          "name": "Acorn",
+          "description": "Acorn — oak acorn with a rough brown cap"
+        },
+        {
+          "name": "Maple samaras",
+          "description": "Maple samaras — pair of winged maple seeds"
+        },
+        {
+          "name": "Horse chestnut",
+          "description": "Horse chestnut — shiny brown conker in a split spiny husk"
+        },
+        {
+          "name": "Sweetgum seed pod",
+          "description": "Sweetgum seed pod — round brown spiky sweetgum seed ball"
+        }
+      ]
+    },
+    {
+      "topic": "Flowering trees",
+      "question": "The park is choosing one flowering tree for a new bench. Which bloom wins your vote?",
+      "outcomes": [
+        {
+          "name": "Cherry blossom",
+          "description": "Cherry blossom — short twig of pink cherry blossoms"
+        },
+        {
+          "name": "Magnolia",
+          "description": "Magnolia — large waxy cream magnolia bloom"
+        },
+        {
+          "name": "Jacaranda",
+          "description": "Jacaranda — cluster of pale violet tubular jacaranda flowers"
+        },
+        {
+          "name": "Flamboyant blossom",
+          "description": "Flamboyant blossom — cluster of vivid red flame-tree flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Tree silhouettes",
+      "question": "Your illustrated park map needs a landmark tree. Which silhouette marks the meeting spot?",
+      "outcomes": [
+        {
+          "name": "Weeping willow",
+          "description": "Weeping willow — tree with long cascading willow branches"
+        },
+        {
+          "name": "Baobab",
+          "description": "Baobab — thick-trunked baobab with sparse crown"
+        },
+        {
+          "name": "Italian cypress",
+          "description": "Italian cypress — tall narrow columnar cypress"
+        },
+        {
+          "name": "Monkey puzzle tree",
+          "description": "Monkey puzzle tree — conifer with sparse curling scale-covered branches"
+        }
+      ]
+    }
+  ]
+}

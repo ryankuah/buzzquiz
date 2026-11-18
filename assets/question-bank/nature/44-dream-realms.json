@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fairytale dwellings",
+      "question": "Your storybook character needs a place to sleep. Which doorstep do they choose?",
+      "outcomes": [
+        {
+          "name": "Mushroom cottage",
+          "description": "Mushroom cottage — red-capped mushroom house with round door"
+        },
+        {
+          "name": "Crystal palace",
+          "description": "Crystal palace — tiny palace of clear blue crystal spires"
+        },
+        {
+          "name": "Hollow tree home",
+          "description": "Hollow tree home — tree trunk house with glowing round windows"
+        },
+        {
+          "name": "Cloud castle",
+          "description": "Cloud castle — white castle resting on a small fluffy cloud"
+        }
+      ]
+    },
+    {
+      "topic": "Magic doorways",
+      "question": "Four doors appear on the old library wall. Which one do you open?",
+      "outcomes": [
+        {
+          "name": "Ivy door",
+          "description": "Ivy door — arched green wooden door entwined with ivy"
+        },
+        {
+          "name": "Mirror portal",
+          "description": "Mirror portal — ornate oval mirror filled with swirling violet light"
+        },
+        {
+          "name": "Moon gate",
+          "description": "Moon gate — circular stone garden gate with silver moon motif"
+        },
+        {
+          "name": "Ice doorway",
+          "description": "Ice doorway — pointed doorway carved in blue translucent ice"
+        }
+      ]
+    },
+    {
+      "topic": "Imaginary maps",
+      "question": "A treasure map has four strange landmarks. Which do you visit first?",
+      "outcomes": [
+        {
+          "name": "Floating island",
+          "description": "Floating island — small grassy island floating above a jagged rock base"
+        },
+        {
+          "name": "Glass mountain",
+          "description": "Glass mountain — faceted transparent mountain peak"
+        },
+        {
+          "name": "Upside-down waterfall",
+          "description": "Upside-down waterfall — water curling upward from a pool into a floating rock"
+        },
+        {
+          "name": "Giant shell island",
+          "description": "Giant shell island — tiny sandy island shaped from an enormous spiralling shell"
+        }
+      ]
+    },
+    {
+      "topic": "Dragon eggs",
+      "question": "A dragonkeeper offers you the first watch in the hatchery. Which egg do you sit beside?",
+      "outcomes": [
+        {
+          "name": "Copper dragon egg",
+          "description": "Copper dragon egg — copper-scaled dragon egg with dark patina"
+        },
+        {
+          "name": "Frost dragon egg",
+          "description": "Frost dragon egg — pale blue egg covered in ice crystal scales"
+        },
+        {
+          "name": "Moss dragon egg",
+          "description": "Moss dragon egg — green egg with leafy scales and moss"
+        },
+        {
+          "name": "Obsidian dragon egg",
+          "description": "Obsidian dragon egg — black glossy egg with red glowing cracks"
+        }
+      ]
+    }
+  ]
+}

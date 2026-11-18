@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Sharks",
+      "question": "A research boat has one open camera station. Which shark do you try to film?",
+      "outcomes": [
+        {
+          "name": "Whale shark",
+          "description": "Whale shark — broad blue shark with white spots"
+        },
+        {
+          "name": "Hammerhead shark",
+          "description": "Hammerhead shark — grey shark with hammer-shaped head"
+        },
+        {
+          "name": "Thresher shark",
+          "description": "Thresher shark — sleek shark with very long upper tail lobe"
+        },
+        {
+          "name": "Zebra shark",
+          "description": "Zebra shark — sandy spotted shark with a long tail"
+        }
+      ]
+    },
+    {
+      "topic": "Rays",
+      "question": "The aquarium tunnel fills with gliding silhouettes. Which ray catches your attention?",
+      "outcomes": [
+        {
+          "name": "Manta ray",
+          "description": "Manta ray — dark manta ray with broad triangular wings and cephalic fins"
+        },
+        {
+          "name": "Blue-spotted stingray",
+          "description": "Blue-spotted stingray — tan stingray with bright blue spots"
+        },
+        {
+          "name": "Sawfish",
+          "description": "Sawfish — flat ray with long toothed snout"
+        },
+        {
+          "name": "Eagle ray",
+          "description": "Eagle ray — spotted diamond-shaped ray with long whip tail"
+        }
+      ]
+    },
+    {
+      "topic": "Whales",
+      "question": "You can name a cabin on the whale-watching ferry. Which species goes over the door?",
+      "outcomes": [
+        {
+          "name": "Humpback whale",
+          "description": "Humpback whale — whale with long pectoral fins and ridged chin"
+        },
+        {
+          "name": "Narwhal",
+          "description": "Narwhal — mottled grey whale with a single long tusk"
+        },
+        {
+          "name": "Beluga whale",
+          "description": "Beluga whale — white whale with rounded forehead"
+        },
+        {
+          "name": "Sperm whale",
+          "description": "Sperm whale — dark whale with huge square head"
+        }
+      ]
+    },
+    {
+      "topic": "Marine mammals",
+      "question": "You're recording an audiobook about sea mammals. Which chapter do you read first?",
+      "outcomes": [
+        {
+          "name": "Sea lion",
+          "description": "Sea lion — brown sea lion upright on long foreflippers"
+        },
+        {
+          "name": "Walrus",
+          "description": "Walrus — large brown walrus with long ivory tusks"
+        },
+        {
+          "name": "Manatee",
+          "description": "Manatee — round grey aquatic mammal with paddle tail"
+        },
+        {
+          "name": "Sea otter",
+          "description": "Sea otter — brown otter floating on back holding a shell"
+        }
+      ]
+    }
+  ]
+}

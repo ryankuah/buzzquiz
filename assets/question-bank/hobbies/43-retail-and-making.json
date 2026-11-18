@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Bakery display",
+      "question": "A bakery wants a window display showing how bread is made. Which tool do you lend?",
+      "outcomes": [
+        {
+          "name": "Proofing basket",
+          "description": "round spiral cane bread banneton"
+        },
+        {
+          "name": "Bread lame",
+          "description": "curved baker's scoring blade in a slim handle"
+        },
+        {
+          "name": "Baker's peel",
+          "description": "wide wooden bread peel with handle"
+        },
+        {
+          "name": "Baguette tray",
+          "description": "perforated metal baguette baking tray"
+        }
+      ]
+    },
+    {
+      "topic": "Flower arranging",
+      "question": "You have an afternoon helping at a florist. Which workbench tool do you take over to the next arrangement?",
+      "outcomes": [
+        {
+          "name": "Flower frog",
+          "description": "round metal pin flower frog"
+        },
+        {
+          "name": "Floral tape",
+          "description": "roll of green florist tape"
+        },
+        {
+          "name": "Stem snips",
+          "description": "compact floral stem snips"
+        },
+        {
+          "name": "Bud vase",
+          "description": "slender clear bud vase holding a single stem"
+        }
+      ]
+    },
+    {
+      "topic": "Tailoring shop",
+      "question": "The tailor is preparing a jacket fitting. What needs to be set beside the mirror?",
+      "outcomes": [
+        {
+          "name": "Dress form",
+          "description": "linen tailor's dress form on a wooden stand"
+        },
+        {
+          "name": "Sleeve board",
+          "description": "small padded sleeve ironing board"
+        },
+        {
+          "name": "Tailor ham",
+          "description": "plump checked tailor's pressing ham"
+        },
+        {
+          "name": "Pincushion wristband",
+          "description": "red wrist pincushion with coloured pins"
+        }
+      ]
+    },
+    {
+      "topic": "Coffee roastery",
+      "question": "A local roastery is opening a tiny training space. Which item would you most like to practise with?",
+      "outcomes": [
+        {
+          "name": "Roasting scoop",
+          "description": "stainless steel coffee bean scoop"
+        },
+        {
+          "name": "Cupping spoon",
+          "description": "deep round coffee cupping spoon"
+        },
+        {
+          "name": "Bean sample tray",
+          "description": "green sample tray with roasted coffee beans"
+        },
+        {
+          "name": "Manual coffee grinder",
+          "description": "wooden hand-crank coffee grinder"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "French pâtisserie",
+      "question": "A friend asks you to pick one pastry for their visit. What do you bring?",
+      "outcomes": [
+        {
+          "name": "Paris-Brest",
+          "description": "Paris-Brest"
+        },
+        {
+          "name": "Mille-feuille",
+          "description": "Mille-feuille"
+        },
+        {
+          "name": "Chocolate éclair",
+          "description": "Chocolate éclair"
+        },
+        {
+          "name": "Canelé",
+          "description": "Canelé"
+        }
+      ]
+    },
+    {
+      "topic": "Italian dessert",
+      "question": "Which sweet finishes the long Sunday lunch?",
+      "outcomes": [
+        {
+          "name": "Cannoli",
+          "description": "Cannoli"
+        },
+        {
+          "name": "Panna cotta",
+          "description": "Panna cotta"
+        },
+        {
+          "name": "Sfogliatella",
+          "description": "Sfogliatella"
+        },
+        {
+          "name": "Affogato",
+          "description": "Affogato"
+        }
+      ]
+    },
+    {
+      "topic": "Fruit tart",
+      "question": "The tart case has four spaces left. Which slice do you reserve?",
+      "outcomes": [
+        {
+          "name": "Fig tart",
+          "description": "Fig tart"
+        },
+        {
+          "name": "Apricot tart",
+          "description": "Apricot tart"
+        },
+        {
+          "name": "Blackberry tart",
+          "description": "Blackberry tart"
+        },
+        {
+          "name": "Lime tartlet",
+          "description": "Lime tartlet"
+        }
+      ]
+    },
+    {
+      "topic": "Cheesecake",
+      "question": "Which cheesecake would you serve at your dinner party?",
+      "outcomes": [
+        {
+          "name": "Basque burnt cheesecake",
+          "description": "Basque burnt cheesecake"
+        },
+        {
+          "name": "Japanese soufflé cheesecake",
+          "description": "Japanese soufflé cheesecake"
+        },
+        {
+          "name": "Blueberry cheesecake",
+          "description": "Blueberry cheesecake"
+        },
+        {
+          "name": "Chocolate marble cheesecake",
+          "description": "Chocolate marble cheesecake"
+        }
+      ]
+    }
+  ]
+}

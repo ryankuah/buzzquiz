@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Mountain lodgings",
+      "question": "You want to wake up close to a walking trail. Which mountain stay do you choose?",
+      "outcomes": [
+        {
+          "name": "Alpine chalet",
+          "description": "timber chalet with steep roof and balcony"
+        },
+        {
+          "name": "Shepherd's hut",
+          "description": "small wheeled shepherd hut"
+        },
+        {
+          "name": "Stone bothy",
+          "description": "single-room rough stone bothy with chimney"
+        },
+        {
+          "name": "Lookout cabin",
+          "description": "tiny fire lookout cabin on tall timber legs"
+        }
+      ]
+    },
+    {
+      "topic": "Bedside comforts",
+      "question": "You are making the guest room welcoming. Which detail goes beside the bed?",
+      "outcomes": [
+        {
+          "name": "Carafe set",
+          "description": "glass water carafe with matching tumbler"
+        },
+        {
+          "name": "Bedside lantern",
+          "description": "small rechargeable bedside lantern"
+        },
+        {
+          "name": "Sleep mask",
+          "description": "padded satin sleep mask"
+        },
+        {
+          "name": "Alarm clock",
+          "description": "twin-bell bedside alarm clock"
+        }
+      ]
+    },
+    {
+      "topic": "Poolside break",
+      "question": "The hotel pool has four spots free. Where do you put your bag?",
+      "outcomes": [
+        {
+          "name": "Sun lounger",
+          "description": "adjustable white pool lounger"
+        },
+        {
+          "name": "Cabana bed",
+          "description": "four-poster poolside cabana bed with curtains"
+        },
+        {
+          "name": "Hanging chair",
+          "description": "woven hanging egg chair"
+        },
+        {
+          "name": "Poolside hammock",
+          "description": "striped hammock on freestanding frame"
+        }
+      ]
+    },
+    {
+      "topic": "Self-catering essentials",
+      "question": "You arrive at a rental with a tiny kitchen. Which missing tool would you most want?",
+      "outcomes": [
+        {
+          "name": "Can opener",
+          "description": "manual can opener with turning handle"
+        },
+        {
+          "name": "Corkscrew",
+          "description": "wooden handled corkscrew"
+        },
+        {
+          "name": "Kitchen scales",
+          "description": "small analogue kitchen scales"
+        },
+        {
+          "name": "Colander",
+          "description": "perforated metal colander"
+        }
+      ]
+    }
+  ]
+}

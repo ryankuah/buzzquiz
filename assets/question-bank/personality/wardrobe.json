@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Shoe style",
+      "question": "Which shoes do you take for a day exploring shops and galleries?",
+      "outcomes": [
+        {
+          "name": "Loafers",
+          "description": "Loafers"
+        },
+        {
+          "name": "Ankle boots",
+          "description": "Ankle boots"
+        },
+        {
+          "name": "Mary Janes",
+          "description": "Mary Janes"
+        },
+        {
+          "name": "Canvas espadrilles",
+          "description": "Canvas espadrilles"
+        }
+      ]
+    },
+    {
+      "topic": "Bag style",
+      "question": "You need one bag for a Saturday out. Which do you grab?",
+      "outcomes": [
+        {
+          "name": "Crossbody satchel",
+          "description": "Crossbody satchel"
+        },
+        {
+          "name": "Bucket bag",
+          "description": "Bucket bag"
+        },
+        {
+          "name": "Woven market tote",
+          "description": "Woven market tote"
+        },
+        {
+          "name": "Mini backpack",
+          "description": "Mini backpack"
+        }
+      ]
+    },
+    {
+      "topic": "Hairstyling",
+      "question": "Which accessory would you use to get ready for a party?",
+      "outcomes": [
+        {
+          "name": "Silk scrunchie",
+          "description": "Silk scrunchie"
+        },
+        {
+          "name": "Pearl hair slide",
+          "description": "Pearl hair slide"
+        },
+        {
+          "name": "Wide padded headband",
+          "description": "Wide padded headband"
+        },
+        {
+          "name": "Tortoiseshell claw clip",
+          "description": "Tortoiseshell claw clip"
+        }
+      ]
+    },
+    {
+      "topic": "Jewellery",
+      "question": "Which piece do you pick from a maker's jewellery stall?",
+      "outcomes": [
+        {
+          "name": "Signet ring",
+          "description": "Signet ring"
+        },
+        {
+          "name": "Enamel brooch",
+          "description": "Enamel brooch"
+        },
+        {
+          "name": "Hoop earrings",
+          "description": "Hoop earrings"
+        },
+        {
+          "name": "Charm bracelet",
+          "description": "Charm bracelet"
+        }
+      ]
+    }
+  ]
+}

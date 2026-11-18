@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Makeup bag",
+      "question": "You are refreshing your look before dinner and have time for only one step. Which product do you reach for?",
+      "outcomes": [
+        {
+          "name": "Lipstick",
+          "description": "open red lipstick in a metallic tube"
+        },
+        {
+          "name": "Blush compact",
+          "description": "round compact of rose blush with brush"
+        },
+        {
+          "name": "Mascara",
+          "description": "open black mascara tube with bristle wand"
+        },
+        {
+          "name": "Brow pencil",
+          "description": "eyebrow pencil with spoolie brush end"
+        }
+      ]
+    },
+    {
+      "topic": "Nail finishes",
+      "question": "The salon offers four samples on a display wheel. Which finish do you pick?",
+      "outcomes": [
+        {
+          "name": "Chrome nails",
+          "description": "pair of reflective silver chrome nail tips"
+        },
+        {
+          "name": "French tips",
+          "description": "natural blush nail tips with crisp white ends"
+        },
+        {
+          "name": "Glitter polish",
+          "description": "gold glitter nail polish bottle with sparkling nail tip"
+        },
+        {
+          "name": "Matte plum",
+          "description": "deep purple matte nail polish bottle with matching nail tip"
+        }
+      ]
+    },
+    {
+      "topic": "Hair accessories",
+      "question": "You are heading into a windy courtyard. Which accessory keeps your hair out of your face?",
+      "outcomes": [
+        {
+          "name": "Claw clip",
+          "description": "large tortoiseshell hair claw clip"
+        },
+        {
+          "name": "Silk scrunchie",
+          "description": "pink silk hair scrunchie"
+        },
+        {
+          "name": "Headband",
+          "description": "rounded velvet headband"
+        },
+        {
+          "name": "Barrette",
+          "description": "pearl hair barrette"
+        }
+      ]
+    },
+    {
+      "topic": "Fragrance notes",
+      "question": "A perfumer asks which ingredient you want to smell first. What do you point to?",
+      "outcomes": [
+        {
+          "name": "Vanilla pod",
+          "description": "two dark vanilla pods beside a vanilla flower"
+        },
+        {
+          "name": "Bergamot",
+          "description": "whole green-yellow bergamot citrus with cut half"
+        },
+        {
+          "name": "Sandalwood",
+          "description": "small pile of sandalwood chips"
+        },
+        {
+          "name": "Gardenia",
+          "description": "white gardenia blossom with glossy green leaves"
+        }
+      ]
+    }
+  ]
+}

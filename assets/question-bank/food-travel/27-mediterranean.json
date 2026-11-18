@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Levantine mezze",
+      "question": "You can order one more small plate for the table. Which is it?",
+      "outcomes": [
+        {
+          "name": "Muhammara",
+          "description": "red pepper walnut dip with olive oil"
+        },
+        {
+          "name": "Baba ghanoush",
+          "description": "smoky aubergine dip with aubergine garnish"
+        },
+        {
+          "name": "Tabbouleh",
+          "description": "bright chopped parsley tomato and bulgur salad"
+        },
+        {
+          "name": "Kibbeh",
+          "description": "pointed oval fried bulgur croquettes"
+        }
+      ]
+    },
+    {
+      "topic": "Greek bakery shelf",
+      "question": "There is a small queue at the village bakery. Which pastry is worth waiting for?",
+      "outcomes": [
+        {
+          "name": "Spanakopita",
+          "description": "triangular filo spinach pie"
+        },
+        {
+          "name": "Bougatsa",
+          "description": "rectangular custard filo pastry dusted with sugar"
+        },
+        {
+          "name": "Koulouri",
+          "description": "thin sesame bread ring"
+        },
+        {
+          "name": "Loukoumades",
+          "description": "honey-drizzled dough balls"
+        }
+      ]
+    },
+    {
+      "topic": "Spanish tapas",
+      "question": "A counter has four plates left at closing time. Which one do you share?",
+      "outcomes": [
+        {
+          "name": "Patatas bravas",
+          "description": "crispy potato cubes with red sauce and aioli"
+        },
+        {
+          "name": "Tortilla española",
+          "description": "thick Spanish potato omelette wedge"
+        },
+        {
+          "name": "Pimientos de Padrón",
+          "description": "blistered green peppers with sea salt"
+        },
+        {
+          "name": "Croquetas",
+          "description": "golden breaded oval croquettes cut to show creamy filling"
+        }
+      ]
+    },
+    {
+      "topic": "Italian market lunch",
+      "question": "You are piecing together a lunch from food stalls. Which item goes in your bag first?",
+      "outcomes": [
+        {
+          "name": "Arancini",
+          "description": "golden fried rice ball cut open to show filling"
+        },
+        {
+          "name": "Panelle",
+          "description": "thin golden chickpea fritters"
+        },
+        {
+          "name": "Panzanella",
+          "description": "tomato and bread salad with basil"
+        },
+        {
+          "name": "Farinata",
+          "description": "wedges of golden chickpea flatbread"
+        }
+      ]
+    }
+  ]
+}

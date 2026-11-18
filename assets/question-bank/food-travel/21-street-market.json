@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fabric market",
+      "question": "You are making something to wear in hot weather. Which material do you ask to touch?",
+      "outcomes": [
+        {
+          "name": "Linen",
+          "description": "natural flax-coloured linen cloth swatch"
+        },
+        {
+          "name": "Cotton gauze",
+          "description": "white airy crinkled cotton gauze"
+        },
+        {
+          "name": "Silk",
+          "description": "flowing teal silk fabric swatch"
+        },
+        {
+          "name": "Chambray",
+          "description": "light blue chambray swatch with visible weave"
+        }
+      ]
+    },
+    {
+      "topic": "Flower market",
+      "question": "The florist has enough for one small bunch. Which stems would you carry home?",
+      "outcomes": [
+        {
+          "name": "Ranunculus",
+          "description": "bunch of peach ranunculus flowers"
+        },
+        {
+          "name": "Hydrangea",
+          "description": "large blue hydrangea flower head"
+        },
+        {
+          "name": "Protea",
+          "description": "pink king protea flower with leathery leaves"
+        },
+        {
+          "name": "Sweet peas",
+          "description": "small bunch of lilac sweet pea flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Ceramics stall",
+      "question": "The potter lets visitors pick up one piece. What shape do you reach for?",
+      "outcomes": [
+        {
+          "name": "Ramen bowl",
+          "description": "deep blue glazed ceramic ramen bowl"
+        },
+        {
+          "name": "Sake cup",
+          "description": "small speckled ceramic sake cup"
+        },
+        {
+          "name": "Olive dish",
+          "description": "long narrow green ceramic olive dish"
+        },
+        {
+          "name": "Tagine",
+          "description": "glazed terracotta tagine with tall conical lid"
+        }
+      ]
+    },
+    {
+      "topic": "Handmade jewellery",
+      "question": "You are choosing a wearable souvenir at a craft market. What catches the light?",
+      "outcomes": [
+        {
+          "name": "Enamel earrings",
+          "description": "pair of colourful enamel drop earrings"
+        },
+        {
+          "name": "Beaded bracelet",
+          "description": "loop of striped glass beads"
+        },
+        {
+          "name": "Signet ring",
+          "description": "gold flat-faced signet ring"
+        },
+        {
+          "name": "Pendant necklace",
+          "description": "silver pendant necklace with a blue stone"
+        }
+      ]
+    }
+  ]
+}

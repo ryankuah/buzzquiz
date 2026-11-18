@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Japanese sweets",
+      "question": "The sweet shop wraps four treats individually. What goes in your gift box first?",
+      "outcomes": [
+        {
+          "name": "Daifuku",
+          "description": "round soft mochi cut open to show red bean filling"
+        },
+        {
+          "name": "Taiyaki",
+          "description": "fish-shaped golden filled cake"
+        },
+        {
+          "name": "Dorayaki",
+          "description": "two small pancake discs sandwiched with red bean filling"
+        },
+        {
+          "name": "Mitarashi dango",
+          "description": "skewer of three round dumplings glazed with amber syrup"
+        }
+      ]
+    },
+    {
+      "topic": "Latin American sweets",
+      "question": "A neighbourhood bakery has a fresh dessert sampler. Which is your first bite?",
+      "outcomes": [
+        {
+          "name": "Alfajor",
+          "description": "round biscuit sandwich filled with dulce de leche and coconut edges"
+        },
+        {
+          "name": "Tres leches cake",
+          "description": "square of milk-soaked sponge with cream"
+        },
+        {
+          "name": "Brigadeiro",
+          "description": "three chocolate truffles rolled in chocolate sprinkles"
+        },
+        {
+          "name": "Flan",
+          "description": "golden caramel custard turned out on a saucer"
+        }
+      ]
+    },
+    {
+      "topic": "Sweet puddings",
+      "question": "After a winter dinner, which warm dessert do you pass your bowl for?",
+      "outcomes": [
+        {
+          "name": "Sticky toffee pudding",
+          "description": "dark sponge pudding coated in glossy toffee sauce"
+        },
+        {
+          "name": "Bread and butter pudding",
+          "description": "browned layered bread pudding in a ceramic dish"
+        },
+        {
+          "name": "Rice pudding",
+          "description": "creamy rice pudding dusted with cinnamon"
+        },
+        {
+          "name": "Apple crumble",
+          "description": "baked apple crumble with golden streusel topping"
+        }
+      ]
+    },
+    {
+      "topic": "Gummy sweets",
+      "question": "A pick-and-mix bag has room for one final scoop. Which shape do you choose?",
+      "outcomes": [
+        {
+          "name": "Gummy bears",
+          "description": "small colourful translucent gummy bears"
+        },
+        {
+          "name": "Sour worms",
+          "description": "two curved sugar-dusted gummy worms"
+        },
+        {
+          "name": "Peach rings",
+          "description": "sugar-coated orange and yellow gummy rings"
+        },
+        {
+          "name": "Cola bottles",
+          "description": "brown and cream bottle-shaped gummy sweets"
+        }
+      ]
+    }
+  ]
+}

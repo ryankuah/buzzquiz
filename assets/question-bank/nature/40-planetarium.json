@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Rocket components",
+      "question": "You're laying out miniature rocket hardware for a display. Which part would you show in cutaway?",
+      "outcomes": [
+        {
+          "name": "Engine bell",
+          "description": "Engine bell — flared metallic rocket nozzle"
+        },
+        {
+          "name": "Heat shield",
+          "description": "Heat shield — round brown ablative spacecraft heat shield"
+        },
+        {
+          "name": "Payload fairing",
+          "description": "Payload fairing — white rocket nose cone split into two shells"
+        },
+        {
+          "name": "Landing leg",
+          "description": "Landing leg — folding spacecraft landing strut with footpad"
+        }
+      ]
+    },
+    {
+      "topic": "Orbiting satellites",
+      "question": "A museum lets you suspend a satellite model overhead. Which design do you choose?",
+      "outcomes": [
+        {
+          "name": "Weather satellite",
+          "description": "Weather satellite — white satellite with cloud-scanning instrument and blue solar panel"
+        },
+        {
+          "name": "Navigation satellite",
+          "description": "Navigation satellite — boxy gold satellite with circular antenna deck"
+        },
+        {
+          "name": "Earth imaging satellite",
+          "description": "Earth imaging satellite — satellite with large downward-facing camera lens"
+        },
+        {
+          "name": "Relay satellite",
+          "description": "Relay satellite — communications satellite with two broad mesh dishes"
+        }
+      ]
+    },
+    {
+      "topic": "Space observatory",
+      "question": "An astronomy fundraiser needs one observatory on its badge. Which outline do you choose?",
+      "outcomes": [
+        {
+          "name": "Segmented mirror telescope",
+          "description": "Segmented mirror telescope — gold hexagonal telescope mirror above layered sunshield"
+        },
+        {
+          "name": "Optical observatory dome",
+          "description": "Optical observatory dome — white observatory dome with open narrow slit"
+        },
+        {
+          "name": "Airborne telescope",
+          "description": "Airborne telescope — white aircraft with square telescope opening in its side"
+        },
+        {
+          "name": "Balloon telescope",
+          "description": "Balloon telescope — telescope instrument hanging below a silver high-altitude balloon"
+        }
+      ]
+    },
+    {
+      "topic": "Space suit kit",
+      "question": "The orbital museum is building a dress-up station. Which replica do you try first?",
+      "outcomes": [
+        {
+          "name": "Space helmet",
+          "description": "Space helmet — white space helmet with gold visor"
+        },
+        {
+          "name": "EVA glove",
+          "description": "EVA glove — bulky white ridged spacesuit glove"
+        },
+        {
+          "name": "Space boot",
+          "description": "Space boot — thick white lunar boot with ribbed sole"
+        },
+        {
+          "name": "Life-support backpack",
+          "description": "Life-support backpack — white rectangular astronaut life-support pack with hoses"
+        }
+      ]
+    }
+  ]
+}

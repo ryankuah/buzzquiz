@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Mexican street cart",
+      "question": "You have change for one more snack before heading home. Which cart do you visit?",
+      "outcomes": [
+        {
+          "name": "Elote",
+          "description": "corn cob coated with cheese chilli and lime"
+        },
+        {
+          "name": "Tamale",
+          "description": "steamed corn dough in an opened husk"
+        },
+        {
+          "name": "Tlayuda",
+          "description": "large thin tostada with beans greens and cheese"
+        },
+        {
+          "name": "Tlacoyo",
+          "description": "oval blue corn cake with toppings"
+        }
+      ]
+    },
+    {
+      "topic": "Peruvian lunch",
+      "question": "A friend takes you to their favourite lunch spot. Which starter do you split?",
+      "outcomes": [
+        {
+          "name": "Causa",
+          "description": "layered yellow potato and avocado timbale"
+        },
+        {
+          "name": "Ceviche",
+          "description": "lime-marinated white fish with red onions"
+        },
+        {
+          "name": "Anticuchos",
+          "description": "two grilled meat skewers with cooked potato"
+        },
+        {
+          "name": "Papa a la huancaína",
+          "description": "sliced potatoes in yellow cheese sauce with olive and egg"
+        }
+      ]
+    },
+    {
+      "topic": "Caribbean snacks",
+      "question": "You are gathering food for a long ferry ride. Which snack do you pack?",
+      "outcomes": [
+        {
+          "name": "Jamaican patty",
+          "description": "flaky golden half-moon meat patty"
+        },
+        {
+          "name": "Doubles",
+          "description": "two small frybreads with curried chickpeas"
+        },
+        {
+          "name": "Tostones",
+          "description": "flattened fried green plantain coins"
+        },
+        {
+          "name": "Cassava pone",
+          "description": "dense amber cassava cake squares"
+        }
+      ]
+    },
+    {
+      "topic": "American regional sandwiches",
+      "question": "You get one stop for lunch on a cross-country ride. Which sandwich is worth it?",
+      "outcomes": [
+        {
+          "name": "Po' boy",
+          "description": "long French bread roll stuffed with fried shrimp"
+        },
+        {
+          "name": "Muffuletta",
+          "description": "round sesame loaf wedge with salami cheese and olive salad"
+        },
+        {
+          "name": "Cheesesteak",
+          "description": "long roll packed with thin steak and melted cheese"
+        },
+        {
+          "name": "Reuben sandwich",
+          "description": "toasted rye with corned beef sauerkraut and Swiss cheese"
+        }
+      ]
+    }
+  ]
+}

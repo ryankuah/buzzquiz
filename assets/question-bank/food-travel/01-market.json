@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Bakery bread",
+      "question": "The baker pulls four loaves from the oven. Which do you carry home?",
+      "outcomes": [
+        {
+          "name": "Baguette",
+          "description": "long crusty baguette with diagonal slashes"
+        },
+        {
+          "name": "Challah",
+          "description": "braided golden challah loaf"
+        },
+        {
+          "name": "Focaccia",
+          "description": "flat dimpled rosemary focaccia slab"
+        },
+        {
+          "name": "Rye boule",
+          "description": "round dark flour-dusted rye loaf"
+        }
+      ]
+    },
+    {
+      "topic": "Market fruit",
+      "question": "Your fruit bowl is empty. What catches your eye at the market?",
+      "outcomes": [
+        {
+          "name": "Dragon fruit",
+          "description": "pink dragon fruit with speckled white cut half"
+        },
+        {
+          "name": "Pomegranate",
+          "description": "split pomegranate full of ruby seeds"
+        },
+        {
+          "name": "Starfruit",
+          "description": "yellow starfruit and a star-shaped slice"
+        },
+        {
+          "name": "Rambutan",
+          "description": "bunch of red spiny rambutans"
+        }
+      ]
+    },
+    {
+      "topic": "Garden vegetables",
+      "question": "You can take home one basket from a community garden. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Rainbow carrots",
+          "description": "bunch of purple orange and yellow carrots"
+        },
+        {
+          "name": "Romanesco",
+          "description": "green fractal romanesco head"
+        },
+        {
+          "name": "Globe artichokes",
+          "description": "two whole green globe artichokes"
+        },
+        {
+          "name": "Pattypan squash",
+          "description": "small yellow scalloped squash"
+        }
+      ]
+    },
+    {
+      "topic": "Market spices",
+      "question": "A spice merchant offers four fragrant samples. Which goes in your bag?",
+      "outcomes": [
+        {
+          "name": "Cardamom",
+          "description": "green cardamom pods with black seeds"
+        },
+        {
+          "name": "Cinnamon",
+          "description": "cinnamon quills tied in a bundle"
+        },
+        {
+          "name": "Star anise",
+          "description": "brown star anise pods"
+        },
+        {
+          "name": "Turmeric",
+          "description": "fresh turmeric root cut to show orange interior"
+        }
+      ]
+    }
+  ]
+}

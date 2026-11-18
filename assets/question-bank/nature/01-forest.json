@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Forest mammals",
+      "question": "Your trail camera caught four visitors overnight. Which clip do you play first?",
+      "outcomes": [
+        {
+          "name": "Red fox",
+          "description": "Rust-orange fox with a white-tipped bushy tail"
+        },
+        {
+          "name": "Eurasian badger",
+          "description": "Low grey badger with striped black and white face"
+        },
+        {
+          "name": "Red squirrel",
+          "description": "Red squirrel with tufted ears holding a hazelnut"
+        },
+        {
+          "name": "European hedgehog",
+          "description": "Small brown hedgehog with a spiny round back"
+        }
+      ]
+    },
+    {
+      "topic": "Woodland leaves",
+      "question": "You're starting a pressed-leaf collection. Which shape goes on the first page?",
+      "outcomes": [
+        {
+          "name": "Oak leaf",
+          "description": "One lobed green oak leaf"
+        },
+        {
+          "name": "Ginkgo leaf",
+          "description": "One golden fan-shaped ginkgo leaf"
+        },
+        {
+          "name": "Fern frond",
+          "description": "One curled green fern frond"
+        },
+        {
+          "name": "Pine sprig",
+          "description": "Short Scots pine sprig with long needles and one cone"
+        }
+      ]
+    },
+    {
+      "topic": "Pond wildlife",
+      "question": "You pause at the footbridge to sketch. Which pond resident gets a page?",
+      "outcomes": [
+        {
+          "name": "Kingfisher",
+          "description": "Blue and orange kingfisher with a long beak"
+        },
+        {
+          "name": "Painted turtle",
+          "description": "Green freshwater turtle with orange stripes"
+        },
+        {
+          "name": "Dragonfly",
+          "description": "Blue dragonfly with four translucent wings"
+        },
+        {
+          "name": "Tree frog",
+          "description": "Small bright green tree frog with round toe pads"
+        }
+      ]
+    },
+    {
+      "topic": "Fungi",
+      "question": "A ranger lends you a hand lens. Which woodland fungus would you look at up close?",
+      "outcomes": [
+        {
+          "name": "Fly agaric",
+          "description": "Red mushroom with white spots"
+        },
+        {
+          "name": "Turkey tail fungus",
+          "description": "Layered fan-shaped striped bracket fungi"
+        },
+        {
+          "name": "Morel",
+          "description": "Tan honeycomb-shaped morel mushroom"
+        },
+        {
+          "name": "Puffball",
+          "description": "Round white puffball mushroom"
+        }
+      ]
+    }
+  ]
+}

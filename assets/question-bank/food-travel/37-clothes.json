@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Scarf styling",
+      "question": "The evening is turning cold outside the theatre. What do you wrap up in?",
+      "outcomes": [
+        {
+          "name": "Pashmina",
+          "description": "soft fringed burgundy pashmina wrap"
+        },
+        {
+          "name": "Infinity scarf",
+          "description": "looped grey knit infinity scarf"
+        },
+        {
+          "name": "Neckerchief",
+          "description": "printed square silk neckerchief tied loosely"
+        },
+        {
+          "name": "Tartan shawl",
+          "description": "large tartan wool shawl with fringe"
+        }
+      ]
+    },
+    {
+      "topic": "Hats at the market",
+      "question": "A hat seller sets out a mirror. What do you try on?",
+      "outcomes": [
+        {
+          "name": "Panama hat",
+          "description": "cream woven Panama hat with dark band"
+        },
+        {
+          "name": "Cloche hat",
+          "description": "bell-shaped felt cloche with small flower"
+        },
+        {
+          "name": "Bucket hat",
+          "description": "denim bucket hat"
+        },
+        {
+          "name": "Flat cap",
+          "description": "tweed flat cap"
+        }
+      ]
+    },
+    {
+      "topic": "Evening shoes",
+      "question": "The invitation says dancing is encouraged. Which pair do you take?",
+      "outcomes": [
+        {
+          "name": "Ballet flats",
+          "description": "soft leather ballet flats with little bows"
+        },
+        {
+          "name": "Slingback heels",
+          "description": "pointed low slingback heels"
+        },
+        {
+          "name": "Loafers",
+          "description": "polished leather penny loafers"
+        },
+        {
+          "name": "Ankle-strap heels",
+          "description": "gold low-heeled sandals with ankle straps"
+        }
+      ]
+    },
+    {
+      "topic": "Garment fastenings",
+      "question": "You are altering a coat. Which closure would you sew on?",
+      "outcomes": [
+        {
+          "name": "Frog closure",
+          "description": "ornate braided cord frog clasp"
+        },
+        {
+          "name": "Toggle button",
+          "description": "wooden toggle with cord loop"
+        },
+        {
+          "name": "Metal zipper",
+          "description": "brass zipper with green tape"
+        },
+        {
+          "name": "Pearl buttons",
+          "description": "small pile of pearly shirt buttons"
+        }
+      ]
+    }
+  ]
+}

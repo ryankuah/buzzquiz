@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Printmaking",
+      "question": "The print shop opens a bench for one afternoon. Which process do you try?",
+      "outcomes": [
+        {
+          "name": "Linocut block",
+          "description": "carved teal lino printing block with inked leaf"
+        },
+        {
+          "name": "Screen print frame",
+          "description": "wooden screen printing frame with squeegee"
+        },
+        {
+          "name": "Etching plate",
+          "description": "small copper etching plate etched with a fish"
+        },
+        {
+          "name": "Letterpress type",
+          "description": "cluster of chunky individual metal type blocks"
+        }
+      ]
+    },
+    {
+      "topic": "Illustration tools",
+      "question": "You have a blank page and ten minutes to draw a street musician. What do you reach for?",
+      "outcomes": [
+        {
+          "name": "Charcoal sticks",
+          "description": "several black artist charcoal sticks"
+        },
+        {
+          "name": "Watercolour pans",
+          "description": "open pocket watercolour paint tin"
+        },
+        {
+          "name": "Brush pen",
+          "description": "black brush pen showing its flexible tip"
+        },
+        {
+          "name": "Oil pastels",
+          "description": "four chunky brightly coloured oil pastels"
+        }
+      ]
+    },
+    {
+      "topic": "Interior lighting",
+      "question": "The corner of your room has gone dark. Which lamp do you put there?",
+      "outcomes": [
+        {
+          "name": "Mushroom lamp",
+          "description": "orange mushroom-shaped table lamp"
+        },
+        {
+          "name": "Paper lantern",
+          "description": "round white rice paper lantern with ribs"
+        },
+        {
+          "name": "Anglepoise lamp",
+          "description": "blue articulated task lamp"
+        },
+        {
+          "name": "Lava lamp",
+          "description": "purple and orange lava lamp"
+        }
+      ]
+    },
+    {
+      "topic": "Surface pattern",
+      "question": "A friend asks you to pick a pattern for their new cushion. Which fabric swatch do you send?",
+      "outcomes": [
+        {
+          "name": "Houndstooth",
+          "description": "square black and white houndstooth fabric swatch"
+        },
+        {
+          "name": "Polka dots",
+          "description": "red fabric swatch with white polka dots"
+        },
+        {
+          "name": "Chevron stripes",
+          "description": "teal and ivory chevron fabric swatch"
+        },
+        {
+          "name": "Gingham",
+          "description": "pink and white gingham checked fabric swatch"
+        }
+      ]
+    }
+  ]
+}

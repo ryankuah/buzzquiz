@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Fairytale occupations",
+      "question": "You take a day job in a fairytale village. Which shop gives you an apron?",
+      "outcomes": [
+        {
+          "name": "Potion maker",
+          "description": "Potion maker — apothecary holding a little bubbling flask"
+        },
+        {
+          "name": "Mapmaker",
+          "description": "Mapmaker — fantasy cartographer with rolled parchment and dividers"
+        },
+        {
+          "name": "Clockmaker",
+          "description": "Clockmaker — spectacled artisan holding a clock gear"
+        },
+        {
+          "name": "Lantern keeper",
+          "description": "Lantern keeper — hooded caretaker carrying a glowing lantern"
+        }
+      ]
+    },
+    {
+      "topic": "Magical headwear",
+      "question": "The costume cupboard contains four enchanted headpieces. Which one do you borrow?",
+      "outcomes": [
+        {
+          "name": "Starry wizard hat",
+          "description": "Starry wizard hat — blue pointed hat embroidered with tiny gold stars"
+        },
+        {
+          "name": "Leaf crown",
+          "description": "Leaf crown — woven crown of green oak leaves"
+        },
+        {
+          "name": "Antler circlet",
+          "description": "Antler circlet — copper circlet topped with small branched antlers"
+        },
+        {
+          "name": "Moon tiara",
+          "description": "Moon tiara — silver tiara with crescent moon centrepiece"
+        }
+      ]
+    },
+    {
+      "topic": "Fantasy jewellery",
+      "question": "You can wear one enchanted accessory to the moonlit ball. Which one?",
+      "outcomes": [
+        {
+          "name": "Dragon brooch",
+          "description": "Dragon brooch — gold brooch shaped like a curled dragon"
+        },
+        {
+          "name": "Acorn pendant",
+          "description": "Acorn pendant — bronze acorn pendant on fine chain"
+        },
+        {
+          "name": "Feather earrings",
+          "description": "Feather earrings — pair of delicate silver feather earrings"
+        },
+        {
+          "name": "Starlight bracelet",
+          "description": "Starlight bracelet — dark blue bracelet linked with gold star charms"
+        }
+      ]
+    },
+    {
+      "topic": "Enchanted instruments",
+      "question": "The travelling troupe needs a magical instrument for the finale. Which one do you play?",
+      "outcomes": [
+        {
+          "name": "Moon harp",
+          "description": "Moon harp — small silver harp shaped like a crescent"
+        },
+        {
+          "name": "Crystal flute",
+          "description": "Crystal flute — translucent violet crystal flute"
+        },
+        {
+          "name": "Shell horn",
+          "description": "Shell horn — spiral seashell horn with gold mouthpiece"
+        },
+        {
+          "name": "Star tambourine",
+          "description": "Star tambourine — blue tambourine with silver star-shaped jingles"
+        }
+      ]
+    }
+  ]
+}

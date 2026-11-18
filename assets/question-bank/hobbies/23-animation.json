@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Stop-motion animation",
+      "question": "Your first stop-motion short needs a main character. What do you animate?",
+      "outcomes": [
+        {
+          "name": "Clay snail",
+          "description": "purple plasticine snail"
+        },
+        {
+          "name": "Wooden mannequin",
+          "description": "articulated wooden artist mannequin"
+        },
+        {
+          "name": "Felt mouse",
+          "description": "small sewn grey felt mouse"
+        },
+        {
+          "name": "Paper robot",
+          "description": "folded cardboard robot"
+        }
+      ]
+    },
+    {
+      "topic": "Animation studio",
+      "question": "A friend wants to try traditional animation. Which piece of kit do you show them first?",
+      "outcomes": [
+        {
+          "name": "Light box",
+          "description": "slim glowing animator light box"
+        },
+        {
+          "name": "Peg bar",
+          "description": "metal animation registration peg bar"
+        },
+        {
+          "name": "Flipbook",
+          "description": "small flipbook with a bouncing ball sequence"
+        },
+        {
+          "name": "Phenakistoscope disc",
+          "description": "round animation disc with slots and successive running animal illustrations"
+        }
+      ]
+    },
+    {
+      "topic": "Costume design",
+      "question": "The director wants a costume people can identify from the back row. Which detail do you suggest?",
+      "outcomes": [
+        {
+          "name": "Ruff collar",
+          "description": "pleated white Elizabethan ruff collar"
+        },
+        {
+          "name": "Feather boa",
+          "description": "fluffy bright purple feather boa"
+        },
+        {
+          "name": "Epaulettes",
+          "description": "pair of fringed golden shoulder epaulettes"
+        },
+        {
+          "name": "Cape clasp",
+          "description": "ornate bronze cape clasp with a short chain"
+        }
+      ]
+    },
+    {
+      "topic": "Practical effects",
+      "question": "A tabletop fantasy film needs weather for one shot. What prop do you set up?",
+      "outcomes": [
+        {
+          "name": "Desk fan",
+          "description": "small electric desk fan"
+        },
+        {
+          "name": "Mist maker",
+          "description": "ultrasonic mist disc making a small puff of mist"
+        },
+        {
+          "name": "Snow shaker",
+          "description": "sieve shaker with paper snowflakes"
+        },
+        {
+          "name": "Rain bar",
+          "description": "short perforated copper rain bar spraying a fine shower"
+        }
+      ]
+    }
+  ]
+}

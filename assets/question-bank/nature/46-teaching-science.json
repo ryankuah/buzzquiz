@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Earth science models",
+      "question": "The science classroom gets a new shelf. Which model do you put at eye level?",
+      "outcomes": [
+        {
+          "name": "Earth cross-section",
+          "description": "Earth cross-section — cutaway Earth globe showing mantle and core"
+        },
+        {
+          "name": "Tectonic plates model",
+          "description": "Tectonic plates model — two touching blocklike crust sections with a fault"
+        },
+        {
+          "name": "Water cycle model",
+          "description": "Water cycle model — small landscape model with cloud, mountain and river"
+        },
+        {
+          "name": "Fossil strata model",
+          "description": "Fossil strata model — cube of layered sedimentary strata with fossil shapes"
+        }
+      ]
+    },
+    {
+      "topic": "Seed travel",
+      "question": "Your nature club is testing how seeds travel. Which seed do you investigate first?",
+      "outcomes": [
+        {
+          "name": "Dandelion seed",
+          "description": "Dandelion seed — single seed with white parachute filaments"
+        },
+        {
+          "name": "Burdock burr",
+          "description": "Burdock burr — round brown burr covered in hooked spines"
+        },
+        {
+          "name": "Coconut",
+          "description": "Coconut — brown hairy coconut in a green fibrous husk"
+        },
+        {
+          "name": "Sycamore seed",
+          "description": "Sycamore seed — single long tan winged sycamore seed"
+        }
+      ]
+    },
+    {
+      "topic": "Celestial navigation",
+      "question": "A seafaring exhibit invites you to try a replica instrument. Which one feels most intriguing?",
+      "outcomes": [
+        {
+          "name": "Astrolabe",
+          "description": "Astrolabe — ornate round brass astrolabe with rotating openwork plate"
+        },
+        {
+          "name": "Armillary sphere",
+          "description": "Armillary sphere — gold interlocking celestial rings around a central globe"
+        },
+        {
+          "name": "Cross-staff",
+          "description": "Cross-staff — wooden navigation cross-staff with sliding crossbar"
+        },
+        {
+          "name": "Mariner's quadrant",
+          "description": "Mariner's quadrant — quarter-circle brass quadrant with plumb line"
+        }
+      ]
+    },
+    {
+      "topic": "Natural history displays",
+      "question": "Your museum is opening a hands-on corner. Which display do you build first?",
+      "outcomes": [
+        {
+          "name": "Insect specimen drawer",
+          "description": "Insect specimen drawer — wooden drawer with four pinned colourful insects"
+        },
+        {
+          "name": "Pressed flower frame",
+          "description": "Pressed flower frame — glass frame with several dried meadow flowers"
+        },
+        {
+          "name": "Mineral display tray",
+          "description": "Mineral display tray — small divided tray with assorted crystal specimens"
+        },
+        {
+          "name": "Bird egg replicas",
+          "description": "Bird egg replicas — four differently coloured replica eggs in a shallow nest"
+        }
+      ]
+    }
+  ]
+}

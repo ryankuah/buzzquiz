@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Birthday surprise",
+      "question": "You have an hour to surprise someone on their birthday. What do you set up?",
+      "outcomes": [
+        {
+          "name": "A breakfast tray",
+          "description": "A breakfast tray — birthday surprise vignette"
+        },
+        {
+          "name": "A scavenger hunt clue",
+          "description": "A scavenger hunt clue — birthday surprise vignette"
+        },
+        {
+          "name": "A handmade banner",
+          "description": "A handmade banner — birthday surprise vignette"
+        },
+        {
+          "name": "A box of cupcakes",
+          "description": "A box of cupcakes — birthday surprise vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Gift presentation",
+      "question": "A present is ready but still needs wrapping. What finish do you choose?",
+      "outcomes": [
+        {
+          "name": "A hand-stamped paper wrap",
+          "description": "A hand-stamped paper wrap — gift presentation vignette"
+        },
+        {
+          "name": "A cloth knot wrap",
+          "description": "A cloth knot wrap — gift presentation vignette"
+        },
+        {
+          "name": "A pressed-flower gift tag",
+          "description": "A pressed-flower gift tag — gift presentation vignette"
+        },
+        {
+          "name": "A velvet ribbon bow",
+          "description": "A velvet ribbon bow — gift presentation vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Party setup",
+      "question": "Guests will arrive in ten minutes. What do you finish first?",
+      "outcomes": [
+        {
+          "name": "Light the candles",
+          "description": "Light the candles — party setup vignette"
+        },
+        {
+          "name": "Fill the ice bucket",
+          "description": "Fill the ice bucket — party setup vignette"
+        },
+        {
+          "name": "Arrange the cushions",
+          "description": "Arrange the cushions — party setup vignette"
+        },
+        {
+          "name": "Set out the serving spoons",
+          "description": "Set out the serving spoons — party setup vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Wedding guest",
+      "question": "A couple asks for a personal touch at their wedding. What would you contribute?",
+      "outcomes": [
+        {
+          "name": "A guestbook drawing",
+          "description": "A guestbook drawing — wedding guest vignette"
+        },
+        {
+          "name": "A table flower arrangement",
+          "description": "A table flower arrangement — wedding guest vignette"
+        },
+        {
+          "name": "A playlist on vinyl",
+          "description": "A playlist on vinyl — wedding guest vignette"
+        },
+        {
+          "name": "A handmade ring dish",
+          "description": "A handmade ring dish — wedding guest vignette"
+        }
+      ]
+    }
+  ]
+}

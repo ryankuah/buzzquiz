@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Train journeys",
+      "question": "You have an extra day to travel by rail. Which train do you board?",
+      "outcomes": [
+        {
+          "name": "Steam locomotive",
+          "description": "black steam locomotive with red wheels"
+        },
+        {
+          "name": "Bullet train",
+          "description": "sleek white bullet train nose"
+        },
+        {
+          "name": "Mountain cog railway",
+          "description": "small red cog railway train on an inclined track"
+        },
+        {
+          "name": "Overnight sleeper",
+          "description": "cutaway of a blue sleeper carriage with a bunk"
+        }
+      ]
+    },
+    {
+      "topic": "Coastal excursions",
+      "question": "You reach the harbour before lunch. What takes you out on the water?",
+      "outcomes": [
+        {
+          "name": "Kayak",
+          "description": "orange one-person kayak with double-ended paddle"
+        },
+        {
+          "name": "Passenger ferry",
+          "description": "blue and white passenger ferry"
+        },
+        {
+          "name": "Glass-bottom boat",
+          "description": "small boat with clear glass viewing panel"
+        },
+        {
+          "name": "Catamaran",
+          "description": "double-hulled white sailing catamaran"
+        }
+      ]
+    },
+    {
+      "topic": "Travel accommodation",
+      "question": "You are booking the last night of your trip. Which place would you sleep in?",
+      "outcomes": [
+        {
+          "name": "Yurt",
+          "description": "round canvas yurt with central roof cap"
+        },
+        {
+          "name": "A-frame cabin",
+          "description": "triangular timber A-frame cabin"
+        },
+        {
+          "name": "Capsule hotel",
+          "description": "cutaway of a glowing stacked sleeping pod"
+        },
+        {
+          "name": "Riad",
+          "description": "miniature courtyard with tiled fountain and arched Moroccan walls"
+        }
+      ]
+    },
+    {
+      "topic": "Trip souvenirs",
+      "question": "There is one small space left in your suitcase. Which souvenir fits your trip?",
+      "outcomes": [
+        {
+          "name": "Ceramic tile",
+          "description": "blue patterned ceramic tile"
+        },
+        {
+          "name": "Pressed penny",
+          "description": "elongated copper souvenir penny with embossed skyline"
+        },
+        {
+          "name": "Woven fan",
+          "description": "folding hand fan with bamboo ribs"
+        },
+        {
+          "name": "Snow globe",
+          "description": "small snow globe with miniature mountain"
+        }
+      ]
+    }
+  ]
+}

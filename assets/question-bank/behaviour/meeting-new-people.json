@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Party arrival",
+      "question": "You walk into a party where you know only the host. What do you do first?",
+      "outcomes": [
+        {
+          "name": "Wave across the room",
+          "description": "Wave across the room — party arrival vignette"
+        },
+        {
+          "name": "Help carry the drinks",
+          "description": "Help carry the drinks — party arrival vignette"
+        },
+        {
+          "name": "Introduce yourself to a stranger",
+          "description": "Introduce yourself to a stranger — party arrival vignette"
+        },
+        {
+          "name": "Look through the records",
+          "description": "Look through the records — party arrival vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Introductions",
+      "question": "Two newcomers arrive at your games night. How do you welcome them?",
+      "outcomes": [
+        {
+          "name": "Pull up two chairs",
+          "description": "Pull up two chairs — introductions vignette"
+        },
+        {
+          "name": "Deal a practice hand",
+          "description": "Deal a practice hand — introductions vignette"
+        },
+        {
+          "name": "Offer a snack bowl",
+          "description": "Offer a snack bowl — introductions vignette"
+        },
+        {
+          "name": "Make handwritten name tags",
+          "description": "Make handwritten name tags — introductions vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Neighbourhood welcome",
+      "question": "Someone moves in next door. What would you bring over?",
+      "outcomes": [
+        {
+          "name": "A welcome plant",
+          "description": "A welcome plant — neighbourhood welcome vignette"
+        },
+        {
+          "name": "A homemade pie",
+          "description": "A homemade pie — neighbourhood welcome vignette"
+        },
+        {
+          "name": "A local walking map",
+          "description": "A local walking map — neighbourhood welcome vignette"
+        },
+        {
+          "name": "A spare umbrella",
+          "description": "A spare umbrella — neighbourhood welcome vignette"
+        }
+      ]
+    },
+    {
+      "topic": "First rehearsal",
+      "question": "You arrive early for a community play. How do you spend the extra time?",
+      "outcomes": [
+        {
+          "name": "Stretch at the barre",
+          "description": "Stretch at the barre — first rehearsal vignette"
+        },
+        {
+          "name": "Highlight your lines",
+          "description": "Highlight your lines — first rehearsal vignette"
+        },
+        {
+          "name": "Arrange the folding chairs",
+          "description": "Arrange the folding chairs — first rehearsal vignette"
+        },
+        {
+          "name": "Practise with a hand puppet",
+          "description": "Practise with a hand puppet — first rehearsal vignette"
+        }
+      ]
+    }
+  ]
+}

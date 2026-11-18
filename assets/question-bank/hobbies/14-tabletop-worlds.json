@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Miniature painting",
+      "question": "The miniatures club is painting scenery for a village map. Which piece do you claim?",
+      "outcomes": [
+        {
+          "name": "Stone well",
+          "description": "miniature stone well with wooden roof"
+        },
+        {
+          "name": "Market stall",
+          "description": "miniature striped market booth with crates"
+        },
+        {
+          "name": "Watermill",
+          "description": "small timber watermill building with paddle wheel"
+        },
+        {
+          "name": "Weathered footbridge",
+          "description": "miniature arched wooden footbridge"
+        }
+      ]
+    },
+    {
+      "topic": "Dungeon master supplies",
+      "question": "Your players arrive in five minutes. Which finishing touch do you add to the table?",
+      "outcomes": [
+        {
+          "name": "Game master screen",
+          "description": "folding illustrated fantasy landscape screen"
+        },
+        {
+          "name": "Initiative tracker",
+          "description": "vertical wooden peg tracker with coloured sliders"
+        },
+        {
+          "name": "Hex battle mat",
+          "description": "rolled pale battle mat with hexagonal grid"
+        },
+        {
+          "name": "Miniature treasure chest",
+          "description": "tiny open tabletop treasure chest with gold coins"
+        }
+      ]
+    },
+    {
+      "topic": "Role-playing dice",
+      "question": "You're allowed one oversized die as a souvenir from game night. Which shape do you choose?",
+      "outcomes": [
+        {
+          "name": "Four-sided die",
+          "description": "green tetrahedral gaming die"
+        },
+        {
+          "name": "Eight-sided die",
+          "description": "purple octahedral gaming die"
+        },
+        {
+          "name": "Twelve-sided die",
+          "description": "orange dodecahedral gaming die"
+        },
+        {
+          "name": "Twenty-sided die",
+          "description": "blue icosahedral gaming die"
+        }
+      ]
+    },
+    {
+      "topic": "Card game accessories",
+      "question": "You are opening a stall at a card-game convention. Which accessory goes on the front shelf?",
+      "outcomes": [
+        {
+          "name": "Deck box",
+          "description": "open indigo fitted box with deck of cards"
+        },
+        {
+          "name": "Card sleeves",
+          "description": "fan of transparent protective card sleeves"
+        },
+        {
+          "name": "Playmat",
+          "description": "rolled illustrated rectangular card gaming playmat"
+        },
+        {
+          "name": "Display stand",
+          "description": "clear acrylic trading card display easel holding a fantasy picture card"
+        }
+      ]
+    }
+  ]
+}

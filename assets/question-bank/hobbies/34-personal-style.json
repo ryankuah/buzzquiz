@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Hat making",
+      "question": "A costume class is holding a hat parade. Which shape do you block from felt?",
+      "outcomes": [
+        {
+          "name": "Cloche hat",
+          "description": "1920s teal felt cloche hat"
+        },
+        {
+          "name": "Boater hat",
+          "description": "flat-topped straw boater with striped ribbon"
+        },
+        {
+          "name": "Tricorn hat",
+          "description": "black three-cornered historical hat"
+        },
+        {
+          "name": "Pillbox hat",
+          "description": "small red pillbox hat"
+        }
+      ]
+    },
+    {
+      "topic": "Bag design",
+      "question": "A sewing display wants a bag with a bold silhouette. Which shape do you sketch?",
+      "outcomes": [
+        {
+          "name": "Bucket bag",
+          "description": "green drawstring bucket handbag"
+        },
+        {
+          "name": "Satchel",
+          "description": "brown square leather satchel"
+        },
+        {
+          "name": "Cylinder bag",
+          "description": "pink cylindrical barrel handbag"
+        },
+        {
+          "name": "Envelope clutch",
+          "description": "metallic blue envelope clutch"
+        }
+      ]
+    },
+    {
+      "topic": "Shoe decoration",
+      "question": "Your shoes need a tiny change before a performance. Which detail do you attach?",
+      "outcomes": [
+        {
+          "name": "Shoe charms",
+          "description": "three colourful rubber shoe charms"
+        },
+        {
+          "name": "Ribbon laces",
+          "description": "pair of wide satin ribbon shoelaces"
+        },
+        {
+          "name": "Reflective tabs",
+          "description": "pair of bright silver reflective shoe tabs"
+        },
+        {
+          "name": "Clip-on bows",
+          "description": "pair of black velvet clip-on shoe bows"
+        }
+      ]
+    },
+    {
+      "topic": "Button collecting",
+      "question": "An antique dealer lets you add one button to your collection. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Toggle button",
+          "description": "wooden duffel coat toggle"
+        },
+        {
+          "name": "Mother-of-pearl button",
+          "description": "iridescent four-hole shell button"
+        },
+        {
+          "name": "Frog closure",
+          "description": "decorative braided green frog fastening"
+        },
+        {
+          "name": "Fabric button",
+          "description": "large round floral fabric-covered button"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Arcade cabinet",
+      "question": "The arcade attendant unlocks one machine for unlimited play. Which controls catch your eye?",
+      "outcomes": [
+        {
+          "name": "Claw machine",
+          "description": "transparent arcade claw machine filled with toy prizes"
+        },
+        {
+          "name": "Pinball table",
+          "description": "colourful freestanding pinball machine"
+        },
+        {
+          "name": "Dance platform",
+          "description": "arcade dance mat platform with arrow panels"
+        },
+        {
+          "name": "Air hockey table",
+          "description": "air hockey table with red strikers"
+        }
+      ]
+    },
+    {
+      "topic": "Tabletop evening",
+      "question": "Everyone is bringing one hands-on game to a rainy weekend away. Which box do you unpack?",
+      "outcomes": [
+        {
+          "name": "Carrom board",
+          "description": "square wood carrom board with corner pockets and discs"
+        },
+        {
+          "name": "Wooden block tower",
+          "description": "staggered wooden stacking tower"
+        },
+        {
+          "name": "Marble solitaire",
+          "description": "round wooden solitaire board with glass marbles"
+        },
+        {
+          "name": "Table football",
+          "description": "miniature foosball table with rod players"
+        }
+      ]
+    },
+    {
+      "topic": "Puzzle collecting",
+      "question": "A puzzle shop offers you a pocket-size challenge for the train ride home. Which one do you take?",
+      "outcomes": [
+        {
+          "name": "Twist cube",
+          "description": "multicoloured mechanical twist cube"
+        },
+        {
+          "name": "Wire disentanglement puzzle",
+          "description": "interlocking bent-metal wire puzzle"
+        },
+        {
+          "name": "Tangram set",
+          "description": "colourful flat geometric tangram shapes"
+        },
+        {
+          "name": "Sliding tile puzzle",
+          "description": "square sliding puzzle grid with one empty space"
+        }
+      ]
+    },
+    {
+      "topic": "Game night hosting",
+      "question": "You're packing a prop to make tonight's homemade board game feel finished. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Dice tower",
+          "description": "wooden tabletop dice tower"
+        },
+        {
+          "name": "Card shoe",
+          "description": "angled wooden playing card dispenser"
+        },
+        {
+          "name": "Sand timer",
+          "description": "small purple hourglass game timer"
+        },
+        {
+          "name": "Pawn tray",
+          "description": "shallow tray of colourful wooden game pawns"
+        }
+      ]
+    }
+  ]
+}

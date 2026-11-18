@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Barbershop services",
+      "question": "You have time for one extra service after a haircut. Which do you choose?",
+      "outcomes": [
+        {
+          "name": "Hot towel",
+          "description": "stack of neatly rolled warm white towels"
+        },
+        {
+          "name": "Beard trim",
+          "description": "barber scissors and a small beard comb"
+        },
+        {
+          "name": "Straight razor shave",
+          "description": "folding straight razor beside shaving brush"
+        },
+        {
+          "name": "Scalp massage",
+          "description": "wooden scalp massager with rounded pegs"
+        }
+      ]
+    },
+    {
+      "topic": "Skin care shelf",
+      "question": "Your friend is packing for a dry climate. Which gift would you put in their bag?",
+      "outcomes": [
+        {
+          "name": "Lip balm",
+          "description": "uncapped plain lip balm stick"
+        },
+        {
+          "name": "Hand cream",
+          "description": "small metal tube of hand cream"
+        },
+        {
+          "name": "Sheet mask",
+          "description": "unfolded white facial sheet mask"
+        },
+        {
+          "name": "Face mist",
+          "description": "small translucent facial spray bottle"
+        }
+      ]
+    },
+    {
+      "topic": "Hair styling tools",
+      "question": "You can borrow one tool for getting ready. Which one do you pick?",
+      "outcomes": [
+        {
+          "name": "Round brush",
+          "description": "cylindrical bristle round brush"
+        },
+        {
+          "name": "Flat iron",
+          "description": "open ceramic hair straightener"
+        },
+        {
+          "name": "Curling wand",
+          "description": "tapered curling wand with handle"
+        },
+        {
+          "name": "Hair diffuser",
+          "description": "bowl-shaped hair dryer diffuser attachment"
+        }
+      ]
+    },
+    {
+      "topic": "Bath rituals",
+      "question": "You have a quiet evening and a deep bath. What do you add?",
+      "outcomes": [
+        {
+          "name": "Bath bomb",
+          "description": "round marbled pink bath bomb"
+        },
+        {
+          "name": "Bath salts",
+          "description": "glass jar of coarse mineral bath crystals"
+        },
+        {
+          "name": "Loofah sponge",
+          "description": "natural loofah bath sponge"
+        },
+        {
+          "name": "Bubble bath",
+          "description": "glass bottle of foaming bath soak with bubbles"
+        }
+      ]
+    }
+  ]
+}

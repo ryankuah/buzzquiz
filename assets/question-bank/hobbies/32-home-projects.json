@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Furniture restoration",
+      "question": "You find a scuffed side table at a yard sale. What do you take out of the tool drawer first?",
+      "outcomes": [
+        {
+          "name": "Sanding block",
+          "description": "cork sanding block wrapped in sandpaper"
+        },
+        {
+          "name": "Wood wax",
+          "description": "open tin of honey-coloured furniture wax"
+        },
+        {
+          "name": "Cabinet scraper",
+          "description": "flat rectangular steel cabinet scraper"
+        },
+        {
+          "name": "Drawer pull",
+          "description": "vintage brass drawer handle"
+        }
+      ]
+    },
+    {
+      "topic": "Picture hanging",
+      "question": "Your print is ready to go on the wall. What do you use to work out its position?",
+      "outcomes": [
+        {
+          "name": "Spirit level",
+          "description": "yellow bubble spirit level"
+        },
+        {
+          "name": "Plumb bob",
+          "description": "brass plumb bob on string"
+        },
+        {
+          "name": "Folding ruler",
+          "description": "wooden zigzag folding ruler"
+        },
+        {
+          "name": "Laser level",
+          "description": "small red laser level on a base"
+        }
+      ]
+    },
+    {
+      "topic": "Home organisation",
+      "question": "Your entryway needs one small change to handle the morning rush. What do you fit?",
+      "outcomes": [
+        {
+          "name": "Key hooks",
+          "description": "wooden rail with brass key hooks"
+        },
+        {
+          "name": "Mail sorter",
+          "description": "wooden wall-mounted letter sorter"
+        },
+        {
+          "name": "Umbrella stand",
+          "description": "tall ceramic umbrella stand"
+        },
+        {
+          "name": "Shoe rack",
+          "description": "two-tier wooden shoe rack"
+        }
+      ]
+    },
+    {
+      "topic": "Upholstery",
+      "question": "Your favourite footstool needs a new top. Which finish do you give it?",
+      "outcomes": [
+        {
+          "name": "Tufted velvet",
+          "description": "square emerald button-tufted velvet cushion"
+        },
+        {
+          "name": "Woven cane",
+          "description": "rectangular woven cane seat insert"
+        },
+        {
+          "name": "Leather piping",
+          "description": "brown leather cushion with cream piping"
+        },
+        {
+          "name": "Patchwork denim",
+          "description": "square cushion in blue denim patchwork"
+        }
+      ]
+    }
+  ]
+}

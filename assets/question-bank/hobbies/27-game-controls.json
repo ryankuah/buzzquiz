@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Console controllers",
+      "question": "Four specialist controllers are plugged into the demo stand. Which do you try?",
+      "outcomes": [
+        {
+          "name": "Racing wheel",
+          "description": "video game steering wheel on a compact base"
+        },
+        {
+          "name": "Flight yoke",
+          "description": "flight simulator twin-handled yoke"
+        },
+        {
+          "name": "Arcade fight stick",
+          "description": "arcade fight stick with six coloured buttons"
+        },
+        {
+          "name": "Fishing controller",
+          "description": "toy fishing rod video game controller with reel"
+        }
+      ]
+    },
+    {
+      "topic": "Handheld gaming",
+      "question": "Your portable game needs one upgrade for a long commute. What goes in the case?",
+      "outcomes": [
+        {
+          "name": "Thumb grips",
+          "description": "pair of red joystick thumb grip caps"
+        },
+        {
+          "name": "Cartridge case",
+          "description": "small open card holder filled with game cartridges"
+        },
+        {
+          "name": "Grip shell",
+          "description": "blue ergonomic grip shell for handheld console"
+        },
+        {
+          "name": "Charging dock",
+          "description": "small white handheld game console charging cradle"
+        }
+      ]
+    },
+    {
+      "topic": "Retro game shelf",
+      "question": "The museum wants one item from your old game shelf. Which one tells the best story?",
+      "outcomes": [
+        {
+          "name": "Paddle controller",
+          "description": "vintage black rotary paddle game controller"
+        },
+        {
+          "name": "Game cartridge",
+          "description": "grey retro game cartridge with blank colour label"
+        },
+        {
+          "name": "Light-up memory game",
+          "description": "round four-colour electronic memory game"
+        },
+        {
+          "name": "Pocket LCD game",
+          "description": "small vintage handheld LCD game with two buttons"
+        }
+      ]
+    },
+    {
+      "topic": "Accessibility controls",
+      "question": "A game lab invites you to test a different way to play. Which control would you test first?",
+      "outcomes": [
+        {
+          "name": "Large button switch",
+          "description": "large red assistive push button switch"
+        },
+        {
+          "name": "Foot pedal",
+          "description": "wide black USB foot switch"
+        },
+        {
+          "name": "Sip-and-puff switch",
+          "description": "flexible sip and puff mouthpiece on a small stand"
+        },
+        {
+          "name": "Adaptive joystick",
+          "description": "large pale ball-topped accessible joystick on a stable base"
+        }
+      ]
+    }
+  ]
+}

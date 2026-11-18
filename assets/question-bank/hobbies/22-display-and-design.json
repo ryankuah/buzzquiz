@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Model railway",
+      "question": "Your model railway town has room for one last building. What goes beside the tracks?",
+      "outcomes": [
+        {
+          "name": "Signal box",
+          "description": "small green railway signal box on stilts"
+        },
+        {
+          "name": "Platform canopy",
+          "description": "miniature railway platform canopy with iron posts"
+        },
+        {
+          "name": "Water tower",
+          "description": "model cylindrical railway water tower on a timber frame"
+        },
+        {
+          "name": "Roundhouse",
+          "description": "model brick railway roundhouse with curved wall and track entrances"
+        }
+      ]
+    },
+    {
+      "topic": "Graphic design",
+      "question": "A print studio asks you to set up its analog design table. What do you lay out?",
+      "outcomes": [
+        {
+          "name": "Pantograph",
+          "description": "wooden drafting pantograph linkage"
+        },
+        {
+          "name": "French curves",
+          "description": "stack of clear curved drafting templates"
+        },
+        {
+          "name": "Type specimen sheet",
+          "description": "printed sheet with specimen letterforms in rows"
+        },
+        {
+          "name": "Swatch fan",
+          "description": "fan deck of multicoloured paint swatches"
+        }
+      ]
+    },
+    {
+      "topic": "Paper craft",
+      "question": "The community centre has coloured paper for a lantern festival. Which paper decoration do you fold?",
+      "outcomes": [
+        {
+          "name": "Origami crane",
+          "description": "folded blue paper crane"
+        },
+        {
+          "name": "Paper rosette",
+          "description": "round pleated red paper rosette"
+        },
+        {
+          "name": "Kirigami snowflake",
+          "description": "intricate white cut-paper snowflake"
+        },
+        {
+          "name": "Paper chain",
+          "description": "short chain of linked coloured paper loops"
+        }
+      ]
+    },
+    {
+      "topic": "Hobby storage",
+      "question": "Your craft table disappears under a weekend of supplies. What gets everything sorted again?",
+      "outcomes": [
+        {
+          "name": "Pegboard organiser",
+          "description": "small pegboard panel with hooks and crafting tools"
+        },
+        {
+          "name": "Thread rack",
+          "description": "wooden rack of multicoloured thread spools"
+        },
+        {
+          "name": "Parts drawers",
+          "description": "small cabinet of clear plastic parts drawers"
+        },
+        {
+          "name": "Rolling cart",
+          "description": "three-tier teal metal craft trolley"
+        }
+      ]
+    }
+  ]
+}

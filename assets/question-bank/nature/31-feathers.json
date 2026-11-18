@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Woodpeckers",
+      "question": "Your woodland audio walk needs a drumming bird on its cover. Which species?",
+      "outcomes": [
+        {
+          "name": "Pileated woodpecker",
+          "description": "Pileated woodpecker — black woodpecker with a red crest"
+        },
+        {
+          "name": "Great spotted woodpecker",
+          "description": "Great spotted woodpecker — black and white woodpecker with red undertail"
+        },
+        {
+          "name": "Northern flicker",
+          "description": "Northern flicker — brown speckled woodpecker with black breast crescent"
+        },
+        {
+          "name": "Acorn woodpecker",
+          "description": "Acorn woodpecker — black and white woodpecker with red cap and yellow eyes"
+        }
+      ]
+    },
+    {
+      "topic": "Hummingbirds",
+      "question": "A balcony wildlife camera catches a tiny visitor. Which plumage do you zoom in on?",
+      "outcomes": [
+        {
+          "name": "Ruby-throated hummingbird",
+          "description": "Ruby-throated hummingbird — green hummingbird with bright red throat"
+        },
+        {
+          "name": "Anna's hummingbird",
+          "description": "Anna's hummingbird — green hummingbird with iridescent pink crown"
+        },
+        {
+          "name": "Sword-billed hummingbird",
+          "description": "Sword-billed hummingbird — green hummingbird with extraordinarily long straight bill"
+        },
+        {
+          "name": "Booted racket-tail",
+          "description": "Booted racket-tail — tiny hummingbird with white leg tufts and spatula-tipped tail"
+        }
+      ]
+    },
+    {
+      "topic": "Penguins",
+      "question": "The penguin research team wants a patch. Which penguin do you stitch on it?",
+      "outcomes": [
+        {
+          "name": "King penguin",
+          "description": "King penguin — tall penguin with golden orange ear patches"
+        },
+        {
+          "name": "Rockhopper penguin",
+          "description": "Rockhopper penguin — small penguin with spiky yellow crest"
+        },
+        {
+          "name": "Little blue penguin",
+          "description": "Little blue penguin — short blue-grey penguin"
+        },
+        {
+          "name": "African penguin",
+          "description": "African penguin — black and white penguin with a single black chest band"
+        }
+      ]
+    },
+    {
+      "topic": "Farmyard birds",
+      "question": "You can paint one weather vane for the farm shop. Which bird inspires its shape?",
+      "outcomes": [
+        {
+          "name": "Rooster",
+          "description": "Rooster — copper-red rooster with curved tail feathers"
+        },
+        {
+          "name": "Turkey",
+          "description": "Turkey — dark turkey with fanned tail and red wattle"
+        },
+        {
+          "name": "Guineafowl",
+          "description": "Guineafowl — round speckled guineafowl with blue head"
+        },
+        {
+          "name": "Peacock",
+          "description": "Peacock — peacock displaying a full green eye-spotted train"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "European city",
+      "question": "You have a free afternoon in Europe. Where would you wander?",
+      "outcomes": [
+        {
+          "name": "Amsterdam",
+          "description": "Amsterdam canal houses"
+        },
+        {
+          "name": "Venice",
+          "description": "Venetian gondola and canal bridge"
+        },
+        {
+          "name": "Barcelona",
+          "description": "Sagrada Familia in Barcelona"
+        },
+        {
+          "name": "Prague",
+          "description": "Charles Bridge in Prague"
+        }
+      ]
+    },
+    {
+      "topic": "East Asian city",
+      "question": "Which city would you visit for a weekend of sightseeing?",
+      "outcomes": [
+        {
+          "name": "Kyoto",
+          "description": "Kyoto vermilion shrine gates"
+        },
+        {
+          "name": "Seoul",
+          "description": "Seoul Namsan Tower"
+        },
+        {
+          "name": "Shanghai",
+          "description": "Shanghai Oriental Pearl Tower"
+        },
+        {
+          "name": "Taipei",
+          "description": "Taipei 101 tower"
+        }
+      ]
+    },
+    {
+      "topic": "Australian city",
+      "question": "You can start a week in Australia in one city. Which is it?",
+      "outcomes": [
+        {
+          "name": "Melbourne",
+          "description": "Melbourne green and gold heritage tram"
+        },
+        {
+          "name": "Brisbane",
+          "description": "Brisbane Story Bridge"
+        },
+        {
+          "name": "Perth",
+          "description": "Perth Swan Bells tower"
+        },
+        {
+          "name": "Hobart",
+          "description": "Hobart waterfront and Mount Wellington"
+        }
+      ]
+    },
+    {
+      "topic": "North American city",
+      "question": "Which stop do you circle on a city-hopping itinerary?",
+      "outcomes": [
+        {
+          "name": "Toronto",
+          "description": "Toronto CN Tower"
+        },
+        {
+          "name": "Seattle",
+          "description": "Seattle Space Needle"
+        },
+        {
+          "name": "San Francisco",
+          "description": "San Francisco painted Victorian houses"
+        },
+        {
+          "name": "Mexico City",
+          "description": "Mexico City Palace of Fine Arts"
+        }
+      ]
+    }
+  ]
+}

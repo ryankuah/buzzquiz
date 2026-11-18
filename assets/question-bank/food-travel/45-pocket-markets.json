@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Tea shop tools",
+      "question": "Your friend is starting a loose-leaf tea shelf. Which small tool do you give them?",
+      "outcomes": [
+        {
+          "name": "Tea infuser",
+          "description": "perforated metal tea ball with chain"
+        },
+        {
+          "name": "Tea strainer",
+          "description": "fine mesh teacup strainer with handle"
+        },
+        {
+          "name": "Tea scoop",
+          "description": "bamboo tea scoop"
+        },
+        {
+          "name": "Tea caddy",
+          "description": "round decorative metal tea tin"
+        }
+      ]
+    },
+    {
+      "topic": "Cheesemonger counter",
+      "question": "You want to make a cheese board with four contrasting textures. Which would you taste first?",
+      "outcomes": [
+        {
+          "name": "Manchego",
+          "description": "ivory Manchego wedge with patterned rind"
+        },
+        {
+          "name": "Gouda",
+          "description": "amber Gouda wedge with wax rind"
+        },
+        {
+          "name": "Camembert",
+          "description": "whole small bloomy-rind Camembert in round wood box"
+        },
+        {
+          "name": "Halloumi",
+          "description": "stack of grilled halloumi slices"
+        }
+      ]
+    },
+    {
+      "topic": "Pickle stall",
+      "question": "The sandwich bar lets you add a crunchy pickle. Which jar would you choose?",
+      "outcomes": [
+        {
+          "name": "Cornichons",
+          "description": "small whole bumpy green gherkins"
+        },
+        {
+          "name": "Pickled red onion",
+          "description": "jar of pink onion ribbons"
+        },
+        {
+          "name": "Pickled radish",
+          "description": "bright yellow pickled radish discs"
+        },
+        {
+          "name": "Pickled okra",
+          "description": "jar of green ridged okra pods"
+        }
+      ]
+    },
+    {
+      "topic": "Bakery equipment",
+      "question": "You are helping a baker set up a stall before dawn. Which tool do you take from the box?",
+      "outcomes": [
+        {
+          "name": "Banneton",
+          "description": "spiral wicker bread proving basket"
+        },
+        {
+          "name": "Bread lame",
+          "description": "slender bread scoring blade with wooden handle"
+        },
+        {
+          "name": "Pastry brush",
+          "description": "wooden pastry brush with natural bristles"
+        },
+        {
+          "name": "Bench scraper",
+          "description": "rectangular metal dough scraper with wood handle"
+        }
+      ]
+    }
+  ]
+}

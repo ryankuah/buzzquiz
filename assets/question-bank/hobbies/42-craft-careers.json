@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Clock repair",
+      "question": "A clockmaker is showing visitors a movement on the bench. Which component do you ask about?",
+      "outcomes": [
+        {
+          "name": "Escapement wheel",
+          "description": "brass clock escapement wheel with angled teeth"
+        },
+        {
+          "name": "Clock pendulum",
+          "description": "brass clock pendulum with a long rod"
+        },
+        {
+          "name": "Mainspring",
+          "description": "coiled flat steel clock mainspring"
+        },
+        {
+          "name": "Clock key",
+          "description": "brass wing-shaped winding key"
+        }
+      ]
+    },
+    {
+      "topic": "Shoemaking",
+      "question": "An apprentice gives you a tour of the shoemaking bench. Which item looks most interesting to use?",
+      "outcomes": [
+        {
+          "name": "Shoe last",
+          "description": "solid wooden shoe last"
+        },
+        {
+          "name": "Edge burnisher",
+          "description": "grooved wooden leather edge burnisher"
+        },
+        {
+          "name": "Shoe horn",
+          "description": "polished metal shoehorn"
+        },
+        {
+          "name": "Heel block",
+          "description": "stacked leather shoe heel block"
+        }
+      ]
+    },
+    {
+      "topic": "Hair salon",
+      "question": "A trainee stylist asks which section of the salon trolley to prepare. Which item do you pick up?",
+      "outcomes": [
+        {
+          "name": "Round brush",
+          "description": "round barrel hairbrush"
+        },
+        {
+          "name": "Sectioning clips",
+          "description": "set of coloured salon sectioning clips"
+        },
+        {
+          "name": "Roller set",
+          "description": "group of bright velcro hair rollers"
+        },
+        {
+          "name": "Diffuser attachment",
+          "description": "black bowl-shaped hair dryer diffuser"
+        }
+      ]
+    },
+    {
+      "topic": "Bicycle mechanic",
+      "question": "The bike co-op has room for one repair lesson today. Which tool do you want to learn to use?",
+      "outcomes": [
+        {
+          "name": "Chain tool",
+          "description": "compact bicycle chain breaker tool"
+        },
+        {
+          "name": "Spoke wrench",
+          "description": "small circular spoke wrench with notches"
+        },
+        {
+          "name": "Pedal spanner",
+          "description": "long thin bicycle pedal wrench"
+        },
+        {
+          "name": "Work stand",
+          "description": "portable bicycle repair stand with clamp"
+        }
+      ]
+    }
+  ]
+}

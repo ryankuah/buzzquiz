@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Sports day",
+      "question": "Your friends organise a casual sports day. How do you join in?",
+      "outcomes": [
+        {
+          "name": "Run the relay leg",
+          "description": "Run the relay leg — sports day vignette"
+        },
+        {
+          "name": "Keep score on a clipboard",
+          "description": "Keep score on a clipboard — sports day vignette"
+        },
+        {
+          "name": "Hand out team bibs",
+          "description": "Hand out team bibs — sports day vignette"
+        },
+        {
+          "name": "Cheer with a pennant",
+          "description": "Cheer with a pennant — sports day vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Field day",
+      "question": "A group needs help getting its game started. What do you set up?",
+      "outcomes": [
+        {
+          "name": "Place the finish cones",
+          "description": "Place the finish cones — field day vignette"
+        },
+        {
+          "name": "Inflate the match ball",
+          "description": "Inflate the match ball — field day vignette"
+        },
+        {
+          "name": "Unroll the boundary rope",
+          "description": "Unroll the boundary rope — field day vignette"
+        },
+        {
+          "name": "Fill the water cooler",
+          "description": "Fill the water cooler — field day vignette"
+        }
+      ]
+    },
+    {
+      "topic": "School club",
+      "question": "Your new club has its first meeting. What do you bring?",
+      "outcomes": [
+        {
+          "name": "A poster for the door",
+          "description": "A poster for the door — school club vignette"
+        },
+        {
+          "name": "A box of doughnuts",
+          "description": "A box of doughnuts — school club vignette"
+        },
+        {
+          "name": "A binder of ideas",
+          "description": "A binder of ideas — school club vignette"
+        },
+        {
+          "name": "A camera for group photos",
+          "description": "A camera for group photos — school club vignette"
+        }
+      ]
+    },
+    {
+      "topic": "Game captain",
+      "question": "Your team has one timeout left. What do you do with it?",
+      "outcomes": [
+        {
+          "name": "Draw a play on a board",
+          "description": "Draw a play on a board — game captain vignette"
+        },
+        {
+          "name": "Pass around water",
+          "description": "Pass around water — game captain vignette"
+        },
+        {
+          "name": "Lead a team huddle",
+          "description": "Lead a team huddle — game captain vignette"
+        },
+        {
+          "name": "Point out open space on the field",
+          "description": "Point out open space on the field — game captain vignette"
+        }
+      ]
+    }
+  ]
+}

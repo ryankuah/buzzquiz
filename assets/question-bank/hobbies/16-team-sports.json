@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Team equipment",
+      "question": "The school is running a lunchtime sports sampler. Which ball goes into your kit bag?",
+      "outcomes": [
+        {
+          "name": "Rugby ball",
+          "description": "oval red and white rugby ball"
+        },
+        {
+          "name": "Cricket ball",
+          "description": "red leather cricket ball with white stitched seam"
+        },
+        {
+          "name": "Softball",
+          "description": "large bright yellow softball with red stitching"
+        },
+        {
+          "name": "Water polo ball",
+          "description": "yellow grooved water polo ball with blue panels"
+        }
+      ]
+    },
+    {
+      "topic": "Field hockey club",
+      "question": "The clubhouse display needs a centrepiece. Which piece of equipment do you mount?",
+      "outcomes": [
+        {
+          "name": "Field hockey stick",
+          "description": "curved green field hockey stick"
+        },
+        {
+          "name": "Goalkeeper kickers",
+          "description": "pair of bulky orange field hockey goalkeeper footguards"
+        },
+        {
+          "name": "Shin guards",
+          "description": "pair of contoured hard white hockey shin guards"
+        },
+        {
+          "name": "Hockey goal",
+          "description": "small field hockey goal with green net and backboard"
+        }
+      ]
+    },
+    {
+      "topic": "Cycling club",
+      "question": "The club is assembling welcome packs. Which extra would you tuck into every pack?",
+      "outcomes": [
+        {
+          "name": "Bicycle bell",
+          "description": "polished brass bicycle bell"
+        },
+        {
+          "name": "Puncture kit",
+          "description": "small tyre patch box with rubber patches"
+        },
+        {
+          "name": "Bottle cage",
+          "description": "teal bicycle bottle cage"
+        },
+        {
+          "name": "Rear light",
+          "description": "small red clip-on bicycle tail light"
+        }
+      ]
+    },
+    {
+      "topic": "Fitness class",
+      "question": "The community hall lets you book one exercise station for friends. What do you put down first?",
+      "outcomes": [
+        {
+          "name": "Balance board",
+          "description": "wooden wobble board with curved base"
+        },
+        {
+          "name": "Kettlebell",
+          "description": "purple cast-iron kettlebell"
+        },
+        {
+          "name": "Resistance bands",
+          "description": "loops of brightly coloured elastic resistance bands"
+        },
+        {
+          "name": "Foam roller",
+          "description": "textured turquoise cylindrical foam roller"
+        }
+      ]
+    }
+  ]
+}

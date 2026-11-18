@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Streaming desk",
+      "question": "Your stream regulars voted for a desk upgrade. What arrives in the post?",
+      "outcomes": [
+        {
+          "name": "Stream control pad",
+          "description": "black angled keypad with glowing coloured square buttons"
+        },
+        {
+          "name": "Microphone boom arm",
+          "description": "jointed black microphone boom arm with desk clamp"
+        },
+        {
+          "name": "Ring light",
+          "description": "white circular ring light on stand"
+        },
+        {
+          "name": "Green screen",
+          "description": "freestanding bright green collapsible backdrop"
+        }
+      ]
+    },
+    {
+      "topic": "Podcast studio",
+      "question": "A guest is coming in to record. Which piece of kit do you set up by their chair?",
+      "outcomes": [
+        {
+          "name": "Dynamic microphone",
+          "description": "black broadcast microphone with rounded foam cover"
+        },
+        {
+          "name": "Mic flag",
+          "description": "small square orange microphone flag fitted below a microphone head"
+        },
+        {
+          "name": "Cable reel",
+          "description": "black audio cable rolled on an orange reel"
+        },
+        {
+          "name": "Headphone amplifier",
+          "description": "small silver four-output headphone amplifier box"
+        }
+      ]
+    },
+    {
+      "topic": "Video editing",
+      "question": "Your editing suite needs one useful extra. What do you choose?",
+      "outcomes": [
+        {
+          "name": "Jog shuttle wheel",
+          "description": "desktop editing shuttle wheel with a large silver jog dial"
+        },
+        {
+          "name": "Colour grading panel",
+          "description": "compact colour grading surface with three trackballs"
+        },
+        {
+          "name": "External SSD",
+          "description": "portable orange rugged solid state drive"
+        },
+        {
+          "name": "Monitor hood",
+          "description": "black three-sided editing monitor shade fitted to a screen"
+        }
+      ]
+    },
+    {
+      "topic": "Digital drawing",
+      "question": "Your friend is trying digital art for the first time. What do you lend them?",
+      "outcomes": [
+        {
+          "name": "Stylus glove",
+          "description": "black two-finger artist drawing glove"
+        },
+        {
+          "name": "Display tablet",
+          "description": "angled pen display showing a colourful landscape"
+        },
+        {
+          "name": "Stylus nibs",
+          "description": "small box of replacement stylus nibs"
+        },
+        {
+          "name": "Shortcut remote",
+          "description": "slim handheld drawing shortcut remote with wheel"
+        }
+      ]
+    }
+  ]
+}

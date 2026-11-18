@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Flea market",
+      "question": "You spot four stalls before the market closes. Which find do you go back for?",
+      "outcomes": [
+        {
+          "name": "Enamel brooch",
+          "description": "colourful enamel swallow brooch"
+        },
+        {
+          "name": "Brass candlestick",
+          "description": "single antique brass candlestick"
+        },
+        {
+          "name": "Mechanical clock",
+          "description": "ornate brass mechanical mantel clock"
+        },
+        {
+          "name": "Patchwork quilt",
+          "description": "folded multicoloured patchwork quilt"
+        }
+      ]
+    },
+    {
+      "topic": "Bookshop counter",
+      "question": "You are picking a small gift for someone who reads on the train. Which item fits?",
+      "outcomes": [
+        {
+          "name": "Magnetic bookmark",
+          "description": "folding magnetic bookmark with a leaf motif"
+        },
+        {
+          "name": "Book light",
+          "description": "small clip-on book light"
+        },
+        {
+          "name": "Fabric book sleeve",
+          "description": "padded fabric book sleeve partly covering a novel"
+        },
+        {
+          "name": "Reading glasses",
+          "description": "folded tortoiseshell reading glasses"
+        }
+      ]
+    },
+    {
+      "topic": "Specialty shops",
+      "question": "A friend gives you a voucher for one workshop. Which shop do you visit?",
+      "outcomes": [
+        {
+          "name": "Perfumer",
+          "description": "cut-glass perfume atomizer with a squeeze bulb"
+        },
+        {
+          "name": "Leatherworker",
+          "description": "leather awl and stitched tan card wallet"
+        },
+        {
+          "name": "Candle maker",
+          "description": "pouring pitcher and a jar candle with wick"
+        },
+        {
+          "name": "Jeweller",
+          "description": "small jeweller's pliers and a gemstone ring"
+        }
+      ]
+    },
+    {
+      "topic": "Gift wrapping",
+      "question": "The box is an awkward shape. Which wrapping method do you reach for?",
+      "outcomes": [
+        {
+          "name": "Furoshiki wrap",
+          "description": "gift tied in patterned furoshiki cloth"
+        },
+        {
+          "name": "Drawstring pouch",
+          "description": "velvet drawstring gift pouch"
+        },
+        {
+          "name": "Gift tin",
+          "description": "round decorated metal gift tin"
+        },
+        {
+          "name": "Kraft paper parcel",
+          "description": "brown paper parcel tied with red twine"
+        }
+      ]
+    }
+  ]
+}

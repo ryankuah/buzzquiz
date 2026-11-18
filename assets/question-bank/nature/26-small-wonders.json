@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Small rodents",
+      "question": "Your illustrated rodent field guide opens with one close-up. Which do you pick?",
+      "outcomes": [
+        {
+          "name": "Harvest mouse",
+          "description": "Harvest mouse — tiny russet mouse clinging to wheat"
+        },
+        {
+          "name": "Dormouse",
+          "description": "Dormouse — golden dormouse with furry tail"
+        },
+        {
+          "name": "Vole",
+          "description": "Vole — round brown vole with short tail"
+        },
+        {
+          "name": "Jerboa",
+          "description": "Jerboa — desert rodent with long hind legs and tufted tail"
+        }
+      ]
+    },
+    {
+      "topic": "Marsupials",
+      "question": "You can sponsor an illustration for a wildlife centre. Which marsupial gets yours?",
+      "outcomes": [
+        {
+          "name": "Red kangaroo",
+          "description": "Red kangaroo — large russet kangaroo standing upright"
+        },
+        {
+          "name": "Quokka",
+          "description": "Quokka — small rounded brown marsupial"
+        },
+        {
+          "name": "Sugar glider",
+          "description": "Sugar glider — grey gliding possum with dark back stripe"
+        },
+        {
+          "name": "Tasmanian devil",
+          "description": "Tasmanian devil — black stocky marsupial with white chest band"
+        }
+      ]
+    },
+    {
+      "topic": "Prickly animals",
+      "question": "You're making a touch-and-feel page about animal armour. Which animal inspires it?",
+      "outcomes": [
+        {
+          "name": "Crested porcupine",
+          "description": "Crested porcupine — large rodent with long black and white quills"
+        },
+        {
+          "name": "Pangolin",
+          "description": "Pangolin — scaled brown pangolin with armour-plated tail"
+        },
+        {
+          "name": "Armadillo",
+          "description": "Armadillo — armadillo with banded shell"
+        },
+        {
+          "name": "Spiny softshell turtle",
+          "description": "Spiny softshell turtle — flat olive turtle with a snorkellike nose"
+        }
+      ]
+    },
+    {
+      "topic": "Cave wildlife",
+      "question": "An underground exhibition needs a centrepiece. Which cave dweller goes in the middle?",
+      "outcomes": [
+        {
+          "name": "Olm",
+          "description": "Olm — pale pink blind salamander with red external gills"
+        },
+        {
+          "name": "Cave cricket",
+          "description": "Cave cricket — humpbacked tan cricket with long antennae"
+        },
+        {
+          "name": "Horseshoe bat",
+          "description": "Horseshoe bat — brown bat with horseshoe-shaped nose leaf"
+        },
+        {
+          "name": "Blind cave tetra",
+          "description": "Blind cave tetra — pale eyeless freshwater fish"
+        }
+      ]
+    }
+  ]
+}

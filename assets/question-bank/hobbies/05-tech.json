@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Keyboard building",
+      "question": "The mechanical keyboard meetup has a maker table. Which small project do you take home?",
+      "outcomes": [
+        {
+          "name": "Macropad",
+          "description": "small six-key mechanical macro keypad"
+        },
+        {
+          "name": "Artisan keycap",
+          "description": "single sculpted frog keycap"
+        },
+        {
+          "name": "Coiled keyboard cable",
+          "description": "purple coiled USB keyboard cable"
+        },
+        {
+          "name": "Wrist rest",
+          "description": "wooden keyboard wrist rest with a resin stripe"
+        }
+      ]
+    },
+    {
+      "topic": "Electronics hobby",
+      "question": "At a beginner electronics fair, one kit can go home with you. Which one?",
+      "outcomes": [
+        {
+          "name": "Mini robot car",
+          "description": "small two-wheel electronics robot car with sensors"
+        },
+        {
+          "name": "LED matrix",
+          "description": "square panel of glowing coloured LED dots"
+        },
+        {
+          "name": "Pocket radio",
+          "description": "small assembled transistor radio with antenna"
+        },
+        {
+          "name": "Digital thermometer",
+          "description": "small electronic temperature display with wired probe"
+        }
+      ]
+    },
+    {
+      "topic": "Computer setup",
+      "question": "You can add one physical control to your editing desk. What would feel best under your hand?",
+      "outcomes": [
+        {
+          "name": "Trackball",
+          "description": "desktop trackball mouse with red ball"
+        },
+        {
+          "name": "Dial controller",
+          "description": "single large metal rotary dial on a base"
+        },
+        {
+          "name": "Pen tablet",
+          "description": "flat drawing tablet with a stylus"
+        },
+        {
+          "name": "Split keyboard",
+          "description": "two separated ergonomic keyboard halves"
+        }
+      ]
+    },
+    {
+      "topic": "Creative coding",
+      "question": "Your coding club wants something visitors can touch. What do you put beside the laptop?",
+      "outcomes": [
+        {
+          "name": "Joystick",
+          "description": "arcade joystick with buttons on a base"
+        },
+        {
+          "name": "Webcam",
+          "description": "small USB webcam with lens"
+        },
+        {
+          "name": "MIDI keyboard",
+          "description": "compact two-octave music keyboard controller"
+        },
+        {
+          "name": "Dance pad",
+          "description": "flat fabric dance game mat with coloured arrows"
+        }
+      ]
+    }
+  ]
+}

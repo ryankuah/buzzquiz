@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Mystery adventure game",
+      "question": "A locked room contains four clues. Which item do you inspect first?",
+      "outcomes": [
+        {
+          "name": "Wax seal stamp",
+          "description": "brass wax seal stamp with green handle"
+        },
+        {
+          "name": "Torn photograph",
+          "description": "torn sepia photograph of a bridge"
+        },
+        {
+          "name": "Pocket watch",
+          "description": "open brass pocket watch"
+        },
+        {
+          "name": "Numbered luggage tag",
+          "description": "old brown card luggage tag on string"
+        }
+      ]
+    },
+    {
+      "topic": "Platform game",
+      "question": "The level designer offers you one obstacle for a toy-themed stage. Which one goes in?",
+      "outcomes": [
+        {
+          "name": "Wind-up mouse",
+          "description": "tin wind-up toy mouse with key"
+        },
+        {
+          "name": "Toy spring",
+          "description": "colourful coil spring toy on its side"
+        },
+        {
+          "name": "Jack-in-the-box",
+          "description": "open jack-in-the-box toy with clown"
+        },
+        {
+          "name": "Bouncing ball",
+          "description": "translucent rubber bouncy ball with colourful swirls"
+        }
+      ]
+    },
+    {
+      "topic": "Sandbox game",
+      "question": "Your building-game town needs a gathering spot. What do you build in the central square?",
+      "outcomes": [
+        {
+          "name": "Bandstand",
+          "description": "octagonal timber park bandstand"
+        },
+        {
+          "name": "Town clock",
+          "description": "ornate freestanding street clock"
+        },
+        {
+          "name": "Splash fountain",
+          "description": "small circular public fountain"
+        },
+        {
+          "name": "Market arcade",
+          "description": "miniature arched covered market building"
+        }
+      ]
+    },
+    {
+      "topic": "Virtual aquarium",
+      "question": "Your aquarium game's newest tank needs one non-living centrepiece. What do you place inside?",
+      "outcomes": [
+        {
+          "name": "Shipwreck ornament",
+          "description": "miniature broken wooden shipwreck aquarium ornament"
+        },
+        {
+          "name": "Bubble volcano",
+          "description": "little aquarium volcano with bubbles"
+        },
+        {
+          "name": "Sunken columns",
+          "description": "set of weathered aquarium ruin columns"
+        },
+        {
+          "name": "Ceramic cave",
+          "description": "rounded terracotta aquarium cave shelter"
+        }
+      ]
+    }
+  ]
+}

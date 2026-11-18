@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Medieval workshops",
+      "question": "You're touring a reconstructed medieval town. Whose workshop do you visit first?",
+      "outcomes": [
+        {
+          "name": "Cooper",
+          "description": "Cooper fitting curved wooden staves to a barrel"
+        },
+        {
+          "name": "Blacksmith",
+          "description": "Blacksmith holding a hammer beside an anvil"
+        },
+        {
+          "name": "Weaver",
+          "description": "Weaver seated at a small wooden loom"
+        },
+        {
+          "name": "Chandler",
+          "description": "Chandler dipping pale candles"
+        }
+      ]
+    },
+    {
+      "topic": "Sailing crew",
+      "question": "You join a living-history sailing crew. Which job do you try for the afternoon?",
+      "outcomes": [
+        {
+          "name": "Shipwright",
+          "description": "Shipwright shaping a short curved timber"
+        },
+        {
+          "name": "Sailmaker",
+          "description": "Sailmaker stitching folded canvas"
+        },
+        {
+          "name": "Lookout",
+          "description": "Lookout peering through a brass spyglass"
+        },
+        {
+          "name": "Helmsman",
+          "description": "Helmsman steering at a ship's wheel"
+        }
+      ]
+    },
+    {
+      "topic": "Printing history",
+      "question": "A local printer offers a hands-on demonstration. What do you want to handle first?",
+      "outcomes": [
+        {
+          "name": "Movable type",
+          "description": "Several vintage metal letterpress type blocks"
+        },
+        {
+          "name": "Ink brayer",
+          "description": "Short rubber ink roller with wooden handle"
+        },
+        {
+          "name": "Composing stick",
+          "description": "Metal typesetter's composing stick holding a row of type"
+        },
+        {
+          "name": "Printer's chase",
+          "description": "Rectangular iron printing chase with locked type"
+        }
+      ]
+    },
+    {
+      "topic": "Ancient games",
+      "question": "The history club sets up a game night. Which ancient pastime attracts your table?",
+      "outcomes": [
+        {
+          "name": "Senet board",
+          "description": "Egyptian senet board with small pawn-shaped pieces"
+        },
+        {
+          "name": "Royal Game of Ur",
+          "description": "Ancient inlaid game board with square and narrow bridge sections"
+        },
+        {
+          "name": "Knucklebones",
+          "description": "Four small ivory-coloured knucklebone game pieces"
+        },
+        {
+          "name": "Mancala board",
+          "description": "Wooden mancala board with two rows of pits and coloured stones"
+        }
+      ]
+    }
+  ]
+}

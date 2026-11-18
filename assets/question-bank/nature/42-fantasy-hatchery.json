@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Forest spirits",
+      "question": "An old trail branches into four paths. Which woodland spirit would you follow?",
+      "outcomes": [
+        {
+          "name": "Dryad",
+          "description": "Dryad — tree spirit with bark skin and leafy crown"
+        },
+        {
+          "name": "Sprite",
+          "description": "Sprite — tiny winged green woodland fairy"
+        },
+        {
+          "name": "Treant",
+          "description": "Treant — walking ancient tree with a kindly face"
+        },
+        {
+          "name": "Mushroom folk",
+          "description": "Mushroom folk — little mushroom being with red cap and mossy feet"
+        }
+      ]
+    },
+    {
+      "topic": "Legendary birds",
+      "question": "You open an enormous aviary door in a dream. Which legendary bird is waiting?",
+      "outcomes": [
+        {
+          "name": "Roc",
+          "description": "Roc — colossal bronze eagle with mighty wings"
+        },
+        {
+          "name": "Thunderbird",
+          "description": "Thunderbird — mythical dark blue bird with storm-patterned wings"
+        },
+        {
+          "name": "Firebird",
+          "description": "Firebird — radiant gold bird with flame-shaped plumage"
+        },
+        {
+          "name": "Cockatrice",
+          "description": "Cockatrice — small rooster-headed creature with bat wings and serpentine tail"
+        }
+      ]
+    },
+    {
+      "topic": "Sea legends",
+      "question": "A bard offers four stories from the deep. Which creature's tale do you request?",
+      "outcomes": [
+        {
+          "name": "Sea serpent",
+          "description": "Sea serpent — long blue serpentine ocean creature with fins"
+        },
+        {
+          "name": "Selkie",
+          "description": "Selkie — grey seal beside a folded human cloak"
+        },
+        {
+          "name": "Mermaid",
+          "description": "Mermaid — mermaid with flowing hair and a teal fish tail"
+        },
+        {
+          "name": "Kelpie",
+          "description": "Kelpie — dark water horse with kelp tangled in its mane"
+        }
+      ]
+    },
+    {
+      "topic": "Mountain legends",
+      "question": "A fantasy cartographer wants one creature drawn on an unexplored ridge. Which one?",
+      "outcomes": [
+        {
+          "name": "Yeti",
+          "description": "Yeti — large white shaggy mountain creature"
+        },
+        {
+          "name": "Stone golem",
+          "description": "Stone golem — blocky walking figure made of grey stone"
+        },
+        {
+          "name": "Wyvern",
+          "description": "Wyvern — winged two-legged dragonlike creature"
+        },
+        {
+          "name": "Mountain troll",
+          "description": "Mountain troll — stocky mossy grey troll with a large nose"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Shoe repair counter",
+      "question": "The cobbler offers to demonstrate one tool. Which do you want to try?",
+      "outcomes": [
+        {
+          "name": "Shoe last",
+          "description": "wooden shoemaker's last"
+        },
+        {
+          "name": "Heel hammer",
+          "description": "short shoemaker's hammer with broad head"
+        },
+        {
+          "name": "Waxed thread",
+          "description": "spool of waxed cobbler thread with needle"
+        },
+        {
+          "name": "Shoe brush",
+          "description": "wooden horsehair polishing brush"
+        }
+      ]
+    },
+    {
+      "topic": "Haberdashery drawers",
+      "question": "You are repairing a favourite piece of clothing. Which drawer do you open first?",
+      "outcomes": [
+        {
+          "name": "Bobbins",
+          "description": "three colourful metal sewing bobbins"
+        },
+        {
+          "name": "Snap fasteners",
+          "description": "set of metal press-stud fasteners"
+        },
+        {
+          "name": "Darning mushroom",
+          "description": "wooden darning mushroom"
+        },
+        {
+          "name": "Seam ripper",
+          "description": "small red handled seam ripper"
+        }
+      ]
+    },
+    {
+      "topic": "Perfume bottles",
+      "question": "The scent is settled. Which bottle would you put on your dressing table?",
+      "outcomes": [
+        {
+          "name": "Rollerball vial",
+          "description": "small transparent rollerball perfume vial"
+        },
+        {
+          "name": "Splash bottle",
+          "description": "cut-glass splash bottle with stopper"
+        },
+        {
+          "name": "Travel atomizer",
+          "description": "refillable slim silver travel atomizer"
+        },
+        {
+          "name": "Solid perfume compact",
+          "description": "small open locket containing cream solid perfume"
+        }
+      ]
+    },
+    {
+      "topic": "Art supply shop",
+      "question": "A shop offers one free tool with a sketchbook. What do you choose?",
+      "outcomes": [
+        {
+          "name": "Brush pen",
+          "description": "black brush pen with flexible pointed nib"
+        },
+        {
+          "name": "Watercolour tin",
+          "description": "open travel tin of little watercolour pans"
+        },
+        {
+          "name": "Charcoal sticks",
+          "description": "bundle of black willow charcoal sticks"
+        },
+        {
+          "name": "Pastel pencils",
+          "description": "fan of coloured pastel pencils"
+        }
+      ]
+    }
+  ]
+}

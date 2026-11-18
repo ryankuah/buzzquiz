@@ -1,0 +1,92 @@
+{
+  "categories": [
+    {
+      "topic": "Festival lights",
+      "question": "You are helping decorate an evening celebration. Which light would you hang or set out?",
+      "outcomes": [
+        {
+          "name": "Diya",
+          "description": "small clay oil lamp with a lit cotton wick"
+        },
+        {
+          "name": "Paper lantern",
+          "description": "round red paper lantern with tassel"
+        },
+        {
+          "name": "Parol",
+          "description": "colourful star-shaped Filipino parol lantern"
+        },
+        {
+          "name": "Luminaria",
+          "description": "glowing candle in a cut-paper bag"
+        }
+      ]
+    },
+    {
+      "topic": "Parade features",
+      "question": "You find a spot along the parade route. What makes you reach for your camera?",
+      "outcomes": [
+        {
+          "name": "Lion dance",
+          "description": "golden Chinese lion dance head"
+        },
+        {
+          "name": "Giant puppet",
+          "description": "bright oversized festival puppet with long cloth arms"
+        },
+        {
+          "name": "Festival drum",
+          "description": "large upright Japanese taiko drum with two sticks"
+        },
+        {
+          "name": "Flower float",
+          "description": "miniature parade float covered in colourful flowers"
+        }
+      ]
+    },
+    {
+      "topic": "Festival crafts",
+      "question": "You want to make one decoration by hand. Which activity table gets your afternoon?",
+      "outcomes": [
+        {
+          "name": "Papel picado",
+          "description": "strip of colourful perforated paper bunting"
+        },
+        {
+          "name": "Origami crane",
+          "description": "gold folded paper crane"
+        },
+        {
+          "name": "Flower garland",
+          "description": "loop of fresh marigolds"
+        },
+        {
+          "name": "Paper pinwheel",
+          "description": "multicoloured paper pinwheel on wooden stick"
+        }
+      ]
+    },
+    {
+      "topic": "Seasonal treats",
+      "question": "The community fair has one stall per celebration. What treat do you try?",
+      "outcomes": [
+        {
+          "name": "Mooncake",
+          "description": "round embossed mooncake sliced to show egg yolk"
+        },
+        {
+          "name": "Panettone",
+          "description": "tall Italian fruit-studded holiday bread"
+        },
+        {
+          "name": "Hot cross bun",
+          "description": "glazed raisin bun with a pale cross"
+        },
+        {
+          "name": "Modak",
+          "description": "ridged white steamed modak dumpling"
+        }
+      ]
+    }
+  ]
+}
