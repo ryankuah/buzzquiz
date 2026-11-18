@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dwarf planet",
+      "question": "Which dwarf planet are you?",
+      "outcomes": [
+        {
+          "name": "Pluto",
+          "description": "Pluto — Reddish dwarf planet with a prominent pale heart-shaped region"
+        },
+        {
+          "name": "Ceres",
+          "description": "Ceres — Grey cratered dwarf planet with bright white spots in one crater"
+        },
+        {
+          "name": "Haumea",
+          "description": "Haumea — Fast-spinning elongated white ellipsoid with a slender tilted ring"
+        },
+        {
+          "name": "Makemake",
+          "description": "Makemake — Rust-red icy dwarf planet on a darkening limb"
+        }
+      ]
+    }
+  ]
+}

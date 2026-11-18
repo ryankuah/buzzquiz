@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pasta shape",
+      "outcomes": [
+        {
+          "name": "Farfalle",
+          "description": "Several uncooked golden bowtie pasta pieces with pinched middles and zigzag ends"
+        },
+        {
+          "name": "Conchiglie",
+          "description": "Several large uncooked shell-shaped pasta pieces with parallel fine ridges and clearly hollow centres"
+        },
+        {
+          "name": "Ziti",
+          "description": "A bundle of straight golden pasta tubes with smooth sides and wide hollow ends."
+        },
+        {
+          "name": "Radiatori",
+          "description": "Several short golden radiator-shaped pasta pieces with tightly frilled ridges"
+        }
+      ],
+      "question": "Which pasta shape are you?"
+    }
+  ]
+}

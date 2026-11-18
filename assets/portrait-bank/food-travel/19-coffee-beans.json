@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coffeehouse pastry",
+      "question": "Which coffeehouse pastry are you?",
+      "outcomes": [
+        {
+          "name": "Pain au chocolat",
+          "description": "rectangular flaky pastry with two visible chocolate ends"
+        },
+        {
+          "name": "Almond croissant",
+          "description": "croissant covered with toasted almonds and icing sugar"
+        },
+        {
+          "name": "Fruit Danish",
+          "description": "glazed laminated pastry with colourful berries and custard"
+        },
+        {
+          "name": "Palmier",
+          "description": "heart-shaped caramelised puff pastry biscuit"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "College major",
+      "question": "Which college major are you?",
+      "outcomes": [
+        {
+          "name": "Computer science",
+          "description": "a student sketching a small connected graph next to an open laptop with code"
+        },
+        {
+          "name": "Mechanical engineering",
+          "description": "a student assembling a scale gearbox and cog assembly at a workbench"
+        },
+        {
+          "name": "Mathematics",
+          "description": "a student at a small chalkboard covered in a geometric proof and a drawn parabola"
+        },
+        {
+          "name": "Astronomy",
+          "description": "a student at a tripod telescope with a circular star chart"
+        }
+      ]
+    }
+  ]
+}

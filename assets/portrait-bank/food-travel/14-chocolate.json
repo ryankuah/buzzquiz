@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Chocolate bar flavour",
+      "question": "Which chocolate bar flavour are you?",
+      "outcomes": [
+        {
+          "name": "Milk chocolate",
+          "description": "light brown segmented bar partly broken"
+        },
+        {
+          "name": "White chocolate",
+          "description": "ivory segmented chocolate bar"
+        },
+        {
+          "name": "Dark almond chocolate",
+          "description": "dark chocolate slab cut through whole almonds"
+        },
+        {
+          "name": "Ruby chocolate",
+          "description": "pink ruby chocolate bar with a small broken square"
+        }
+      ]
+    }
+  ]
+}

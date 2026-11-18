@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Guitar effects pedal",
+      "question": "Which guitar effects pedal are you?",
+      "outcomes": [
+        {
+          "name": "Wah pedal",
+          "description": "black rocking wah-wah pedal with a treaded footplate"
+        },
+        {
+          "name": "Fuzz pedal",
+          "description": "round vintage red fuzz pedal with two knobs"
+        },
+        {
+          "name": "Delay pedal",
+          "description": "blue guitar stompbox with a small echo waveform motif"
+        },
+        {
+          "name": "Chorus pedal",
+          "description": "turquoise guitar stompbox with a rippled double-wave motif"
+        }
+      ]
+    }
+  ]
+}

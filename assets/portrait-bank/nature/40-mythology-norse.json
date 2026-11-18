@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Norse deity",
+      "question": "Which Norse deity are you?",
+      "outcomes": [
+        {
+          "name": "Frigg",
+          "description": "Norse queen in blue with long braid and a wooden spindle and distaff"
+        },
+        {
+          "name": "Skadi",
+          "description": "Winter huntress from Norse myth wearing white furs, fur boots and long wooden skis"
+        },
+        {
+          "name": "Tyr",
+          "description": "One-handed Norse god of justice with one empty sleeve and an upright carved oath stone"
+        },
+        {
+          "name": "Idunn",
+          "description": "Norse goddess of youth with a willow basket filled with bright golden apples"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Database engine",
+      "question": "Which database engine are you?",
+      "outcomes": [
+        {
+          "name": "PostgreSQL",
+          "description": "a blue elephant head with long curving trunk and ivory tusks"
+        },
+        {
+          "name": "MongoDB",
+          "description": "one tapered green leaf with a thin vertical vein"
+        },
+        {
+          "name": "SQLite",
+          "description": "a blue feather quill tilted over a compact rectangular blue file tile"
+        },
+        {
+          "name": "Redis",
+          "description": "three stacked red square database tiles with simplified white shapes on top"
+        }
+      ]
+    }
+  ]
+}

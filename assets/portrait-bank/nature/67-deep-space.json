@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cosmic object",
+      "question": "Which cosmic object would you put on an observatory poster?",
+      "outcomes": [
+        {
+          "name": "Sombrero Galaxy",
+          "description": "Edge-on pale galactic disk with bulging centre and sharp dark dust lane"
+        },
+        {
+          "name": "Ring Nebula",
+          "description": "Oval blue-centred planetary nebula with a red-orange ring, isolated on alpha"
+        },
+        {
+          "name": "Pleiades",
+          "description": "Compact jewel-like cluster of seven bright blue-white stars in delicate blue reflection mist"
+        },
+        {
+          "name": "Crab Nebula",
+          "description": "Oval orange filaments of a supernova remnant surrounding a blue-green centre"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ice cream flavour",
+      "outcomes": [
+        {
+          "name": "Stracciatella gelato",
+          "description": "A mound of ivory gelato with irregular tiny dark chocolate shards in a shallow clear cup"
+        },
+        {
+          "name": "Ube ice cream",
+          "description": "Two deep purple yam ice cream scoops in a plain waffle cone with a sliver of purple yam"
+        },
+        {
+          "name": "Black sesame ice cream",
+          "description": "A charcoal grey scoop flecked with black sesame in a pale ceramic bowl alongside seeds"
+        },
+        {
+          "name": "Dulce de leche ice cream",
+          "description": "Caramel brown scoops with thick amber caramel ribbons in a glass sundae dish"
+        }
+      ],
+      "question": "Which ice cream flavour are you?"
+    }
+  ]
+}

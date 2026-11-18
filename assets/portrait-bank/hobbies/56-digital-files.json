@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "File format",
+      "question": "Which file format are you?",
+      "outcomes": [
+        {
+          "name": "JPEG",
+          "description": "a small digital photograph print showing mountains folded at one corner"
+        },
+        {
+          "name": "MP3",
+          "description": "a purple audio file tile sprouting a pair of compact headphones"
+        },
+        {
+          "name": "PDF",
+          "description": "a cream page with a curled red Acrobat-style ribbon on its face"
+        },
+        {
+          "name": "ZIP",
+          "description": "a golden file folder closed by a large silver zipper"
+        }
+      ]
+    }
+  ]
+}

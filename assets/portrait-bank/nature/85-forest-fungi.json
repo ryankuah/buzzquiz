@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mushroom",
+      "question": "Which unusual mushroom would you photograph on a woodland walk?",
+      "outcomes": [
+        {
+          "name": "Veiled lady mushroom",
+          "description": "Slender white stalk, olive cap and a delicate hanging lattice skirt"
+        },
+        {
+          "name": "Orange peel fungus",
+          "description": "Thin bright-orange irregular open cups clustered on a tiny soil patch"
+        },
+        {
+          "name": "Amethyst deceiver",
+          "description": "Small violet mushrooms with wavy caps and widely spaced lavender gills"
+        },
+        {
+          "name": "Chicken of the woods",
+          "description": "Overlapping thick yellow-orange fan-shaped shelves with bright sulphur-yellow edges"
+        }
+      ]
+    }
+  ]
+}

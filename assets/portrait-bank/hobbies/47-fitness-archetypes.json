@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gym class",
+      "question": "Which gym class are you?",
+      "outcomes": [
+        {
+          "name": "Spin",
+          "description": "rider pedalling a studio spin bike"
+        },
+        {
+          "name": "Yoga",
+          "description": "yoga participant balancing in tree pose on a mat"
+        },
+        {
+          "name": "Boxercise",
+          "description": "fitness participant in red training gloves practising in front of a padded bag"
+        },
+        {
+          "name": "Step aerobics",
+          "description": "participant stepping onto a colourful low aerobic step platform"
+        }
+      ]
+    }
+  ]
+}

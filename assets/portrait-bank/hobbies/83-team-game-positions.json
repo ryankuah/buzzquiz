@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Soccer position",
+      "question": "Which soccer position are you?",
+      "outcomes": [
+        {
+          "name": "Goalkeeper",
+          "description": "a football goalkeeper in contrasting kit crouched with gloved hands around a ball"
+        },
+        {
+          "name": "Centre-back",
+          "description": "a sturdy centre-back heading a football away while wearing a captain's band"
+        },
+        {
+          "name": "Winger",
+          "description": "a quick football winger sprinting with the ball tight to the sideline flag"
+        },
+        {
+          "name": "Striker",
+          "description": "a football striker striking the ball at a tiny goal with their dominant foot"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Classic board-game piece",
+      "question": "Which board-game piece are you?",
+      "outcomes": [
+        {
+          "name": "Checker",
+          "description": "stack of ridged red and black checkers"
+        },
+        {
+          "name": "Mahjong tile",
+          "description": "upright ivory mahjong tile with a painted green bamboo motif"
+        },
+        {
+          "name": "Domino",
+          "description": "black double-six domino with ivory pips"
+        },
+        {
+          "name": "Go stone",
+          "description": "three black and white polished convex go stones clustered together"
+        }
+      ]
+    }
+  ]
+}

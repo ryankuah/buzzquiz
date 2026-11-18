@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Folklore creature",
+      "question": "Which folklore creature would narrate your adventure?",
+      "outcomes": [
+        {
+          "name": "Kappa",
+          "description": "Japanese water spirit with turtle shell, beak and water-filled head dish"
+        },
+        {
+          "name": "Wolpertinger",
+          "description": "Bavarian folklore hare with tiny antlers, feathered wings and small fangs"
+        },
+        {
+          "name": "Brownie",
+          "description": "Small Scottish household helper in simple brown clothes carrying a wooden broom"
+        },
+        {
+          "name": "Leshy",
+          "description": "Tall Slavic forest guardian with a mossy beard, leaf-strewn coat and barklike skin"
+        }
+      ]
+    }
+  ]
+}

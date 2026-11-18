@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Winter Olympic sport",
+      "question": "Which winter sport are you?",
+      "outcomes": [
+        {
+          "name": "Curling",
+          "description": "curler guiding a granite curling stone with a broom nearby"
+        },
+        {
+          "name": "Luge",
+          "description": "single luge athlete lying face up and feet first on a small sled"
+        },
+        {
+          "name": "Ski jumping",
+          "description": "ski jumper airborne with long skis splayed in a V"
+        },
+        {
+          "name": "Speed skating",
+          "description": "speed skater leaning into a turn on long thin blades"
+        }
+      ]
+    }
+  ]
+}

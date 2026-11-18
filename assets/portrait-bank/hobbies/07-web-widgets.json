@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Early web homepage feature",
+      "question": "Which old-school homepage feature are you?",
+      "outcomes": [
+        {
+          "name": "Visitor counter",
+          "description": "small retro black mechanical-looking web counter with neon-green digits"
+        },
+        {
+          "name": "Guestbook",
+          "description": "open purple illustrated guestbook with fountain pen"
+        },
+        {
+          "name": "Under construction sign",
+          "description": "yellow and black pixel-style website construction sign with a tiny traffic cone"
+        },
+        {
+          "name": "Webring",
+          "description": "three interlocking colourful ring-shaped links surrounding a miniature globe"
+        }
+      ]
+    }
+  ]
+}

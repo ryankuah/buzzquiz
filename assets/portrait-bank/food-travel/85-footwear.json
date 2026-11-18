@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Shoe style",
+      "outcomes": [
+        {
+          "name": "Espadrilles",
+          "description": "Pair of canvas slip-on espadrilles with clearly braided tan jute soles"
+        },
+        {
+          "name": "Mary Janes",
+          "description": "Pair of polished burgundy low-heeled shoes with single straps and round toes"
+        },
+        {
+          "name": "Brogues",
+          "description": "Pair of polished cognac leather lace-up brogues with decorative perforated wingtip detailing"
+        },
+        {
+          "name": "Moccasins",
+          "description": "Pair of soft tan suede moccasins with raised stitched seams and leather ties"
+        }
+      ],
+      "question": "Which shoe style are you?"
+    }
+  ]
+}

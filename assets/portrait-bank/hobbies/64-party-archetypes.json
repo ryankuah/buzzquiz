@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Party guest archetype",
+      "question": "Which party guest archetype are you?",
+      "outcomes": [
+        {
+          "name": "Dance-floor regular",
+          "description": "a guest in bright sneakers spinning on a little mirrored dance tile"
+        },
+        {
+          "name": "Kitchen conversationalist",
+          "description": "a friendly guest chatting over a mixing bowl at a small kitchen island"
+        },
+        {
+          "name": "Resident DJ",
+          "description": "a party guest with headphones pointing at a compact party turntable"
+        },
+        {
+          "name": "Early leaver",
+          "description": "a guest in a coat slipping out quietly with a tote and keys"
+        }
+      ]
+    }
+  ]
+}

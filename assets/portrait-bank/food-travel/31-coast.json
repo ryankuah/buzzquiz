@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coastal town",
+      "question": "Which coastal town matches your pace?",
+      "outcomes": [
+        {
+          "name": "Positano",
+          "description": "stacked pastel coastal houses on a steep green cliff"
+        },
+        {
+          "name": "St Ives",
+          "description": "compact Cornish stone harbour and fishing boat"
+        },
+        {
+          "name": "Essaouira",
+          "description": "Moroccan seaside ramparts and blue fishing boats"
+        },
+        {
+          "name": "Hobart",
+          "description": "colourful waterfront boats at Constitution Dock backed by mountain"
+        }
+      ]
+    }
+  ]
+}

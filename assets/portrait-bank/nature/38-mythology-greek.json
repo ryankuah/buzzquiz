@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Greek deity",
+      "question": "Which Greek deity are you?",
+      "outcomes": [
+        {
+          "name": "Artemis",
+          "description": "Ancient Greek moon goddess in a short silver hunting tunic accompanied by a young deer and crescent"
+        },
+        {
+          "name": "Dionysus",
+          "description": "Curly-haired Greek god wearing an ivy crown and cradling a bunch of purple grapes"
+        },
+        {
+          "name": "Hephaestus",
+          "description": "Bearded Greek blacksmith god wearing a leather apron beside a small bronze anvil and smith's hammer"
+        },
+        {
+          "name": "Aphrodite",
+          "description": "Greek sea-born goddess in rose-coloured classical drapery with a scallop shell and a dove"
+        }
+      ]
+    }
+  ]
+}

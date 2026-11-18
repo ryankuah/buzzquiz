@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Drink",
+      "outcomes": [
+        {
+          "name": "Horchata",
+          "description": "Tall frosty glass of milky cinnamon rice drink garnished with a cinnamon stick and rice grains"
+        },
+        {
+          "name": "Salep",
+          "description": "Ivory hot milk drink in a footed mug dusted densely with cinnamon"
+        },
+        {
+          "name": "Ayran",
+          "description": "White foamy yogurt drink in a small hammered copper cup beside fresh mint"
+        },
+        {
+          "name": "Soursop juice",
+          "description": "Pale creamy tropical juice beside a green spiny soursop cut open to show white flesh"
+        }
+      ],
+      "question": "Which drink are you?"
+    }
+  ]
+}

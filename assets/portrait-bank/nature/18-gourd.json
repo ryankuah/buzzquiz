@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pumpkin or gourd",
+      "question": "Which pumpkin or gourd are you?",
+      "outcomes": [
+        {
+          "name": "Jack Be Little",
+          "description": "Jack Be Little — Tiny ribbed bright orange pumpkin with a short green stem"
+        },
+        {
+          "name": "Crown Prince pumpkin",
+          "description": "Crown Prince pumpkin — Round flattened blue-grey pumpkin with subtle ribs"
+        },
+        {
+          "name": "Turk's turban squash",
+          "description": "Turk's turban squash — Striped orange green and cream squash with a turban-shaped cap"
+        },
+        {
+          "name": "Bottle gourd",
+          "description": "Bottle gourd — Pale green bottle-shaped calabash with narrow waist"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Chicken breed",
+      "question": "Which chicken breed are you?",
+      "outcomes": [
+        {
+          "name": "Silkie",
+          "description": "Silkie — Round white silkie chicken with fluffy feathering and dark face"
+        },
+        {
+          "name": "Polish chicken",
+          "description": "Polish chicken — Black Polish hen with a large mop of white crest feathers"
+        },
+        {
+          "name": "Barred Plymouth Rock",
+          "description": "Barred Plymouth Rock — Stout hen with even black and white barred plumage"
+        },
+        {
+          "name": "Brahma",
+          "description": "Brahma — Large pale Brahma hen with dark neck lacing and feathered feet"
+        }
+      ]
+    }
+  ]
+}

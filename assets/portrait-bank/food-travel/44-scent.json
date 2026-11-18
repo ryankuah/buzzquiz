@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Perfume family",
+      "question": "Which perfume family are you?",
+      "outcomes": [
+        {
+          "name": "Chypre",
+          "description": "Classic moss-green perfume bottle with oak moss, bergamot peel and a tiny amber resin piece"
+        },
+        {
+          "name": "Aquatic",
+          "description": "Clear marine-blue perfume bottle next to smooth wet sea stones and a little seaweed"
+        },
+        {
+          "name": "Leather",
+          "description": "Dark cognac perfume bottle with a strip of brown saddle leather and a suede swatch"
+        },
+        {
+          "name": "Amber",
+          "description": "deep amber perfume bottle with resin and vanilla pods"
+        }
+      ]
+    }
+  ]
+}

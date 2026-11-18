@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tea",
+      "outcomes": [
+        {
+          "name": "English breakfast tea",
+          "description": "Dark amber breakfast tea in a white footed teacup beside a tiny jug of milk"
+        },
+        {
+          "name": "Masala chai",
+          "description": "Spiced brown chai in a fluted small glass alongside cardamom pods and cinnamon"
+        },
+        {
+          "name": "Genmaicha",
+          "description": "Pale green Japanese tea in a rustic yunomi next to lightly browned puffed rice"
+        },
+        {
+          "name": "Hibiscus tea",
+          "description": "Ruby red clear infusion in a glass teacup beside dried hibiscus calyces"
+        }
+      ],
+      "question": "Which tea are you?"
+    }
+  ]
+}

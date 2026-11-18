@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Vinyl record format",
+      "question": "Which vinyl record format are you?",
+      "outcomes": [
+        {
+          "name": "LP",
+          "description": "large black long-play record halfway out of a landscape-illustrated square sleeve"
+        },
+        {
+          "name": "45 single",
+          "description": "small green seven-inch single with a wide centre hole"
+        },
+        {
+          "name": "Flexi disc",
+          "description": "thin transparent red flexible record gently curling at one edge"
+        },
+        {
+          "name": "Picture disc",
+          "description": "colourful record printed with a peacock feather illustration"
+        }
+      ]
+    }
+  ]
+}

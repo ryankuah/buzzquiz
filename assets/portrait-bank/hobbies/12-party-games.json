@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Party game",
+      "question": "Which party game are you?",
+      "outcomes": [
+        {
+          "name": "Charades",
+          "description": "two performers miming a dramatic action with no props"
+        },
+        {
+          "name": "Pictionary",
+          "description": "standing drawing easel with a rough doodle of a giraffe"
+        },
+        {
+          "name": "Twister",
+          "description": "white floor mat with large red yellow blue and green circles and a spinner"
+        },
+        {
+          "name": "Musical chairs",
+          "description": "little ring of colourful chairs surrounding a portable speaker"
+        }
+      ]
+    }
+  ]
+}

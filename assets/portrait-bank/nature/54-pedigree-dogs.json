@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog breed",
+      "question": "Which dog breed would share your perfect weekend?",
+      "outcomes": [
+        {
+          "name": "Bernese mountain dog",
+          "description": "Large black tricolour mountain dog with white blaze and russet cheek spots"
+        },
+        {
+          "name": "Samoyed",
+          "description": "White fluffy spitz with black nose and a plumed curled tail"
+        },
+        {
+          "name": "Basset hound",
+          "description": "Short-legged tricolour hound with very long soft ears and drooping jowls"
+        },
+        {
+          "name": "Standard schnauzer",
+          "description": "Salt-and-pepper terrier-like working dog with bushy eyebrows and squared beard"
+        }
+      ]
+    }
+  ]
+}

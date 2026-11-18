@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Software developer specialty",
+      "question": "Which kind of software developer are you?",
+      "outcomes": [
+        {
+          "name": "Frontend developer",
+          "description": "person arranging coloured interface elements on a monitor"
+        },
+        {
+          "name": "Backend developer",
+          "description": "person connecting a small stacked server rack"
+        },
+        {
+          "name": "Game developer",
+          "description": "person shaping a playful game scene at a monitor and gamepad"
+        },
+        {
+          "name": "Embedded developer",
+          "description": "person wiring a sensor to a tiny circuit board"
+        }
+      ]
+    }
+  ]
+}

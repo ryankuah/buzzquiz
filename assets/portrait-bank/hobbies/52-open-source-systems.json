@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Linux distribution",
+      "question": "Which Linux distribution are you?",
+      "outcomes": [
+        {
+          "name": "Ubuntu",
+          "description": "an orange circular emblem formed by three people holding hands"
+        },
+        {
+          "name": "Debian",
+          "description": "the dark pink Debian spiral painted in one tapering brushstroke"
+        },
+        {
+          "name": "Fedora",
+          "description": "a blue droplet emblem containing a white stylized lowercase f and infinity loop"
+        },
+        {
+          "name": "Linux Mint",
+          "description": "a green leaf emblem curling around the white lowercase initials lm"
+        }
+      ]
+    }
+  ]
+}

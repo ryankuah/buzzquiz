@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Surfboard type",
+      "question": "Which surfboard type are you?",
+      "outcomes": [
+        {
+          "name": "Longboard",
+          "description": "a long broad-nosed surfboard with a big single fin and blue centre stripe"
+        },
+        {
+          "name": "Shortboard",
+          "description": "a pointed performance shortboard with three small fins and lightning graphics"
+        },
+        {
+          "name": "Fish",
+          "description": "a compact wide yellow surfboard with a deep swallowtail and twin fins"
+        },
+        {
+          "name": "Bodyboard",
+          "description": "a short soft neon-green bodyboard with a blunt nose and a wrist leash"
+        }
+      ]
+    }
+  ]
+}

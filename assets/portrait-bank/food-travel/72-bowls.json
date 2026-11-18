@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rice dish",
+      "outcomes": [
+        {
+          "name": "Bibimbap",
+          "description": "Korean bowl with distinct rays of colourful vegetables a fried egg and red chilli paste"
+        },
+        {
+          "name": "Nasi kerabu",
+          "description": "Blue butterfly-pea rice with sliced herbs shredded coconut and a salted egg"
+        },
+        {
+          "name": "Tahdig",
+          "description": "Golden crisp Persian rice crust shown as a round low cake with a cut wedge revealing white rice"
+        },
+        {
+          "name": "Arroz negro",
+          "description": "Spanish black cuttlefish-ink rice in a shallow pan with lemon and pale squid rings"
+        }
+      ],
+      "question": "Which rice dish are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Miniature painting style",
+      "question": "Which miniature painting style are you?",
+      "outcomes": [
+        {
+          "name": "Speed painting",
+          "description": "a tiny fantasy goblin with bold broad contrast shading beside one oversized brush"
+        },
+        {
+          "name": "Non-metallic metal",
+          "description": "a small fantasy shield painted with convincing silver reflections in flat blue-gray paint"
+        },
+        {
+          "name": "Object source lighting",
+          "description": "a miniature robed figure whose purple cloak is lit green by its glowing lantern"
+        },
+        {
+          "name": "Cel shading",
+          "description": "a painted tiny robot with hard black outlines and graphic flat colour blocks"
+        }
+      ]
+    }
+  ]
+}

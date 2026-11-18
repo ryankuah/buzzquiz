@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Lighthouse",
+      "question": "Which famous lighthouse are you?",
+      "outcomes": [
+        {
+          "name": "Cape Hatteras Lighthouse",
+          "description": "Cape Hatteras Lighthouse — Tall cylindrical lighthouse with spiral black and white stripes and red brick base"
+        },
+        {
+          "name": "Portland Head Light",
+          "description": "Portland Head Light — White conical Maine lighthouse beside a red-roofed keeper's cottage"
+        },
+        {
+          "name": "Lindau Lighthouse",
+          "description": "Lindau Lighthouse — Short stout Bavarian lighthouse with clock face and striped stone courses"
+        },
+        {
+          "name": "Tower of Hercules",
+          "description": "Tower of Hercules — Square Roman stone lighthouse with stacked rectangular tiers on a granite base"
+        }
+      ]
+    }
+  ]
+}

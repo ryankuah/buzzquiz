@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Drink",
+      "outcomes": [
+        {
+          "name": "Kombucha",
+          "description": "Amber sparkling tea in a swing-top glass bottle beside a small glass"
+        },
+        {
+          "name": "Kvass",
+          "description": "Dark rye drink with a small foamy head in a glass mug beside rye bread"
+        },
+        {
+          "name": "Kefir",
+          "description": "Thick creamy white kefir in a small glass bottle beside a spoon of kefir grains"
+        },
+        {
+          "name": "Tepache",
+          "description": "Golden Mexican fermented pineapple drink in a glass with pineapple peel and a cinnamon stick"
+        }
+      ],
+      "question": "Which drink are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "RPG potion",
+      "question": "Which RPG potion are you?",
+      "outcomes": [
+        {
+          "name": "Healing potion",
+          "description": "red heart-shaped health potion bottle with small gold cross medallion"
+        },
+        {
+          "name": "Mana potion",
+          "description": "blue liquid in a faceted flask with a silver star charm"
+        },
+        {
+          "name": "Invisibility potion",
+          "description": "clear pale liquid in a nearly transparent flask with a disappearing outline"
+        },
+        {
+          "name": "Speed potion",
+          "description": "golden liquid in a slim bottle with a small wing charm"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Seashell type",
+      "question": "Which seashell are you?",
+      "outcomes": [
+        {
+          "name": "Wentletrap",
+          "description": "Wentletrap — Slender white spiral shell with prominent ladderlike ribs"
+        },
+        {
+          "name": "Tiger cowrie",
+          "description": "Tiger cowrie — Glossy oval cream shell mottled with dark spots"
+        },
+        {
+          "name": "Murex",
+          "description": "Murex — Intricate spiny cream marine shell with flared lip"
+        },
+        {
+          "name": "Moon snail shell",
+          "description": "Moon snail shell — Smooth round tan spiral shell with a low spire"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Moon of Jupiter",
+      "question": "Which moon of Jupiter are you?",
+      "outcomes": [
+        {
+          "name": "Io",
+          "description": "Yellow orange volcanic moon mottled with red sulphur rings and dark lava fields"
+        },
+        {
+          "name": "Europa",
+          "description": "Pale icy moon scored by long branching rust-red cracks"
+        },
+        {
+          "name": "Ganymede",
+          "description": "Grey ice-and-rock globe crossed with alternating grooved light terrain and dark cratered regions"
+        },
+        {
+          "name": "Callisto",
+          "description": "Dark heavily cratered moon with bright impact marks and a broad concentric ring basin"
+        }
+      ]
+    }
+  ]
+}

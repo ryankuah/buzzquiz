@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fern type",
+      "question": "Which fern are you?",
+      "outcomes": [
+        {
+          "name": "Bird's nest fern",
+          "description": "Bird's nest fern — Rosette of bright green broad rippled fern leaves"
+        },
+        {
+          "name": "Maidenhair fern",
+          "description": "Maidenhair fern — Black wiry stems with delicate fan-shaped leaflets"
+        },
+        {
+          "name": "Staghorn fern",
+          "description": "Staghorn fern — Forked antler-like green fronds attached to a brown shield frond"
+        },
+        {
+          "name": "Tree fern",
+          "description": "Tree fern — Tree fern miniature with trunk and umbrella of finely divided leaves"
+        }
+      ]
+    }
+  ]
+}

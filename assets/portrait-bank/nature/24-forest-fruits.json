@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wild berry",
+      "question": "Which wild berry are you?",
+      "outcomes": [
+        {
+          "name": "Cloudberry",
+          "description": "Cloudberry — Single amber-orange cloudberry fruit with rounded drupelets"
+        },
+        {
+          "name": "Blackberry",
+          "description": "Blackberry — Plump shiny black cluster berry next to a serrated leaf"
+        },
+        {
+          "name": "Bilberry",
+          "description": "Bilberry — Small dusky blue berries with flared calyx and oval leaves"
+        },
+        {
+          "name": "Lingonberry",
+          "description": "Lingonberry — Small cluster of shiny red berries among leathery evergreen leaves"
+        }
+      ]
+    }
+  ]
+}

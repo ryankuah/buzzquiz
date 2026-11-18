@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Eagle species",
+      "question": "Which eagle are you?",
+      "outcomes": [
+        {
+          "name": "Harpy eagle",
+          "description": "Harpy eagle — Black and grey harpy eagle with split feather crest and huge talons"
+        },
+        {
+          "name": "Wedge-tailed eagle",
+          "description": "Wedge-tailed eagle — Large dark Australian eagle in flight with a wedge-shaped tail"
+        },
+        {
+          "name": "Steller's sea eagle",
+          "description": "Steller's sea eagle — Dark eagle with stark white shoulders and large yellow beak"
+        },
+        {
+          "name": "Bateleur",
+          "description": "Bateleur — Short-tailed eagle with bright red face and rusty back"
+        }
+      ]
+    }
+  ]
+}

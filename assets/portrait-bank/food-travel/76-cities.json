@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "City",
+      "outcomes": [
+        {
+          "name": "Cape Town",
+          "description": "Miniature Cape Town waterfront backed by flat-topped Table Mountain and a red harbour clocktower"
+        },
+        {
+          "name": "Samarkand",
+          "description": "Miniature Samarkand Registan ensemble with monumental turquoise tiled arches mosaic façades and blue domes"
+        },
+        {
+          "name": "Edinburgh",
+          "description": "Miniature Edinburgh Castle on its prominent dark volcanic rock with a narrow stone street below"
+        },
+        {
+          "name": "Havana",
+          "description": "Miniature Havana street with a colourful colonial facade and a classic turquoise 1950s car"
+        }
+      ],
+      "question": "Which city are you?"
+    }
+  ]
+}

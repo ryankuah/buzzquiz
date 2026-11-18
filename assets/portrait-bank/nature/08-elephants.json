@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Elephant family member",
+      "question": "Which member of the elephant family are you?",
+      "outcomes": [
+        {
+          "name": "Asian elephant",
+          "description": "Asian elephant — Asian elephant with smaller rounded ears and twin domes on forehead"
+        },
+        {
+          "name": "African forest elephant",
+          "description": "African forest elephant — Dark compact elephant with rounded ears and straight pale downward tusks"
+        },
+        {
+          "name": "Columbian mammoth",
+          "description": "Columbian mammoth — Tall mostly hairless mammoth with enormous sweeping curved tusks"
+        },
+        {
+          "name": "Sicilian dwarf elephant",
+          "description": "Sicilian dwarf elephant — small extinct Mediterranean island elephant, rounded head, short legs and modest tusks"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Street food",
+      "outcomes": [
+        {
+          "name": "Takoyaki",
+          "description": "Six golden round octopus balls in a paper boat with bonito flakes and dark sauce"
+        },
+        {
+          "name": "Koshari",
+          "description": "Egyptian bowl of rice lentils and short pasta topped with red sauce and fried onions"
+        },
+        {
+          "name": "Doubles",
+          "description": "Two small rounds of yellow fried flatbread folded around spicy chickpeas on wax paper"
+        },
+        {
+          "name": "Bunny chow",
+          "description": "A hollowed quarter-loaf of white bread filled to its rim with curry and topped with bread"
+        }
+      ],
+      "question": "Which street food would you be?"
+    }
+  ]
+}

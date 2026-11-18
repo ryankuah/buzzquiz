@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Frozen dessert",
+      "outcomes": [
+        {
+          "name": "Dondurma",
+          "description": "Two tall twisting folds of stretchy pale Turkish ice cream on a little wafer cone"
+        },
+        {
+          "name": "Kulfi",
+          "description": "Pale pistachio kulfi in the distinct tapered mould shape on a stick garnished with nuts"
+        },
+        {
+          "name": "Granita",
+          "description": "Coarse scarlet blood orange ice crystals heaped in a glass with half a blood orange"
+        },
+        {
+          "name": "Bingsu",
+          "description": "Mound of snow-fine milk ice crowned with red beans and rice cake chunks in a wide bowl"
+        }
+      ],
+      "question": "Which frozen dessert are you?"
+    }
+  ]
+}

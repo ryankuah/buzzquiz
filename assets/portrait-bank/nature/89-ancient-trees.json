@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Conifer",
+      "question": "Which conifer would you seek on a winter walk?",
+      "outcomes": [
+        {
+          "name": "Monkey puzzle tree",
+          "description": "Tiered branches clothed in stiff triangular scale leaves and a candelabralike silhouette"
+        },
+        {
+          "name": "Bristlecone pine",
+          "description": "Twisted weathered golden deadwood spiralling beside a surviving narrow band of dark needles"
+        },
+        {
+          "name": "Norfolk Island pine",
+          "description": "Symmetrical tiers of horizontal feathery green branches forming a narrow cone"
+        },
+        {
+          "name": "Blue Atlas cedar",
+          "description": "Broadly pyramidal cedar with layered branches and tufts of powder-blue needles"
+        }
+      ]
+    }
+  ]
+}

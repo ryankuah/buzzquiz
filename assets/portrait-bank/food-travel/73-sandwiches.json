@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sandwich",
+      "outcomes": [
+        {
+          "name": "Muffuletta",
+          "description": "Big round sesame sandwich wedge showing olive salad mortadella cheese and salami layers"
+        },
+        {
+          "name": "Francesinha",
+          "description": "Portuguese square sandwich draped in melted cheese and orange sauce with a fried egg"
+        },
+        {
+          "name": "Katsu sando",
+          "description": "Two crustless Japanese milk bread halves around a thick crumbed pork cutlet"
+        },
+        {
+          "name": "Chivito",
+          "description": "Uruguayan steak roll layered with ham cheese lettuce tomato and fried egg"
+        }
+      ],
+      "question": "Which sandwich are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Basketball position",
+      "question": "Which basketball position are you?",
+      "outcomes": [
+        {
+          "name": "Point guard",
+          "description": "a point guard dribbling low and calling a play with the free hand"
+        },
+        {
+          "name": "Shooting guard",
+          "description": "a shooting guard releasing a long range jump shot with a high follow through"
+        },
+        {
+          "name": "Power forward",
+          "description": "a strong power forward boxing out under the rim for a rebound"
+        },
+        {
+          "name": "Center",
+          "description": "a tall center reaching straight up to tip a basketball above the hoop"
+        }
+      ]
+    }
+  ]
+}

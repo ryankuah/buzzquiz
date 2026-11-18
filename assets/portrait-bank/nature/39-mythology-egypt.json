@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Egyptian deity",
+      "question": "Which ancient Egyptian deity are you?",
+      "outcomes": [
+        {
+          "name": "Sekhmet",
+          "description": "Ancient Egyptian lioness-headed goddess wearing a sun disk and red linen dress"
+        },
+        {
+          "name": "Taweret",
+          "description": "Ancient Egyptian protective hippopotamus goddess standing upright, with crocodile tail and lion's paws"
+        },
+        {
+          "name": "Khnum",
+          "description": "Ancient Egyptian ram-headed potter god, curled horns, shaping a small vessel"
+        },
+        {
+          "name": "Osiris",
+          "description": "Ancient Egyptian green-skinned mummiform king wearing white atef crown and crossed crook and flail"
+        }
+      ]
+    }
+  ]
+}

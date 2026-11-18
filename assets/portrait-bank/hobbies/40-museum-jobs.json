@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Museum role",
+      "question": "Which museum role are you?",
+      "outcomes": [
+        {
+          "name": "Curator",
+          "description": "museum curator considering a small collection of objects in a display case"
+        },
+        {
+          "name": "Conservator",
+          "description": "artifact conservator in white gloves restoring a cracked ceramic bowl"
+        },
+        {
+          "name": "Exhibition designer",
+          "description": "exhibition designer arranging miniature gallery walls on a scale plan"
+        },
+        {
+          "name": "Museum educator",
+          "description": "museum educator sharing a fossil cast with a curious visitor"
+        }
+      ]
+    }
+  ]
+}

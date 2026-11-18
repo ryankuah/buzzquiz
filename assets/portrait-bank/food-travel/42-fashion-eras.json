@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Vintage fashion era",
+      "question": "Which vintage fashion era suits you?",
+      "outcomes": [
+        {
+          "name": "Edwardian",
+          "description": "An antique high-neck ivory lace blouse, long narrow skirt, feathered broad hat and buttoned boots arrayed on clear background"
+        },
+        {
+          "name": "1960s space age",
+          "description": "Standalone silver shift dress, white geometric boots and a structured space-age cap"
+        },
+        {
+          "name": "1980s power dressing",
+          "description": "Standalone bold magenta tailored power suit with prominent shoulder pads and black pumps"
+        },
+        {
+          "name": "1940s utility fashion",
+          "description": "Standalone olive belted utility dress, seamed stockings and low-heeled lace-ups"
+        }
+      ]
+    }
+  ]
+}

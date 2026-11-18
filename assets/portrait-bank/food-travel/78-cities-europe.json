@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "City",
+      "outcomes": [
+        {
+          "name": "Porto",
+          "description": "Miniature Porto terracotta waterfront facades leading to the tall double-deck iron arch of Dom Luís I Bridge"
+        },
+        {
+          "name": "Bruges",
+          "description": "Miniature Bruges brick belfry with octagonal tower crown overlooking red stepped gables on a narrow canal"
+        },
+        {
+          "name": "Stockholm",
+          "description": "Miniature Stockholm city hall brick tower topped with three gold crowns beside the water and colourful old-town buildings"
+        },
+        {
+          "name": "Copenhagen",
+          "description": "Miniature Nyhavn harbour with rainbow coloured narrow facades and a wooden sailing ship"
+        }
+      ],
+      "question": "Which city are you?"
+    }
+  ]
+}

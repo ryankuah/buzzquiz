@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Concert crew role",
+      "question": "Which concert crew member are you?",
+      "outcomes": [
+        {
+          "name": "Sound engineer",
+          "description": "person at a compact mixing console wearing a headset"
+        },
+        {
+          "name": "Lighting designer",
+          "description": "person operating lighting faders beneath a small multicoloured stage light"
+        },
+        {
+          "name": "Guitar technician",
+          "description": "person adjusting a guitar on a padded workbench"
+        },
+        {
+          "name": "Stage manager",
+          "description": "person holding a run sheet and speaking into a communications headset"
+        }
+      ]
+    }
+  ]
+}

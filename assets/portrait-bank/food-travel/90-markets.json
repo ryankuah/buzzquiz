@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Market stall",
+      "outcomes": [
+        {
+          "name": "Parisian flower stall",
+          "description": "Miniature French market stall filled with metal buckets of colourful cut flowers"
+        },
+        {
+          "name": "Bangkok fruit boat",
+          "description": "Miniature Thai wooden floating market boat piled with mangoes bananas and dragon fruit"
+        },
+        {
+          "name": "Istanbul spice stall",
+          "description": "Miniature market stall with vivid spice heaps in brass bowls below a striped awning"
+        },
+        {
+          "name": "Marrakesh lantern stall",
+          "description": "Miniature timber stall hung with pierced brass and coloured glass Moroccan lanterns"
+        }
+      ],
+      "question": "Which market stall are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "East Asian city",
+      "question": "Which East Asian city should you visit?",
+      "outcomes": [
+        {
+          "name": "Hong Kong",
+          "description": "Hong Kong harbour skyline with the distinctive angular Bank of China Tower"
+        },
+        {
+          "name": "Kyoto",
+          "description": "vermillion torii gates leading up a wooded path"
+        },
+        {
+          "name": "Seoul",
+          "description": "N Seoul Tower atop a small green hill"
+        },
+        {
+          "name": "Taipei",
+          "description": "tiered green Taipei 101 skyscraper"
+        }
+      ]
+    }
+  ]
+}

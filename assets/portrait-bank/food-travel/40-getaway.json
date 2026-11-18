@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Weekend retreat",
+      "question": "Which weekend retreat suits you?",
+      "outcomes": [
+        {
+          "name": "Forest lodge",
+          "description": "dark timber lodge among fir trees"
+        },
+        {
+          "name": "Desert camp",
+          "description": "small canvas tent against sand dunes"
+        },
+        {
+          "name": "Vineyard cottage",
+          "description": "stone cottage beside neat grapevine rows"
+        },
+        {
+          "name": "Lake cabin",
+          "description": "little cabin with a jetty on tranquil blue water"
+        }
+      ]
+    }
+  ]
+}

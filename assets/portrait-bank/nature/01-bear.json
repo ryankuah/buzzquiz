@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bear species",
+      "question": "Which bear species are you?",
+      "outcomes": [
+        {
+          "name": "Giant panda",
+          "description": "Giant panda — Black-and-white giant panda seated with a short bamboo stem"
+        },
+        {
+          "name": "Sun bear",
+          "description": "Sun bear — Small black sun bear with a golden crescent on its chest"
+        },
+        {
+          "name": "Polar bear",
+          "description": "Polar bear — Powerful ivory polar bear with long muzzle and black nose"
+        },
+        {
+          "name": "Sloth bear",
+          "description": "Sloth bear — Shaggy black sloth bear with a cream V patch and a long pale muzzle"
+        }
+      ]
+    }
+  ]
+}

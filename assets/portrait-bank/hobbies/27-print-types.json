@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Printmaking technique",
+      "question": "Which printmaking technique are you?",
+      "outcomes": [
+        {
+          "name": "Woodcut",
+          "description": "dark woodblock with a deeply carved oak leaf alongside its bold print"
+        },
+        {
+          "name": "Etching",
+          "description": "copper plate displaying delicate etched lines of a bird next to a small sepia print"
+        },
+        {
+          "name": "Screen printing",
+          "description": "small silk screen with a squeegee pulling turquoise ink into a bold star"
+        },
+        {
+          "name": "Monotype",
+          "description": "smooth glass printing plate on which one unique swirling botanical print is being peeled onto paper"
+        }
+      ]
+    }
+  ]
+}

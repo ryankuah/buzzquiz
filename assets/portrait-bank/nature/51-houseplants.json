@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Houseplant",
+      "question": "Which houseplant belongs on your windowsill?",
+      "outcomes": [
+        {
+          "name": "Chinese money plant",
+          "description": "Round coin-shaped green leaves on slim stems in a plain terracotta pot"
+        },
+        {
+          "name": "Swiss cheese vine",
+          "description": "Trailing Monstera adansonii vine with many natural oval holes through each narrow leaf in a plain low pot"
+        },
+        {
+          "name": "Prayer plant",
+          "description": "Low spreading Maranta leuconeura with oval green leaves and red herringbone veins"
+        },
+        {
+          "name": "Purple shamrock",
+          "description": "Oxalis triangularis with deep purple three-part triangular leaflets in a small pot"
+        }
+      ]
+    }
+  ]
+}

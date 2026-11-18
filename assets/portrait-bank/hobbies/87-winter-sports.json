@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sport",
+      "question": "Which sport are you?",
+      "outcomes": [
+        {
+          "name": "Figure skating",
+          "description": "a figure skater in a sparkling sapphire costume holding a graceful spiral on one skate"
+        },
+        {
+          "name": "Bobsleigh",
+          "description": "a two-person team crouched in a bright red streamlined bobsled"
+        },
+        {
+          "name": "Cross-country skiing",
+          "description": "a cross-country skier striding along a groomed Nordic track with skinny skis and two long poles"
+        },
+        {
+          "name": "Ski mountaineering",
+          "description": "a mountaineer ascending a snowy ridge on narrow skis with climbing skins and backpack"
+        }
+      ]
+    }
+  ]
+}

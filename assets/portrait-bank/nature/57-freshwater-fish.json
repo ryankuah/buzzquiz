@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Aquarium fish",
+      "question": "Which aquarium fish fits your energy on a busy day?",
+      "outcomes": [
+        {
+          "name": "Discus",
+          "description": "Tall circular red-orange discus with turquoise wavy markings"
+        },
+        {
+          "name": "Kuhli loach",
+          "description": "Long eel-shaped fish with orange and dark brown stripes"
+        },
+        {
+          "name": "Peppered corydoras",
+          "description": "Small speckled charcoal-and-silver armoured catfish with short barbels"
+        },
+        {
+          "name": "Honey gourami",
+          "description": "Small amber-gold oval fish with trailing threadlike pelvic fins"
+        }
+      ]
+    }
+  ]
+}

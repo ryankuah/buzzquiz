@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog breed",
+      "question": "Which dog breed matches your approach to adventure?",
+      "outcomes": [
+        {
+          "name": "Whippet",
+          "description": "Sleek fawn sighthound with a long narrow muzzle and deeply tucked waist"
+        },
+        {
+          "name": "Newfoundland",
+          "description": "Large heavily built black water dog with long coat and broad muzzle"
+        },
+        {
+          "name": "Basenji",
+          "description": "Short-haired red-and-white African hound with upright pointed ears and a tightly curled tail"
+        },
+        {
+          "name": "West Highland white terrier",
+          "description": "Small white wiry-coated terrier with a round face, black nose and prick ears"
+        }
+      ]
+    }
+  ]
+}

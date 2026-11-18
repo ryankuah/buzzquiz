@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Iced coffee drink",
+      "question": "Which iced coffee drink are you?",
+      "outcomes": [
+        {
+          "name": "Affogato",
+          "description": "vanilla gelato scoop in a small glass with espresso poured over it"
+        },
+        {
+          "name": "Cold brew",
+          "description": "dark cold brew in a cylindrical ice-filled tumbler"
+        },
+        {
+          "name": "Iced mocha",
+          "description": "chilled chocolate coffee with chocolate drizzle and whipped cream"
+        },
+        {
+          "name": "Espresso tonic",
+          "description": "clear bubbly tonic under a dark espresso layer with orange slice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mushroom",
+      "question": "Which mushroom would make you stop on a forest walk?",
+      "outcomes": [
+        {
+          "name": "Indigo milk cap",
+          "description": "Blue indigo Lactarius indigo mushroom tilted to reveal vivid blue gills"
+        },
+        {
+          "name": "Turkey tail fungus",
+          "description": "Overlapping thin shelf fans with concentric tan, cream and grey bands on bark"
+        },
+        {
+          "name": "Shaggy inkcap",
+          "description": "Tall cylindrical shaggy white cap with black inky lower rim on ivory stalk"
+        },
+        {
+          "name": "Scarlet elf cup",
+          "description": "Vivid red bowl-shaped cup fungi with pale outer surfaces on a tiny twig"
+        }
+      ]
+    }
+  ]
+}

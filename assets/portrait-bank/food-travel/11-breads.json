@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bread roll",
+      "question": "Which bread roll are you?",
+      "outcomes": [
+        {
+          "name": "Brioche bun",
+          "description": "shiny golden round brioche bun"
+        },
+        {
+          "name": "Kaiser roll",
+          "description": "flour-dusted star-scored kaiser roll"
+        },
+        {
+          "name": "Pretzel bun",
+          "description": "dark glossy pretzel bun with salt and pale cross"
+        },
+        {
+          "name": "Poppy seed roll",
+          "description": "oval golden roll scattered with black poppy seeds"
+        }
+      ]
+    }
+  ]
+}

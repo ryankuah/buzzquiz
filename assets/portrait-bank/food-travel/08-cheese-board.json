@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cheeseboard extra",
+      "question": "Which cheeseboard extra are you?",
+      "outcomes": [
+        {
+          "name": "Honeycomb",
+          "description": "golden honeycomb wedge oozing honey"
+        },
+        {
+          "name": "Dried figs",
+          "description": "split wrinkled dried figs showing seeds"
+        },
+        {
+          "name": "Rosemary crackers",
+          "description": "thin golden crackers studded with rosemary"
+        },
+        {
+          "name": "Candied walnuts",
+          "description": "cluster of amber sugar-glazed walnuts"
+        }
+      ]
+    }
+  ]
+}

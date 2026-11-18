@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wild canid",
+      "question": "Which wild canine are you?",
+      "outcomes": [
+        {
+          "name": "Maned wolf",
+          "description": "Maned wolf — Long-legged orange canid with a black mane and dark legs"
+        },
+        {
+          "name": "Dhole",
+          "description": "Dhole — Rust-red Asian wild dog with rounded ears and dark bushy tail"
+        },
+        {
+          "name": "African wild dog",
+          "description": "African wild dog — Patchy black gold and white wild dog with round ears"
+        },
+        {
+          "name": "Coyote",
+          "description": "Coyote — Slender grey-tawny North American coyote with pointed ears"
+        }
+      ]
+    }
+  ]
+}

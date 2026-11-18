@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pastry",
+      "outcomes": [
+        {
+          "name": "Kouign-amann",
+          "description": "Round Breton laminated pastry with deep golden caramelised curled layers"
+        },
+        {
+          "name": "Sfogliatella",
+          "description": "Crisp Italian shell-shaped pastry with many razor-thin ridged layers and ricotta filling"
+        },
+        {
+          "name": "Kanelbulle",
+          "description": "Swedish cinnamon bun tied into a knot with pearl sugar scattered on top"
+        },
+        {
+          "name": "Gibanica",
+          "description": "Slice of layered Balkan filo cheese pie with crumpled golden top and soft white cheese layers"
+        }
+      ],
+      "question": "Which pastry are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Art glass style",
+      "question": "Which art glass style are you?",
+      "outcomes": [
+        {
+          "name": "Millefiori",
+          "description": "colourful millefiori glass orb showing intricate tiny flower cane cross sections"
+        },
+        {
+          "name": "Stained glass",
+          "description": "small leaded stained-glass kingfisher with blue and orange pieces"
+        },
+        {
+          "name": "Blown glass",
+          "description": "elegant hand-blown amber glass pitcher with spiralling clear handle"
+        },
+        {
+          "name": "Fused glass",
+          "description": "square shallow fused-glass dish with overlapping translucent mosaic strips"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Woodwind instrument",
+      "question": "Which woodwind instrument are you?",
+      "outcomes": [
+        {
+          "name": "Clarinet",
+          "description": "black clarinet with silver keywork and a flared black bell"
+        },
+        {
+          "name": "Oboe",
+          "description": "slender black oboe with a small double reed and a narrow bell"
+        },
+        {
+          "name": "Pan flute",
+          "description": "row of bamboo panpipes of graduated length"
+        },
+        {
+          "name": "Recorder",
+          "description": "ivory soprano recorder with front finger holes and a beaked mouthpiece"
+        }
+      ]
+    }
+  ]
+}

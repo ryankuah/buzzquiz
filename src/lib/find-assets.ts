@@ -137,7 +137,8 @@ async function search(
     ),
     ...plan.visualQueries.map((query) => `${plan.questionTopic} — ${query}`),
     `${plan.questionTopic} — background scene: ${plan.scene}`,
-    `${plan.questionTopic} — small decorative sticker motif`,
+    // The kind filter already restricts this search to decorative artwork.
+    plan.questionTopic,
   ];
   try {
     const embeddings = await (options.embed || embedTopics)(

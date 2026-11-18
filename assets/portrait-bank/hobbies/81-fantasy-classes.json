@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fantasy class",
+      "question": "Which fantasy class are you?",
+      "outcomes": [
+        {
+          "name": "Druid",
+          "description": "a robed woodland druid holding a sprouting branch beside a small fox"
+        },
+        {
+          "name": "Bard",
+          "description": "a cheerful travelling bard in a feathered cap playing a wooden lute"
+        },
+        {
+          "name": "Paladin",
+          "description": "a silver-armored paladin holding a glowing sun-emblem shield"
+        },
+        {
+          "name": "Ranger",
+          "description": "a hooded woodland ranger reading animal tracks beside a hawk"
+        }
+      ]
+    }
+  ]
+}

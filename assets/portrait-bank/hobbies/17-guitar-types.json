@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Guitar type",
+      "question": "Which kind of guitar are you?",
+      "outcomes": [
+        {
+          "name": "Classical guitar",
+          "description": "nylon-string natural wood classical guitar with a slotted headstock"
+        },
+        {
+          "name": "Resonator guitar",
+          "description": "vintage silver-bodied resonator guitar with a circular metal resonator"
+        },
+        {
+          "name": "Bass guitar",
+          "description": "blue solid-body four-string electric bass guitar"
+        },
+        {
+          "name": "Double-neck guitar",
+          "description": "cherry-red electric guitar with two parallel necks"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Art movement",
+      "question": "Which art movement are you?",
+      "outcomes": [
+        {
+          "name": "Art Nouveau",
+          "description": "unframed decorative Art Nouveau panel of a woman among sinuous irises and gold curves"
+        },
+        {
+          "name": "Pointillism",
+          "description": "unframed pointillist painting of a sailing boat constructed from tiny discrete colored dots"
+        },
+        {
+          "name": "Fauvism",
+          "description": "unframed Fauvist painting of a face in flat intense green, orange and pink"
+        },
+        {
+          "name": "Abstract Expressionism",
+          "description": "unframed abstract action painting with energetic splashes and chaotic looping drips"
+        }
+      ]
+    }
+  ]
+}

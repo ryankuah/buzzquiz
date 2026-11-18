@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Keyboard instrument",
+      "question": "Which keyboard instrument are you?",
+      "outcomes": [
+        {
+          "name": "Grand piano",
+          "description": "black grand piano with its lid raised"
+        },
+        {
+          "name": "Harpsichord",
+          "description": "ornate green and gold harpsichord with painted raised lid"
+        },
+        {
+          "name": "Pipe organ",
+          "description": "pipe organ console with a tall arrangement of silver pipes"
+        },
+        {
+          "name": "Celesta",
+          "description": "small upright wooden celesta with a single keyboard and one pedal"
+        }
+      ]
+    }
+  ]
+}

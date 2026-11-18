@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Keyboard layout",
+      "question": "Which keyboard layout suits your personality?",
+      "outcomes": [
+        {
+          "name": "Full-size keyboard",
+          "description": "straight full length desktop keyboard with a separate number pad"
+        },
+        {
+          "name": "Tenkeyless keyboard",
+          "description": "straight compact keyboard with arrow keys and navigation cluster but no number pad"
+        },
+        {
+          "name": "Split ergonomic keyboard",
+          "description": "two separate curved halves of an ergonomic keyboard"
+        },
+        {
+          "name": "Ortholinear keyboard",
+          "description": "tiny rectangular forty percent keyboard with keys in a precise rectangular grid"
+        }
+      ]
+    }
+  ]
+}

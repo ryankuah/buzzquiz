@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Board sport",
+      "question": "Which board sport are you?",
+      "outcomes": [
+        {
+          "name": "Skateboarding",
+          "description": "skateboarder catching an ollie on a small wooden board with four wheels"
+        },
+        {
+          "name": "Snowboarding",
+          "description": "snowboarder carving with boots fastened to a single snowboard"
+        },
+        {
+          "name": "Wakeboarding",
+          "description": "wakeboarder leaning back holding a tow-rope handle"
+        },
+        {
+          "name": "Windsurfing",
+          "description": "windsurfer holding up a bright triangular sail on a narrow board"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wild berry",
+      "question": "Which wild berry would you sketch in a field notebook?",
+      "outcomes": [
+        {
+          "name": "Salmonberry",
+          "description": "Orange-red raspberry-like aggregate fruit beside a sharply toothed green leaf"
+        },
+        {
+          "name": "Elderberry",
+          "description": "Branching cluster of tiny purple-black elderberries on wine-coloured stems"
+        },
+        {
+          "name": "Wild strawberry",
+          "description": "Small bright red conical strawberry with protruding seeds and a trifoliate leaf"
+        },
+        {
+          "name": "Sea buckthorn berry",
+          "description": "Dense cluster of small oval orange berries hugging a twig with silvery narrow leaves"
+        }
+      ]
+    }
+  ]
+}

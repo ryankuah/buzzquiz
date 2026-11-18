@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Electronic music genre",
+      "question": "Which electronic music genre are you?",
+      "outcomes": [
+        {
+          "name": "House",
+          "description": "a miniature club DJ with a four-beat drum machine and bright house-party lights"
+        },
+        {
+          "name": "Drum and bass",
+          "description": "a drummer beside a compact sampler with a pair of oversized subwoofers"
+        },
+        {
+          "name": "Ambient",
+          "description": "a musician lost in a soft cloud of sustained chords at a tabletop synthesizer"
+        },
+        {
+          "name": "Chiptune",
+          "description": "a musician sequencing pixelated notes on a tiny old handheld game console"
+        }
+      ]
+    }
+  ]
+}

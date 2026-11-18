@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cheese",
+      "outcomes": [
+        {
+          "name": "Halloumi",
+          "description": "Several firm rectangular white cheese slices striped with dark grill marks"
+        },
+        {
+          "name": "Oaxaca cheese",
+          "description": "A ball of soft white cheese wound from thick ribbons with one end unravelling"
+        },
+        {
+          "name": "Paneer",
+          "description": "Ivory Indian fresh cheese cut into sharp-edged soft cubes on a small plate"
+        },
+        {
+          "name": "Taleggio",
+          "description": "A square corner of soft Italian washed-rind cheese with a pink orange rind and pale creamy interior"
+        }
+      ],
+      "question": "Which cheese are you?"
+    }
+  ]
+}

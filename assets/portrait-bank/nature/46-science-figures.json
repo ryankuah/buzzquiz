@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Historical scientist",
+      "question": "Which historical scientist are you?",
+      "outcomes": [
+        {
+          "name": "Marie Curie",
+          "description": "Marie Curie — Historical portrait of Marie Curie with pinned dark hair and an early laboratory flask"
+        },
+        {
+          "name": "Charles Darwin",
+          "description": "Charles Darwin — Older Charles Darwin with long white beard holding a botanical notebook"
+        },
+        {
+          "name": "Galileo Galilei",
+          "description": "Galileo Galilei — Bearded Renaissance Galileo holding a long early telescope"
+        },
+        {
+          "name": "Katherine Johnson",
+          "description": "Katherine Johnson — Katherine Johnson in glasses with a mathematics notebook and mid-century dress"
+        }
+      ]
+    }
+  ]
+}

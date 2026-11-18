@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mushroom",
+      "question": "Which mushroom suits your woodland personality?",
+      "outcomes": [
+        {
+          "name": "Fly agaric",
+          "description": "Red domed mushroom cap with scattered white warts above a pale skirted stem"
+        },
+        {
+          "name": "Lion's mane mushroom",
+          "description": "White pompom-like fungus with long cascading soft spines"
+        },
+        {
+          "name": "Golden chanterelle",
+          "description": "Golden yellow funnel mushroom with irregular wavy rim and forked ridges"
+        },
+        {
+          "name": "Morel",
+          "description": "Tan morel with tall deeply pitted honeycomb cap on a pale stalk"
+        }
+      ]
+    }
+  ]
+}

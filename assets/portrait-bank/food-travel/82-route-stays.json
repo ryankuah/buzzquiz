@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Accommodation",
+      "outcomes": [
+        {
+          "name": "Ryokan",
+          "description": "Miniature traditional Japanese guesthouse with tatami room sliding shoji and low table"
+        },
+        {
+          "name": "Riad",
+          "description": "Miniature Moroccan courtyard home with tiled fountain carved arch and citrus tree"
+        },
+        {
+          "name": "Yurt camp",
+          "description": "Miniature round felt yurt with lattice walls a patterned door and roof crown"
+        },
+        {
+          "name": "Trullo",
+          "description": "Miniature whitewashed Puglian stone house with distinctive grey conical dry-stone roof"
+        }
+      ],
+      "question": "Which kind of accommodation suits you?"
+    }
+  ]
+}

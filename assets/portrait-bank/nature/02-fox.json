@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fox type",
+      "question": "Which type of fox are you?",
+      "outcomes": [
+        {
+          "name": "Bat-eared fox",
+          "description": "Bat-eared fox — Grey-tan fox with outsized black triangular ears"
+        },
+        {
+          "name": "Tibetan sand fox",
+          "description": "Tibetan sand fox — Thick-coated sandy fox with distinctive square face"
+        },
+        {
+          "name": "Grey fox",
+          "description": "Grey fox — Pepper-grey climbing fox with russet throat and black-tipped bushy tail"
+        },
+        {
+          "name": "Arctic blue fox",
+          "description": "Arctic blue fox — compact blue-morph arctic fox with charcoal coat, rounded ears and full dark tail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Desk personality",
+      "question": "What kind of desk person are you?",
+      "outcomes": [
+        {
+          "name": "Minimalist",
+          "description": "spotless desk with one closed notebook and pen"
+        },
+        {
+          "name": "Collector",
+          "description": "desk lined with figurines and keepsakes"
+        },
+        {
+          "name": "Plant parent",
+          "description": "desk crowded with healthy little potted plants"
+        },
+        {
+          "name": "Colour coder",
+          "description": "desk with neat rows of colour-coded folders and tabs"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Waffle style",
+      "question": "Which waffle style are you?",
+      "outcomes": [
+        {
+          "name": "Liège waffle",
+          "description": "rounded caramelised irregular Belgian waffle"
+        },
+        {
+          "name": "Brussels waffle",
+          "description": "rectangular airy deep-pocket waffle"
+        },
+        {
+          "name": "Bubble waffle",
+          "description": "golden Hong Kong egg waffle curled into a cone"
+        },
+        {
+          "name": "Scandinavian heart waffle",
+          "description": "thin waffle formed of five adjoining heart shapes"
+        }
+      ]
+    }
+  ]
+}

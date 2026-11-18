@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ape species",
+      "question": "Which ape are you?",
+      "outcomes": [
+        {
+          "name": "Mountain gorilla",
+          "description": "Mountain gorilla — Powerful silverback gorilla with silver-grey saddle"
+        },
+        {
+          "name": "Bonobo",
+          "description": "Bonobo — Slender dark-faced bonobo with centre-parted black hair"
+        },
+        {
+          "name": "Siamang",
+          "description": "Siamang — Black gibbon with extra-long arms and an inflated throat sac"
+        },
+        {
+          "name": "White-cheeked gibbon",
+          "description": "White-cheeked gibbon — Black gibbon with a conspicuous pair of white cheeks"
+        }
+      ]
+    }
+  ]
+}

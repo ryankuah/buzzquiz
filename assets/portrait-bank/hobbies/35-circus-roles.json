@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Circus performer",
+      "question": "Which circus performer are you?",
+      "outcomes": [
+        {
+          "name": "Juggler",
+          "description": "joyful circus juggler tossing a balanced cascade of three colourful clubs"
+        },
+        {
+          "name": "Aerialist",
+          "description": "aerial performer suspended in a graceful single red silk loop"
+        },
+        {
+          "name": "Tightrope walker",
+          "description": "tightrope performer balancing on a short rope between posts with a long pole"
+        },
+        {
+          "name": "Ringmaster",
+          "description": "smiling circus ringmaster in crimson tailcoat and tall black hat"
+        }
+      ]
+    }
+  ]
+}

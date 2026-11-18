@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Australian frog",
+      "question": "Which Australian frog are you?",
+      "outcomes": [
+        {
+          "name": "Green tree frog",
+          "description": "Green tree frog — Plump emerald green Australian tree frog with smooth skin"
+        },
+        {
+          "name": "Corroboree frog",
+          "description": "Corroboree frog — Small ground frog with vivid yellow and black stripes"
+        },
+        {
+          "name": "Water-holding frog",
+          "description": "Water-holding frog — Stout grey-green Australian burrowing frog with smooth skin"
+        },
+        {
+          "name": "Turtle frog",
+          "description": "Turtle frog — Small plump pink-brown frog with a tiny head and stocky forelimbs"
+        }
+      ]
+    }
+  ]
+}

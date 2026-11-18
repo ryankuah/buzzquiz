@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Climbing discipline",
+      "question": "Which climbing discipline are you?",
+      "outcomes": [
+        {
+          "name": "Bouldering",
+          "description": "climber holding a low steep overhang with a crash mat below"
+        },
+        {
+          "name": "Sport climbing",
+          "description": "helmeted climber clipping a quickdraw on a small bolted rock section"
+        },
+        {
+          "name": "Ice climbing",
+          "description": "climber in blue cold weather gear with ice tools on a small ice wall"
+        },
+        {
+          "name": "Speed climbing",
+          "description": "speed climber reaching for bright red standardised holds on a straight vertical wall"
+        }
+      ]
+    }
+  ]
+}

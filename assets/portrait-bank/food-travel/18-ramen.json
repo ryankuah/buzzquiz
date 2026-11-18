@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ramen style",
+      "question": "Which ramen style are you?",
+      "outcomes": [
+        {
+          "name": "Tonkotsu ramen",
+          "description": "milky pork broth ramen with chashu and thin noodles"
+        },
+        {
+          "name": "Miso ramen",
+          "description": "amber miso ramen with corn and butter"
+        },
+        {
+          "name": "Shoyu ramen",
+          "description": "clear brown soy broth with noodles and pink fish cake"
+        },
+        {
+          "name": "Tsukemen",
+          "description": "separate plate of thick noodles with a small dipping broth bowl"
+        }
+      ]
+    }
+  ]
+}

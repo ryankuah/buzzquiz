@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sweet dumpling",
+      "question": "Which sweet dumpling are you?",
+      "outcomes": [
+        {
+          "name": "Tangyuan",
+          "description": "round white rice dumplings in clear sweet soup with one sesame-filled cutaway"
+        },
+        {
+          "name": "Knedle",
+          "description": "plum dumpling cut open to a purple plum centre"
+        },
+        {
+          "name": "Germknödel",
+          "description": "large round dumpling in vanilla sauce topped with poppy seeds"
+        },
+        {
+          "name": "Gulab jamun",
+          "description": "brown milk-solid dumplings in amber syrup with pistachio slivers"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Street food",
+      "outcomes": [
+        {
+          "name": "Tteokbokki",
+          "description": "Thick cylindrical Korean rice cakes in glossy crimson sauce with scallion slices"
+        },
+        {
+          "name": "Jianbing",
+          "description": "A crisp folded Chinese savoury crepe with egg scallions and a crunchy cracker inside"
+        },
+        {
+          "name": "Kwek-kwek",
+          "description": "Three bright orange battered quail eggs on a thin bamboo skewer"
+        },
+        {
+          "name": "Bánh xèo",
+          "description": "Crispy yellow Vietnamese half-moon crepe folded around bean sprouts and shrimp"
+        }
+      ],
+      "question": "Which street food would you be?"
+    }
+  ]
+}

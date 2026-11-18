@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Retro home computer",
+      "question": "Which retro home computer are you?",
+      "outcomes": [
+        {
+          "name": "Commodore 64",
+          "description": "beige breadbin-shaped Commodore 64 keyboard computer with dark keys"
+        },
+        {
+          "name": "Apple iMac G3",
+          "description": "translucent Bondi blue all-in-one CRT iMac G3"
+        },
+        {
+          "name": "Sinclair ZX Spectrum",
+          "description": "black Sinclair ZX Spectrum with rubber keys and a corner rainbow stripe"
+        },
+        {
+          "name": "Apple Macintosh 128K",
+          "description": "original beige compact Macintosh with a tiny built-in screen and floppy slot"
+        }
+      ]
+    }
+  ]
+}

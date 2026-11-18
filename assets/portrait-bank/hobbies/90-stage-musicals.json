@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Musical theatre role",
+      "question": "Which musical theatre role are you?",
+      "outcomes": [
+        {
+          "name": "Leading actor",
+          "description": "a principal stage actor alone in an amber spotlight holding a prop rose"
+        },
+        {
+          "name": "Swing",
+          "description": "a flexible stage performer holding two distinctive costume hats and a tabbed role notebook"
+        },
+        {
+          "name": "Dance captain",
+          "description": "a dancer with a rehearsal clipboard demonstrating a movement to two ensemble silhouettes"
+        },
+        {
+          "name": "Understudy",
+          "description": "a performer quietly reviewing a lead script in the wings beside a spare costume"
+        }
+      ]
+    }
+  ]
+}

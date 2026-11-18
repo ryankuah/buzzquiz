@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "College major",
+      "question": "Which college major are you?",
+      "outcomes": [
+        {
+          "name": "Geology",
+          "description": "a student with a geologist's hammer and a colorful stratified rock sample"
+        },
+        {
+          "name": "Meteorology",
+          "description": "a student holding an anemometer beside a weather-map board"
+        },
+        {
+          "name": "Oceanography",
+          "description": "a student in a blue field jacket with a sample bottle beside a small research buoy"
+        },
+        {
+          "name": "Ecology",
+          "description": "a student studying a miniature woodland terrarium with a field notebook"
+        }
+      ]
+    }
+  ]
+}

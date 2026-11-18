@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Houseplant",
+      "question": "Which statement houseplant fits your favourite room?",
+      "outcomes": [
+        {
+          "name": "Elephant ear plant",
+          "description": "Potted Alocasia with large arrowhead-shaped dark leaves and striking pale veins"
+        },
+        {
+          "name": "Watermelon peperomia",
+          "description": "Compact round leaves striped silver and dark green like watermelon rinds on pink-red stalks"
+        },
+        {
+          "name": "Satin pothos",
+          "description": "Scindapsus pictus vine with matte heart-shaped dark leaves speckled in silver"
+        },
+        {
+          "name": "Stromanthe Triostar",
+          "description": "Clump of elongated leaves splashed cream and pink with burgundy undersides"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Migratory bird",
+      "question": "Which long-distance migratory bird are you?",
+      "outcomes": [
+        {
+          "name": "Bar-tailed godwit",
+          "description": "Bar-tailed godwit — Long-legged rusty shorebird with long slightly upturned bill"
+        },
+        {
+          "name": "Barn swallow",
+          "description": "Barn swallow — Glossy blue swallow with russet throat and deeply forked tail"
+        },
+        {
+          "name": "Whooping crane",
+          "description": "Whooping crane — Tall white crane with red crown and black wing tips"
+        },
+        {
+          "name": "Bar-headed goose",
+          "description": "Bar-headed goose — Pale grey goose with two black bars across a white head"
+        }
+      ]
+    }
+  ]
+}

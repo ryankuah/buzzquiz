@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ancient Egyptian artefact",
+      "question": "Which Egyptian artefact are you?",
+      "outcomes": [
+        {
+          "name": "Scarab amulet",
+          "description": "Scarab amulet — Turquoise glazed scarab beetle amulet"
+        },
+        {
+          "name": "Canopic jar",
+          "description": "Canopic jar — Egyptian alabaster jar topped with a carved human head"
+        },
+        {
+          "name": "Ushabti",
+          "description": "Ushabti — Small blue faience standing funerary figurine with crossed arms"
+        },
+        {
+          "name": "Ankh pendant",
+          "description": "Ankh pendant — Golden Egyptian loop-topped ankh pendant"
+        }
+      ]
+    }
+  ]
+}

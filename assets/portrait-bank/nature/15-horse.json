@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rare horse breed",
+      "question": "Which horse breed matches you?",
+      "outcomes": [
+        {
+          "name": "Akhal-Teke",
+          "description": "Akhal-Teke — Slender metallic golden horse with fine mane"
+        },
+        {
+          "name": "Fjord horse",
+          "description": "Fjord horse — Dun Norwegian pony with upright two-tone cropped mane"
+        },
+        {
+          "name": "Marwari horse",
+          "description": "Marwari horse — Chestnut Indian horse with distinctive inward-curling ears"
+        },
+        {
+          "name": "Gypsy cob",
+          "description": "Gypsy cob — Sturdy black-and-white piebald cob with abundant leg feathering"
+        }
+      ]
+    }
+  ]
+}

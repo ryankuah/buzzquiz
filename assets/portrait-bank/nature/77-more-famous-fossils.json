@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Famous fossil",
+      "question": "Which famous fossil would you travel to see?",
+      "outcomes": [
+        {
+          "name": "Borealopelta markmitchelli",
+          "description": "Exceptionally preserved reddish-brown armoured dinosaur head and shoulders with rows of keeled plates"
+        },
+        {
+          "name": "Dippy the Diplodocus",
+          "description": "Museum skeletal reconstruction of Diplodocus carnegii with whip tail and long neck held near horizontally"
+        },
+        {
+          "name": "Laetoli footprints",
+          "description": "Beige fossil ash slab preserving a short track of humanlike early hominin footprints"
+        },
+        {
+          "name": "Wankel Rex",
+          "description": "Mounted Tyrannosaurus fossil skeleton standing on powerful hind limbs with a large skull and long balancing tail"
+        }
+      ]
+    }
+  ]
+}

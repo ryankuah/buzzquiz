@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tennis shot",
+      "question": "Which tennis shot are you?",
+      "outcomes": [
+        {
+          "name": "Serve",
+          "description": "a tennis player tossing a ball high and extending upward with the racket to serve"
+        },
+        {
+          "name": "Volley",
+          "description": "a tennis player close to the net making a compact forehand volley"
+        },
+        {
+          "name": "Backhand",
+          "description": "a tennis player rotating into a two-handed backhand across the chest"
+        },
+        {
+          "name": "Forehand",
+          "description": "a tennis player extending one arm through a sweeping forehand groundstroke"
+        }
+      ]
+    }
+  ]
+}

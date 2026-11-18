@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ammonite relative",
+      "question": "Which shelled cephalopod are you?",
+      "outcomes": [
+        {
+          "name": "Baculites",
+          "description": "Baculites — Long straight tapered fossil ammonite shell with chamber markings"
+        },
+        {
+          "name": "Scaphites",
+          "description": "Scaphites — Fossil ammonite with a hook-shaped adult shell"
+        },
+        {
+          "name": "Turrilites",
+          "description": "Turrilites — Tall corkscrew-shaped ammonite fossil"
+        },
+        {
+          "name": "Heteroceras",
+          "description": "Heteroceras — Irregular looped ammonite fossil with spiral apex and curved shaft"
+        }
+      ]
+    }
+  ]
+}

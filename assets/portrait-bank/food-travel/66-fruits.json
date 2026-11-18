@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fruit",
+      "outcomes": [
+        {
+          "name": "Sugar apple",
+          "description": "Pale green sugar apple with a knobbly segmented rind, shown cut open to reveal creamy flesh and dark seeds."
+        },
+        {
+          "name": "Horned melon",
+          "description": "Bright orange spiny kiwano melon cut open showing vibrant green translucent jelly and seeds"
+        },
+        {
+          "name": "Guava",
+          "description": "Oval pale green guava cut to show vivid pink flesh and a cluster of pale seeds"
+        },
+        {
+          "name": "Persimmon",
+          "description": "A glossy squat orange persimmon with a broad green leafy calyx and one wedge"
+        }
+      ],
+      "question": "Which fruit are you?"
+    }
+  ]
+}

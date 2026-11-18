@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Commedia dell'arte character",
+      "question": "Which commedia dell'arte character are you?",
+      "outcomes": [
+        {
+          "name": "Arlecchino",
+          "description": "lively traditional Arlecchino in a multicoloured diamond costume and dark half mask"
+        },
+        {
+          "name": "Pierrot",
+          "description": "melancholy traditional Pierrot in loose white costume with black pom-poms and white face"
+        },
+        {
+          "name": "Pantalone",
+          "description": "traditional elderly Pantalone in red trousers, black cloak and hooked-nose mask"
+        },
+        {
+          "name": "Il Dottore",
+          "description": "traditional Il Dottore in black academic robes, broad round hat and white ruff"
+        }
+      ]
+    }
+  ]
+}

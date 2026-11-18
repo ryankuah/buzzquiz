@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Film set job",
+      "question": "Which film set job suits you?",
+      "outcomes": [
+        {
+          "name": "Cinematographer",
+          "description": "cinematographer peering through a cinema camera on a low tripod"
+        },
+        {
+          "name": "Boom operator",
+          "description": "boom operator wearing headphones holding a long microphone pole overhead"
+        },
+        {
+          "name": "Costume designer",
+          "description": "costume designer pinning fabric to a dress form"
+        },
+        {
+          "name": "Set decorator",
+          "description": "set decorator arranging a lamp and tiny props in a scale interior"
+        }
+      ]
+    }
+  ]
+}

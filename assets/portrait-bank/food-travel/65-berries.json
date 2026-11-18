@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fruit",
+      "outcomes": [
+        {
+          "name": "Salak",
+          "description": "Brown teardrop-shaped Indonesian snake fruit with shiny scale-patterned peel partially removed to reveal three ivory lobes"
+        },
+        {
+          "name": "Rambutan",
+          "description": "Red spiny rambutan with soft hairlike spikes and one peeled translucent fruit"
+        },
+        {
+          "name": "Tamarillo",
+          "description": "Deep red egg-shaped tree tomato cut in half showing orange flesh with dark purple seed gel"
+        },
+        {
+          "name": "Feijoa",
+          "description": "Oval dull green feijoa cut in half showing cream flesh and translucent flower-shaped centre"
+        }
+      ],
+      "question": "Which fruit are you?"
+    }
+  ]
+}

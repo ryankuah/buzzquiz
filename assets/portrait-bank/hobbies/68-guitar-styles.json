@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Guitar playing style",
+      "question": "Which guitar playing style are you?",
+      "outcomes": [
+        {
+          "name": "Fingerstyle",
+          "description": "a close view of a bare picking hand plucking several strings on a fingerstyle acoustic guitar"
+        },
+        {
+          "name": "Slide guitar",
+          "description": "a silver tubular slide worn on a guitarist’s finger gliding over steel strings"
+        },
+        {
+          "name": "Flamenco rasgueado",
+          "description": "a Spanish guitarist fanning the fingers rhythmically over a traditional guitar soundhole"
+        },
+        {
+          "name": "Two-hand tapping",
+          "description": "two fretting hands tapping notes high on the neck of a purple electric guitar"
+        }
+      ]
+    }
+  ]
+}

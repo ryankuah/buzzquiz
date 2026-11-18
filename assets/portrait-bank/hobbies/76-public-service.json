@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Career",
+      "question": "Which career are you?",
+      "outcomes": [
+        {
+          "name": "Firefighter",
+          "description": "a firefighter in yellow turnout gear holding a coiled fire hose"
+        },
+        {
+          "name": "Paramedic",
+          "description": "a paramedic in a reflective uniform carrying a red first-aid bag"
+        },
+        {
+          "name": "Teacher",
+          "description": "a teacher holding an open picture book beside a small chalkboard"
+        },
+        {
+          "name": "Civil engineer",
+          "description": "a civil engineer inspecting a miniature truss bridge with a blueprint"
+        }
+      ]
+    }
+  ]
+}

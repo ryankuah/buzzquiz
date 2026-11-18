@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dance style",
+      "question": "Which dance style are you?",
+      "outcomes": [
+        {
+          "name": "Ballet",
+          "description": "a dancer in a lilac classical tutu and pointe shoes poised in arabesque"
+        },
+        {
+          "name": "Breaking",
+          "description": "a street dancer in a blue tracksuit balancing in a one-handed floor freeze"
+        },
+        {
+          "name": "Irish stepdance",
+          "description": "an upright Irish step dancer with arms straight at sides and crossed feet in hard shoes, emerald embroidered dress"
+        },
+        {
+          "name": "Contemporary dance",
+          "description": "a barefoot contemporary dancer in loose terracotta rehearsal clothes extending sideways from a deep lunge"
+        }
+      ]
+    }
+  ]
+}

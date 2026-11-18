@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cookie",
+      "question": "Which cookie are you?",
+      "outcomes": [
+        {
+          "name": "Chocolate chip cookie",
+          "description": "round cookie studded with dark chocolate chips"
+        },
+        {
+          "name": "Macadamia cookie",
+          "description": "white chocolate macadamia nut cookie with visible nuts"
+        },
+        {
+          "name": "Gingerbread person",
+          "description": "gingerbread person with white icing details"
+        },
+        {
+          "name": "Jam thumbprint",
+          "description": "small round cookie with red jam centre"
+        }
+      ]
+    }
+  ]
+}

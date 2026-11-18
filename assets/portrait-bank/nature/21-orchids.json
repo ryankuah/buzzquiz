@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Orchid type",
+      "question": "Which orchid are you?",
+      "outcomes": [
+        {
+          "name": "Moth orchid",
+          "description": "Moth orchid — Arching stem of pale pink moth-shaped orchid blooms"
+        },
+        {
+          "name": "Slipper orchid",
+          "description": "Slipper orchid — Single speckled burgundy slipper-shaped orchid flower"
+        },
+        {
+          "name": "Dancing lady orchid",
+          "description": "Dancing lady orchid — Spray of small yellow oncidium blooms with wide skirts"
+        },
+        {
+          "name": "Cattleya orchid",
+          "description": "Cattleya orchid — Ruffled lavender cattleya bloom with vivid magenta lip"
+        }
+      ]
+    }
+  ]
+}

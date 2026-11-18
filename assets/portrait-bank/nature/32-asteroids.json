@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Asteroid",
+      "question": "Which asteroid are you?",
+      "outcomes": [
+        {
+          "name": "Bennu",
+          "description": "Bennu — Dark rubble-pile asteroid with a flattened spinning-top shape"
+        },
+        {
+          "name": "Vesta",
+          "description": "Vesta — Large lopsided grey cratered asteroid with a broad south polar basin"
+        },
+        {
+          "name": "Eros",
+          "description": "Eros — Elongated peanut-shaped rocky asteroid with a deep saddle"
+        },
+        {
+          "name": "Psyche",
+          "description": "Psyche — Irregular potato-shaped asteroid rendered as a plausible metallic grey rocky body"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "European city",
+      "question": "Which European city should you visit?",
+      "outcomes": [
+        {
+          "name": "Amsterdam",
+          "description": "row of narrow stepped-gable canal houses and an arched bridge"
+        },
+        {
+          "name": "Siena",
+          "description": "Miniature Siena Piazza del Campo with the tall brick Torre del Mangia and low fan-shaped medieval square"
+        },
+        {
+          "name": "Barcelona",
+          "description": "colourful mosaic bench and Gaudi-style turret"
+        },
+        {
+          "name": "Prague",
+          "description": "red-roofed Old Town Hall tower with astronomical clock"
+        }
+      ]
+    }
+  ]
+}

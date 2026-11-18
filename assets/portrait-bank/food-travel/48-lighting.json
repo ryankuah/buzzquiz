@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Lamp style",
+      "question": "Which lamp style are you?",
+      "outcomes": [
+        {
+          "name": "Mushroom lamp",
+          "description": "Standalone orange 1970s table lamp with a broad round mushroom-shaped domed shade"
+        },
+        {
+          "name": "Paper globe lamp",
+          "description": "round white ribbed paper pendant lamp"
+        },
+        {
+          "name": "Oil lamp",
+          "description": "Standalone antique clear-glass kerosene lamp with brass wick mechanism and a tall glass chimney"
+        },
+        {
+          "name": "Banker's lamp",
+          "description": "green glass shade on brass banker desk lamp"
+        }
+      ]
+    }
+  ]
+}

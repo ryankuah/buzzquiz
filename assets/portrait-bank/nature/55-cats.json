@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cat breed",
+      "question": "Which cat breed matches your quiet side?",
+      "outcomes": [
+        {
+          "name": "Norwegian forest cat",
+          "description": "Large longhaired cat with triangular face, tufted ears and brown tabby ruff"
+        },
+        {
+          "name": "Cornish rex",
+          "description": "Slender short-haired cream cat with marcel-wave curls and large ears"
+        },
+        {
+          "name": "Japanese bobtail",
+          "description": "White calico cat with a short pompom tail and upright ears"
+        },
+        {
+          "name": "Bombay",
+          "description": "Sleek jet-black shorthaired cat with rounded face and copper eyes"
+        }
+      ]
+    }
+  ]
+}

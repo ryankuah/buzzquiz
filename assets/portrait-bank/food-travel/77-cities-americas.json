@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "City",
+      "outcomes": [
+        {
+          "name": "Vancouver",
+          "description": "Miniature Vancouver with a white sail-roofed Canada Place waterfront pavilion and forested mountains"
+        },
+        {
+          "name": "Seattle",
+          "description": "Miniature Seattle Space Needle beside low waterfront buildings and evergreen trees"
+        },
+        {
+          "name": "Toronto",
+          "description": "Miniature Toronto CN Tower with its identifiable slender shaft and circular viewing platform above the lakeshore"
+        },
+        {
+          "name": "Québec City",
+          "description": "Miniature Château Frontenac with green copper turrets above the old riverside city"
+        }
+      ],
+      "question": "Which city are you?"
+    }
+  ]
+}

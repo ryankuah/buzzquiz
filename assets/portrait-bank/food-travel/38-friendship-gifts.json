@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Friendship keepsake",
+      "question": "Which friendship keepsake are you?",
+      "outcomes": [
+        {
+          "name": "Matching keychains",
+          "description": "two interlocking enamel keychains"
+        },
+        {
+          "name": "Memory box",
+          "description": "small keepsake box filled with ticket stubs and ribbons"
+        },
+        {
+          "name": "Photo locket",
+          "description": "open oval gold photo locket on a chain"
+        },
+        {
+          "name": "Charm bracelet",
+          "description": "silver bracelet with assorted tiny charms"
+        }
+      ]
+    }
+  ]
+}

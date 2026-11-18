@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Volleyball position",
+      "question": "Which volleyball position are you?",
+      "outcomes": [
+        {
+          "name": "Setter",
+          "description": "volleyball setter forming a triangle with both hands above the forehead beneath a ball"
+        },
+        {
+          "name": "Libero",
+          "description": "libero wearing a contrasting jersey crouched low for a forearm dig"
+        },
+        {
+          "name": "Middle blocker",
+          "description": "tall volleyball blocker with both hands extended above a short section of net"
+        },
+        {
+          "name": "Outside hitter",
+          "description": "outside hitter preparing a powerful one-handed spike near an antenna"
+        }
+      ]
+    }
+  ]
+}

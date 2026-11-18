@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Crewed spacecraft",
+      "question": "Which crewed spacecraft are you?",
+      "outcomes": [
+        {
+          "name": "Apollo command module",
+          "description": "Apollo command module — Blunt silver conical Apollo capsule with small windows"
+        },
+        {
+          "name": "Vostok",
+          "description": "Vostok — Spherical crew capsule attached to a conical equipment module with antennae"
+        },
+        {
+          "name": "Soyuz",
+          "description": "Soyuz — Three-part spacecraft with round front orbital module and two blue solar panels"
+        },
+        {
+          "name": "Crew Dragon",
+          "description": "Crew Dragon — White capsule with black window surround and dark side panels"
+        }
+      ]
+    }
+  ]
+}

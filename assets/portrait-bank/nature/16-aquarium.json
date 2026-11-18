@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Aquarium fish",
+      "question": "Which aquarium fish are you?",
+      "outcomes": [
+        {
+          "name": "Siamese fighting fish",
+          "description": "Siamese fighting fish — Brilliant red and blue betta with long flowing fins"
+        },
+        {
+          "name": "Neon tetra",
+          "description": "Neon tetra — Tiny fish with a bright blue horizontal stripe and red rear half"
+        },
+        {
+          "name": "Freshwater angelfish",
+          "description": "Freshwater angelfish — Silver triangular angelfish with dark vertical bands"
+        },
+        {
+          "name": "Guppy",
+          "description": "Guppy — Small guppy with a broad orange-and-blue patterned fan tail"
+        }
+      ]
+    }
+  ]
+}

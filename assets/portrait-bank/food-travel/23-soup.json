@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Comfort soup",
+      "question": "Which comfort soup are you?",
+      "outcomes": [
+        {
+          "name": "Tomato soup",
+          "description": "red tomato soup in a mug with basil"
+        },
+        {
+          "name": "Pumpkin soup",
+          "description": "smooth orange pumpkin soup with cream swirl"
+        },
+        {
+          "name": "Minestrone",
+          "description": "vegetable soup with beans and small pasta"
+        },
+        {
+          "name": "Clam chowder",
+          "description": "creamy clam chowder with clam shells in a bread bowl"
+        }
+      ]
+    }
+  ]
+}

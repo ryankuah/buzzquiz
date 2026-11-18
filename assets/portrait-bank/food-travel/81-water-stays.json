@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Accommodation",
+      "outcomes": [
+        {
+          "name": "Overwater bungalow",
+          "description": "Miniature thatched bungalow on wooden stilts above turquoise lagoon with a small ladder"
+        },
+        {
+          "name": "Narrowboat",
+          "description": "Long low British canal boat with a rounded roof painted deep green red and gold"
+        },
+        {
+          "name": "Lighthouse inn",
+          "description": "Miniature red and white striped lighthouse attached to a small keeper's guest cottage"
+        },
+        {
+          "name": "Floating lodge",
+          "description": "Miniature cedar floating lodge on a square pontoon with a canoe tied to the dock"
+        }
+      ],
+      "question": "Which kind of accommodation suits you?"
+    }
+  ]
+}

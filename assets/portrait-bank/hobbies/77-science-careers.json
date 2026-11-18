@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Career",
+      "question": "Which career are you?",
+      "outcomes": [
+        {
+          "name": "Paleontologist",
+          "description": "a field scientist dusting a fossil skull with a soft brush"
+        },
+        {
+          "name": "Planetary scientist",
+          "description": "a scientist studying a detailed model of Saturn and its rings"
+        },
+        {
+          "name": "Botanist",
+          "description": "a field botanist examining a pressed fern with a hand lens"
+        },
+        {
+          "name": "Entomologist",
+          "description": "an entomologist studying a preserved jewel beetle with a magnifying glass"
+        }
+      ]
+    }
+  ]
+}

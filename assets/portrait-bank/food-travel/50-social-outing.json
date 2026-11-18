@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Game night guest type",
+      "question": "What kind of game night guest are you?",
+      "outcomes": [
+        {
+          "name": "Rule reader",
+          "description": "guest studying a thick rulebook beside an open board game"
+        },
+        {
+          "name": "Card shuffler",
+          "description": "Original adult shuffling a deck of cards, curved streams of playing cards between both hands"
+        },
+        {
+          "name": "Puzzle solver",
+          "description": "Original adult concentrating on fitting two colourful pieces of a wooden puzzle together"
+        },
+        {
+          "name": "Snack sharer",
+          "description": "guest passing a bowl of pretzels around the table"
+        }
+      ]
+    }
+  ]
+}

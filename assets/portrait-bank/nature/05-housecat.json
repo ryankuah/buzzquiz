@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pedigree cat breed",
+      "question": "Which pedigree cat breed are you?",
+      "outcomes": [
+        {
+          "name": "Scottish fold",
+          "description": "Scottish fold — Round-faced grey shorthair with small folded ears"
+        },
+        {
+          "name": "Abyssinian",
+          "description": "Abyssinian — Slender ruddy ticked cat with large alert ears"
+        },
+        {
+          "name": "Devon rex",
+          "description": "Devon rex — Small curly-coated cream cat with large low-set ears"
+        },
+        {
+          "name": "British shorthair",
+          "description": "British shorthair — Stocky blue-grey shorthair with round cheeks and copper eyes"
+        }
+      ]
+    }
+  ]
+}

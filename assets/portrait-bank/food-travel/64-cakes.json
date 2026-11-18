@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cake flavour",
+      "outcomes": [
+        {
+          "name": "Basque cheesecake",
+          "description": "A cream-coloured cheesecake wedge with deeply burnished nearly black top"
+        },
+        {
+          "name": "Medovik",
+          "description": "Russian honey cake wedge with many evenly spaced thin honey-brown layers and cream"
+        },
+        {
+          "name": "Prinsesstårta",
+          "description": "Swedish domed cake in pale green marzipan topped with one pink marzipan rose"
+        },
+        {
+          "name": "Castella",
+          "description": "Two neat rectangles of soft golden Japanese sponge cake with dark brown tops"
+        }
+      ],
+      "question": "Which cake flavour are you?"
+    }
+  ]
+}

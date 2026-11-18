@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cozy game shop",
+      "question": "Which cozy game shop would you run?",
+      "outcomes": [
+        {
+          "name": "Bookshop",
+          "description": "miniature warm bookshop facade with open door and shelves"
+        },
+        {
+          "name": "Bakery",
+          "description": "miniature pastel bakery storefront displaying loaves in its window"
+        },
+        {
+          "name": "Florist shop",
+          "description": "green miniature florist storefront surrounded by buckets of blooms"
+        },
+        {
+          "name": "Tea shop",
+          "description": "miniature tea shopfront with teapot sign and tins in the window"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bag style",
+      "question": "Which everyday bag are you?",
+      "outcomes": [
+        {
+          "name": "Canvas tote",
+          "description": "ivory canvas tote bag"
+        },
+        {
+          "name": "Messenger bag",
+          "description": "olive messenger bag with flap and long strap"
+        },
+        {
+          "name": "Hobo bag",
+          "description": "slouchy crescent-shaped leather shoulder bag"
+        },
+        {
+          "name": "Clutch",
+          "description": "small gold envelope clutch with metal clasp"
+        }
+      ]
+    }
+  ]
+}

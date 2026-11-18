@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Folklore creature",
+      "question": "Which folklore creature would you meet at dusk?",
+      "outcomes": [
+        {
+          "name": "Tanuki",
+          "description": "Japanese folklore raccoon dog, with rounded ears, dark eye mask, straw travelling hat and a leaf"
+        },
+        {
+          "name": "Hodag",
+          "description": "Wisconsin folklore beast with green scales, a horned bull-like head, white fangs and spines down its back"
+        },
+        {
+          "name": "Domovoi",
+          "description": "Small bearded Slavic household spirit in a plain homespun shirt and bast shoes"
+        },
+        {
+          "name": "Púca",
+          "description": "Shaggy black shape-shifting horse from Irish folklore with glowing amber eyes"
+        }
+      ]
+    }
+  ]
+}

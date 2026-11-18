@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dog breed",
+      "question": "Which dog breed matches the way you greet an old friend?",
+      "outcomes": [
+        {
+          "name": "Australian cattle dog",
+          "description": "Compact athletic blue-speckled herding dog with upright ears and tan points"
+        },
+        {
+          "name": "Afghan hound",
+          "description": "Tall slim hound with long silky golden hair and a narrow black muzzle"
+        },
+        {
+          "name": "Bull terrier",
+          "description": "White muscular terrier with distinctive egg-shaped head and upright ears"
+        },
+        {
+          "name": "Papillon",
+          "description": "Tiny white-and-russet spaniel with very large fringed butterfly ears"
+        }
+      ]
+    }
+  ]
+}

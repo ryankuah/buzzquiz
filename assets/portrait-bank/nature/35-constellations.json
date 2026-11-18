@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Constellation",
+      "question": "Which constellation are you?",
+      "outcomes": [
+        {
+          "name": "Ursa Major",
+          "description": "Seven main silver stars joined in the recognizable Big Dipper outline with a long curved handle"
+        },
+        {
+          "name": "Taurus",
+          "description": "A gold Taurus bull's head constellation, the V-shaped Hyades and two long horns"
+        },
+        {
+          "name": "Delphinus",
+          "description": "A concise five-star silver-blue Delphinus outline with small four-star rhombus and trailing tail"
+        },
+        {
+          "name": "Pegasus",
+          "description": "A luminous four-star Great Square of Pegasus and extending stellar neck and muzzle"
+        }
+      ]
+    }
+  ]
+}

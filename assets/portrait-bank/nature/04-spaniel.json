@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Spaniel breed",
+      "question": "Which spaniel are you?",
+      "outcomes": [
+        {
+          "name": "Cavalier King Charles spaniel",
+          "description": "Cavalier King Charles spaniel — Small chestnut-and-white spaniel with silky ears"
+        },
+        {
+          "name": "English springer spaniel",
+          "description": "English springer spaniel — Athletic liver-and-white spaniel with long ears"
+        },
+        {
+          "name": "Clumber spaniel",
+          "description": "Clumber spaniel — Heavy white spaniel with orange ear patches and a broad head"
+        },
+        {
+          "name": "Irish water spaniel",
+          "description": "Irish water spaniel — Liver-brown curly spaniel with a topknot and smooth tapering tail"
+        }
+      ]
+    }
+  ]
+}

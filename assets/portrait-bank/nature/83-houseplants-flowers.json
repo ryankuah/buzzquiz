@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Houseplant",
+      "question": "Which flowering houseplant would you grow by the window?",
+      "outcomes": [
+        {
+          "name": "African violet",
+          "description": "Compact furry-leaved rosette topped with violet flowers and tiny yellow centres"
+        },
+        {
+          "name": "Flamingo flower",
+          "description": "Glossy heart-shaped green leaves and waxy red heart-shaped spathe with upright yellow spadix"
+        },
+        {
+          "name": "Christmas cactus",
+          "description": "Arching dark-green segmented flattened stems with bright magenta tubular blooms"
+        },
+        {
+          "name": "Florist's cyclamen",
+          "description": "Marbled heart-shaped leaves below upright pink flowers with swept-back petals"
+        }
+      ]
+    }
+  ]
+}

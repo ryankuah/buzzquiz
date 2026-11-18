@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pottery form",
+      "question": "Which pottery form are you?",
+      "outcomes": [
+        {
+          "name": "Moon jar",
+          "description": "round ivory moon jar with a small neck"
+        },
+        {
+          "name": "Amphora",
+          "description": "terracotta Greek amphora with two handles and painted leaf bands"
+        },
+        {
+          "name": "Tea bowl",
+          "description": "rustic asymmetric Japanese ceramic tea bowl with mottled green glaze"
+        },
+        {
+          "name": "Bud vase",
+          "description": "tall narrow blue stoneware bud vase holding a single tiny white flower"
+        }
+      ]
+    }
+  ]
+}

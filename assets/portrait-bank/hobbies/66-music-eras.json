@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Music genre",
+      "question": "Which music genre are you?",
+      "outcomes": [
+        {
+          "name": "Bebop",
+          "description": "a tiny jazz saxophonist in beret playing fast notes beside a double bass"
+        },
+        {
+          "name": "Reggae",
+          "description": "a relaxed electric guitarist with a colorful woven strap and an island sound-system speaker"
+        },
+        {
+          "name": "Flamenco music",
+          "description": "a Spanish guitarist playing a cypress guitar beside a small pair of castanets"
+        },
+        {
+          "name": "Baroque music",
+          "description": "a bewigged harpsichord player in embroidered coat at an ornate instrument"
+        }
+      ]
+    }
+  ]
+}

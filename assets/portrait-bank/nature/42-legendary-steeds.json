@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mythical steed",
+      "question": "Which legendary steed are you?",
+      "outcomes": [
+        {
+          "name": "Sleipnir",
+          "description": "Sleipnir — Grey mythical horse with exactly eight legs"
+        },
+        {
+          "name": "Hippogriff",
+          "description": "Hippogriff — Creature with eagle head, wings and forelegs and horse hindquarters"
+        },
+        {
+          "name": "Qilin",
+          "description": "Qilin — Gentle Chinese qilin with deerlike body, scales, hooves and branching horns"
+        },
+        {
+          "name": "Tulpar",
+          "description": "Tulpar — Central Asian winged horse with a chestnut coat and patterned saddlecloth"
+        }
+      ]
+    }
+  ]
+}

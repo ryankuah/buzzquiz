@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Partygoer type",
+      "question": "What kind of partygoer are you?",
+      "outcomes": [
+        {
+          "name": "Dance-floor regular",
+          "description": "joyful guest in bright clothes in a clear dance pose"
+        },
+        {
+          "name": "Kitchen conversationalist",
+          "description": "chatty party guest leaning against a counter with a teacup"
+        },
+        {
+          "name": "Early bird",
+          "description": "smartly dressed guest at the door holding flowers and checking a watch"
+        },
+        {
+          "name": "Last one standing",
+          "description": "cheerful party guest holding shoes and a drooping party streamer"
+        }
+      ]
+    }
+  ]
+}

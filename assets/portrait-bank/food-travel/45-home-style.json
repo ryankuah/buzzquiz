@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Interior style",
+      "question": "Which interior style suits you?",
+      "outcomes": [
+        {
+          "name": "Mid-century modern",
+          "description": "walnut credenza with tapered legs and orange lounge chair"
+        },
+        {
+          "name": "Industrial",
+          "description": "exposed-brick loft corner with black metal bookshelf"
+        },
+        {
+          "name": "Scandinavian",
+          "description": "pale wooden chair with cream throw and simple lamp"
+        },
+        {
+          "name": "Art deco interior",
+          "description": "emerald velvet armchair with brass fan screen"
+        }
+      ]
+    }
+  ]
+}

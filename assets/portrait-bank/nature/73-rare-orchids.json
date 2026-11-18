@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Orchid type",
+      "question": "Which kind of orchid belongs in your greenhouse?",
+      "outcomes": [
+        {
+          "name": "Vanilla orchid",
+          "description": "Pale greenish-yellow vanilla flower shown with thick climbing stem and a green pod"
+        },
+        {
+          "name": "Vanda orchid",
+          "description": "Spray of purple-blue orchid flowers patterned with violet latticework"
+        },
+        {
+          "name": "Bee orchid",
+          "description": "Bee orchid with pink sepals and fuzzy brown-and-yellow insect-shaped lip"
+        },
+        {
+          "name": "Nun's orchid",
+          "description": "Phaius tankervilleae flower with long brown petals, creamy backs and deep pink trumpet lip"
+        }
+      ]
+    }
+  ]
+}

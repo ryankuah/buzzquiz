@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Skilled trade",
+      "question": "Which skilled trade are you?",
+      "outcomes": [
+        {
+          "name": "Electrician",
+          "description": "a working electrician in blue overalls holding an insulated multimeter by a small panel"
+        },
+        {
+          "name": "Plumber",
+          "description": "a working plumber holding a large red pipe wrench and a curved sink trap"
+        },
+        {
+          "name": "Carpenter",
+          "description": "a carpenter planing a piece of wood over a small sawhorse"
+        },
+        {
+          "name": "Tiler",
+          "description": "a tiler kneeling with a notched trowel beside a neat patch of blue wall tiles"
+        }
+      ]
+    }
+  ]
+}

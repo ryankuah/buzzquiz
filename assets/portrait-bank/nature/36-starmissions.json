@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Space probe",
+      "question": "Which space probe are you?",
+      "outcomes": [
+        {
+          "name": "Voyager 1",
+          "description": "Voyager 1 — Space probe with large white dish, gold body and long thin boom"
+        },
+        {
+          "name": "New Horizons",
+          "description": "New Horizons — Gold triangular probe with white dish and a black cylindrical power unit"
+        },
+        {
+          "name": "Juno",
+          "description": "Juno — Gold spacecraft body with three long blue solar wings spaced evenly"
+        },
+        {
+          "name": "Rosetta",
+          "description": "Rosetta — Boxy blue-grey probe with two long rectangular opposite solar arrays and gold insulation"
+        }
+      ]
+    }
+  ]
+}

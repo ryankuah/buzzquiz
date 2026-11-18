@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mocktail",
+      "question": "Which mocktail are you?",
+      "outcomes": [
+        {
+          "name": "Shirley Temple",
+          "description": "red fizzy mocktail with a maraschino cherry"
+        },
+        {
+          "name": "Virgin piña colada",
+          "description": "creamy pineapple mocktail with pineapple wedge"
+        },
+        {
+          "name": "Virgin Mary",
+          "description": "red tomato mocktail with celery stalk"
+        },
+        {
+          "name": "Cucumber cooler",
+          "description": "pale green sparkling drink with cucumber ribbon"
+        }
+      ]
+    }
+  ]
+}

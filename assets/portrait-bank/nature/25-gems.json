@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Birthstone",
+      "question": "Which birthstone are you?",
+      "outcomes": [
+        {
+          "name": "Diamond",
+          "description": "Diamond — Clear colourless brilliant-cut diamond with sparkling facets"
+        },
+        {
+          "name": "Aquamarine",
+          "description": "Aquamarine — Pale clear blue elongated rectangular aquamarine"
+        },
+        {
+          "name": "Tanzanite",
+          "description": "Tanzanite — Deep violet-blue faceted tanzanite"
+        },
+        {
+          "name": "Alexandrite",
+          "description": "Alexandrite — Faceted alexandrite with a clear green-to-purple colour shift"
+        }
+      ]
+    }
+  ]
+}

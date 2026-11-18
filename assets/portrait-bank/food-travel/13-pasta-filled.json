@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Stuffed pasta",
+      "question": "Which stuffed pasta are you?",
+      "outcomes": [
+        {
+          "name": "Ravioli",
+          "description": "square pasta pillows with scalloped edges"
+        },
+        {
+          "name": "Tortellini",
+          "description": "small folded ring-shaped tortellini"
+        },
+        {
+          "name": "Cannelloni",
+          "description": "large filled pasta tubes with ricotta visible"
+        },
+        {
+          "name": "Mezzelune",
+          "description": "half-moon stuffed pasta with crimped curved edges"
+        }
+      ]
+    }
+  ]
+}

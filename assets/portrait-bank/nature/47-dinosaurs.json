@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Armoured dinosaur",
+      "question": "Which armoured dinosaur are you?",
+      "outcomes": [
+        {
+          "name": "Euoplocephalus",
+          "description": "Euoplocephalus — Low armoured dinosaur with rows of bony plates and a broad tail club"
+        },
+        {
+          "name": "Kentrosaurus",
+          "description": "Kentrosaurus — Small stegosaur with short plates near shoulders and long spines along rear"
+        },
+        {
+          "name": "Sauropelta",
+          "description": "Sauropelta — Armoured dinosaur with long shoulder spikes and a tapering unclubbed tail"
+        },
+        {
+          "name": "Polacanthus",
+          "description": "Polacanthus — Low quadrupedal dinosaur with a fused shield above the hips and rows of spikes"
+        }
+      ]
+    }
+  ]
+}

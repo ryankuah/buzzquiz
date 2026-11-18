@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Moon of Saturn",
+      "question": "Which moon of Saturn are you?",
+      "outcomes": [
+        {
+          "name": "Enceladus",
+          "description": "Enceladus — Bright white icy moon with blue stripes and a small ice plume"
+        },
+        {
+          "name": "Mimas",
+          "description": "Mimas — Grey round moon dominated by a single huge impact crater"
+        },
+        {
+          "name": "Iapetus",
+          "description": "Iapetus — Round moon sharply divided between dark brown and bright white hemispheres"
+        },
+        {
+          "name": "Hyperion",
+          "description": "Hyperion — Irregular porous-looking tan moon with deep pockmarked craters"
+        }
+      ]
+    }
+  ]
+}

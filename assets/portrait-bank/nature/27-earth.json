@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Volcano",
+      "question": "Which famous volcano are you?",
+      "outcomes": [
+        {
+          "name": "Mount Fuji",
+          "description": "Mount Fuji — A solitary broad symmetrical Japanese cone with a white snowcap"
+        },
+        {
+          "name": "Kīlauea",
+          "description": "Kīlauea — Low Hawaiian shield volcano model with a broad glowing summit caldera"
+        },
+        {
+          "name": "Mount Vesuvius",
+          "description": "Mount Vesuvius — Mediterranean twin-summit volcanic profile with a green flank"
+        },
+        {
+          "name": "Mount St. Helens",
+          "description": "Mount St. Helens — Grey volcanic mountain with a large open horseshoe crater on one flank"
+        }
+      ]
+    }
+  ]
+}

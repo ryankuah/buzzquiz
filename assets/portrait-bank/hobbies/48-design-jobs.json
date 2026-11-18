@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Design discipline",
+      "question": "Which design discipline suits you?",
+      "outcomes": [
+        {
+          "name": "Graphic designer",
+          "description": "graphic designer arranging a poster layout and colour swatches"
+        },
+        {
+          "name": "Industrial designer",
+          "description": "industrial designer inspecting a foam prototype of a hand tool"
+        },
+        {
+          "name": "Interior designer",
+          "description": "interior designer studying fabric swatches and a miniature room model"
+        },
+        {
+          "name": "Fashion designer",
+          "description": "fashion designer draping a bright garment onto a dress form"
+        }
+      ]
+    }
+  ]
+}

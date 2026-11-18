@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gemstone",
+      "question": "Which gemstone would catch your eye in a mineral cabinet?",
+      "outcomes": [
+        {
+          "name": "Lapis lazuli",
+          "description": "Cobalt-blue polished stone with fine gold pyrite flecks"
+        },
+        {
+          "name": "Malachite",
+          "description": "Glossy green stone with concentric bright and forest-green bands"
+        },
+        {
+          "name": "Moonstone",
+          "description": "Milky oval cabochon with a softly floating blue sheen"
+        },
+        {
+          "name": "Sunstone",
+          "description": "Warm peach-orange polished gem with coppery sparkling inclusions"
+        }
+      ]
+    }
+  ]
+}

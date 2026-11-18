@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Portable music player",
+      "question": "Which portable music player are you?",
+      "outcomes": [
+        {
+          "name": "Portable CD player",
+          "description": "round turquoise personal CD player open to show a compact disc"
+        },
+        {
+          "name": "Cassette Walkman",
+          "description": "blue and silver rectangular portable cassette player with orange foam earphones"
+        },
+        {
+          "name": "iPod shuffle",
+          "description": "small square green clip-on music player with circular controls"
+        },
+        {
+          "name": "Pocket transistor radio",
+          "description": "vintage red pocket radio with a tuning wheel and small extending aerial"
+        }
+      ]
+    }
+  ]
+}

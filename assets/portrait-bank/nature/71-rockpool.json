@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tide-pool creature",
+      "question": "Which tide-pool creature would you look for at low tide?",
+      "outcomes": [
+        {
+          "name": "Beadlet anemone",
+          "description": "Small round red sea anemone with red tentacles arranged like a crown"
+        },
+        {
+          "name": "Common shore crab",
+          "description": "Olive green shore crab with five side teeth on its shell and two claws"
+        },
+        {
+          "name": "Purple sea urchin",
+          "description": "Round dark purple sea urchin covered in long straight spines"
+        },
+        {
+          "name": "Ochre sea star",
+          "description": "Orange five-armed sea star with a rough pattern of pale raised spines"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cozy game play style",
+      "question": "Which cozy game play style are you?",
+      "outcomes": [
+        {
+          "name": "Completionist",
+          "description": "a gamer checking the final square of a collectible album with bright badges"
+        },
+        {
+          "name": "Decorator",
+          "description": "a gamer rearranging miniature furniture in a pastel dollhouse"
+        },
+        {
+          "name": "Explorer",
+          "description": "a gamer peering through a spyglass at a tiny folded island map"
+        },
+        {
+          "name": "Socializer",
+          "description": "a gamer delivering wrapped gifts to two friendly village characters"
+        }
+      ]
+    }
+  ]
+}

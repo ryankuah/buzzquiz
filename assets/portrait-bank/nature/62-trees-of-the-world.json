@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tree",
+      "question": "Which tree would you go out of your way to see?",
+      "outcomes": [
+        {
+          "name": "Giant sequoia",
+          "description": "Broad tapering reddish trunk and towering dense evergreen crown in miniature"
+        },
+        {
+          "name": "African baobab",
+          "description": "Enormous swollen trunk with a squat canopy of branches and scattered leaves"
+        },
+        {
+          "name": "Rainbow eucalyptus",
+          "description": "Tall gum tree with distinctive flaking green, orange and pink bark"
+        },
+        {
+          "name": "Ginkgo",
+          "description": "Ginkgo biloba with fan-shaped golden leaves and delicate branches"
+        }
+      ]
+    }
+  ]
+}

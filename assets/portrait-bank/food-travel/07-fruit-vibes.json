@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Berry",
+      "question": "Which berry are you?",
+      "outcomes": [
+        {
+          "name": "Blackberry",
+          "description": "cluster of glossy blackberries with a leaf"
+        },
+        {
+          "name": "Raspberry",
+          "description": "crimson hollow raspberries beside a tiny leaf"
+        },
+        {
+          "name": "Blueberry",
+          "description": "cluster of dusty-blue blueberries with star ends"
+        },
+        {
+          "name": "Gooseberry",
+          "description": "translucent striped pale-green gooseberries"
+        }
+      ]
+    }
+  ]
+}

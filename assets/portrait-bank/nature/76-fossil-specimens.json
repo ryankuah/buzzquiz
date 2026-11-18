@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fossil type",
+      "question": "Which fossil would you put in a museum display?",
+      "outcomes": [
+        {
+          "name": "Trilobite fossil",
+          "description": "Dark three-lobed segmented trilobite exoskeleton preserved on pale shale"
+        },
+        {
+          "name": "Petrified wood",
+          "description": "Polished reddish fossil wood cross section showing concentric growth rings and bark edge"
+        },
+        {
+          "name": "Fossil fern",
+          "description": "Flat dark shale bearing a clear contrasting featherlike fossil fern impression"
+        },
+        {
+          "name": "Belemnite guard",
+          "description": "Smooth amber bullet-shaped fossil cephalopod guard, tapering to a pointed tip"
+        }
+      ]
+    }
+  ]
+}

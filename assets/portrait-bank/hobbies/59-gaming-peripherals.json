@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gaming peripheral",
+      "question": "Which gaming peripheral are you?",
+      "outcomes": [
+        {
+          "name": "Arcade fight stick",
+          "description": "a rectangular arcade control panel with one ball-topped stick and eight bright buttons"
+        },
+        {
+          "name": "Racing wheel",
+          "description": "a compact black racing steering wheel on its clamp base with a shift indicator"
+        },
+        {
+          "name": "Flight yoke",
+          "description": "a small flight simulator yoke with two rounded grips and central shaft"
+        },
+        {
+          "name": "Dance pad",
+          "description": "a square dance controller mat with coloured up down left right arrows"
+        }
+      ]
+    }
+  ]
+}

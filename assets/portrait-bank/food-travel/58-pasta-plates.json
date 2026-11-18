@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pasta dish",
+      "outcomes": [
+        {
+          "name": "Pasta alla Norma",
+          "description": "Rigatoni in red sauce with browned eggplant cubes basil and white grated ricotta salata"
+        },
+        {
+          "name": "Pesto trofie",
+          "description": "Small twisted trofie pasta coated in bright green basil pesto and pine nuts"
+        },
+        {
+          "name": "Spaghetti alle vongole",
+          "description": "Nest of fine spaghetti with open clam shells parsley and garlic"
+        },
+        {
+          "name": "Pizzoccheri",
+          "description": "Short grey buckwheat ribbons folded with cabbage potatoes and melted cheese"
+        }
+      ],
+      "question": "Which pasta dish are you?"
+    }
+  ]
+}

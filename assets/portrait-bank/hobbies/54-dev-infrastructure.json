@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Developer tool",
+      "question": "Which developer tool are you?",
+      "outcomes": [
+        {
+          "name": "Docker",
+          "description": "a blue whale carrying stacks of square shipping containers on its back"
+        },
+        {
+          "name": "Git",
+          "description": "a three-node white branch line inside an orange rotated square"
+        },
+        {
+          "name": "Kubernetes",
+          "description": "a white seven-spoke ship wheel inside a blue heptagonal plaque"
+        },
+        {
+          "name": "Visual Studio Code",
+          "description": "a three dimensional blue folded ribbon forming the angular VS Code loop"
+        }
+      ]
+    }
+  ]
+}

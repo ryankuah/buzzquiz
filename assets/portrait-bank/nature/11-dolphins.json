@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dolphin species",
+      "question": "Which dolphin are you?",
+      "outcomes": [
+        {
+          "name": "Bottlenose dolphin",
+          "description": "Bottlenose dolphin — Smooth grey dolphin with distinct short bottle-shaped beak"
+        },
+        {
+          "name": "Orca",
+          "description": "Orca — Black and white orca with tall dorsal fin"
+        },
+        {
+          "name": "Amazon river dolphin",
+          "description": "Amazon river dolphin — Pink river dolphin with slender long beak"
+        },
+        {
+          "name": "Hourglass dolphin",
+          "description": "Hourglass dolphin — Small black and white dolphin with hourglass side markings"
+        }
+      ]
+    }
+  ]
+}

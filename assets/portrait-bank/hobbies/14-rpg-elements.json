@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Elemental magic school",
+      "question": "Which elemental magic school are you?",
+      "outcomes": [
+        {
+          "name": "Pyromancy",
+          "description": "a vivid swirling flame above an open copper spellbook"
+        },
+        {
+          "name": "Hydromancy",
+          "description": "a sculpted spiral of clear blue water above a silver spellbook"
+        },
+        {
+          "name": "Geomancy",
+          "description": "a floating cluster of mossy rocks above an earth-brown spellbook"
+        },
+        {
+          "name": "Aeromancy",
+          "description": "a miniature curling white wind vortex above a pale blue spellbook"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Board game player type",
+      "question": "Which board-game player are you?",
+      "outcomes": [
+        {
+          "name": "Rules teacher",
+          "description": "friendly player holding an open rulebook and pointing to a diagram"
+        },
+        {
+          "name": "Strategist",
+          "description": "thoughtful board-game player moving a wooden piece on a hex map"
+        },
+        {
+          "name": "Dice roller",
+          "description": "delighted player shaking a cupped handful of bright dice"
+        },
+        {
+          "name": "Scorekeeper",
+          "description": "focused player writing on a little score pad next to wooden counters"
+        }
+      ]
+    }
+  ]
+}

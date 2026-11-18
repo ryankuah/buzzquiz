@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cocktail",
+      "question": "Which cocktail are you?",
+      "outcomes": [
+        {
+          "name": "Margarita",
+          "description": "lime margarita in a salt-rimmed margarita glass"
+        },
+        {
+          "name": "Mojito",
+          "description": "mint leaves ice and lime in a tall mojito glass"
+        },
+        {
+          "name": "Negroni",
+          "description": "ruby negroni over a single ice cube with orange peel"
+        },
+        {
+          "name": "Espresso Martini",
+          "description": "dark espresso martini with crema and three coffee beans"
+        }
+      ]
+    }
+  ]
+}

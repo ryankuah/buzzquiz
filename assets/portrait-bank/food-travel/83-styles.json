@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fashion aesthetic",
+      "outcomes": [
+        {
+          "name": "Coastal grandmother",
+          "description": "Standalone flatlay of white linen shirt straw sunhat and wide cream trousers"
+        },
+        {
+          "name": "Dark academia",
+          "description": "Standalone flatlay of a brown tweed blazer plaid waistcoat hardback book and oxford shoes"
+        },
+        {
+          "name": "Bohemian style",
+          "description": "Standalone flatlay of a loose embroidered tunic woven leather sandals and a fringed suede bag"
+        },
+        {
+          "name": "Cottagecore",
+          "description": "Standalone flatlay of a pale green puff-sleeve floral dress cream ribboned straw bonnet and woven basket"
+        }
+      ],
+      "question": "Which fashion aesthetic are you?"
+    }
+  ]
+}

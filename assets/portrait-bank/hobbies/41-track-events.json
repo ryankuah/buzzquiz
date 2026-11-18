@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Track and field event",
+      "question": "Which track and field event are you?",
+      "outcomes": [
+        {
+          "name": "High jump",
+          "description": "high jumper arching backwards over a horizontal bar toward a mat"
+        },
+        {
+          "name": "Shot put",
+          "description": "athlete holding a metal shot by the neck in a poised throwing stance"
+        },
+        {
+          "name": "Long jump",
+          "description": "long jumper reaching forward over a small sand pit"
+        },
+        {
+          "name": "Relay",
+          "description": "two sprinters passing a bright orange baton on a short piece of track"
+        }
+      ]
+    }
+  ]
+}

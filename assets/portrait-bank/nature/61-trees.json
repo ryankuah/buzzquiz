@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tree",
+      "question": "Which tree would you want outside your childhood window?",
+      "outcomes": [
+        {
+          "name": "Silver birch",
+          "description": "Slender white-barked birch with black scars and airy green crown"
+        },
+        {
+          "name": "Weeping willow",
+          "description": "Wide willow crown with long arching curtains of narrow leaves"
+        },
+        {
+          "name": "English oak",
+          "description": "Spreading mature oak with deeply lobed leaves and a few acorns"
+        },
+        {
+          "name": "Japanese maple",
+          "description": "Graceful small tree with red deeply divided palmate leaves"
+        }
+      ]
+    }
+  ]
+}

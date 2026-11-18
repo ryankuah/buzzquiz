@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Wedding guest type",
+      "question": "What kind of wedding guest are you?",
+      "outcomes": [
+        {
+          "name": "Toast giver",
+          "description": "dressed-up guest at a microphone lifting a glass"
+        },
+        {
+          "name": "Dance partner",
+          "description": "wedding guest offering an open hand in a dance pose"
+        },
+        {
+          "name": "Memory keeper",
+          "description": "wedding guest holding an open guest book and pen"
+        },
+        {
+          "name": "Bouquet catcher",
+          "description": "wedding guest reaching up with a small airborne bouquet"
+        }
+      ]
+    }
+  ]
+}

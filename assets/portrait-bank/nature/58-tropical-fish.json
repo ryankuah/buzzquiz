@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Aquarium fish",
+      "question": "Which fish would be the star of your planted aquarium?",
+      "outcomes": [
+        {
+          "name": "Zebra danio",
+          "description": "Slim silver fish with crisp horizontal cobalt-blue stripes"
+        },
+        {
+          "name": "Cherry barb",
+          "description": "Small deep cherry-red barb with subtle dark horizontal stripe"
+        },
+        {
+          "name": "Black molly",
+          "description": "Black fan-tailed molly with a gently rounded body"
+        },
+        {
+          "name": "German blue ram",
+          "description": "Golden tropical dwarf cichlid with iridescent blue spots and dark mark over the eye"
+        }
+      ]
+    }
+  ]
+}

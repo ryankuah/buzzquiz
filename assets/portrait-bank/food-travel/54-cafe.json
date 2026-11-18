@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Café",
+      "outcomes": [
+        {
+          "name": "Greenhouse café",
+          "description": "Miniature sunlit glass greenhouse café filled with leafy plants and two little chairs"
+        },
+        {
+          "name": "Bookshop café",
+          "description": "Miniature café alcove with wooden bookshelves a warm reading lamp and a tiny coffee counter"
+        },
+        {
+          "name": "Kissaten",
+          "description": "Miniature vintage Japanese coffeehouse with dark wood counter red velvet stool and siphon brewer"
+        },
+        {
+          "name": "Bike café",
+          "description": "Miniature bike workshop café with hanging bicycle and espresso counter"
+        }
+      ],
+      "question": "Which café are you?"
+    }
+  ]
+}

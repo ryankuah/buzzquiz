@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Muffin",
+      "question": "Which muffin are you?",
+      "outcomes": [
+        {
+          "name": "Blueberry muffin",
+          "description": "golden domed muffin studded with visible whole blueberries"
+        },
+        {
+          "name": "Chocolate chip muffin",
+          "description": "golden bakery muffin dotted with dark chocolate chips"
+        },
+        {
+          "name": "Double chocolate muffin",
+          "description": "dark cocoa muffin domed with chocolate chunks"
+        },
+        {
+          "name": "Lemon poppy seed muffin",
+          "description": "pale lemon muffin speckled with black poppy seeds and thin lemon glaze"
+        }
+      ]
+    }
+  ]
+}

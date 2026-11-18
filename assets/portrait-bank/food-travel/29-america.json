@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "US national park",
+      "question": "Which US national park are you?",
+      "outcomes": [
+        {
+          "name": "Zion",
+          "description": "Miniature red sandstone canyon walls around a green valley, small cottonwood trees and a narrow river"
+        },
+        {
+          "name": "Acadia",
+          "description": "Miniature rocky Maine shore with spruce forest, blue ocean and pink granite cliffs"
+        },
+        {
+          "name": "Crater Lake",
+          "description": "Miniature steep circular caldera holding sapphire-blue water and the small conical wooded Wizard Island"
+        },
+        {
+          "name": "Bryce Canyon",
+          "description": "Miniature cluster of orange Utah rock hoodoos rising in an amphitheatre above red rocky ground"
+        }
+      ]
+    }
+  ]
+}

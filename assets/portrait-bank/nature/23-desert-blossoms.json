@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Desert wildflower",
+      "question": "Which desert wildflower are you?",
+      "outcomes": [
+        {
+          "name": "California poppy",
+          "description": "California poppy — Silky orange poppy cup with fine blue-green foliage"
+        },
+        {
+          "name": "Desert marigold",
+          "description": "Desert marigold — Golden daisy-like bloom with fuzzy silvery leaves"
+        },
+        {
+          "name": "Desert bluebell",
+          "description": "Desert bluebell — Deep cobalt bell-shaped blooms on reddish stems"
+        },
+        {
+          "name": "Sturt's desert pea",
+          "description": "Sturt's desert pea — Scarlet pea flowers with shiny black centres"
+        }
+      ]
+    }
+  ]
+}

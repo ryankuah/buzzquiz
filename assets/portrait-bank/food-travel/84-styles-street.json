@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fashion aesthetic",
+      "outcomes": [
+        {
+          "name": "Mod style",
+          "description": "Standalone flatlay of a black and white shift dress patent white go-go boots and geometric earrings"
+        },
+        {
+          "name": "Punk style",
+          "description": "Standalone flatlay of black studded leather jacket red tartan trousers and lace-up boots"
+        },
+        {
+          "name": "Western style",
+          "description": "Standalone flatlay of embroidered western shirt cowboy boots and a wide-brim felt ranch hat"
+        },
+        {
+          "name": "Minimalist style",
+          "description": "Standalone flatlay of a charcoal tailored coat clean white tee and plain tan loafers"
+        }
+      ],
+      "question": "Which fashion aesthetic are you?"
+    }
+  ]
+}

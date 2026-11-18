@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Breakfast cereal",
+      "question": "Which breakfast cereal are you?",
+      "outcomes": [
+        {
+          "name": "Corn flakes",
+          "description": "bowl of golden corn flakes"
+        },
+        {
+          "name": "Shredded wheat",
+          "description": "bowl of woven wheat cereal squares"
+        },
+        {
+          "name": "Fruit rings",
+          "description": "bowl of bright rainbow cereal rings"
+        },
+        {
+          "name": "Granola clusters",
+          "description": "bowl of toasted oat clusters nuts and raisins"
+        }
+      ]
+    }
+  ]
+}

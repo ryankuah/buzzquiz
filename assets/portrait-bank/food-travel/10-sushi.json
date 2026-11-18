@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sushi",
+      "question": "Which kind of sushi are you?",
+      "outcomes": [
+        {
+          "name": "Salmon nigiri",
+          "description": "salmon draped over oblong sushi rice"
+        },
+        {
+          "name": "Cucumber maki",
+          "description": "three small nori maki rounds with green cucumber centre"
+        },
+        {
+          "name": "Ebi nigiri",
+          "description": "butterflied orange shrimp on rice"
+        },
+        {
+          "name": "Ikura gunkan",
+          "description": "nori-wrapped oval rice cup filled with glossy orange salmon roe"
+        }
+      ]
+    }
+  ]
+}

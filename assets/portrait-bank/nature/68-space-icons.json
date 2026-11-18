@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cosmic object",
+      "question": "Which cosmic object would you visit with an imaginary telescope?",
+      "outcomes": [
+        {
+          "name": "Horsehead Nebula",
+          "description": "Dark horse-head-shaped dust pillar silhouetted against a contained red nebular glow"
+        },
+        {
+          "name": "Whirlpool Galaxy",
+          "description": "Face-on spiral galaxy and its smaller golden interacting companion"
+        },
+        {
+          "name": "Halley's Comet",
+          "description": "Compact rocky nucleus with white-blue ion tail and curved golden dust tail"
+        },
+        {
+          "name": "Cat's Eye Nebula",
+          "description": "Intricate nested teal and pink elliptical gas shells around a bright central star"
+        }
+      ]
+    }
+  ]
+}

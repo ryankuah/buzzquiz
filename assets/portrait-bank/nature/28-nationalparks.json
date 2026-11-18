@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "US national park",
+      "question": "Which US national park are you?",
+      "outcomes": [
+        {
+          "name": "Denali",
+          "description": "A broad glaciated Alaska mountain with a double snow-covered summit"
+        },
+        {
+          "name": "Grand Canyon",
+          "description": "Deep layered orange and red canyon walls with a tiny winding river"
+        },
+        {
+          "name": "Crater Lake",
+          "description": "Deep blue circular crater lake and the tiny tree-topped Wizard Island"
+        },
+        {
+          "name": "Joshua Tree",
+          "description": "A distinctive branching spiky Joshua tree beside rounded desert granite boulders"
+        }
+      ]
+    }
+  ]
+}

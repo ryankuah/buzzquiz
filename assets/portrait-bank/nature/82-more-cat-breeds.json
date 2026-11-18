@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cat breed",
+      "question": "Which cat breed would supervise your work from the windowsill?",
+      "outcomes": [
+        {
+          "name": "Selkirk rex",
+          "description": "Round-faced grey-and-cream cat with dense plush curls and curly whiskers"
+        },
+        {
+          "name": "Somali",
+          "description": "Longhaired ruddy ticked cat with large ears and a bushy foxlike tail"
+        },
+        {
+          "name": "Ocicat",
+          "description": "Athletic tawny cat covered with rows of well-defined chocolate spots"
+        },
+        {
+          "name": "Birman",
+          "description": "Silky cream colourpoint cat with dark face and ears, blue eyes and four white mittens"
+        }
+      ]
+    }
+  ]
+}

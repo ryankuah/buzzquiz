@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fantasy artisan",
+      "question": "Which fantasy artisan are you?",
+      "outcomes": [
+        {
+          "name": "Wandmaker",
+          "description": "craftsperson carving a slender wooden wand beneath a tiny shower of sparkles"
+        },
+        {
+          "name": "Enchanter",
+          "description": "robed artisan inscribing a glowing rune into a silver ring"
+        },
+        {
+          "name": "Golem sculptor",
+          "description": "sculptor shaping a friendly squat clay golem at a bench"
+        },
+        {
+          "name": "Potion brewer",
+          "description": "artisan steeping a bright turquoise brew in a small copper cauldron"
+        }
+      ]
+    }
+  ]
+}

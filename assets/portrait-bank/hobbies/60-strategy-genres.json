@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Video game genre",
+      "question": "Which video game genre are you?",
+      "outcomes": [
+        {
+          "name": "Real-time strategy",
+          "description": "a tiny isometric military-free game base with a construction robot collecting blue crystals"
+        },
+        {
+          "name": "Turn-based tactics",
+          "description": "a small squad of colourful game figures on a checkerboard battlefield with move arrows"
+        },
+        {
+          "name": "Tower defense",
+          "description": "a small fantasy defense turret covering a winding path of little clockwork bugs"
+        },
+        {
+          "name": "4X strategy",
+          "description": "a tiny space strategy map with hexes, linked planets and a colonizing starship"
+        }
+      ]
+    }
+  ]
+}

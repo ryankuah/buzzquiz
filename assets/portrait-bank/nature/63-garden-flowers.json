@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Flower",
+      "question": "Which flower would you choose for your favourite vase?",
+      "outcomes": [
+        {
+          "name": "Dahlia",
+          "description": "Vivid coral dahlia head with many sharply layered pointed petals"
+        },
+        {
+          "name": "Snapdragon",
+          "description": "Vertical spike with pink and creamy snapdragon flowers"
+        },
+        {
+          "name": "Anemone",
+          "description": "Open white anemone petals surrounding a velvety dark violet centre"
+        },
+        {
+          "name": "Gerbera",
+          "description": "Bold tangerine gerbera daisy with a large brown central disc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Running distance",
+      "question": "Which running distance suits you?",
+      "outcomes": [
+        {
+          "name": "100 metres",
+          "description": "a sprinter in starting blocks poised on a short stretch of straight blue track"
+        },
+        {
+          "name": "400 metres",
+          "description": "a runner leaning into a red track bend with staggered start markers"
+        },
+        {
+          "name": "5 kilometres",
+          "description": "a runner in bright street-race kit passing a small 5K finish ribbon"
+        },
+        {
+          "name": "Marathon",
+          "description": "a road runner crossing a finish tape holding a 42.2 km medal"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dumpling",
+      "outcomes": [
+        {
+          "name": "Momos",
+          "description": "Three Nepalese dumplings with pleated spiral tops beside vivid orange dipping sauce"
+        },
+        {
+          "name": "Khinkali",
+          "description": "Two large Georgian soup dumplings with thick twisted dough handles"
+        },
+        {
+          "name": "Pierogi",
+          "description": "Polish boiled half-moon dumplings dressed with caramelised onions and sour cream"
+        },
+        {
+          "name": "Manti",
+          "description": "Very small Turkish pinched dumplings under garlicky yogurt and red pepper butter"
+        }
+      ],
+      "question": "Which dumpling are you?"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Computer storage medium",
+      "question": "Which computer storage medium are you?",
+      "outcomes": [
+        {
+          "name": "Floppy disk",
+          "description": "a rigid blue 3.5 inch diskette with silver sliding shutter"
+        },
+        {
+          "name": "Punch card",
+          "description": "a buff rectangular paper punch card with rows of small rectangular holes"
+        },
+        {
+          "name": "Zip disk",
+          "description": "a thick cobalt Zip disk with a slider and silver metal spindle near the middle"
+        },
+        {
+          "name": "USB flash drive",
+          "description": "a short flash drive with bare rectangular USB type A connector and red case"
+        }
+      ]
+    }
+  ]
+}

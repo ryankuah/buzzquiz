@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Meteor shower",
+      "question": "Which meteor shower are you?",
+      "outcomes": [
+        {
+          "name": "Perseids",
+          "description": "Perseids — Late summer meteor streaks radiating above a small green meadow and a lone tree"
+        },
+        {
+          "name": "Geminids",
+          "description": "Geminids — Bright winter meteor streaks above a snowy little observatory"
+        },
+        {
+          "name": "Leonids",
+          "description": "Leonids — Swift meteor trails glowing over a small orange autumn woodland"
+        },
+        {
+          "name": "Eta Aquariids",
+          "description": "Eta Aquariids — Meteor trails in a pre-dawn blue sky above a small southern coastline"
+        }
+      ]
+    }
+  ]
+}

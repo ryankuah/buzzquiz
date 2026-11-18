@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tropical fruit",
+      "question": "Which tropical fruit are you?",
+      "outcomes": [
+        {
+          "name": "Mangosteen",
+          "description": "deep purple mangosteen split to show white segments"
+        },
+        {
+          "name": "Jackfruit",
+          "description": "large bumpy jackfruit segment with yellow pods"
+        },
+        {
+          "name": "Passion fruit",
+          "description": "purple passion fruit halves with golden seeds"
+        },
+        {
+          "name": "Lychee",
+          "description": "rough pink lychees with one peeled white fruit"
+        }
+      ]
+    }
+  ]
+}

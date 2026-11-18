@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Board game genre",
+      "question": "Which board game genre suits your personality?",
+      "outcomes": [
+        {
+          "name": "Worker placement",
+          "description": "small tabletop board with wooden workers placed in distinct building spaces"
+        },
+        {
+          "name": "Deck-building",
+          "description": "fan of illustrated fantasy cards with a draw pile and resource tokens"
+        },
+        {
+          "name": "Tile-laying",
+          "description": "puzzle-like tabletop landscape built from joined square tiles with roads and fields"
+        },
+        {
+          "name": "Roll-and-write",
+          "description": "pair of dice beside a pencil and a small gridded score sheet"
+        }
+      ]
+    }
+  ]
+}

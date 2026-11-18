@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Programming language",
+      "question": "Which programming language are you?",
+      "outcomes": [
+        {
+          "name": "JavaScript",
+          "description": "a familiar yellow square badge with the large black initials JS"
+        },
+        {
+          "name": "Go",
+          "description": "a cheerful light blue gopher mascot with two buck teeth and round ears"
+        },
+        {
+          "name": "Swift",
+          "description": "a white swift bird silhouette diving across an orange rounded square emblem"
+        },
+        {
+          "name": "Kotlin",
+          "description": "a small square folded like multicoloured origami into a sharp angular letter K"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cat breed",
+      "question": "Which cat breed would make itself at home on your sofa?",
+      "outcomes": [
+        {
+          "name": "Turkish Van",
+          "description": "Mostly white semi-longhaired cat with red markings on its head and a red ringed tail"
+        },
+        {
+          "name": "Chartreux",
+          "description": "Solid blue-grey shorthaired cat with a rounded muzzle and copper eyes"
+        },
+        {
+          "name": "American curl",
+          "description": "Soft brown tabby cat with both ear tips characteristically curling backward"
+        },
+        {
+          "name": "Egyptian mau",
+          "description": "Silver shorthaired cat with distinct irregular dark spots and green eyes"
+        }
+      ]
+    }
+  ]
+}

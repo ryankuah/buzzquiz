@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Photography genre",
+      "question": "Which photography genre are you?",
+      "outcomes": [
+        {
+          "name": "Street photography",
+          "description": "a small unframed high contrast street photograph of a pedestrian crossing zebra stripes"
+        },
+        {
+          "name": "Wildlife photography",
+          "description": "a small unframed close photograph of a fox in a wintry forest"
+        },
+        {
+          "name": "Astrophotography",
+          "description": "a small unframed wide photograph of the Milky Way over a black mountain ridge"
+        },
+        {
+          "name": "Food photography",
+          "description": "a small unframed overhead photograph of a beautifully plated citrus tart"
+        }
+      ]
+    }
+  ]
+}

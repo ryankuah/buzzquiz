@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Hotel guest type",
+      "question": "What kind of hotel guest are you?",
+      "outcomes": [
+        {
+          "name": "Pool regular",
+          "description": "guest in sunglasses relaxing on a pool lounger"
+        },
+        {
+          "name": "Breakfast explorer",
+          "description": "guest inspecting a buffet plate and coffee"
+        },
+        {
+          "name": "Lobby reader",
+          "description": "guest reading a book in an upholstered lobby chair"
+        },
+        {
+          "name": "City walker",
+          "description": "guest in trainers holding a city map and room key"
+        }
+      ]
+    }
+  ]
+}

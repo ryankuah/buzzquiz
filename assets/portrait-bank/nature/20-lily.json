@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Lily variety",
+      "question": "Which lily are you?",
+      "outcomes": [
+        {
+          "name": "Tiger lily",
+          "description": "Tiger lily — Orange recurved lily with black freckles"
+        },
+        {
+          "name": "Stargazer lily",
+          "description": "Stargazer lily — Bright pink fragrant oriental lily with white margins"
+        },
+        {
+          "name": "Madonna lily",
+          "description": "Madonna lily — Pure white trumpet-shaped lily with golden anthers"
+        },
+        {
+          "name": "Martagon lily",
+          "description": "Martagon lily — Pink Turk's-cap lily with curled spotted petals"
+        }
+      ]
+    }
+  ]
+}

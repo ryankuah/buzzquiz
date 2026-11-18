@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Coffee order",
+      "outcomes": [
+        {
+          "name": "Vietnamese egg coffee",
+          "description": "Little clear cup of dark coffee capped with thick fluffy golden egg cream on a saucer"
+        },
+        {
+          "name": "Café bombón",
+          "description": "Small clear glass with sharply layered white condensed milk and dark espresso"
+        },
+        {
+          "name": "Phin coffee",
+          "description": "Vietnamese single-cup metal phin dripping black coffee onto a visible layer of condensed milk"
+        },
+        {
+          "name": "Café de olla",
+          "description": "Rustic terracotta mug of coffee with a cinnamon stick and cone of piloncillo"
+        }
+      ],
+      "question": "Which coffee order are you?"
+    }
+  ]
+}

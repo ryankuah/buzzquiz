@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tide-pool creature",
+      "question": "Which tide-pool creature belongs on your seaside postcard?",
+      "outcomes": [
+        {
+          "name": "Bat star",
+          "description": "Orange-red bat star with very broad webbed triangular arms and a flattened pentagonal outline"
+        },
+        {
+          "name": "Acorn barnacle",
+          "description": "Cluster of pale volcano-shaped barnacles attached to a tiny pebble"
+        },
+        {
+          "name": "Sea lemon",
+          "description": "Golden-yellow oval nudibranch with a bumpy mantle, paired rhinophores and gill plume"
+        },
+        {
+          "name": "Black turban snail",
+          "description": "Dark heavy spiral shell, pearly worn patch and a black grazing foot"
+        }
+      ]
+    }
+  ]
+}

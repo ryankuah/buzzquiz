@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Swimming stroke",
+      "question": "Which swimming stroke are you?",
+      "outcomes": [
+        {
+          "name": "Freestyle",
+          "description": "front crawl swimmer with one arm recovering over the water and face turned to breathe"
+        },
+        {
+          "name": "Backstroke",
+          "description": "swimmer facing up with one arm outstretched behind the head in backstroke"
+        },
+        {
+          "name": "Breaststroke",
+          "description": "breaststroke swimmer facing forward with hands together during recovery"
+        },
+        {
+          "name": "Butterfly",
+          "description": "butterfly swimmer lifting both straight arms wide above the water simultaneously"
+        }
+      ]
+    }
+  ]
+}

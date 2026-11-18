@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Market stall",
+      "question": "Which market stall would you run?",
+      "outcomes": [
+        {
+          "name": "Cheese stall",
+          "description": "small counter stacked with colourful cheese wheels"
+        },
+        {
+          "name": "Flower stall",
+          "description": "awning sheltering metal buckets of flowers"
+        },
+        {
+          "name": "Fruit stall",
+          "description": "compact market stand piled with citrus and apples"
+        },
+        {
+          "name": "Bread stall",
+          "description": "wooden stall lined with baskets of loaves"
+        }
+      ]
+    }
+  ]
+}

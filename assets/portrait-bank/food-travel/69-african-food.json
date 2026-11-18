@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Street food",
+      "outcomes": [
+        {
+          "name": "Suya",
+          "description": "Grilled Nigerian beef skewers dusted with reddish spice next to purple onion rings"
+        },
+        {
+          "name": "Mandazi",
+          "description": "Puffy triangular East African fried dough with golden crust on a small plate"
+        },
+        {
+          "name": "Kelewele",
+          "description": "Spice-dusted cubes of fried ripe plantain with a few roasted peanuts"
+        },
+        {
+          "name": "Akara",
+          "description": "Several small golden brown bean fritters with rough textured crust and one split open"
+        }
+      ],
+      "question": "Which street food would you be?"
+    }
+  ]
+}

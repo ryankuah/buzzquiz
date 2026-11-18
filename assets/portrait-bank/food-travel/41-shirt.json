@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Shirt style",
+      "question": "Which shirt style are you?",
+      "outcomes": [
+        {
+          "name": "Oxford shirt",
+          "description": "blue button-down Oxford shirt with collar"
+        },
+        {
+          "name": "Hawaiian shirt",
+          "description": "short sleeve tropical floral shirt"
+        },
+        {
+          "name": "Henley",
+          "description": "cream long-sleeved henley with a short button placket"
+        },
+        {
+          "name": "Rugby shirt",
+          "description": "striped rugby shirt with white collar"
+        }
+      ]
+    }
+  ]
+}

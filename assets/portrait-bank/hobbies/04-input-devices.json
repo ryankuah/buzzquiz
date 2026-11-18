@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Computer input device",
+      "question": "Which computer input device are you?",
+      "outcomes": [
+        {
+          "name": "Vertical mouse",
+          "description": "tall upright ergonomic mouse"
+        },
+        {
+          "name": "Touchpad",
+          "description": "silver desktop trackpad with an expanse of smooth frosted glass"
+        },
+        {
+          "name": "Joystick controller",
+          "description": "black flight stick with a broad base and a trigger"
+        },
+        {
+          "name": "Drawing stylus",
+          "description": "single digital drawing stylus with a pointed tip and a side button"
+        }
+      ]
+    }
+  ]
+}

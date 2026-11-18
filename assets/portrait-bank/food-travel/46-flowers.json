@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bouquet style",
+      "question": "Which bouquet style are you?",
+      "outcomes": [
+        {
+          "name": "Wildflower bouquet",
+          "description": "loose colourful meadow flowers with natural stems"
+        },
+        {
+          "name": "Rose posy",
+          "description": "compact round tied posy of pink roses"
+        },
+        {
+          "name": "Tropical arrangement",
+          "description": "tall arrangement of bird-of-paradise and tropical leaves"
+        },
+        {
+          "name": "Dried bouquet",
+          "description": "neutral dried pampas and seed heads wrapped in kraft paper"
+        }
+      ]
+    }
+  ]
+}

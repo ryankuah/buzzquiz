@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Garden style",
+      "question": "Which garden style are you?",
+      "outcomes": [
+        {
+          "name": "Cottage garden",
+          "description": "overflowing flower border with a white picket gate"
+        },
+        {
+          "name": "Zen garden",
+          "description": "raked gravel with three stones and a small maple"
+        },
+        {
+          "name": "Desert garden",
+          "description": "cacti agave and warm stone in a low bed"
+        },
+        {
+          "name": "Formal garden",
+          "description": "geometric clipped hedges framing a small stone urn"
+        }
+      ]
+    }
+  ]
+}

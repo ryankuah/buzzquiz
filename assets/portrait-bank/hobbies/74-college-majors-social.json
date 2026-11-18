@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "College major",
+      "question": "Which college major are you?",
+      "outcomes": [
+        {
+          "name": "Psychology",
+          "description": "a student examining a colourful brain model and a notebook of cognition sketches"
+        },
+        {
+          "name": "Anthropology",
+          "description": "a student comparing two small historical ceramic bowls on a research table"
+        },
+        {
+          "name": "Economics",
+          "description": "a student with a supply-and-demand graph and two stacks of coins"
+        },
+        {
+          "name": "Urban planning",
+          "description": "a student leaning over a miniature neighbourhood model with a street grid"
+        }
+      ]
+    }
+  ]
+}

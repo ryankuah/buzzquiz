@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rock type",
+      "question": "Which rock are you?",
+      "outcomes": [
+        {
+          "name": "Granite",
+          "description": "Granite — Pink and grey coarse-grained granite specimen"
+        },
+        {
+          "name": "Slate",
+          "description": "Slate — Dark grey fine layered slate splitting into flat sheets"
+        },
+        {
+          "name": "Marble",
+          "description": "Marble — White marble block with flowing dark veins"
+        },
+        {
+          "name": "Conglomerate",
+          "description": "Conglomerate — Stone containing rounded colourful pebbles in brown cement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Story role",
+      "question": "Which story role are you?",
+      "outcomes": [
+        {
+          "name": "Narrator",
+          "description": "a storyteller speaking into a vintage radio microphone while reading from a large illustrated storybook"
+        },
+        {
+          "name": "Herald",
+          "description": "a messenger in a bright traveling cloak blowing a small brass trumpet and holding a sealed summons"
+        },
+        {
+          "name": "Reluctant hero",
+          "description": "a hesitant traveler caught halfway out a door clutching a glowing quest token"
+        },
+        {
+          "name": "Rival",
+          "description": "a confident athletic rival in a contrasting team jacket clutching a second-place medal"
+        }
+      ]
+    }
+  ]
+}

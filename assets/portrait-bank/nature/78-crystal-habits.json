@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mineral crystal",
+      "question": "Which crystal would you display on your desk?",
+      "outcomes": [
+        {
+          "name": "Bismuth crystal",
+          "description": "Iridescent rainbow metallic bismuth hopper crystal with squared stairstep terraces"
+        },
+        {
+          "name": "Pyrite cube",
+          "description": "Interlocking brassy gold cubes with sharply defined edges and delicate face striations"
+        },
+        {
+          "name": "Fluorite octahedron",
+          "description": "Translucent purple and green-zoned octahedral fluorite crystal"
+        },
+        {
+          "name": "Selenite rosette",
+          "description": "Cream gypsum desert rose with thin sand-textured blade crystals arranged in a rosette"
+        }
+      ]
+    }
+  ]
+}

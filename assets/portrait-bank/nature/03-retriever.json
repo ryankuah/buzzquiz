@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Retriever breed",
+      "question": "Which retriever breed are you?",
+      "outcomes": [
+        {
+          "name": "Golden retriever",
+          "description": "Golden retriever — Friendly long-haired golden retriever with wavy feathered tail"
+        },
+        {
+          "name": "Labrador retriever",
+          "description": "Labrador retriever — Chocolate Labrador with smooth dense coat and thick otter tail"
+        },
+        {
+          "name": "Curly-coated retriever",
+          "description": "Curly-coated retriever — Black retriever with tightly curled coat and smooth face"
+        },
+        {
+          "name": "Nova Scotia duck tolling retriever",
+          "description": "Nova Scotia duck tolling retriever — Small reddish retriever with white blaze and white-tipped tail"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fry style",
+      "question": "Which style of fries are you?",
+      "outcomes": [
+        {
+          "name": "Waffle fries",
+          "description": "golden lattice-cut waffle fries"
+        },
+        {
+          "name": "Cajun fries",
+          "description": "Thin orange-gold French fries dusted with a red-brown spice blend."
+        },
+        {
+          "name": "Crinkle fries",
+          "description": "ridged crinkle-cut fries"
+        },
+        {
+          "name": "Potato wedges",
+          "description": "Thick skin-on potato wedges with golden edges and a sprinkle of herbs."
+        }
+      ]
+    }
+  ]
+}

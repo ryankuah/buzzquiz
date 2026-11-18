@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Theatre job",
+      "question": "Which theatre job are you?",
+      "outcomes": [
+        {
+          "name": "Stage manager",
+          "description": "a stage manager with headset, stopwatch and neatly tabbed prompt book"
+        },
+        {
+          "name": "Choreographer",
+          "description": "a choreographer marking a dance step beside a small rehearsal barre"
+        },
+        {
+          "name": "Wigmaker",
+          "description": "a wigmaker carefully dressing a curled wig on a canvas head"
+        },
+        {
+          "name": "Scenic painter",
+          "description": "a scenic painter with a long handled brush painting a miniature stage backdrop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Film camera format",
+      "question": "Which film camera format are you?",
+      "outcomes": [
+        {
+          "name": "35 mm",
+          "description": "a short metal 35 mm cartridge with narrow sprocket-holed film curling out"
+        },
+        {
+          "name": "Medium format",
+          "description": "a squat spool of wide 120 roll film with paper backing unfurled"
+        },
+        {
+          "name": "Large format",
+          "description": "a rigid cut-film holder beside a single large sheet of photographic film"
+        },
+        {
+          "name": "Instant film",
+          "description": "a white-bordered square instant photograph emerging from its flat black film pack"
+        }
+      ]
+    }
+  ]
+}

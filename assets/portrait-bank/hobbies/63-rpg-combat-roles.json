@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "RPG party role",
+      "question": "Which RPG party role are you?",
+      "outcomes": [
+        {
+          "name": "Tank",
+          "description": "a heavy fantasy guardian behind a broad round shield absorbing glowing impacts"
+        },
+        {
+          "name": "Healer",
+          "description": "a white-robed fantasy support mage raising a green healing light above one hand"
+        },
+        {
+          "name": "Damage dealer",
+          "description": "a nimble fantasy spellcaster sending twin orange magic bursts toward a practice dummy"
+        },
+        {
+          "name": "Crowd controller",
+          "description": "a purple-robed mage surrounding several tiny clockwork creatures in blue ice rings"
+        }
+      ]
+    }
+  ]
+}

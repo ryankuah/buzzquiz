@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Mythical creature",
+      "question": "Which mythical creature would guard your imaginary library?",
+      "outcomes": [
+        {
+          "name": "Manticore",
+          "description": "Ancient legendary beast with a lion body, humanlike face and scorpion tail"
+        },
+        {
+          "name": "Cockatrice",
+          "description": "Small legendary creature combining a rooster's head and comb, bat wings and curling reptilian tail"
+        },
+        {
+          "name": "Simurgh",
+          "description": "Majestic Persian mythical feathered bird with an ornate peacocklike tail and powerful hooked beak"
+        },
+        {
+          "name": "Catoblepas",
+          "description": "Legendary shaggy dark buffalo-like creature with drooping head borne close to the ground and heavy mane"
+        }
+      ]
+    }
+  ]
+}

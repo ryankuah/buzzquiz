@@ -6,6 +6,7 @@ import sharp from "sharp";
 import { app, secret, setup } from "./convex-fixture";
 import { archetypes } from "../src/lib/content-sets";
 import {
+  addToLibrary,
   refusalKey,
   sameName,
   type LibraryAsset,
@@ -1005,6 +1006,43 @@ test("a city can illustrate a holiday result, while a namesake can be declined",
   assert.deepEqual(draft.results[0].picture, { asset: "old-nyc" });
   assert.deepEqual(draft.results[1].picture, { draw: 0 });
   assert.equal(draft.draw[0].name, "Paris");
+});
+
+test("decoration search ranks the quiz topic above the generic sticker description", async () => {
+  const { repository } = memoryLibrary();
+  await addToLibrary(
+    repository,
+    [
+      {
+        topic: "Coffee",
+        name: "Espresso beans",
+        description: "Two roasted coffee beans",
+      },
+      {
+        topic: "Salads",
+        name: "Cucumber",
+        description: "Small decorative sticker motif",
+      },
+    ].map((asset, cell) => ({
+      ...asset,
+      id: asset.name,
+      source: "fixture",
+      kind: "decoration" as const,
+      atlas: fakeArtwork(2, 1),
+      cell,
+    })),
+    { embed },
+  );
+
+  const found = await findAssets(
+    plan({ questionTopic: "Coffee" }),
+    repository,
+    { embed },
+  );
+  assert.deepEqual(
+    found.decorations.map((asset) => asset.name),
+    ["Espresso beans"],
+  );
 });
 
 test("a close café backdrop survives a request for different lighting", async () => {

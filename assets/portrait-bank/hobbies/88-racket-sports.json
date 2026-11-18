@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Sport",
+      "question": "Which sport are you?",
+      "outcomes": [
+        {
+          "name": "Badminton",
+          "description": "a badminton athlete playing a feathered shuttlecock with a slender racket"
+        },
+        {
+          "name": "Squash",
+          "description": "a squash player swinging a narrow racket beside a glass-fronted indoor court wall"
+        },
+        {
+          "name": "Table tennis",
+          "description": "a table-tennis player with a red paddle and white ball at the corner of a blue table"
+        },
+        {
+          "name": "Padel",
+          "description": "a padel player with a perforated solid paddle beside a short fenced court"
+        }
+      ]
+    }
+  ]
+}

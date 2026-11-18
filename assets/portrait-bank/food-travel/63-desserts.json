@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dessert",
+      "outcomes": [
+        {
+          "name": "Knafeh",
+          "description": "Slice of golden shredded filo dessert with white cheese filling and bright green pistachios"
+        },
+        {
+          "name": "Pastel de nata",
+          "description": "Single small Portuguese custard tart with blistered golden custard and flaky shell"
+        },
+        {
+          "name": "Malva pudding",
+          "description": "Individual South African hot caramel-brown sponge pudding in a miniature baking dish with custard"
+        },
+        {
+          "name": "Serradura",
+          "description": "Clear dessert glass showing alternating sandy biscuit crumbs and pale whipped cream"
+        }
+      ],
+      "question": "Which dessert are you?"
+    }
+  ]
+}

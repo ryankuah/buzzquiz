@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Creative trade",
+      "question": "Which creative trade are you?",
+      "outcomes": [
+        {
+          "name": "Sign painter",
+          "description": "sign painter lettering a curling golden flourish on a blue board"
+        },
+        {
+          "name": "Stained-glass artist",
+          "description": "stained-glass artisan fitting coloured glass pieces into a bird pattern"
+        },
+        {
+          "name": "Bookbinder",
+          "description": "bookbinder sewing a row of folded pages with needle and linen thread"
+        },
+        {
+          "name": "Violin maker",
+          "description": "luthier carefully shaping a small wooden violin body"
+        }
+      ]
+    }
+  ]
+}

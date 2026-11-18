@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Film camera type",
+      "question": "Which film camera are you?",
+      "outcomes": [
+        {
+          "name": "Rangefinder",
+          "description": "silver and black vintage rangefinder with two small front view windows"
+        },
+        {
+          "name": "Box camera",
+          "description": "black early rectangular box camera with leather top handle"
+        },
+        {
+          "name": "Panoramic camera",
+          "description": "wide wooden panoramic film camera with a central bellows lens"
+        },
+        {
+          "name": "Polaroid SX-70",
+          "description": "brown leather and silver folding SX-70 instant camera opened with its distinctive triangular bellows"
+        }
+      ]
+    }
+  ]
+}

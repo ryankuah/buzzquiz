@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Asteroid",
+      "question": "Which asteroid would you send a spacecraft to explore?",
+      "outcomes": [
+        {
+          "name": "Ryugu",
+          "description": "Dark diamond-shaped rubble-pile asteroid with angular rocks and an equatorial ridge"
+        },
+        {
+          "name": "Itokawa",
+          "description": "Rough peanut-shaped small asteroid with one smooth pale gravel patch"
+        },
+        {
+          "name": "Ida",
+          "description": "Long irregular cratered asteroid beside its tiny round companion moon Dactyl"
+        },
+        {
+          "name": "Mathilde",
+          "description": "Coal-dark misshapen asteroid with several enormous deep impact craters"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Programming language",
+      "question": "Which programming language are you?",
+      "outcomes": [
+        {
+          "name": "Python",
+          "description": "blue and golden python snakes interlocked in a tidy knot"
+        },
+        {
+          "name": "Ruby",
+          "description": "single square-cut ruby in a tiny red gem setting"
+        },
+        {
+          "name": "Rust",
+          "description": "a heavy industrial cogwheel with the letter R embossed at its centre"
+        },
+        {
+          "name": "C#",
+          "description": "a purple hexagonal badge embossed with the characters C#"
+        }
+      ]
+    }
+  ]
+}

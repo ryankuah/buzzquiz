@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Otter species",
+      "question": "Which otter are you?",
+      "outcomes": [
+        {
+          "name": "Giant otter",
+          "description": "Giant otter — Long brown giant otter with cream throat markings"
+        },
+        {
+          "name": "Asian small-clawed otter",
+          "description": "Asian small-clawed otter — Small brown otter with pale muzzle and short rounded paws"
+        },
+        {
+          "name": "Spotted-necked otter",
+          "description": "Spotted-necked otter — Sleek otter with irregular pale patches on its throat"
+        },
+        {
+          "name": "Marine otter",
+          "description": "Marine otter — Dark rough-furred South American marine otter with a broad muzzle"
+        }
+      ]
+    }
+  ]
+}

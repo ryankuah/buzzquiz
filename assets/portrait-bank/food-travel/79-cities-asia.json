@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "City",
+      "outcomes": [
+        {
+          "name": "Singapore",
+          "description": "Miniature Singapore skyline with three towers and ship-shaped skypark of Marina Bay Sands"
+        },
+        {
+          "name": "Mumbai",
+          "description": "Miniature Mumbai Gateway of India in warm basalt next to the domed red Taj hotel beside the sea"
+        },
+        {
+          "name": "Shanghai",
+          "description": "Miniature Shanghai skyline with the distinctive pink spherical observation decks of the Oriental Pearl Tower by the Huangpu River"
+        },
+        {
+          "name": "Kuala Lumpur",
+          "description": "Miniature Kuala Lumpur skyline with two silver tapering Petronas towers and their skybridge"
+        }
+      ],
+      "question": "Which city are you?"
+    }
+  ]
+}

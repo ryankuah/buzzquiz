@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bread",
+      "outcomes": [
+        {
+          "name": "Injera",
+          "description": "Porous spongy tan Ethiopian flatbread rolled in loose cylinders on a small platter"
+        },
+        {
+          "name": "Pão de queijo",
+          "description": "Round Brazilian golden cheese breads with one torn to reveal a stretchy centre"
+        },
+        {
+          "name": "Rugbrød",
+          "description": "Danish dark rectangular rye loaf cut into grain-dense thin slices"
+        },
+        {
+          "name": "Lángos",
+          "description": "Single irregular fried Hungarian flatbread topped with sour cream and grated yellow cheese"
+        }
+      ],
+      "question": "Which kind of bread are you?"
+    }
+  ]
+}

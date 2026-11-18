@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Web browser",
+      "question": "Which web browser are you?",
+      "outcomes": [
+        {
+          "name": "Firefox",
+          "description": "a bright orange fox wrapped around a violet-blue globe"
+        },
+        {
+          "name": "Safari",
+          "description": "a circular silver compass with blue dial and red needle"
+        },
+        {
+          "name": "Google Chrome",
+          "description": "a polished circular emblem of red yellow and green sectors around a blue center"
+        },
+        {
+          "name": "Microsoft Edge",
+          "description": "a curling lowercase e formed from a teal and blue cresting wave"
+        }
+      ]
+    }
+  ]
+}

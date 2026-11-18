@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Weekend outing",
+      "question": "Which weekend outing are you?",
+      "outcomes": [
+        {
+          "name": "Botanic garden visit",
+          "description": "ornamental garden gate with lush plants"
+        },
+        {
+          "name": "Book fair",
+          "description": "trestle table stacked with secondhand books"
+        },
+        {
+          "name": "Farm visit",
+          "description": "red barn with a curious goat peeking over fence"
+        },
+        {
+          "name": "Gallery visit",
+          "description": "small white gallery wall with a framed abstract painting and bench"
+        }
+      ]
+    }
+  ]
+}

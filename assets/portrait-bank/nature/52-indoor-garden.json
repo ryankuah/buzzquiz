@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Houseplant",
+      "question": "Which houseplant would thrive in your dream reading corner?",
+      "outcomes": [
+        {
+          "name": "Cast iron plant",
+          "description": "Clump of long dark upright lance-shaped leaves in an unadorned pot"
+        },
+        {
+          "name": "Lipstick plant",
+          "description": "Hanging arching vine with small waxy leaves and vivid red tubular flowers emerging from dark cups"
+        },
+        {
+          "name": "Ponytail palm",
+          "description": "Swollen rounded trunk topped by a fountain of curling narrow green leaves"
+        },
+        {
+          "name": "Nerve plant",
+          "description": "Low cushion of oval emerald leaves threaded with bright white netted veins"
+        }
+      ]
+    }
+  ]
+}

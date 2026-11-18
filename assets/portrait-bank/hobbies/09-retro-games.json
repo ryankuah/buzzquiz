@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Classic arcade game",
+      "question": "Which classic arcade game are you?",
+      "outcomes": [
+        {
+          "name": "Tetris",
+          "description": "arrangement of colourful square tetromino blocks forming a partial tower"
+        },
+        {
+          "name": "Frogger",
+          "description": "bright green pixel frog between short wooden river logs"
+        },
+        {
+          "name": "Q*bert",
+          "description": "orange round arcade creature with a long trumpet-shaped snout on a cube"
+        },
+        {
+          "name": "Pong",
+          "description": "small black retro screen with two white paddles and one square ball"
+        }
+      ]
+    }
+  ]
+}

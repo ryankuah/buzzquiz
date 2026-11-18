@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "College major",
+      "question": "Which college major are you?",
+      "outcomes": [
+        {
+          "name": "Architecture",
+          "description": "a student presenting a small white building model beside a rolled blueprint"
+        },
+        {
+          "name": "Theatre",
+          "description": "a student in a burgundy rehearsal jacket holding a stage script and two theatre masks"
+        },
+        {
+          "name": "Fine arts",
+          "description": "a student in a paint-splattered smock beside a miniature easel and palette"
+        },
+        {
+          "name": "Film studies",
+          "description": "a student studying a strip of movie film beside an old projector"
+        }
+      ]
+    }
+  ]
+}

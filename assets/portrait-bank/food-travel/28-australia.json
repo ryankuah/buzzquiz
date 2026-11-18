@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Australian city",
+      "question": "Which Australian city suits you?",
+      "outcomes": [
+        {
+          "name": "Melbourne",
+          "description": "Flinders Street Station facade with a green Melbourne tram"
+        },
+        {
+          "name": "Brisbane",
+          "description": "steel Story Bridge over the river"
+        },
+        {
+          "name": "Perth",
+          "description": "curved glass Bell Tower at Elizabeth Quay"
+        },
+        {
+          "name": "Adelaide",
+          "description": "curving white Adelaide Festival Centre roofline beside the River Torrens"
+        }
+      ]
+    }
+  ]
+}

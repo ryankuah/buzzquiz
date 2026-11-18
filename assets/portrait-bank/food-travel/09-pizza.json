@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Pizza style",
+      "question": "Which pizza style are you?",
+      "outcomes": [
+        {
+          "name": "Margherita",
+          "description": "Neapolitan pizza with mozzarella tomatoes and basil"
+        },
+        {
+          "name": "Detroit-style pizza",
+          "description": "rectangular deep pizza slice with crisp cheese edges and sauce stripes"
+        },
+        {
+          "name": "Chicago deep dish",
+          "description": "thick deep-dish wedge with tomato sauce topping and cheese layer"
+        },
+        {
+          "name": "New York slice",
+          "description": "large thin triangular New York cheese slice gently folded"
+        }
+      ]
+    }
+  ]
+}

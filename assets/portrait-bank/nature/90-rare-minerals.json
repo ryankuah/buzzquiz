@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gemstone",
+      "question": "Which gemstone colour would you wear every day?",
+      "outcomes": [
+        {
+          "name": "Chrysoprase",
+          "description": "Polished translucent apple-green chalcedony cabochon"
+        },
+        {
+          "name": "Rhodonite",
+          "description": "Pink opaque polished stone crossed by distinctive branching black manganese veins"
+        },
+        {
+          "name": "Ametrine",
+          "description": "Transparent faceted quartz split into visibly purple and golden-yellow zones"
+        },
+        {
+          "name": "Tiger's eye",
+          "description": "Golden brown oval cabochon with silky parallel bands and a bright shifting highlight"
+        }
+      ]
+    }
+  ]
+}

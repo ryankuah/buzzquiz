@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Brass instrument",
+      "question": "Which brass instrument are you?",
+      "outcomes": [
+        {
+          "name": "Trumpet",
+          "description": "gold trumpet with three piston valves and a compact forward bell"
+        },
+        {
+          "name": "Trombone",
+          "description": "brass trombone with a long slide"
+        },
+        {
+          "name": "Tuba",
+          "description": "large brass tuba with an upward bell"
+        },
+        {
+          "name": "French horn",
+          "description": "coiled French horn with a broad flared brass bell"
+        }
+      ]
+    }
+  ]
+}

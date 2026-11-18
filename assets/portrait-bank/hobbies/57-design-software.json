@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Creative software",
+      "question": "Which creative software are you?",
+      "outcomes": [
+        {
+          "name": "Blender",
+          "description": "orange three-pronged Blender emblem encircling a blue lens"
+        },
+        {
+          "name": "Krita",
+          "description": "a paintbrush over a bright multicoloured circular painter's palette"
+        },
+        {
+          "name": "Inkscape",
+          "description": "a stylized black mountain peak with a snowy white tip above a black ink splash"
+        },
+        {
+          "name": "GIMP",
+          "description": "a gray long-eared mascot head holding a paintbrush between its teeth"
+        }
+      ]
+    }
+  ]
+}

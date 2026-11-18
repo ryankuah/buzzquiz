@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Ice cream flavour",
+      "question": "Which ice cream flavour are you?",
+      "outcomes": [
+        {
+          "name": "Mint chocolate chip",
+          "description": "pale green ice cream with dark chocolate flecks"
+        },
+        {
+          "name": "Cookies and cream",
+          "description": "ivory ice cream with dark crushed sandwich cookie pieces"
+        },
+        {
+          "name": "Rocky road",
+          "description": "chocolate ice cream with marshmallows and nuts"
+        },
+        {
+          "name": "Strawberry ripple",
+          "description": "cream ice cream marbled with red strawberry ripple"
+        }
+      ]
+    }
+  ]
+}

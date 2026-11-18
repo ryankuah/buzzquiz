@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Reef fish",
+      "question": "Which colourful reef fish are you?",
+      "outcomes": [
+        {
+          "name": "Regal angelfish",
+          "description": "Tall oval reef fish with alternating vivid yellow, white and blue vertical bands"
+        },
+        {
+          "name": "Mandarinfish",
+          "description": "Small fish with psychedelic crawling blue lines over an orange and green body"
+        },
+        {
+          "name": "Moorish idol",
+          "description": "Flat yellow-white-black striped fish with a long trailing white dorsal streamer"
+        },
+        {
+          "name": "Longhorn cowfish",
+          "description": "Boxy yellow cowfish speckled with pale blue dots and forward-projecting horns"
+        }
+      ]
+    }
+  ]
+}

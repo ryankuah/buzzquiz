@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Party appetizer",
+      "question": "Which party appetizer are you?",
+      "outcomes": [
+        {
+          "name": "Pigs in blankets",
+          "description": "little sausages wrapped in golden pastry"
+        },
+        {
+          "name": "Stuffed mushrooms",
+          "description": "mushroom caps heaped with herb breadcrumbs"
+        },
+        {
+          "name": "Spinach artichoke dip",
+          "description": "creamy spinach artichoke dip with pita triangles"
+        },
+        {
+          "name": "Shrimp cocktail",
+          "description": "pink shrimp arranged around red dipping sauce in a glass"
+        }
+      ]
+    }
+  ]
+}

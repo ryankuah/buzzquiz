@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Iris type",
+      "question": "Which type of iris are you?",
+      "outcomes": [
+        {
+          "name": "Bearded iris",
+          "description": "Bearded iris — Rich purple ruffled bearded iris with yellow beards"
+        },
+        {
+          "name": "Yellow flag iris",
+          "description": "Yellow flag iris — Yellow wetland iris bloom with long sword leaves"
+        },
+        {
+          "name": "Japanese iris",
+          "description": "Japanese iris — Flat spreading deep violet Japanese iris bloom"
+        },
+        {
+          "name": "Reticulated iris",
+          "description": "Reticulated iris — Small blue dwarf iris with yellow patterned falls"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Fern type",
+      "question": "Which fern would you plant in a shaded garden?",
+      "outcomes": [
+        {
+          "name": "Hart's-tongue fern",
+          "description": "Clump of long apple-green undivided strap leaves with rippled edges"
+        },
+        {
+          "name": "Button fern",
+          "description": "Arching dark wiry stems bearing rows of tiny round green leaflets"
+        },
+        {
+          "name": "Japanese painted fern",
+          "description": "Delicate fronds brushed silver with burgundy midribs"
+        },
+        {
+          "name": "Cinnamon fern",
+          "description": "Fresh green upright fronds around distinct rusty cinnamon-coloured fertile spikes"
+        }
+      ]
+    }
+  ]
+}

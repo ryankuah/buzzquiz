@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cookie",
+      "outcomes": [
+        {
+          "name": "Alfajor",
+          "description": "Two Argentine shortbread rounds filled with thick dulce de leche and edged in coconut"
+        },
+        {
+          "name": "Stroopwafel",
+          "description": "Two thin crisp caramel-filled Dutch waffles with a diamond grid texture one broken open"
+        },
+        {
+          "name": "Linzer cookie",
+          "description": "Red raspberry jam peeks through the star-shaped cutout of a powdered sugar sandwich cookie"
+        },
+        {
+          "name": "Amaretti",
+          "description": "Mound of Italian almond cookies with deeply cracked brown surface and pale powdered sugar"
+        }
+      ],
+      "question": "Which cookie are you?"
+    }
+  ]
+}

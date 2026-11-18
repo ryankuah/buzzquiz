@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Dinner party host type",
+      "question": "What kind of dinner party host are you?",
+      "outcomes": [
+        {
+          "name": "Tablescape artist",
+          "description": "host carefully setting a tiny floral centrepiece"
+        },
+        {
+          "name": "Recipe tester",
+          "description": "aproned host tasting from a saucepan"
+        },
+        {
+          "name": "Conversation starter",
+          "description": "host presenting a small deck of conversation cards"
+        },
+        {
+          "name": "Music setter",
+          "description": "host putting a vinyl record on a turntable"
+        }
+      ]
+    }
+  ]
+}

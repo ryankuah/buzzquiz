@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tea",
+      "outcomes": [
+        {
+          "name": "Moroccan mint tea",
+          "description": "Slender patterned glass of amber tea with fresh mint beside its silver teapot"
+        },
+        {
+          "name": "Tibetan butter tea",
+          "description": "Pale creamy butter tea in a painted Tibetan tea bowl with a little pat of yellow butter"
+        },
+        {
+          "name": "Yerba mate",
+          "description": "Traditional dark gourd filled with chopped green yerba leaves and a metal bombilla straw"
+        },
+        {
+          "name": "Thai iced tea",
+          "description": "Glass of vivid orange tea with a swirl of cream over angular ice"
+        }
+      ],
+      "question": "Which tea are you?"
+    }
+  ]
+}

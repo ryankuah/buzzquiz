@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Video game genre",
+      "question": "Which video game genre are you?",
+      "outcomes": [
+        {
+          "name": "Farming simulator",
+          "description": "a patch of game farmland with tiny tractor, watering can and neat seedlings"
+        },
+        {
+          "name": "Flight simulator",
+          "description": "a miniature cockpit panel with pilot yoke and cloud vista through windshield"
+        },
+        {
+          "name": "Train simulator",
+          "description": "a locomotive cab with large throttle and rails visible through its front window"
+        },
+        {
+          "name": "Life simulator",
+          "description": "a tiny open-sided house with a resident and a bright green diamond overhead"
+        }
+      ]
+    }
+  ]
+}

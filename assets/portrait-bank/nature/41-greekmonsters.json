@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Greek myth creature",
+      "question": "Which creature from Greek myth are you?",
+      "outcomes": [
+        {
+          "name": "Cerberus",
+          "description": "Cerberus — Three-headed giant black hound with bronze collar"
+        },
+        {
+          "name": "Minotaur",
+          "description": "Minotaur — Bull-headed mythical figure with brown fur and a simple Greek waistcloth"
+        },
+        {
+          "name": "Sphinx",
+          "description": "Sphinx — Mythical winged lion with a human face"
+        },
+        {
+          "name": "Chimera",
+          "description": "Chimera — Classical chimera with lion forequarters, goat head on back and serpent tail"
+        }
+      ]
+    }
+  ]
+}

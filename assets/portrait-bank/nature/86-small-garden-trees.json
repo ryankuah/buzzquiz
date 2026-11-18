@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Tree",
+      "question": "Which tree would you plant in a small courtyard?",
+      "outcomes": [
+        {
+          "name": "Eastern redbud",
+          "description": "Slender grey branches covered with pea-shaped pink blossoms emerging directly from the wood"
+        },
+        {
+          "name": "Japanese flowering cherry",
+          "description": "Small gracefully spreading tree with masses of pale pink spring blossoms"
+        },
+        {
+          "name": "Olive tree",
+          "description": "Gnarled pale trunk with a rounded crown of narrow silvery leaves and a few olives"
+        },
+        {
+          "name": "Saucer magnolia",
+          "description": "Broad bare branches covered in large upright pink-and-cream goblet-shaped flowers"
+        }
+      ]
+    }
+  ]
+}

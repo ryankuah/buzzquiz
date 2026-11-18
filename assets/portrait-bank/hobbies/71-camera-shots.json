@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Camera shot",
+      "question": "Which camera shot are you?",
+      "outcomes": [
+        {
+          "name": "Extreme close-up",
+          "description": "a small square film frame showing only one sharply detailed human eye"
+        },
+        {
+          "name": "Wide shot",
+          "description": "a small square film frame showing one distant hiker dwarfed by a vast landscape"
+        },
+        {
+          "name": "Over-the-shoulder shot",
+          "description": "a small square film frame looking past one person's blurred shoulder to another person's face"
+        },
+        {
+          "name": "Dutch angle",
+          "description": "a small square film frame showing a strongly tilted horizon and city street"
+        }
+      ]
+    }
+  ]
+}

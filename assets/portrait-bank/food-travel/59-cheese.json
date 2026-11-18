@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cheese",
+      "outcomes": [
+        {
+          "name": "Mimolette",
+          "description": "Firm vivid orange cheese cut from a large spherical rind with a cratered tan surface"
+        },
+        {
+          "name": "Scamorza",
+          "description": "Pear-shaped smoked Italian cheese tied at the neck showing smooth golden-brown rind"
+        },
+        {
+          "name": "Roquefort",
+          "description": "Ivory wedge abundant with jagged blue-green mould veins and a few crumbs"
+        },
+        {
+          "name": "Tête de Moine",
+          "description": "Swiss cheese scraped into thin ivory frilly rosettes on a small wooden board"
+        }
+      ],
+      "question": "Which cheese are you?"
+    }
+  ]
+}

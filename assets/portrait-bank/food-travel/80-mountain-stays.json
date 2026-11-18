@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Accommodation",
+      "outcomes": [
+        {
+          "name": "Swiss chalet",
+          "description": "Miniature steep-roofed alpine wooden chalet with carved balcony and red geranium boxes"
+        },
+        {
+          "name": "Log cabin",
+          "description": "Miniature rustic home of interlocking round timber logs with a stone chimney and green metal roof"
+        },
+        {
+          "name": "Mountain refuge",
+          "description": "Miniature isolated alpine stone refuge with red shutters beside a small rocky patch"
+        },
+        {
+          "name": "Ski lodge",
+          "description": "Miniature timber-and-stone ski lodge with crossed skis beside the door and snowy roof"
+        }
+      ],
+      "question": "Which kind of accommodation suits you?"
+    }
+  ]
+}

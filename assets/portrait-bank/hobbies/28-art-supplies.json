@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Artist's drawing medium",
+      "question": "Which drawing medium are you?",
+      "outcomes": [
+        {
+          "name": "Graphite",
+          "description": "cluster of sharpened graphite pencils with a silvery shaded sketch"
+        },
+        {
+          "name": "Soft pastel",
+          "description": "chalky pastel sticks and a luminous blended orange-red sample"
+        },
+        {
+          "name": "India ink",
+          "description": "black India ink bottle with dip pen and bold black brushstroke"
+        },
+        {
+          "name": "Coloured pencil",
+          "description": "bundle of coloured pencils fanning out from a small botanical coloured-pencil sketch"
+        }
+      ]
+    }
+  ]
+}

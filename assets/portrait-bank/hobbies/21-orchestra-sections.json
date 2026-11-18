@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Orchestral string instrument",
+      "question": "Which orchestral string instrument are you?",
+      "outcomes": [
+        {
+          "name": "Violin",
+          "description": "a petite golden-brown violin with its short bow on a matching diagonal"
+        },
+        {
+          "name": "Viola",
+          "description": "a deep amber viola with a wider body beside a slightly heavier bow"
+        },
+        {
+          "name": "Cello",
+          "description": "a large russet cello upright on a metal endpin with a curved bow"
+        },
+        {
+          "name": "Double bass",
+          "description": "a tall double bass with sloping shoulders, broad wooden body and long endpin"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Camera lens",
+      "question": "Which camera lens are you?",
+      "outcomes": [
+        {
+          "name": "Fisheye lens",
+          "description": "short black fisheye lens with bulbous front element reflecting a tiny curved skyline"
+        },
+        {
+          "name": "Macro lens",
+          "description": "black macro lens magnifying a bright ladybird on a leaf"
+        },
+        {
+          "name": "Telephoto lens",
+          "description": "long ivory telephoto lens with broad black rings and tripod collar"
+        },
+        {
+          "name": "Pancake lens",
+          "description": "very short flat silver pancake camera lens shown in three-quarter view"
+        }
+      ]
+    }
+  ]
+}

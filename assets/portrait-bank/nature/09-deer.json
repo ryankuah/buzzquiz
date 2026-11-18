@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Deer species",
+      "question": "Which deer are you?",
+      "outcomes": [
+        {
+          "name": "Moose",
+          "description": "Moose — Huge brown bull moose with broad palmate antlers"
+        },
+        {
+          "name": "Red deer",
+          "description": "Red deer — Russet stag with a shaggy neck and branching antlers"
+        },
+        {
+          "name": "Fallow deer",
+          "description": "Fallow deer — Spotted tan buck with broad flattened antlers"
+        },
+        {
+          "name": "Southern pudu",
+          "description": "Southern pudu — Tiny chestnut deer with short straight antlers and rounded ears"
+        }
+      ]
+    }
+  ]
+}

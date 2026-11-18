@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Famous fossil",
+      "question": "Which famous fossil are you?",
+      "outcomes": [
+        {
+          "name": "Lucy",
+          "description": "Lucy — A small reconstruction of Lucy's partial upright hominin skeleton on a minimal mount"
+        },
+        {
+          "name": "Sue",
+          "description": "Sue — A Tyrannosaurus skull fossil with powerful jaws and serrated teeth"
+        },
+        {
+          "name": "Berlin Archaeopteryx",
+          "description": "Berlin Archaeopteryx — Flat limestone fossil with a small birdlike skeleton and feather impressions spread around it"
+        },
+        {
+          "name": "Taung Child",
+          "description": "Taung Child — A small juvenile early hominin fossil skull with a rounded braincase"
+        }
+      ]
+    }
+  ]
+}

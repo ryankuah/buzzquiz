@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Biome",
+      "question": "Which biome are you?",
+      "outcomes": [
+        {
+          "name": "Temperate rainforest",
+          "description": "Temperate rainforest — Miniature stand of tall mossy conifers and lush ferns"
+        },
+        {
+          "name": "Tundra",
+          "description": "Tundra — Low hummocky tundra with lichen, dwarf shrubs and snow patches"
+        },
+        {
+          "name": "Savanna",
+          "description": "Savanna — Golden grassland vignette with a flat-topped acacia"
+        },
+        {
+          "name": "Mangrove forest",
+          "description": "Mangrove forest — Cluster of mangrove trees with branching exposed roots in shallow water"
+        }
+      ]
+    }
+  ]
+}

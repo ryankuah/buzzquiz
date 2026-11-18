@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Holiday island",
+      "question": "Which holiday island suits you?",
+      "outcomes": [
+        {
+          "name": "Santorini",
+          "description": "whitewashed houses with blue domes on volcanic cliff"
+        },
+        {
+          "name": "Bali",
+          "description": "split Balinese temple gate among rice terraces"
+        },
+        {
+          "name": "Iceland",
+          "description": "geothermal pool and a dark volcanic cone"
+        },
+        {
+          "name": "Capri",
+          "description": "Faraglioni sea stacks above blue Mediterranean water"
+        }
+      ]
+    }
+  ]
+}

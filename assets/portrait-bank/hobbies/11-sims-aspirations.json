@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Life-sim aspiration",
+      "question": "Which life-sim aspiration would you pick?",
+      "outcomes": [
+        {
+          "name": "Master gardener",
+          "description": "skilled gardener in overalls holding a prize tomato plant"
+        },
+        {
+          "name": "Musical genius",
+          "description": "composer holding a small score beside a vivid blue keyboard"
+        },
+        {
+          "name": "Master chef",
+          "description": "chef in white jacket plating an intricate dish"
+        },
+        {
+          "name": "Renaissance scholar",
+          "description": "scholar studying a brass celestial model above a pile of books"
+        }
+      ]
+    }
+  ]
+}

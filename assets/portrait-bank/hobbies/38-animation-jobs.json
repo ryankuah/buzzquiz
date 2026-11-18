@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Animation studio role",
+      "question": "Which animation studio role are you?",
+      "outcomes": [
+        {
+          "name": "Storyboard artist",
+          "description": "storyboard artist sketching a row of sequential comic-sized panels"
+        },
+        {
+          "name": "Character designer",
+          "description": "character designer holding a character turnaround sketch and coloured markers"
+        },
+        {
+          "name": "Stop-motion animator",
+          "description": "animator adjusting a small articulated puppet on a miniature set"
+        },
+        {
+          "name": "Compositor",
+          "description": "compositor at a workstation combining a foreground character with several translucent image layers"
+        }
+      ]
+    }
+  ]
+}

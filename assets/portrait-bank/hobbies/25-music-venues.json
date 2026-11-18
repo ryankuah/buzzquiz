@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Music venue",
+      "question": "Which kind of music venue are you?",
+      "outcomes": [
+        {
+          "name": "Jazz cellar",
+          "description": "miniature arched basement stage with a saxophone and a tiny round table"
+        },
+        {
+          "name": "Opera house",
+          "description": "miniature red-and-gold proscenium stage and balcony boxes"
+        },
+        {
+          "name": "Festival stage",
+          "description": "miniature outdoor truss stage with coloured flags and speakers"
+        },
+        {
+          "name": "Garage venue",
+          "description": "miniature open garage with a drum kit and a guitar amp"
+        }
+      ]
+    }
+  ]
+}

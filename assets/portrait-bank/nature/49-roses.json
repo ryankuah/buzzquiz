@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Rose type",
+      "question": "Which rose type are you?",
+      "outcomes": [
+        {
+          "name": "Hybrid tea rose",
+          "description": "Hybrid tea rose — Single tall-stemmed red rose with a high pointed centre"
+        },
+        {
+          "name": "Floribunda rose",
+          "description": "Floribunda rose — Cluster of small coral-pink rose blossoms"
+        },
+        {
+          "name": "Rugosa rose",
+          "description": "Rugosa rose — Single deep pink open rose with crinkled leaves and large rosehip"
+        },
+        {
+          "name": "Moss rose",
+          "description": "Moss rose — Ruffled pale pink heritage rose with fuzzy mosslike sepals around the bud"
+        }
+      ]
+    }
+  ]
+}

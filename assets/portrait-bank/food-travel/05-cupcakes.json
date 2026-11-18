@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Cupcake flavour",
+      "question": "Which cupcake flavour are you?",
+      "outcomes": [
+        {
+          "name": "Red velvet cupcake",
+          "description": "deep red cake with white cream cheese icing"
+        },
+        {
+          "name": "Salted caramel cupcake",
+          "description": "golden cupcake with caramel swirl drizzle and salt flakes"
+        },
+        {
+          "name": "Birthday cake cupcake",
+          "description": "light cupcake topped with rainbow sprinkles and candle"
+        },
+        {
+          "name": "Black forest cupcake",
+          "description": "dark chocolate cupcake with white cream and a red cherry"
+        }
+      ]
+    }
+  ]
+}

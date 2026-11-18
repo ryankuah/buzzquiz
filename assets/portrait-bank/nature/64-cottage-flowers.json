@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Flower",
+      "question": "Which garden flower best suits your personal style?",
+      "outcomes": [
+        {
+          "name": "Foxglove",
+          "description": "Tall stem with purple bell-shaped flowers dotted inside"
+        },
+        {
+          "name": "Bleeding heart",
+          "description": "Arching stem hung with pendulous pink heart-shaped blooms and white tips"
+        },
+        {
+          "name": "Sweet pea",
+          "description": "Small wavy lavender and pink sweet pea blossoms with curling tendrils"
+        },
+        {
+          "name": "Hollyhock",
+          "description": "Tall stalk with broad saucer-shaped burgundy hollyhock blossoms"
+        }
+      ]
+    }
+  ]
+}

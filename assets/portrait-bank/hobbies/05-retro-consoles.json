@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Retro game console",
+      "question": "Which retro console are you?",
+      "outcomes": [
+        {
+          "name": "Game Boy",
+          "description": "original grey handheld Game Boy with green screen, black D-pad and two maroon buttons"
+        },
+        {
+          "name": "Dreamcast",
+          "description": "white square Dreamcast console with round top-loading disc lid and distinctive controller with a memory screen"
+        },
+        {
+          "name": "Nintendo 64",
+          "description": "dark grey Nintendo 64 console with coloured cartridge and three-pronged controller"
+        },
+        {
+          "name": "Atari 2600",
+          "description": "woodgrain Atari 2600 console paired with classic black joystick and red button"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Salad",
+      "question": "Which salad matches your personality?",
+      "outcomes": [
+        {
+          "name": "Caesar salad",
+          "description": "romaine lettuce with croutons and Parmesan shavings"
+        },
+        {
+          "name": "Greek salad",
+          "description": "tomato cucumber olive and feta salad"
+        },
+        {
+          "name": "Niçoise salad",
+          "description": "tuna egg green beans potatoes and olives arranged in sections"
+        },
+        {
+          "name": "Waldorf salad",
+          "description": "apple celery grape and walnut salad in creamy dressing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Medieval trade",
+      "question": "Which medieval trade suits you?",
+      "outcomes": [
+        {
+          "name": "Illuminator",
+          "description": "Illuminator — Medieval illuminator adding gold leaf to a manuscript"
+        },
+        {
+          "name": "Herbalist",
+          "description": "Herbalist — Medieval herbalist holding bundles of dried herbs"
+        },
+        {
+          "name": "Glassblower",
+          "description": "Glassblower — Medieval glassworker shaping a bright orange glass bubble on a long blowpipe"
+        },
+        {
+          "name": "Stonemason",
+          "description": "Stonemason — Medieval mason chiselling a small carved stone capital"
+        }
+      ]
+    }
+  ]
+}

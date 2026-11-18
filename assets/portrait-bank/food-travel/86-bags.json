@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Bag style",
+      "outcomes": [
+        {
+          "name": "Baguette bag",
+          "description": "Compact long horizontal shoulder bag in lavender leather with a very short strap"
+        },
+        {
+          "name": "Saddle bag",
+          "description": "Chestnut leather crossbody bag with curved saddle-shaped flap and brass buckle"
+        },
+        {
+          "name": "Basket bag",
+          "description": "Upright woven straw basket handbag with round handles and a gingham lining"
+        },
+        {
+          "name": "Bucket bag",
+          "description": "Cylindrical mustard leather handbag with a gathered drawstring opening and shoulder strap"
+        }
+      ],
+      "question": "Which bag style are you?"
+    }
+  ]
+}

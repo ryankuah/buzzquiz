@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Video game genre",
+      "question": "Which video game genre are you?",
+      "outcomes": [
+        {
+          "name": "Pinball game",
+          "description": "a brightly lit pinball table with spring plunger and twin flippers"
+        },
+        {
+          "name": "Kart racer",
+          "description": "a bright toy-sized go-kart drifting around a curved racetrack curb"
+        },
+        {
+          "name": "Platformer",
+          "description": "a tiny pixel-art jumper leaping between floating grass-topped platforms"
+        },
+        {
+          "name": "Puzzle game",
+          "description": "a bright sliding-number tile puzzle with a single square empty space"
+        }
+      ]
+    }
+  ]
+}

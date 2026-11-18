@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Potato dish",
+      "outcomes": [
+        {
+          "name": "Patatas bravas",
+          "description": "Crisp Spanish potato chunks with red bravas sauce and pale aioli in a shallow clay dish"
+        },
+        {
+          "name": "Poutine",
+          "description": "Canadian French fries heaped with white cheese curds and brown gravy"
+        },
+        {
+          "name": "Rösti",
+          "description": "A lacy golden brown Swiss grated potato pancake with crisp shredded edges"
+        },
+        {
+          "name": "Hasselback potato",
+          "description": "One whole baked potato sliced into thin connected fan-like ridges with butter and thyme"
+        }
+      ],
+      "question": "Which potato dish are you?"
+    }
+  ]
+}

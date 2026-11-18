@@ -1,0 +1,26 @@
+{
+  "categories": [
+    {
+      "topic": "Gemstone",
+      "question": "Which gemstone would you set in a ring?",
+      "outcomes": [
+        {
+          "name": "Garnet",
+          "description": "Deep wine-red faceted garnet with garnet dodecahedral rough crystal beside it"
+        },
+        {
+          "name": "Citrine",
+          "description": "Bright honey-yellow transparent quartz cut as an elongated pear"
+        },
+        {
+          "name": "Onyx",
+          "description": "Polished black and white banded onyx cabochon"
+        },
+        {
+          "name": "Labradorite",
+          "description": "Polished grey stone flashing electric blue and green iridescence"
+        }
+      ]
+    }
+  ]
+}
