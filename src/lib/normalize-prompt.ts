@@ -1,48 +1,22 @@
 import { createHash } from "node:crypto";
 import { generationInputSchema, type GenerationInput } from "./quiz";
 
-// Deliberately conservative: keep meaningful modifiers (e.g. least favourite,
-// chocolate/vanilla). Wording-level equivalence only; semantic matching of
-// different names lives in topics.ts.
-export function canonicalTopic(value: string) {
-  return value
-    .normalize("NFKD")
-    .replace(/\p{M}/gu, "")
-    .normalize("NFKC")
-    .toLowerCase()
-    .replace(/[’']/g, "")
-    .replace(/[^\p{L}\p{N}]+/gu, " ")
-    .replace(/\bfavourites?\b/g, "favorite")
-    .replace(/\bfavorites\b/g, "favorite")
-    .replace(
-      /\b(princesses|houses|muffins|characters|cats|dogs|flowers|colours|colors)\b/g,
-      (word) =>
-        ({
-          princesses: "princess",
-          houses: "house",
-          muffins: "muffin",
-          characters: "character",
-          cats: "cat",
-          dogs: "dog",
-          flowers: "flower",
-          colours: "color",
-          colors: "color",
-        })[word]!,
-    )
-    .replace(/\bcolour\b/g, "color")
-    .trim()
-    .replace(/\s+/g, " ");
-}
+import { canonicalTopic } from "./topic-text";
+export { canonicalTopic, meaningText, spellSymbols } from "./topic-text";
 
-/** The first blank: "What ___ are you". */
+/** The first blank: "Find out ___" (formerly "What ___ are you"). */
 export function canonicalSubject(value: string) {
-  return canonicalTopic(value)
-    .replace(/^(?:what |which )?(?:kind of |type of )?/, "")
-    .replace(/ are you$/, "")
-    .replace(/^hogwarts house$/, "harry potter house");
+  return (
+    canonicalTopic(value)
+      .replace(/^(?:what |which )?(?:kind of |type of )?/, "")
+      // "which Disney princess you are" reads the same as the older
+      // "What Disney princess are you", so old saved quizzes still match.
+      .replace(/ (?:are you|you are)$/, "")
+      .replace(/^hogwarts house$/, "harry potter house")
+  );
 }
 
-/** The second blank: "based on your favourite ___". */
+/** The second blank: "based on ___" (formerly "your favourite ___"). */
 export function canonicalBasis(value: string) {
   return canonicalTopic(value)
     .replace(/^based on /, "")

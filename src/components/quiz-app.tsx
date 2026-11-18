@@ -1,5 +1,6 @@
 "use client";
 
+import { quizCopy } from "@/lib/quiz-copy";
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import {
   ArrowLeft,
@@ -254,7 +255,7 @@ export default function QuizApp() {
     const result = quiz.results.find((item) => item.id === resultId);
     const url = `${window.location.origin}/?quiz=${quiz.id}${result ? `&got=${encodeURIComponent(result.id)}` : ""}`;
     const text = result
-      ? `I got ${result.title}! ${quiz.title}`
+      ? quizCopy(`I got ${result.title}! ${quiz.title}`)
       : "Take this quiz on buzzquiz";
     try {
       if (navigator.share) {
@@ -272,7 +273,7 @@ export default function QuizApp() {
           }
         }
         await navigator.share({
-          title: quiz.title,
+          title: quizCopy(quiz.title),
           text,
           url,
           ...(files.length ? { files } : {}),
@@ -301,7 +302,9 @@ export default function QuizApp() {
       basis,
     });
     if (!checked.success) {
-      setError("Fill in both blanks to find out.");
+      setError(
+        checked.error.issues[0]?.message || "Fill in both blanks to find out.",
+      );
       return;
     }
     generating.current = true;
@@ -477,13 +480,13 @@ export default function QuizApp() {
             <fieldset disabled={busy} aria-busy={busy}>
               <legend className="sr-only">Your quiz</legend>
               <h1 className="sentence-builder">
-                <span className="sentence-line">What</span>
+                <span className="sentence-line">Find out</span>
                 <span className="sentence-line">
                   <PromptField
                     id="subject"
-                    label="What are you?"
+                    label="What do you want to find out?"
                     value={subject}
-                    maxLength={60}
+                    maxLength={80}
                     completeTo={ghostFor("subject")}
                     onChange={setSubject}
                     onFocus={() => {
@@ -493,15 +496,13 @@ export default function QuizApp() {
                     onBlur={() => setFocusedBlank(null)}
                   />
                 </span>
-                <span className="sentence-line sentence-middle">
-                  are you based on your favourite
-                </span>
+                <span className="sentence-line sentence-middle">based on</span>
                 <span className="sentence-line sentence-last">
                   <PromptField
                     id="basis"
-                    label="Your favourite what?"
+                    label="Based on what?"
                     value={basis}
-                    maxLength={60}
+                    maxLength={80}
                     completeTo={ghostFor("basis")}
                     onChange={setBasis}
                     onFocus={() => {
@@ -510,7 +511,7 @@ export default function QuizApp() {
                     }}
                     onBlur={() => setFocusedBlank(null)}
                   />
-                  <span className="question-mark">?</span>
+                  <span className="question-mark">.</span>
                 </span>
               </h1>
               {/* Existing topics, offered as an aside rather than a menu:
@@ -521,7 +522,7 @@ export default function QuizApp() {
                     <span className="shelf-label" key={activeBlank}>
                       {activeBlank === "subject"
                         ? "Already on buzzquiz"
-                        : "Favourites already drawn"}
+                        : "Others have tried"}
                     </span>
                     {shelf.map((name, index) => (
                       <button

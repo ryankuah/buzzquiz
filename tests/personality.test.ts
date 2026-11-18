@@ -19,7 +19,13 @@ const draft = {
   },
 };
 
-test("personal reading uses the actual selected answers, correct winner, and a validated choice callback", async () => {
+test("personal reading uses the reading model, actual selected answers, correct winner, and a validated choice callback", async (t) => {
+  t.mock.property(process, "env", {
+    ...process.env,
+    OPENROUTER_API_KEY: "test-only",
+    QUIZ_AI_MODEL: "test-quiz-model",
+    QUIZ_READING_MODEL: "",
+  });
   const quiz = exampleQuiz("princess");
   const selected = Object.fromEntries(
     quiz.questions.map((q) => [
@@ -32,10 +38,12 @@ test("personal reading uses the actual selected answers, correct winner, and a v
     outcome: { title: string };
   }> = [];
   let invalidEvidence = false;
+  const requestedModels: string[] = [];
   const server = createServer(async (req, res) => {
     const chunks = [];
     for await (const chunk of req) chunks.push(chunk);
     const body = JSON.parse(Buffer.concat(chunks).toString());
+    requestedModels.push(body.model);
     inputs.push(JSON.parse(body.input[1].content));
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(
@@ -79,13 +87,16 @@ test("personal reading uses the actual selected answers, correct winner, and a v
   });
   try {
     const reading = await generatePersonalityReading(quiz, selected, client);
+    assert.equal(requestedModels[0], "openai/gpt-6-luna");
     assert.equal(reading.resultId, "belle");
     assert.equal(reading.evidence.choice, "Blueberry, always");
     assert.equal(inputs[0].outcome.title, "Belle");
     assert.equal(inputs[0].picks.length, 5);
     assert.equal(inputs[0].picks[0].answer, "Blueberry, always");
     const alternate = { ...selected, q1: "a2" };
+    process.env.QUIZ_READING_MODEL = "test-reading-model";
     const changed = await generatePersonalityReading(quiz, alternate, client);
+    assert.equal(requestedModels[1], "test-reading-model");
     assert.equal(changed.resultId, "belle");
     assert.equal(changed.evidence.choice, "Double chocolate");
     assert.notDeepEqual(inputs[0].picks, inputs[1].picks);

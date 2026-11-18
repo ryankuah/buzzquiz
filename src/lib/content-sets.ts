@@ -35,6 +35,9 @@ export const outcomeSetSchema = z.object({
 });
 // Structured outputs need every field, so new sets must choose one.
 export const outcomeGenerationSchema = outcomeSetSchema.extend({
+  results: z
+    .array(outcomeSetSchema.shape.results.element.omit({ assetId: true }))
+    .length(4),
   typeface: typefaceSchema,
 });
 const reusableAnswerSchema = answerSchema.extend({
@@ -64,11 +67,23 @@ export const questionSetSchema = z.object({
   decorations: z.array(text(160)).length(4).optional(),
 });
 export const questionGenerationSchema = questionSetSchema.extend({
+  questions: z
+    .array(
+      questionSetSchema.shape.questions.element.omit({ assetId: true }).extend({
+        answers: z.union([
+          z.array(reusableAnswerSchema.omit({ assetId: true })).length(2),
+          z.array(reusableAnswerSchema.omit({ assetId: true })).length(4),
+        ]),
+      }),
+    )
+    .min(5)
+    .max(10),
   decorations: z.array(text(160)).length(4),
 });
 export type OutcomeSet = z.infer<typeof outcomeSetSchema>;
 export type QuestionSet = z.infer<typeof questionSetSchema>;
-export type ContentKind = "outcomes" | "questions" | "reading";
+export type ContentKind =
+  "outcomes" | "questions" | "reading" | "topic-assets" | "plan" | "quiz";
 export type ContentRecord = {
   key: string;
   kind: ContentKind;
@@ -83,7 +98,6 @@ export type Claim =
   | { state: "claimed"; owner: string; draft?: unknown }
   | { state: "ready"; content: ReadyContent }
   | { state: "wait" }
-  | { state: "limited" }
   | { state: "blocked" };
 export interface ContentRepository {
   /** Keys come from quizPromptKey, after topic matching. */
@@ -97,7 +111,7 @@ export interface ContentRepository {
   recordCall(
     key: string,
     owner: string,
-    type: "text" | "image" | "background",
+    type: "text" | "image" | "background" | "portrait",
   ): Promise<void>;
 }
 
@@ -127,7 +141,6 @@ export function assembleQuiz(
     {
       title: "Quiz",
       description: "Quiz",
-      emoji: "✨",
       results,
       questions: content.questions,
     },
@@ -140,7 +153,6 @@ export function assembleQuiz(
     settings: input,
     title: `What ${input.subject} are you based on ${favouriteBasis(input.basis)}?`,
     description: "Pick what feels like you.",
-    emoji: "✨",
     results,
     questions: content.questions.map((question, index) => ({
       ...question,

@@ -68,7 +68,7 @@ test("existing topics are suggested as the blanks are filled", async ({
           { name: "Disney princess", count: 2 },
         ],
         bases: [
-          { name: "muffins", count: 2 },
+          { name: "your snack choices", count: 2 },
           { name: "tea", count: 1 },
         ],
         pairs: [
@@ -79,13 +79,15 @@ test("existing topics are suggested as the blanks are filled", async ({
     }),
   );
   await page.goto("/");
-  const subject = page.getByRole("textbox", { name: "What are you?" });
-  const basis = page.getByRole("textbox", { name: "Your favourite what?" });
+  const subject = page.getByRole("textbox", {
+    name: "What do you want to find out?",
+  });
+  const basis = page.getByRole("textbox", { name: "Based on what?" });
   await subject.fill("");
   await subject.focus();
   const shelf = page.locator(".suggestion-shelf");
-  // The prefilled "muffins" was drawn with Disney princess, so it leads.
-  await expect(basis).toHaveValue("muffins");
+  // The prefilled basis was drawn with Disney princess, so it leads.
+  await expect(basis).toHaveValue("your snack choices");
   await expect(shelf.getByRole("button")).toHaveText([
     "Disney princess",
     "Harry Potter house",
@@ -99,7 +101,10 @@ test("existing topics are suggested as the blanks are filled", async ({
 
   // The basis paired with the chosen subject in a saved quiz comes first.
   await basis.fill("");
-  await expect(shelf.getByRole("button")).toHaveText(["muffins", "tea"]);
+  await expect(shelf.getByRole("button")).toHaveText([
+    "your snack choices",
+    "tea",
+  ]);
   await basis.pressSequentially("t");
   await expect(shelf.getByRole("button")).toHaveText(["tea"]);
   await shelf.getByRole("button", { name: "tea" }).click();
@@ -127,11 +132,9 @@ test("generation goes straight to the first question, answers advance, and resul
   await mockGeneration(page);
   await page.goto("/");
   await page
-    .getByLabel("What are you?", { exact: true })
+    .getByLabel("What do you want to find out?", { exact: true })
     .fill("Disney princess");
-  await page
-    .getByLabel("Your favourite what?", { exact: true })
-    .fill("muffins");
+  await page.getByLabel("Based on what?", { exact: true }).fill("muffins");
   const requestPromise = page.waitForRequest("**/api/generate");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   expect((await requestPromise).postDataJSON()).toEqual({
@@ -184,9 +187,9 @@ test("generation goes straight to the first question, answers advance, and resul
   await expect(
     page.getByRole("button", { name: "Find out", exact: true }),
   ).toBeVisible();
-  await expect(
-    page.getByLabel("Your favourite what?", { exact: true }),
-  ).toHaveValue("muffins");
+  await expect(page.getByLabel("Based on what?", { exact: true })).toHaveValue(
+    "muffins",
+  );
   expect(errors).toEqual([]);
 });
 
@@ -204,7 +207,7 @@ test("loading prevents duplicate requests and keyboard submission starts the qui
     return route.fulfill({ json: { quiz: exampleQuiz("princess") } });
   });
   await page.goto("/");
-  await page.getByLabel("Your favourite what?", { exact: true }).press("Enter");
+  await page.getByLabel("Based on what?", { exact: true }).press("Enter");
   await expect(
     page.getByRole("progressbar", { name: "Quiz generation" }),
   ).toHaveCount(0);
@@ -213,7 +216,7 @@ test("loading prevents duplicate requests and keyboard submission starts the qui
   ).toBeDisabled();
   await expect(page.locator(".is-generating")).toHaveCount(0);
   await expect(
-    page.getByLabel("What are you?", { exact: true }),
+    page.getByLabel("What do you want to find out?", { exact: true }),
   ).toBeDisabled();
   expect(requests).toBe(1);
   release();
@@ -228,21 +231,19 @@ test("generation errors preserve the idea and allow a retry", async ({
 }) => {
   await page.goto("/");
   await page
-    .getByLabel("What are you?", { exact: true })
+    .getByLabel("What do you want to find out?", { exact: true })
     .fill("mythical creature");
-  await page
-    .getByLabel("Your favourite what?", { exact: true })
-    .fill("breakfasts");
+  await page.getByLabel("Based on what?", { exact: true }).fill("breakfasts");
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   await expect(
     page.getByRole("alert").filter({ hasText: "isn't available" }),
   ).toBeVisible();
-  await expect(page.getByLabel("What are you?", { exact: true })).toHaveValue(
-    "mythical creature",
-  );
   await expect(
-    page.getByLabel("Your favourite what?", { exact: true }),
-  ).toHaveValue("breakfasts");
+    page.getByLabel("What do you want to find out?", { exact: true }),
+  ).toHaveValue("mythical creature");
+  await expect(page.getByLabel("Based on what?", { exact: true })).toHaveValue(
+    "breakfasts",
+  );
   await mockGeneration(page);
   await page.getByRole("button", { name: "Find out", exact: true }).click();
   await expect(
@@ -295,10 +296,10 @@ test("the same saved quiz opens twice without flashing generation progress", asy
       body: [
         { type: "stage", stage: "checking", status: "active" },
         { type: "stage", stage: "checking", status: "complete" },
-        { type: "stage", stage: "results", status: "reused" },
-        { type: "stage", stage: "result-artwork", status: "reused" },
-        { type: "stage", stage: "questions", status: "reused" },
-        { type: "stage", stage: "question-artwork", status: "reused" },
+        { type: "stage", stage: "planning", status: "reused" },
+        { type: "stage", stage: "searching", status: "reused" },
+        { type: "stage", stage: "writing", status: "reused" },
+        { type: "stage", stage: "drawing", status: "reused" },
         { type: "stage", stage: "finishing", status: "active" },
         { type: "stage", stage: "a-new-server-step", status: "active" },
         { type: "complete", quiz, reused: true },
@@ -359,10 +360,10 @@ test("damaged links recover to the home page and long blanks wrap without overfl
     page.getByRole("alert").filter({ hasText: "couldn't be opened" }),
   ).toBeVisible();
   await page
-    .getByLabel("What are you?", { exact: true })
+    .getByLabel("What do you want to find out?", { exact: true })
     .fill("a character from your favourite childhood cartoon");
   await page
-    .getByLabel("Your favourite what?", { exact: true })
+    .getByLabel("Based on what?", { exact: true })
     .fill("extremely specific breakfast and late-night snack combos");
   expect(
     await page.evaluate(
@@ -537,21 +538,21 @@ test("generation progress follows streamed steps and waits for artwork before op
     }, events);
   await advance([
     { stage: "checking", status: "complete" },
-    { stage: "results", status: "reused" },
-    { stage: "result-artwork", status: "reused" },
+    { stage: "planning", status: "reused" },
+    { stage: "searching", status: "reused" },
   ]);
   await expect(progress).toHaveCount(0);
-  await advance([{ stage: "questions", status: "active" }]);
+  await advance([{ stage: "writing", status: "active" }]);
   await expect(progress).toHaveAttribute("aria-valuenow", "3");
   await expect(page.locator(".generation-step-saved")).toHaveCount(2);
   await advance([
-    { stage: "questions", status: "complete" },
-    { stage: "question-artwork", status: "active" },
+    { stage: "writing", status: "complete" },
+    { stage: "drawing", status: "active" },
   ]);
   await expect(progress).toHaveAttribute("aria-valuenow", "4");
   await expect(
     page.locator('.generation-steps [aria-current="step"]'),
-  ).toHaveText(/Creating question artwork/);
+  ).toHaveText(/Drawing missing artwork/);
   for (const viewport of [
     { width: 320, height: 568 },
     { width: 390, height: 844 },
@@ -609,7 +610,7 @@ test("image generation failure shows a retry message without opening a stock-art
   await page.route("**/api/generate", (route) =>
     route.fulfill({
       contentType: "application/x-ndjson",
-      body: '{"type":"stage","stage":"result-artwork","status":"active"}\n{"type":"error","error":"Could not draw your quiz artwork. Try again."}\n',
+      body: '{"type":"stage","stage":"searching","status":"active"}\n{"type":"error","error":"Could not draw your quiz artwork. Try again."}\n',
     }),
   );
   const stockRequests: string[] = [];
@@ -915,7 +916,7 @@ test("varied two- and four-choice templates fit phone and landscape screens", as
   }
 });
 
-test("layered results combine the subject foreground with the basis background, preserve the intro, and survive the daily limit", async ({
+test("layered results combine the subject foreground with the basis background, preserve the intro, and survive a failed reading", async ({
   page,
 }) => {
   const { quiz } = reusableFixture();
@@ -925,10 +926,10 @@ test("layered results combine the subject foreground with the basis background, 
   );
   await page.route("**/api/result", (route) =>
     route.fulfill({
-      status: 429,
+      status: 502,
       json: {
         error:
-          "Today's new-content limit has been reached. Saved quizzes still work.",
+          "Your personal reading couldn't be loaded. Your saved result is still available.",
       },
     }),
   );
@@ -954,11 +955,11 @@ test("layered results combine the subject foreground with the basis background, 
     quiz.results[0].description,
   );
   await expect(page.locator(".reading-error")).toContainText(
-    "Today's new-content limit",
+    "Personal reading unavailable",
   );
-  await expect(page.getByRole("button", { name: "Retry reading" })).toHaveCount(
-    0,
-  );
+  await expect(
+    page.getByRole("button", { name: "Retry reading" }),
+  ).toBeVisible();
   await expect(
     page.getByRole("button", { name: "Share", exact: true }),
   ).toBeVisible();
@@ -1067,4 +1068,51 @@ test("sharing a result links to the quiz with the result's preview card", async 
   expect(quiz.results.map((result) => result.id)).toContain(
     url.searchParams.get("got"),
   );
+});
+
+test("saved quizzes with empty artwork slots show illustrations throughout playback", async ({
+  page,
+  baseURL,
+}) => {
+  const quiz = exampleQuiz("princess");
+  quiz.questions[0].text = "How would you react to 😂?";
+  await mockPersonalityReading(page);
+  await page.goto(await createShareUrl(quiz, baseURL!));
+  await expect(
+    page.getByRole("heading", {
+      name: "How would you react to face with tears of joy?",
+    }),
+  ).toBeVisible();
+  const checkImages = async (selector: string) => {
+    const images = page.locator(selector);
+    await expect(images.first()).toBeVisible();
+    await expect
+      .poll(() =>
+        images.evaluateAll((nodes) =>
+          nodes.every(
+            (n) =>
+              n instanceof HTMLImageElement &&
+              n.complete &&
+              n.naturalWidth > 0 &&
+              n.src.endsWith("/art/quiz-illustrations-v1.webp"),
+          ),
+        ),
+      )
+      .toBe(true);
+  };
+  for (const [i, q] of quiz.questions.entries()) {
+    await expect(
+      page.getByText(`QUESTION ${i + 1} OF ${quiz.questions.length}`, {
+        exact: true,
+      }),
+    ).toBeVisible();
+    await expect(page.locator(".answer-art img")).toHaveCount(q.answers.length);
+    await checkImages(".answer-art img");
+    expect(await page.locator("main").innerText()).not.toMatch(
+      /\p{Extended_Pictographic}/u,
+    );
+    await page.locator(".answer-option").first().click();
+  }
+  await checkImages(".result-tile img");
+  await expect(page.locator(".legacy-emoji")).toHaveCount(0);
 });

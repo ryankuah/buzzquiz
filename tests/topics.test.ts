@@ -66,8 +66,21 @@ function setup(vectors: Record<string, number[]>) {
   };
 }
 
-test("both blanks are categories while older phrase-style keys keep matching", () => {
-  assert.equal(DEFAULT_QUIZ_SETTINGS.basis, "muffins");
+test("free-form phrases still match the keys of older category quizzes", () => {
+  assert.equal(DEFAULT_QUIZ_SETTINGS.basis, "your snack choices");
+  // "Find out which Disney princess you are" reads like the old sentence.
+  assert.equal(
+    canonicalSubject("which Disney princess you are"),
+    "disney princess",
+  );
+  assert.equal(
+    canonicalSubject("What Disney princess are you"),
+    "disney princess",
+  );
+  assert.equal(
+    canonicalSubject("which Disney princess would date you"),
+    "disney princess would date you",
+  );
   assert.equal(favouriteBasis("muffins"), "your favourite muffins");
   assert.equal(
     favouriteBasis("your favourite muffins"),
@@ -194,4 +207,69 @@ test("topic functions require the server secret", async () => {
       }),
     /Unauthorized/,
   );
+});
+
+test("shared topic identities and synonyms work in either blank without repeating embeddings", async () => {
+  process.env.BUZZQUIZ_SERVER_SECRET = secret;
+  const t = app.createTest();
+  const repository: TopicRepository = {
+    findAlias: (kind, alias) =>
+      t.query(app.api.topics.findAlias, { secret, kind, alias }),
+    nearest: (kind, embedding) =>
+      t.action(app.api.topics.nearest, { secret, kind, embedding }),
+    register: async (kind, alias, topic, embedding) => {
+      await t.mutation(app.api.topics.register, {
+        secret,
+        kind,
+        alias,
+        topic,
+        ...(embedding ? { embedding } : {}),
+      });
+    },
+  };
+  const vectors: Record<string, number[]> = {
+    "coding language": vector(3),
+    cupcake: vector(4),
+    "programming language": vector(3, 0.92),
+  };
+  let calls = 0;
+  const resolve = createTopicResolver({
+    repository,
+    shared: true,
+    embed: async (texts) => {
+      calls++;
+      return texts.map((text) => ({ vector: vectors[text], model }));
+    },
+  });
+  const first = await resolve({
+    ...defaultSettings,
+    subject: "Coding language",
+    basis: "Cupcake",
+  });
+  await first.commit();
+  const reverse = await resolve({
+    ...defaultSettings,
+    subject: "Cupcake",
+    basis: "Coding language",
+  });
+  assert.deepEqual(reverse.names, {
+    subject: first.names.basis,
+    basis: first.names.subject,
+  });
+  assert.equal(calls, 1);
+  const synonym = await resolve({
+    ...defaultSettings,
+    subject: "Cupcake",
+    basis: "Programming language",
+  });
+  assert.equal(synonym.names.basis, first.names.subject);
+  await synonym.commit();
+  assert.equal(calls, 2);
+  const flippedSynonym = await resolve({
+    ...defaultSettings,
+    subject: "Programming language",
+    basis: "Cupcake",
+  });
+  assert.equal(flippedSynonym.names.subject, first.names.subject);
+  assert.equal(calls, 2);
 });

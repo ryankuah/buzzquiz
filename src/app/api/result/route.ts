@@ -3,7 +3,6 @@ import { z } from "zod";
 import { scoreQuiz } from "@/lib/quiz";
 import { findQuizById } from "@/lib/convex-repository";
 import { resolveReading } from "@/lib/resolve-reading";
-import { GenerationLimitError } from "@/lib/generation-budget";
 import { checkOrigin } from "@/lib/request-origin";
 
 export const runtime = "nodejs";
@@ -53,15 +52,13 @@ export async function POST(request: Request) {
     return NextResponse.json({
       reading: await resolveReading(quiz, input.selections),
     });
-  } catch (error) {
-    const limited = error instanceof GenerationLimitError;
+  } catch {
     return NextResponse.json(
       {
-        error: limited
-          ? error.message
-          : "Your personal reading couldn't be loaded. Your saved result is still available.",
+        error:
+          "Your personal reading couldn't be loaded. Your saved result is still available.",
       },
-      { status: limited ? 429 : 502 },
+      { status: 502 },
     );
   }
 }

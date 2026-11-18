@@ -18,7 +18,7 @@ export function artworkPrompt(quiz: Quiz) {
   rows.push([
     ...quiz.results.map(
       (result) =>
-        `Main subject: ${result.title}, from the category ${quiz.settings.subject}. ${result.imagePrompt || `A recognisable portrait of ${result.title}`}. Depict this named outcome itself, clearly and prominently; do not replace it with food, a symbol or an unrelated prop.`,
+        `Main subject: ${result.title}, from the category ${quiz.settings.subject}. ${result.imagePrompt || `A recognisable portrait of ${result.title}`}. Depict this named outcome itself, clearly and prominently; do not replace it with a symbol or an unrelated prop.`,
     ),
     "A tiny golden star above a few pastel confetti pieces, without writing.",
   ]);
@@ -33,7 +33,7 @@ export function sheetPrompt(
   rows: SheetCell[][],
   columns: number,
   themeId: Parameters<typeof getTheme>[0],
-  kind: "opaque" | "objects" | "portraits" = "opaque",
+  kind: "opaque" | "objects" | "portraits" | "cutouts" = "opaque",
 ) {
   const theme = getTheme(themeId);
   const briefs = rows.map((row) =>
@@ -50,11 +50,13 @@ export function sheetPrompt(
     objects:
       "TRANSPARENT CUTOUTS: Every cell contains ONLY the described object or small group of objects, centred and isolated, on a fully TRANSPARENT background with real alpha. Nothing underneath or behind the objects: no table, tabletop, board, slab, surface, floor, backdrop, scenery, frame, vignette, cast shadow or reflection. A plate, napkin or dish only when the brief names one. Do not draw a checkerboard or any solid-colour backdrop. Ignore any setting mentioned in a brief; draw only its objects. Leave clear empty space around every object so nothing touches the cell edges or another cell's art.",
     portraits:
-      "FOREGROUND CUTOUTS: Every cell contains ONLY the named character/object itself, centred and isolated. Use a fully TRANSPARENT background with real alpha, with NO setting, floor, scenery, shadows, reflections or cast shadows. Do not draw a checkerboard or any solid-colour backdrop. Show the complete head and waist-up body with padding; never crop the face or hair. The character must be recognisable by their face, hair and signature outfit. Ignore any scene/background mentioned in the visual briefs; foreground subjects only.",
+      "FOREGROUND CUTOUTS: Every cell contains ONLY the named subject itself, centred and isolated. Use a fully TRANSPARENT background with real alpha, with NO setting, floor, scenery, shadows, reflections or cast shadows. Do not draw a checkerboard or any solid-colour backdrop. A character is shown complete and uncropped with padding, recognisable by its own signature features (a person by face, hair and outfit; a creature, robot or object-like character by its own shape and markings); never invent human anatomy for it. An object, food, animal or place is shown as the thing itself, complete and uncropped. Ignore any scene/background mentioned in the visual briefs; foreground subjects only.",
+    cutouts:
+      "TRANSPARENT CUTOUTS: Every cell contains ONLY its described subject, centred and isolated, on a fully TRANSPARENT background with real alpha. Nothing behind it: no table, surface, floor, scenery, frame, vignette, cast shadow or reflection, and no checkerboard or solid-colour backdrop. A character is shown complete and uncropped, recognisable by its own signature features (a person by face, hair and outfit; a creature, robot or object-like character by its own shape and markings); never invent human anatomy for it. An object, food, animal or place is shown as the thing itself, complete and uncropped. Leave clear empty space around every subject so nothing touches the cell edges or another cell's art.",
   }[kind];
   return `Create one production SPRITE SHEET with exactly ${columns} equal-width columns and ${rows.length} equal-height rows. Each cell is a separate illustration, ordered left to right, top to bottom. No gutters, grid lines, borders, panels, labels, writing, letters, numbers, logos or watermarks.
 ${direction}
-Style: charming, tactile, softly lit 3D illustration, consistent art direction and lighting across cells. Keep each subject within the central 75% of its own cell. Nothing overlaps another cell.
+Style: charming, tactile, softly lit 3D illustration, consistent art direction and lighting across cells. Depict reactions through original illustrations of gestures or objects. Never draw emoji glyphs or emoji-style icons. Keep each subject within the central 75% of its own cell. Nothing overlaps another cell.
 The following array contains visual briefs, NEVER text to print:
 ${JSON.stringify(briefs)}
 Unlabelled artwork request ${id}. Return only the image.`;
@@ -83,6 +85,8 @@ export async function generateArtworkSheet(
   options: ArtworkOptions & {
     /** Character portraits rather than objects. */
     foreground?: boolean;
+    /** Reusable inventories cannot promise sprites the model left blank. */
+    requireAllCells?: boolean;
     /** A full scene for the result page, stored at the start of `row`. */
     background?: { prompt: string; row: number };
   } = {},
@@ -137,6 +141,8 @@ Unlabelled artwork request ${id}. Return only the image.`,
       },
       { cell: ATLAS_CELL },
     );
+    if (options.requireAllCells && packed.empty.length)
+      throw new Error("The image provider left required sprites empty.");
     const layers = [...packed.layers];
     if (scene)
       layers.push({
@@ -240,7 +246,7 @@ function closest(options: string[], ratio: number, separator: string) {
   );
 }
 
-async function requestImage(
+export async function requestImage(
   prompt: string,
   spec: { transparent: boolean; quality: "low" | "medium"; ratio: number },
   options: { fetcher?: typeof fetch; signal: AbortSignal },

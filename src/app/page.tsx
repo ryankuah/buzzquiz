@@ -1,3 +1,4 @@
+import { quizCopy } from "@/lib/quiz-copy";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import QuizApp from "@/components/quiz-app";
@@ -23,10 +24,12 @@ export async function generateMetadata({
   const host = (await headers()).get("host");
   const protocol = host?.startsWith("localhost") ? "http" : "https";
   const card = `/api/quizzes/${quiz.id}/card${result ? `?result=${encodeURIComponent(result.id)}` : ""}`;
-  const title = result ? `I got ${result.title}! ${quiz.title}` : quiz.title;
+  const title = quizCopy(
+    result ? `I got ${result.title}! ${quiz.title}` : quiz.title,
+  );
   const description = result
     ? "Take the quiz and see what you get."
-    : quiz.description;
+    : quizCopy(quiz.description);
   const image = { url: card, width: 1200, height: 630, alt: title };
   return {
     ...(host ? { metadataBase: new URL(`${protocol}://${host}`) } : {}),

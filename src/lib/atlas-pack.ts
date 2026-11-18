@@ -9,7 +9,7 @@ export type PackLayout = {
 
 const SOLID = 16; // Alpha that counts as part of an object.
 const MIN_PIXELS = 4; // Smaller specks are compression noise.
-const SPLIT_SHARE = 0.2; // An object this shared across cells was drawn overlapping.
+const SPLIT_SHARE = 0.2; // An object this shared across cells may be two subjects.
 
 /**
  * Image models never draw a sprite sheet on an exact grid: objects drift and
@@ -20,7 +20,7 @@ const SPLIT_SHARE = 0.2; // An object this shared across cells was drawn overlap
 export async function packAtlas(
   sheet: Buffer,
   layout: PackLayout,
-  options: { cell?: number; padding?: number } = {},
+  options: { cell?: number; padding?: number; rejectAmbiguous?: boolean } = {},
 ) {
   const cell = options.cell ?? 512;
   const padding = options.padding ?? 0.08;
@@ -84,8 +84,8 @@ export async function packAtlas(
           return row * columns + candidate;
     return -1;
   };
-  const owner = components.map(({ counts, size }) => {
-    if (size < MIN_PIXELS) return { cell: -1, split: false };
+  const ranked = components.map(({ counts, size }) => {
+    if (size < MIN_PIXELS) return null;
     let best = 0,
       second = -1;
     for (let index = 1; index < cells; index++) {
@@ -95,12 +95,43 @@ export async function packAtlas(
       } else if (second === -1 || counts[index] > counts[second])
         second = index;
     }
+    return { best, second, home: nearestOccupied(best) };
+  });
+  // Art each cell already holds as the main home of some object.
+  const homed = new Float64Array(cells);
+  // Only art drawn mainly inside a cell counts; strays remapped from an
+  // unused slot don't make a neighbour look occupied.
+  ranked.forEach((rank, id) => {
+    if (rank && isOccupied(rank.best)) homed[rank.best] += components[id].size;
+  });
+  const minimumArt = ((width / columns) * (height / rows)) / 200;
+  // A shared object is split only when the other cell has no art of its own:
+  // then it is two touching subjects. A single large subject that strays into
+  // a neighbour with its own art stays whole, never sliced along the grid.
+  const uncertain = new Set<number>();
+  const owner = ranked.map((rank, id) => {
+    if (!rank) return { cell: -1, split: false };
+    const { counts, size } = components[id];
+    const { best, second, home } = rank;
     const split =
       second !== -1 &&
       counts[second] > size * SPLIT_SHARE &&
       isOccupied(best) &&
-      isOccupied(second);
-    return { cell: nearestOccupied(best), split };
+      isOccupied(second) &&
+      homed[second] < minimumArt;
+    // Reusable art gets a stronger guarantee than the old one-off atlases.
+    // A connected silhouette cannot safely be assigned to two named sprites.
+    if (options.rejectAmbiguous && size >= minimumArt) {
+      if (split) {
+        for (let i = 0; i < cells; i++)
+          if (isOccupied(i) && counts[i] > size * SPLIT_SHARE) uncertain.add(i);
+        return { cell: -1, split: false };
+      } else if (home !== -1 && home !== best && homed[home] >= minimumArt) {
+        // A whole extra object from an unused slot must not contaminate its neighbour.
+        uncertain.add(home);
+      }
+    }
+    return { cell: home, split: split && !options.rejectAmbiguous };
   });
 
   // 3. Assign pixels, including faint anti-aliased edges next to an object.
@@ -157,7 +188,7 @@ export async function packAtlas(
   const empty: number[] = [];
   for (let index = 0; index < cells; index++) {
     const box = bounds[index];
-    if (box.right < 0) {
+    if (box.right < 0 || uncertain.has(index)) {
       if (isOccupied(index)) empty.push(index);
       continue;
     }

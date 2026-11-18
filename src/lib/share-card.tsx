@@ -1,5 +1,13 @@
+import { quizCopy } from "@/lib/quiz-copy";
 import { ImageResponse } from "next/og";
 import sharp from "sharp";
+import {
+  questionImage,
+  resultImage,
+  illustrationAtlas,
+  awardCell,
+} from "./quiz-illustrations";
+import { readIllustration } from "./read-illustration";
 import { readQuizImage } from "./asset-store";
 import { type Quiz, type QuizArtwork, typefaces } from "./quiz";
 import { quizColours } from "@/components/quiz-visuals";
@@ -13,7 +21,7 @@ export async function atlasCellDataUrl(
   read: (id: string) => Promise<Buffer | null> = readQuizImage,
   legacyInset = 0.065,
 ) {
-  const bytes = await read(artwork.url.split("/").pop()!);
+  const bytes = await readIllustration(artwork.url, read);
   if (!bytes) return null;
   const { width, height } = await sharp(bytes).metadata();
   const cellWidth = width! / artwork.columns;
@@ -86,20 +94,9 @@ export async function renderShareCard(
       ? // Older scenes often end in a white strip, so trim them deeper.
         atlasCellDataUrl(quiz.questionArtwork, quiz.backgroundIndex, read, 0.1)
       : null;
-  const portrait = result
-    ? quiz.resultArtwork
-      ? atlasCellDataUrl(quiz.resultArtwork, resultIndex, read)
-      : quiz.artwork
-        ? atlasCellDataUrl(
-            quiz.artwork,
-            quiz.questions.length * 5 + resultIndex,
-            read,
-          )
-        : null
-    : // A quiz card without a result shows the first question's art.
-      quiz.artwork && !quiz.questionArtwork
-      ? atlasCellDataUrl(quiz.artwork, 0, read)
-      : null;
+  const hero = result ? resultImage(quiz, resultIndex) : questionImage(quiz, 0);
+  const portrait =
+    result || !scene ? atlasCellDataUrl(hero.artwork, hero.index, read) : null;
   const stickerIndices = quiz.questionArtwork
     ? Array.from(
         { length: Math.min(3, quiz.style?.decorations ?? 0) },
@@ -117,7 +114,16 @@ export async function renderShareCard(
       ),
     ]);
 
-  const headline = result ? result.title : quiz.title;
+  const displayPortrait =
+    portraitUrl ??
+    (!sceneUrl || result
+      ? await atlasCellDataUrl(
+          illustrationAtlas,
+          awardCell(Math.max(0, resultIndex)),
+          read,
+        )
+      : null);
+  const headline = quizCopy(result ? result.title : quiz.title);
   const muted = `${colours.foreground}b3`;
   const stickerSpots = [
     { right: 40, top: 34, size: 96, rotate: 12 },
@@ -161,9 +167,9 @@ export async function renderShareCard(
             style={{ position: "absolute", inset: 0, objectFit: "cover" }}
           />
         )}
-        {portraitUrl ? (
+        {displayPortrait && (
           <img
-            src={portraitUrl}
+            src={displayPortrait}
             width={sceneUrl ? 440 : 502}
             height={sceneUrl ? 440 : 502}
             alt=""
@@ -174,20 +180,6 @@ export async function renderShareCard(
               left: sceneUrl ? 31 : 0,
             }}
           />
-        ) : (
-          !sceneUrl && (
-            <div
-              style={{
-                display: "flex",
-                width: "100%",
-                alignItems: "center",
-                justifyContent: "center",
-                fontSize: 180,
-              }}
-            >
-              {result?.emoji ?? quiz.emoji}
-            </div>
-          )
         )}
       </div>
       <div
@@ -232,7 +224,7 @@ export async function renderShareCard(
               maxWidth: 520,
             }}
           >
-            {quiz.title}
+            {quizCopy(quiz.title)}
           </div>
         )}
         <div

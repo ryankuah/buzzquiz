@@ -5,5 +5,6 @@ export function GET() {
   return NextResponse.json({
     ...getAiConfig(),
     imageModel: getImageConfig().model,
+    foregroundModel: getImageConfig(true).model,
   });
 }

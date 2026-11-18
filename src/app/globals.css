@@ -565,17 +565,6 @@ a {
   max-height: none;
   min-width: 0;
 }
-.legacy-emoji {
-  display: grid;
-  place-items: center;
-  font-size: 48px;
-}
-.hero-tile.legacy-emoji {
-  font-size: 90px;
-}
-.result-tile.legacy-emoji {
-  font-size: 90px;
-}
 .answer-options {
   min-height: 0;
   display: grid;

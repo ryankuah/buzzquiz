@@ -1,5 +1,6 @@
 "use client";
 
+import { quizCopy } from "@/lib/quiz-copy";
 import { useEffect, useRef, useState } from "react";
 import { preload } from "react-dom";
 import {
@@ -10,6 +11,7 @@ import {
   RotateCcw,
   Share2,
 } from "lucide-react";
+import { questionImage, answerImage } from "@/lib/quiz-illustrations";
 import { scoreQuiz, type Quiz } from "@/lib/quiz";
 import {
   AmbientDecorations,
@@ -44,7 +46,6 @@ export default function QuizPlayer({
   const [advancing, setAdvancing] = useState(false);
   const [reading, setReading] = useState<PersonalityReading | null>(null);
   const [readingError, setReadingError] = useState("");
-  const [readingLimited, setReadingLimited] = useState(false);
   const [readingAttempt, setReadingAttempt] = useState(0);
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [bursts, setBursts] = useState<Burst[]>([]);
@@ -70,7 +71,6 @@ export default function QuizPlayer({
   useEffect(() => {
     setReading(null);
     setReadingError("");
-    setReadingLimited(false);
     if (!result) return;
     const controller = new AbortController();
     async function loadReading() {
@@ -85,13 +85,7 @@ export default function QuizPlayer({
           ]),
         });
         const data = await response.json();
-        if (!response.ok) {
-          if (response.status === 429) {
-            setReadingLimited(true);
-            throw new Error(data.error);
-          }
-          throw new Error("Personal reading unavailable.");
-        }
+        if (!response.ok) throw new Error("Personal reading unavailable.");
         const personal = personalityReadingSchema.parse(data.reading);
         if (personal.resultId !== result!.id)
           throw new Error("Reading didn't match the result");
@@ -155,7 +149,7 @@ export default function QuizPlayer({
 
   const hasStickers = decorationIndices(quiz).length > 0;
   return (
-    <main className="player-shell page-enter" aria-label={quiz.title}>
+    <main className="player-shell page-enter" aria-label={quizCopy(quiz.title)}>
       <AmbientDecorations quiz={quiz} />
       <DecorationBursts
         quiz={quiz}
@@ -171,11 +165,13 @@ export default function QuizPlayer({
             <ResultScene quiz={quiz} result={result} />
             <div className="result-identity">
               <h1 ref={heading} tabIndex={-1}>
-                {result.title}
+                {quizCopy(result.title)}
               </h1>
               {(reading?.headline || result.profile?.headline) && (
                 <p className="result-headline">
-                  {reading?.headline || result.profile?.headline}
+                  {quizCopy(
+                    reading?.headline || result.profile?.headline || "",
+                  )}
                 </p>
               )}
             </div>
@@ -186,40 +182,38 @@ export default function QuizPlayer({
               aria-busy={!reading && !readingError}
             >
               <p className="result-description result-introduction">
-                {result.description}
+                {quizCopy(result.description)}
               </p>
               {reading ? (
                 <>
                   <div className="result-traits">
                     {reading.traits.map((trait) => (
-                      <span key={trait}>{trait}</span>
+                      <span key={quizCopy(trait)}>{quizCopy(trait)}</span>
                     ))}
                   </div>
                   {reading.paragraphs.map((paragraph, index) => (
                     <p className="result-description" key={index}>
-                      {paragraph}
+                      {quizCopy(paragraph)}
                     </p>
                   ))}
                   <blockquote className="result-evidence">
                     <span className="evidence-choice">
-                      “{reading.evidence.choice}”
+                      “{quizCopy(reading.evidence.choice)}”
                     </span>
-                    <p>{reading.evidence.note}</p>
+                    <p>{quizCopy(reading.evidence.note)}</p>
                   </blockquote>
                 </>
               ) : readingError ? (
                 <>
                   <div className="reading-error">
                     <span>{readingError}</span>
-                    {!readingLimited && (
-                      <button
-                        onClick={() =>
-                          setReadingAttempt((attempt) => attempt + 1)
-                        }
-                      >
-                        Retry reading
-                      </button>
-                    )}
+                    <button
+                      onClick={() =>
+                        setReadingAttempt((attempt) => attempt + 1)
+                      }
+                    >
+                      Retry reading
+                    </button>
                   </div>
                 </>
               ) : (
@@ -284,11 +278,7 @@ export default function QuizPlayer({
               />
             </div>
             {layout === "hero-grid" && (
-              <QuizArtwork
-                artwork={quiz.questionArtwork || quiz.artwork}
-                index={step * 5}
-                emoji={question.emoji}
-              >
+              <QuizArtwork {...questionImage(quiz, step)}>
                 {hasStickers && (
                   <PlacedStickers
                     quiz={quiz}
@@ -299,12 +289,12 @@ export default function QuizPlayer({
               </QuizArtwork>
             )}
             <h1 ref={heading} tabIndex={-1}>
-              {question.text}
+              {quizCopy(question.text)}
             </h1>
             <div
               className="answer-options"
               role="group"
-              aria-label={question.text}
+              aria-label={quizCopy(question.text)}
             >
               {question.answers.map((answer, index) => (
                 <button
@@ -321,9 +311,7 @@ export default function QuizPlayer({
                 >
                   <span className="answer-figure">
                     <QuizTile
-                      artwork={quiz.questionArtwork || quiz.artwork}
-                      index={step * 5 + index + 1}
-                      emoji={answer.emoji}
+                      {...answerImage(quiz, step, index)}
                       className="answer-art"
                     />
                     <span className="answer-check" aria-hidden="true">
@@ -332,7 +320,7 @@ export default function QuizPlayer({
                       )}
                     </span>
                   </span>
-                  <span className="answer-label">{answer.text}</span>
+                  <span className="answer-label">{quizCopy(answer.text)}</span>
                 </button>
               ))}
             </div>

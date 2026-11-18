@@ -7,7 +7,7 @@ import {
   type TopicNames,
 } from "./normalize-prompt";
 
-export type TopicKind = keyof TopicNames;
+export type TopicKind = keyof TopicNames | "shared";
 export type TopicEmbedding = { vector: number[]; model: string };
 
 // Must match the vector index in convex/schema.ts.
@@ -84,6 +84,8 @@ export function createTopicResolver(options: {
   repository: TopicRepository;
   embed?: Embedder;
   onError?: (error: unknown) => void;
+  /** Share topic identities between both blanks, while reading legacy aliases. */
+  shared?: boolean;
 }) {
   const { repository } = options;
   const embed = options.embed || embedTopics;
@@ -98,8 +100,18 @@ export function createTopicResolver(options: {
       basis: canonicalBasis(input.basis),
     };
     const kinds = ["subject", "basis"] as const;
+    const namespaces = (kind: keyof TopicNames): TopicKind[] =>
+      options.shared
+        ? ["shared", kind, kind === "subject" ? "basis" : "subject"]
+        : [kind];
     const known = await Promise.all(
-      kinds.map((kind) => repository.findAlias(kind, aliases[kind])),
+      kinds.map(async (kind) => {
+        for (const namespace of namespaces(kind)) {
+          const found = await repository.findAlias(namespace, aliases[kind]);
+          if (found) return found;
+        }
+        return null;
+      }),
     );
     const names = { ...aliases };
     const pending: Array<() => Promise<void>> = [];
@@ -118,16 +130,28 @@ export function createTopicResolver(options: {
         await Promise.all(
           unknown.map(async (kind, index) => {
             const embedding = embeddings[index];
-            const match = await repository.nearest(kind, embedding);
+            const matches = await Promise.all(
+              namespaces(kind).map((namespace) =>
+                repository.nearest(namespace, embedding),
+              ),
+            );
+            const match = matches
+              .filter((item) => item !== null)
+              .sort((a, b) => b.score - a.score)[0];
             if (match && match.score >= TOPIC_MATCH_THRESHOLD) {
               names[kind] = match.topic;
               pending.push(() =>
-                repository.register(kind, aliases[kind], match.topic),
+                repository.register(
+                  options.shared ? "shared" : kind,
+                  aliases[kind],
+                  match.topic,
+                  options.shared ? embedding : undefined,
+                ),
               );
             } else
               pending.push(() =>
                 repository.register(
-                  kind,
+                  options.shared ? "shared" : kind,
                   aliases[kind],
                   aliases[kind],
                   embedding,

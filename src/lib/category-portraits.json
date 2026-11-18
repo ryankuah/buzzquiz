@@ -1,0 +1,1397 @@
+[
+  {
+    "sheet": "destinations",
+    "categories": [
+      {
+        "topic": "City",
+        "basis": "your ideal Saturday",
+        "outcomes": [
+          {
+            "name": "Paris",
+            "description": "Eiffel Tower"
+          },
+          {
+            "name": "Sydney",
+            "description": "Sydney Opera House"
+          },
+          {
+            "name": "London",
+            "description": "Elizabeth Tower with clock"
+          },
+          {
+            "name": "New York City",
+            "description": "Statue of Liberty"
+          }
+        ]
+      },
+      {
+        "topic": "US state",
+        "basis": "your ideal road trip",
+        "outcomes": [
+          {
+            "name": "California",
+            "description": "Golden Gate Bridge"
+          },
+          {
+            "name": "Arizona",
+            "description": "saguaro cactus at a red mesa"
+          },
+          {
+            "name": "Alaska",
+            "description": "blue glacier ice and snowy peak"
+          },
+          {
+            "name": "Hawaii",
+            "description": "Hawaiian red hibiscus with a volcanic island"
+          }
+        ]
+      },
+      {
+        "topic": "Vacation",
+        "basis": "how you like to unwind",
+        "outcomes": [
+          {
+            "name": "Beach getaway",
+            "description": "striped beach umbrella on sand"
+          },
+          {
+            "name": "Ski trip",
+            "description": "crossed skis and poles"
+          },
+          {
+            "name": "Camping trip",
+            "description": "green pitched tent"
+          },
+          {
+            "name": "City break",
+            "description": "rolling suitcase with folded street map"
+          }
+        ]
+      },
+      {
+        "topic": "Dream home",
+        "basis": "how you host friends",
+        "outcomes": [
+          {
+            "name": "Cottage",
+            "description": "ivy-covered stone cottage"
+          },
+          {
+            "name": "Houseboat",
+            "description": "blue floating houseboat"
+          },
+          {
+            "name": "Treehouse",
+            "description": "wooden treehouse in an oak"
+          },
+          {
+            "name": "Penthouse",
+            "description": "rooftop apartment with terrace"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "work-and-style",
+    "categories": [
+      {
+        "topic": "Career",
+        "basis": "what you loved at school",
+        "outcomes": [
+          {
+            "name": "Astronaut",
+            "description": "space suit and helmet"
+          },
+          {
+            "name": "Chef",
+            "description": "cook in a tall white toque"
+          },
+          {
+            "name": "Florist",
+            "description": "florist holding a bouquet"
+          },
+          {
+            "name": "Photographer",
+            "description": "photographer holding a camera"
+          }
+        ]
+      },
+      {
+        "topic": "Hairstyle",
+        "basis": "your morning routine",
+        "outcomes": [
+          {
+            "name": "Pixie cut",
+            "description": "short tapered pixie cut"
+          },
+          {
+            "name": "Bob",
+            "description": "straight chin-length bob"
+          },
+          {
+            "name": "Box braids",
+            "description": "long neat box braids"
+          },
+          {
+            "name": "Curly shag",
+            "description": "layered curly shag haircut"
+          }
+        ]
+      },
+      {
+        "topic": "Aesthetic",
+        "basis": "how you decorate a room",
+        "outcomes": [
+          {
+            "name": "Cottagecore",
+            "description": "mushroom basket with gingham cloth"
+          },
+          {
+            "name": "Dark academia",
+            "description": "antique book and brass candlestick"
+          },
+          {
+            "name": "Y2K",
+            "description": "translucent pink flip phone"
+          },
+          {
+            "name": "Coastal",
+            "description": "striped linen tote with seashell"
+          }
+        ]
+      },
+      {
+        "topic": "Fashion accessory",
+        "basis": "how you get ready to go out",
+        "outcomes": [
+          {
+            "name": "Sunglasses",
+            "description": "tortoiseshell sunglasses"
+          },
+          {
+            "name": "Beret",
+            "description": "red wool beret"
+          },
+          {
+            "name": "Sneakers",
+            "description": "bright high-top sneakers"
+          },
+          {
+            "name": "Scarf",
+            "description": "flowing striped knit scarf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "pantry",
+    "categories": [
+      {
+        "topic": "Pasta shape",
+        "basis": "how you tackle a problem",
+        "outcomes": [
+          {
+            "name": "Farfalle",
+            "description": "three bow-tie pasta pieces"
+          },
+          {
+            "name": "Fusilli",
+            "description": "three short corkscrew pasta pieces"
+          },
+          {
+            "name": "Penne",
+            "description": "three diagonally cut ridged pasta tubes"
+          },
+          {
+            "name": "Conchiglie",
+            "description": "three shell-shaped pasta pieces"
+          }
+        ]
+      },
+      {
+        "topic": "Cheese",
+        "basis": "your picnic picks",
+        "outcomes": [
+          {
+            "name": "Brie",
+            "description": "wheel of white-rind brie with wedge cut"
+          },
+          {
+            "name": "Swiss cheese",
+            "description": "pale yellow wedge with round holes"
+          },
+          {
+            "name": "Blue cheese",
+            "description": "ivory wedge with blue veins"
+          },
+          {
+            "name": "Mozzarella",
+            "description": "glossy white mozzarella balls"
+          }
+        ]
+      },
+      {
+        "topic": "Breakfast food",
+        "basis": "your morning habits",
+        "outcomes": [
+          {
+            "name": "Croissant",
+            "description": "flaky crescent croissant"
+          },
+          {
+            "name": "Pancakes",
+            "description": "stack of pancakes with syrup"
+          },
+          {
+            "name": "Fried egg",
+            "description": "sunny-side-up fried egg"
+          },
+          {
+            "name": "Rice porridge",
+            "description": "bowl of congee with scallions"
+          }
+        ]
+      },
+      {
+        "topic": "Street food",
+        "basis": "what you order at a night market",
+        "outcomes": [
+          {
+            "name": "Taco",
+            "description": "folded corn taco"
+          },
+          {
+            "name": "Onigiri",
+            "description": "triangular rice ball with nori"
+          },
+          {
+            "name": "Samosa",
+            "description": "golden triangular samosa"
+          },
+          {
+            "name": "Bao bun",
+            "description": "round pleated steamed bun"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "cafe",
+    "categories": [
+      {
+        "topic": "Dessert",
+        "basis": "your ideal birthday",
+        "outcomes": [
+          {
+            "name": "Tiramisu",
+            "description": "square layered cocoa tiramisu"
+          },
+          {
+            "name": "Cupcake",
+            "description": "single frosted cupcake"
+          },
+          {
+            "name": "Macaron",
+            "description": "pink French macaron sandwich"
+          },
+          {
+            "name": "Churros",
+            "description": "long ridged sugar churros"
+          }
+        ]
+      },
+      {
+        "topic": "Coffee order",
+        "basis": "your work breaks",
+        "outcomes": [
+          {
+            "name": "Espresso",
+            "description": "small espresso in demitasse"
+          },
+          {
+            "name": "Cappuccino",
+            "description": "foamy cappuccino in a wide cup"
+          },
+          {
+            "name": "Iced latte",
+            "description": "milk coffee in tall glass with ice"
+          },
+          {
+            "name": "Pour-over",
+            "description": "glass coffee carafe with cone dripper"
+          }
+        ]
+      },
+      {
+        "topic": "Tea",
+        "basis": "how you recharge",
+        "outcomes": [
+          {
+            "name": "Matcha",
+            "description": "matcha bowl and bamboo whisk"
+          },
+          {
+            "name": "Jasmine tea",
+            "description": "tea cup with white jasmine blossom"
+          },
+          {
+            "name": "Chai",
+            "description": "terracotta chai cup and cinnamon"
+          },
+          {
+            "name": "Hibiscus tea",
+            "description": "ruby infusion with hibiscus calyx"
+          }
+        ]
+      },
+      {
+        "topic": "Snack",
+        "basis": "your movie-night habits",
+        "outcomes": [
+          {
+            "name": "Pretzel",
+            "description": "twisted salted pretzel"
+          },
+          {
+            "name": "Popcorn",
+            "description": "striped popcorn tub"
+          },
+          {
+            "name": "Nachos",
+            "description": "tortilla chips and melted cheese"
+          },
+          {
+            "name": "Trail mix",
+            "description": "cluster of nuts and raisins"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "wildlife",
+    "categories": [
+      {
+        "topic": "Dog breed",
+        "basis": "your weekend energy",
+        "outcomes": [
+          {
+            "name": "Corgi",
+            "description": "short-legged tan corgi"
+          },
+          {
+            "name": "Poodle",
+            "description": "curly standard poodle"
+          },
+          {
+            "name": "Greyhound",
+            "description": "slender greyhound"
+          },
+          {
+            "name": "Saint Bernard",
+            "description": "large white and russet Saint Bernard"
+          }
+        ]
+      },
+      {
+        "topic": "Cat breed",
+        "basis": "your social battery",
+        "outcomes": [
+          {
+            "name": "Siamese",
+            "description": "cream and brown point Siamese"
+          },
+          {
+            "name": "Persian",
+            "description": "fluffy white Persian"
+          },
+          {
+            "name": "Sphynx",
+            "description": "hairless Sphynx"
+          },
+          {
+            "name": "Bengal",
+            "description": "gold rosetted Bengal"
+          }
+        ]
+      },
+      {
+        "topic": "Urban bird",
+        "basis": "how you adapt to change",
+        "outcomes": [
+          {
+            "name": "Pigeon",
+            "description": "iridescent city pigeon"
+          },
+          {
+            "name": "Crow",
+            "description": "black crow"
+          },
+          {
+            "name": "Cockatoo",
+            "description": "white sulphur-crested cockatoo"
+          },
+          {
+            "name": "Mallard",
+            "description": "green-headed mallard duck"
+          }
+        ]
+      },
+      {
+        "topic": "Tide-pool creature",
+        "basis": "how you set boundaries",
+        "outcomes": [
+          {
+            "name": "Hermit crab",
+            "description": "hermit crab in spiral shell"
+          },
+          {
+            "name": "Sea star",
+            "description": "orange five-armed sea star"
+          },
+          {
+            "name": "Sea anemone",
+            "description": "sea anemone with pink tentacles"
+          },
+          {
+            "name": "Sea urchin",
+            "description": "round purple spiny sea urchin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "natural-world",
+    "categories": [
+      {
+        "topic": "Houseplant",
+        "basis": "how you show care",
+        "outcomes": [
+          {
+            "name": "Monstera",
+            "description": "potted split-leaf monstera"
+          },
+          {
+            "name": "Cactus",
+            "description": "potted barrel cactus"
+          },
+          {
+            "name": "Orchid",
+            "description": "potted moth orchid"
+          },
+          {
+            "name": "Pothos",
+            "description": "trailing pothos vine in pot"
+          }
+        ]
+      },
+      {
+        "topic": "Flower",
+        "basis": "your favourite little rituals",
+        "outcomes": [
+          {
+            "name": "Sunflower",
+            "description": "single sunflower on stem"
+          },
+          {
+            "name": "Tulip",
+            "description": "single red tulip"
+          },
+          {
+            "name": "Daisy",
+            "description": "single white daisy"
+          },
+          {
+            "name": "Lotus",
+            "description": "pink lotus flower"
+          }
+        ]
+      },
+      {
+        "topic": "Weather",
+        "basis": "your group-chat energy",
+        "outcomes": [
+          {
+            "name": "Thunderstorm",
+            "description": "storm cloud and lightning"
+          },
+          {
+            "name": "Snowfall",
+            "description": "soft cloud with snowflakes"
+          },
+          {
+            "name": "Sunshine",
+            "description": "warm illustrated solar orb"
+          },
+          {
+            "name": "Rainbow",
+            "description": "luminous multicoloured rainbow arc"
+          }
+        ]
+      },
+      {
+        "topic": "Cosmic object",
+        "basis": "what draws your curiosity",
+        "outcomes": [
+          {
+            "name": "Comet",
+            "description": "icy comet with long tail"
+          },
+          {
+            "name": "Ringed planet",
+            "description": "Saturn-like ringed planet"
+          },
+          {
+            "name": "Spiral galaxy",
+            "description": "luminous spiral galaxy"
+          },
+          {
+            "name": "Black hole",
+            "description": "black hole with glowing accretion disk"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "fiction",
+    "categories": [
+      {
+        "topic": "Fantasy class",
+        "basis": "how you help a team",
+        "outcomes": [
+          {
+            "name": "Knight",
+            "description": "knight wearing blue tabard and carrying shield"
+          },
+          {
+            "name": "Bard",
+            "description": "musician holding lute"
+          },
+          {
+            "name": "Mage",
+            "description": "mage in pointed hat with staff"
+          },
+          {
+            "name": "Ranger",
+            "description": "green-cloaked ranger with bow"
+          }
+        ]
+      },
+      {
+        "topic": "Mythical creature",
+        "basis": "how you face a challenge",
+        "outcomes": [
+          {
+            "name": "Dragon",
+            "description": "green winged dragon"
+          },
+          {
+            "name": "Phoenix",
+            "description": "fiery bird phoenix"
+          },
+          {
+            "name": "Unicorn",
+            "description": "ivory unicorn with one horn"
+          },
+          {
+            "name": "Kraken",
+            "description": "enormous purple kraken with curling tentacles"
+          }
+        ]
+      },
+      {
+        "topic": "Magic school house",
+        "basis": "what you value in friends",
+        "outcomes": [
+          {
+            "name": "Ember House",
+            "description": "red salamander heraldic crest"
+          },
+          {
+            "name": "Tide House",
+            "description": "blue nautilus heraldic crest"
+          },
+          {
+            "name": "Briar House",
+            "description": "green stag heraldic crest"
+          },
+          {
+            "name": "Gale House",
+            "description": "silver falcon heraldic crest"
+          }
+        ]
+      },
+      {
+        "topic": "Movie genre",
+        "basis": "how you spend a rainy night",
+        "outcomes": [
+          {
+            "name": "Mystery",
+            "description": "magnifying glass over a sealed envelope"
+          },
+          {
+            "name": "Science fiction",
+            "description": "retro silver rocket"
+          },
+          {
+            "name": "Horror",
+            "description": "haunted wooden house with crooked roof"
+          },
+          {
+            "name": "Western",
+            "description": "cowboy hat and spurs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "social-life",
+    "categories": [
+      {
+        "topic": "Friend group role",
+        "basis": "how you handle a last-minute plan",
+        "outcomes": [
+          {
+            "name": "The Planner",
+            "description": "friend checking a clipboard"
+          },
+          {
+            "name": "The Host",
+            "description": "friend carrying a tray of lemonade"
+          },
+          {
+            "name": "The Hype Friend",
+            "description": "friend cheering with pom-poms"
+          },
+          {
+            "name": "The Listener",
+            "description": "friend leaning in with hand cupped to ear"
+          }
+        ]
+      },
+      {
+        "topic": "Date idea",
+        "basis": "your ideal conversation",
+        "outcomes": [
+          {
+            "name": "Picnic",
+            "description": "open picnic basket and gingham blanket"
+          },
+          {
+            "name": "Karaoke",
+            "description": "microphone on karaoke speaker"
+          },
+          {
+            "name": "Stargazing",
+            "description": "telescope on tripod"
+          },
+          {
+            "name": "Pottery class",
+            "description": "pottery wheel with unfinished vase"
+          }
+        ]
+      },
+      {
+        "topic": "Party role",
+        "basis": "how you spend a night out",
+        "outcomes": [
+          {
+            "name": "DJ",
+            "description": "person at twin turntables"
+          },
+          {
+            "name": "Dancer",
+            "description": "person mid-dance in colourful clothes"
+          },
+          {
+            "name": "Snack captain",
+            "description": "person holding bowl of chips"
+          },
+          {
+            "name": "Party photographer",
+            "description": "person taking a party photo with instant camera"
+          }
+        ]
+      },
+      {
+        "topic": "Communication style",
+        "basis": "how you handle family boundaries",
+        "outcomes": [
+          {
+            "name": "Direct",
+            "description": "straight brass speaking trumpet"
+          },
+          {
+            "name": "Reflective",
+            "description": "open handwritten journal without legible text"
+          },
+          {
+            "name": "Diplomatic",
+            "description": "two hands tying a ribbon together"
+          },
+          {
+            "name": "Playful",
+            "description": "playful hand puppet"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "culture",
+    "categories": [
+      {
+        "topic": "Musical instrument",
+        "basis": "how you express yourself",
+        "outcomes": [
+          {
+            "name": "Violin",
+            "description": "wood violin and bow"
+          },
+          {
+            "name": "Drum kit",
+            "description": "compact red drum kit"
+          },
+          {
+            "name": "Saxophone",
+            "description": "brass saxophone"
+          },
+          {
+            "name": "Electric guitar",
+            "description": "teal solid-body electric guitar"
+          }
+        ]
+      },
+      {
+        "topic": "Decade",
+        "basis": "your taste in music",
+        "outcomes": [
+          {
+            "name": "1970s",
+            "description": "mirrored disco ball"
+          },
+          {
+            "name": "1980s",
+            "description": "silver twin cassette boombox"
+          },
+          {
+            "name": "1990s",
+            "description": "translucent portable CD player"
+          },
+          {
+            "name": "2000s",
+            "description": "small colourful MP3 player with click wheel"
+          }
+        ]
+      },
+      {
+        "topic": "Book genre",
+        "basis": "the stories you love",
+        "outcomes": [
+          {
+            "name": "Romance",
+            "description": "love letters with red wax heart seal"
+          },
+          {
+            "name": "Fantasy",
+            "description": "grimoire with crystal clasp"
+          },
+          {
+            "name": "Detective fiction",
+            "description": "deerstalker hat and magnifier"
+          },
+          {
+            "name": "Adventure",
+            "description": "rolled treasure map"
+          }
+        ]
+      },
+      {
+        "topic": "TV character archetype",
+        "basis": "what you do when plans go wrong",
+        "outcomes": [
+          {
+            "name": "The Detective",
+            "description": "trench-coated sleuth inspecting a clue"
+          },
+          {
+            "name": "The Inventor",
+            "description": "inventor with goggles and small gadget"
+          },
+          {
+            "name": "The Comic Relief",
+            "description": "brightly dressed comedian holding microphone"
+          },
+          {
+            "name": "The Rebel",
+            "description": "punk character in patched denim"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "play",
+    "categories": [
+      {
+        "topic": "Video game genre",
+        "basis": "how you play with friends",
+        "outcomes": [
+          {
+            "name": "Racing",
+            "description": "little race car"
+          },
+          {
+            "name": "Farming sim",
+            "description": "watering can and turnips"
+          },
+          {
+            "name": "Platformer",
+            "description": "floating grassy platform with spring"
+          },
+          {
+            "name": "Puzzle game",
+            "description": "interlocking wooden puzzle"
+          }
+        ]
+      },
+      {
+        "topic": "Tabletop game",
+        "basis": "how you compete",
+        "outcomes": [
+          {
+            "name": "Chess",
+            "description": "black knight chess piece"
+          },
+          {
+            "name": "Dominoes",
+            "description": "pair of domino tiles"
+          },
+          {
+            "name": "Mahjong",
+            "description": "group of bamboo-pattern mahjong tiles"
+          },
+          {
+            "name": "Backgammon",
+            "description": "open backgammon board"
+          }
+        ]
+      },
+      {
+        "topic": "Sport",
+        "basis": "what you like about teamwork",
+        "outcomes": [
+          {
+            "name": "Basketball",
+            "description": "orange basketball"
+          },
+          {
+            "name": "Badminton",
+            "description": "racket and shuttlecock"
+          },
+          {
+            "name": "Swimming",
+            "description": "swimming goggles and cap"
+          },
+          {
+            "name": "Surfing",
+            "description": "brightly striped surfboard"
+          }
+        ]
+      },
+      {
+        "topic": "Creative hobby",
+        "basis": "what you do on a free afternoon",
+        "outcomes": [
+          {
+            "name": "Knitting",
+            "description": "yarn ball with knitting needles"
+          },
+          {
+            "name": "Painting",
+            "description": "paint palette with brush"
+          },
+          {
+            "name": "Photography",
+            "description": "vintage rangefinder camera"
+          },
+          {
+            "name": "Ceramics",
+            "description": "hand-thrown ceramic jug"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "everyday",
+    "categories": [
+      {
+        "topic": "Stationery item",
+        "basis": "how you organise ideas",
+        "outcomes": [
+          {
+            "name": "Fountain pen",
+            "description": "uncapped fountain pen"
+          },
+          {
+            "name": "Binder clip",
+            "description": "black binder clip"
+          },
+          {
+            "name": "Sticky notes",
+            "description": "yellow sticky note pad"
+          },
+          {
+            "name": "Scissors",
+            "description": "red-handled scissors"
+          }
+        ]
+      },
+      {
+        "topic": "Kitchen utensil",
+        "basis": "how you help out",
+        "outcomes": [
+          {
+            "name": "Whisk",
+            "description": "wire whisk"
+          },
+          {
+            "name": "Spatula",
+            "description": "slotted turner spatula"
+          },
+          {
+            "name": "Rolling pin",
+            "description": "wooden rolling pin"
+          },
+          {
+            "name": "Ladle",
+            "description": "steel soup ladle"
+          }
+        ]
+      },
+      {
+        "topic": "Vehicle",
+        "basis": "how you travel with friends",
+        "outcomes": [
+          {
+            "name": "Camper van",
+            "description": "vintage orange camper van"
+          },
+          {
+            "name": "Bicycle",
+            "description": "teal city bicycle"
+          },
+          {
+            "name": "Sailboat",
+            "description": "small sailboat"
+          },
+          {
+            "name": "Hot-air balloon",
+            "description": "striped hot-air balloon"
+          }
+        ]
+      },
+      {
+        "topic": "Retro tech",
+        "basis": "how you keep in touch",
+        "outcomes": [
+          {
+            "name": "Pager",
+            "description": "black pager"
+          },
+          {
+            "name": "Typewriter",
+            "description": "red manual typewriter"
+          },
+          {
+            "name": "Rotary phone",
+            "description": "mint rotary telephone"
+          },
+          {
+            "name": "Cassette player",
+            "description": "portable tape player with headphones"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "discovery",
+    "categories": [
+      {
+        "topic": "Museum exhibit",
+        "basis": "what you stop to look at",
+        "outcomes": [
+          {
+            "name": "Dinosaur fossil",
+            "description": "mounted triceratops skull fossil"
+          },
+          {
+            "name": "Meteorite",
+            "description": "dark pitted meteorite"
+          },
+          {
+            "name": "Ancient pottery",
+            "description": "red figure ancient Greek amphora"
+          },
+          {
+            "name": "Clockwork automaton",
+            "description": "brass mechanical songbird"
+          }
+        ]
+      },
+      {
+        "topic": "Gemstone",
+        "basis": "your favourite colours",
+        "outcomes": [
+          {
+            "name": "Amethyst",
+            "description": "purple amethyst cluster"
+          },
+          {
+            "name": "Emerald",
+            "description": "green emerald crystal"
+          },
+          {
+            "name": "Opal",
+            "description": "polished iridescent opal"
+          },
+          {
+            "name": "Ruby",
+            "description": "red faceted ruby"
+          }
+        ]
+      },
+      {
+        "topic": "Season",
+        "basis": "your ideal day outdoors",
+        "outcomes": [
+          {
+            "name": "Spring",
+            "description": "flowering cherry branch"
+          },
+          {
+            "name": "Summer",
+            "description": "sunflower straw hat"
+          },
+          {
+            "name": "Autumn",
+            "description": "red maple leaves and acorns"
+          },
+          {
+            "name": "Winter",
+            "description": "snow-covered fir tree"
+          }
+        ]
+      },
+      {
+        "topic": "Room",
+        "basis": "where you go to recharge",
+        "outcomes": [
+          {
+            "name": "Reading nook",
+            "description": "armchair and reading lamp"
+          },
+          {
+            "name": "Greenhouse",
+            "description": "glass greenhouse with plants"
+          },
+          {
+            "name": "Art studio",
+            "description": "paint-stained easel and stool"
+          },
+          {
+            "name": "Music room",
+            "description": "upright piano and bench"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "fandom",
+    "categories": [
+      {
+        "topic": "Fairytale keepsake",
+        "basis": "your favourite childhood stories",
+        "outcomes": [
+          {
+            "name": "Glass slipper",
+            "description": "one glass slipper on a satin cushion"
+          },
+          {
+            "name": "Enchanted rose",
+            "description": "a glass cloche with an enchanted red rose"
+          },
+          {
+            "name": "Rapunzel’s tower",
+            "description": "a tower window with a long golden braid"
+          },
+          {
+            "name": "Poison apple",
+            "description": "a red apple on a folded yellow cloak"
+          }
+        ]
+      },
+      {
+        "topic": "Hogwarts house",
+        "basis": "what matters to you in a team",
+        "outcomes": [
+          {
+            "name": "Gryffindor",
+            "description": "a red and gold lion heraldic shield"
+          },
+          {
+            "name": "Slytherin",
+            "description": "a green and silver serpent heraldic shield"
+          },
+          {
+            "name": "Ravenclaw",
+            "description": "a blue and bronze eagle heraldic shield"
+          },
+          {
+            "name": "Hufflepuff",
+            "description": "a yellow and black badger heraldic shield"
+          }
+        ]
+      },
+      {
+        "topic": "Anime character archetype",
+        "basis": "how you react to a plot twist",
+        "outcomes": [
+          {
+            "name": "The Rival",
+            "description": "determined original runner holding a stopwatch"
+          },
+          {
+            "name": "The Mentor",
+            "description": "original silver-haired martial arts teacher"
+          },
+          {
+            "name": "The Hero",
+            "description": "optimistic original adventurer with a travel bag"
+          },
+          {
+            "name": "The Strategist",
+            "description": "original bespectacled tactician with a board game"
+          }
+        ]
+      },
+      {
+        "topic": "Pop group role",
+        "basis": "your karaoke habits",
+        "outcomes": [
+          {
+            "name": "Lead vocalist",
+            "description": "singer holding a microphone mid-note"
+          },
+          {
+            "name": "Rapper",
+            "description": "performer rhythmically gesturing with a handheld mic"
+          },
+          {
+            "name": "Main dancer",
+            "description": "dancer in a dynamic street-dance pose"
+          },
+          {
+            "name": "Producer",
+            "description": "musician at a small sampler console"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "identity",
+    "categories": [
+      {
+        "topic": "Zodiac sign",
+        "basis": "how you make a first impression",
+        "outcomes": [
+          {
+            "name": "Aries",
+            "description": "ram with curled horns"
+          },
+          {
+            "name": "Leo",
+            "description": "lion with golden mane"
+          },
+          {
+            "name": "Aquarius",
+            "description": "tilted ceramic amphora pouring water"
+          },
+          {
+            "name": "Scorpio",
+            "description": "dark red scorpion with raised tail"
+          }
+        ]
+      },
+      {
+        "topic": "Tarot card",
+        "basis": "what you do at a crossroads",
+        "outcomes": [
+          {
+            "name": "The Fool",
+            "description": "young traveller carrying a bindle"
+          },
+          {
+            "name": "The Hermit",
+            "description": "cloaked elder holding a lantern"
+          },
+          {
+            "name": "The Magician",
+            "description": "magician in red raising a wand"
+          },
+          {
+            "name": "The Star",
+            "description": "kneeling woman with a blue pitcher beneath a single gold star"
+          }
+        ]
+      },
+      {
+        "topic": "Romantic gesture",
+        "basis": "how you celebrate a small win",
+        "outcomes": [
+          {
+            "name": "Love letter",
+            "description": "a handwritten envelope with a red heart seal"
+          },
+          {
+            "name": "Home-cooked dinner",
+            "description": "fresh spaghetti on a candlelit place setting"
+          },
+          {
+            "name": "Mixtape",
+            "description": "decorated cassette with red ribbon"
+          },
+          {
+            "name": "Flowers",
+            "description": "a hand-tied bouquet"
+          }
+        ]
+      },
+      {
+        "topic": "Group chat role",
+        "basis": "when and how you reply",
+        "outcomes": [
+          {
+            "name": "The Lurker",
+            "description": "person peeking over a phone"
+          },
+          {
+            "name": "The Meme Dealer",
+            "description": "friend laughing at a phone screen"
+          },
+          {
+            "name": "The Voice-Note Friend",
+            "description": "person speaking into a phone held near their mouth"
+          },
+          {
+            "name": "The Organizer",
+            "description": "person with a phone and calendar planner"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sheet": "digital-life",
+    "categories": [
+      {
+        "topic": "Music genre",
+        "basis": "what makes you hit replay",
+        "outcomes": [
+          {
+            "name": "Jazz",
+            "description": "brass trumpet with a mute"
+          },
+          {
+            "name": "Rock",
+            "description": "black electric guitar and amplifier"
+          },
+          {
+            "name": "Electronic",
+            "description": "compact analog synthesizer"
+          },
+          {
+            "name": "Country",
+            "description": "banjo and a straw hat"
+          }
+        ]
+      },
+      {
+        "topic": "Content creator",
+        "basis": "what you share online",
+        "outcomes": [
+          {
+            "name": "Food vlogger",
+            "description": "mini camera pointed at a plated meal"
+          },
+          {
+            "name": "Game streamer",
+            "description": "gaming headset and gamepad"
+          },
+          {
+            "name": "Travel vlogger",
+            "description": "action camera and travel backpack"
+          },
+          {
+            "name": "Beauty creator",
+            "description": "makeup palette beside a ring light"
+          }
+        ]
+      },
+      {
+        "topic": "Road-trip role",
+        "basis": "how you handle a detour",
+        "outcomes": [
+          {
+            "name": "Navigator",
+            "description": "unfolded road map and compass"
+          },
+          {
+            "name": "Driver",
+            "description": "steering wheel and car keys"
+          },
+          {
+            "name": "Playlist curator",
+            "description": "music player with headphones"
+          },
+          {
+            "name": "Snack supplier",
+            "description": "overflowing canvas snack bag"
+          }
+        ]
+      },
+      {
+        "topic": "College major",
+        "basis": "what you like making or solving",
+        "outcomes": [
+          {
+            "name": "Architecture",
+            "description": "architectural scale model and set square"
+          },
+          {
+            "name": "Biology",
+            "description": "microscope with a glass slide"
+          },
+          {
+            "name": "Fine art",
+            "description": "paint-spattered palette and brushes"
+          },
+          {
+            "name": "Engineering",
+            "description": "gear assembly and mechanical caliper"
+          }
+        ]
+      }
+    ]
+  }
+]

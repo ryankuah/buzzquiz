@@ -3,10 +3,7 @@ import {
   type ContentRepository,
   type ReadyContent,
 } from "./content-sets";
-import {
-  GenerationLimitError,
-  ProviderRefusalError,
-} from "./generation-budget";
+import { ProviderRefusalError } from "./generation-budget";
 
 export async function resolveContent(
   repository: ContentRepository,
@@ -37,7 +34,6 @@ export async function resolveContent(
       options.beforeGenerate?.();
     const claim = await repository.claim(key, kind);
     if (claim.state === "ready") return claim.content;
-    if (claim.state === "limited") throw new GenerationLimitError();
     if (claim.state === "blocked") throw new ProviderRefusalError();
     if (claim.state === "wait") {
       await (

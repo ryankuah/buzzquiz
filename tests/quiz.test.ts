@@ -12,7 +12,6 @@ import {
   validateContent,
 } from "../src/lib/quiz";
 import { variedQuiz } from "./varied-quiz";
-import { writeContentSet } from "../src/lib/generate-content";
 import { reusableFixture } from "./reusable-fixture";
 import { createShareUrl, readShareUrl } from "../src/lib/library";
 
@@ -93,85 +92,4 @@ test("compressed share links round-trip complete quizzes and reject damaged data
     () => readShareUrl(`#quiz=${"a".repeat(24001)}`),
     /too large/,
   );
-});
-
-test("AI integration sends the structured schema, validates mappings, and handles refusal", async () => {
-  let mode: "valid" | "invalid" | "refusal" = "valid";
-  const bodies: Record<string, unknown>[] = [];
-  const server = createServer(async (req, res) => {
-    const chunks = [];
-    for await (const chunk of req) chunks.push(chunk);
-    bodies.push(JSON.parse(Buffer.concat(chunks).toString()));
-    const content = structuredClone(reusableFixture().questions);
-    if (mode === "invalid")
-      content.questions[0].answers[0].resultId =
-        content.questions[0].answers[1].resultId;
-    res.writeHead(200, { "Content-Type": "application/json" });
-    res.end(
-      JSON.stringify({
-        id: "resp_mock",
-        object: "response",
-        created_at: 1,
-        status: "completed",
-        model: "mock-model",
-        output: [
-          {
-            id: "msg_mock",
-            type: "message",
-            role: "assistant",
-            status: "completed",
-            content:
-              mode === "refusal"
-                ? [{ type: "refusal", refusal: "Try another topic" }]
-                : [
-                    {
-                      type: "output_text",
-                      text: JSON.stringify(content),
-                      annotations: [],
-                    },
-                  ],
-          },
-        ],
-      }),
-    );
-  });
-  await new Promise<void>((resolve) => server.listen(0, "127.0.0.1", resolve));
-  const address = server.address();
-  assert.ok(address && typeof address !== "string");
-  const client = new OpenAI({
-    apiKey: "test-key",
-    baseURL: `http://127.0.0.1:${address.port}`,
-    maxRetries: 0,
-  });
-  try {
-    const content = await writeContentSet(
-      "questions",
-      defaultSettings,
-      undefined,
-      client,
-    );
-    assert.ok("questions" in content);
-    const sentInput = (bodies[0].input as Array<{ content: string }>)[1]
-      .content;
-    assert.ok(sentInput.includes(defaultSettings.basis));
-    assert.ok(!sentInput.includes(defaultSettings.subject));
-    assert.equal(bodies[0].store, false);
-    const format = (
-      bodies[0].text as { format: { type: string; strict: boolean } }
-    ).format;
-    assert.equal(format.type, "json_schema");
-    assert.equal(format.strict, true);
-    mode = "invalid";
-    await assert.rejects(
-      () => writeContentSet("questions", defaultSettings, undefined, client),
-      /map one answer/,
-    );
-    mode = "refusal";
-    await assert.rejects(
-      () => writeContentSet("questions", defaultSettings, undefined, client),
-      /different topic/,
-    );
-  } finally {
-    await new Promise<void>((resolve) => server.close(() => resolve()));
-  }
 });

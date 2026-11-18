@@ -1,3 +1,4 @@
+import { resultImage } from "@/lib/quiz-illustrations";
 import { type CSSProperties, type ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { getTheme } from "@/lib/templates";
@@ -137,7 +138,6 @@ export function AmbientDecorations({ quiz }: { quiz: Quiz }) {
           <QuizTile
             artwork={quiz.questionArtwork}
             index={indices[index % indices.length]}
-            emoji=""
           />
         </span>
       ))}
@@ -171,7 +171,6 @@ export function PlacedStickers({
       <QuizTile
         artwork={quiz.questionArtwork}
         index={indices[(offset + index * 2) % indices.length]}
-        emoji=""
       />
     </span>
   ));
@@ -228,7 +227,6 @@ export function SpaceStickers({
           <QuizTile
             artwork={quiz.questionArtwork}
             index={indices[(offset + start + index) % indices.length]}
-            emoji=""
           />
         </span>
       ))}
@@ -278,7 +276,6 @@ export function DecorationBursts({
               <QuizTile
                 artwork={quiz.questionArtwork}
                 index={indices[(index + burst.id) % indices.length]}
-                emoji=""
               />
             </span>
           );
@@ -294,23 +291,13 @@ export function DecorationBursts({
 export function QuizTile({
   artwork,
   index,
-  emoji,
   className = "",
 }: {
   artwork?: GeneratedArtwork;
   index: number;
-  emoji: string;
   className?: string;
 }) {
-  if (!artwork)
-    return (
-      <span
-        className={`quiz-tile legacy-emoji ${className}`}
-        aria-hidden="true"
-      >
-        {emoji}
-      </span>
-    );
+  if (!artwork) return null;
   const column = index % artwork.columns;
   const row = Math.floor(index / artwork.columns);
   // Older sheets were cropped on a nominal grid the model never drew exactly,
@@ -348,13 +335,11 @@ export function QuizTile({
 export function QuizArtwork({
   artwork,
   index,
-  emoji,
   result = false,
   children,
 }: {
   artwork?: GeneratedArtwork;
   index: number;
-  emoji: string;
   result?: boolean;
   /** Stickers placed around the picture, inside a frame sized to it. */
   children?: ReactNode;
@@ -363,7 +348,6 @@ export function QuizArtwork({
     <QuizTile
       artwork={artwork}
       index={index}
-      emoji={emoji}
       className={result ? "result-tile" : "hero-tile"}
     />
   );
@@ -393,14 +377,7 @@ export function ResultScene({
 }) {
   const index = quiz.results.findIndex((item) => item.id === result.id);
   if (!quiz.resultArtwork)
-    return (
-      <QuizArtwork
-        artwork={quiz.artwork}
-        index={quiz.questions.length * 5 + index}
-        emoji={result.emoji}
-        result
-      />
-    );
+    return <QuizArtwork {...resultImage(quiz, index)} result />;
   return (
     <div
       className="quiz-artwork result-artwork layered-result"
@@ -410,14 +387,11 @@ export function ResultScene({
         <QuizTile
           artwork={quiz.questionArtwork}
           index={quiz.backgroundIndex}
-          emoji=""
           className="result-background"
         />
       )}
       <QuizTile
-        artwork={quiz.resultArtwork}
-        index={index}
-        emoji={result.emoji}
+        {...resultImage(quiz, index)}
         className="result-tile result-foreground"
       />
       <PlacedStickers quiz={quiz} spots={["result-tl", "result-tr"]} />

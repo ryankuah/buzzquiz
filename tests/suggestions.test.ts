@@ -14,20 +14,56 @@ const saved = [
   { subject: "dog breed", basis: "tea" },
 ];
 
-test("saved quizzes collapse into readable, deduplicated topics", () => {
-  const { subjects, bases, pairs } = buildSuggestions(saved);
+test("saved quizzes collapse into readable, deduplicated phrases", () => {
+  const { subjects, bases, pairs } = buildSuggestions([
+    ...saved,
+    { subject: "which city you should live in", basis: "your ideal weekend" },
+  ]);
+  // Older bare categories read naturally in "Find out ___ based on ___".
   assert.deepEqual(subjects, [
-    { name: "Disney princess", count: 2 },
-    { name: "Harry Potter houses", count: 2 },
-    { name: "dog breed", count: 1 },
+    { name: "which Disney princess you are", count: 2 },
+    { name: "which Harry Potter houses you are", count: 2 },
+    { name: "which city you should live in", count: 1 },
+    { name: "which dog breed you are", count: 1 },
   ]);
   assert.deepEqual(
     bases.map((item) => item.name),
-    ["muffins", "coding language", "tea"],
+    [
+      "your favourite muffins",
+      "your favourite coding language",
+      "your ideal weekend",
+      "your favourite tea",
+    ],
   );
   // Disney princess (0) has only been made with muffins (0).
   assert.ok(pairs.some(([s, b]) => s === 0 && b === 0));
   assert.ok(!pairs.some(([s, b]) => s === 0 && b === 2));
+});
+
+test("free-form quizzes keep the exact phrases the player typed", () => {
+  const { subjects, bases } = buildSuggestions([
+    { subject: "the city you belong in", basis: "tea", legacy: false },
+    { subject: "Disney princess", basis: "tea", legacy: true },
+  ]);
+  assert.deepEqual(
+    subjects.map((item) => item.name),
+    ["which Disney princess you are", "the city you belong in"],
+  );
+  // Same canonical basis: the newer exact wording sits beside the old one.
+  assert.equal(bases.length, 1);
+  const languages = buildSuggestions([
+    {
+      subject: "which C++ feature you are",
+      basis: "your habits",
+      legacy: false,
+    },
+    {
+      subject: "which C# feature you are",
+      basis: "your habits",
+      legacy: false,
+    },
+  ]);
+  assert.equal(languages.subjects.length, 2);
 });
 
 test("ranking prefers prefixes, then word starts, then substrings", () => {

@@ -1,6 +1,5 @@
 import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
-import { dailyGenerationLimit } from "../src/lib/generation-budget";
 import { authorize, secret } from "./auth";
 
 export const findContent = query({
@@ -21,6 +20,9 @@ export const claim = mutation({
       v.literal("outcomes"),
       v.literal("questions"),
       v.literal("reading"),
+      v.literal("topic-assets"),
+      v.literal("plan"),
+      v.literal("quiz"),
     ),
     owner: v.string(),
   },
@@ -42,33 +44,18 @@ export const claim = mutation({
     const now = Date.now();
     if (current?.status === "building" && current.leaseUntil > now)
       return { state: "wait" as const };
-    const day = new Date(now).toISOString().slice(0, 10);
-    const usage = await ctx.db
-      .query("usage")
-      .withIndex("by_day", (q) => q.eq("day", day))
-      .unique();
-    if (
-      (usage?.attempts || 0) >=
-      dailyGenerationLimit(process.env.DAILY_GENERATION_LIMIT)
-    )
-      return { state: "limited" as const };
-    if (usage) await ctx.db.patch(usage._id, { attempts: usage.attempts + 1 });
-    else
-      await ctx.db.insert("usage", {
-        day,
-        attempts: 1,
-        textCalls: 0,
-        imageCalls: 0,
-      });
+    // Attempts are counted on the first paid call, not here, so resuming a
+    // checkpointed draft that only needs local composition is free.
     const update = {
       status: "building" as const,
       owner: args.owner,
       leaseUntil: now + 300000,
       updatedAt: now,
-      budgetDay: day,
+      charged: false,
       textCalled: false,
       imageCalled: false,
       backgroundCalled: false,
+      portraitCalled: false,
     };
     if (current) await ctx.db.patch(current._id, update);
     else
@@ -128,6 +115,7 @@ export const recordCall = mutation({
       v.literal("text"),
       v.literal("image"),
       v.literal("background"),
+      v.literal("portrait"),
     ),
   },
   handler: async (ctx, args) => {
@@ -143,25 +131,39 @@ export const recordCall = mutation({
       job.leaseUntil <= Date.now()
     )
       throw new Error("Generation lease lost");
-    // Each attempt allows at most one text request, one image request, and one
-    // background scene, even if a caller accidentally retries. Counters live
+    // Each attempt allows at most one text request, one image request, one
+    // result-portrait request and one background scene, even if a caller
+    // accidentally retries. Counters live
     // in Convex, across Vercel instances.
     const called = (
       {
         text: "textCalled",
         image: "imageCalled",
         background: "backgroundCalled",
+        portrait: "portraitCalled",
       } as const
     )[args.type];
     if (job[called]) throw new Error("This AI call was already used");
-    await ctx.db.patch(job._id, { [called]: true });
-    const day = job.budgetDay || new Date().toISOString().slice(0, 10);
+    const day = new Date().toISOString().slice(0, 10);
     const usage = await ctx.db
       .query("usage")
       .withIndex("by_day", (q) => q.eq("day", day))
       .unique();
+    // Older leases were charged when claimed.
+    const charge = job.charged === false;
+    await ctx.db.patch(job._id, {
+      [called]: true,
+      ...(charge ? { charged: true, budgetDay: day } : {}),
+    });
     const field = args.type === "text" ? "textCalls" : "imageCalls";
-    if (usage) await ctx.db.patch(usage._id, { [field]: usage[field] + 1 });
+    const counts = {
+      attempts: (usage?.attempts || 0) + (charge ? 1 : 0),
+      textCalls: usage?.textCalls || 0,
+      imageCalls: usage?.imageCalls || 0,
+    };
+    counts[field]++;
+    if (usage) await ctx.db.patch(usage._id, counts);
+    else await ctx.db.insert("usage", { day, ...counts });
   },
 });
 export const findQuiz = query({
@@ -238,7 +240,6 @@ export const usage = query({
       .unique();
     return {
       day,
-      limit: dailyGenerationLimit(process.env.DAILY_GENERATION_LIMIT),
       attempts: usage?.attempts || 0,
       textCalls: usage?.textCalls || 0,
       imageCalls: usage?.imageCalls || 0,
@@ -256,6 +257,9 @@ export const seedContent = mutation({
       v.literal("outcomes"),
       v.literal("questions"),
       v.literal("reading"),
+      v.literal("topic-assets"),
+      v.literal("plan"),
+      v.literal("quiz"),
     ),
     data: v.any(),
     artwork: v.optional(v.any()),

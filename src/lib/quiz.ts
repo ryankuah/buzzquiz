@@ -1,12 +1,12 @@
 import { z } from "zod";
 import { readingDraftSchema } from "./personality";
 
-// Both blanks are short categories: "What [Disney princess] are you based on
-// your favourite [muffins]?". Older saved quizzes stored the basis as a phrase,
-// so the stored limits stay generous.
+// "Find out [which Disney princess you are] based on [your snack choices]."
+// Both blanks are free phrases. Older saved quizzes stored short categories
+// ("Disney princess", "muffins") and still parse.
 export const generationInputSchema = z.object({
-  subject: z.string().trim().min(2, "Add what someone can be.").max(100),
-  basis: z.string().trim().min(2, "Add a favourite thing.").max(150),
+  subject: z.string().trim().min(2, "Add what you want to find out.").max(100),
+  basis: z.string().trim().min(2, "Add what it's based on.").max(150),
   questionCount: z.union([z.literal(5), z.literal(7), z.literal(10)]),
   tone: z.enum(["playful", "chaotic", "wholesome"]),
   layout: z.enum(["hero-grid", "card-grid", "stack"]),
@@ -15,8 +15,8 @@ export const generationInputSchema = z.object({
 export type GenerationInput = z.infer<typeof generationInputSchema>;
 
 export const DEFAULT_QUIZ_SETTINGS: GenerationInput = {
-  subject: "Disney princess",
-  basis: "muffins",
+  subject: "which Disney princess you are",
+  basis: "your snack choices",
   questionCount: 5,
   tone: "playful",
   layout: "hero-grid",
@@ -40,35 +40,42 @@ export function favouriteBasis(basis: string) {
 
 const text = (max: number) => z.string().trim().min(1).max(max);
 export const resultSchema = z.object({
+  assetId: text(50).optional(),
   id: text(40),
   title: text(100),
-  emoji: text(16),
+  emoji: text(16).default("Artwork"),
   description: text(700),
   imagePrompt: text(240).optional(),
   profile: readingDraftSchema.omit({ evidence: true }).optional(),
+  // Legacy quizzes may have an empty atlas cell for this slot.
+  imageless: z.boolean().optional(),
 });
 export const answerSchema = z.object({
+  assetId: text(50).optional(),
   id: text(40),
   text: text(180),
-  emoji: text(16),
+  emoji: text(16).default("Artwork"),
   // Binary choices score a pair of traits; four-choice questions score one.
   resultId: text(40),
   secondaryResultId: text(40).nullable().optional(),
   personalityNote: text(150).optional(),
   imagePrompt: text(240).optional(),
+  imageless: z.boolean().optional(),
 });
 export const contentSchema = z.object({
   title: text(240),
   description: text(300),
-  emoji: text(16),
+  emoji: text(16).default("Artwork"),
   results: z.array(resultSchema).length(4),
   questions: z
     .array(
       z.object({
+        assetId: text(50).optional(),
         id: text(40),
         text: text(240),
-        emoji: text(16),
+        emoji: text(16).default("Artwork"),
         imagePrompt: text(240).optional(),
+        imageless: z.boolean().optional(),
         layout: generationInputSchema.shape.layout.optional(),
         answers: z.union([
           z.array(answerSchema).length(2),
@@ -203,7 +210,7 @@ export type Quiz = z.infer<typeof quizSchema>;
 export type QuizResult = z.infer<typeof resultSchema>;
 
 export function validateContent(
-  content: QuizContent,
+  content: z.input<typeof contentSchema>,
   count?: number,
 ): QuizContent {
   const parsed = contentSchema.parse(content);

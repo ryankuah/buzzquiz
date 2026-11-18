@@ -14,7 +14,7 @@ const embedding = v.object({ vector: v.array(v.float64()), model: v.string() });
 
 async function aliasRow(
   ctx: Pick<QueryCtx, "db">,
-  kind: "subject" | "basis",
+  kind: "subject" | "basis" | "shared",
   alias: string,
 ) {
   return ctx.db
@@ -114,6 +114,8 @@ export const savedQuizTopics = query({
     return rows.map((row) => ({
       subject: row.quiz.settings.subject as string,
       basis: row.quiz.settings.basis as string,
+      // Free-form quizzes (keyed by meaning) already store whole phrases.
+      legacy: !row.key.startsWith("v2:"),
     }));
   },
 });

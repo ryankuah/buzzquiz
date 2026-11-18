@@ -10,6 +10,7 @@
 
 import type * as auth from "../auth.js";
 import type * as cache from "../cache.js";
+import type * as library from "../library.js";
 import type * as topics from "../topics.js";
 
 import type {
@@ -21,6 +22,7 @@ import type {
 declare const fullApi: ApiFromModules<{
   auth: typeof auth;
   cache: typeof cache;
+  library: typeof library;
   topics: typeof topics;
 }>;
 

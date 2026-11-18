@@ -2,6 +2,8 @@ import { ConvexHttpClient } from "convex/browser";
 import { api } from "../../convex/_generated/api";
 import { parseQuiz } from "./quiz";
 import { type TopicRepository } from "./topics";
+import { type LibraryRepository } from "./asset-library";
+import { withBundledPortraits } from "./bundled-portraits";
 import {
   type Claim,
   type ContentRecord,
@@ -89,6 +91,24 @@ export function createConvexTopicRepository(): TopicRepository {
       });
     },
   };
+}
+
+export function createConvexLibraryRepository(): LibraryRepository {
+  const { client, secret } = convexConnection();
+  return withBundledPortraits({
+    portraits: (topic, names) =>
+      client.query(api.library.portraits, { secret, topic, names }),
+    namedSprites: (names) =>
+      client.query(api.library.namedSprites, { secret, names }),
+    search: (queries, model) =>
+      client.action(api.library.search, { secret, queries, model }),
+    get: (ids) => client.query(api.library.get, { secret, ids }),
+    add: (assets) => client.mutation(api.library.add, { secret, assets }),
+    refused: (keys) => client.query(api.library.refused, { secret, keys }),
+    async refuse(keys) {
+      await client.mutation(api.library.refuse, { secret, keys });
+    },
+  });
 }
 
 export async function findQuizById(id: string) {

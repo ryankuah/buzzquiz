@@ -2,15 +2,16 @@ import { parseQuiz, type Quiz } from "./quiz";
 
 // Older open tabs only understand the original writing/drawing events.
 // Detailed progress is opt-in; terminal quiz/error events stay compatible.
+// Version 2 reports the library-first steps below.
 export const GENERATION_PROGRESS_HEADER = "X-Quiz-Progress-Version";
-export const GENERATION_PROGRESS_VERSION = "1";
+export const GENERATION_PROGRESS_VERSION = "2";
 
 export const generationSteps = [
   { id: "checking", label: "Checking saved quizzes" },
-  { id: "results", label: "Preparing results" },
-  { id: "result-artwork", label: "Creating result artwork" },
-  { id: "questions", label: "Preparing questions" },
-  { id: "question-artwork", label: "Creating question artwork" },
+  { id: "planning", label: "Planning questions and choices" },
+  { id: "searching", label: "Finding existing artwork" },
+  { id: "writing", label: "Matching pictures and writing results" },
+  { id: "drawing", label: "Drawing missing artwork" },
   { id: "finishing", label: "Getting your quiz ready" },
 ] as const;
 export type GenerationStage = (typeof generationSteps)[number]["id"];

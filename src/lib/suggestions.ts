@@ -1,4 +1,9 @@
-import { canonicalBasis, canonicalSubject } from "./normalize-prompt";
+import {
+  canonicalBasis,
+  canonicalSubject,
+  spellSymbols,
+} from "./normalize-prompt";
+import { favouriteBasis } from "./quiz";
 
 export type Suggestion = { name: string; count: number };
 export type Suggestions = {
@@ -8,26 +13,33 @@ export type Suggestions = {
   pairs: Array<[number, number]>;
 };
 
-// Show the favourite as the thing itself ("tea"), as the sentence already
-// says "based on your favourite".
-const basisLabel = (value: string) =>
-  value
-    .trim()
-    .replace(/^(?:based on )?(?:your |my |the )?(?:favou?rites? )?/i, "")
-    .trim();
+// Older quizzes saved bare categories ("Disney princess", "tea"). The
+// sentence now reads "Find out ___ based on ___", so offer them as phrases.
+export const subjectPhrase = (value: string) => {
+  const phrase = value.trim();
+  return /^(?:which|what|who|where|how|if|whether|when|why)\b/i.test(phrase)
+    ? phrase
+    : `which ${phrase} you are`;
+};
+export const basisPhrase = (value: string) => {
+  const phrase = value.trim().replace(/^based on\s+/i, "");
+  return /^(?:how|what|which|the|whether|who|where|when)\b/i.test(phrase)
+    ? phrase
+    : favouriteBasis(phrase.replace(/^my\b/i, "your"));
+};
 
 function group(
   values: string[],
   canonical: (value: string) => string,
-  label: (value: string) => string,
+  label: (value: string, index: number) => string,
 ) {
   const groups = new Map<
     string,
     { names: Map<string, number>; count: number }
   >();
-  for (const value of values) {
+  for (const [index, value] of values.entries()) {
     const key = canonical(value);
-    const name = label(value);
+    const name = label(value, index);
     if (!key || !name) continue;
     const entry = groups.get(key) ?? { names: new Map(), count: 0 };
     entry.count++;
@@ -57,23 +69,37 @@ function group(
  * artwork, most used first. Any saved subject pairs with any saved favourite
  * without new drawing, so these are the cheap, instant choices.
  */
+// Symbols are spelled out first, so "C++" and "C#" phrases stay apart.
+const subjectKey = (value: string) => canonicalSubject(spellSymbols(value));
+const basisKey = (value: string) => canonicalBasis(spellSymbols(value));
+
 export function buildSuggestions(
-  saved: Array<{ subject: string; basis: string }>,
+  saved: Array<{ subject: string; basis: string; legacy?: boolean }>,
 ): Suggestions {
+  // Only older quizzes saved bare categories; newer ones keep the exact
+  // phrase the player typed, which mustn't be rewritten.
+  const phrased = saved.map((item) =>
+    item.legacy === false
+      ? { subject: item.subject.trim(), basis: item.basis.trim() }
+      : {
+          subject: subjectPhrase(item.subject),
+          basis: basisPhrase(item.basis),
+        },
+  );
   const subjects = group(
     saved.map((item) => item.subject),
-    canonicalSubject,
-    (value) => value.trim(),
+    subjectKey,
+    (_, index) => phrased[index].subject,
   );
   const bases = group(
     saved.map((item) => item.basis),
-    canonicalBasis,
-    basisLabel,
+    basisKey,
+    (_, index) => phrased[index].basis,
   );
   const pairs = new Set<string>();
   for (const item of saved) {
-    const subject = subjects.keys.indexOf(canonicalSubject(item.subject));
-    const basis = bases.keys.indexOf(canonicalBasis(item.basis));
+    const subject = subjects.keys.indexOf(subjectKey(item.subject));
+    const basis = bases.keys.indexOf(basisKey(item.basis));
     if (subject !== -1 && basis !== -1) pairs.add(`${subject}:${basis}`);
   }
   return {

@@ -4,6 +4,12 @@ import sharp from "sharp";
 import { contrast, paletteFromImage } from "../src/lib/palette";
 import { assembleQuiz } from "../src/lib/content-sets";
 import { parseQuiz } from "../src/lib/quiz";
+import {
+  answerImage,
+  answerIllustrations,
+  illustrationAtlas,
+  questionImage,
+} from "../src/lib/quiz-illustrations";
 import { atlasCellDataUrl } from "../src/lib/share-card";
 import { decorationIndices, quizColours } from "../src/components/quiz-visuals";
 import { reusableFixture } from "./reusable-fixture";
@@ -122,4 +128,132 @@ test("share cards crop exactly one atlas cell", async () => {
     [...data.subarray(-info.channels, -info.channels + 3)],
     [0, 0, 255],
   );
+});
+
+test("empty result slots use the same real artwork in the player and share card", async () => {
+  const { resultImage, illustrationAtlas, answerIllustrations } =
+    await import("../src/lib/quiz-illustrations");
+  const { exampleQuiz } = await import("../src/lib/examples");
+  const { quizCopy } = await import("../src/lib/quiz-copy");
+  const quiz = exampleQuiz("princess");
+  quiz.results[0].imageless = true;
+  const { artwork, index } = resultImage(quiz, 0);
+  assert.equal(artwork.url, illustrationAtlas.url);
+  const uri = await atlasCellDataUrl(artwork, index, async () => {
+    throw new Error("Unexpected network read");
+  });
+  const data = Buffer.from(uri!.split(",")[1], "base64");
+  const { channels } = await sharp(data).stats();
+  assert.ok(channels[3].max === 255 && channels[3].min === 0);
+  assert.equal(
+    new Set(
+      answerIllustrations(
+        ["Explore", "Explore", "Unknown", "Unknown"],
+        [undefined, undefined, 12, undefined],
+      ),
+    ).size,
+    4,
+  );
+  assert.equal(quizCopy("Send 😂"), "Send face with tears of joy");
+  const { depictsEmoji } = await import("../src/lib/quiz-illustrations");
+  assert.equal(
+    depictsEmoji("A ripe pear, no lettering, logos, or emoji."),
+    false,
+  );
+  assert.equal(depictsEmoji("A waving hand emoji on a phone."), true);
+  assert.deepEqual(
+    answerIllustrations([
+      "Build a tiny experiment.",
+      "Ship a rough prototype.",
+      "Make setup easy for teammates.",
+      "Set goals and milestones.",
+    ]),
+    [0, 1, 6, 3],
+  );
+  quiz.results[0].imageless = false;
+  quiz.resultArtwork = { ...illustrationAtlas, url: "/api/quiz-assets/saved" };
+  assert.equal(resultImage(quiz, 0).artwork.url, quiz.resultArtwork.url);
+  quiz.results[0].imagePrompt = "A glossy yellow laughing emoji";
+  assert.equal(resultImage(quiz, 0).artwork.url, illustrationAtlas.url);
+  assert.equal(quizCopy("Fold in fresh cherries."), "Fold in fresh cherries.");
+});
+
+test("saved choices can reuse an unambiguous, previously pictured object from another question", () => {
+  const { quiz } = reusableFixture();
+  const atlas = {
+    ...illustrationAtlas,
+    url: "/api/quiz-assets/saved",
+    model: "asset-library-v1",
+  };
+  quiz.questionArtwork = atlas;
+  const choice = quiz.questions[0].answers[0];
+  Object.assign(choice, {
+    text: "Popcorn in an unfamiliar flavor.",
+    imageless: true,
+    imagePrompt: undefined,
+  });
+  const donor = quiz.questions[2].answers[1];
+  Object.assign(donor, {
+    text: "A tub of popcorn to pass around.",
+    assetId: "popcorn",
+    imagePrompt: undefined,
+  });
+  assert.deepEqual(answerImage(quiz, 0, 0), { artwork: atlas, index: 12 });
+  assert.deepEqual(answerImage(quiz, 2, 1), { artwork: atlas, index: 12 });
+  quiz.questions[0].answers[1].assetId = "popcorn";
+  assert.equal(answerImage(quiz, 0, 0).artwork, illustrationAtlas);
+  quiz.questions[0].answers[1].assetId = undefined;
+  donor.text = "A basket of peach muffins to share.";
+  choice.text = "Peach for the topping.";
+  assert.equal(answerImage(quiz, 0, 0).artwork, illustrationAtlas);
+  donor.text = "A peach to share.";
+  donor.imagePrompt = "A peach emoji";
+  assert.equal(answerImage(quiz, 0, 0).artwork, illustrationAtlas);
+});
+
+test("legacy fallback uses the saved scene for the hero and reads ambiguous props in context", () => {
+  const { quiz } = reusableFixture();
+  const atlas = {
+    ...illustrationAtlas,
+    model: "asset-library-v1",
+    url: "/api/quiz-assets/saved",
+    columns: 5,
+    rows: 6,
+    width: 2560,
+    height: 3072,
+  };
+  quiz.questionArtwork = atlas;
+  quiz.questions[0].imageless = true;
+  quiz.backgroundIndex = 25;
+  quiz.style = {
+    palette: {
+      background: "#fafafa",
+      foreground: "#040404",
+      accent: "#ffa400",
+      dark: false,
+    },
+  };
+  assert.deepEqual(questionImage(quiz, 0), { artwork: atlas, index: 25 });
+  const recipe = answerIllustrations(
+    ["Bring a snack feast.", "Test a new recipe ahead of time."],
+    [],
+    "Picnic snacks",
+  );
+  assert.equal(recipe[1], 10);
+  assert.notEqual(recipe[0], recipe[1]);
+  assert.notEqual(
+    answerIllustrations(
+      ["Portion it evenly into spare cups."],
+      [],
+      "Muffin batter",
+    )[0],
+    4,
+  );
+  const route = answerIllustrations([
+    "Charge down the first promising path.",
+    "Mark each turn so you can backtrack.",
+    "Shield everyone traveling with me.",
+  ]);
+  assert.equal(route[1], 2);
+  assert.ok(route[0] !== 2 && route[2] !== 2);
 });

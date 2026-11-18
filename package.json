@@ -12,7 +12,8 @@
     "format": "prettier --write src convex scripts tests *.ts *.json README.md docs",
     "format:check": "prettier --check src convex scripts tests *.ts *.json README.md docs",
     "migrate:local": "node --env-file=.env.local --import tsx scripts/migrate-local.ts",
-    "topics:backfill": "node --env-file=.env.local --import tsx scripts/backfill-topics.ts"
+    "topics:backfill": "node --env-file=.env.local --import tsx scripts/backfill-topics.ts",
+    "library:index": "node --env-file=.env.local --import tsx scripts/index-library.ts"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "sharp": "^0.35.5",
+    "unicode-emoji-json": "0.9.0",
     "zod": "^4.6.7"
   },
   "devDependencies": {

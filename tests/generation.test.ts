@@ -172,8 +172,8 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
   const stages: GenerationProgress[] = [];
   const lines = [
     { type: "stage", stage: "checking", status: "complete" },
-    { type: "stage", stage: "results", status: "reused" },
-    { type: "stage", stage: "result-artwork", status: "active" },
+    { type: "stage", stage: "planning", status: "reused" },
+    { type: "stage", stage: "writing", status: "active" },
     { type: "complete", quiz },
   ]
     .map((event) => JSON.stringify(event))
@@ -186,14 +186,14 @@ test("stream parser handles split UTF-8/status events, artwork completion, and i
   );
   assert.deepEqual(stages, [
     { stage: "checking", status: "complete" },
-    { stage: "results", status: "reused" },
-    { stage: "result-artwork", status: "active" },
+    { stage: "planning", status: "reused" },
+    { stage: "writing", status: "active" },
   ]);
   await assert.rejects(
     () =>
       readGenerationResponse(
         streamResponse(
-          '{"type":"stage","stage":"result-artwork","status":"active"}\n',
+          '{"type":"stage","stage":"writing","status":"active"}\n',
         ),
         () => {},
       ),
@@ -394,6 +394,29 @@ test("sheets are drawn as native transparent cutouts, repacked, and saved with a
     assert.equal(requests[0].body.quality, "low");
     assert.ok(requests[0].body.prompt.includes("Belle"));
     assert.equal(portraits.rows, 1);
+
+    const blank = await sharp({
+      create: { width: 40, height: 40, channels: 4, background: "transparent" },
+    })
+      .png()
+      .toBuffer();
+    await assert.rejects(
+      () =>
+        generateArtworkSheet(
+          crypto.randomUUID(),
+          [["A required sprite"]],
+          1,
+          "basic",
+          {
+            requireAllCells: true,
+            fetcher: async () =>
+              Response.json({ data: [{ b64_json: blank.toString("base64") }] }),
+            save: async () =>
+              assert.fail("An incomplete library must not be stored"),
+          },
+        ),
+      /usable artwork/,
+    );
   } finally {
     if (oldKey === undefined) delete process.env.OPENROUTER_API_KEY;
     else process.env.OPENROUTER_API_KEY = oldKey;

@@ -1,6 +1,6 @@
 # buzzquiz
 
-**What Disney princess are you based on your favourite muffins?**
+**Find out which Disney princess you are, based on your snack choices.**
 
 Two blanks. Five questions. A personality reveal that's a little too specific.
 
@@ -10,9 +10,9 @@ Buzzquiz brings back the joy of internet personality quizzes. Pick what you want
 
 ## Pick your own rabbit hole
 
-- **Disney princess × favourite muffins.** A royal verdict from your bakery order.
-- **Harry Potter house × morning routine.** A different kind of sorting ceremony.
-- **Mythical creature × dream holiday.** Your imagination gets a personality test.
+- **Which Disney princess you are × your snack choices.** A royal verdict from your pantry.
+- **Where you should live × your ideal weekend.** Relocation advice from your Saturday plans.
+- **Which Hogwarts house you belong in × how you handle awkward situations.** A different kind of sorting ceremony.
 
 Questions switch between illustrated cards, picture grids, and answer lists, with two or four choices. The result brings together a foreground inspired by your outcome and a background inspired by your quiz theme. Read the character introduction, then get a personal take on your actual answers.
 
@@ -20,9 +20,9 @@ Questions switch between illustrated cards, picture grids, and answer lists, wit
 
 ## Built to reuse
 
-The two blanks work independently. A Disney princess outcome set can appear in many quizzes, and a muffin question set can be paired with many subjects. Introductions, artwork, and completed quizzes are saved in Convex. Personal readings are cached by quiz and exact answer combination.
+A new quiz starts with its questions, choices and scoring. The illustrator looks for matching cutouts, scenes and stickers in the shared library, then draws missing pictures within a per-quiz budget. A cupcake from one quiz can illustrate an answer in another or become a result in a third. Abstract choices can use a bundled set of generated illustrations. Older quizzes with missing images draw from the same set. A close match can also supply the background. Rewordings that resolve to the same quiz reuse its text and artwork. Convex saves quizzes, pictures and personal readings.
 
-Saved combinations and shared quizzes open without generating questions or images again. New generation is limited to **five attempts per day across the app**, including personal readings. Failed attempts count; replaying cached content doesn't. This limits generation requests, rather than guaranteeing a fixed dollar spend.
+Saved and shared quizzes open without generating anything again. There is no daily cap on new generation. Each day's attempts and AI requests are counted in Convex: a new idea uses two attempts (understanding it, then writing and illustrating it), a rewording one, and each new personal reading one. An attempt is counted when its first paid AI request is made, so replaying cached content or finishing an already-drawn quiz costs nothing.
 
 ## The stack
 

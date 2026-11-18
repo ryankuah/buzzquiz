@@ -4,8 +4,7 @@ import { checkOrigin } from "@/lib/request-origin";
 import { generationInputSchema } from "@/lib/quiz";
 import { resolveQuiz, QuizBusyError } from "@/lib/resolve-quiz";
 import { getAiConfig } from "@/lib/ai-config";
-import { GenerationLimitError } from "@/lib/generation-budget";
-import { normalizePrompt } from "@/lib/normalize-prompt";
+import { meaningText } from "@/lib/topic-text";
 import {
   GENERATION_PROGRESS_HEADER,
   GENERATION_PROGRESS_VERSION,
@@ -60,9 +59,7 @@ export async function POST(request: Request) {
       { error: parsed.error.issues[0].message },
       { status: 400 },
     );
-  try {
-    normalizePrompt(parsed.data);
-  } catch {
+  if (!meaningText(parsed.data.subject) || !meaningText(parsed.data.basis)) {
     return NextResponse.json(
       { error: "Fill in both blanks to find out." },
       { status: 400 },
@@ -142,7 +139,7 @@ export async function POST(request: Request) {
     );
   } catch (error) {
     const status =
-      error instanceof QuizBusyError || error instanceof GenerationLimitError
+      error instanceof QuizBusyError
         ? 429
         : !getAiConfig().configured
           ? 503

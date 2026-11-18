@@ -10,9 +10,9 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "buzzquiz — What are you?",
+  title: "buzzquiz — Personality quizzes",
   description:
-    "What are you based on absolutely anything? Fill in the blanks, take the quiz, and find out.",
+    "Choose what you want to find out and what to base your quiz on.",
   icons: { icon: "/icon.svg" },
 };
 export default function RootLayout({
